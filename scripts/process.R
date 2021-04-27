@@ -28,12 +28,11 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 
-data$Messaging.Platform <- data$Messaging.Platform
 data$Messaging.Platform <- str_replace_all(data$Messaging.Platform, " específica de la universidad, titulación o departamento", "" )
 data$Messaging.Platform <- str_replace_all(data$Messaging.Platform, "Ninguna, prefiero", "Ninguna prefiero" )
 data <- data %>% separate_rows( Messaging.Platform, sep="," )
 data$Messaging.Platform <- trimws( data$Messaging.Platform )
 
-data.messaging <- data %>% group_by(Messaging.Platform) %>%   mutate(count_platforms = n())
+data.messaging <- data %>% group_by(Messaging.Platform) %>% mutate(count_platforms = n())
 data.messaging <- data.messaging[ data.messaging$count_platforms > 1, ]
 ggplot( data.messaging, aes( x = reorder(Messaging.Platform, -count_platforms ), group=Sector )) + geom_bar( stat="count" )
