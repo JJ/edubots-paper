@@ -110,9 +110,8 @@
 \author[
   addressref={aff1},                   % id's of addresses, e.g. {aff1,aff2}
   corref={aff1},                       % id of corresponding address, if any
-% noteref={n1},                        % id's of article notes, if any
-  email={jane.e.doe@cambridge.co.uk}   % email address
-]{\inits{J.E.}\fnm{Jane E.} \snm{Doe}}
+  email={jmerelo@ugr.es}   % email address
+]{\inits{J.J.}\fnm{Juan J.} \snm{Merelo}}
 \author[
   addressref={aff1,aff2},
   email={john.RS.Smith@cambridge.co.uk}
@@ -128,10 +127,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \address[id=aff1]{%                           % unique id
-  \orgdiv{Department of Science},             % department, if any
-  \orgname{University of Cambridge},          % university, etc
-  \city{London},                              % city
-  \cny{UK}                                    % country
+  \orgdiv{Department of Computer Architecture and Technology},             % department, if any
+  \orgname{University of Granada},          % university, etc
+  \city{Granada},                              % city
+  \cny{Spain}                                    % country
 }
 \address[id=aff2]{%
   \orgdiv{Institute of Biology},
