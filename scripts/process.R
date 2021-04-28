@@ -35,4 +35,4 @@ data$Messaging.Platform <- trimws( data$Messaging.Platform )
 
 data.messaging <- data %>% group_by(Messaging.Platform) %>% mutate(count_platforms = n())
 data.messaging <- data.messaging[ data.messaging$count_platforms > 1, ]
-ggplot( data.messaging, aes( x = reorder(Messaging.Platform, -count_platforms ), group=Sector )) + geom_bar( stat="count" )
+ggplot( data.messaging, aes( x = reorder(Messaging.Platform, -count_platforms ), group=Sector )) + geom_bar( stat="count" ) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
