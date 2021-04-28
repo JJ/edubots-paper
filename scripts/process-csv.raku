@@ -26,12 +26,12 @@ for @data -> %d {
 
       for @platforms -> $p {
         given $p {
-            when /Whatsapp/ { %d<WhatsApp> = 1 };
-            when /Telegram/ { %d<Telegram> = 1 };
-            when /lataforma/ { %d<Provided> = 1 };
-            when /Ninguna/ { %d<None> = 1 };
-            when /Slack/ { %d<Slack> = 1 };
-            default { %d<Other> = 1 }
+            when /Whatsapp/ { %d<WhatsApp> = "Yes" };
+            when /Telegram/ { %d<Telegram> = "Yes" };
+            when /lataforma/ { %d<Provided> = "Yes" };
+            when /Ninguna/ { %d<None> = "Yes" };
+            when /Slack/ { %d<Slack> = "Yes" };
+            default { %d<Other> = "Yes" }
         }
       }
 }
@@ -46,11 +46,11 @@ for @data -> %d {
 
       for @bots -> $b {
         given $b {
-            when /agenda/ { %d<Agenda> = 1 };
-            when /frecuentes/ { %d<FAQ> = 1 };
-            when /notas/ { %d<Grades> = 1 };
-            when /material/ { %d<ClassMaterial> = 1 };
-            default { %d<OtherBot> = 1 }
+            when /agenda/ { %d<Agenda> = "Yes" };
+            when /frecuentes/ { %d<FAQ> = "Yes" };
+            when /notas/ { %d<Grades> = "Yes" };
+            when /material/ { %d<ClassMaterial> = "Yes" };
+            default { %d<OtherBot> = "Yes" }
         }
       }
     }
@@ -72,7 +72,7 @@ my %headers = %( "Titulaciones que imparte" => "Degrees",
 
 for @data -> %d {
     for %keys.keys -> $k {
-        %d{$k} = 0 unless %d{$k};
+        %d{$k} = "No" unless %d{$k};
     }
 }
 
