@@ -9,7 +9,7 @@ my %keys;
 for @data -> %d {
 
       my @features =
-        %d{"¿Qué características valora en los medios informáticos de interacción con el estudiante?"}.split(/";"\s+/);
+        %d{"¿Qué características valora en los medios informáticos de interacción con el estudiante?"}.split(/";"\s*/);
 
       for @features -> $f {
         given $f {
@@ -26,7 +26,7 @@ for @data -> %d {
         }
       }
 
-    %d{"¿Qué características valora en los medios informáticos de interacción con el estudiante?"}:delete;
+      %d{"¿Qué características valora en los medios informáticos de interacción con el estudiante?"}:delete;
     %d{"Marca temporal"}:delete;
     for %d.keys -> $k {
         %keys{$k} = 1;
