@@ -16,7 +16,7 @@ for @data -> %d {
             when /familiaridad/ { %d<Familiarity> = "Yes" };
             when /formación/ { %d<OfficialFormation> = "Yes" };
             when /unidireccional/ { %d<Unidirecionality> = "Yes" };
-            when /horizontal/ { %d<Horizontality> = "Yes" };
+            when /jerárquicos/ { %d<Horizontality> = "Yes" };
             when /conexión/ { %d<Connectivity> = "Yes" };
             when /añadir/ { %d<Pluggability> = "Yes" };
             when /ocultar/ { %d<HiddenPhone> = "Yes" };
