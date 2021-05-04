@@ -109,6 +109,10 @@
   email={jmerelo@ugr.es}   % email address
 ]{\inits{J.J.}\fnm{Juan J.} \snm{Merelo}}
 \author[
+  addressref={aff1},
+  email={jmerelo@ugr.es}   % email address
+]{\inits{P.A.}\fnm{Pedro A.} \snm{Castillo}}
+\author[
   addressref={aff1,aff2},
   email={john.RS.Smith@cambridge.co.uk}
 ]{\inits{J.R.S.}\fnm{John R.S.} \snm{Smith}}
