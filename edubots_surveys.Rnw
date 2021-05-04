@@ -221,10 +221,41 @@ Introducing new technologies such as messaging platforms, and chatbots attached 
 
 \section{Introduction}
 
+% TODO: introduction
+
+The technology behind chatbots \cite{Gong2008,bradesko2012} has become an usual element in our everyday life, having played an important role in the development of many fields, including education and online tutoring \cite{clarizia2018,Smutny2020}. These automatic systems ease personalized learning, adapting individuals' pace of learning, who get personalized online tutoring outside the classroom.
+
+A chatbot is a program that allows the machine to communicate in a similar way as a human does \cite{Gong2008}. Chatbots can significantly contribute to providing interactive learning experience as well as individual attention \cite{agarwal2020}.
+
+In this sense, chatbot technology offers a great opportunity for the improvement of tutoring systems \cite{Daniel2016,agarwal2020}, as not all students are comfortable with face-to-face tutoring with the instructor. In fact, in many cases, students suffer stress when they have to ask a question in front of the entire class. This is why many students prefer to remain silent and ask their question later via email. 
+However, this means a waste of time and a delay of hours or even days to get the teacher's answer.
+Chatbot technology has a potential to fill the gap between teacher and students, helping them to solve questions and carry out a dynamic and autonomous learning \cite{Griol2014,kim2020}.
+Moreover, using an automated system such as a chatbot allows the teacher to detect those topics that are most in demand, and on which he or she should consequently place more emphasis in class.
+
+
 \section{State of the art}
 
 It is essential, when implementing a educational chatbot strategy, to
 asses the needs of the community prior to implementation \cite{tsivitanidouusers}.
+
+
+% TODO: state of the art
+
+% student/teacher preferences towards messaging and chatbots (#6)
+
+Conversational programs to facilitate communication between computers and humans using natural language have existed for many years \cite{Thompson2007,SHAH2016}. 
+However, those were very limited systems in terms of the capacity of the models used at the time \cite{Hutchens1996}. 
+
+In recent years, several authors have carried out studies on the convenience of integrating chatbots in teaching, evaluating their characteristics. 
+Thus, Coniam \cite{Coniam2014} evaluates several systems, concluding that they are still in an early stage to be used with guarantees.
+Likewise, Tallyn et al. \cite{Tallyn2018} evaluates a system related to a very specific topic that is suitable for answering specific questions using a chat.
+Finally, Smutny et al. \cite{Smutny2020} present a review study examining the educational chatbots in Facebook Messenger with focus to identify characteristics such as language, subject matter and platform.
+
+According to \cite{Roblyer2010}, using either tools such as mobile devices or teaching strategies based on gamification \cite{Yildirim2017} can improve student motivation.
+In this sense, Pimmer et al. \cite{Pimmer2019} carried out a series of experiments with technological tools whose results showed positive perception and acceptance of the use of technology in teaching and learning, since students are used to using those media with which they can express themselves freely. 
+
+
+
 
 \bibliographystyle{apalike}
 \bibliography{edubots}
