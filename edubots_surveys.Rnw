@@ -110,12 +110,12 @@
 ]{\inits{J.J.}\fnm{Juan J.} \snm{Merelo}}
 \author[
   addressref={aff1},
-  email={jmerelo@ugr.es}   % email address
+  email={pacv@ugr.es}   % email address
 ]{\inits{P.A.}\fnm{Pedro A.} \snm{Castillo}}
 \author[
-  addressref={aff1,aff2},
-  email={john.RS.Smith@cambridge.co.uk}
-]{\inits{J.R.S.}\fnm{John R.S.} \snm{Smith}}
+  addressref={aff2},
+  email={amorag@ugr.es}
+]{\inits{A.M.G}\fnm{Antonio M.} \snm{Mora}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -133,12 +133,10 @@
   \cny{Spain}                                    % country
 }
 \address[id=aff2]{%
-  \orgdiv{Institute of Biology},
-  \orgname{National University of Sciences},
-  %\street{},
-  %\postcode{}
-  \city{Kiel},
-  \cny{Germany}
+  \orgdiv{Department of Signal Theory, Telematics and Communications},
+  \orgname{University of Granada},          % university, etc
+  \city{Granada},                              % city
+  \cny{Spain}                                    % country
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -227,11 +225,12 @@ Introducing new technologies such as messaging platforms, and chatbots attached 
 
 % TODO: introduction
 
-The technology behind chatbots \cite{Gong2008,bradesko2012} has become an usual element in our everyday life, having played an important role in the development of many fields, including education and online tutoring \cite{clarizia2018,Smutny2020}. These automatic systems ease personalized learning, adapting individuals' pace of learning, who get personalized online tutoring outside the classroom.
+A \textit{chatbot} is a program that allows a computer to communicate in a similar way as a human does \cite{Gong2008}. Indeed, most of them would be, apparently, close to passing a classic Turing test \cite{moor2003turing}, since they are able to answer almost any speaker’s question fluently, and even ask other questions to the human.
 
-A chatbot is a program that allows the machine to communicate in a similar way as a human does \cite{Gong2008}. Chatbots can significantly contribute to providing interactive learning experience as well as individual attention \cite{agarwal2020}.
 
-In this sense, chatbot technology offers a great opportunity for the improvement of tutoring systems \cite{Daniel2016,agarwal2020}, as not all students are comfortable with face-to-face tutoring with the instructor. In fact, in many cases, students suffer stress when they have to ask a question in front of the entire class. This is why many students prefer to remain silent and ask their question later via email. 
+The technology behind chatbots \cite{Gong2008,bradesko2012} has become an usual element in our everyday life, having played an important role in the development of many fields, including education and online tutoring \cite{clarizia2018,Smutny2020}. These automatic systems ease personalized learning, adapting individuals' pace of learning, who get personalized online tutoring outside the classroom. Thus, chatbots can significantly contribute to providing interactive learning experience as well as individual attention \cite{agarwal2020}.
+
+In this sense, chatbot technology offers a great opportunity for the improvement of tutoring systems \cite{Daniel2016,agarwal2020}, as not all students are comfortable with face-to-face tutoring with the instructor. In fact, in many cases, students suffer from stress when they have to ask a question in front of the entire class. This is why many students prefer to remain silent and ask their question later via email. 
 However, this means a waste of time and a delay of hours or even days to get the teacher's answer.
 Chatbot technology has a potential to fill the gap between teacher and students, helping them to solve questions and carry out a dynamic and autonomous learning \cite{Griol2014,kim2020}.
 Moreover, using an automated system such as a chatbot allows the teacher to detect those topics that are most in demand, and on which he or she should consequently place more emphasis in class.
@@ -239,8 +238,7 @@ Moreover, using an automated system such as a chatbot allows the teacher to dete
 
 \section{State of the art}
 
-It is essential, when implementing a educational chatbot strategy, to
-asses the needs of the community prior to implementation \cite{tsivitanidouusers}.
+It is essential, when implementing a educational chatbot strategy, to asses the needs of the community prior to implementation \cite{tsivitanidouusers}.
 
 
 % TODO: state of the art
@@ -268,7 +266,7 @@ In this sense, Pimmer et al. \cite{Pimmer2019} carried out a series of experimen
 
 \section*{Acknowledgements}%% if any
 
-This paper has been funded by the Edubots project...
+This work has been supported by EDUBOTS project, funded under the scheme Erasmus + KA2: Cooperation for innovation and the exchange of good practices - Knowledge Alliances (grant agreement no: 612446).
 
 \end{backmatter}
 
