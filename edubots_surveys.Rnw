@@ -74,6 +74,7 @@
 
 %%% Begin ...
 \begin{document}
+\SweaveOpts{concordance=TRUE}
 
 %%% Start of article front matter
 \begin{frontmatter}
@@ -173,7 +174,7 @@
 \begin{abstractbox}
 
 \begin{abstract} % abstract
-Introducing new technologies such as messaging platforms, and chatbots attached to it, in higher education, requires careful consideration of all options, but, above all, an examination of the attitudes of the affected community. In this paper we have surveyed the opinions of tertiary education teachers based mainly in Spain and Spanish speaking countries, looking at what they think of the introduction of messaging platforms, what are their needs, what kind of use case they see for them, and in what kind of environment they think its use will be useful. We will examine how and when these attitudes vary across gender, experience, and other factors, such as the kind of discipline they are teaching.
+Introducing new technologies such as messaging platforms, and chatbots attached to it, in higher education, requires careful consideration of all options, but above all, an examination of the attitudes of the affected community. In this paper we have surveyed the opinions of tertiary education teachers based mainly in Spain and Spanish speaking countries, looking at what they think of the introduction of messaging platforms, what their needs are, what kind of use cases they see for them, and in what kind of environment they think its use will be valuable. We will examine how and when these attitudes vary across gender, experience, and other factors, such as the kind of discipline they are teaching.
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
