@@ -87,7 +87,7 @@
 %%                                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Chatbots in the classroom: a analysis from the teacher's perspective}
+\title{Chatbots in the classroom: an analysis from the teacher's perspective}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -116,6 +116,10 @@
   addressref={aff2},
   email={amorag@ugr.es}
 ]{\inits{A.M.G}\fnm{Antonio M.} \snm{Mora}}
+\author[
+  addressref={aff1},
+  email={fbarranco@ugr.es}
+]{\inits{F.}\fnm{Francisco} \snm{Barranco}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
