@@ -74,7 +74,6 @@
 
 %%% Begin ...
 \begin{document}
-\SweaveOpts{concordance=TRUE}
 
 %%% Start of article front matter
 \begin{frontmatter}
@@ -120,7 +119,7 @@
 \author[
   addressref={aff1},
   email={fbarranco@ugr.es}
-]{\inits{F.}\fnm{Francisco} \snm{Barranco}}
+]{\inits{F.}\fnm{Francisco} \snm{Barranco}}<
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -189,6 +188,8 @@ Introducing new technologies such as messaging platforms, and chatbots attached 
 \kwd{Chatbots}
 \kwd{Messaging platforms}
 \kwd{Tutorship}
+\kwd{Educational bots}
+\kwd{Higher education}
 \end{keyword}
 
 % MSC classifications codes, if any
@@ -229,6 +230,7 @@ Introducing new technologies such as messaging platforms, and chatbots attached 
 \section{Introduction}
 
 % TODO: introduction
+Introduction of new technologies in the classroom needs a combination of teacher education, as well as student willingness and skills. Some technologies are readily adapted, some of them take a long time to be adopted. In most cases, success or failure of the introduction of a 
 
 A \textit{chatbot} is a program that allows a computer to communicate in a similar way as a human does \cite{Gong2008}. Indeed, most of them would be, apparently, close to passing a classic Turing test \cite{moor2003turing}, since they are able to answer almost any speaker’s question fluently, and even ask other questions to the human.
 
@@ -262,6 +264,9 @@ According to \cite{Roblyer2010}, using either tools such as mobile devices or te
 In this sense, Pimmer et al. \cite{Pimmer2019} carried out a series of experiments with technological tools whose results showed positive perception and acceptance of the use of technology in teaching and learning, since students are used to using those media with which they can express themselves freely. 
 
 
+\section{Conclusions}
+
+\section*{Acknowledgements}
 
 
 \bibliographystyle{apalike}
