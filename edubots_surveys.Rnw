@@ -272,7 +272,13 @@ Finally, Smutny et al. \cite{Smutny2020} present a review study examining the ed
 According to \cite{Roblyer2010}, using either tools such as mobile devices or teaching strategies based on gamification \cite{Yildirim2017} can improve student motivation.
 In this sense, Pimmer et al. \cite{Pimmer2019} carried out a series of experiments with technological tools whose results showed positive perception and acceptance of the use of technology in teaching and learning, since students are used to using those media with which they can express themselves freely. 
 
+% TODO: connect to the rest 
+Some authors proposed agents that store learning materials to be provided on demand \cite{coronado2018cognitive} to students and more complex tutoring systems \cite{crockett2017predicting} that collect the learning state of students to provide the next most suitable material in their learning path.
+
 Regarding the factors for the adoption of chatbots in Education, many studies have focused on the evaluation of technology acceptance or usability. However, Higher Education is a special domain where according to \cite{hobert2019you}, specific pedagogical factors such as learning success or increased motivation are more important. 
+
+
+
 
 
 
