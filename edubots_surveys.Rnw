@@ -74,6 +74,7 @@
 
 %%% Begin ...
 \begin{document}
+\SweaveOpts{concordance=TRUE}
 
 %%% Start of article front matter
 \begin{frontmatter}
@@ -119,7 +120,7 @@
 \author[
   addressref={aff1},
   email={fbarranco@ugr.es}
-]{\inits{F.}\fnm{Francisco} \snm{Barranco}}<
+]{\inits{F.}\fnm{Francisco} \snm{Barranco}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -242,6 +243,14 @@ However, this means a waste of time and a delay of hours or even days to get the
 Chatbot technology has a potential to fill the gap between teacher and students, helping them to solve questions and carry out a dynamic and autonomous learning \cite{Griol2014,kim2020}.
 Moreover, using an automated system such as a chatbot allows the teacher to detect those topics that are most in demand, and on which he or she should consequently place more emphasis in class.
 
+% Maybe move it to a different place later
+As a starting point, we have analyzed the responses to a survey from XXX teachers asking about their attitudes towards the use of chatbots in their classes. We are interested in discussing implications and the impact for the development of future technology-enhanced tools and the Education institutions policies regarding the following research questions:
+\begin{itemize}
+\item{ RQ1 - Are teachers willing to use chatbots in their classes? }
+\item{ RQ2 - Which kind of chatbots are they interested in? }
+\item{ RQ3 - Regarding technology acceptance, are there any differences regarding age, gender,  or years of experience in Education? }
+\item{ RQ4 - } 
+\end{itemize}
 
 \section{State of the art}
 
@@ -262,6 +271,11 @@ Finally, Smutny et al. \cite{Smutny2020} present a review study examining the ed
 
 According to \cite{Roblyer2010}, using either tools such as mobile devices or teaching strategies based on gamification \cite{Yildirim2017} can improve student motivation.
 In this sense, Pimmer et al. \cite{Pimmer2019} carried out a series of experiments with technological tools whose results showed positive perception and acceptance of the use of technology in teaching and learning, since students are used to using those media with which they can express themselves freely. 
+
+Regarding the factors for the adoption of chatbots in Education, many studies have focused on the evaluation of technology acceptance or usability. However, Higher Education is a special domain where according to \cite{hobert2019you}, specific pedagogical factors such as learning success or increased motivation are more important. 
+
+
+
 
 
 \section{Conclusions}
