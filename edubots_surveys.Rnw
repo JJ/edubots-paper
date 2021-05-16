@@ -279,11 +279,6 @@ Regarding the factors for the adoption of chatbots in Education, many studies ha
 
 
 
-
-
-
-
-
 \section{Conclusions}
 
 \section*{Acknowledgements}
