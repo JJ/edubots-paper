@@ -235,7 +235,6 @@ Introduction of new technologies in the classroom needs a combination of teacher
 
 A \textit{chatbot} is a program that allows a computer to communicate in a similar way as a human does \cite{Gong2008}. Indeed, most of them would be, apparently, close to passing a classic Turing test \cite{moor2003turing}, since they are able to answer almost any speaker’s question fluently, and even ask other questions to the human.
 
-
 The technology behind chatbots \cite{Gong2008,bradesko2012} has become an usual element in our everyday life, having played an important role in the development of many fields, including education and online tutoring \cite{clarizia2018,Smutny2020}. These automatic systems ease personalized learning, adapting individuals' pace of learning, who get personalized online tutoring outside the classroom. Thus, chatbots can significantly contribute to providing interactive learning experience as well as individual attention \cite{agarwal2020}.
 
 In this sense, chatbot technology offers a great opportunity for the improvement of tutoring systems \cite{Daniel2016,agarwal2020}, as not all students are comfortable with face-to-face tutoring with the instructor. In fact, in many cases, students suffer from stress when they have to ask a question in front of the entire class. This is why many students prefer to remain silent and ask their question later via email. 
@@ -272,10 +271,11 @@ Finally, Smutny et al. \cite{Smutny2020} present a review study examining the ed
 According to \cite{Roblyer2010}, using either tools such as mobile devices or teaching strategies based on gamification \cite{Yildirim2017} can improve student motivation.
 In this sense, Pimmer et al. \cite{Pimmer2019} carried out a series of experiments with technological tools whose results showed positive perception and acceptance of the use of technology in teaching and learning, since students are used to using those media with which they can express themselves freely. 
 
-% TODO: connect to the rest 
-Some authors proposed agents that store learning materials to be provided on demand \cite{coronado2018cognitive} to students and more complex tutoring systems \cite{crockett2017predicting} that collect the learning state of students to provide the next most suitable material in their learning path.
+% Categorization and examples of what they can do, adapted to questions in the survey   
+A possible categorization of chatbots in Education splits them according to their purpose into service- and teaching-oriented \cite{perez2020rediscovering}. The first class includes chatbots that provide service support used e.g. to solve questions about the enrollment \cite{santoso2018dinus}, registration, or academic requirements for exchange students \cite{ranoliya2017chatbot}. Focusing on the use at class, service-oriented chatbots would help to introduce students to each other (as done with LISA \cite{dibitonto2018chatbot}), would provide information about schedules and deadlines, recommend general learning materials for the next classes, or individually inform about grades. Teaching-oriented chatbots are more sophisticated chatbots that set goals and monitor learning progress. A simple example is described in \cite{coronado2018cognitive} where authors proposed agents that store learning materials to be provided on demand to students. Also, more complex tutoring systems \cite{crockett2017predicting} individually analyze the learning state of students to provide the next most suitable material in their learning path.
 
-Regarding the factors for the adoption of chatbots in Education, many studies have focused on the evaluation of technology acceptance or usability. However, Higher Education is a special domain where according to \cite{hobert2019you}, specific pedagogical factors such as learning success or increased motivation are more important. 
+% Point: chatbots are accepted if they help to achieve learning goals
+Regarding the factors for the adoption of chatbots in Education, many studies have focused on the evaluation of technology acceptance or usability such as \cite{Pimmer2019, Roblyer2010}. However, Higher Education is a special domain where according to \cite{hobert2019you}, specific pedagogical factors such as learning success or increased motivation are more important. 
 
 
 
