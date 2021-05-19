@@ -277,6 +277,7 @@ A possible categorization of chatbots in Education splits them according to thei
 % Point: chatbots are accepted if they help to achieve learning goals
 Regarding the factors for the adoption of chatbots in Education, many studies have focused on the evaluation of technology acceptance or usability such as \cite{Pimmer2019, Roblyer2010}. However, Higher Education is a special domain where according to \cite{hobert2019you}, specific pedagogical factors such as learning success or increased motivation are more important. 
 
+\section{Results}
 
 
 \section{Conclusions}
