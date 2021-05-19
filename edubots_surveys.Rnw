@@ -265,11 +265,9 @@ However, those were very limited systems in terms of the capacity of the models 
 
 In recent years, several authors have carried out studies on the convenience of integrating chatbots in teaching, evaluating their characteristics. 
 Thus, Coniam \cite{Coniam2014} evaluates several systems, concluding that they are still in an early stage to be used with guarantees.
-Likewise, Tallyn et al. \cite{Tallyn2018} evaluates a system related to a very specific topic that is suitable for answering specific questions using a chat.
-Finally, Smutny et al. \cite{Smutny2020} present a review study examining the educational chatbots in Facebook Messenger with focus to identify characteristics such as language, subject matter and platform.
+Likewise, Tallyn et al. \cite{Tallyn2018} evaluates a system related to a very specific topic that is suitable for answering specific questions using a chat. Finally, Smutny et al. \cite{Smutny2020} present a review study examining the educational chatbots in Facebook Messenger with focus to identify characteristics such as language, subject matter and platform.
 
-According to \cite{Roblyer2010}, using either tools such as mobile devices or teaching strategies based on gamification \cite{Yildirim2017} can improve student motivation.
-In this sense, Pimmer et al. \cite{Pimmer2019} carried out a series of experiments with technological tools whose results showed positive perception and acceptance of the use of technology in teaching and learning, since students are used to using those media with which they can express themselves freely. 
+According to \cite{Roblyer2010}, using either tools such as mobile devices or teaching strategies based on gamification \cite{Yildirim2017} can improve student motivation. In this sense, Pimmer et al. \cite{Pimmer2019} carried out a series of experiments with technological tools whose results showed positive perception and acceptance of the use of technology in teaching and learning, since students are used to using those media with which they can express themselves freely. 
 
 % Categorization and examples of what they can do, adapted to questions in the survey   
 A possible categorization of chatbots in Education splits them according to their purpose into service- and teaching-oriented \cite{perez2020rediscovering}. The first class includes chatbots that provide service support used e.g. to solve questions about the enrollment \cite{santoso2018dinus}, registration, or academic requirements for exchange students \cite{ranoliya2017chatbot}. Focusing on the use at class, service-oriented chatbots would help to introduce students to each other (as done with LISA \cite{dibitonto2018chatbot}), would provide information about schedules and deadlines, recommend general learning materials for the next classes, or individually inform about grades. Teaching-oriented chatbots are more sophisticated chatbots that set goals and monitor learning progress. A simple example is described in \cite{coronado2018cognitive} where authors proposed agents that store learning materials to be provided on demand to students. Also, more complex tutoring systems \cite{crockett2017predicting} individually analyze the learning state of students to provide the next most suitable material in their learning path.
@@ -278,6 +276,95 @@ A possible categorization of chatbots in Education splits them according to thei
 Regarding the factors for the adoption of chatbots in Education, many studies have focused on the evaluation of technology acceptance or usability such as \cite{Pimmer2019, Roblyer2010}. However, Higher Education is a special domain where according to \cite{hobert2019you}, specific pedagogical factors such as learning success or increased motivation are more important. 
 
 \section{Results}
+
+% Describe the survey and population
+
+\subsection{RQ1 - Are teachers usings chatbots in their classes?}
+
+\begin{figure}[t]
+\begin{center}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/gender_provided.eps}
+    \end{minipage}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/age_provided.eps}
+    \end{minipage}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/experience_provided.eps}
+    \end{minipage}
+    
+    \vspace{2mm}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/gender_whatsapp.eps}
+    \end{minipage}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/age_whatsapp.eps}
+    \end{minipage}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/experience_whatsapp.eps}
+    \end{minipage}
+    
+    \vspace{2mm}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/gender_telegram.eps}
+    \end{minipage}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/age_telegram.eps}
+    \end{minipage}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/experience_telegram.eps}
+    \end{minipage}
+\end{center}
+    \caption{Use of chatbots in class: distributions per gender and age. Teachers were specifically asked about two popular instant messaging apps (Whatsapp and Telegram), and the use of platforms already provided by their institutions different than these two ones.}
+\label{figure:chatbots_use_gender_age}
+\end{figure} 
+
+
+
+\begin{figure}[t]
+\begin{center}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/sector_provided.eps}
+    \end{minipage}
+    \begin{minipage}[t]{0.50\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/discipline_provided.eps}
+    \end{minipage}
+    
+    \vspace{2mm}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/sector_whatsapp.eps}
+    \end{minipage}
+    \begin{minipage}[t]{0.50\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/discipline_whatsapp.eps}
+    \end{minipage}
+    
+    \vspace{2mm}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/sector_telegram.eps}
+    \end{minipage}
+    \begin{minipage}[t]{0.50\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/discipline_telegram.eps}
+    \end{minipage}
+\end{center}
+    \caption{XXXX}
+\label{figure:chatbots_use_sector_discip_exp}
+\end{figure} 
+
 
 
 \section{Conclusions}
