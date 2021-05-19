@@ -245,7 +245,7 @@ Moreover, using an automated system such as a chatbot allows the teacher to dete
 % Maybe move it to a different place later
 As a starting point, we have analyzed the responses to a survey from XXX teachers asking about their attitudes towards the use of chatbots in their classes. We are interested in discussing implications and the impact for the development of future technology-enhanced tools and the Education institutions policies regarding the following research questions:
 \begin{itemize}
-\item{ RQ1 - Are teachers willing to use chatbots in their classes? }
+\item{ RQ1 - Are teachers already using messaging apps in their classes? }
 \item{ RQ2 - Which kind of chatbots are they interested in? }
 \item{ RQ3 - Regarding technology acceptance, are there any differences regarding age, gender,  or years of experience in Education? }
 \item{ RQ4 - } 
@@ -278,8 +278,14 @@ Regarding the factors for the adoption of chatbots in Education, many studies ha
 \section{Results}
 
 % Describe the survey and population
+We collected responses from a total of XXX teachers from University and Vocational Education from Spain ...
 
-\subsection{RQ1 - Are teachers usings chatbots in their classes?}
+\subsection{RQ1 - Are teachers already using messaging apps in their classes?}
+
+%Why messaging apps are relevant here --> connect to the development of chatbots
+Group messaging apps have become a powerful tool for keeping touch with students. Also, they are the baseline platform for the development of chatbots to help with the learning process. 
+
+According to the results summarized in Fig. \ref{figure:chatbots_use_gender_age_exp}, there are no significant differences between male and female teachers. Regarding the instant messaging apps, teachers mainly use Whatsapp (40\%-50\%), the most popular messaging app in Spain. Similar numbers are shown for the use of the app provided by their institutions, Universities or Education System Administration. Finally, about 20\% use Telegram. The distribution of messaging apps per age are not significant for the Whatsapp and apps provided by their institutions. However, younger teachers use also Telegram with more than 25\%, a percentage that falls to about 10\% for teachers that are 55 or older. The third column compares the use of these apps considering the number of years of experience. One interesting result is that, contrarily to the idea of technology adaptation issues when considering older teachers, about 65\% of teachers with more than 25 years of experience use the platforms provided by their institutions while the percentage goes down to less than 50\% for teachers with 6-15 years of experience.
 
 \begin{figure}[t]
 \begin{center}
@@ -325,10 +331,10 @@ Regarding the factors for the adoption of chatbots in Education, many studies ha
     \end{minipage}
 \end{center}
     \caption{Use of chatbots in class: distributions per gender and age. Teachers were specifically asked about two popular instant messaging apps (Whatsapp and Telegram), and the use of platforms already provided by their institutions different than these two ones.}
-\label{figure:chatbots_use_gender_age}
+\label{figure:chatbots_use_gender_age_exp}
 \end{figure} 
 
-
+Results in Fig. \ref{figure:chatbots_use_sector_discip} do not show differences in the use of instant messaging apps between teachers from University and vocational education. In general, most teachers prefer messaging apps provided by their own institutions. With respect to specific disciplines, Engineering and Technology teachers are more active in their use, although it is also relevant the amount of teachers from Humanities that answered they used these apps in their classes (around 60\% use the apps provided by their institutions).
 
 \begin{figure}[t]
 \begin{center}
@@ -361,8 +367,8 @@ Regarding the factors for the adoption of chatbots in Education, many studies ha
  	    \includegraphics[width=\textwidth]{figures/discipline_telegram.eps}
     \end{minipage}
 \end{center}
-    \caption{XXXX}
-\label{figure:chatbots_use_sector_discip_exp}
+    \caption{Differences in the use of chatbots in class between vocational and university teaching and distributions by discipline.}
+\label{figure:chatbots_use_sector_discip}
 \end{figure} 
 
 
