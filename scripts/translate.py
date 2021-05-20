@@ -40,7 +40,8 @@ data = data.replace("No, no la usaba antes ni ahora.", "No, I didn't use it befo
 data = data.replace("Prefiero que los estudiantes se autoorganicen y no estar en ningún grupo de mensajería", "I'd rather leave students self-organize and not be part of the chat")
 data = data.replace("Un grupo con los estudiantes de mi asignatura", "A chat with my students in the same course")
 data = data.replace("Un grupo para el curso completo (profesores y estudiantes)", "A chat with all students and teachers in the same semester/year")
-data = data.replace("Un grupo para toda la titulación, Facultad o Escuela (profesores y estudiantes)", "A chat with all the students and teachers in my Faculty or School")
+data = data.replace("Un grupo para toda la titulación o instituto (profesores y estudiantes)", "A chat with all the students and teachers in the same studies (all years)")
+data = data.replace("Un grupo para toda la titulación, Facultad o Escuela (profesores y estudiantes)", "A chat with all the students and teachers in my Faculty/School")
 
 with open("../data/survey-pilot-3-EN.csv","w") as file:
      file.write(data)
