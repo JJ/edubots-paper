@@ -291,43 +291,43 @@ According to the results summarized in Fig. \ref{figure:chatbots_use_gender_age_
 \begin{center}
     \begin{minipage}[t]{0.30\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/gender_provided.eps}
+ 	    \includegraphics[width=\textwidth]{figures/gender_provided.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.30\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/age_provided.eps}
+ 	    \includegraphics[width=\textwidth]{figures/age_provided.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.30\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/experience_provided.eps}
-    \end{minipage}
-    
-    \vspace{2mm}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/gender_whatsapp.eps}
-    \end{minipage}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/age_whatsapp.eps}
-    \end{minipage}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/experience_whatsapp.eps}
+ 	    \includegraphics[width=\textwidth]{figures/experience_provided.pdf}
     \end{minipage}
     
     \vspace{2mm}
     \begin{minipage}[t]{0.30\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/gender_telegram.eps}
+ 	    \includegraphics[width=\textwidth]{figures/gender_whatsapp.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.30\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/age_telegram.eps}
+ 	    \includegraphics[width=\textwidth]{figures/age_whatsapp.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.30\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/experience_telegram.eps}
+ 	    \includegraphics[width=\textwidth]{figures/experience_whatsapp.pdf}
+    \end{minipage}
+    
+    \vspace{2mm}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/gender_telegram.pdf}
+    \end{minipage}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/age_telegram.pdf}
+    \end{minipage}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/experience_telegram.pdf}
     \end{minipage}
 \end{center}
     \caption{Use of chatbots in class: distributions per gender and age. Teachers were specifically asked about two popular instant messaging apps (Whatsapp and Telegram), and the use of platforms already provided by their institutions different than these two ones.}
@@ -340,31 +340,31 @@ Results in Fig. \ref{figure:chatbots_use_sector_discip} do not show differences 
 \begin{center}
     \begin{minipage}[t]{0.30\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/sector_provided.eps}
+ 	    \includegraphics[width=\textwidth]{figures/sector_provided.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.50\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/discipline_provided.eps}
+ 	    \includegraphics[width=\textwidth]{figures/discipline_provided.pdf}
     \end{minipage}
     
     \vspace{2mm}
     \begin{minipage}[t]{0.30\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/sector_whatsapp.eps}
+ 	    \includegraphics[width=\textwidth]{figures/sector_whatsapp.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.50\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/discipline_whatsapp.eps}
+ 	    \includegraphics[width=\textwidth]{figures/discipline_whatsapp.pdf}
     \end{minipage}
     
     \vspace{2mm}
     \begin{minipage}[t]{0.30\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/sector_telegram.eps}
+ 	    \includegraphics[width=\textwidth]{figures/sector_telegram.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.50\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/discipline_telegram.eps}
+ 	    \includegraphics[width=\textwidth]{figures/discipline_telegram.pdf}
     \end{minipage}
 \end{center}
     \caption{Differences in the use of chatbots in class between vocational and university teaching and distributions by discipline.}
