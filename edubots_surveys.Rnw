@@ -395,6 +395,13 @@ A few relevant facts from the collected data: teachers with 16-25 years of exper
 \end{figure} 
 
 
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/messaging_organization.pdf}
+\caption{Impact of COVID in the use of messaging apps in University and vocational education.}
+\label{figure:chatbots_use_postcovid}
+\end{figure} 
+
 \section{Conclusions}
 
 \section*{Acknowledgements}
