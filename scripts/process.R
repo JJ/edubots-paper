@@ -49,9 +49,6 @@ ggplot(data, aes(x = Provided, group = Gender)) + geom_bar(aes(y = ..prop.., fil
 ggsave('../figures/gender_provided.pdf')
 
 
-data <- within(data, Messaging.Organization <- factor(Messaging.Organization, levels=names(sort(table(Messaging.Organization), decreasing=TRUE))))
-ggplot(data, aes( x = Messaging.Organization, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90))+coord_flip()
-
 data %>% group_by( PostCOVID.changes ) %>% filter( n() > 1 ) -> data.postCOVID
 data.postCOVID <- within(data.postCOVID, PostCOVID.changes <- factor(PostCOVID.changes, levels=names(sort(table(PostCOVID.changes), decreasing=TRUE))))
 ggplot(data.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
@@ -60,3 +57,14 @@ ggplot(data.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Gender, 
 ggsave('../figures/gender_covid.pdf')
 ggplot(data.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Experience, fill = Experience ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 ggsave('../figures/experience_covid.pdf')
+
+
+#Several answers in the same cell: need to split them (use the commas in the original csv in Spanish as separator after translation)
+#data <- within(data, Messaging.Organization <- factor(Messaging.Organization, levels=names(sort(table(Messaging.Organization), decreasing=TRUE))))
+#ggplot(data, aes( x = Messaging.Organization, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90))+coord_flip()
+
+library(tidyverse)
+data %>%  mutate(Messaging.Organization =str_split(Messaging.Organization, ", ")) %>% unnest(cols = c(Messaging.Organization)) -> data.MessagingOrganization
+data.MessagingOrganization <- within(data.MessagingOrganization, Messaging.Organization <- factor(Messaging.Organization, levels=names(sort(table(Messaging.Organization), decreasing=TRUE))))
+ggplot(data.MessagingOrganization, aes( x = Messaging.Organization, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90))+coord_flip()+ theme(axis.title.y=element_blank())
+ggsave('../figures/messaging_organization.pdf')
