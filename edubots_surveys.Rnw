@@ -121,9 +121,9 @@
   email={fbarranco@ugr.es}
 ]{\inits{F.}\fnm{Francisco} \snm{Barranco}}
 \author[
-  addressref={aff2},
+  addressref={aff3},
   email={n.h.abbas@leeds.ac.uk}
-]{\inits{N.A.}\fnm{Noorhan} \snm{Abbas}}
+]{\inits{N.}\fnm{Noorhan} \snm{Abbas}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -148,6 +148,12 @@
   \cny{Spain}                                    % country
 }
 
+\address[id=aff3]{%
+  \orgdiv{School of Computing},
+  \orgname{University of Leeds},          % university, etc
+  \city{Leeds},                              % city
+  \cny{UK}                                    % country
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
 %% Enter short notes here                   %%
