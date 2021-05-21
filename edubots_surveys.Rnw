@@ -371,21 +371,30 @@ Results in Fig. \ref{figure:chatbots_use_sector_discip} do not show differences 
 \label{figure:chatbots_use_sector_discip}
 \end{figure} 
 
+Regarding the social factor of chat groups that teachers use in class, according to Fig. \ref{figure:chatbots_messagingorganization} the vast majority prefer small groups only with the students from the same course. These are more focused groups with specific goals and dedicated to the organization of the course and its tasks, and from the pedagogic point of view seem more appropriate to improve the learning process. Interestingly, about 30\% of teachers consider they should not be part of the chat group. Also, only university teachers find interesting a group with all the students and teachers in their own Faculty or School. The lack of teachers from vocational Education here may be the consequence of using specific language such as "Faculty". Moreover, the fact that many universities and schools already use these groups for administrative and social interaction (e.g. \cite{dibitonto2018chatbot}) might be the reason for the low percentage of teachers that selected this response.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/messaging_organization.pdf}
+\caption{XXX}
+\label{figure:chatbots_messagingorganization}
+\end{figure} 
+
 Some of the questions in the survey were focused on the impact of the COVID19 pandemic between 2020 and 2021, in the teachers' attitudes towards the instant messaging apps. The 273 answers are summarized in Fig. \ref{figure:chatbots_use_postcovid}, showing that about 77\% of teachers already used these tools before the pandemic and kept using them during the pandemic lockdowns that forced students and educators to use remote education schemes. Moreover, approximately 15\% of them switched their messaging app for one that offered a safer interaction with their students. According to the responses, an additional 16\% started using messaging apps during the pandemic for the first time in their classes. Aggregating the answers, currently 91\% of the teachers are using messaging apps as learning tools. 
 
 A few relevant facts from the collected data: teachers with 16-25 years of experience seem more worried about the security of messaging apps and teachers with up to 5 years of experience were more open to adopt messaging apps due to the pandemic; female teachers were more willing to adopt new platforms due to the pandemic, and even to start using safer alternatives; finally, university teachers that did not use them were more reluctant to start using them after the pandemic.
 
 \begin{figure}[t]
 \begin{center}
-    \begin{minipage}[t]{0.45\textwidth}
+    \begin{minipage}[t]{0.47\textwidth}
 	    \centering
  	    \includegraphics[width=\textwidth]{figures/gender_covid.pdf}
     \end{minipage}
-    \begin{minipage}[t]{0.45\textwidth}
+    \begin{minipage}[t]{0.47\textwidth}
 	    \centering
  	    \includegraphics[width=\textwidth]{figures/sector_covid.pdf}
     \end{minipage}
-    \begin{minipage}[t]{0.45\textwidth}
+    \begin{minipage}[t]{0.47\textwidth}
 	    \centering
  	    \includegraphics[width=\textwidth]{figures/experience_covid.pdf}
     \end{minipage}
@@ -394,13 +403,6 @@ A few relevant facts from the collected data: teachers with 16-25 years of exper
 \label{figure:chatbots_use_postcovid}
 \end{figure} 
 
-
-\begin{figure}[t]
-\centering
-\includegraphics[width=\textwidth]{figures/messaging_organization.pdf}
-\caption{Impact of COVID in the use of messaging apps in University and vocational education.}
-\label{figure:chatbots_use_postcovid}
-\end{figure} 
 
 \section{Conclusions}
 
