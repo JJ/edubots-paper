@@ -278,7 +278,7 @@ Regarding the factors for the adoption of chatbots in Education, many studies ha
 \section{Results}
 
 % Describe the survey and population
-We collected responses from a total of XXX teachers from University and Vocational Education from Spain ...
+We collected responses from a 282 teachers from Spain and Spanish Speaking countries. The sample includes teachers from university (68\%) and vocational Education (32\%). Regarding gender, 63\% are male teachers and 35\% female (approximately 2\% chose not to disclose it). Finally, the responses are equally distributed attending to the teaching experience, showing 24\% of responses from teachers with 5 or less years of experience, 27\% for 6-15 years of experience, 30\% for 16-25, and 19\% for teachers with more than 25 years of experience.
 
 \subsection{RQ1 - Are teachers already using messaging apps in their classes?}
 
