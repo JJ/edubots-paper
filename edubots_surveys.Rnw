@@ -65,8 +65,8 @@
 %%                                             %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\def\includegraphic{}
-\def\includegraphics{}
+%\def\includegraphic{}
+%\def\includegraphics{}
 
 %%% Put your definitions there:
 \startlocaldefs
@@ -74,7 +74,6 @@
 
 %%% Begin ...
 \begin{document}
-\SweaveOpts{concordance=TRUE}
 
 %%% Start of article front matter
 \begin{frontmatter}
