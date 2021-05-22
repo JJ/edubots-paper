@@ -74,6 +74,7 @@
 
 %%% Begin ...
 \begin{document}
+\SweaveOpts{concordance=TRUE}
 
 %%% Start of article front matter
 \begin{frontmatter}
@@ -256,8 +257,9 @@ Moreover, using an automated system such as a chatbot allows the teacher to dete
 As a starting point, we have analyzed the responses to a survey from XXX teachers asking about their attitudes towards the use of chatbots in their classes. We are interested in discussing implications and the impact for the development of future technology-enhanced tools and the Education institutions policies regarding the following research questions:
 \begin{itemize}
 \item{ RQ1 - Are teachers already using messaging apps in their classes? }
-\item{ RQ2 - Which kind of chatbots are they interested in? }
-\item{ RQ3 - Regarding technology acceptance, are there any differences regarding age, gender,  or years of experience in Education? }
+\item{ RQ2 -  Which kind of chatbots would teachers find useful in their classes?? }
+
+\item{ RQ3 - Regarding technology acceptance, are there any differences regarding age, gender, or years of experience in Education? }
 \item{ RQ4 - } 
 \end{itemize}
 
@@ -414,6 +416,29 @@ A few relevant facts from the collected data: teachers with 16-25 years of exper
 \end{center}
     \caption{Impact of COVID in the use of messaging apps in University and vocational education.}
 \label{figure:chatbots_use_postcovid}
+\end{figure} 
+
+\subsection{RQ2 - Which kind of chatbots would teachers find useful in their classes?}
+
+
+
+\begin{figure}[t]
+\begin{center}
+    \begin{minipage}[t]{0.47\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/gender_chatbottype.pdf}
+    \end{minipage}
+    \begin{minipage}[t]{0.47\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/sector_chatbottype.pdf}
+    \end{minipage}
+    \begin{minipage}[t]{0.47\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/experience_chatbottype.pdf}
+    \end{minipage}
+\end{center}
+    \caption{Types of chatbots.}
+\label{figure:chatbots_types}
 \end{figure} 
 
 
