@@ -68,3 +68,22 @@ data %>%  mutate(Messaging.Organization =str_split(Messaging.Organization, ", ")
 data.MessagingOrganization <- within(data.MessagingOrganization, Messaging.Organization <- factor(Messaging.Organization, levels=names(sort(table(Messaging.Organization), decreasing=TRUE))))
 ggplot(data.MessagingOrganization, aes( x = Messaging.Organization, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90))+coord_flip()+ theme(axis.title.y=element_blank())
 ggsave('../figures/messaging_organization.pdf', width = 190, height = 50, units = "mm")
+
+
+data %>%  mutate(ChatbotType = ifelse(Agenda == "No","","Agenda,")) %>%
+  mutate(ChatbotType = ifelse(ClassMaterial == "No", paste(ChatbotType, "",sep=""), paste(ChatbotType, "ClassMaterial,",sep=""))) %>%
+  mutate(ChatbotType = ifelse(FAQ == "No",paste(ChatbotType, "",sep=""), paste(ChatbotType, "FAQ,",sep=""))) %>%
+  mutate(ChatbotType = ifelse(Grades == "No", paste(ChatbotType, "",sep=""), paste(ChatbotType, "Grades,",sep=""))) %>%
+  mutate(ChatbotType = ifelse(OtherBot == "No", paste(ChatbotType, "",sep=""), paste(ChatbotType, "OtherBot,",sep=""))) %>%
+  mutate(ChatbotType = substr(ChatbotType,1,nchar(ChatbotType)-1))-> df1
+
+df1 %>%  mutate(ChatbotType =str_split(ChatbotType, ",")) %>% unnest(cols = c(ChatbotType)) -> data.ChatbotType
+data.ChatbotType <- within(data.ChatbotType, ChatbotType <- factor(ChatbotType, levels=names(sort(table(ChatbotType), decreasing=TRUE))))
+ggplot(data.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+ggsave('../figures/sector_chatbottype.pdf', width = 190, height = 50, units = "mm")
+ggplot(data.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Gender, fill = Gender ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+ggsave('../figures/gender_chatbottype.pdf', width = 190, height = 50, units = "mm")
+ggplot(data.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Experience, fill = Experience ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+ggsave('../figures/experience_chatbottype.pdf', width = 190, height = 50, units = "mm")
+
+
