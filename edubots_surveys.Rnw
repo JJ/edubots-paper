@@ -294,6 +294,35 @@ Regarding the factors for the adoption of chatbots in Education, many studies ha
 % Describe the survey and population
 We collected responses from a 282 teachers from Spain and Spanish Speaking countries. The sample includes teachers from university (68\%) and vocational Education (32\%). Regarding gender, 63\% are male teachers and 35\% female (approximately 2\% chose not to disclose it). Finally, the responses are equally distributed attending to the teaching experience, showing 24\% of responses from teachers with 5 or less years of experience, 27\% for 6-15 years of experience, 30\% for 16-25, and 19\% for teachers with more than 25 years of experience.
 
+\begin{figure}[t]
+\begin{center}
+    \begin{minipage}[t]{0.3\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/gender.pdf}
+    \end{minipage}
+    \begin{minipage}[t]{0.3\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/age.pdf}
+    \end{minipage}
+    \begin{minipage}[t]{0.3\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/sector.pdf}
+    \end{minipage}
+    
+    \vspace{0.5mm}
+    \begin{minipage}[t]{0.3\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/experience.pdf}
+    \end{minipage}
+    \begin{minipage}[t]{0.55\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/discipline.pdf}
+    \end{minipage}
+\end{center}
+    \caption{Sample population description. A total 282 teachers shown by gender, age, sector (university and vocational education), number of years of experience in education, and discipline.}
+\label{figure:teachers_population}
+\end{figure} 
+
 \subsection{RQ1 - Are teachers already using messaging apps in their classes?}
 
 %Why messaging apps are relevant here --> connect to the development of chatbots
