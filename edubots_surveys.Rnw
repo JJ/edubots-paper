@@ -297,12 +297,12 @@ We collected responses from a 282 teachers from Spain and Spanish Speaking count
 %Why messaging apps are relevant here --> connect to the development of chatbots
 Group messaging apps have become a powerful tool for keeping touch with students. Also, they are the baseline platform for the development of chatbots to help with the learning process. 
 
-According to the results summarized in Fig. \ref{figure:chatbots_use_gender_age_exp}, teachers mainly use the instant messaging app provided by their institutions (55\%),  and Whatsapp (44\%), the most popular messaging app in Spain. Finally, about 20\% also use Telegram. 
+According to the results summarized in Fig. \ref{figure:chatbots_use}, teachers mainly use the instant messaging app provided by their institutions (55\%),  and Whatsapp (44\%), the most popular messaging app in Spain. Finally, about 20\% also use Telegram. 
 Although gender differences are not significant, female teachers answered they use instant messaging apps more than male teachers (about 10\% more). Also, teachers in vocational Education also use Whatsapp more than university teachers.
 
 With respect to the distribution of the use of messaging apps per age, there are no significant differences for the Whatsapp and apps provided by their institutions. However, younger teachers use also Telegram with more than 25\%, a percentage that falls to about 10\% for teachers that are 55 or older. The third column compares the use of these apps considering the number of years of experience. One interesting result is that, contrarily to the idea of technology adaptation issues when considering older teachers, about 65\% of teachers with more than 25 years of experience use the platforms provided by their institutions while the percentage goes down to less than 50\% for teachers with 6-15 years of experience.
 
-\begin{figure}[t]
+\begin{figure}[!ht]
 \begin{center}
     \begin{minipage}[t]{0.30\textwidth}
 	    \centering
@@ -316,8 +316,19 @@ With respect to the distribution of the use of messaging apps per age, there are
 	    \centering
  	    \includegraphics[width=\textwidth]{figures/experience_provided.pdf}
     \end{minipage}
-    
-    \vspace{2mm}
+    %----
+    \vspace{0.5mm}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/sector_provided.pdf}
+    \end{minipage}
+    \begin{minipage}[t]{0.50\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/discipline_provided.pdf}
+    \end{minipage}
+    %----
+    %----
+    \vspace{0.5mm}
     \begin{minipage}[t]{0.30\textwidth}
 	    \centering
  	    \includegraphics[width=\textwidth]{figures/gender_whatsapp.pdf}
@@ -330,8 +341,19 @@ With respect to the distribution of the use of messaging apps per age, there are
 	    \centering
  	    \includegraphics[width=\textwidth]{figures/experience_whatsapp.pdf}
     \end{minipage}
-    
-    \vspace{2mm}
+    %----
+    \vspace{0.5mm}
+    \begin{minipage}[t]{0.30\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/sector_whatsapp.pdf}
+    \end{minipage}
+    \begin{minipage}[t]{0.50\textwidth}
+	    \centering
+ 	    \includegraphics[width=\textwidth]{figures/discipline_whatsapp.pdf}
+    \end{minipage}
+    %----
+    %----
+    \vspace{0.5mm}
     \begin{minipage}[t]{0.30\textwidth}
 	    \centering
  	    \includegraphics[width=\textwidth]{figures/gender_telegram.pdf}
@@ -344,35 +366,8 @@ With respect to the distribution of the use of messaging apps per age, there are
 	    \centering
  	    \includegraphics[width=\textwidth]{figures/experience_telegram.pdf}
     \end{minipage}
-\end{center}
-    \caption{Use of chatbots in class: distributions per gender and age. Teachers were specifically asked about two popular instant messaging apps (Whatsapp and Telegram), and the use of platforms already provided by their institutions different than these two ones.}
-\label{figure:chatbots_use_gender_age_exp}
-\end{figure} 
-
-Results in Fig. \ref{figure:chatbots_use_sector_discip} do not show differences in the use of instant messaging apps between teachers from University and vocational education. In general, most teachers prefer messaging apps provided by their own institutions. With respect to specific disciplines, Engineering and Technology teachers are more active in their use, although it is also relevant the amount of teachers from Humanities that answered they used these apps in their classes (around 60\% use the apps provided by their institutions).
-
-\begin{figure}[t]
-\begin{center}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/sector_provided.pdf}
-    \end{minipage}
-    \begin{minipage}[t]{0.50\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/discipline_provided.pdf}
-    \end{minipage}
-    
-    \vspace{2mm}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/sector_whatsapp.pdf}
-    \end{minipage}
-    \begin{minipage}[t]{0.50\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/discipline_whatsapp.pdf}
-    \end{minipage}
-    
-    \vspace{2mm}
+    %----
+    \vspace{0.5mm}
     \begin{minipage}[t]{0.30\textwidth}
 	    \centering
  	    \includegraphics[width=\textwidth]{figures/sector_telegram.pdf}
@@ -382,16 +377,44 @@ Results in Fig. \ref{figure:chatbots_use_sector_discip} do not show differences 
  	    \includegraphics[width=\textwidth]{figures/discipline_telegram.pdf}
     \end{minipage}
 \end{center}
-    \caption{Differences in the use of chatbots in class between vocational and university teaching and distributions by discipline.}
-\label{figure:chatbots_use_sector_discip}
+    \caption{Use of chatbots in class: distributions per gender, age, years of experience in education, university or vocational education, and discipline. Teachers were specifically asked about two popular instant messaging apps (Whatsapp and Telegram), and the use of platforms already provided by their institutions different than these two ones.}
+\label{figure:chatbots_use}
 \end{figure} 
+
+Results in Fig. \ref{figure:chatbots_use} do not show differences in the use of instant messaging apps between teachers from University and vocational education. In general, most teachers prefer messaging apps provided by their own institutions. With respect to specific disciplines, Engineering and Technology teachers are more active in their use, although it is also relevant the amount of teachers from Humanities that answered they used these apps in their classes (around 60\% use the apps provided by their institutions).
+
+%\begin{figure}[t]
+%\begin{center}
+%    \vspace{2mm}
+%    \begin{minipage}[t]{0.30\textwidth}
+%	    \centering
+% 	    \includegraphics[width=\textwidth]{figures/sector_whatsapp.pdf}
+%    \end{minipage}
+%    \begin{minipage}[t]{0.50\textwidth}
+%	    \centering
+% 	    \includegraphics[width=\textwidth]{figures/discipline_whatsapp.pdf}
+%    \end{minipage}
+%    
+%    \vspace{2mm}
+%    \begin{minipage}[t]{0.30\textwidth}
+%	    \centering
+% 	    \includegraphics[width=\textwidth]{figures/sector_telegram.pdf}
+%    \end{minipage}
+%    \begin{minipage}[t]{0.50\textwidth}
+%	    \centering
+% 	    \includegraphics[width=\textwidth]{figures/discipline_telegram.pdf}
+%    \end{minipage}
+%\end{center}
+%    \caption{Differences in the use of chatbots in class between vocational and university teaching and distributions by discipline.}
+%\label{figure:chatbots_use_sector_discip}
+%\end{figure} 
 
 Regarding the social factor of chat groups that teachers use in class, according to Fig. \ref{figure:chatbots_messagingorganization} the vast majority prefer small groups only with the students from the same course. These are more focused groups with specific goals and dedicated to the organization of the course and its tasks, and from the pedagogic point of view seem more appropriate to improve the learning process. Interestingly, about 30\% of teachers consider they should not be part of the chat group. Also, only university teachers find interesting a group with all the students and teachers in their own Faculty or School. The lack of teachers from vocational Education here may be the consequence of using specific language such as "Faculty". Moreover, the fact that many universities and schools already use these groups for administrative and social interaction (e.g. \cite{dibitonto2018chatbot}) might be the reason for the low percentage of teachers that selected this response.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/messaging_organization.pdf}
-\caption{XXX}
+\caption{Distribution of teachers' preferences for the chat groups with their students: from groups only with their students from a specific course to groups with greater social interaction with all students in their School or Faculty.}
 \label{figure:chatbots_messagingorganization}
 \end{figure} 
 
@@ -401,15 +424,15 @@ A few relevant facts from the collected data: teachers with 16-25 years of exper
 
 \begin{figure}[t]
 \begin{center}
-    \begin{minipage}[t]{0.47\textwidth}
+    \begin{minipage}[t]{0.75\textwidth}
 	    \centering
  	    \includegraphics[width=\textwidth]{figures/gender_covid.pdf}
     \end{minipage}
-    \begin{minipage}[t]{0.47\textwidth}
+    \begin{minipage}[t]{0.75\textwidth}
 	    \centering
  	    \includegraphics[width=\textwidth]{figures/sector_covid.pdf}
     \end{minipage}
-    \begin{minipage}[t]{0.47\textwidth}
+    \begin{minipage}[t]{0.75\textwidth}
 	    \centering
  	    \includegraphics[width=\textwidth]{figures/experience_covid.pdf}
     \end{minipage}
@@ -419,7 +442,6 @@ A few relevant facts from the collected data: teachers with 16-25 years of exper
 \end{figure} 
 
 \subsection{RQ2 - Which kind of chatbots would teachers find useful in their classes?}
-
 
 
 \begin{figure}[t]
