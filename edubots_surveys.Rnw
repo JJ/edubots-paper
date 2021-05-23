@@ -88,7 +88,7 @@
 %%                                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Chatbots in the classroom: an analysis from the teacher's perspective}
+\title{Chatbots and messaging platforms in the classroom: an analysis from the teacher's perspective}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
