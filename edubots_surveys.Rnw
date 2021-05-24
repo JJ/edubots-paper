@@ -74,7 +74,6 @@
 
 %%% Begin ...
 \begin{document}
-%\SweaveOpts{concordance=TRUE}
 
 %%% Start of article front matter
 \begin{frontmatter}
@@ -189,6 +188,7 @@ Introducing new technologies such as messaging platforms, and chatbots attached 
 % Antonio - En realidad, la comunidad afectada incluiría también a los estudiates, ¿no?
 % Por cierto, quizá también se podrían incluir aqui las encuestas pasadas a los estudiantes. No son las mismas preguntas, pero van en una línea similar. Quizá tuviesen cabida y le darían 
 % más enjundia al estudio. ;)
+% They are not part of this paper, Antonio. Also: write in English - JJ
 In this paper we have surveyed the opinions of tertiary education teachers based mainly in Spain and Spanish speaking countries, looking at what they think about the introduction of messaging platforms and chatbots, what their needs are, what kind of use cases they see for them, and in what kind of environment they think its use will be valuable. We will examine how and when these attitudes vary across gender, experience, and other factors, such as the kind of discipline they are teaching. Our conclusions might help with the adoption of messaging platforms, as well as chatbots or other kind of bots, by higher education institution, and how these must be introduced to teachers so that it helps them achieve desired educational outcomes.
 \end{abstract}
 
@@ -242,6 +242,16 @@ In this paper we have surveyed the opinions of tertiary education teachers based
 
 %%%%%%%%%%%%%%%%%%%%%%%%% start of article main body
 % <put your article body there>
+
+<<setup, echo=FALSE>>=
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(scales)
+library(ggthemes)
+
+data <- read.csv("data/survey-student-interaction-pilot-3-2021-EN.csv")
+@
 
 \section{Introduction}
 
@@ -514,19 +524,34 @@ A few relevant facts from the collected data: teachers with 16-25 years of exper
 \begin{center}
     \begin{minipage}[t]{0.33\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/gender_synch.pdf}
+<<gender_synch, echo=FALSE>>=
+ggplot(data, aes(x = Interaction.Synchrony..or.not., group = Gender)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male','PNTS'))) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
+@
+
+% 	    \includegraphics[width=\textwidth]{figures/gender_synch.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.33\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/age_synch.pdf}
+<<age_synch, echo=FALSE>>=
+ggplot(data, aes(x = Interaction.Synchrony..or.not., group = Age)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Age) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
+@
+% 	    \includegraphics[width=\textwidth]{figures/age_synch.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.35\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/experience_synch.pdf}
+<<experience_sync, echo=FALSE>>=
+ggplot(data, aes(x = Interaction.Synchrony..or.not., group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Experience) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
+@
+
+% 	    \includegraphics[width=\textwidth]{figures/experience_synch.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.6\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/discipline_synch.pdf}
+<<discipline_synch, echo=FALSE>>=
+ggplot(data, aes(x = Interaction.Synchrony..or.not., group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels=c('Biomedicine','Humanities','Social Sciences', "Sciences", "Tech/Engineering","No"))) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
+@
+
+% 	    \includegraphics[width=\textwidth]{figures/discipline_synch.pdf}
     \end{minipage}
 \end{center}
     \caption{Synchronous or asynchronous interaction.}
