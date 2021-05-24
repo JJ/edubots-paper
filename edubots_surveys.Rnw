@@ -243,7 +243,7 @@ In this paper we have surveyed the opinions of tertiary education teachers based
 %%%%%%%%%%%%%%%%%%%%%%%%% start of article main body
 % <put your article body there>
 
-<<setup, echo=FALSE>>=
+<<setup, echo=FALSE,message=FALSE>>=
 library(ggplot2)
 library(dplyr)
 library(tidyr)
