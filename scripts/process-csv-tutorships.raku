@@ -28,9 +28,8 @@ for @data -> %d {
 
       %d{"¿Qué características valora en los medios informáticos de interacción con el estudiante?"}:delete;
       %d{"Marca temporal"}:delete;
-
       my @degrees =
-        %d<Degrees>.split(/";"\s*/);
+        %d{"Titulaciones que imparte"}.split(/";"\s*/);
 
       for @degrees -> $d {
         given $d {
@@ -42,7 +41,7 @@ for @data -> %d {
         }
       }
 
-      %d<Degrees>:delete;
+      %d{"Titulaciones que imparte"}:delete;
       for %d.keys -> $k {
           %keys{$k} = 1;
       }
