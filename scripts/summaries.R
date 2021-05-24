@@ -2,14 +2,24 @@ library(psych)
 library(dplyr)
 library(tidyr)
 library(ggplot2)
+library(forcats)
 
 data <- read.csv("../data/survey-pilot-3-EN.csv")
+
+ggplot(data,aes(Age,Experience))+geom_point(aes(size=value),colour="green")
 
 data %>% group_by( Gender ) %>% summarise ( n = n() ) %>% mutate( freqGender = n/sum(n)) -> freq.Gender
 data %>% group_by( Age ) %>% summarise ( n = n() ) %>% mutate( freqAge = n/sum(n)) -> freq.Age
 data %>% group_by( Experience ) %>% summarise ( n = n() ) %>% mutate( freqExperience = n/sum(n)) -> freq.Experience
 data %>% group_by( Sector ) %>% summarise ( n = n() ) %>% mutate( freqSector = n/sum(n)) -> freq.Sector
 data %>% group_by( Discipline ) %>% summarise ( n = n() ) %>% mutate( freqDiscipline = n/sum(n)) -> freq.Discipline
+
+data %>%
+    mutate(Age = fct_relevel(Age,"25-35", "35-45", "45-55", "> 55")) %>%
+    mutate(Experience = fct_relevel(Experience, "0-05 years", "06-15 years", "16-25 years", "> 25 years" )) %>%
+    group_by( Age, Experience ) %>% summarise( n = n() ) %>% mutate( freq = n/sum(n)) -> Age.vs.Experience
+
+ggplot(Age.vs.Experience,aes(Age,Experience))+geom_point(aes(size=freq),colour="green")
 
 #aes(y = ..prop.., fill = factor(..x..)),
 ggplot(freq.Gender, aes(x=Gender, y=freqGender, fill=Gender)) + geom_bar(stat="identity")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank(),axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())
