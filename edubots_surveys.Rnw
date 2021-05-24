@@ -250,15 +250,22 @@ library(tidyr)
 library(scales)
 library(ggthemes)
 
+survey.pilot <- read.csv("data/survey-pilot-3-EN.csv")
+survey.pilot %>% group_by( Gender ) %>% summarise ( n = n() ) %>% mutate( freqGender = n/sum(n)) -> freq.Gender
+survey.pilot %>% group_by( Age ) %>% summarise ( n = n() ) %>% mutate( freqAge = n/sum(n)) -> freq.Age
+survey.pilot %>% group_by( Experience ) %>% summarise ( n = n() ) %>% mutate( freqExperience = n/sum(n)) -> freq.Experience
+survey.pilot %>% group_by( Sector ) %>% summarise ( n = n() ) %>% mutate( freqSector = n/sum(n)) -> freq.Sector
+survey.pilot %>% group_by( Discipline ) %>% summarise ( n = n() ) %>% mutate( freqDiscipline = n/sum(n)) -> freq.Discipline
+
 data <- read.csv("data/survey-student-interaction-pilot-3-2021-EN.csv")
 @
 
 \section{Introduction}
 
 % TODO: introduction
-The introduction of new technologies in the classroom needs a combination of teacher education, student willingness and (possibly new) skills in both. Some technologies are readily adapted, but some of them take a long time to be adopted. In most cases, the success or failure of the introduction of a new technology impinges on the colaboration of all the implied parties, which is why evaluating attitudes towards them is an essential first step.
+The introduction of new technologies in the classroom needs a combination of teacher education, student willingness and (possibly new) skills in both. Some technologies are readily adapted, but some of them take a long time to be adopted. In most cases, the success or failure of the introduction of a new technology impinges on the collaboration of all the implied parties, which is why evaluating attitudes towards them is an essential first step.
 
-In the framework of the Edubots KA2 European project, we are mainly concerned with the creation of best practices in the use of chatbots in higher education classrooms. A \textit{chatbot} is a program, based on Artificial Intelligence techniques, that allows a computer to communicate in a similar way as a human does \cite{Gong2008}, using natural language. Indeed, most of them would be, apparently, close to passing a classic Turing test \cite{moor2003turing}, since they are able to answer almost any speaker’s question fluently, and even ask other questions to the human.
+In the framework of the EduBots KA2 European project, we are mainly concerned with the creation of best practices in the use of chatbots in higher education classrooms. A \textit{chatbot} is a program, based on Artificial Intelligence techniques, that allows a computer to communicate in a similar way as a human does \cite{Gong2008}, using natural language. Indeed, most of them would be, apparently, close to passing a classic Turing test \cite{moor2003turing}, since they are able to answer almost any speaker’s question fluently, and even ask other questions to the human.
 
 The technology behind chatbots \cite{Gong2008,bradesko2012} has become an usual element in our everyday life, having played an important role in the development of many fields, including education and online tutoring \cite{clarizia2018,Smutny2020}, which is what we are mainly concerned with. These automatic systems ease personalized learning, 
 % customized en lugar de personalized? Por no repetir personalized dos veces en la misma frase
@@ -320,25 +327,46 @@ We collected responses from a 282 teachers from Spain and Spanish Speaking count
 \begin{center}
     \begin{minipage}[t]{0.3\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/gender.pdf}
+<<gender, echo=FALSE>>=
+ggplot(freq.Gender, aes(x=Gender, y=freqGender, fill=Gender)) + geom_bar(stat="identity")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank(),axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())
+@
+
+% 	    \includegraphics[width=\textwidth]{figures/gender.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.3\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/age.pdf}
+<<age,echo=FALSE>>=
+ggplot(freq.Age, aes(x=Age, y=freqAge, fill=Age)) + geom_bar(stat="identity")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank(),axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())
+@
+
+% 	    \includegraphics[width=\textwidth]{figures/age.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.3\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/sector.pdf}
+<<sector, echo=FALSE>>=
+ggplot(freq.Experience, aes(x=Experience, y=freqExperience, fill=Experience)) + geom_bar(stat="identity")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank(),axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())
+@
+
+
+% 	    \includegraphics[width=\textwidth]{figures/sector.pdf}
     \end{minipage}
     
     \vspace{0.5mm}
     \begin{minipage}[t]{0.3\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/experience.pdf}
+<<experience,echo=FALSE>>=
+ggplot(freq.Sector, aes(x=Sector, y=freqSector, fill=Sector)) + geom_bar(stat="identity")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank(),axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())
+@
+
+% 	    \includegraphics[width=\textwidth]{figures/experience.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.55\textwidth}
 	    \centering
- 	    \includegraphics[width=\textwidth]{figures/discipline.pdf}
+<<discipline,echo=FALSE>>=
+ggplot(freq.Discipline, aes(x=Discipline, y=freqDiscipline, fill=Discipline)) + geom_bar(stat="identity")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank(),axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())
+@
+
+% 	    \includegraphics[width=\textwidth]{figures/discipline.pdf}
     \end{minipage}
 \end{center}
     \caption{Sample population description. A total 282 teachers shown by gender, age, sector (university and vocational education), number of years of experience in education, and discipline.}
