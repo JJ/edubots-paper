@@ -27,10 +27,25 @@ for @data -> %d {
       }
 
       %d{"¿Qué características valora en los medios informáticos de interacción con el estudiante?"}:delete;
-    %d{"Marca temporal"}:delete;
-    for %d.keys -> $k {
-        %keys{$k} = 1;
-    }
+      %d{"Marca temporal"}:delete;
+
+      my @degrees =
+        %d<Degrees>.split(/";"\s*/);
+
+      for @degrees -> $d {
+        given $d {
+            when /Grado/ { %d<Graduate> = "Yes" };
+            when /Máster/ { %d<Master> = "Yes" };
+            when /Ciclos/ { %d<Vocational> = "Yes" };
+            when /Mayores/ { %d<Lifelong> = "Yes" };
+            when /propios/ { %d<LocalDegrees> = "Yes" };
+        }
+      }
+
+      %d<Degrees>:delete;
+      for %d.keys -> $k {
+          %keys{$k} = 1;
+      }
 }
 
 
