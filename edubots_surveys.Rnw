@@ -323,7 +323,7 @@ Regarding the factors for the adoption of chatbots in Education, many studies ha
 % Describe the survey and population
 We collected responses from a 282 teachers from Spain and Spanish Speaking countries. The sample includes teachers from university (68\%) and vocational Education (32\%). Regarding gender, 63\% are male teachers and 35\% female (approximately 2\% chose not to disclose it). Finally, the responses are equally distributed attending to the teaching experience, showing 24\% of responses from teachers with 5 or less years of experience, 27\% for 6-15 years of experience, 30\% for 16-25, and 19\% for teachers with more than 25 years of experience.
 
-\begin{figure}[t]
+\begin{figure}[h!tbp]
 \begin{center}
     \begin{minipage}[t]{0.3\textwidth}
 	    \centering
@@ -371,7 +371,25 @@ ggplot(freq.Discipline, aes(x=Discipline, y=freqDiscipline, fill=Discipline)) + 
 \end{center}
     \caption{Sample population description. A total 282 teachers shown by gender, age, sector (university and vocational education), number of years of experience in education, and discipline.}
 \label{figure:teachers_population}
-\end{figure} 
+\end{figure}
+%
+\begin{figure}[h!tbp]
+\begin{center}
+<<interaction,message=FALSE,echo=FALSE>>=
+library(forcats)
+data %>%
+    mutate(Age = fct_relevel(Age,"25-35", "35-45", "45-55", "> 55")) %>%
+    mutate(Experience = fct_relevel(Experience, "0-05 years", "06-15 years", "16-25 years", "> 25 years" )) %>%
+    group_by( Age, Experience ) %>% summarise( n = n() ) %>% mutate( freq = n/sum(n)) -> Age.vs.Experience
+
+ggplot(Age.vs.Experience,aes(Age,Experience))+geom_point(aes(size=freq),colour="green")
+@
+\end{center}
+\caption{Correlation between age and experience.}
+\label{figure:age.vs.exp}
+\end{figure}
+
+Figure \ref{figure:teachers_population} shows the distribution of age and experience are quite similar, and as a matter of fact, as Figure \ref{figure:age.vs.exp} age and experience are correlated strongly, with experience being roughly 20-30 years less than age. This might indicate that a differential analysis for age and experience will not yield significant differences, except maybe in the 6-15 years experience group, which is spread over all ages. At any rate, experience seems to be the dominating factor here and we'll use experience only unless we detect some significant difference by age.
 
 \subsection{RQ1 - Are teachers already using messaging apps in their classes?}
 
