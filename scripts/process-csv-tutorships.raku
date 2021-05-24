@@ -32,15 +32,16 @@ for @data -> %d {
         %d{"Titulaciones que imparte"}.split(/";"\s*/);
 
       for @degrees -> $d {
-        given $d {
-            when /Grado/ { %d<Graduate> = "Yes" };
-            when /Máster/ { %d<Master> = "Yes" };
-            when /Ciclos/ { %d<Vocational> = "Yes" };
-            when /Mayores/ { %d<Lifelong> = "Yes" };
-            when /propios/ { %d<LocalDegrees> = "Yes" };
-        }
+          given $d {
+              when /"Grado" $/ { %d<Graduate> = "Yes" };
+              when /Máster/ { %d<Master> = "Yes" };
+              when /Ciclos/ { %d<Vocational> = "Yes" };
+              when /Mayores/ { %d<Lifelong> = "Yes" };
+              when /propios/ { %d<LocalDegrees> = "Yes" };
+          }
       }
 
+      say %d;
       %d{"Titulaciones que imparte"}:delete;
       for %d.keys -> $k {
           %keys{$k} = 1;
