@@ -287,6 +287,7 @@ In the present work we aim to complement the aforementioned study with teacher a
 \end{itemize}
 
 
+% Add "the rest of the paper is organized as follows..." - JJ
 % ********************** STATE OF THE ART ****************************
 
 
