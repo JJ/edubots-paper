@@ -287,11 +287,12 @@ In the present work we aim to complement the aforementioned study with teacher a
 \end{itemize}
 
 
-% Add "the rest of the paper is organized as follows..." - JJ
+The rest of the paper is organized as follows. Next is an overview of what current research has found about the use of messaging applications, including chatbots, in the classroom. The methodology used in the survey is presented in Section \ref{sec:meth}, and the results of the survey are presented next in Section \ref{sec:res}. Finally, we discuss these results and conclude with a series of recommendations in the section that closes the paper.
+
 % ********************** STATE OF THE ART ****************************
 
-
 \section{State of the art}
+\label{sec:soa}
 
 It is essential, when implementing a educational chatbot strategy, to asses the needs of the community prior to implementation \cite{tsivitanidouusers}.
 
@@ -317,6 +318,7 @@ Regarding the factors for the adoption of chatbots in Education, many studies ha
 
 
 \section{Methodology}
+\label{sec:meth}
 
 Our intention from the beginning was to try and gather a sufficient amount of responses in all sectors, as well as cover different sectors of higher education. This is why we created a Google Form, in Spanish, which was intended to be answered in a very short amount of time. Initially, our intention was to mirror the questions used in \cite{MoraChatbos2021}; however, an initial exploration of results led us to create a second survey.
 % Questions should probably be included here.
@@ -328,6 +330,7 @@ The second survey followed the same paths, only in this case there was a single 
 % ********************** RESULTS ****************************
 
 \section{Results}
+\label{sec:res}
 
 % Describe the survey and population
 We collected responses from a 282 teachers from Spain and Spanish Speaking countries. The sample includes teachers from university (68\%) and vocational Education (32\%). Regarding gender, 63\% are male teachers and 35\% female (approximately 2\% chose not to disclose it). Finally, the responses are equally distributed attending to the teaching experience, showing 24\% of responses from teachers with 5 or less years of experience, 27\% for 6-15 years of experience, 30\% for 16-25, and 19\% for teachers with more than 25 years of experience.
