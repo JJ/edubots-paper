@@ -245,6 +245,7 @@ library(dplyr)
 library(tidyr)
 library(scales)
 library(ggthemes)
+library(tidyverse)
 
 survey.pilot <- read.csv("data/survey-pilot-3-EN.csv")
 survey.pilot %>% group_by( Gender ) %>% summarise ( n = n() ) %>% mutate( freqGender = n/sum(n)) -> freq.Gender
@@ -253,7 +254,19 @@ survey.pilot %>% group_by( Experience ) %>% summarise ( n = n() ) %>% mutate( fr
 survey.pilot %>% group_by( Sector ) %>% summarise ( n = n() ) %>% mutate( freqSector = n/sum(n)) -> freq.Sector
 survey.pilot %>% group_by( Discipline ) %>% summarise ( n = n() ) %>% mutate( freqDiscipline = n/sum(n)) -> freq.Discipline
 
-data <- read.csv("data/survey-student-interaction-pilot-3-2021-EN.csv")
+survey.pilot %>%  mutate(Messaging.Organization =str_split(Messaging.Organization, ", ")) %>% unnest(cols = c(Messaging.Organization)) -> survey.pilot.MessagingOrganization
+
+survey.pilot %>% group_by( PostCOVID.changes ) %>% filter( n() > 1 ) -> survey.pilot.postCOVID
+
+survey.pilot %>%  mutate(ChatbotType = ifelse(Agenda == "No","","Agenda,")) %>%
+  mutate(ChatbotType = ifelse(ClassMaterial == "No", paste(ChatbotType, "",sep=""), paste(ChatbotType, "ClassMaterial,",sep=""))) %>%
+  mutate(ChatbotType = ifelse(FAQ == "No",paste(ChatbotType, "",sep=""), paste(ChatbotType, "FAQ,",sep=""))) %>%
+  mutate(ChatbotType = ifelse(Grades == "No", paste(ChatbotType, "",sep=""), paste(ChatbotType, "Grades,",sep=""))) %>%
+  mutate(ChatbotType = ifelse(OtherBot == "No", paste(ChatbotType, "",sep=""), paste(ChatbotType, "OtherBot,",sep=""))) %>%
+  mutate(ChatbotType = substr(ChatbotType,1,nchar(ChatbotType)-1))-> survey.pilot.chatbottype
+survey.pilot.chatbottype %>%  mutate(ChatbotType =str_split(ChatbotType, ",")) %>% unnest(cols = c(ChatbotType)) -> survey.pilot.ChatbotType
+
+survey.student.interaction <- read.csv("data/survey-student-interaction-pilot-3-2021-EN.csv")
 @
 
 \section{Introduction}
@@ -338,47 +351,47 @@ We collected responses from  282 teachers from Spain and Spanish Speaking countr
 \begin{figure}[h!tbp]
 \begin{center}
     \begin{minipage}[t]{0.3\textwidth}
-	    \centering
-<<gender, echo=FALSE>>=
+        \centering
+<<gender, echo=FALSE, fig.width=3.2, fig.height=2.2>>=
 ggplot(freq.Gender, aes(x=Gender, y=freqGender, fill=Gender)) + geom_bar(stat="identity")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank(),axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())
 @
 
-% 	    \includegraphics[width=\textwidth]{figures/gender.pdf}
+%       \includegraphics[width=\textwidth]{figures/gender.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.3\textwidth}
-	    \centering
-<<age,echo=FALSE>>=
+        \centering
+<<age,echo=FALSE, fig.width=3.2, fig.height=2.2>>=
 ggplot(freq.Age, aes(x=Age, y=freqAge, fill=Age)) + geom_bar(stat="identity")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank(),axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())
 @
 
-% 	    \includegraphics[width=\textwidth]{figures/age.pdf}
+%       \includegraphics[width=\textwidth]{figures/age.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.3\textwidth}
-	    \centering
-<<sector, echo=FALSE>>=
+        \centering
+<<sector, echo=FALSE, fig.width=3.2, fig.height=2.2>>=
 ggplot(freq.Experience, aes(x=Experience, y=freqExperience, fill=Experience)) + geom_bar(stat="identity")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank(),axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())
 @
 
 
-% 	    \includegraphics[width=\textwidth]{figures/sector.pdf}
+%       \includegraphics[width=\textwidth]{figures/sector.pdf}
     \end{minipage}
     
     \vspace{0.5mm}
     \begin{minipage}[t]{0.3\textwidth}
-	    \centering
-<<experience,echo=FALSE>>=
+        \centering
+<<experience,echo=FALSE, fig.width=3.2, fig.height=2.2>>=
 ggplot(freq.Sector, aes(x=Sector, y=freqSector, fill=Sector)) + geom_bar(stat="identity")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank(),axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())
 @
 
-% 	    \includegraphics[width=\textwidth]{figures/experience.pdf}
+%       \includegraphics[width=\textwidth]{figures/experience.pdf}
     \end{minipage}
-    \begin{minipage}[t]{0.55\textwidth}
-	    \centering
-<<discipline,echo=FALSE>>=
+    \begin{minipage}[t]{0.6\textwidth}
+        \centering
+<<discipline,echo=FALSE, fig.width=5.75, fig.height=2.2>>=
 ggplot(freq.Discipline, aes(x=Discipline, y=freqDiscipline, fill=Discipline)) + geom_bar(stat="identity")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank(),axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())
 @
 
-% 	    \includegraphics[width=\textwidth]{figures/discipline.pdf}
+%       \includegraphics[width=\textwidth]{figures/discipline.pdf}
     \end{minipage}
 \end{center}
     \caption{Sample population description. A total 282 teachers shown by gender, age, sector (university and vocational education), number of years of experience in education, and discipline.}
@@ -387,9 +400,9 @@ ggplot(freq.Discipline, aes(x=Discipline, y=freqDiscipline, fill=Discipline)) + 
 %
 \begin{figure}[h!tbp]
 \begin{center}
-<<interaction,message=FALSE,echo=FALSE>>=
+<<interaction,message=FALSE,echo=FALSE, fig.height=2.0, fig.width=4.0>>=
 library(forcats)
-data %>%
+survey.student.interaction %>%
     mutate(Age = fct_relevel(Age,"25-35", "35-45", "45-55", "> 55")) %>%
     mutate(Experience = fct_relevel(Experience, "0-05 years", "06-15 years", "16-25 years", "> 25 years" )) %>%
     group_by( Age, Experience ) %>% summarise( n = n() ) %>% mutate( freq = n/sum(n)) -> Age.vs.Experience
@@ -415,80 +428,108 @@ Although gender differences are not significant, female teachers answered they u
 
 With respect to the distribution of the use of messaging apps per age, there are no significant differences for the Whatsapp and apps provided by their institutions. However, younger teachers use also Telegram with more than 25\%, a percentage that falls to about 10\% for teachers that are 55 or older. The third column compares the use of these apps considering the number of years of experience. One interesting result is that, contrarily to the idea of technology adaptation issues when considering older teachers, about 65\% of teachers with more than 25 years of experience use the platforms provided by their institutions while the percentage goes down to less than 50\% for teachers with 6-15 years of experience.
 
-\begin{figure}[!ht]
+\begin{figure}[h!tbp]
 \begin{center}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/gender_provided.pdf}
+    \begin{minipage}[t]{0.31\textwidth}
+        \centering
+<<gender_provided, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
+ggplot(survey.pilot, aes(x = Provided, group = Gender)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male','PNTS')))+ theme(axis.title.y=element_blank())
+@
+%       \includegraphics[width=\textwidth]{figures/gender_provided.pdf}
     \end{minipage}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/age_provided.pdf}
+    \begin{minipage}[t]{0.31\textwidth}
+        \centering
+<<experience_provided, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
+ggplot(survey.pilot, aes(x = Provided, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Experience)+ theme(axis.title.y=element_blank())
+@       
+%       \includegraphics[width=\textwidth]{figures/experience_provided.pdf}
     \end{minipage}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/experience_provided.pdf}
-    \end{minipage}
-    %----
-    \vspace{0.5mm}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/sector_provided.pdf}
-    \end{minipage}
-    \begin{minipage}[t]{0.50\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/discipline_provided.pdf}
-    \end{minipage}
-    %----
-    %----
-    \vspace{0.5mm}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/gender_whatsapp.pdf}
-    \end{minipage}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/age_whatsapp.pdf}
-    \end{minipage}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/experience_whatsapp.pdf}
+    \begin{minipage}[t]{0.31\textwidth}
+        \centering
+<<sector_provided, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
+ggplot(survey.pilot, aes(x = Provided, group = Sector)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Sector)+ theme(axis.title.y=element_blank())
+@       
+%       \includegraphics[width=\textwidth]{figures/sector_provided.pdf}
     \end{minipage}
     %----
-    \vspace{0.5mm}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/sector_whatsapp.pdf}
+    \vspace{0.2mm}
+    \hspace{10mm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \centering
+<<discipline_provided, echo=FALSE, fig.width=18.6/2.54, fig.height=7.7/2.54>>=
+ggplot(survey.pilot, aes(x = Provided, group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels=c('Biomedicine','Humanities','Social Sciences','Sciences','Engineering','Technology','No')))+ theme(axis.title.y=element_blank())
+@
+%       \includegraphics[width=\textwidth]{figures/discipline_provided.pdf}
     \end{minipage}
-    \begin{minipage}[t]{0.50\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/discipline_whatsapp.pdf}
-    \end{minipage}
+    \hspace{10mm}
     %----
     %----
     \vspace{0.5mm}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/gender_telegram.pdf}
+    \begin{minipage}[t]{0.31\textwidth}
+        \centering
+<<gender_whatsapp, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
+ggplot(survey.pilot, aes(x = WhatsApp, group = Gender)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male','PNTS')))+ theme(axis.title.y=element_blank())
+@
+%       \includegraphics[width=\textwidth]{figures/gender_whatsapp.pdf}
     \end{minipage}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/age_telegram.pdf}
+    \begin{minipage}[t]{0.31\textwidth}
+        \centering
+<<experience_whatsapp, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
+ggplot(survey.pilot, aes(x = WhatsApp, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Experience)+ theme(axis.title.y=element_blank())
+@       
+%       \includegraphics[width=\textwidth]{figures/experience_whatsapp.pdf}
     \end{minipage}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/experience_telegram.pdf}
+    \begin{minipage}[t]{0.31\textwidth}
+        \centering
+<<sector_whatsapp, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
+ggplot(survey.pilot, aes(x = WhatsApp, group = Sector)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Sector)+ theme(axis.title.y=element_blank())
+@       
+%       \includegraphics[width=\textwidth]{figures/sector_whatsapp.pdf}
     \end{minipage}
+    \vspace{0.2mm}
+    \hspace{10mm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \centering
+<<discipline_whatsapp, echo=FALSE, fig.width=18.6/2.54, fig.height=7.7/2.54>>=
+ggplot(survey.pilot, aes(x = WhatsApp, group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels=c('Biomedicine','Humanities','Social Sciences','Sciences','Engineering','Technology','No')))+ theme(axis.title.y=element_blank())
+@
+%       \includegraphics[width=\textwidth]{figures/discipline_whatsapp.pdf}
+    \end{minipage}
+    \hspace{10mm}
+    %----
     %----
     \vspace{0.5mm}
-    \begin{minipage}[t]{0.30\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/sector_telegram.pdf}
+    \begin{minipage}[t]{0.31\textwidth}
+        \centering
+<<gender_telegram, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
+ggplot(survey.pilot, aes(x = Telegram, group = Gender)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male','PNTS')))+ theme(axis.title.y=element_blank())
+@
+%       \includegraphics[width=\textwidth]{figures/gender_telegram.pdf}
     \end{minipage}
-    \begin{minipage}[t]{0.50\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/discipline_telegram.pdf}
+    \begin{minipage}[t]{0.31\textwidth}
+        \centering
+<<experience_telegram, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
+ggplot(survey.pilot, aes(x = Telegram, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Experience)+ theme(axis.title.y=element_blank())
+@       
+%       \includegraphics[width=\textwidth]{figures/experience_telegram.pdf}
     \end{minipage}
+    \begin{minipage}[t]{0.31\textwidth}
+        \centering
+<<sector_telegram, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
+ggplot(survey.pilot, aes(x = Telegram, group = Sector)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Sector)+ theme(axis.title.y=element_blank())
+@       
+%       \includegraphics[width=\textwidth]{figures/sector_telegram.pdf}
+    \end{minipage}
+    \vspace{0.2mm}
+    \hspace{10mm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \centering
+<<discipline_telegram, echo=FALSE, fig.width=18.6/2.54, fig.height=7.7/2.54>>=
+ggplot(survey.pilot, aes(x = Telegram, group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels=c('Biomedicine','Humanities','Social Sciences','Sciences','Engineering','Technology','No')))+ theme(axis.title.y=element_blank())
+@
+%       \includegraphics[width=\textwidth]{figures/discipline_telegram.pdf}
+    \end{minipage}
+    \hspace{10mm}
 \end{center}
     \caption{Use of chatbots in class: distributions per gender, age, years of experience in education, university or vocational education, and discipline. Teachers were specifically asked about two popular instant messaging apps (Whatsapp and Telegram), and the use of platforms already provided by their institutions different than these two ones.}
 \label{figure:chatbots_use}
@@ -524,30 +565,45 @@ Results in Fig. \ref{figure:chatbots_use} do not show differences in the use of 
 
 Regarding the social factor of chat groups that teachers use in class, according to Fig. \ref{figure:chatbots_messagingorganization} the vast majority prefer small groups only with the students from the same course. These are more focused groups with specific goals and dedicated to the organization of the course and its tasks, and from the pedagogic point of view seem more appropriate to improve the learning process. Interestingly, about 30\% of teachers consider they should not be part of the chat group. Also, only university teachers find interesting a group with all the students and teachers in their own Faculty or School. The lack of teachers from vocational Education here may be the consequence of using specific language such as "Faculty". Moreover, the fact that many universities and schools already use these groups for administrative and social interaction (e.g. \cite{dibitonto2018chatbot}) might be the reason for the low percentage of teachers that selected this response.
 
-\begin{figure}[t]
+\begin{figure}[h!tbp]
 \centering
-\includegraphics[width=\textwidth]{figures/messaging_organization.pdf}
+<<messaging_organization, echo=FALSE, fig.width=19/2.54, fig.height=5/2.54>>=
+survey.pilot.MessagingOrganization <- within(survey.pilot.MessagingOrganization, Messaging.Organization <- factor(Messaging.Organization, levels=names(sort(table(Messaging.Organization), decreasing=TRUE))))
+ggplot(survey.pilot.MessagingOrganization, aes( x = Messaging.Organization, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90))+coord_flip()+ theme(axis.title.y=element_blank())
+@
+%\includegraphics[width=\textwidth]{figures/messaging_organization.pdf}
 \caption{Distribution of teachers' preferences for the chat groups with their students: from groups only with their students from a specific course to groups with greater social interaction with all students in their School or Faculty.}
 \label{figure:chatbots_messagingorganization}
 \end{figure} 
+
 
 Some of the questions in the survey were focused on the impact of the COVID19 pandemic between 2020 and 2021, in the teachers' attitudes towards the instant messaging apps. The 273 answers are summarized in Fig. \ref{figure:chatbots_use_postcovid}, showing that about 77\% of teachers already used these tools before the pandemic and kept using them during the pandemic lockdowns that forced students and educators to use remote education schemes. Moreover, approximately 15\% of them switched their messaging app for one that offered a safer interaction with their students. According to the responses, an additional 16\% started using messaging apps during the pandemic for the first time in their classes. Aggregating the answers, currently 91\% of the teachers are using messaging apps as learning tools. 
 
 A few relevant facts from the collected data: teachers with 16-25 years of experience seem more worried about the security of messaging apps and teachers with up to 5 years of experience were more open to adopt messaging apps due to the pandemic; female teachers were more willing to adopt new platforms due to the pandemic, and even to start using safer alternatives; finally, university teachers that did not use them were more reluctant to start using them after the pandemic.
 
-\begin{figure}[t]
+\begin{figure}[h!tbp]
 \begin{center}
-    \begin{minipage}[t]{0.75\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/gender_covid.pdf}
+    \begin{minipage}[t]{0.85\textwidth}
+        \centering
+<<gender_covid, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
+survey.pilot.postCOVID <- within(survey.pilot.postCOVID, PostCOVID.changes <- factor(PostCOVID.changes, levels=names(sort(table(PostCOVID.changes), decreasing=TRUE))))
+ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Gender, fill = Gender ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+@
+%       \includegraphics[width=\textwidth]{figures/gender_covid.pdf}
     \end{minipage}
-    \begin{minipage}[t]{0.75\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/sector_covid.pdf}
+    \begin{minipage}[t]{0.85\textwidth}
+        \centering
+<<sector_covid, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
+ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+@
+%       \includegraphics[width=\textwidth]{figures/sector_covid.pdf}
     \end{minipage}
-    \begin{minipage}[t]{0.75\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/experience_covid.pdf}
+    \begin{minipage}[t]{0.85\textwidth}
+        \centering
+<<experience_covid, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
+ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Experience, fill = Experience ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+@       
+%       \includegraphics[width=\textwidth]{figures/experience_covid.pdf}
     \end{minipage}
 \end{center}
     \caption{Impact of COVID in the use of messaging apps in University and vocational education.}
@@ -557,19 +613,29 @@ A few relevant facts from the collected data: teachers with 16-25 years of exper
 \subsection{RQ2 - Which kind of chatbots would teachers find useful in their classes?}
 
 
-\begin{figure}[t]
+\begin{figure}[h!tbp]
 \begin{center}
-    \begin{minipage}[t]{0.47\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/gender_chatbottype.pdf}
+    \begin{minipage}[t]{0.85\textwidth}
+        \centering
+<<gender_chatbottype, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
+survey.pilot.ChatbotType <- within(survey.pilot.ChatbotType, ChatbotType <- factor(ChatbotType, levels=names(sort(table(ChatbotType), decreasing=TRUE))))
+ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Gender, fill = Gender ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+@
+%       \includegraphics[width=\textwidth]{figures/gender_chatbottype.pdf}
     \end{minipage}
-    \begin{minipage}[t]{0.47\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/sector_chatbottype.pdf}
+    \begin{minipage}[t]{0.85\textwidth}
+        \centering
+<<sector_chatbottype, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
+ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+@       
+%       \includegraphics[width=\textwidth]{figures/sector_chatbottype.pdf}
     \end{minipage}
-    \begin{minipage}[t]{0.47\textwidth}
-	    \centering
- 	    \includegraphics[width=\textwidth]{figures/experience_chatbottype.pdf}
+    \begin{minipage}[t]{0.85\textwidth}
+        \centering
+<<experience_chatbottype, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
+ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Experience, fill = Experience ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+@       
+%       \includegraphics[width=\textwidth]{figures/experience_chatbottype.pdf}
     \end{minipage}
 \end{center}
     \caption{Types of chatbots.}
@@ -577,41 +643,31 @@ A few relevant facts from the collected data: teachers with 16-25 years of exper
 \end{figure} 
 
 
-\subsection{RQ2 - Which kind of interaction do teachers prefer with their students?}
+\subsection{RQ3 - Which kind of interaction do teachers prefer with their students?}
 
 
-\begin{figure}[t]
+\begin{figure}[h!tbp]
 \begin{center}
-    \begin{minipage}[t]{0.33\textwidth}
-	    \centering
-<<gender_synch, echo=FALSE>>=
-ggplot(data, aes(x = Interaction.Synchrony..or.not., group = Gender)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male','PNTS'))) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
+    \begin{minipage}[t]{0.3\textwidth}
+        \centering
+<<gender_synch, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
+ggplot(survey.student.interaction, aes(x = Interaction.Synchrony..or.not., group = Gender)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male','PNTS'))) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
 @
-
-% 	    \includegraphics[width=\textwidth]{figures/gender_synch.pdf}
+%       \includegraphics[width=\textwidth]{figures/gender_synch.pdf}
     \end{minipage}
-    \begin{minipage}[t]{0.33\textwidth}
-	    \centering
-<<age_synch, echo=FALSE>>=
-ggplot(data, aes(x = Interaction.Synchrony..or.not., group = Age)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Age) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
+    \begin{minipage}[t]{0.3\textwidth}
+        \centering
+<<experience_sync, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
+ggplot(survey.student.interaction, aes(x = Interaction.Synchrony..or.not., group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Experience) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
 @
-% 	    \includegraphics[width=\textwidth]{figures/age_synch.pdf}
-    \end{minipage}
-    \begin{minipage}[t]{0.35\textwidth}
-	    \centering
-<<experience_sync, echo=FALSE>>=
-ggplot(data, aes(x = Interaction.Synchrony..or.not., group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Experience) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
-@
-
-% 	    \includegraphics[width=\textwidth]{figures/experience_synch.pdf}
+%       \includegraphics[width=\textwidth]{figures/experience_synch.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.6\textwidth}
-	    \centering
-<<discipline_synch, echo=FALSE>>=
-ggplot(data, aes(x = Interaction.Synchrony..or.not., group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels=c('Biomedicine','Humanities','Social Sciences', "Sciences", "Tech/Engineering","No"))) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
+        \centering
+<<discipline_synch, echo=FALSE, fig.width=18.6/2.54, fig.height=7.7/2.54>>=
+ggplot(survey.student.interaction, aes(x = Interaction.Synchrony..or.not., group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels=c('Biomedicine','Humanities','Social Sciences', "Sciences", "Tech/Engineering","No"))) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
 @
-
-% 	    \includegraphics[width=\textwidth]{figures/discipline_synch.pdf}
+%       \includegraphics[width=\textwidth]{figures/discipline_synch.pdf}
     \end{minipage}
 \end{center}
     \caption{Synchronous or asynchronous interaction.}
