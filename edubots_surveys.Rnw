@@ -281,7 +281,7 @@ Given the potential advantages that chatbots could bring to the classroom, as a 
 In the present work we aim to complement the aforementioned study with teacher attitudes; teachers are the ones that actually would need to implement, configure and maybe program chatbots. Thus, we have performed a survey among 300 teachers asking about their attitudes towards the use of bots or chatbots in their classes. We analyse their responses, since we are interested in discussing implications and the impact for the development of future technology-enhanced tools and the Education institutions policies regarding the following research questions:
 \begin{itemize}
 \item{ RQ1 - Are teachers already using messaging apps in their classes? } %This was the second survey, not the  first survey. I wonder if maybe we could invert the presentation order - JJ
-\item{ RQ2 - Which kind of chatbots would teachers find useful in their classes?? }
+\item{ RQ2 - Which kind of chatbots would teachers find useful in their classes? }
 \item{ RQ3 - Which kind of interaction do teachers prefer with their students? }
 
 \end{itemize}
