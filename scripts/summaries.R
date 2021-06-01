@@ -29,7 +29,6 @@ survey.interaction %>% group_by( Experience ) %>% summarise ( n = n() ) %>% muta
 survey.interaction %>% group_by( Sector ) %>% summarise ( n = n() ) %>% mutate( freqSector = n/sum(n)) -> freqInteraction.Sector
 survey.interaction %>% group_by( Discipline ) %>% summarise ( n = n() ) %>% mutate( freqDiscipline = n/sum(n)) -> freqInteraction.Discipline
 
-
 freq.Gender$source<-rep("survey1")
 freqInteraction.Gender$source<-rep("survey2")
 freqbinded.Gender <- rbind(freq.Gender, freqInteraction.Gender)
@@ -48,18 +47,31 @@ freqbinded.Experience <- rbind(freq.Experience, freqInteraction.Experience)
 freqbinded.Experience$source <- factor(freqbinded.Experience$source) 
 ggplot(freqbinded.Experience, aes(x = Experience, y=freqExperience, fill = source)) + geom_bar(stat="identity", position = "dodge")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank())
 
+
+survey.interaction %>% group_by( Vocational ) %>% summarise ( n = n() ) %>% mutate( freqSector = n/sum(n)) -> freqInteraction.Sector
+freqInteraction.Sector$Sector <- freqInteraction.Sector$Vocational
+freqInteraction.Sector %>% mutate(Sector = ifelse(as.character(Vocational) == "Yes", "Vocational", "University")) -> freqInteraction.Sector
+freqInteraction.Sector <- freqInteraction.Sector[-c(1)]
 freq.Sector$source<-rep("survey1")
 freqInteraction.Sector$source<-rep("survey2")
 freqbinded.Sector <- rbind(freq.Sector, freqInteraction.Sector)
 freqbinded.Sector$source <- factor(freqbinded.Sector$source) 
 ggplot(freqbinded.Sector, aes(x = Sector, y=freqSector, fill = source)) + geom_bar(stat="identity", position = "dodge")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank())
 
-freq.Discipline$source<-rep("survey1")
-freqInteraction.Discipline$source<-rep("survey2")
-freqbinded.Discipline <- rbind(freq.Discipline, freqInteraction.Discipline)
-freqbinded.Discipline$source <- factor(freqbinded.Discipline$source) 
-ggplot(freqbinded.Discipline, aes(x = Discipline, y=freqDiscipline, fill = source)) + geom_bar(stat="identity", position = "dodge")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank())
 
+freqInteraction.Discipline %>%mutate(Discipline = ifelse(as.character(Discipline) == "No", "Other", as.character(Discipline))) -> freqInteraction.Discipline2
+freq.Discipline %>% mutate(Discipline = ifelse(as.character(Discipline) == "No", "Other", as.character(Discipline))) %>%
+                    mutate(n = ifelse(as.character(Discipline) =="Engineering", sum(n[as.character(Discipline)=="Engineering" | as.character(Discipline)=="Technology"]), n)) %>%
+                    mutate(Discipline = ifelse(as.character(Discipline) == "Engineering", "Tech/Engineering", as.character(Discipline))) %>%
+                    subset(as.character(Discipline) != "Technology")-> freq.Discipline2
+
+freq.Discipline2$source<-rep("survey1")
+freqInteraction.Discipline2$source<-rep("survey2")
+freqbinded.Discipline <- rbind(freq.Discipline2, freqInteraction.Discipline2)
+freqbinded.Discipline$source <- factor(freqbinded.Discipline$source) 
+freqbinded.Discipline$Discipline <- factor(freqbinded.Discipline$Discipline, levels = c("Biomedicine", "Humanities", "Social Sciences", "Sciences", "Tech/Engineering", "Other"))
+ggplot(freqbinded.Discipline, aes(x = Discipline, y=freqDiscipline, fill = source)) + geom_bar(stat="identity", position = "dodge")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank())
+ggsave('../figures/cozas.pdf')
 
 #ggplot(freq.Gender, aes(x=Gender, y=freqGender, fill=Gender)) + geom_bar(stat="identity")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank(),axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())
 #ggsave('../figures/gender.pdf', width = 80, height = 55, units = "mm")
