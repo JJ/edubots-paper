@@ -71,7 +71,7 @@ freqbinded.Discipline <- rbind(freq.Discipline2, freqInteraction.Discipline2)
 freqbinded.Discipline$source <- factor(freqbinded.Discipline$source) 
 freqbinded.Discipline$Discipline <- factor(freqbinded.Discipline$Discipline, levels = c("Biomedicine", "Humanities", "Social Sciences", "Sciences", "Tech/Engineering", "Other"))
 ggplot(freqbinded.Discipline, aes(x = Discipline, y=freqDiscipline, fill = source)) + geom_bar(stat="identity", position = "dodge")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank())
-ggsave('../figures/cozas.pdf')
+
 
 #ggplot(freq.Gender, aes(x=Gender, y=freqGender, fill=Gender)) + geom_bar(stat="identity")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank(),axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())
 #ggsave('../figures/gender.pdf', width = 80, height = 55, units = "mm")

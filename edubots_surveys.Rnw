@@ -266,6 +266,11 @@ survey.pilot %>%  mutate(ChatbotType = ifelse(Agenda == "No","","Agenda,")) %>%
   mutate(ChatbotType = substr(ChatbotType,1,nchar(ChatbotType)-1))-> survey.pilot.chatbottype
 survey.pilot.chatbottype %>%  mutate(ChatbotType =str_split(ChatbotType, ",")) %>% unnest(cols = c(ChatbotType)) -> survey.pilot.ChatbotType
 
+
+survey.pilot %>%mutate(Discipline = ifelse(as.character(Discipline) == "No", "Other", as.character(Discipline))) %>%
+  mutate(Discipline = ifelse(as.character(Discipline) == "Engineering", "Tech/Engineering", as.character(Discipline))) %>%
+  mutate(Discipline = ifelse(as.character(Discipline) == "Technology", "Tech/Engineering", as.character(Discipline)))->survey.pilot.Discipline
+
 survey.interaction <- read.csv("data/survey-student-interaction-pilot-3-2021-EN.csv")
 survey.interaction %>% group_by( Gender ) %>% summarise ( n = n() ) %>% mutate( freqGender = n/sum(n)) -> freqInteraction.Gender
 survey.interaction %>% group_by( Age ) %>% summarise ( n = n() ) %>% mutate( freqAge = n/sum(n)) -> freqInteraction.Age
@@ -492,7 +497,8 @@ ggplot(survey.pilot, aes(x = Provided, group = Sector)) + geom_bar(aes(y = ..pro
     \begin{minipage}[t]{0.5\textwidth}
         \centering
 <<discipline_provided, echo=FALSE, fig.width=18.6/2.54, fig.height=7.7/2.54>>=
-ggplot(survey.pilot, aes(x = Provided, group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels=c('Biomedicine','Humanities','Social Sciences','Sciences','Engineering','Technology','No')))+ theme(axis.title.y=element_blank())
+
+ggplot(survey.pilot.Discipline, aes(x = Provided, group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels = c("Biomedicine", "Humanities", "Social Sciences", "Sciences", "Tech/Engineering", "Other")))+ theme(axis.title.y=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/discipline_provided.pdf}
     \end{minipage}
@@ -526,7 +532,7 @@ ggplot(survey.pilot, aes(x = WhatsApp, group = Sector)) + geom_bar(aes(y = ..pro
     \begin{minipage}[t]{0.5\textwidth}
         \centering
 <<discipline_whatsapp, echo=FALSE, fig.width=18.6/2.54, fig.height=7.7/2.54>>=
-ggplot(survey.pilot, aes(x = WhatsApp, group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels=c('Biomedicine','Humanities','Social Sciences','Sciences','Engineering','Technology','No')))+ theme(axis.title.y=element_blank())
+ggplot(survey.pilot.Discipline, aes(x = WhatsApp, group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels = c("Biomedicine", "Humanities", "Social Sciences", "Sciences", "Tech/Engineering", "Other")))+ theme(axis.title.y=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/discipline_whatsapp.pdf}
     \end{minipage}
@@ -560,7 +566,7 @@ ggplot(survey.pilot, aes(x = Telegram, group = Sector)) + geom_bar(aes(y = ..pro
     \begin{minipage}[t]{0.5\textwidth}
         \centering
 <<discipline_telegram, echo=FALSE, fig.width=18.6/2.54, fig.height=7.7/2.54>>=
-ggplot(survey.pilot, aes(x = Telegram, group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels=c('Biomedicine','Humanities','Social Sciences','Sciences','Engineering','Technology','No')))+ theme(axis.title.y=element_blank())
+ggplot(survey.pilot.Discipline, aes(x = Telegram, group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels = c("Biomedicine", "Humanities", "Social Sciences", "Sciences", "Tech/Engineering", "Other")))+ theme(axis.title.y=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/discipline_telegram.pdf}
     \end{minipage}
