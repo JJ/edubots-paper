@@ -26,12 +26,12 @@ for @data -> %d {
 
       for @platforms -> $p {
         given $p {
-            when /Whatsapp/ { %d<WhatsApp> = "Yes" };
-            when /Telegram/ { %d<Telegram> = "Yes" };
-            when /lataforma/ { %d<Provided> = "Yes" };
-            when /Ninguna/ { %d<None> = "Yes" };
-            when /Slack/ { %d<Slack> = "Yes" };
-            default { %d<Other> = "Yes" }
+            when /Whatsapp/ { %d<MessagingPlatformWhatsApp> = "Yes" };
+            when /Telegram/ { %d<MessagingPlatformTelegram> = "Yes" };
+            when /lataforma/ { %d<MessagingPlatformProvided> = "Yes" };
+            when /Ninguna/ { %d<MessagingPlatformNone> = "Yes" };
+            when /Slack/ { %d<MessagingPlatformSlack> = "Yes" };
+            default { %d<MessagingPlatformOther> = "Yes" }
         }
       }
 }
@@ -46,10 +46,10 @@ for @data -> %d {
 
       for @bots -> $b {
         given $b {
-            when /agenda/ { %d<Agenda> = "Yes" };
-            when /frecuentes/ { %d<FAQ> = "Yes" };
-            when /notas/ { %d<Grades> = "Yes" };
-            when /material/ { %d<ClassMaterial> = "Yes" };
+            when /agenda/ { %d<AgendaBot> = "Yes" };
+            when /frecuentes/ { %d<FAQBot> = "Yes" };
+            when /notas/ { %d<GradesBot> = "Yes" };
+            when /material/ { %d<ClassMaterialBot> = "Yes" };
             default { %d<OtherBot> = "Yes" }
         }
       }
