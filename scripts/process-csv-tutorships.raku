@@ -13,15 +13,15 @@ for @data -> %d {
 
       for @features -> $f {
         given $f {
-            when /familiaridad/ { %d<Familiarity> = "Yes" };
-            when /formación/ { %d<OfficialFormation> = "Yes" };
-            when /unidireccional/ { %d<Unidirecionality> = "Yes" };
-            when /jerárquicos/ { %d<Horizontality> = "Yes" };
-            when /conexión/ { %d<Connectivity> = "Yes" };
-            when /añadir/ { %d<Pluggability> = "Yes" };
-            when /ocultar/ { %d<HiddenPhone> = "Yes" };
-            when /preocupar/ { %d<Sustainability> = "Yes" };
-            when /extraer/ { %d<Analytics> = "Yes" };
+            when /familiaridad/ { %d<InteractionMediaFamiliarity> = "Yes" };
+            when /formación/ { %d<InteractionMediaOfficialFormation> = "Yes" };
+            when /unidireccional/ { %d<InteractionMediaUnidirecionality> = "Yes" };
+            when /jerárquicos/ { %d<InteractionMediaHorizontality> = "Yes" };
+            when /conexión/ { %d<InteractionMediaConnectivity> = "Yes" };
+            when /añadir/ { %d<InteractionMediaPluggability> = "Yes" };
+            when /ocultar/ { %d<InteractionMediaHiddenPhone> = "Yes" };
+            when /preocupar/ { %d<InteractionMediaSustainability> = "Yes" };
+            when /extraer/ { %d<InteractionMediaAnalytics> = "Yes" };
             default { %d<Other> = "Yes" }
         }
       }
@@ -33,11 +33,11 @@ for @data -> %d {
 
       for @degrees -> $d {
           given $d {
-              when /"Grado" $/ { %d<Graduate> = "Yes" };
-              when /Máster/ { %d<Master> = "Yes" };
-              when /Ciclos/ { %d<Vocational> = "Yes" };
-              when /Mayores/ { %d<Lifelong> = "Yes" };
-              when /propios/ { %d<LocalDegrees> = "Yes" };
+              when /"Grado" $/ { %d<DegreesGraduate> = "Yes" };
+              when /Máster/ { %d<DegreesMaster> = "Yes" };
+              when /Ciclos/ { %d<DegreesVocational> = "Yes" };
+              when /Mayores/ { %d<DegreesLifelong> = "Yes" };
+              when /propios/ { %d<DegreesLocalDegrees> = "Yes" };
           }
       }
 
