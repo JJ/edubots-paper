@@ -459,8 +459,7 @@ which can perform initial assessments of students' understanding and
 provide learning material that would advance their understanding to
 the next level.
 
-Regarding the factors for the adoption of chatbots in higher
-education, many studies have focused on the evaluation of technology
+As in any new technology, it's important to ascertain which factors will help or impede its adoption; this is why many studies have focused on the evaluation of technology
 acceptance and usability \cite{Roblyer2010,Pimmer2019}. However,
 higher education is a special domain where according to
 \cite{hobert2019you}, specific pedagogical factors such as learning
@@ -469,6 +468,8 @@ develop efficient chatbots for higher education, all stakeholders'
 (i.e. educators, students, institutions, etc) expectations needs to be
 carefully collected and taken into consideration
 \cite{sjostrom2018designing,tsivitanidouusers}.
+
+This is why this paper is focused on which factors are considered the most important by the people that are going to use them. We spread our survey over university as well as other higher education institution, so that we find out if there's any kind of difference between long-cycle, degree oriented institutions (universities) and vocational/professionally oriented institutions (elsewhere known as "polytechnics" or "vocational training" institutions, in Spain known as high schools).
 
 
 \section{Methodology}
