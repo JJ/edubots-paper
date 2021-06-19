@@ -401,7 +401,7 @@ and Dina \cite{santoso2018dinus}, both chatbots respond to students'
 questions about enrollment and registration. Ask
 L.U. \cite{LancasterUniversity_2019} answers students' frequently
 asked questions about timetables, grades, tutors and societies. LISA
-\cite{dibitonto2018chatbot} and Differ \cite{differchat} facilitate
+\cite{dibitonto2018chatbot} and Differ \cite{differ.chat} facilitate
 breaking the ice between new students by introducing them to each
 other.  \cite{ranoliya2017chatbot} proposed a generic chatbot for
 university students that is able to answer their frequently asked
