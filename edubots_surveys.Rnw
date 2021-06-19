@@ -184,8 +184,23 @@
 \begin{abstractbox}
 
 \begin{abstract} % abstract
-Introducing new technologies such as messaging platforms, and chatbots attached to it, in higher education, requires careful consideration of all options, but above all, an examination of the attitudes of the affected community, especially those that will need to handle them, teachers. 
-In this paper we have surveyed the opinions of tertiary education teachers based mainly in Spain and Spanish speaking countries, looking at what they think about the introduction of messaging platforms and chatbots, what their needs are, what kind of use cases they see for them, and in what kind of environment they think its use will be valuable. We will examine how and when these attitudes vary across gender, experience, and other factors, such as the kind of discipline they are teaching. Our conclusions might help with the adoption of messaging platforms in an educational setting, as well as chatbots or other kind of bots, by higher education institution, and how these must be introduced to teachers so that it helps them achieve desired educational outcomes.
+Introducing new technologies such as messaging platforms, and chatbots
+attached to it, in higher education, requires careful consideration of
+all options, but above all, an examination of the attitudes of the
+affected community, especially those that will need to handle them,
+teachers.
+In this paper we have surveyed the opinions of tertiary education
+teachers based mainly in Spain and Spanish speaking countries, looking
+at what they think about the introduction of messaging platforms and
+chatbots, what their needs are, what kind of use cases they see for
+them, and in what kind of environment they think its use will be
+valuable. We will examine how and when these attitudes vary across
+gender, experience, and other factors, such as the kind of discipline
+they are teaching. Our conclusions might help with the adoption of
+messaging platforms in an educational setting, as well as chatbots or
+other kind of bots, by higher education institution, and how these
+must be introduced to teachers so that it helps them achieve desired
+educational outcomes. 
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -325,39 +340,131 @@ The rest of the paper is organized as follows. Next is an overview of what curre
 \section{State of the art}
 \label{sec:soa}
 
-<<<<<<< HEAD
 % The Use of Mobile Instant Messaging (MIM) Platforms in Higher Education
-The widespread and rapid adoption of free Mobile Instant messaging (MIM) tools/platforms such as WhatsApp, Telegram, WeChat and Facebook Messenger stems from their simplicity, ease of use and multi-modality (i.e. video, audio, text) \cite{tang2017mobile}.  Using these tools in higher education can facilitate the delivery of personalised learning that occurs anytime anywhere, promote collaborative learning experiences and group discussions \cite{panah2020study}. WhatsApp is the most popular MIM platform used by educators to give assignments' feedback to students, support course discussions and provide learning resources in informal learning settings \cite{panah2020study}.  The use of WhatsApp in higher education could enhance social presence \cite{tang2017mobile} and foster trust relationships between educators and students embedded in the social learning process \cite{gachago2015crossing}. 
+The widespread and rapid adoption of free Mobile Instant messaging
+(MIM) tools/platforms such as WhatsApp, Telegram, WeChat and Facebook
+Messenger stems from their simplicity, ease of use and multi-modality
+(i.e. video, audio, text) \cite{tang2017mobile}.  Using these tools in
+higher education can facilitate the delivery of personalised learning
+that occurs anytime anywhere, promote collaborative learning
+experiences and group discussions \cite{panah2020study}. WhatsApp is
+the most popular MIM platform used by educators to give assignments'
+feedback to students, support course discussions and provide learning
+resources in informal learning settings \cite{panah2020study}.  The
+use of WhatsApp in higher education could enhance social presence
+\cite{tang2017mobile} and foster trust relationships between educators
+and students embedded in the social learning process
+\cite{gachago2015crossing}.
 
-Nevertheless, there are challenges when using MIM tools that occur due to the blurring of boundaries between academic and private life. This can lead to technostress \cite{gachago2015crossing}, difficulty in managing responsibilities especially among mature students and lack of privacy \cite{tang2017mobile}.  Students' dropout of the MIM groups, as they can leave groups at any time can hinder their learning and undermine educators' efforts \cite{mwakapina2016whatsapp}.  In addition, there is a need to set rules and norms for these MIM groups in order to maintain the safety of these online communities for students \cite{abbas2021onlinechat} without affecting students' ownership and control that is vital to advance their learning \cite{gachago2015crossing}.
+Nevertheless, there are challenges when using MIM tools that occur due
+to the blurring of boundaries between academic and private life. This
+can lead to technostress \cite{gachago2015crossing}, difficulty in
+managing responsibilities especially among mature students and lack of
+privacy \cite{tang2017mobile}.  Students' dropout of the MIM groups,
+as they can leave groups at any time can hinder their learning and
+undermine educators' efforts \cite{mwakapina2016whatsapp}.  In
+addition, there is a need to set rules and norms for these MIM groups
+in order to maintain the safety of these online communities for
+students \cite{abbas2021onlinechat} without affecting students'
+ownership and control that is vital to advance their learning
+\cite{gachago2015crossing}.
 
 % The Use of Chatbots in Higher Education
-The use of conversational agents or chatbots in higher education is still at its infancy \cite{yang2019opportunities}. Nevertheless, recent studies examining their positive impact on students' academic performance \cite{perez2020rediscovering} and engagement \cite{differ.chat}(Abbas et al., 2021b) have led to a growing interest in using this technology in classes. Indeed, the use of chatbots in collecting course feedback from students in higher education improved students' response quality and boosted their enjoyment levels \cite{abbas2021Surveys}.  According to \cite{Roblyer2010}, using either tools such as mobile devices or teaching strategies based on gamification \cite{Yildirim2017} can improve student motivation. In this sense, \cite{Pimmer2019} carried out a series of experiments with technological tools whose results showed positive perception and acceptance of the use of technology in teaching and learning.
+The use of conversational agents or chatbots in higher education is
+still at its infancy \cite{yang2019opportunities}. Nevertheless,
+recent studies examining their positive impact on students' academic
+performance \cite{perez2020rediscovering} and engagement
+\cite{differ.chat,abbas2021onlinechat} have led to a growing interest
+in using this technology in classes. Indeed, the use of chatbots in
+collecting course feedback from students in higher education improved
+students' response quality and boosted their enjoyment levels
+\cite{abbas2021Surveys}.  According to \cite{Roblyer2010}, using
+either tools such as mobile devices or teaching strategies based on
+gamification \cite{Yildirim2017} can improve student motivation. In
+this sense, \cite{Pimmer2019} carried out a series of experiments with
+technological tools whose results showed positive perception and
+acceptance of the use of technology in teaching and learning.
 
-Several higher education chatbots' evaluation studies were undertaken. For instance, an evaluation review study presented by \cite{Smutny2020} examined 47 educational chatbots implemented in Facebook Messenger with the focus to identify characteristics and quality metric such as language, subject matter and platform. Another study aimed to categorise educational chatbots according to their purpose into service-oriented and teaching-oriented \cite{perez2020rediscovering}. The first category includes those that provide service support such as the chatbot Ask Holly \cite{meetholly} and Dina \cite{santoso2018dinus}, both chatbots respond to students' questions about enrolment and registration. Ask L.U. \cite{LancasterUniversity_2019} answers students' frequently asked questions about timetables, grades, tutors and societies. LISA \cite{dibitonto2018chatbot} and Differ \cite{differchat} facilitate breaking the ice between new students by introducing them to each other.  \cite{ranoliya2017chatbot} proposed a generic chatbot for university students that is able to answer their frequently asked questions; for some time, the University of Granada had ELVIRA as a chatbot in their main page \cite{MOREO20129}. Besides being able to answer pre-established (frequent) questions, it did so from the main University of Granada using an inset character, voiced by a real person, who lip-synched the answers. The emphasis in this case, however, was on the authenticity of the synchronization more than in making the update of questions and answers simpler, or more interactive, using actual messaging platforms. In most cases, using the inset search engine was able to give you more up-to-date and accurate answers.
+Several higher education chatbots' evaluation studies were
+undertaken. For instance, an evaluation review study presented by
+\cite{Smutny2020} examined 47 educational chatbots implemented in
+Facebook Messenger with the focus to identify characteristics and
+quality metric such as language, subject matter and platform. Another
+study aimed to categorise educational chatbots according to their
+purpose into service-oriented and teaching-oriented
+\cite{perez2020rediscovering}. The first category includes those that
+provide service support such as the chatbot Ask Holly \cite{meetholly}
+and Dina \cite{santoso2018dinus}, both chatbots respond to students'
+questions about enrolment and registration. Ask
+L.U. \cite{LancasterUniversity_2019} answers students' frequently
+asked questions about timetables, grades, tutors and societies. LISA
+\cite{dibitonto2018chatbot} and Differ \cite{differchat} facilitate
+breaking the ice between new students by introducing them to each
+other.  \cite{ranoliya2017chatbot} proposed a generic chatbot for
+university students that is able to answer their frequently asked
+questions; for some time, the University of Granada had ELVIRA as a
+chatbot in their main page \cite{MOREO20129}. Besides being able to
+answer pre-established (frequent) questions, it did so from the main
+University of Granada using an inset character, voiced by a real
+person, who lip-synched the answers. The emphasis in this case,
+however, was on the authenticity of the synchronization more than in
+making the update of questions and answers simpler, or more
+interactive, using actual messaging platforms. In most cases, using
+the inset search engine was able to give you more up-to-date and
+accurate answers.
 
-On the other hand, teaching-oriented chatbots are more sophisticated as they set personalised learning outcomes and monitor learning progress. For instance, \cite{fernoagua2018intelligent} reported on ''eduAssistant'' a virtual teaching assistant chatbot developed on the Telegram messaging platform. In this study, the Telegram platform was chosen because it is easy to use, students are familiar with its features and it enables students to exchange messages in different formats (text, audio and video) \cite{fernoagua2018intelligent}. In addition, Telegram could operate on all devices and operating systems. The ''eduAssistant'' chatbot acts as an automatic agent between the teacher-content-student, facilitating real-time feedback loops and providing a personalised learning experience relevant to students' skills and knowledge. Using this chatbot, educators can create interactive instances in their lectures where they pose questions to their students and the chatbot assists students who need further help by giving those more hints and reporting to their educator's dashboard \cite{fernoagua2018intelligent}. This can help educators locate those students that need their attention and send them more educational resources relevant to their academic attainment.
+On the other hand, teaching-oriented chatbots are more sophisticated
+as they set personalised learning outcomes and monitor learning
+progress. For instance, \cite{fernoagua2018intelligent} reported on
+''eduAssistant'' a virtual teaching assistant chatbot developed on the
+Telegram messaging platform. In this study, the Telegram platform was
+chosen because it is easy to use, students are familiar with its
+features and it enables students to exchange messages in different
+formats (text, audio and video) \cite{fernoagua2018intelligent}. In
+addition, Telegram could operate on all devices and operating
+systems. The ''eduAssistant'' chatbot acts as an automatic agent
+between the teacher-content-student, facilitating real-time feedback
+loops and providing a personalised learning experience relevant to
+students' skills and knowledge. Using this chatbot, educators can
+create interactive instances in their lectures where they pose
+questions to their students and the chatbot assists students who need
+further help by giving those more hints and reporting to their
+educator's dashboard \cite{fernoagua2018intelligent}. This can help
+educators locate those students that need their attention and send
+them more educational resources relevant to their academic
+attainment.
 
-Furthermore, \cite{sjostrom2018designing} proposed a conceptual architecture for teaching-oriented chatbots in higher education.  This conceptual architecture is based on a systematic literature review of previous studies examining the design of chatbots in higher education and a content analysis of student emails and discussion forum posts of four instances of a Java programming course.  The study outlined several design considerations, among them, the authors emphasised the importance of developing chatbots in platforms that students and educators are familiar with and can easily access (i.e. Facebook Messenger) which confirms with \cite{hobert2019you} and \cite{fernoagua2018intelligent} studies. In addition, \cite{sjostrom2018designing} argued that a conceptualision of learners' questions could aid designers in integrating the appropriate types of questions that the chatbots should support for different courses.  \cite{coronado2018cognitive} proposed agents that store learning materials to be provided on demand to students. \cite{crockett2017predicting} reported on tutoring systems, which can perform initial assessments of students' understanding and provide learning material that would advance their understanding to the next level.
+Furthermore, \cite{sjostrom2018designing} proposed a conceptual
+architecture for teaching-oriented chatbots in higher education.  This
+conceptual architecture is based on a systematic literature review of
+previous studies examining the design of chatbots in higher education
+and a content analysis of student emails and discussion forum posts of
+four instances of a Java programming course.  The study outlined
+several design considerations, among them, the authors emphasised the
+importance of developing chatbots in platforms that students and
+educators are familiar with and can easily access (i.e. Facebook
+Messenger) which confirms with \cite{hobert2019you} and
+\cite{fernoagua2018intelligent} studies. In addition,
+\cite{sjostrom2018designing} argued that a conceptualision of
+learners' questions could aid designers in integrating the appropriate
+types of questions that the chatbots should support for different
+courses.  \cite{coronado2018cognitive} proposed agents that store
+learning materials to be provided on demand to
+students. \cite{crockett2017predicting} reported on tutoring systems,
+which can perform initial assessments of students' understanding and
+provide learning material that would advance their understanding to
+the next level.
 
-Regarding the factors for the adoption of chatbots in higher education, many studies have focused on the evaluation of technology acceptance and usability \cite{Roblyer2010,Pimmer2019}. However, higher education is a special domain where according to \cite{hobert2019you}, specific pedagogical factors such as learning success or increased motivation are more important.  Therefore, to develop efficient chatbots for higher education, all stakeholders' (i.e. educators, students, institutions, etc) expectations needs to be carefully collected and taken into consideration  \cite{sjostrom2018designing,tsivitanidouusers}.
-=======
-The Use of Mobile Instant Messaging (MIM) Platforms in Higher Education
-The widespread and rapid adoption of free MIM tools/platforms such as WhatsApp, Telegram, WeChat and Facebook Messenger stems from their simplicity, ease of use and multi-modality (i.e. video, audio, text) \cite{tang2017mobile}.  Using these tools in higher education can facilitate the delivery of personalised learning that occurs anytime anywhere, promote collaborative learning experiences and group discussions \cite{panah2020study}. WhatsApp is the most popular MIM platform used by educators to give assignments’ feedback to students, support course discussions and provide learning resources in informal learning settings \cite{panah2020study}.  The use of WhatsApp in higher education could enhance social presence \cite{tang2017mobile} and foster trust relationships between educators and students embedded in the social learning process \cite{gachago2015crossing}. 
-
-Nevertheless, there are challenges when using MIM tools that occur due to the blurring of boundaries between academic and private life. This can lead to technostress \cite{gachago2015crossing}, difficulty in managing responsibilities especially among mature students and lack of privacy \cite{tang2017mobile}.  Students’ dropout of the MIM groups, as they can leave groups at any time can hinder their learning and undermine educators’ efforts \cite{mwakapina2016whatsapp}.  In addition, there is a need to set rules and norms for these MIM groups in order to maintain the safety of these online communities for students \cite{abbas2021onlinechat} without affecting students’ ownership and control that is vital to advance their learning \cite{gachago2015crossing}.
-
-The Use of Chatbots in Higher Education
-The use of conversational agents or chatbots in higher education is still at its infancy \cite{yang2019opportunities}. Nevertheless, recent studies examining their positive impact on students’ academic performance \cite{perez2020rediscovering} and engagement \cite{differ.chat, abbas2021onlinechat} have led to a growing interest in using this technology in classes. Indeed, the use of chatbots in collecting course feedback from students in higher education improved students’ response quality and boosted their enjoyment levels \cite{abbas2021Surveys}.  According to Roblyer et al. \cite{Roblyer2010}(2010), using either tools such as mobile devices or teaching strategies based on gamification \cite{Yildirim2017} can improve student motivation. In this sense, Pimmer et al. (2019)\cite{Pimmer2019} carried out a series of experiments with technological tools whose results showed positive perception and acceptance of the use of technology in teaching and learning.
-
-Several higher education chatbots’ evaluation studies were undertaken. For instance, an evaluation review study presented by Smutny and Schreiberova (2020)\cite{Smutny2020} examined 47 educational chatbots implemented in Facebook Messenger with the focus to identify characteristics and quality metric such as language, subject matter and platform. Another study aimed to categorise educational chatbots according to their purpose into service-oriented and teaching-oriented \cite{perez2020rediscovering}. The first category includes those that provide service support such as the chatbot Ask Holly \cite{meetholly} and Dina \cite{santoso2018dinus}, both chatbots respond to students’ questions about enrolment and registration. Ask L.U. \cite{lancasterU} answers students’ frequently asked questions about timetables, grades, tutors and societies. LISA \cite{dibitonto2018chatbot} and Differ \cite{differchat} facilitate breaking the ice between new students by introducing them to each other.  Ranoliya et al. (2017)\cite{ranoliya2017chatbot} proposed a generic chatbot for university students that is able to answer their frequently asked questions. 
-
-On the other hand, teaching-oriented chatbots are more sophisticated as they set personalised learning outcomes and monitor learning progress. For instance, Fernoagă, Stelea, Gavrilă, and Sandu (2018) \cite{ernoagua2018intelligent} reported on ‘eduAssistant’ a virtual teaching assistant chatobt developed on the Telegram messaging platform. In this study, the Telegram platform was chosen because it is easy to use, students are familiar with its features and it enables students to exchange messages in different formats (text, audio and video) \cite{ernoagua2018intelligent}. In addition, Telegram could operate on all devices and operating systems. The ‘eduAssistant’ chatbot acts as an automatic agent between the teacher-content-student, facilitating real-time feedback loops and providing a personalised learning experience relevant to students’ skills and knowledge. Using this chatbot, educators can create interactive instances in their lectures where they pose questions to their students and the chatbot assists students who need further help by giving those more hints and reporting to their educator’s dashboard \cite{ernoagua2018intelligent}. This can help educators locate those students that need their attention and send them more educational resources relevant to their academic attainment.  
-Furthermore, Sjöström et al. (2018) \cite{Sjostrom2018} proposed a conceptual architecture for teaching-oriented chatbots in higher education.  This conceptual architecture is based on a systematic literature review of previous studies examining the design of chatbots in higher education and a content analysis of student emails and discussion forum posts of four instances of a Java programming course.  The study outlined several design considerations, among them, the authors emphasised the importance of developing chatbots in platforms that students and educators are familiar with and can easily access (i.e. Facebook Messenger) which confirms with Hobert’s (2019) \cite{hobert2019you} and Fernoagă, Stelea, Gavrilă, and Sandu’s (2018) \cite{fernoagua2018intelligent}  studies. In addition, Sjöström et al. \cite{Sjostrom2018} argued that a conceptualision of learners’ questions could aid designers in integrating the appropriate types of questions that the chatbots should support for different courses.  Coronado et al. (2018) \cite{coronado2018cognitive} proposed agents that store learning materials to be provided on demand to students. Crockett et al. (2017) \cite{crockett2017predicting} reported on tutoring systems, which can perform initial assessments of students’ understanding and provid learning material that would advance their understanding to the next level.
-Regarding the factors for the adoption of chatbots in higher education, many studies have focused on the evaluation of technology acceptance and usability \cite {Roblyer2010, Pimmer2019}. However, higher education is a special domain where according to Hobert (2019) \cite{hobert2019you}, specific pedagogical factors such as learning success or increased motivation are more important.  Therefore, to develop efficient chatbots for higher education, all stakeholders’ (i.e. educators, students, institutions, etc) expectations needs to be carefully collected and taken into consideration \cite{sjostrom2018designing, tsivitanidouusers}.
-
-
->>>>>>> 514db9299aa3522e718c78e8a64e636f5c3d7a08
+Regarding the factors for the adoption of chatbots in higher
+education, many studies have focused on the evaluation of technology
+acceptance and usability \cite{Roblyer2010,Pimmer2019}. However,
+higher education is a special domain where according to
+\cite{hobert2019you}, specific pedagogical factors such as learning
+success or increased motivation are more important.  Therefore, to
+develop efficient chatbots for higher education, all stakeholders'
+(i.e. educators, students, institutions, etc) expectations needs to be
+carefully collected and taken into consideration
+\cite{sjostrom2018designing,tsivitanidouusers}.
 
 
 \section{Methodology}
