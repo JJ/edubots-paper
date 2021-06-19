@@ -107,24 +107,25 @@
   addressref={aff1},                   % id's of addresses, e.g. {aff1,aff2}
   corref={aff1},                       % id of corresponding address, if any
   email={jmerelo@ugr.es}   % email address
-]{\inits{J.J.}\fnm{Juan J.} \snm{Merelo}}
+]{\inits{J.J.M.}\fnm{Juan J.} \snm{Merelo}}
 \author[
   addressref={aff1},
   email={pacv@ugr.es}   % email address
-]{\inits{P.A.}\fnm{Pedro A.} \snm{Castillo}}
+]{\inits{P.A.C.}\fnm{Pedro A.} \snm{Castillo}}
 \author[
   addressref={aff2},
   email={amorag@ugr.es}
-]{\inits{A.M.G}\fnm{Antonio M.} \snm{Mora}}
+]{\inits{A.M.M}\fnm{Antonio M.} \snm{Mora}}
 \author[
   addressref={aff1},
   email={fbarranco@ugr.es}
-]{\inits{F.}\fnm{Francisco} \snm{Barranco}}
+]{\inits{F.B.}\fnm{Francisco} \snm{Barranco}}
 \author[
   addressref={aff3},
   email={n.h.abbas@leeds.ac.uk}
-]{\inits{N.}\fnm{Noorhan} \snm{Abbas}}
+]{\inits{N.A.}\fnm{Noorhan} \snm{Abbas}}
 
+% Antonio - Olia and Alberto are missing. ;)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -303,6 +304,9 @@ freq.Discipline %>% mutate(Discipline = ifelse(as.character(Discipline) == "No",
                 subset(as.character(Discipline) != "Technology")-> freq.Discipline
 @
 
+
+% ********************** INTRODUCTION ****************************
+
 \section{Introduction}
 
 % TODO: introduction
@@ -335,6 +339,7 @@ In the present work we aim to complement the aforementioned study with teacher a
 
 
 The rest of the paper is organized as follows: Next is an overview of what current research has found about the use of messaging applications, including chatbots, in the classroom. The methodology used in the survey is presented in Section \ref{sec:meth}, and the results of the survey are presented next in Section \ref{sec:res}. Finally, we discuss these results and conclude with a series of recommendations in the section that closes the paper.
+
 
 % ********************** STATE OF THE ART ****************************
 
@@ -472,6 +477,8 @@ carefully collected and taken into consideration
 \cite{sjostrom2018designing,tsivitanidouusers}.
 
 
+% ********************** METHODOLOGY ****************************
+
 \section{Methodology}
 \label{sec:meth}
 
@@ -481,6 +488,7 @@ Our intention from the beginning was to try and gather a sufficient amount of re
 The initial survey was done in two different forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. We got around 300 responses to this one, with two thirds of them coming from university teachers, the rest from high school teachers. In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, as well as Costa Rica and Mexico. The tertiary non-university teachers are mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching.
 
 The second survey followed the same paths, only in this case there was a single questionnaire. It was filled by teachers that were also students in a teacher formation course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers to knew about it by emails from the authors, as well as from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary.
+
 
 % ********************** RESULTS ****************************
 
@@ -934,10 +942,11 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Disci
 \label{figure:chatbots_synch}
 \end{figure} 
 
+
 % ********************** CONCLUSIONS ****************************
 
-
 \section{Conclusions}
+\label{sec:concl}
 
 %This section is repeated
 %\section*{Acknowledgements}
@@ -948,9 +957,48 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Disci
 
 \begin{backmatter}
 
-\section*{Acknowledgements}%% if any
+
+% ********************** DECLARATIONS ****************************
+
+\section{Declarations}
+\label{sec:decl}
+
+\subsection{Availability of data and materials}
+
+The datasets generated and analysed during the current study are available in the [NAME] repository, accesible from [PERSISTENT WEB LINK TO DATASETS]
+
+
+\subsection{Competing interests}
+
+The authors declare that they have no competing interests.
+
+% Antonio - If there is any, please indicate.
+
+
+\subsection{Funding}
 
 This work has been supported by EDUBOTS project, funded under the scheme Erasmus + KA2: Cooperation for innovation and the exchange of good practices - Knowledge Alliances (grant agreement no: 612446).
+
+
+\subsection{Authors' contributions}
+
+All the authors have contributed to the study presented in this manuscript. 
+JJM has been the leader...
+PAC has...
+AMM has ...
+FB has...
+NA has...
+OT has...
+AG has...
+All authors read and approved the final manuscript.
+
+% Antonio - here we can explain what we have done author briefly.
+
+
+\subsection{Acknowledgements}
+
+The authors want to thank to the educators who participated in the survey.
+% Antonio - Add other acknowledgements
 
 \end{backmatter}
 
