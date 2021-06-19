@@ -107,23 +107,23 @@
   addressref={aff1},                   % id's of addresses, e.g. {aff1,aff2}
   corref={aff1},                       % id of corresponding address, if any
   email={jmerelo@ugr.es}   % email address
-]{\inits{J.J.M.}\fnm{Juan J.} \snm{Merelo}}
+]{\inits{JJM}\fnm{Juan J.} \snm{Merelo}}
 \author[
   addressref={aff1},
   email={pacv@ugr.es}   % email address
-]{\inits{P.A.C.}\fnm{Pedro A.} \snm{Castillo}}
+]{\inits{PAC}\fnm{Pedro A.} \snm{Castillo}}
 \author[
   addressref={aff2},
   email={amorag@ugr.es}
-]{\inits{A.M.M}\fnm{Antonio M.} \snm{Mora}}
+]{\inits{AMM}\fnm{Antonio M.} \snm{Mora}}
 \author[
   addressref={aff1},
   email={fbarranco@ugr.es}
-]{\inits{F.B.}\fnm{Francisco} \snm{Barranco}}
+]{\inits{FB}\fnm{Francisco} \snm{Barranco}}
 \author[
   addressref={aff3},
   email={n.h.abbas@leeds.ac.uk}
-]{\inits{N.A.}\fnm{Noorhan} \snm{Abbas}}
+]{\inits{NA}\fnm{Noorhan} \snm{Abbas}}
 
 % Antonio - Olia and Alberto are missing. ;)
 
