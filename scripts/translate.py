@@ -39,11 +39,15 @@ data = data.replace("Un grupo para el curso completo (profesores y estudiantes)"
 data = data.replace("Un grupo para toda la titulación o instituto (profesores y estudiantes)", "A chat with all the students and teachers in the same studies (all years)")
 data = data.replace("Un grupo para toda la titulación, Facultad o Escuela (profesores y estudiantes)", "A chat with all the students and teachers in my Faculty/School")
 
+
+#Degrees
+data = data.replace("Grado", "Undergrad")
+data = data.replace("Máster", "Master")
+data = data.replace("Doctorado", "PhD")
+data = data.replace("Títulos propios", "University expert course")
+
 with open("../data/survey-pilot-3-EN.csv","w") as file:
      file.write(data)
-
-
-
 
 data = ""
 
@@ -74,6 +78,14 @@ data = data.replace("Tecnología/Ingeniería", "Tech/Engineering")
 #Interaction
 data = data.replace("Asíncrona: el estudiante puede preguntar en cualquier momento, el profesorado contesta cuando puede.", "Asynch.")
 data = data.replace("Síncrona: estudiantes(s) y profesor(es) en el mismo espacio, simultáneamente.", "Synch.")
+
+#Interaction Officiality
+data = data.replace('""oficiales""', "oficiales")
+data = data.replace('""corporativo""', "corporativo")
+data = data.replace('""extraoficiales""', "extraoficiales")
+data = data.replace("Por medios oficiales: visitas al despacho, foros/mensajes en el campus virtual, correo electrónico corporativo", "By official means: office hours, messages in the official virtual campus, or email")
+data = data.replace("Admite el uso de medios extraoficiales: blogs, grupos en programas de mensajería, otros medios", "Admits additional means: blogs, messaging apps, others")
+
 
 with open("../data/survey-student-interaction-pilot-3-2021-EN.csv","w") as file:
      file.write(data)
