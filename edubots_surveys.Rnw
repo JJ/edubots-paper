@@ -333,7 +333,7 @@ In the present work we aim to complement the aforementioned study with teacher a
 \end{itemize}
 
 
-The rest of the paper is organized as follows. Next is an overview of what current research has found about the use of messaging applications, including chatbots, in the classroom. The methodology used in the survey is presented in Section \ref{sec:meth}, and the results of the survey are presented next in Section \ref{sec:res}. Finally, we discuss these results and conclude with a series of recommendations in the section that closes the paper.
+The rest of the paper is organized as follows: Next is an overview of what current research has found about the use of messaging applications, including chatbots, in the classroom. The methodology used in the survey is presented in Section \ref{sec:meth}, and the results of the survey are presented next in Section \ref{sec:res}. Finally, we discuss these results and conclude with a series of recommendations in the section that closes the paper.
 
 % ********************** STATE OF THE ART ****************************
 
@@ -344,10 +344,12 @@ The rest of the paper is organized as follows. Next is an overview of what curre
 The widespread and rapid adoption of free Mobile Instant messaging
 (MIM) tools/platforms such as WhatsApp, Telegram, WeChat and Facebook
 Messenger stems from their simplicity, ease of use and multi-modality
-(i.e. video, audio, text) \cite{tang2017mobile}.  Using these tools in
+(i.e. video, audio, text) \cite{tang2017mobile}. Using these tools in
 higher education can facilitate the delivery of personalised learning
 that occurs anytime anywhere, promote collaborative learning
-experiences and group discussions \cite{panah2020study}. WhatsApp is
+experiences and group discussions \cite{panah2020study}.
+
+WhatsApp is, at least in most Western countries,
 the most popular MIM platform used by educators to give assignments'
 feedback to students, support course discussions and provide learning
 resources in informal learning settings \cite{panah2020study}.  The
@@ -359,23 +361,24 @@ and students embedded in the social learning process
 Nevertheless, there are challenges when using MIM tools that occur due
 to the blurring of boundaries between academic and private life. This
 can lead to technostress \cite{gachago2015crossing}, difficulty in
-managing responsibilities especially among mature students and lack of
+managing responsibilities, especially among mature students, and lack of
 privacy \cite{tang2017mobile}.  Students' dropout of the MIM groups,
-as they can leave groups at any time can hinder their learning and
+as they can leave groups at any time, can hinder their learning and
 undermine educators' efforts \cite{mwakapina2016whatsapp}.  In
 addition, there is a need to set rules and norms for these MIM groups
 in order to maintain the safety of these online communities for
 students \cite{abbas2021onlinechat} without affecting students'
 ownership and control that is vital to advance their learning
-\cite{gachago2015crossing}.
+\cite{gachago2015crossing}. This is why examining the role of MIM in higher education is still a challenge, and why the attitudes of the teaching community towards them has to be examined, as we do in this paper.
 
 % The Use of Chatbots in Higher Education
+The use of MIM, although possibly valuable by itself, can be enhanced via the use of chatbots, which, being conversational agents, usually well where synchronous conversations take place. 
 The use of conversational agents or chatbots in higher education is
 still at its infancy \cite{yang2019opportunities}. Nevertheless,
 recent studies examining their positive impact on students' academic
 performance \cite{perez2020rediscovering} and engagement
 \cite{differ.chat,abbas2021onlinechat} have led to a growing interest
-in using this technology in classes. Indeed, the use of chatbots in
+in using this technology in the (possibly virtual) classroom. Indeed, the use of chatbots in
 collecting course feedback from students in higher education improved
 students' response quality and boosted their enjoyment levels
 \cite{abbas2021Surveys}.  According to \cite{Roblyer2010}, using
@@ -395,7 +398,7 @@ purpose into service-oriented and teaching-oriented
 \cite{perez2020rediscovering}. The first category includes those that
 provide service support such as the chatbot Ask Holly \cite{meetholly}
 and Dina \cite{santoso2018dinus}, both chatbots respond to students'
-questions about enrolment and registration. Ask
+questions about enrollment and registration. Ask
 L.U. \cite{LancasterUniversity_2019} answers students' frequently
 asked questions about timetables, grades, tutors and societies. LISA
 \cite{dibitonto2018chatbot} and Differ \cite{differchat} facilitate
@@ -434,13 +437,14 @@ educators locate those students that need their attention and send
 them more educational resources relevant to their academic
 attainment.
 
-Furthermore, \cite{sjostrom2018designing} proposed a conceptual
-architecture for teaching-oriented chatbots in higher education.  This
+Despite its (arguably) successful implementation in different higher education institutions, over all in the fringes of educational activity, its implementation or deployment is not trivial.
+Some authors \cite{sjostrom2018designing} have proposed a conceptual
+architecture for the adoption teaching-oriented chatbots in higher education.  This
 conceptual architecture is based on a systematic literature review of
 previous studies examining the design of chatbots in higher education
 and a content analysis of student emails and discussion forum posts of
 four instances of a Java programming course.  The study outlined
-several design considerations, among them, the authors emphasised the
+several design considerations; among them, the authors emphasised the
 importance of developing chatbots in platforms that students and
 educators are familiar with and can easily access (i.e. Facebook
 Messenger) which confirms with \cite{hobert2019you} and
@@ -761,18 +765,12 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
 @
 %       \includegraphics[width=\textwidth]{figures/sector_covid.pdf}
     \end{minipage}
-<<<<<<< HEAD
     \begin{minipage}[t]{0.85\textwidth}
         \centering
 <<experience_covid, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
 ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Experience, fill = Experience ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @       
 %       \includegraphics[width=\textwidth]{figures/experience_covid.pdf}
-=======
-    \begin{minipage}[t]{0.75\textwidth}
-	    \centering[
- 	    \includegraphics[width=\textwidth]{figures/experience_covid.pdf}
->>>>>>> 514db9299aa3522e718c78e8a64e636f5c3d7a08
     \end{minipage}
 \end{center}
     \caption{Impact of COVID in the use of messaging apps in University and vocational education.}
