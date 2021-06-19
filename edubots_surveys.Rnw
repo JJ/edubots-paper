@@ -261,6 +261,7 @@ library(tidyr)
 library(scales)
 library(ggthemes)
 library(tidyverse)
+library(corrplot)
 
 survey.pilot <- read.csv("data/survey-pilot-3-EN.csv")
 survey.pilot %>% group_by( Gender ) %>% summarise ( n = n() ) %>% mutate( freqGender = n/sum(n)) -> freq.Gender
@@ -459,7 +460,8 @@ which can perform initial assessments of students' understanding and
 provide learning material that would advance their understanding to
 the next level.
 
-As in any new technology, it's important to ascertain which factors will help or impede its adoption; this is why many studies have focused on the evaluation of technology
+Regarding the factors for the adoption of chatbots in higher
+education, many studies have focused on the evaluation of technology
 acceptance and usability \cite{Roblyer2010,Pimmer2019}. However,
 higher education is a special domain where according to
 \cite{hobert2019you}, specific pedagogical factors such as learning
@@ -468,8 +470,6 @@ develop efficient chatbots for higher education, all stakeholders'
 (i.e. educators, students, institutions, etc) expectations needs to be
 carefully collected and taken into consideration
 \cite{sjostrom2018designing,tsivitanidouusers}.
-
-This is why this paper is focused on which factors are considered the most important by the people that are going to use them. We spread our survey over university as well as other higher education institution, so that we find out if there's any kind of difference between long-cycle, degree oriented institutions (universities) and vocational/professionally oriented institutions (elsewhere known as "polytechnics" or "vocational training" institutions, in Spain known as high schools).
 
 
 \section{Methodology}
@@ -747,7 +747,7 @@ ggplot(survey.pilot.MessagingOrganization, aes( x = Messaging.Organization, y = 
 
 Some of the questions in the survey were focused on the impact of the COVID19 pandemic between 2020 and 2021, in the teachers' attitudes towards the instant messaging apps. The 273 answers are summarized in Fig. \ref{figure:chatbots_use_postcovid}, showing that about 77\% of teachers already used these tools before the pandemic and kept using them during the pandemic lockdowns that forced students and educators to use remote education schemes. Moreover, approximately 15\% of them switched their messaging app for one that offered a safer interaction with their students. According to the responses, an additional 16\% started using messaging apps during the pandemic for the first time in their classes. Aggregating the answers, currently 91\% of the teachers are using messaging apps as learning tools. 
 
-A few relevant facts from the collected data: teachers with 16-25 years of experience seem more worried about the security of messaging apps and teachers with up to 5 years of experience were more open to adopt messaging apps due to the pandemic; female teachers were more willing to adopt new platforms due to the pandemic, and even to start using safer alternatives; finally, university teachers that did not use them were more reluctant to start using them after the pandemic.
+%A few relevant facts from the collected data: teachers with 16-25 years of experience seem more worried about the security of messaging apps and teachers with up to 5 years of experience were more open to adopt messaging apps due to the pandemic; female teachers were more willing to adopt new platforms due to the pandemic, and even to start using safer alternatives; finally, university teachers that did not use them were more reluctant to start using them after the pandemic.
 
 \begin{figure}[h!tbp]
 \begin{center}
@@ -777,6 +777,98 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
     \caption{Impact of COVID in the use of messaging apps in University and vocational education.}
 \label{figure:chatbots_use_postcovid}
 \end{figure} 
+
+The descriptive analysis in this case is done using a Chi-square test. For the different variables considered, some statistical significance was found for Gender, Sector, and academic Discipline. The values found with the test are: $p-value=0.0034$ for Gender, $p-value=0.0440$ for Sector, and $p-value=0.0180$ for Discipline.
+The first column in Fig. \ref{figure:postcovid_chisq} shows the Pearson's residuals of the test for these three variables. Residuals show the difference between the observed and the expected values, with large residuals showing that variables are not truly independent. In this case, blue shows positive contribution and red negative contribution to the test, and saturation shows how large is this contribution in contrast to the expected value by chance. Tables on the right side show adjusted standardized residuals that according to \cite{agresti2013categorical}, if greater than +/-2 for cases with few cells, indicate lack of fit of $H_0$ (bolded in our table). Also, the table shows the percentage of contribution to the test of each cell.
+
+\begin{figure}[h!tbp]
+\begin{center}
+    \begin{minipage}[c]{0.45\textwidth}
+        \centering
+<<gender_postcovid_chisq, echo=FALSE, fig.width=17/2.54, fig.height=10/2.54>>=
+df <-select(survey.pilot.postCOVID, PostCOVID.changes, Gender, Sector, Experience, Discipline)
+df[as.character(df$Gender)!="PNTS", ] -> df1
+survey.pilot.postCovidChisq<- droplevels(df1)
+
+covidChanges.vs.Gender<-table(survey.pilot.postCovidChisq$Gender, survey.pilot.postCovidChisq$PostCOVID.changes)
+colnames(covidChanges.vs.Gender)<- c("Did/do", "Didn't/do","safer", "Didn't/don't")
+chisq<-chisq.test(covidChanges.vs.Gender)
+corrplot(chisq$residuals, is.corr = FALSE)
+@
+    \end{minipage}
+    \begin{minipage}[c]{0.45\textwidth}
+        \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{l|r|r|r|r|}
+    \cline{2-5}
+                                 & Did/Do & Didn't/Do & Safer  & Didn' t/Don't \\ \hline
+    \multicolumn{1}{|l|}{Female} & \textbf{-2.776} & \textbf{2.637} & \textbf{2.028}  & -1.159 \\ 
+    \multicolumn{1}{|l|}{} & 14.48\% & \textbf{27.48\%} &  16.46\% & 5.75\% \\ \hline
+    \multicolumn{1}{|l|}{Male}   & \textbf{2.776} & \textbf{-2.637} & \textbf{-2.028} & 1.159 \\ 
+    \multicolumn{1}{|l|}{} &  8.08\% &  \textbf{15.34\%} & 9.19\% &  3.21\% \\ \hline
+    \end{tabular}%
+    }
+    \end{minipage}
+    \begin{minipage}[c]{0.45\textwidth}
+        \centering
+<<sector_postcovid_chisq, echo=FALSE, fig.width=17/2.54, fig.height=10/2.54, warning=FALSE>>=
+covidChanges.vs.Sector<-table(survey.pilot.postCovidChisq$Sector, survey.pilot.postCovidChisq$PostCOVID.changes)
+colnames(covidChanges.vs.Sector)<- c("Did/do", "Didn't/do","safer", "Didn't/don't")
+chisq<-chisq.test(covidChanges.vs.Sector)
+corrplot(chisq$residuals, is.corr = FALSE)
+@
+    \end{minipage}
+    \begin{minipage}[c]{0.45\textwidth}
+        \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{l|r|r|r|r|}
+    \cline{2-5}
+                                 & Did/Do & Didn't/Do & Safer  & Didn' t/Don't \\ \hline
+    \multicolumn{1}{|l|}{University} & -1.895 & 0.397 & 0.049  &  \textbf{2.679}\\ 
+    \multicolumn{1}{|l|}{University} & 5.81\% & 0.54\% & 0.01\%  &  \textbf{26.48\%}\\ \hline
+    \multicolumn{1}{|l|}{Vocational} & -1.895 & -0.397 & -0.049 & \textbf{-2.679}\\ 
+    \multicolumn{1}{|l|}{Vocational} & 11.88\% & 1.10\% & 0.02\% & \textbf{54.17\%}\\ \hline
+    \end{tabular}%
+    }
+    \end{minipage}
+    \begin{minipage}[c]{0.45\textwidth}
+        \centering
+<<discipline_postcovid_chisq, echo=FALSE, fig.width=17/2.54, fig.height=10/2.54, warning=FALSE>>=
+survey.pilot.postCovidChisq %>%mutate(Discipline = ifelse(as.character(Discipline) == "No", "Hum/Social Sciences", as.character(Discipline))) %>%
+  mutate(Discipline = ifelse(as.character(Discipline) == "Other", "Hum/Social Sciences", as.character(Discipline))) %>%
+  mutate(Discipline = ifelse(as.character(Discipline) == "Engineering", "Tech/Engineering", as.character(Discipline))) %>%
+  mutate(Discipline = ifelse(as.character(Discipline) == "Technology", "Tech/Engineering", as.character(Discipline))) %>%
+  mutate(Discipline = ifelse(as.character(Discipline) == "Humanities", "Hum/Social Sciences", as.character(Discipline))) %>%
+  mutate(Discipline = ifelse(as.character(Discipline) == "Social Sciences", "Hum/Social Sciences", as.character(Discipline))) %>%
+  mutate(Discipline = ifelse(as.character(Discipline) == "Sciences", "Biomed/Sciences", as.character(Discipline))) %>%
+  mutate(Discipline = ifelse(as.character(Discipline) == "Biomedicine", "Biomed/Sciences", as.character(Discipline)))->survey.pilot.postCovidChisq
+covidChanges.vs.Discipline<-table(survey.pilot.postCovidChisq$Discipline, survey.pilot.postCovidChisq$PostCOVID.changes)
+colnames(covidChanges.vs.Discipline)<- c("Did/do", "Didn't/do","safer", "Didn't/don't")
+chisq<-chisq.test(covidChanges.vs.Discipline)
+corrplot(chisq$residuals, is.corr = FALSE)
+@
+    \end{minipage}
+    \begin{minipage}[c]{0.45\textwidth}
+        \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{l|r|r|r|r|}
+    \cline{2-5}
+                                 & Did/Do & Didn't/Do & Safer & Didn' t/Don't \\ \hline
+    \multicolumn{1}{|l|}{Biomed/Sciences} & -1.202 &  0.715 & 1.424 & -0.635 \\ 
+    \multicolumn{1}{|l|}{Biomed/Sciences} & 3.12\% &  2.32\% & 9.34\% & 1.99\% \\ \hline
+    \multicolumn{1}{|l|}{Hum/Social} &  \textbf{-2.869} & \textbf{2.069} &  1.592 & 0.274\\ 
+    \multicolumn{1}{|l|}{Hum/Social} &  16.58\% & \textbf{18.13\%} &  10.88\% & 0.35\%\\ \hline
+    \multicolumn{1}{|l|}{Tech/Engineering} &  \textbf{3.382} &  \textbf{-2.322} &  \textbf{-2.461} & 0.254\\ 
+    \multicolumn{1}{|l|}{Tech/Engineering} &  11.92\% &  11.80\% &  \textbf{13.43\%} & 0.15\%\\ \hline
+    \end{tabular}%
+    }
+    \end{minipage}
+\end{center}
+    \caption{.}
+\label{figure:postcovid_chisq}
+\end{figure} 
+
+
 
 \subsection{RQ2 - Which kind of chatbots would teachers find useful in their classes?}
 

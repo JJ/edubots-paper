@@ -8,27 +8,27 @@ library(ggthemes)
 data <- read.csv("../data/survey-pilot-3-EN.csv")
 
 ggplot(data, aes(x = WhatsApp, group = Sector)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Sector)+ theme(axis.title.y=element_blank())
-ggsave('../figures/sector_whatsapp.pdf', width = 100, height = 70, units = "mm")
+#ggsave('../figures/sector_whatsapp.pdf', width = 100, height = 70, units = "mm")
 ggplot(data, aes(x = Telegram, group = Sector)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Sector)+ theme(axis.title.y=element_blank())
-ggsave('../figures/sector_telegram.pdf', width = 100, height = 70, units = "mm")
+#ggsave('../figures/sector_telegram.pdf', width = 100, height = 70, units = "mm")
 ggplot(data, aes(x = Provided, group = Sector)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Sector)+ theme(axis.title.y=element_blank())
-ggsave('../figures/sector_provided.pdf', width = 100, height = 70, units = "mm")
+#ggsave('../figures/sector_provided.pdf', width = 100, height = 70, units = "mm")
 
 
 ggplot(data, aes(x = WhatsApp, group = Age)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Age)+ theme(axis.title.y=element_blank())
-ggsave('../figures/age_whatsapp.pdf', width = 100, height = 70, units = "mm")
+#ggsave('../figures/age_whatsapp.pdf', width = 100, height = 70, units = "mm")
 ggplot(data, aes(x = Telegram, group = Age)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Age)+ theme(axis.title.y=element_blank())
-ggsave('../figures/age_telegram.pdf', width = 100, height = 70, units = "mm")
+#ggsave('../figures/age_telegram.pdf', width = 100, height = 70, units = "mm")
 ggplot(data, aes(x = Provided, group = Age)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Age)+ theme(axis.title.y=element_blank())
-ggsave('../figures/age_provided.pdf', width = 100, height = 70, units = "mm")
+#ggsave('../figures/age_provided.pdf', width = 100, height = 70, units = "mm")
 
 
 ggplot(data, aes(x = WhatsApp, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Experience)+ theme(axis.title.y=element_blank())
-ggsave('../figures/experience_whatsapp.pdf', width = 100, height = 70, units = "mm")
+#ggsave('../figures/experience_whatsapp.pdf', width = 100, height = 70, units = "mm")
 ggplot(data, aes(x = Telegram, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Experience)+ theme(axis.title.y=element_blank())
-ggsave('../figures/experience_telegram.pdf', width = 100, height = 70, units = "mm")
+#ggsave('../figures/experience_telegram.pdf', width = 100, height = 70, units = "mm")
 ggplot(data, aes(x = Provided, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Experience)+ theme(axis.title.y=element_blank())
-ggsave('../figures/experience_provided.pdf', width = 100, height = 70, units = "mm")
+#ggsave('../figures/experience_provided.pdf', width = 100, height = 70, units = "mm")
 
 #ggplot(data, aes(x = WhatsApp, group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Discipline)
 
@@ -45,11 +45,11 @@ ggplot(data.Discipline, aes(x = Provided, group = Discipline)) + geom_bar(aes(y 
 
 #ggplot(data, aes(x = WhatsApp, group = Gender)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Gender)
 ggplot(data, aes(x = WhatsApp, group = Gender)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male','PNTS')))+ theme(axis.title.y=element_blank())
-ggsave('../figures/gender_whatsapp.pdf', width = 100, height = 70, units = "mm")
+#ggsave('../figures/gender_whatsapp.pdf', width = 100, height = 70, units = "mm")
 ggplot(data, aes(x = Telegram, group = Gender)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male','PNTS')))+ theme(axis.title.y=element_blank())
-ggsave('../figures/gender_telegram.pdf', width = 100, height = 70, units = "mm")
+#ggsave('../figures/gender_telegram.pdf', width = 100, height = 70, units = "mm")
 ggplot(data, aes(x = Provided, group = Gender)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male','PNTS')))+ theme(axis.title.y=element_blank())
-ggsave('../figures/gender_provided.pdf', width = 100, height = 70, units = "mm")
+#ggsave('../figures/gender_provided.pdf', width = 100, height = 70, units = "mm")
 
 
 # Statistical significance
@@ -106,7 +106,7 @@ chisq$p.value
 
 # Dependency residuals
 corrplot(chisq$residuals, is.cor=FALSE)
-# Contibution in percentage (%)
+# Contribution in percentage (%)
 contrib <- 100*chisq$residuals^2/chisq$statistic
 round(contrib, 2)
 corrplot(contrib, is.cor = FALSE)
@@ -117,13 +117,14 @@ covidChanges.vs.Sector<-table(df2$Sector, df2$PostCOVID.changes)
 colnames(covidChanges.vs.Sector)<- c("Did/do", "Didn't/do","safer", "Didn't/don't")
 chisq<-chisq.test(covidChanges.vs.Sector)
 chisq$p.value
-corrplot(chisq$residuals, is.cor=FALSE)
+corrplot(chisq$residuals, is.corr=FALSE)
 # Contribution in percentage (%)
 contrib <- 100*chisq$residuals^2/chisq$statistic
 round(contrib, 2)
 corrplot(contrib, is.cor = FALSE)
 
 covidChanges.vs.Experience<-table(df2$Experience, df2$PostCOVID.changes)
+colnames(covidChanges.vs.Experience)<- c("Did/do", "Didn't/do","safer", "Didn't/don't")
 chisq.test(covidChanges.vs.Experience)$p.value
 
 df2 %>%mutate(Discipline = ifelse(as.character(Discipline) == "No", "Hum/Social Sciences", as.character(Discipline))) %>%
@@ -136,7 +137,7 @@ df2 %>%mutate(Discipline = ifelse(as.character(Discipline) == "No", "Hum/Social 
   mutate(Discipline = ifelse(as.character(Discipline) == "Biomedicine", "Biomed/Sciences", as.character(Discipline)))->df2
 
 covidChanges.vs.Discipline<-table(df2$Discipline, df2$PostCOVID.changes)
-colnames(covidChanges.vs.Discipline)<- c("Used/use", "Didn't/use","Yes, safer", "Didn't/don't")
+colnames(covidChanges.vs.Discipline)<-c("Did/do", "Didn't/do","safer", "Didn't/don't")
 chisq<-chisq.test(covidChanges.vs.Discipline)
 chisq$p.value
 corrplot(chisq$residuals, is.cor=FALSE)
