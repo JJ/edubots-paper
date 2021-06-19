@@ -282,3 +282,4 @@ TSWLatexianTemp*
 *.tex
 
 .Rhistory
+.RData
