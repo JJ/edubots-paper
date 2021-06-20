@@ -44,7 +44,7 @@ data = data.replace("Un grupo para toda la titulación, Facultad o Escuela (prof
 data = data.replace("Grado", "Undergrad")
 data = data.replace("Máster", "Master")
 data = data.replace("Doctorado", "PhD")
-data = data.replace("Títulos propios", "University expert course")
+data = data.replace("Títulos propios", "Non-official degree")
 
 with open("../data/survey-pilot-3-EN.csv","w") as file:
      file.write(data)
