@@ -26,6 +26,14 @@ ggplot(Age.vs.Experience,aes(Age,Experience))+geom_point(aes(size=freq),colour="
 survey.interaction %>% group_by( Gender ) %>% summarise ( n = n() ) %>% mutate( freqGender = n/sum(n)) -> freqInteraction.Gender
 survey.interaction %>% group_by( Age ) %>% summarise ( n = n() ) %>% mutate( freqAge = n/sum(n)) -> freqInteraction.Age
 survey.interaction %>% group_by( Experience ) %>% summarise ( n = n() ) %>% mutate( freqExperience = n/sum(n)) -> freqInteraction.Experience
+
+
+survey.interaction %>%  mutate(Sector = ifelse(DegreesVocational == "No","","Vocational,")) %>%
+  mutate(Sector = ifelse(Sector == "No", paste(Sector, "",sep=""), paste(Sector, "University,",sep=""))) %>%
+  mutate(Sector = substr(Sector,1,nchar(Sector)-1))-> df1
+df1 %>%  mutate(Sector =str_split(Sector, ",")) %>% unnest(cols = c(Sector)) -> df1.Sector
+df1.Sector %>% group_by( Sector ) %>% summarise ( n = n() ) %>% mutate( freqSector = n/sum(n)) -> freqInteraction.Sector
+
 survey.interaction %>% group_by( Sector ) %>% summarise ( n = n() ) %>% mutate( freqSector = n/sum(n)) -> freqInteraction.Sector
 survey.interaction %>% group_by( Discipline ) %>% summarise ( n = n() ) %>% mutate( freqDiscipline = n/sum(n)) -> freqInteraction.Discipline
 
