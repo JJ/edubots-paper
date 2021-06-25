@@ -44,7 +44,7 @@ from numpy import pi
 
 from sklearn.neighbors import NearestNeighbors
 
-__all__=['entropy', 'mutual_information', 'entropy_gaussian']
+__all__=['entropy', 'mutual_information', 'entropy_gaussian', 'nearest_distances', 'gen_all_combinations']
 
 EPS = np.finfo(float).eps
 
@@ -55,6 +55,8 @@ def nearest_distances(X, k=1):
     N = number of points
     M = number of dimensions
     returns the distance to the kth nearest neighbor for every point in X
+
+    https://gist.github.com/GaelVaroquaux/ead9898bd3c973c40429
     '''
     knn = NearestNeighbors(n_neighbors=k + 1)
     knn.fit(X)
@@ -65,6 +67,7 @@ def nearest_distances(X, k=1):
 def entropy_gaussian(C):
     '''
     Entropy of a gaussian variable with covariance matrix C
+    https://gist.github.com/GaelVaroquaux/ead9898bd3c973c40429
     '''
     if np.isscalar(C): # C is the variance
         return .5*(1 + np.log(2*pi)) + .5*np.log(C)
@@ -90,6 +93,8 @@ def entropy(X, k=1):
     and:
     Kraskov A, Stogbauer H, Grassberger P. (2004). Estimating mutual
     information. Phys Rev E 69(6 Pt 2):066138.
+
+    https://gist.github.com/GaelVaroquaux/ead9898bd3c973c40429
     '''
 
     # Distance to kth nearest neighbor
@@ -115,6 +120,8 @@ def mutual_information(variables, k=1):
     Optionally, the following keyword argument can be specified:
       k = number of nearest neighbors for density estimation
     Example: mutual_information((X, Y)), mutual_information((X, Y, Z), k=5)
+
+    https://gist.github.com/GaelVaroquaux/ead9898bd3c973c40429
     '''
     if len(variables) < 2:
         raise AttributeError(
@@ -143,87 +150,4 @@ def gen_all_combinations(n_vars):
     allperms = np.unique(allperms, axis=0)
 
     return allperms
-
-
-from sklearn.feature_selection import mutual_info_classif
-from sklearn.metrics import mutual_info_score
-import pandas as pd
-import numpy as np
-from itertools import permutations
-
-
-
-n_vars = 18
-
-datos = pd.read_csv('./data/survey-pilot-3-EN-maped.csv')
-
-#[X, Y] = preprocess_datos(datos)
-
-X = np.array(datos.iloc[:,0:-1])
-Y = np.array(datos.iloc[:,-1])
-
-
-n_vars = 18
-
-#allperms = gen_all_combinations(n_vars)  -> not feasible due to n_vars
-
-#Let's compute the MI for each single variable
-list_single_mi = [] # to store values of MI for each single variable
-for i in range(n_vars):
-    print("Variable %d" % i)
-    list_single_mi = np.append(list_single_mi,mutual_info_score(X[:,i],Y)) 
-    
-print("MI computed score...")
-idx = np.array(range(n_vars))
-
-list_single_mi = np.hstack((idx.reshape(-1,1), list_single_mi.reshape(-1,1)))
-
-print(list_single_mi)
-
-#print(np.lexsort((list_single_mi[:,1],list_single_mi[:,0])))
-
-I = np.argsort(list_single_mi[:, 1]); b = list_single_mi[I,:]
-
-#Features selected
-'''
- [3.00000000e+00 1.22980916e-02]
- [9.00000000e+00 1.56839675e-02]
- [1.60000000e+01 1.61424039e-02]
- [1.40000000e+01 1.61779327e-02]
- [2.00000000e+00 1.61875746e-02]
- [6.00000000e+00 2.15048791e-02]
- [1.70000000e+01 3.80414048e-02]
- [1.50000000e+01 4.67424303e-02]
- [7.00000000e+00 5.11351150e-02]
-'''
-
-# Carry out brute force approach with 9 variables
-
-X_crop = X[:, [7, 15, 17, 6, 2, 14, 16, 9, 3]]
-
-#Then drop the ones with smaller MI and check brute force on the others
-
-allperms = gen_all_combinations(9) 
-
-print("Computing MI for all %d combinations" % len(allperms))
-
-list_mi=[]
-i=0
-while i<len(allperms):
-    # apply feature mask using booleans (indexes not correct), changed data type to float for data
-    list_mi = np.append(list_mi,abs(mutual_information((np.array(X_crop[:,allperms[i]==1], dtype='float32'),np.array(Y.reshape(-1,1), dtype='float32')))))
-
-    if(np.mod(i+1,10)==0):
-        print("Iteration %d" % i)
-        pos_max = np.argmax(list_mi)
-        print("Best MI value %f for variables %s" % (list_mi[pos_max], allperms[pos_max]))
-
-
-    i+=1
-
-
-# Best MI value 28.491724 for variables [0. 0. 1. 1. 1. 1. 1. 1. 1.]
-
-#                                       [x, x, 17, 6, 2, 14, 16, 9, 3]
-
 
