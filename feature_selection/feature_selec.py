@@ -41,6 +41,7 @@ from scipy.special import gamma,psi
 from scipy import ndimage
 from scipy.linalg import det
 from numpy import pi
+from itertools import permutations
 
 from sklearn.neighbors import NearestNeighbors
 
