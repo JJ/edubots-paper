@@ -1009,13 +1009,69 @@ The reference mapping for the feature names in the experiments is in Table \ref{
 \begin{tabular}{|c|c|}
 \hline
 \# Variable & Name \\
-
-
 \hline
-\end{tabular}
+0 & AgendaBot	\\
+1 & ClassMaterialBot		\\
+2 & Age		\\
+3 & Experience		\\
+4 & FAQBot		\\
+5 & GradesBot		\\
+6 & Gender		\\
+7 & MessagingPlatform0ne		\\
+8 & MessagingPlatformOther		\\
+9 & MessagingPlatformProvided		\\
+10 & MessagingPlatformSlack		\\
+11 & MessagingPlatformTelegram		\\
+12 & MessagingPlatformWhatsApp		\\
+13 & OtherBot		\\
+14 & Sector		\\
+15 & Messaging Organization → Number of approaches considered		\\
+16 & Degrees → Number of degrees involved		\\
+17 & Discipline		\\
+\hline
+Output & PostCOVID changes	\\
+\hline
+\end{tabular} \label{tab:feature_reference} \caption{Mapping of feature numbers to survey questions.}
 \end{table}
 
-    
+\subsubsection{Using Mutual Information and Neural Networks}
+
+The intuitive idea for Mutual Information (MI) is the amount of information about a variable that another variable, or group of variables, has. Therefore, setting as goal the capability of predicting the COVID changes, it is possible to detect the most relevant variables. Several approaches can be taken to select a subset of variables that contain enough information to reconstruct the output \cite{}. For this study, the estimation of the mutual information provided by the SKlearn package \cite{} and the algorithm mMRM \cite{} are considered.
+
+As the evaluation of all possible combinations might be unfeasible from a computational point of view, the following heuristic was applied: rank the variables using the MI of that variable isolatedly, apply a threshold to discard the ones with smaller MI and then, make a exhaustive search for the combination with higher MI.
+
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\# Variable & Name & MI (considering one variable) & Max Relevance & mRMR\\
+\hline
+0 & AgendaBot	&  &  &\\
+1 & ClassMaterialBot &	&  &	\\
+2 & Age	&		&  &  \\
+3 & Experience &			&  &  	\\
+4 & FAQBot &			&  &  	\\
+5 & GradesBot &			&  &  	\\
+6 & Gender &			&  &  	\\
+7 & MessagingPlatform0ne &			&  &  	\\
+8 & MessagingPlatformOther &			&  &  	\\
+9 & MessagingPlatformProvided	&			&  &  \\
+10 & MessagingPlatformSlack	&			&  &  \\
+11 & MessagingPlatformTelegram	&			&  &  \\
+12 & MessagingPlatformWhatsApp	&			&  &  \\
+13 & OtherBot	&			&  &  \\
+14 & Sector	&			&  &  \\
+15 & Messaging Organization → Number of approaches considered	&			&  &  \\
+16 & Degrees → Number of degrees involved	&			&  &  \\
+17 & Discipline	&		&  &  	\\
+\hline
+Output & \multirow{3}{PostCOVID changes} 	\\
+\hline
+\end{tabular} \label{tab:feature_reference} \caption{Mapping of feature numbers to survey questions.}
+\end{table}
+
+\subsubsection{Using XGBoost}
+
+Due to the lack of data, estimators based on $k$-Nearest Neighbours might be unreliable, thus, another approach can be used: decision trees build during their design process a relevance of the variables that, after being used to take the decision, decrease in a significant way the error. Therefore, the well known implementation of the XGBoost was used to obtain the accuracy and the feature relevance.
+
 
 % ********************** CONCLUSIONS ****************************
 
