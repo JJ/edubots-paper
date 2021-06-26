@@ -1002,7 +1002,18 @@ Regarding the rest of features, a similar preprocessing was applied to the origi
 
 \end{itemize}
 
-The 
+The reference mapping for the feature names in the experiments is in Table \ref{tab:feature_mapping}. 
+
+\begin{table}
+
+\begin{tabular}{|c|c|}
+\hline
+\# Variable & Name \\
+
+
+\hline
+\end{tabular}
+\end{table}
 
     
 
