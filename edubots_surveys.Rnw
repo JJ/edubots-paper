@@ -74,6 +74,7 @@
 
 %%% Begin ...
 \begin{document}
+\SweaveOpts{concordance=TRUE}
 
 %%% Start of article front matter
 \begin{frontmatter}
@@ -124,8 +125,12 @@
   addressref={aff3},
   email={n.h.abbas@leeds.ac.uk}
 ]{\inits{NA}\fnm{Noorhan} \snm{Abbas}}
+\author[
+  addressref={aff1},
+  email={aguillen@ugr.es}
+]{\inits{AG}\fnm{Alberto} \snm{Guillén}}
 
-% Antonio - Olia and Alberto are missing. ;)
+% Antonio - Olia is missing. ;)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -964,6 +969,42 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Disci
 \label{figure:chatbots_synch}
 \end{figure} 
 
+% ************************ New alaysis ***********************
+
+\subsection{Data Analysis using Machine Learning}
+
+To provide a different perspective another analysis was carried out using models from the field of machine learning. The idea was to be able to identify which features measured in the survey could identify willingness to change. As chatbots are an emerging technology, it is quite probable that this new change will come sooner than later considering the improvemente in Virtual and Augmented Reality \cite{}.
+
+The output variable is set as covid-changes, whose values were grouped to three numerical classes:
+
+\begin{itemize}
+ \item 2 = Yes, now they use it or use it more or in a safer/different way 
+ \item 1 = No change in use 
+ \item 0 = No change in not using 
+\end{itemize}
+
+Regarding the rest of features, a similar preprocessing was applied to the original survey:
+
+\begin{itemize}
+\item Binary Yes/No variables like AgendaBot, ClassMaterialBot, FAQBot, GradesBot, MessagingPlatform..., OtherBot were mappped to values $\in {0,1}$ using 1 for Yes and 0 for No.
+
+\item Gender variable was mapped to: 1 for Male, 2 for PNTS and 3 for Female. In this way we keep equidistance from PNTS to the other well identified genders.
+
+\item Age and Experience were assigned valued $\in {1,2,3,4}$ where the higher number represents the older age or more years of experience.
+
+\item Sector was coded as 1 for University and 2 for Vocational.
+
+\item Messaging Organization was reinterpreted as number of approaches considered by the professors with the following values: 0 for answer of type: "I'd rather leave students self-organize and not be part of the chat" ; 1 for answers like: "A chat with my students in the same course" or "A chat with all students and teachers in the same semester/year". If the previous two were marked, or even another answer appeared, the sum of approaches was computed. By doing this, we consider a passive professor that does not want to get involved in the chat with a 0 and emphasize the active ones that give a thought on how they want to interact with students.
+                                
+\item Degrees feature was also reinterpreted as number of degrees involved. By doing this, it is possible to see with a number the range width of the professor. From this point, it could be possible to study if a wider range professor presents or not more intention of using chatbots (independently of the degree level).
+
+\item Finally, Discipline was grouped into the following categories: 0 for No  1 for Engineering and Technology 2 for Science and Biomedicine ; 3 for Social Science and 4 for Humanities. By doing this we keep a similarity criterion just by computing the distance between disciplines.
+
+\end{itemize}
+
+The 
+
+    
 
 % ********************** CONCLUSIONS ****************************
 
