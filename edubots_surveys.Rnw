@@ -979,7 +979,10 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Disci
 \label{figure:chatbots_synch}
 \end{figure} 
 
-% ************************ New alaysis ***********************
+
+
+% ********************** ALBERTO HERE ****************************
+% ************************ New analysis ***********************
 
 \subsection{Data Analysis using Machine Learning}
 
@@ -1013,9 +1016,7 @@ Regarding the rest of features, a similar preprocessing was applied to the origi
 \end{itemize}
 
 The reference mapping for the feature names in the experiments is in Table \ref{tab:feature_mapping}. 
-
 \begin{table}
-
 \begin{tabular}{|c|c|}
 \hline
 \# Variable & Name \\
@@ -1035,14 +1036,15 @@ The reference mapping for the feature names in the experiments is in Table \ref{
 12 & MessagingPlatformWhatsApp		\\
 13 & OtherBot		\\
 14 & Sector		\\
-15 & Messaging Organization → Number of approaches considered		\\
-16 & Degrees → Number of degrees involved		\\
+15 & Messaging Organization $\rightarrow$ Number of approaches considered		\\
+16 & Degrees $\rightarrow$ Number of degrees involved		\\
 17 & Discipline		\\
 \hline
 Output & PostCOVID changes	\\
 \hline
-\label{tab:feature_reference} \caption{Mapping of feature numbers to survey questions.}
 \end{tabular}
+\caption{Mapping of feature numbers to survey questions.}
+\label{tab:feature_reference} 
 \end{table}
 
 \subsubsection{Using Mutual Information and Neural Networks}
@@ -1071,15 +1073,15 @@ As the evaluation of all possible combinations might be unfeasible from a comput
 12 & MessagingPlatformWhatsApp	&			&  &  \\
 13 & OtherBot	&			&  &  \\
 14 & Sector	&			&  &  \\
-15 & Messaging Organization → Number of approaches considered	&			&  &  \\
-16 & Degrees → Number of degrees involved	&			&  &  \\
+15 & Messaging Organization $\rightarrow$ Number of approaches considered	&			&  &  \\
+16 & Degrees $\rightarrow$ Number of degrees involved	&			&  &  \\
 17 & Discipline	&		&  &  	\\
 \hline
 % Output & \multirow{3}{PostCOVID changes} & 	\\
 \hline
+\end{tabular}
 \caption{Mapping of feature numbers to survey questions.}
 \label{tab:feature_results}
-\end{tabular}
 \end{table}
 
 \subsubsection{Using XGBoost}
@@ -1091,7 +1093,6 @@ The feature ranking results are shown in Figure \ref{fig:feature_xgboost}.
 % \includegraphics{figs/feature_xgboost.png}
 % \label{fig:feature_xgboost}\caption{Ranking of features obtained after using XGBoost model.}
 % \end{figure}
-
 
 
 % ********************** CONCLUSIONS ****************************
