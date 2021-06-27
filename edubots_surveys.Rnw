@@ -109,26 +109,26 @@
   corref={aff1},                       % id of corresponding address, if any
   email={jmerelo@ugr.es}   % email address
 ]{\inits{JJM}\fnm{Juan J.} \snm{Merelo}}
-\author[
-  addressref={aff1},
-  email={pacv@ugr.es}   % email address
-]{\inits{PAC}\fnm{Pedro A.} \snm{Castillo}}
-\author[
-  addressref={aff2},
-  email={amorag@ugr.es}
-]{\inits{AMM}\fnm{Antonio M.} \snm{Mora}}
-\author[
-  addressref={aff1},
-  email={fbarranco@ugr.es}
-]{\inits{FB}\fnm{Francisco} \snm{Barranco}}
-\author[
-  addressref={aff3},
-  email={n.h.abbas@leeds.ac.uk}
-]{\inits{NA}\fnm{Noorhan} \snm{Abbas}}
-\author[
-  addressref={aff1},
-  email={aguillen@ugr.es}
-]{\inits{AG}\fnm{Alberto} \snm{Guillén}}
+% \author[
+%   addressref={aff1},
+%   email={pacv@ugr.es}   % email address
+% ]{\inits{PAC}\fnm{Pedro A.} \snm{Castillo}}
+% \author[
+%   addressref={aff2},
+%   email={amorag@ugr.es}
+% ]{\inits{AMM}\fnm{Antonio M.} \snm{Mora}}
+% \author[
+%   addressref={aff1},
+%   email={fbarranco@ugr.es}
+% ]{\inits{FB}\fnm{Francisco} \snm{Barranco}}
+% \author[
+%   addressref={aff3},
+%   email={n.h.abbas@leeds.ac.uk}
+% ]{\inits{NA}\fnm{Noorhan} \snm{Abbas}}
+% \author[
+%   addressref={aff1},
+%   email={aguillen@ugr.es}
+% ]{\inits{AG}\fnm{Alberto} \snm{Guillén}}
 
 % Antonio - Olia is missing. ;)
 
