@@ -49,7 +49,6 @@
 \usepackage{amsthm,amsmath}
 
 \usepackage[utf8]{inputenc} %unicode support
-\usepackage{multirow}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                             %%
@@ -1087,10 +1086,10 @@ As the evaluation of all possible combinations might be unfeasible from a comput
 Due to the lack of data, estimators based on $k$-Nearest Neighbours might be unreliable, thus, another approach can be used: decision trees build during their design process a relevance of the variables that, after being used to take the decision, decrease in a significant way the error. Therefore, the well known implementation of the XGBoost \cite{} was used to obtain the accuracy and the feature relevance.
 
 The feature ranking results are shown in Figure \ref{fig:feature_xgboost}.
-\begin{figure}
-\includegraphics{figs/feature_xgboost.png}
-\label{fig:feature_xgboost}\caption{Ranking of features obtained after using XGBoost model.}
-\end{figure}
+% \begin{figure}
+% \includegraphics{figs/feature_xgboost.png}
+% \label{fig:feature_xgboost}\caption{Ranking of features obtained after using XGBoost model.}
+% \end{figure}
 
 
 
