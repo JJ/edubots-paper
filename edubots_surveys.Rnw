@@ -49,6 +49,7 @@
 \usepackage{amsthm,amsmath}
 
 \usepackage[utf8]{inputenc} %unicode support
+\usepackage{multirow}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                             %%
@@ -1050,6 +1051,7 @@ The intuitive idea for Mutual Information (MI) is the amount of information abou
 
 As the evaluation of all possible combinations might be unfeasible from a computational point of view, the following heuristic was applied: rank the variables using the MI of that variable isolated, apply a threshold to discard the ones with smaller MI and then, make a exhaustive search for the combination with higher MI.
 
+\begin{table}
 \begin{tabular}{|c|c|c|c|c|}
 \hline
 \# Variable & Name & MI (considering one variable) & Max Relevance & mRMR\\
@@ -1073,9 +1075,11 @@ As the evaluation of all possible combinations might be unfeasible from a comput
 16 & Degrees → Number of degrees involved	&			&  &  \\
 17 & Discipline	&		&  &  	\\
 \hline
-Output & \multirow{3}{PostCOVID changes} 	\\
+% Output & \multirow{3}{PostCOVID changes} & 	\\
 \hline
-\end{tabular} \label{tab:feature_results} \caption{Mapping of feature numbers to survey questions.}
+\caption{Mapping of feature numbers to survey questions.}
+\label{tab:feature_results}
+\end{tabular}
 \end{table}
 
 \subsubsection{Using XGBoost}
