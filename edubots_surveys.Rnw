@@ -195,16 +195,17 @@ attached to it, in higher education, requires careful consideration of
 all options, but above all, an examination of the attitudes of the
 affected community, especially those that will need to handle them,
 % Antonio - I would say 'to manage them'. Students should also handle new technologies. ;)
+% We're talking about teachers here, who need to handle the outcomes and introduce them in class - JJ
 teachers.
 In this paper we have surveyed the opinions of tertiary education
-teachers based mainly in Spain and Spanish speaking countries, 
-% Antonio - Spanish-speaking?
+teachers based mainly in Spain and Spanish-speaking countries, 
 looking at what they think about the introduction 
 % Antonio - inthe classroom
+% that's implied - JJ
 of messaging platforms and chatbots, what their needs are, what kind of use cases they see for
 them, and in what kind of environment they think its use will be
 valuable. We will examine how and when these attitudes vary across
-gender, experience, and other factors, such as the type of discipline
+gender, experience, and other factors, such as the broad discipline
 they are teaching. Our conclusions might help with the adoption of
 messaging platforms in an educational setting, as well as chatbots or
 other kind of bots, by higher education institution, and how these
@@ -425,7 +426,7 @@ purpose into service-oriented and teaching-oriented
 \cite{perez2020rediscovering}. The first category includes those that
 provide service support such as the chatbot Ask Holly \cite{meetholly}
 and Dina \cite{santoso2018dinus}; both chatbots respond to students'
-questions about enrollment and registration. Ask (Lancaster University)
+questions about enrollment and registration. Ask L. U.
  \cite{LancasterUniversity_2019} answers students' frequently
 asked questions about timetables, grades, tutors and societies. LISA
 \cite{dibitonto2018chatbot} and Differ \cite{differ.chat} facilitate
@@ -437,27 +438,29 @@ For some time, the University of Granada had ELVIRA as a
 chatbot in its main web page \cite{MOREO20129}. Besides being able to
 answer pre-established (frequent) questions, it did so from the website of the
 University of Granada using an inset character, voiced by a real
-person, who lip-synched the answers. The emphasis in this case,
+person, who lip-synched the answers. The emphasis in the case of Elvira,
 however, was on the authenticity of the synchronization more than in
 making the update of questions and answers simpler, or more
 interactive, using actual messaging platforms. 
 % Antonio - the last part of the sentence is not clear. Do you refer to all the aforementioned chatbots?
 % Just to Elvira? What messaging platforms do you mean?
+% Only Elvira - JJ
 In most cases, using the inset search engine was able to give you more up-to-date and
-accurate answers.
+accurate answers than the ones provided by ELVIRA, which had to be updated by hand (and not too often).
 % Antonio - again, are you speaking about Elvira? 
 % If we say something like the last sentence, we are actually saying that chatbots are not useful... is this what we want to remark?
+% No, we're saying that chatbots like Elvira have limited usability, unlike chatbots in messaging platforms - JJ
 
 On the other hand, teaching-oriented chatbots are more sophisticated,
 as they set personalised learning outcomes and monitor learning
-progress. For instance, the work \cite{fernoagua2018intelligent} reported on
-''eduAssistant'', a virtual teaching assistant chatbot developed inside the
+progress. For instance, \cite{fernoagua2018intelligent} reported on
+''eduAssistant'', a virtual teaching assistant chatbot developed on the
 Telegram messaging platform. In this study, Telegram platform was
 chosen because it is easy to use, students are familiar with its
-features, and it enables users to exchange messages in different
+features, and it enables them to exchange messages in different
 formats (text, audio and video) \cite{fernoagua2018intelligent}. In
-addition, Telegram run on all devices and operating
-systems. ''eduAssistant'' chatbot acts as an automatic agent
+addition, Telegram could operate on all devices and operating
+systems. The ''eduAssistant'' chatbot acts as an automatic agent
 in teacher-content-student, facilitating real-time feedback
 loops and providing a personalised learning experience relevant to the
 students' acquired skills and knowledge. Using this chatbot, educators can
@@ -470,10 +473,10 @@ them more educational resources relevant to their academic attainment.
 
 Despite its (arguably) successful implementation in different higher education institutions, 
 over all in the fringes of educational activity, its implementation or deployment is not trivial.
-Authors in \cite{sjostrom2018designing} have proposed a conceptual
+Some authors, for instance \cite{sjostrom2018designing} have proposed a conceptual
 architecture for the adoption of teaching-oriented chatbots in higher education.  This
 conceptual architecture is based on a systematic literature review of
-previous studies, examining the design of chatbots in higher education, as well as a content 
+previous studies, examining the design of chatbots in higher education, as well as making a content 
 analysis of student emails and discussion forum posts of
 four instances of a Java programming course.  The study outlined
 several design considerations; among them, the authors emphasised the
@@ -500,7 +503,7 @@ Therefore, to develop efficient chatbots for higher education, all stakeholders'
 carefully collected and taken into consideration
 \cite{sjostrom2018designing,tsivitanidouusers}.
 
-In this line, our previous work \cite{MoraChatbots2021} aimed at analysing the expectations of students on this regard, whereas the present study is focused on the other key actor in this challenge, i.e. educators.
+Along this line of work, our previous work \cite{MoraChatbots2021} aimed at analysing the expectations of students on this regard, whereas the present study is focused on the other key actor in this challenge, i.e. educators.
 
 
 % ********************** METHODOLOGY ****************************
