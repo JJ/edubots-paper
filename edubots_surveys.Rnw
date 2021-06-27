@@ -399,8 +399,9 @@ ownership and control, since it is vital to advance in their learning
 This is why examining the role of MIM in higher education is still a challenge, and why the attitudes of the teaching community towards them have to be examined, as we do in this paper.
 
 % The Use of Chatbots in Higher Education
-The use of MIM, although possibly valuable by itself, can be enhanced via the use of chatbots, which, being conversational agents, usually well where synchronous conversations take place. 
+The use of MIM, although possibly valuable by itself, can be enhanced via the use of chatbots, which, being conversational agents, usually dwell in systems where synchronous conversations take place. 
 % Antonio - I cannot understand this sentence... what's the point of the expression 'usually well'?
+% Dwell, not well - JJ
 The use of conversational agents (chatbots) in higher education is
 still at its infancy \cite{yang2019opportunities}. Nevertheless,
 recent studies examining their positive impact on students' academic
@@ -496,14 +497,16 @@ the next level.
 Regarding the factors for the adoption of chatbots in higher
 education, many studies have focused on the evaluation of technology
 acceptance and usability \cite{Roblyer2010,Pimmer2019}. However,
-higher education is a special domain where according to Hobert \cite{hobert2019you}, 
+higher education is a special domain where, according to Hobert \cite{hobert2019you}, 
 specific pedagogical factors such as learning success or increased motivation are more important.  
 Therefore, to develop efficient chatbots for higher education, all stakeholders'
 (i.e. educators, students, institutions, etc) expectations needs to be
 carefully collected and taken into consideration
 \cite{sjostrom2018designing,tsivitanidouusers}.
 
-Along this line of work, our previous work \cite{MoraChatbots2021} aimed at analysing the expectations of students on this regard, whereas the present study is focused on the other key actor in this challenge, i.e. educators.
+Along this line of work, our previous work \cite{MoraChatbots2021} aimed at analysing the expectations of students on this regard, whereas the present study is focused on the other key actor in this challenge, i.e. educators. This has been analyzed very recently by Chocarro et al. \cite{doi:10.1080/03055698.2020.1850426}, who, by analyzing surveys, created a {\em technology acceptance model} that proposed a series of features that would make chatbots easier to accept; among them, formality of language as well as easiness and usefulness. The survey targeted primary and secondary education teachers, and was also more interested in the general use of chatbots in education, not specifically in a classroom setting, seeking educational outcomes. However, they establish a series of results that are obviously interesting and relevant for this work.
+
+We will present next the methodology we have followed to find out teachers' attitudes.
 
 
 % ********************** METHODOLOGY ****************************
@@ -986,7 +989,7 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Disci
 
 \subsection{Data Analysis using Machine Learning}
 
-To provide a different perspective another analysis was carried out using models from the field of machine learning. The idea was to be able to identify which features measured in the survey could identify willingness to change. As chatbots are an emerging technology, it is quite probable that this new change will come sooner than later considering the improvemente in Virtual and Augmented Reality \cite{}.
+To provide a different perspective another analysis was carried out using models from the field of machine learning. The idea was to be able to identify which features measured in the survey could identify willingness to change. As chatbots are an emerging technology, it is quite probable that this new change will come sooner than later considering the improvements in Virtual and Augmented Reality \cite{}.
 
 The output variable is set as covid-changes, whose values were grouped to three numerical classes:
 
