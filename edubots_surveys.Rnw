@@ -1041,7 +1041,8 @@ The reference mapping for the feature names in the experiments is in Table \ref{
 \hline
 Output & PostCOVID changes	\\
 \hline
-\end{tabular} \label{tab:feature_reference} \caption{Mapping of feature numbers to survey questions.}
+\label{tab:feature_reference} \caption{Mapping of feature numbers to survey questions.}
+\end{tabular}
 \end{table}
 
 \subsubsection{Using Mutual Information and Neural Networks}
