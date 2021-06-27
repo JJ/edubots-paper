@@ -394,7 +394,7 @@ addition, there is a need to set rules and norms for these MIM groups
 in order to maintain the safety of these online communities for
 students \cite{abbas2021onlinechat}. However, these rules should not affect students'
 ownership and control, since it is vital to advance in their learning
-\cite{gachago2015crossing} precess. 
+\cite{gachago2015crossing} process. 
 This is why examining the role of MIM in higher education is still a challenge, and why the attitudes of the teaching community towards them have to be examined, as we do in this paper.
 
 % The Use of Chatbots in Higher Education
