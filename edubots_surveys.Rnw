@@ -74,7 +74,7 @@
 
 %%% Begin ...
 \begin{document}
-\SweaveOpts{concordance=TRUE}
+%\SweaveOpts{concordance=TRUE}
 
 %%% Start of article front matter
 \begin{frontmatter}
@@ -1130,7 +1130,7 @@ This work has been supported by EDUBOTS project, funded under the scheme Erasmus
 \subsection{Authors' contributions}
 
 All the authors have contributed to the study presented in this manuscript. 
-JJM has been the leader...
+JJM has been the leader, drafted the first versions of the survey and supervised the writing of the manuscript.
 PAC has...
 AMM has ...
 FB has...
@@ -1144,7 +1144,7 @@ All authors read and approved the final manuscript.
 
 \subsection{Acknowledgements}
 
-The authors want to thank to the educators who participated in the survey.
+The authors want to thank to the educators who participated in the survey, and also people who have distributed the survey in their mailing lists, especially Mario García Valdez, Jesús Moreno León and José Raúl Canay.
 % Antonio - Add other acknowledgements
 
 \end{backmatter}
