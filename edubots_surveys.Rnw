@@ -1077,7 +1077,7 @@ As the evaluation of all possible combinations might be unfeasible from a comput
 16 & Degrees $\rightarrow$ Number of degrees involved	&			&  &  \\
 17 & Discipline	&		&  &  	\\
 \hline
-% Output & \multirow{3}{PostCOVID changes} & 	\\
+Output & \multicolumn{3}{c}{PostCOVID changes} & 	\\
 \hline
 \end{tabular}
 \caption{Mapping of feature numbers to survey questions.}
