@@ -129,6 +129,10 @@
   addressref={aff1},
   email={aguillen@ugr.es}
 ]{\inits{AG}\fnm{Alberto} \snm{Guillén}}
+\author[
+  addressref={aff4},
+  email={o.tsivitanidou@cyens.org.cy}
+]{\inits{OT}\fnm{Olia} \snm{Tsivitanidou}}
 
 % Antonio - Olia is missing. ;)
 
@@ -519,9 +523,12 @@ We will present next the methodology we have followed to find out teachers' atti
 Our intention from the beginning was to try and gather a sufficient amount of responses in all sectors, as well as cover different sectors of higher education. This is why we created a Google Form, in Spanish, which was intended to be answered in a very short amount of time. Initially, our intention was to mirror the questions used in \cite{MoraChatbots2021}; however, an initial exploration of results led us to create a second survey.
 % Questions should probably be included here.
 
-The initial survey was done in two different forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. We got around 300 responses to this one, with two thirds of them coming from university teachers, the rest from high school teachers. In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, as well as Costa Rica and Mexico. The tertiary non-university teachers are mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching.
+% Olia - I do not think that we should say here that the first survey was done in two different forms. Wasn't the same survey for university and vocational teachers? It is just that they had to specify in which sector of education they were teaching, right? The second survey is another story... this is what I understand. 
 
-The second survey followed the same paths, only in this case there was a single questionnaire. It was filled by teachers that were also students in a teacher formation course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers to knew about it by emails from the authors, as well as from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary.
+The initial survey was done in two different forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. A total of 282 teachers responded to the survey: 193 teaching at the University (68.4%) and 89 at high school (31.6%). In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, as well as Costa Rica and Mexico. The tertiary non-university teachers are mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching.
+
+The second survey followed the same paths, only in this case there was a single questionnaire. % Olia - see my comment above. It was filled by teachers that were also students in a teacher formation course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers to knew about it by emails from the authors, as well as from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary.
+% Olia - we shoudl say here a few words about the two surveys, and their main difference. Also, whch RQs each survey addresses etc. 
 
 
 % ********************** RESULTS ****************************
@@ -632,7 +639,8 @@ ggplot(Age.vs.Experience,aes(Age,Experience))+geom_point(aes(size=freq),colour="
 %Why messaging apps are relevant here --> connect to the development of chatbots
 Group messaging apps have become a powerful tool for keeping touch with students. Also, they are the baseline platform for the development of chatbots to help with the learning process. 
 
-According to the results summarized in Fig. \ref{figure:chatbots_use}, teachers mainly use the instant messaging app provided by their institutions (55\%),  and Whatsapp (44\%), the most popular messaging app in Spain. Finally, about 20\% also use Telegram. 
+For answering RQ1, teachers were queried about whether they use messaging apps in their classes, specifically, Telegram, WhatsApp, Slack, or any other messaging app, and whether they use messaging apps provided by their Academic Institution. 
+According to the results summarized in Fig. \ref{figure:chatbots_use}, teachers mainly use the instant messaging app provided by their institutions (55\%),  and Whatsapp (44\%), the most popular messaging app in Spain. Finally, about 20\% also use Telegram. Only 19 teachers (6.7%) replied that they do not use any messaging app in their class. 
 Although gender differences are not significant, female teachers answered they use instant messaging apps more than male teachers (about 10\% more). Also, teachers in vocational Education also use Whatsapp more than university teachers.
 
 With respect to the distribution of the use of messaging apps per age, there are no significant differences for the Whatsapp and apps provided by their institutions. However, younger teachers use also Telegram with more than 25\%, a percentage that falls to about 10\% for teachers that are 55 or older. The third column compares the use of these apps considering the number of years of experience. One interesting result is that, contrarily to the idea of technology adaptation issues when considering older teachers, about 65\% of teachers with more than 25 years of experience use the platforms provided by their institutions while the percentage goes down to less than 50\% for teachers with 6-15 years of experience.
@@ -773,6 +781,7 @@ Results in Fig. \ref{figure:chatbots_use} do not show differences in the use of 
 %\label{figure:chatbots_use_sector_discip}
 %\end{figure} 
 
+%Olia - Isn't the following paragraph better fittng for RQ3? What kind interactions do teachers prefer with their students? 
 Regarding the social factor of chat groups that teachers use in class, according to Fig. \ref{figure:chatbots_messagingorganization} the vast majority prefer small groups only with the students from the same course. These are more focused groups with specific goals and dedicated to the organization of the course and its tasks, and from the pedagogic point of view seem more appropriate to improve the learning process. Interestingly, about 30\% of teachers consider they should not be part of the chat group. Also, only university teachers find interesting a group with all the students and teachers in their own Faculty or School. The lack of teachers from vocational Education here may be the consequence of using specific language such as "Faculty". Moreover, the fact that many universities and schools already use these groups for administrative and social interaction (e.g. \cite{dibitonto2018chatbot}) might be the reason for the low percentage of teachers that selected this response.
 
 \begin{figure}[h!tbp]
@@ -820,6 +829,7 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
 \label{figure:chatbots_use_postcovid}
 \end{figure} 
 
+%Olia - A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, X2 (4, N = 282) = 9.598, p =0.048. The frequencies cross tabulated are given in Table X. [we can add a table here with the crosstabulations]. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational). 
 The descriptive analysis in this case is done using a Chi-square test. For the different variables considered, some statistical significance was found for Gender, Sector, and academic Discipline. The values found with the test are: $p-value=0.0034$ for Gender, $p-value=0.0199$ for Sector, and $p-value=0.0211$ for Discipline.
 The first column in Fig. \ref{figure:postcovid_chisq} shows the Pearson's residuals of the test for these three variables. Residuals show the difference between the observed and the expected values, with large residuals showing that variables are not truly independent. In this case, blue shows positive contribution and red negative contribution to the test, and saturation shows how large is this contribution in contrast to the expected value by chance. Tables on the right side show adjusted standardized residuals that according to \cite{agresti2013categorical}, if greater than +/-2 for cases with few cells, indicate lack of fit of $H_0$ (bolded in our table). Also, the table shows the percentage of contribution to the test of each cell.
 
