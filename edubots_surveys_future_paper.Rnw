@@ -1,0 +1,673 @@
+%% BioMed_Central_Tex_Template_v1.06
+%%                                      %
+%  bmc_article.tex            ver: 1.06 %
+%                                       %
+
+%%IMPORTANT: do not delete the first line of this template
+%%It must be present to enable the BMC Submission system to
+%%recognise this template!!
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                     %%
+%%  LaTeX template for BioMed Central  %%
+%%     journal article submissions     %%
+%%                                     %%
+%%          <8 June 2012>              %%
+%%                                     %%
+%%                                     %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                 %%
+%% For instructions on how to fill out this Tex template           %%
+%% document please refer to Readme.html and the instructions for   %%
+%% authors page on the biomed central website                      %%
+%% https://www.biomedcentral.com/getpublished                      %%
+%%                                                                 %%
+%% Please do not use \input{...} to include other tex files.       %%
+%% Submit your LaTeX manuscript as one .tex document.              %%
+%%                                                                 %%
+%% All additional figures and files should be attached             %%
+%% separately and not embedded in the \TeX\ document itself.       %%
+%%                                                                 %%
+%% BioMed Central currently use the MikTex distribution of         %%
+%% TeX for Windows) of TeX and LaTeX.  This is available from      %%
+%% https://miktex.org/                                             %%
+%%                                                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% additional documentclass options:
+%  [doublespacing]
+%  [linenumbers]   - put the line numbers on margins
+
+%%% loading packages, author definitions
+
+%\documentclass[twocolumn]{bmcart}% uncomment this for twocolumn layout and comment line below
+\documentclass{bmcart}
+
+%%% Load packages
+\usepackage{amsthm,amsmath}
+
+\usepackage[utf8]{inputenc} %unicode support
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                             %%
+%%  If you wish to display your graphics for   %%
+%%  your own use using includegraphic or       %%
+%%  includegraphics, then comment out the      %%
+%%  following two lines of code.               %%
+%%  NB: These line *must* be included when     %%
+%%  submitting to BMC.                         %%
+%%  All figure files must be submitted as      %%
+%%  separate graphics through the BMC          %%
+%%  submission process, not included in the    %%
+%%  submitted article.                         %%
+%%                                             %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\def\includegraphic{}
+%\def\includegraphics{}
+
+%%% Put your definitions there:
+\startlocaldefs
+\endlocaldefs
+
+%%% Begin ...
+\begin{document}
+%\SweaveOpts{concordance=TRUE}
+
+%%% Start of article front matter
+\begin{frontmatter}
+
+\begin{fmbox}
+\dochead{Research}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter the title of your article here     %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Analysing intention of chatbots use after COVID pandemic using Machine Learning}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter the authors here                   %%
+%%                                          %%
+%% Specify information, if available,       %%
+%% in the form:                             %%
+%%   <key>={<id1>,<id2>}                    %%
+%%   <key>=                                 %%
+%% Comment or delete the keys which are     %%
+%% not used. Repeat \author command as much %%
+%% as required.                             %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\author[
+  addressref={aff1},                   % id's of addresses, e.g. {aff1,aff2}
+  corref={aff1},                       % id of corresponding address, if any
+  email={jmerelo@ugr.es}   % email address
+]{\inits{JJM}\fnm{Juan J.} \snm{Merelo}}
+\author[
+  addressref={aff1},
+  email={pacv@ugr.es}   % email address
+]{\inits{PAC}\fnm{Pedro A.} \snm{Castillo}}
+\author[
+  addressref={aff2},
+  email={amorag@ugr.es}
+]{\inits{AMM}\fnm{Antonio M.} \snm{Mora}}
+\author[
+  addressref={aff1},
+  email={fbarranco@ugr.es}
+]{\inits{FB}\fnm{Francisco} \snm{Barranco}}
+\author[
+  addressref={aff3},
+  email={n.h.abbas@leeds.ac.uk}
+]{\inits{NA}\fnm{Noorhan} \snm{Abbas}}
+\author[
+  addressref={aff1},
+  email={aguillen@ugr.es}
+]{\inits{AG}\fnm{Alberto} \snm{Guillén}}
+
+% Antonio - Olia is missing. ;)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter the authors' addresses here        %%
+%%                                          %%
+%% Repeat \address commands as much as      %%
+%% required.                                %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\address[id=aff1]{%                           % unique id
+  \orgdiv{Department of Computer Architecture and Technology},             % department, if any
+  \orgname{University of Granada},          % university, etc
+  \city{Granada},                              % city
+  \cny{Spain}                                    % country
+}
+\address[id=aff2]{%
+  \orgdiv{Department of Signal Theory, Telematics and Communications},
+  \orgname{University of Granada},          % university, etc
+  \city{Granada},                              % city
+  \cny{Spain}                                    % country
+}
+
+\address[id=aff3]{%
+  \orgdiv{School of Computing},
+  \orgname{University of Leeds},          % university, etc
+  \city{Leeds},                              % city
+  \cny{UK}                                    % country
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter short notes here                   %%
+%%                                          %%
+%% Short notes will be after addresses      %%
+%% on first page.                           %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{artnotes}
+%%\note{Sample of title note}     % note to the article
+%\note[id=n1]{Equal contributor} % note, connected to author
+%\end{artnotes}
+
+\end{fmbox}% comment this for two column layout
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                           %%
+%% The Abstract begins here                  %%
+%%                                           %%
+%% Please refer to the Instructions for      %%
+%% authors on https://www.biomedcentral.com/ %%
+%% and include the section headings          %%
+%% accordingly for your article type.        %%
+%%                                           %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{abstractbox}
+
+\begin{abstract} % abstract
+
+
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% The keywords begin here                  %%
+%%                                          %%
+%% Put each keyword in separate \kwd{}.     %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{keyword}
+\kwd{Chatbots}
+\kwd{Messaging platforms}
+\kwd{Tutorship}
+\kwd{Educational bots}
+\kwd{Higher education}
+\end{keyword}
+
+% MSC classifications codes, if any
+%\begin{keyword}[class=AMS]
+%\kwd[Primary ]{}
+%\kwd{}
+%\kwd[; secondary ]{}
+%\end{keyword}
+
+\end{abstractbox}
+%
+%\end{fmbox}% uncomment this for two column layout
+
+\end{frontmatter}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                            %%
+%% The Main Body begins here                  %%
+%%                                            %%
+%% Please refer to the instructions for       %%
+%% authors on:                                %%
+%% https://www.biomedcentral.com/getpublished %%
+%% and include the section headings           %%
+%% accordingly for your article type.         %%
+%%                                            %%
+%% See the Results and Discussion section     %%
+%% for details on how to create sub-sections  %%
+%%                                            %%
+%% use \cite{...} to cite references          %%
+%%  \cite{koon} and                           %%
+%%  \cite{oreg,khar,zvai,xjon,schn,pond}      %%
+%%                                            %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%% start of article main body
+% <put your article body there>
+
+<<setup, echo=FALSE,message=FALSE>>=
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(scales)
+library(ggthemes)
+library(tidyverse)
+library(corrplot)
+
+survey.pilot <- read.csv("data/survey-pilot-3-EN.csv")
+survey.pilot %>% group_by( Gender ) %>% summarise ( n = n() ) %>% mutate( freqGender = n/sum(n)) -> freq.Gender
+survey.pilot %>% group_by( Age ) %>% summarise ( n = n() ) %>% mutate( freqAge = n/sum(n)) -> freq.Age
+survey.pilot %>% group_by( Experience ) %>% summarise ( n = n() ) %>% mutate( freqExperience = n/sum(n)) -> freq.Experience
+survey.pilot %>% group_by( Sector ) %>% summarise ( n = n() ) %>% mutate( freqSector = n/sum(n)) -> freq.Sector
+survey.pilot %>% group_by( Discipline ) %>% summarise ( n = n() ) %>% mutate( freqDiscipline = n/sum(n)) -> freq.Discipline
+
+survey.pilot %>%  mutate(Messaging.Organization =str_split(Messaging.Organization, ", ")) %>% unnest(cols = c(Messaging.Organization)) -> survey.pilot.MessagingOrganization
+
+survey.pilot %>% group_by( PostCOVID.changes ) %>% filter( n() > 1 ) -> survey.pilot.postCOVID
+
+survey.pilot %>%  mutate(ChatbotType = ifelse(AgendaBot == "No","","AgendaBot,")) %>%
+  mutate(ChatbotType = ifelse(ClassMaterialBot == "No", paste(ChatbotType, "",sep=""), paste(ChatbotType, "ClassMaterialBot,",sep=""))) %>%
+  mutate(ChatbotType = ifelse(FAQBot == "No",paste(ChatbotType, "",sep=""), paste(ChatbotType, "FAQBot,",sep=""))) %>%
+  mutate(ChatbotType = ifelse(GradesBot == "No", paste(ChatbotType, "",sep=""), paste(ChatbotType, "GradesBot,",sep=""))) %>%
+  mutate(ChatbotType = ifelse(OtherBot == "No", paste(ChatbotType, "",sep=""), paste(ChatbotType, "OtherBot,",sep=""))) %>%
+  mutate(ChatbotType = substr(ChatbotType,1,nchar(ChatbotType)-1))-> survey.pilot.chatbottype
+survey.pilot.chatbottype %>%  mutate(ChatbotType =str_split(ChatbotType, ",")) %>% unnest(cols = c(ChatbotType)) -> survey.pilot.ChatbotType
+
+
+survey.pilot %>%mutate(Discipline = ifelse(as.character(Discipline) == "No", "Other", as.character(Discipline))) %>%
+  mutate(Discipline = ifelse(as.character(Discipline) == "Engineering", "Tech/Engineering", as.character(Discipline))) %>%
+  mutate(Discipline = ifelse(as.character(Discipline) == "Technology", "Tech/Engineering", as.character(Discipline)))->survey.pilot.Discipline
+
+survey.interaction <- read.csv("data/survey-student-interaction-pilot-3-2021-EN.csv")
+survey.interaction %>% group_by( Gender ) %>% summarise ( n = n() ) %>% mutate( freqGender = n/sum(n)) -> freqInteraction.Gender
+survey.interaction %>% group_by( Age ) %>% summarise ( n = n() ) %>% mutate( freqAge = n/sum(n)) -> freqInteraction.Age
+survey.interaction %>% group_by( Experience ) %>% summarise ( n = n() ) %>% mutate( freqExperience = n/sum(n)) -> freqInteraction.Experience
+
+#survey.interaction %>% group_by( Vocational ) %>% summarise ( n = n() ) %>% mutate( freqSector = n/sum(n)) -> freqInteraction.Sector
+#freqInteraction.Sector$Sector <- freqInteraction.Sector$Vocational
+#freqInteraction.Sector %>% mutate(Sector = ifelse(as.character(Vocational) == "Yes", "Vocational", "University")) -> freqInteraction.Sector
+#freqInteraction.Sector <- freqInteraction.Sector[-c(1)]
+survey.interaction %>%  mutate(Sector = ifelse(DegreesVocational == "No","","Vocational,")) %>%
+  mutate(Sector = ifelse(Sector == "No", paste(Sector, "",sep=""), paste(Sector, "University,",sep=""))) %>%
+  mutate(Sector = substr(Sector,1,nchar(Sector)-1))-> df1
+df1 %>%  mutate(Sector =str_split(Sector, ",")) %>% unnest(cols = c(Sector)) -> df1.Sector
+df1.Sector %>% group_by( Sector ) %>% summarise ( n = n() ) %>% mutate( freqSector = n/sum(n)) -> freqInteraction.Sector
+
+survey.interaction %>% group_by( Discipline ) %>% summarise ( n = n() ) %>% mutate( freqDiscipline = n/sum(n)) -> freqInteraction.Discipline
+freqInteraction.Discipline %>%mutate(Discipline = ifelse(as.character(Discipline) == "No", "Other", as.character(Discipline))) -> freqInteraction.Discipline
+freq.Discipline %>% mutate(Discipline = ifelse(as.character(Discipline) == "No", "Other", as.character(Discipline))) %>%
+                mutate(n = ifelse(as.character(Discipline) =="Engineering", sum(n[as.character(Discipline)=="Engineering" | as.character(Discipline)=="Technology"]), n)) %>%
+                mutate(Discipline = ifelse(as.character(Discipline) == "Engineering", "Tech/Engineering", as.character(Discipline))) %>%
+                subset(as.character(Discipline) != "Technology")-> freq.Discipline
+@
+
+
+% ********************** INTRODUCTION ****************************
+
+\section{Introduction}
+
+% TODO: introduction
+The introduction of new technologies in the classroom needs a combination of teacher education, 
+% Antonio - education -> knowledge? motivation? training?
+student willingness and (possibly new) skills in both. Some technologies are readily adapted, but some of them take a long time to be adopted. In most cases, the success or failure of the introduction of a new technology impinges on the collaboration of all the implied parties, which is why evaluating attitudes towards them is an essential first step.
+
+In the framework of the EduBots KA2 European project\footnote{https://www.edubots.eu}, we are mainly concerned with the creation of best practices in the use of chatbots in higher education classrooms. A \textit{chatbot} is a program, sometimes based on Artificial Intelligence techniques, that allows a computer to communicate in a similar way as a human does \cite{Gong2008}, using natural language. Indeed, most of them would be, apparently, close to passing a classic Turing test \cite{moor2003turing}, since they are able to answer almost any speaker's question fluently, and even ask other questions to the human. However, in most cases a simple messaging-application attached bot will help the students (and teachers); so neither computational intelligence nor comprehension of natural languages are requisites, the only one being the fact that they can be accessed from a synchronous conversational application such as the common instant messaging applications (e.g. Telegram, WhatsApp) used nowadays.
+% Antonio - This paragraph needs a conclusion. Why do we say (essentially) that chatbots are not needed and just a simple messaging bot is enough?
+
+The technology behind chatbots \cite{Gong2008,bradesko2012} has become an usual element in our everyday life, having played an important role in the development of many fields, including education and online tutoring \cite{clarizia2018,Smutny2020}, which is what we are mainly concerned with. These automatic systems ease personalized learning, 
+adapting individuals' pace of learning, who get customized online tutoring outside the classroom. Thus, chatbots can significantly contribute to providing interactive learning experience as well as individual attention \cite{agarwal2020}.
+
+In this sense, chatbot technology offers a great opportunity for the improvement of tutoring systems \cite{Daniel2016,agarwal2020}, as not all students are comfortable with face-to-face tutoring with the instructor. In fact, in many cases, students suffer from stress when they have to ask a question in front of the entire class. This is why many students prefer to remain silent and ask their question later via email. 
+However, this means a waste of time and a delay of hours or even days to get the teacher's answer; moreover, it does not scale well with the size of the class.
+Chatbot technology has a potential to fill the gap between teacher and students, helping them to solve questions and carry out a dynamic and autonomous learning \cite{Griol2014,kim2020}.
+In addition, using an automated system such as a chatbot, allows the teacher to detect the most demanded topics, and on which he or she should consequently place more emphasis in class.
+
+Chatbots are obviously associated to messaging applications, and in particular, direct messaging applications, since they are the only type of applications that are able to support a synchronous conversation between the two parties. This is why in many cases chatbots couple messaging and the chatbot technology itself \cite{differ.chat}, while in others, you can create chatbots in any number of technologies and then attach them to a messaging application using their API (Application Program Interface).
+
+Given the potential advantages that chatbots could bring to the classroom, as a previous step, we created two surveys for bachelor and master degree students at the University of Granada (Spain), which were answered by more than 250 students. The obtained results were analysed with the object of identifying students' actual needs, in \cite{MoraChatbots2021}. The survey asked about their preferences on tools/applications for chatting and messaging, how do they use them in the educational context, who do they like to be with in the class messaging groups, and what do they expect bots and chatbots to do to aid them during their learning process. We concluded that students prefer to use known whatever messaging application, such as Telegram or WhatsApp, they are already using. They also expected chatbots to help them with their scheduling, to provide assignment grades and to search for class material. Only one of the applications mentioned, having them work with frequently asked questions, might actually require some understanding of natural language, although it can be formulated in such a way that is not needed.
+
+% Maybe move it to a different place later
+In the present work we aim to complement the aforementioned study with teacher attitudes; teachers are the ones that actually would need to implement, 
+% Antonio - 'deploy' instead implement? Since in Computer Sciences implement and program are synonyms...
+configure and maybe program chatbots. Thus, we have performed a survey among 300 teachers asking about their attitudes towards the use of bots or chatbots in their classes. We analyse their responses, since we are interested in discussing implications and the impact for the development of future technology-enhanced tools and the Education institutions policies regarding the following research questions:
+\begin{itemize}
+\item{ RQ1 - Are teachers already using messaging apps in their classes? } %This was the second survey, not the  first survey. I wonder if maybe we could invert the presentation order - JJ
+\item{ RQ2 - Which kind of chatbots would teachers find useful in their classes? }
+\item{ RQ3 - Which kind of interaction do teachers prefer with their students? }
+
+\end{itemize}
+
+
+The rest of the paper is organized as follows: Next is an overview of what current research has found about the use of messaging applications, including chatbots, in the classroom. The methodology used in the survey is presented in Section \ref{sec:meth}, and the results of the survey are presented next in Section \ref{sec:res}. Finally, we discuss these results and conclude with a series of recommendations in the section that closes the paper.
+
+
+% ********************** STATE OF THE ART ****************************
+
+\section{State of the art}
+\label{sec:soa}
+
+% The Use of Mobile Instant Messaging (MIM) Platforms in Higher Education
+The widespread and rapid adoption of free Mobile Instant messaging
+(MIM) tools/platforms such as WhatsApp, Telegram, WeChat and Facebook
+Messenger stems from their simplicity, ease of use and multi-modality
+(i.e. video, audio, text) \cite{tang2017mobile}. Using these tools in
+higher education can facilitate the delivery of personalised learning
+that occurs anytime anywhere, promote collaborative learning
+experiences and group discussions \cite{panah2020study}.
+
+WhatsApp is, at least in most Western countries,
+the most popular MIM platform used by educators to give assignments'
+feedback to students, support course discussions, and provide learning
+resources in informal learning settings \cite{panah2020study}.  Moreover, the
+use of WhatsApp in higher education could enhance social presence
+\cite{tang2017mobile} and foster trust relationships between educators
+and students embedded in the social learning process
+\cite{gachago2015crossing}.
+
+Nevertheless, there are challenges when using MIM tools that occur due
+to the blurring of boundaries between academic and private life. This
+can lead to technostress \cite{gachago2015crossing}, difficulty in
+managing responsibilities, especially among mature students, and lack of
+privacy \cite{tang2017mobile}.  Students' dropout of the MIM groups,
+as they can leave groups at any time, can hinder their learning and
+undermine educators' efforts \cite{mwakapina2016whatsapp}.  In
+addition, there is a need to set rules and norms for these MIM groups
+in order to maintain the safety of these online communities for
+students \cite{abbas2021onlinechat}. However, these rules should not affect students'
+ownership and control, since it is vital to advance in their learning
+\cite{gachago2015crossing} process. 
+This is why examining the role of MIM in higher education is still a challenge, and why the attitudes of the teaching community towards them have to be examined, as we do in this paper.
+
+% The Use of Chatbots in Higher Education
+The use of MIM, although possibly valuable by itself, can be enhanced via the use of chatbots, which, being conversational agents, usually dwell in systems where synchronous conversations take place. 
+% Antonio - I cannot understand this sentence... what's the point of the expression 'usually well'?
+% Dwell, not well - JJ
+The use of conversational agents (chatbots) in higher education is
+still at its infancy \cite{yang2019opportunities}. Nevertheless,
+recent studies examining their positive impact on students' academic
+performance \cite{perez2020rediscovering} and engagement
+\cite{differ.chat,abbas2021onlinechat} have led to a growing interest
+in using this technology in the (possibly virtual) classroom. Indeed, the use of chatbots in
+collecting course feedback from students in higher education improved
+students' response quality and boosted their enjoyment levels
+\cite{abbas2021Surveys}.  According to \cite{Roblyer2010}, using
+either tools such as mobile devices or teaching strategies based on
+gamification \cite{Yildirim2017} can improve student motivation. In
+this sense, the authors in \cite{Pimmer2019} carried out a series of experiments with
+technological tools whose results showed positive perception and
+acceptance of the use of technology in teaching and learning.
+
+Several higher education chatbots' evaluation studies have been 
+undertaken. For instance, a recent evaluation review study presented by Smutny and Schreiberova 
+\cite{Smutny2020} examined 47 educational chatbots implemented in
+Facebook Messenger with the focus to identify characteristics and
+quality metrics such as language, subject matter and platform. Another
+study aimed to categorise educational chatbots according to their
+purpose into service-oriented and teaching-oriented
+\cite{perez2020rediscovering}. The first category includes those that
+provide service support such as the chatbot Ask Holly \cite{meetholly}
+and Dina \cite{santoso2018dinus}; both chatbots respond to students'
+questions about enrollment and registration. Ask L. U.
+ \cite{LancasterUniversity_2019} answers students' frequently
+asked questions about timetables, grades, tutors and societies. LISA
+\cite{dibitonto2018chatbot} and Differ \cite{differ.chat} facilitate
+breaking the ice between new students by introducing them to each
+other. Ranoliya et al. \cite{ranoliya2017chatbot} proposed a generic chatbot for
+university students that is able to answer to their frequently asked
+questions. 
+For some time, the University of Granada had ELVIRA as a
+chatbot in its main web page \cite{MOREO20129}. Besides being able to
+answer pre-established (frequent) questions, it did so from the website of the
+University of Granada using an inset character, voiced by a real
+person, who lip-synched the answers. The emphasis in the case of Elvira,
+however, was on the authenticity of the synchronization more than in
+making the update of questions and answers simpler, or more
+interactive, using actual messaging platforms. 
+% Antonio - the last part of the sentence is not clear. Do you refer to all the aforementioned chatbots?
+% Just to Elvira? What messaging platforms do you mean?
+% Only Elvira - JJ
+In most cases, using the inset search engine was able to give you more up-to-date and
+accurate answers than the ones provided by ELVIRA, which had to be updated by hand (and not too often).
+% Antonio - again, are you speaking about Elvira? 
+% If we say something like the last sentence, we are actually saying that chatbots are not useful... is this what we want to remark?
+% No, we're saying that chatbots like Elvira have limited usability, unlike chatbots in messaging platforms - JJ
+
+On the other hand, teaching-oriented chatbots are more sophisticated,
+as they set personalised learning outcomes and monitor learning
+progress. For instance, \cite{fernoagua2018intelligent} reported on
+''eduAssistant'', a virtual teaching assistant chatbot developed on the
+Telegram messaging platform. In this study, Telegram platform was
+chosen because it is easy to use, students are familiar with its
+features, and it enables them to exchange messages in different
+formats (text, audio and video) \cite{fernoagua2018intelligent}. In
+addition, Telegram could operate on all devices and operating
+systems. The ''eduAssistant'' chatbot acts as an automatic agent
+in teacher-content-student, facilitating real-time feedback
+loops and providing a personalised learning experience relevant to the
+students' acquired skills and knowledge. Using this chatbot, educators can
+create interactive instances in their lectures where they pose
+questions to their students and the chatbot assists those who need
+further help by giving them more hints and reporting it to their
+educator's dashboard \cite{fernoagua2018intelligent}. This can help 
+educators to locate those students that need their attention and send to 
+them more educational resources relevant to their academic attainment.
+
+Despite its (arguably) successful implementation in different higher education institutions, 
+over all in the fringes of educational activity, its implementation or deployment is not trivial.
+Some authors, for instance \cite{sjostrom2018designing} have proposed a conceptual
+architecture for the adoption of teaching-oriented chatbots in higher education.  This
+conceptual architecture is based on a systematic literature review of
+previous studies, examining the design of chatbots in higher education, as well as making a content 
+analysis of student emails and discussion forum posts of
+four instances of a Java programming course.  The study outlined
+several design considerations; among them, the authors emphasised the
+importance of developing chatbots in platforms that students and
+educators are familiar with and can easily access (i.e. Facebook
+Messenger) which was confirmed with \cite{hobert2019you} and
+\cite{fernoagua2018intelligent} studies. In addition, Sj{\"o}str{\"o}m et al. \cite{sjostrom2018designing} 
+argued that a conceptualision of learners' questions could aid designers in integrating the appropriate
+types of questions that the chatbots should support for different
+courses.  Coronado et al. \cite{coronado2018cognitive} proposed agents that store
+learning materials to be provided on demand to students, whereas the authors in
+\cite{crockett2017predicting} reported on tutoring systems,
+which can perform initial assessments of students' understanding and
+provide learning material that would advance their understanding to
+the next level.
+
+Regarding the factors for the adoption of chatbots in higher
+education, many studies have focused on the evaluation of technology
+acceptance and usability \cite{Roblyer2010,Pimmer2019}. However,
+higher education is a special domain where, according to Hobert \cite{hobert2019you}, 
+specific pedagogical factors such as learning success or increased motivation are more important.  
+Therefore, to develop efficient chatbots for higher education, all stakeholders'
+(i.e. educators, students, institutions, etc) expectations needs to be
+carefully collected and taken into consideration
+\cite{sjostrom2018designing,tsivitanidouusers}.
+
+Along this line of work, our previous work \cite{MoraChatbots2021} aimed at analysing the expectations of students on this regard; recent papers have also analyzed how the use of chatbots affected the learning outcomes of students in a Chinese class \cite{doi:10.1177/0735633120929622}. This paper analyzed conversational chatbots in an one-to-one setting, finding that learning really benefited from it. This is, once again, a proof of the benefit of chatbots in certain settings; however, there are some attitudes that might prevent the successful acceptance of the technology, and these are what we are trying to find out in this paper, together with what kind of features would make its acceptance better.
+
+Besides, the present study is focused on the other key actor in this challenge, i.e. educators. Their attitudes have been analyzed very recently by Chocarro et al. \cite{doi:10.1080/03055698.2020.1850426}, who, by analyzing surveys, created a {\em technology acceptance model} that proposed a series of features that would make chatbots easier to accept; among them, formality of language as well as easiness and usefulness. The survey targeted primary and secondary education teachers, and was also more interested in the general use of chatbots in education, not specifically in a classroom setting, seeking educational outcomes. However, they establish a series of results that are obviously interesting and relevant for this work.
+
+We will present next the methodology we have followed to find out teachers' attitudes.
+
+
+% ********************** SURVEY DESCRIPTION ****************************
+
+\sectionData description}
+\label{sec:data}
+
+% ************************ DATA ANALYSIS ***********************
+
+\section{Data Analysis using Machine Learning}
+
+To provide a different perspective another analysis was carried out using models from the field of machine learning. The idea was to be able to identify which features measured in the survey could identify willingness to change. As chatbots are an emerging technology, it is quite probable that this new change will come sooner than later considering the improvements in Virtual and Augmented Reality \cite{}.
+
+The output variable is set as covid-changes, whose values were grouped to three numerical classes:
+
+\begin{itemize}
+ \item 2 = Yes, now they use it or use it more or in a safer/different way 
+ \item 1 = No change in use 
+ \item 0 = No change in not using 
+\end{itemize}
+
+Regarding the rest of features, a similar preprocessing was applied to the original survey:
+
+\begin{itemize}
+\item Binary Yes/No variables like AgendaBot, ClassMaterialBot, FAQBot, GradesBot, MessagingPlatform..., OtherBot were mappped to values $\in {0,1}$ using 1 for Yes and 0 for No.
+
+\item Gender variable was mapped to: 1 for Male, 2 for PNTS and 3 for Female. In this way we keep equidistance from PNTS to the other well identified genders.
+
+\item Age and Experience were assigned valued $\in {1,2,3,4}$ where the higher number represents the older age or more years of experience.
+
+\item Sector was coded as 1 for University and 2 for Vocational.
+
+\item Messaging Organization was reinterpreted as number of approaches considered by the professors with the following values: 0 for answer of type: "I'd rather leave students self-organize and not be part of the chat" ; 1 for answers like: "A chat with my students in the same course" or "A chat with all students and teachers in the same semester/year". If the previous two were marked, or even another answer appeared, the sum of approaches was computed. By doing this, we consider a passive professor that does not want to get involved in the chat with a 0 and emphasize the active ones that give a thought on how they want to interact with students.
+                                
+\item Degrees feature was also reinterpreted as number of degrees involved. By doing this, it is possible to see with a number the range width of the professor. From this point, it could be possible to study if a wider range professor presents or not more intention of using chatbots (independently of the degree level).
+
+\item Finally, Discipline was grouped into the following categories: 0 for No  1 for Engineering and Technology 2 for Science and Biomedicine ; 3 for Social Science and 4 for Humanities. By doing this we keep a similarity criterion just by computing the distance between disciplines.
+
+\end{itemize}
+
+The reference mapping for the feature names in the experiments is in Table \ref{tab:feature_mapping}. 
+\begin{table}
+\begin{tabular}{|c|c|}
+\hline
+\# Variable & Name \\
+\hline
+0 & AgendaBot	\\
+1 & ClassMaterialBot		\\
+2 & Age		\\
+3 & Experience		\\
+4 & FAQBot		\\
+5 & GradesBot		\\
+6 & Gender		\\
+7 & MessagingPlatform0ne		\\
+8 & MessagingPlatformOther		\\
+9 & MessagingPlatformProvided		\\
+10 & MessagingPlatformSlack		\\
+11 & MessagingPlatformTelegram		\\
+12 & MessagingPlatformWhatsApp		\\
+13 & OtherBot		\\
+14 & Sector		\\
+15 & Messaging Organization $\rightarrow$ Number of approaches considered		\\
+16 & Degrees $\rightarrow$ Number of degrees involved		\\
+17 & Discipline		\\
+\hline
+Output & PostCOVID changes	\\
+\hline
+\end{tabular}
+\caption{Mapping of feature numbers to survey questions.}
+\label{tab:feature_reference} 
+\end{table}
+
+\subsubsection{Using Mutual Information and Neural Networks}
+
+The intuitive idea for Mutual Information (MI) is the amount of information about a variable that another variable, or group of variables, has. Therefore, setting as goal the capability of predicting the COVID changes, it is possible to detect the most relevant variables. Several approaches can be taken to select a subset of variables that contain enough information to reconstruct the output \cite{}. For this study, the estimation of the mutual information provided by the SKlearn package \cite{} and the algorithm mMRM \cite{} are considered.
+
+As the evaluation of all possible combinations might be unfeasible from a computational point of view, the following heuristic was applied: rank the variables using the MI of that variable isolated, apply a threshold to discard the ones with smaller MI and then, make a exhaustive search for the combination with higher MI.
+
+\begin{table}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\# Variable & Name & MI (considering one variable) & Max Relevance & mRMR\\
+\hline
+0 & AgendaBot	&  &  &\\
+1 & ClassMaterialBot &	&  &	\\
+2 & Age	&		&  &  \\
+3 & Experience &			&  &  	\\
+4 & FAQBot &			&  &  	\\
+5 & GradesBot &			&  &  	\\
+6 & Gender &			&  &  	\\
+7 & MessagingPlatform0ne &			&  &  	\\
+8 & MessagingPlatformOther &			&  &  	\\
+9 & MessagingPlatformProvided	&			&  &  \\
+10 & MessagingPlatformSlack	&			&  &  \\
+11 & MessagingPlatformTelegram	&			&  &  \\
+12 & MessagingPlatformWhatsApp	&			&  &  \\
+13 & OtherBot	&			&  &  \\
+14 & Sector	&			&  &  \\
+15 & Messaging Organization $\rightarrow$ Number of approaches considered	&			&  &  \\
+16 & Degrees $\rightarrow$ Number of degrees involved	&			&  &  \\
+17 & Discipline	&		&  &  	\\
+\hline
+Output & \multicolumn{3}{c}{PostCOVID changes} & 	\\
+\hline
+\end{tabular}
+\caption{Mapping of feature numbers to survey questions.}
+\label{tab:feature_results}
+\end{table}
+
+\subsubsection{Using XGBoost}
+
+Due to the lack of data, estimators based on $k$-Nearest Neighbours might be unreliable, thus, another approach can be used: decision trees build during their design process a relevance of the variables that, after being used to take the decision, decrease in a significant way the error. Therefore, the well known implementation of the XGBoost \cite{} was used to obtain the accuracy and the feature relevance.
+
+The feature ranking results are shown in Figure \ref{fig:feature_xgboost}.
+% \begin{figure}
+% \includegraphics{figs/feature_xgboost.png}
+% \label{fig:feature_xgboost}\caption{Ranking of features obtained after using XGBoost model.}
+% \end{figure}
+
+
+
+% ********************** CONCLUSIONS ****************************
+
+\section{Conclusions}
+\label{sec:concl}
+
+%This section is repeated
+%\section*{Acknowledgements}
+
+
+\bibliographystyle{apalike}
+\bibliography{edubots}
+
+\begin{backmatter}
+
+
+% ********************** DECLARATIONS ****************************
+
+\section{Declarations}
+\label{sec:decl}
+
+\subsection{Availability of data and materials}
+
+The datasets generated and analysed during the current study are available in the [NAME] repository, accesible from [PERSISTENT WEB LINK TO DATASETS]
+
+
+\subsection{Competing interests}
+
+The authors declare that they have no competing interests.
+
+% Antonio - If there is any, please indicate.
+
+
+\subsection{Funding}
+
+This work has been supported by EDUBOTS project, funded under the scheme Erasmus + KA2: Cooperation for innovation and the exchange of good practices - Knowledge Alliances (grant agreement no: 612446).
+
+
+\subsection{Authors' contributions}
+
+All the authors have contributed to the study presented in this manuscript. 
+JJM has been the leader, drafted the first versions of the survey and supervised the writing of the manuscript.
+PAC has...
+AMM has ...
+FB has...
+NA has...
+OT has...
+AG has...
+All authors have read and approved the final manuscript.
+
+% Antonio - here we can explain what we have done author briefly.
+
+
+\subsection{Acknowledgements}
+
+The authors want to thank to the educators who participated in the survey, and also people who have distributed the survey in their mailing lists, especially Mario García Valdez, Jesús Moreno León and José Raúl Canay.
+% Antonio - Add other acknowledgements
+
+\end{backmatter}
+
+
+\end{document}
