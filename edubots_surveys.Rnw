@@ -334,12 +334,14 @@ freq.Discipline %>% mutate(Discipline = ifelse(as.character(Discipline) == "No",
 \section{Introduction}
 
 % TODO: introduction
-The introduction of new technologies in the classroom needs a combination of teacher education, 
+The introduction of new technologies in the classroom needs a combination of teacher motivation, 
 % Antonio - education -> knowledge? motivation? training?
+% Changed to motivation just in case we want to relate it to the technology acceptance model - JJ
 student willingness and (possibly new) skills in both. Some technologies are readily adapted, but some of them take a long time to be adopted. In most cases, the success or failure of the introduction of a new technology impinges on the collaboration of all the implied parties, which is why evaluating attitudes towards them is an essential first step.
 
 In the framework of the EduBots KA2 European project\footnote{https://www.edubots.eu}, we are mainly concerned with the creation of best practices in the use of chatbots in higher education classrooms. A \textit{chatbot} is a program, sometimes based on Artificial Intelligence techniques, that allows a computer to communicate in a similar way as a human does \cite{Gong2008}, using natural language. Indeed, most of them would be, apparently, close to passing a classic Turing test \cite{moor2003turing}, since they are able to answer almost any speaker's question fluently, and even ask other questions to the human. However, in most cases a simple messaging-application attached bot will help the students (and teachers); so neither computational intelligence nor comprehension of natural languages are requisites, the only one being the fact that they can be accessed from a synchronous conversational application such as the common instant messaging applications (e.g. Telegram, WhatsApp) used nowadays.
 % Antonio - This paragraph needs a conclusion. Why do we say (essentially) that chatbots are not needed and just a simple messaging bot is enough?
+% JJ - feel free to add one 
 
 The technology behind chatbots \cite{Gong2008,bradesko2012} has become an usual element in our everyday life, having played an important role in the development of many fields, including education and online tutoring \cite{clarizia2018,Smutny2020}, which is what we are mainly concerned with. These automatic systems ease personalized learning, 
 adapting individuals' pace of learning, who get customized online tutoring outside the classroom. Thus, chatbots can significantly contribute to providing interactive learning experience as well as individual attention \cite{agarwal2020}.
@@ -356,6 +358,7 @@ Given the potential advantages that chatbots could bring to the classroom, as a 
 % Maybe move it to a different place later
 In the present work we aim to complement the aforementioned study with teacher attitudes; teachers are the ones that actually would need to implement, 
 % Antonio - 'deploy' instead implement? Since in Computer Sciences implement and program are synonyms...
+% JJ - deployment would be done by the university or whoever publishes the system. Deployment and implementation are two different things, anyway
 configure and maybe program chatbots. Thus, we have performed a survey among 300 teachers asking about their attitudes towards the use of bots or chatbots in their classes. We analyse their responses, since we are interested in discussing implications and the impact for the development of future technology-enhanced tools and the Education institutions policies regarding the following research questions:
 \begin{itemize}
 \item{ RQ1 - Are teachers already using messaging apps in their classes? } %This was the second survey, not the  first survey. I wonder if maybe we could invert the presentation order - JJ
@@ -407,8 +410,6 @@ This is why examining the role of MIM in higher education is still a challenge, 
 
 % The Use of Chatbots in Higher Education
 The use of MIM, although possibly valuable by itself, can be enhanced via the use of chatbots, which, being conversational agents, usually dwell in systems where synchronous conversations take place. 
-% Antonio - I cannot understand this sentence... what's the point of the expression 'usually well'?
-% Dwell, not well - JJ
 The use of conversational agents (chatbots) in higher education is
 still at its infancy \cite{yang2019opportunities}. Nevertheless,
 recent studies examining their positive impact on students' academic
@@ -450,9 +451,6 @@ person, who lip-synched the answers. The emphasis in the case of Elvira,
 however, was on the authenticity of the synchronization more than in
 making the update of questions and answers simpler, or more
 interactive, using actual messaging platforms. 
-% Antonio - the last part of the sentence is not clear. Do you refer to all the aforementioned chatbots?
-% Just to Elvira? What messaging platforms do you mean?
-% Only Elvira - JJ
 In most cases, using the inset search engine was able to give you more up-to-date and
 accurate answers than the ones provided by ELVIRA, which had to be updated by hand (and not too often).
 % Antonio - again, are you speaking about Elvira? 
@@ -528,10 +526,12 @@ Our intention from the beginning was to try and gather a sufficient amount of re
 
 % Olia - I do not think that we should say here that the first survey was done in two different forms. Wasn't the same survey for university and vocational teachers? It is just that they had to specify in which sector of education they were teaching, right? The second survey is another story... this is what I understand. 
 
-The initial survey was done in two different forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. A total of 282 teachers responded to the survey: 193 teaching at the University (68.4%) and 89 at high school (31.6%). In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, as well as Costa Rica and Mexico. The tertiary non-university teachers are mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching.
+The initial survey was done in two different forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at high school (31.6\%). In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, as well as Costa Rica and Mexico. The tertiary non-university teachers are mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching.
 
-The second survey followed the same paths, only in this case there was a single questionnaire. % Olia - see my comment above. It was filled by teachers that were also students in a teacher formation course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers to knew about it by emails from the authors, as well as from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary.
+The second survey followed the same paths, only in this case there was a single questionnaire. % Olia - see my comment above.
+It was filled by teachers that were also students in a teacher formation course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers to knew about it by emails from the authors, as well as from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary.
 % Olia - we shoudl say here a few words about the two surveys, and their main difference. Also, whch RQs each survey addresses etc. 
+% JJ - Yep... 
 
 
 % ********************** RESULTS ****************************
