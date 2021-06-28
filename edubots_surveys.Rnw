@@ -74,8 +74,6 @@
 
 %%% Begin ...
 \begin{document}
-\SweaveOpts{concordance=TRUE}
-%\SweaveOpts{concordance=TRUE}
 
 %%% Start of article front matter
 \begin{frontmatter}
@@ -135,8 +133,6 @@
   email={o.tsivitanidou@cyens.org.cy}
 ]{\inits{OT}\fnm{Olia} \snm{Tsivitanidou}}
 
-% Antonio - Olia is missing. ;)
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
 %% Enter the authors' addresses here        %%
@@ -164,6 +160,12 @@
   \orgname{University of Leeds},          % university, etc
   \city{Leeds},                              % city
   \cny{UK}                                    % country
+}
+
+\address[id=aff4]{%
+  \orgname{CYENS},          % university, etc
+  \city{Nicosia},                              % city
+  \cny{Cyprus}                                    % country
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
