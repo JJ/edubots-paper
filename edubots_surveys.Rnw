@@ -74,6 +74,7 @@
 
 %%% Begin ...
 \begin{document}
+\SweaveOpts{concordance=TRUE}
 
 %%% Start of article front matter
 \begin{frontmatter}
@@ -653,7 +654,14 @@ ggplot(Age.vs.Experience,aes(Age,Experience))+geom_point(aes(size=freq),colour="
 \label{figure:age.vs.exp}
 \end{figure}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \subsection{RQ1 - Are teachers already using messaging apps in their classes?}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 %Why messaging apps are relevant here --> connect to the development of chatbots
 Group messaging apps have become a powerful tool for keeping touch with students. Also, they are the baseline platform for the development of chatbots to help with the learning process. 
@@ -948,8 +956,13 @@ corrplot(chisq$residuals, is.corr = FALSE)
 \end{figure} 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{RQ2 - Which kind of chatbots would teachers find useful in their classes?}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 Answer to these questions are plotted in Figure \ref{figure:chatbots_types} grouped by gender, sector and experience. As it was a multiple choice question, the counts are over the total number of people that answered. One of the most interesting questions that can arise from the plots, and the should require further study, is: Are our professors really aware of the possibilities of chatbots in the classroom? The reason to ask ourselves this question is due to the fact of the small number of responses for other uses in comparison with the other approaches proposed. Another way to loook about it is that, unless you provide the specific instructions on how to use a tool, the teaching staff is already too busy or burn out to think about innovation.
 
@@ -987,7 +1000,13 @@ ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Expe
 \end{figure} 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \subsection{RQ3 - Which kind of interaction do teachers prefer with their students?}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 
 \begin{figure}[h!tbp]
@@ -1019,7 +1038,53 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Disci
 \end{figure} 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\subsection{RQ4 - What kind of interaction media features do teachers value the most? }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged >55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). The teachers were asked about what kind of interaction media features they value the most; the frequencies and percentages of their responses are given in Table \ref{tab:interaction}. 
+
+\begin{table}[h!]
+\begin{tabular}{lcccc}
+\hline
+Interaction features & \multicolumn{2}{c}{Yes} & \multicolumn{2}{c}{No} \\
+\hline
+                    &  Freq. & \% &  Freq. & \% \\
+                    \cline{2-5}
+                
+Analytics & 108 & 52.7 & 97 & 47.3 \\
+Connectivity & 119 & 58.0 & 86 & 42.0 \\
+Familiarity & 121 & 59.0 & 84 & 41.0 \\
+Hidden Phone & 113 & 55.1 & 92 & 44.9 \\
+Horizontally & 134 & 65.4 & 71 & 34.6 \\
+Official formation & 42 & 20.5 & 163 & 79.5 \\
+Pluggability & 65 & 31.7 & 140 & 68.3 \\
+Sustainability & 157 & 76.6 & 48 & 23.4\\
+Unidirectionality & 27 & 13.2 & 178 & 86.8 \\
+Officiality & 150 & 73.2 & 55 & 26.8 \\
+Synchrony & 45 & 22.0 & 160 & 78.0\\
+Other & 5 & 2.4 & 200 & 97.6 \\
+\hline
+\end{tabular}\caption{Interaction media features valued by teachers}
+\label{tab:interaction}
+\end{table}
+
+
+As it appears in the responses presented above, teachers’ responses are distributed between positive and negative in relation to the media features: analytics, connectivity, and hidden phone, while for the features: familiarity, horizontally, sustainability and officiality the majority provided a positive response, designating their preference to these features. On the other hand, the majority of teachers seems to consider not valuable the presence of official formation, pluggability, unidirectionality and synchrony in the interaction media features of messaging apps. 
+
+From a qualitative point of view, these results show comsensus in a few key aspects:
+
+\begin{itemize}
+ \item Professors want to have support from their corresponding institution. This is probably due to the strict European data regulations and to avoid the overhead required to sing up and deleting students from year to year.
+ 
+ \item Professors need sustainability. The main reason is that implementing changes is expensive in terms of effort and prone to errors in the first years of implementing new procedures, therefore, it is logical that if chatbots or messaging platforms are to be introduced, they want this change to be as permanent as possible.
+ 
+ \item Keep it Simple. Media interaction requirements are simple and only a 2.4\% is requesting more features. This could be a sign of technological burn out produced by the previous and current courses where, due to the pandemic, the use of computer has increased significantly. 
+
+\end{itemize}
+% TODO A chi-square test of independence was performed to examine the potential relationship among the various features. The statistically significant correlations are given in the table that follows. 
 
 
 % ********************** CONCLUSIONS ****************************
