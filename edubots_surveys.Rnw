@@ -204,11 +204,10 @@ affected community, especially those that will need to handle them,
 % Antonio - I would say 'to manage them'. Students should also handle new technologies. ;)
 % We're talking about teachers here, who need to handle the outcomes and introduce them in class - JJ
 teachers.
+% Antonio - Not yet, this is the abstract and not mentioned yet that teachers are the target (just in the title). We speak about the community. But anyway. It is not very relevant.
 In this paper we have surveyed the opinions of tertiary education
 teachers based mainly in Spain and Spanish-speaking countries, 
 looking at what they think about the introduction 
-% Antonio - inthe classroom
-% that's implied - JJ
 of messaging platforms and chatbots, what their needs are, what kind of use cases they see for
 them, and in what kind of environment they think its use will be
 valuable. We will examine how and when these attitudes vary across
@@ -335,13 +334,13 @@ freq.Discipline %>% mutate(Discipline = ifelse(as.character(Discipline) == "No",
 
 % TODO: introduction
 The introduction of new technologies in the classroom needs a combination of teacher motivation, 
-% Antonio - education -> knowledge? motivation? training?
-% Changed to motivation just in case we want to relate it to the technology acceptance model - JJ
 student willingness and (possibly new) skills in both. Some technologies are readily adapted, but some of them take a long time to be adopted. In most cases, the success or failure of the introduction of a new technology impinges on the collaboration of all the implied parties, which is why evaluating attitudes towards them is an essential first step.
 
 In the framework of the EduBots KA2 European project\footnote{https://www.edubots.eu}, we are mainly concerned with the creation of best practices in the use of chatbots in higher education classrooms. A \textit{chatbot} is a program, sometimes based on Artificial Intelligence techniques, that allows a computer to communicate in a similar way as a human does \cite{Gong2008}, using natural language. Indeed, most of them would be, apparently, close to passing a classic Turing test \cite{moor2003turing}, since they are able to answer almost any speaker's question fluently, and even ask other questions to the human. However, in most cases a simple messaging-application attached bot will help the students (and teachers); so neither computational intelligence nor comprehension of natural languages are requisites, the only one being the fact that they can be accessed from a synchronous conversational application such as the common instant messaging applications (e.g. Telegram, WhatsApp) used nowadays.
 % Antonio - This paragraph needs a conclusion. Why do we say (essentially) that chatbots are not needed and just a simple messaging bot is enough?
 % JJ - feel free to add one 
+% Antonio - The thing is I don't catch why are we saying that, since it is supossed that we should 'defend' the use of chatbots (from the project perspective, at least). Or if we don't want to defend them, at least not saying that they are useless most of times. XD
+% Moreover, considering that in the following paragraphs we are trying to 'sell' them.
 
 The technology behind chatbots \cite{Gong2008,bradesko2012} has become an usual element in our everyday life, having played an important role in the development of many fields, including education and online tutoring \cite{clarizia2018,Smutny2020}, which is what we are mainly concerned with. These automatic systems ease personalized learning, 
 adapting individuals' pace of learning, who get customized online tutoring outside the classroom. Thus, chatbots can significantly contribute to providing interactive learning experience as well as individual attention \cite{agarwal2020}.
@@ -359,6 +358,7 @@ Given the potential advantages that chatbots could bring to the classroom, as a 
 In the present work we aim to complement the aforementioned study with teacher attitudes; teachers are the ones that actually would need to implement, 
 % Antonio - 'deploy' instead implement? Since in Computer Sciences implement and program are synonyms...
 % JJ - deployment would be done by the university or whoever publishes the system. Deployment and implementation are two different things, anyway
+% Antonio - Ok, but what I said is that 'implement' is a synonym of 'program' in this scope, and we write both in the same sentence as different things.
 configure and maybe program chatbots. Thus, we have performed a survey among 300 teachers asking about their attitudes towards the use of bots or chatbots in their classes. We analyse their responses, since we are interested in discussing implications and the impact for the development of future technology-enhanced tools and the Education institutions policies regarding the following research questions:
 \begin{itemize}
 \item{ RQ1 - Are teachers already using messaging apps in their classes? } %This was the second survey, not the  first survey. I wonder if maybe we could invert the presentation order - JJ
@@ -453,9 +453,6 @@ making the update of questions and answers simpler, or more
 interactive, using actual messaging platforms. 
 In most cases, using the inset search engine was able to give you more up-to-date and
 accurate answers than the ones provided by ELVIRA, which had to be updated by hand (and not too often).
-% Antonio - again, are you speaking about Elvira? 
-% If we say something like the last sentence, we are actually saying that chatbots are not useful... is this what we want to remark?
-% No, we're saying that chatbots like Elvira have limited usability, unlike chatbots in messaging platforms - JJ
 
 On the other hand, teaching-oriented chatbots are more sophisticated,
 as they set personalised learning outcomes and monitor learning
