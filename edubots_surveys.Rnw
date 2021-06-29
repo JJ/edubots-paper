@@ -506,9 +506,9 @@ Therefore, to develop efficient chatbots for higher education, all stakeholders'
 carefully collected and taken into consideration
 \cite{sjostrom2018designing,tsivitanidouusers}.
 
-Along this line of work, our previous work \cite{MoraChatbots2021} aimed at analysing the expectations of students on this regard; recent papers have also analyzed how the use of chatbots affected the learning outcomes of students in a Chinese class \cite{doi:10.1177/0735633120929622}. This paper analyzed conversational chatbots in an one-to-one setting, finding that learning really benefited from it. This is, once again, a proof of the benefit of chatbots in certain settings; however, there are some attitudes that might prevent the successful acceptance of the technology, and these are what we are trying to find out in this paper, together with what kind of features would make its acceptance better.
+Along this line of research, our previous work \cite{MoraChatbots2021} aimed at analysing the expectations of students on this regard; recent papers have also analyzed how the use of chatbots affected the learning outcomes of students in a Chinese class \cite{doi:10.1177/0735633120929622}. This paper analyzed conversational chatbots in an one-to-one setting, finding that learning really benefited from it. This is, once again, a proof of the benefit of chatbots in certain settings; however, there are some attitudes that might prevent the successful acceptance of the technology, and these are what we are trying to find out in this paper, together with what kind of features would make its acceptance better.
 
-Besides, the present study is focused on the other key actor in this challenge, i.e. educators. Their attitudes have been analyzed very recently by Chocarro et al. \cite{doi:10.1080/03055698.2020.1850426}, who, by analyzing surveys, created a {\em technology acceptance model} that proposed a series of features that would make chatbots easier to accept; among them, formality of language as well as easiness and usefulness. The survey targeted primary and secondary education teachers, and was also more interested in the general use of chatbots in education, not specifically in a classroom setting, seeking educational outcomes. However, they establish a series of results that are obviously interesting and relevant for this work.
+Besides, the present work is focused on the other key actor in this challenge, i.e. educators. Their attitudes have been studied very recently by Chocarro et al. \cite{doi:10.1080/03055698.2020.1850426}, who, by analyzing surveys, created a {\em technology acceptance model} that proposed a series of features that would make chatbots easier to accept; among them, formality of language as well as easiness and usefulness. The survey targeted primary and secondary education teachers, and was also more interested in the general use of chatbots in education, not specifically in a classroom setting, seeking educational outcomes. However, they establish a series of results that are obviously interesting and relevant for this work.
 
 We will present next the methodology we have followed to find out teachers' attitudes.
 
@@ -529,6 +529,25 @@ The second survey followed the same paths, only in this case there was a single 
 It was filled by teachers that were also students in a teacher formation course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers who knew about it by emails from the authors, or from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary.
 % Olia - we shoudl say here a few words about the two surveys, and their main difference. Also, whch RQs each survey addresses etc. 
 % JJ - Yep... 
+
+% Antonio - I include here the description of interaction features. Not sure if it is the best place for it. Move wherever it better fits.
+This survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what are their feelings and preferences with regard to the use of communication tools with students, and even using bots or chatbots in the classroom.
+In addition the survey asked about the most relevant \textit{Interaction media features} for the teachers with respect to the potential tool to use in class. These features are:
+\begin{itemize}
+\item \textit{Analytics}: the tool allows to extract data about students performance or development during the academic course on the teacher's subject.
+\item \textit{Connectivity}: it is possible to link or connect the tool with other applications.
+\item \textit{Familiarity}: it is something already known or previously used, so no need to learn something new.
+\item \textit{Hidden Phone}: it is possible to use the tool without showing my phone number, normally using an alias or an own account independent from my physical telephone.
+\item \textit{Horizontally}: all the actors are at the same level (for instance, teacher and students). There is not a hierarchy.
+\item \textit{Official formation}: the university offers some training courses or talks about the tool (mainly for teachers). 
+\item \textit{Pluggability}: the tool offers different pluggins to the teacher, so he/she can deploy his/her own implemented modules.
+\item \textit{Sustainability}: teacher should not be worried about the tool maintenance.
+\item \textit{Unidirectionality}: only the teacher can publish information in the channel, i.e. students are not allowed to ask or answer.
+\item \textit{Officiality}: the tool has been granted by the university where the teacher works. This means normally that there is also technical support by university's staff.
+\item \textit{Synchrony}: it is possible to publish/receive the data or information in several devices and all of them will contain or show the same.
+\end{itemize}
+
+% Antonio - I'm not sure about the last one (Synchrony)
 
 
 % ********************** RESULTS ****************************
