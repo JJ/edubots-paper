@@ -41,7 +41,8 @@ freq.Gender$source<-rep("survey1")
 freqInteraction.Gender$source<-rep("survey2")
 freqbinded.Gender <- rbind(freq.Gender, freqInteraction.Gender)
 freqbinded.Gender$source <- factor(freqbinded.Gender$source) 
-ggplot(freqbinded.Gender, aes(x = Gender, y=freqGender, fill = source)) + geom_bar(stat="identity", position = "dodge")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank())
+freqbinded.Gender[as.character(freqbinded.Gender$Gender)!="No", ] -> df1
+ggplot(df1, aes(x = Gender, y=freqGender, fill = source)) + geom_bar(stat="identity", position = "dodge")+scale_y_continuous(labels=scales::percent) + theme(axis.title.y=element_blank())
 
 freq.Age$source<-rep("survey1")
 freqInteraction.Age$source<-rep("survey2")
