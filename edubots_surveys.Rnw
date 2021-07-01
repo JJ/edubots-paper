@@ -197,27 +197,6 @@
 
 \begin{abstract} % abstract
 Introducing new technologies such as messaging platforms, and the chatbots attached to them, in higher education, is rapidly growing. This introduction entails a careful consideration of the potential opportunities and/or challenges of adopting these tools. Hence, a thorough examination of the teachers’ experiences in this discipline can shed the light on the effective ways of enhancing students’ learning and boosting their progress. In this contribution, we have surveyed the opinions of tertiary education teachers based mainly in Spain and Spanish-speaking countries. The focus of these surveys is to collect teachers’ feedback about their opinions of the introduction of the messaging platforms and chatbots in their classes, understand their needs and to gather information about the various educational use cases where these tools are valuable. In addition, an analysis of how and when teachers’ attitudes towards the use of these tools can vary across gender, experience, and their discipline of specialisation is presented. The key findings of this study highlight the factors that can contribute to the advancement of the adoption of messaging platforms and chatbots in higher education institutions to achieve the desired learning outcomes.
-****
-Introducing new technologies such as messaging platforms, and chatbots
-attached to it, in higher education, requires careful consideration of
-all options, but above all, an examination of the attitudes of the
-affected community, especially those that will need to handle them,
-% Antonio - I would say 'to manage them'. Students should also handle new technologies. ;)
-% We're talking about teachers here, who need to handle the outcomes and introduce them in class - JJ
-teachers.
-% Antonio - Not yet, this is the abstract and not mentioned yet that teachers are the target (just in the title). We speak about the community. But anyway. It is not very relevant.
-In this paper we have surveyed the opinions of tertiary education
-teachers based mainly in Spain and Spanish-speaking countries, 
-looking at what they think about the introduction 
-of messaging platforms and chatbots, what their needs are, what kind of use cases they see for
-them, and in what kind of environment they think its use will be
-valuable. We will examine how and when these attitudes vary across
-gender, experience, and other factors, such as the broad discipline
-they are teaching. Our conclusions might help with the adoption of
-messaging platforms in an educational setting, as well as chatbots or
-other kind of bots, by higher education institution, and how these
-must be introduced to teachers so that it helps them achieve desired
-educational outcomes. 
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
