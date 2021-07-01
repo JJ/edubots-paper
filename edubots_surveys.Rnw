@@ -1100,11 +1100,9 @@ From a qualitative point of view, these results show comsensus in a few key aspe
 % ********************** CONCLUSIONS ****************************
 
 \section{Conclusions}
-\begin
-The key findings of this study shed the light on educators’ preference to use messaging applications that their institutions support.  Technology adoption literature often focus on users’ perceptions of the technology’s usefulness and ease of use as important prerequisites for successful adoption and utilization. Nevertheless, in higher education, institutions’ role in integrating these tools to their educational systems can improve the uptake of these applications and shape the social and educational experiences of their students.  This integration, to be fruitful, institutions have to ensure that these messaging applications not only are GDPR compliant to keep students’ data secure but also should provide IT support to all stakeholders who use the applications .  
-
-\end {Conclusions}
 \label{sec:concl}
+
+The key findings of this study shed the light on educators’ preference to use messaging applications that their institutions support.  Technology adoption literature often focus on users’ perceptions of the technology’s usefulness and ease of use as important prerequisites for successful adoption and utilization. Nevertheless, in higher education, institutions’ role in integrating these tools to their educational systems can improve the uptake of these applications and shape the social and educational experiences of their students.  This integration, to be fruitful, institutions have to ensure that these messaging applications not only are GDPR compliant to keep students’ data secure but also should provide IT support to all stakeholders who use the applications .  
 
 %This section is repeated
 %\section*{Acknowledgements}
