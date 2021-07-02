@@ -47,6 +47,8 @@
 
 %%% Load packages
 \usepackage{amsthm,amsmath}
+\usepackage{multirow}
+
 
 \usepackage[utf8]{inputenc} %unicode support
 
@@ -347,6 +349,7 @@ configure and maybe program chatbots. Thus, we have performed a survey among 300
 \item{ RQ1 - Are teachers already using messaging apps in their classes? } %This was the second survey, not the  first survey. I wonder if maybe we could invert the presentation order - JJ
 \item{ RQ2 - Which kind of chatbots would teachers find useful in their classes? }
 \item{ RQ3 - Which kind of interaction do teachers prefer with their students? }
+\item{ RQ4 - What kind of interaction media features do teachers value the most? }
 
 \end{itemize}
 
@@ -501,20 +504,20 @@ We will present next the methodology we have followed to find out teachers' atti
 \section{Methodology}
 \label{sec:meth}
 
-Our intention from the beginning was to try and gather a sufficient amount of responses in all sectors, as well as cover different sectors of higher education. This is why we created a Google Form, in Spanish, which was intended to be answered in a very short amount of time. Initially, our intention was to mirror the questions used in \cite{MoraChatbots2021}; however, an initial exploration of results led us to create a second survey.
+Our intention from the beginning was to try and gather a sufficient amount of responses in all sectors, as well as cover different sectors of higher education. In doing so, an online survey was administered (i.e., Google Form), in Spanish, which was intended to be answered in a very short amount of time. Initially, our intention was to mirror the questions used in \cite{MoraChatbots2021}; however, an initial exploration of results led us to create a second survey. The survey items focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers consider useful to be used in their teaching, and the type of interactions that teachers prefer to have with their students while using messaging apps in their teaching. 
 % Questions should probably be included here.
 
 % Olia - I do not think that we should say here that the first survey was done in two different forms. Wasn't the same survey for university and vocational teachers? It is just that they had to specify in which sector of education they were teaching, right? The second survey is another story... this is what I understand. 
 
-The initial survey was done in two different forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at high school (31.6\%). In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and Mexico. The tertiary non-university teachers are mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching.
+The initial survey was done in two different forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and Mexico. The tertiary non-university teachers are mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching. A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at high school (31.6\%).
 
-The second survey followed the same paths, only in this case there was a single questionnaire. % Olia - see my comment above.
+The second survey followed the same paths, only in this case there was a single questionnaire, and with a different scope, focusing on the kind of interaction media features that teachers value the most.  % Olia - see my comment above.
 It was filled by teachers that were also students in a teacher formation course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers who knew about it by emails from the authors, or from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary.
-% Olia - we shoudl say here a few words about the two surveys, and their main difference. Also, whch RQs each survey addresses etc. 
+% Olia - we shoudl say here a few words about the two surveys, and their main difference. Also, which RQs each survey addresses etc. 
 % JJ - Yep... 
 
 % Antonio - I include here the description of interaction features. Not sure if it is the best place for it. Move wherever it better fits.
-This survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what are their feelings and preferences with regard to the use of communication tools with students, and even using bots or chatbots in the classroom.
+Specifically, this survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what are their feelings and preferences with regard to the use of communication tools with students, and even using bots or chatbots in the classroom.
 In addition the survey asked about the most relevant \textit{Interaction media features} for the teachers with respect to the potential tool to use in class. These features are:
 \begin{itemize}
 \item \textit{Analytics}: the tool allows to extract data about students performance or development during the academic course on the teacher's subject.
@@ -846,7 +849,41 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
 \label{figure:chatbots_use_postcovid}
 \end{figure} 
 
-%Olia - A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, X2 (4, N = 282) = 9.598, p =0.048. The frequencies cross tabulated are given in Table X. [we can add a table here with the crosstabulations]. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational). 
+A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. The frequencies cross tabulated are given in Table \ref{tab:sector*covid}. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational). The relationships between changes in the use of messaging apps, due to the covid-19 pandemic, and the instructors’ discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, $p= 0.039$ were also significant.
+
+%TODO: This table is not referenced in the text
+\begin{table}[h!tbp]
+\begin{tabular}{lllll}
+\hline
+\multicolumn{1}{c}{Messaging App} & \multicolumn{2}{c}{Yes} & \multicolumn{2}{l}{No} \\ \cline{2-5} 
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{Frequency} & \multicolumn{1}{c}{\%} & Frequency & \multicolumn{1}{c}{\%} \\ \hline
+Telegram & 62 & 22.0 & 220 & 78.0 \\
+WhatsApp & 124 & 44.0 & 158 & 56.0 \\
+Slack & 15 & 5.3 & 267 & 94.7 \\
+Other & 60 & 21.3 & 222 & 78.7 \\
+\begin{tabular}[c]{@{}l@{}}Provided by the Academic\\ Institution\end{tabular} & 159 & 56.4 & 123 & 43.6 \\
+None & 19 & 6.7 & 263 & 93.3 \\ \hline
+\end{tabular}
+\caption{Use of messaging apps in class}
+\label{tab:use_messapps}
+\end{table}
+
+\begin{table}[h!tbp]
+\begin{tabular}{llccc}
+\hline
+ & \multicolumn{1}{c}{} & \multicolumn{2}{c}{Sector} & Total \\ \cline{3-5} 
+ & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}University \\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Vocational\\ (f)\end{tabular} &  \\ \cline{2-5} 
+\multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Post-covid\\ changes\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Yes, I use a safer messaging \\ app now\end{tabular} & 27 & 13 & 40 \\
+ & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use any \\ messaging app before, but \\ do use it now\end{tabular} & 31 & 13 & 44 \\
+ & \begin{tabular}[c]{@{}l@{}}No, I did use it before and \\ use it now\end{tabular} & 105 & 60 & 165 \\
+ & \begin{tabular}[c]{@{}l@{}}No, I didn’t use it before and \\ don’t use it now\end{tabular} & 22 & 2 & 24 \\
+Total &  & 193 & 89 & 282 \\ \hline
+\end{tabular}
+\caption{Sector * post-covid changes crosstabulation}
+\label{tab:sector*covid}
+\end{table}
+
+% Olia - TODO: check for repetitions in the following paragraph that you added. thank you.
 The descriptive analysis in this case is done using a Chi-square test. For the different variables considered, some statistical significance was found for Gender, Sector, and academic Discipline. The values found with the test are: $p-value=0.0034$ for Gender, $p-value=0.0199$ for Sector, and $p-value=0.0211$ for Discipline.
 The first column in Fig. \ref{figure:postcovid_chisq} shows the Pearson's residuals of the test for these three variables. Residuals show the difference between the observed and the expected values, with large residuals showing that variables are not truly independent. In this case, blue shows positive contribution and red negative contribution to the test, and saturation shows how large is this contribution in contrast to the expected value by chance. Tables on the right side show adjusted standardized residuals that according to \cite{agresti2013categorical}, if greater than +/-2 for cases with few cells, indicate lack of fit of $H_0$ (bolded in our table). Also, the table shows the percentage of contribution to the test of each cell.
 
@@ -953,6 +990,38 @@ corrplot(chisq$residuals, is.corr = FALSE)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+For answering RQ2, teachers were provided with a list of different potential chatbot functionalities (use cases) and were requested to respond on whether each given use case would be useful in their classes. The findings are summarized in Table \ref{tab:chatbottypes}. 
+
+\begin{table}[h!tbp]
+\begin{tabular}{lllll}
+\hline
+\multicolumn{1}{c}{Chatbot use cases} & \multicolumn{2}{c}{Yes} & \multicolumn{2}{l}{No} \\ \cline{2-5} 
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{Frequency} & \multicolumn{1}{c}{\%} & Frequency & \multicolumn{1}{c}{\%} \\ \hline
+Answering to students' FAQs & 148 & 52.5 & 134 & 47.5 \\
+Assigning student grades & 113 & 40.1 & 169 & 59.9 \\
+Facilitating agenda information & 171 & 60.6 & 111 & 39.4 \\
+Sharing class materials & 136 & 48.2 & 146 & 51.8 \\
+Others & 25 & 8.9 & 257 & 91.1 \\ \hline
+\end{tabular}
+\caption{Perceived useful chatbot use cases}
+\label{tab:chatbottypes}
+\end{table}
+
+
+For the findings it occurs that the most favourable use case for chatbots in Higher Education and vocational training is their use for the facilitation of an agenda formation (171 positive response, 60.6\%), followed by the FAQs use case (148 positive responses, 52.5\%) and the sharing class material use case (136; 48.2\%). A chi-square test of independence was performed to examine the relation among participants’ preferences for particular chatbot use cases. The relation between agenda and the FAQs use case was significant, $X^{2}_{(1, N = 282)} = 10.467$, $p =0.001$. The frequencies cross tabulated are given in Table \ref{tab:agenda*faq}. Out of the 171 teachers who consider useful the use of chatbots for agenda preparation in the class, 103 also consider useful chatbots’ use for FAQs.  
+
+\begin{table}[h!tbp]
+\begin{tabular}{llccc}
+\hline
+ & \multicolumn{1}{c}{} & \multicolumn{2}{c}{FAQs} & Total \\ \cline{3-5} 
+ & \multicolumn{1}{c}{} & Yes & No &  \\ \cline{2-5} 
+\multirow{2}{*}{Agenda} & Yes & 103 & 68 & 171 \\
+ & No & 45 & 66 & 111 \\
+Total &  & 148 & 134 & 282 \\ \hline
+\end{tabular}
+\caption{Agenda use case * FAQs use case crosstabulation }
+\label{tab:agenda*faq}
+\end{table}
 
 Answer to these questions are plotted in Figure \ref{figure:chatbots_types} grouped by gender, sector and experience. As it was a multiple choice question, the counts are over the total number of people that answered. One of the most interesting questions that can arise from the plots, and the should require further study, is: Are our professors really aware of the possibilities of chatbots in the classroom? The reason to ask ourselves this question is due to the fact of the small number of responses for other uses in comparison with the other approaches proposed. Another way to loook about it is that, unless you provide the specific instructions on how to use a tool, the teaching staff is already too busy or burn out to think about innovation.
 
@@ -996,6 +1065,30 @@ ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Expe
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+For answering RQ3, teachers were provided with a list of different kind of interactions that may take place among students and between students and the teacher, with the use of messaging apps. The findings are summarized in Table \ref{tab:kindinteractions}. 
+
+\begin{table}[h!tbp]
+\begin{tabular}{lllll}
+\hline
+\multicolumn{1}{c}{Kind of interactions} & \multicolumn{2}{c}{Yes} & \multicolumn{2}{l}{No} \\ \cline{2-5} 
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{Frequency} & \multicolumn{1}{c}{\%} & Frequency & \multicolumn{1}{c}{\%} \\ \hline
+\begin{tabular}[c]{@{}l@{}}Chat interactions among \\ students in the same course\end{tabular} & 171 & 60.6 & 110 & 39.0 \\
+\begin{tabular}[c]{@{}l@{}}Chat interactions among students, \\ teachers, and the faculty\end{tabular} & 13 & 4.6 & 269 & 95.4 \\
+\begin{tabular}[c]{@{}l@{}}Chat interactions among students \\ of the same study year and teachers\end{tabular} & 51 & 18.1 & 231 & 81.9 \\
+\begin{tabular}[c]{@{}l@{}}Teacher not being part of the \\ interaction\end{tabular} & 113 & 40.1 & 169 & 59.9 \\ \hline
+\end{tabular}
+\caption{Kind of interactions preferred}
+\label{tab:kindinteractions}
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\subsection{RQ4 - What kind of interaction media features do teachers value the most?}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged >55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). The teachers were asked about what kind of interaction media features they value the most; the frequencies and percentages of their responses are given in the table that follows. 
 
 
 
@@ -1072,9 +1165,42 @@ From a qualitative point of view, these results show comsensus in a few key aspe
  \item Professors need sustainability. The main reason is that implementing changes is expensive in terms of effort and prone to errors in the first years of implementing new procedures, therefore, it is logical that if chatbots or messaging platforms are to be introduced, they want this change to be as permanent as possible.
  
  \item Keep it Simple. Media interaction requirements are simple and only a 2.4\% is requesting more features. This could be a sign of technological burn out produced by the previous and current courses where, due to the pandemic, the use of computer has increased significantly. 
-
 \end{itemize}
-% TODO A chi-square test of independence was performed to examine the potential relationship among the various features. The statistically significant correlations are given in the table that follows. 
+
+
+A chi-square test of independence was performed to examine the potential relationship among the various features. The statistically significant correlations are given in Table \ref{tab:interactionfeatures}.  
+
+%TODO - table fits better in landscape? try to fit in page size 
+\begin{table}[h!tbp]
+\centering
+\resizebox{\textwidth}{!}{\begin{tabular}{llllllllllll}
+\hline
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{Analytics} & Connectivity & Familiarity & Hidden phone & Horizontallity & \begin{tabular}[c]{@{}l@{}}Official\\  formation\end{tabular} & Pluggability & Sustainability & Unidirectionality & Officiality & Synchrony \\ \hline
+Analytics & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{$X^{2}_{(1, N = 205)} = 12.172^{***}$} & $X^{2}_{(1, N = 205)} = 4.855^{*}$ & ns & ns & $X^{2}_{(1, N = 205)} = 4.144^{*}$ & \multicolumn{1}{c}{$X^{2}_{(1, N = 205)} = 12.490^{***}$} & $X^{2}_{(1, N = 205)} = 4.314^{*}$ & ns & ns & ns \\
+Connectivity & \multicolumn{1}{c}{} & \multicolumn{1}{c}{-} & ns & ns & $X^{2}_{(1, N = 205)} = 5.971^{***}$ & ns & \multicolumn{1}{c}{$X^{2}_{(1, N = 205)} = 16.286^{***}$} & ns & ns & ns & ns \\
+Familiarity &  &  & - & ns & ns & ns & ns & ns & ns & ns & ns \\
+Hidden phone &  &  &  & - & ns & $X^{2}_{(1, N = 205)} = 5.678^{*}$ & $X^{2}_{(1, N = 205)} = 4.683^{*}$ & ns & $X^{2}_{(1, N = 205)} = 4.515^{*}$ & ns & ns \\
+Horizontallity &  &  &  &  & - & ns & ns & ns & ns & $X^{2}_{(1, N = 205)} = 5.453^{*}$ & ns \\
+\begin{tabular}[c]{@{}l@{}}Official\\  formation\end{tabular} &  &  &  &  &  & - & $X^{2}_{(1, N = 205)} = 8.163^{**}$ & ns & ns & ns & ns \\
+Pluggability &  &  &  &  &  &  & - & ns & ns & ns & ns \\
+Sustainability &  &  &  &  &  &  &  & - & ns & ns & ns \\
+Unidirectionality &  &  &  &  &  &  &  &  & - & ns & ns \\
+Officiality &  &  &  &  &  &  &  &  &  & - & ns \\
+Synchrony & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} &  &  &  &  & \multicolumn{1}{c}{} &  &  &  & - \\ \hline
+\end{tabular}}
+\caption{Interaction media features analysis ($^{***}p<0.001$, $^{**}p<0.01$, $^{*}p<0.05$).}
+\label{tab:interactionfeatures}
+\end{table}
+
+Finally, a two-step cluster analysis was conducted, with a log-likelihood distance measure adopted, to explore how the cases could be grouped based on their preferences of specific interaction media features, and which features have larger predictor importance for the clustering (see Fig. \ref{figure:predictor}). Two clusters occurred from the analysis: cluster 1 (n=78, 60.9\%) was comprise of instructors who did not value interaction media pluggability, connectivity, official formation, but valued interaction media analytics, familiarity, officiality, while cluster 2 (n=50, 39.1\%) was comprise of instructors from which the majority did not value media analytics, official formation, familiarity, but valued pluggability, connectivity, and officiality. Interaction media pluggability appears to have the most important predictor importance in the clustering of cases (predictor importance = 1.0), whilst media unidirectionality was the least important factor (predictor importance = 0.04). The cluster quality is fair, but not a good one (silhouette measure of cohesion and separation). 
+
+\begin{figure}[h!tbp]
+\begin{center}
+\includegraphics[width=\textwidth]{figure/2clusteranalysis.pdf}
+\end{center}
+    \caption{Two-step cluster analysis for interaction media features: predictor importance}
+\label{figure:predictor}
+\end{figure}
 
 
 % ********************** CONCLUSIONS ****************************
