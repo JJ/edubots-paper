@@ -48,7 +48,7 @@
 %%% Load packages
 \usepackage{amsthm,amsmath}
 \usepackage{multirow}
-
+\usepackage{rotating}
 
 \usepackage[utf8]{inputenc} %unicode support
 
@@ -864,6 +864,7 @@ Other & 60 & 21.3 & 222 & 78.7 \\
 \begin{tabular}[c]{@{}l@{}}Provided by the Academic\\ Institution\end{tabular} & 159 & 56.4 & 123 & 43.6 \\
 None & 19 & 6.7 & 263 & 93.3 \\ \hline
 \end{tabular}
+\vspace{0.8em}
 \caption{Use of messaging apps in class}
 \label{tab:use_messapps}
 \end{table}
@@ -879,6 +880,7 @@ None & 19 & 6.7 & 263 & 93.3 \\ \hline
  & \begin{tabular}[c]{@{}l@{}}No, I didn’t use it before and \\ don’t use it now\end{tabular} & 22 & 2 & 24 \\
 Total &  & 193 & 89 & 282 \\ \hline
 \end{tabular}
+\vspace{0.8em}
 \caption{Sector * post-covid changes crosstabulation}
 \label{tab:sector*covid}
 \end{table}
@@ -1019,6 +1021,7 @@ For the findings it occurs that the most favourable use case for chatbots in Hig
  & No & 45 & 66 & 111 \\
 Total &  & 148 & 134 & 282 \\ \hline
 \end{tabular}
+\vspace{0.8em}
 \caption{Agenda use case * FAQs use case crosstabulation }
 \label{tab:agenda*faq}
 \end{table}
@@ -1077,6 +1080,7 @@ For answering RQ3, teachers were provided with a list of different kind of inter
 \begin{tabular}[c]{@{}l@{}}Chat interactions among students \\ of the same study year and teachers\end{tabular} & 51 & 18.1 & 231 & 81.9 \\
 \begin{tabular}[c]{@{}l@{}}Teacher not being part of the \\ interaction\end{tabular} & 113 & 40.1 & 169 & 59.9 \\ \hline
 \end{tabular}
+\vspace{0.8em}
 \caption{Kind of interactions preferred}
 \label{tab:kindinteractions}
 \end{table}
@@ -1140,7 +1144,7 @@ Interaction features & \multicolumn{2}{c}{Yes} & \multicolumn{2}{c}{No} \\
 Analytics & 108 & 52.7 & 97 & 47.3 \\
 Connectivity & 119 & 58.0 & 86 & 42.0 \\
 Familiarity & 121 & 59.0 & 84 & 41.0 \\
-Hidden Phone & 113 & 55.1 & 92 & 44.9 \\
+Hidden Phone Number & 113 & 55.1 & 92 & 44.9 \\
 Horizontally & 134 & 65.4 & 71 & 34.6 \\
 Official formation & 42 & 20.5 & 163 & 79.5 \\
 Pluggability & 65 & 31.7 & 140 & 68.3 \\
@@ -1150,7 +1154,9 @@ Officiality & 150 & 73.2 & 55 & 26.8 \\
 Synchrony & 45 & 22.0 & 160 & 78.0\\
 Other & 5 & 2.4 & 200 & 97.6 \\
 \hline
-\end{tabular}\caption{Interaction media features valued by teachers}
+\end{tabular}
+\vspace{0.8em}
+\caption{Interaction media features valued by teachers}
 \label{tab:interaction}
 \end{table}
 
@@ -1171,7 +1177,7 @@ From a qualitative point of view, these results show comsensus in a few key aspe
 A chi-square test of independence was performed to examine the potential relationship among the various features. The statistically significant correlations are given in Table \ref{tab:interactionfeatures}.  
 
 %TODO - table fits better in landscape? try to fit in page size 
-\begin{table}[h!tbp]
+\begin{sidewaystable}[h!tbp]
 \centering
 \resizebox{\textwidth}{!}{\begin{tabular}{llllllllllll}
 \hline
@@ -1190,7 +1196,7 @@ Synchrony & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} &  &  &  &  & \multicolu
 \end{tabular}}
 \caption{Interaction media features analysis ($^{***}p<0.001$, $^{**}p<0.01$, $^{*}p<0.05$).}
 \label{tab:interactionfeatures}
-\end{table}
+\end{sidewaystable}
 
 Finally, a two-step cluster analysis was conducted, with a log-likelihood distance measure adopted, to explore how the cases could be grouped based on their preferences of specific interaction media features, and which features have larger predictor importance for the clustering (see Fig. \ref{figure:predictor}). Two clusters occurred from the analysis: cluster 1 (n=78, 60.9\%) was comprise of instructors who did not value interaction media pluggability, connectivity, official formation, but valued interaction media analytics, familiarity, officiality, while cluster 2 (n=50, 39.1\%) was comprise of instructors from which the majority did not value media analytics, official formation, familiarity, but valued pluggability, connectivity, and officiality. Interaction media pluggability appears to have the most important predictor importance in the clustering of cases (predictor importance = 1.0), whilst media unidirectionality was the least important factor (predictor importance = 0.04). The cluster quality is fair, but not a good one (silhouette measure of cohesion and separation). 
 
