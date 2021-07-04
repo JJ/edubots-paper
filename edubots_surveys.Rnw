@@ -1177,22 +1177,21 @@ From a qualitative point of view, these results show comsensus in a few key aspe
 A chi-square test of independence was performed to examine the potential relationship among the various features. The statistically significant correlations are given in Table \ref{tab:interactionfeatures}.  
 
 %TODO - table fits better in landscape? try to fit in page size 
-\begin{sidewaystable}[h!tbp]
+\begin{table}[h!tbp]
 \centering
-\resizebox{\textwidth}{!}{\begin{tabular}{lllllllllll}
+\resizebox{\textwidth}{!}{\begin{tabular}{lllllllll}
 \hline
-\multicolumn{1}{c}{} & \multicolumn{1}{c}{Analytics} & Connectivity & Familiarity & Hidden phone & Horizontallity & \begin{tabular}[c]{@{}l@{}}Official\\  formation\end{tabular} & Pluggability & Sustainability & Unidirectionality & Officiality \\ \hline
-Analytics & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{$X^{2}_{(1, N = 205)} = 12.172^{***}$} & $X^{2}_{(1, N = 205)} = 4.855^{*}$ & ns & ns & $X^{2}_{(1, N = 205)} = 4.144^{*}$ & \multicolumn{1}{c}{$X^{2}_{(1, N = 205)} = 12.490^{***}$} & $X^{2}_{(1, N = 205)} = 4.314^{*}$ & ns & ns \\
-Connectivity & \multicolumn{1}{c}{} & \multicolumn{1}{c}{-} & ns & ns & $X^{2}_{(1, N = 205)} = 5.971^{***}$ & ns & \multicolumn{1}{c}{$X^{2}_{(1, N = 205)} = 16.286^{***}$} & ns & ns & ns \\
-Familiarity &  &  & - & ns & ns & ns & ns & ns & ns & ns \\
-Hidden phone &  &  &  & - & ns & $X^{2}_{(1, N = 205)} = 5.678^{*}$ & $X^{2}_{(1, N = 205)} = 4.683^{*}$ & ns & $X^{2}_{(1, N = 205)} = 4.515^{*}$ & ns \\
-Horizontallity &  &  &  &  & - & ns & ns & ns & ns & $X^{2}_{(1, N = 205)} = 5.453^{*}$ \\
-\begin{tabular}[c]{@{}l@{}}Official\\  formation\end{tabular} &  &  &  &  &  & - & $X^{2}_{(1, N = 205)} = 8.163^{**}$ & ns & ns & ns  \\
-Synchrony & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} &  &  &  &  & \multicolumn{1}{c}{} &  &  & \\ \hline
+ & Connectivity & Familiarity  & Horizontallity & \begin{tabular}[c]{@{}l@{}}Official\\  formation\end{tabular} & Pluggability & Sustainability & Unidirectionality & Officiality \\ \hline
+Analytics &  $12.172^{***}$ & $4.855^{*}$ & ns & $4.144^{*}$ &  $12.490^{***}$ & $4.314^{*}$ & ns & ns \\
+Connectivity & - & ns & $5.971^{***}$ & ns & $16.286^{***}$ & ns & ns & ns \\
+Hidden phone &  &  & ns & $5.678^{*}$ & $4.683^{*}$ & ns & $4.515^{*}$ & ns \\
+Horizontallity &  &  - & ns & ns & ns & ns & ns & $5.453^{*}$ \\
+\begin{tabular}[c]{@{}l@{}}Official\\  formation\end{tabular} &  & &  & - & $8.163^{**}$ & ns & ns & ns  \\
 \end{tabular}}
-\caption{Interaction media features analysis ($^{***}p<0.001$, $^{**}p<0.01$, $^{*}p<0.05$). Columns and rows with no significant interaction have been suppressed for clarity.}
+\vspace{0.8em}
+\caption{Interaction media features analysis ($^{***}p<0.001$, $^{**}p<0.01$, $^{*}p<0.05$). Columns and rows with no significant interaction have been suppressed for clarity. Every cell value represents $X^{2}_{(1, N = 205)}$.}
 \label{tab:interactionfeatures}
-\end{sidewaystable}
+\end{table}
 
 Finally, a two-step cluster analysis was conducted, with a log-likelihood distance measure adopted, to explore how the cases could be grouped based on their preferences of specific interaction media features, and which features have larger predictor importance for the clustering (see Fig. \ref{figure:predictor}). Two clusters occurred from the analysis: cluster 1 (n=78, 60.9\%) was comprise of instructors who did not value interaction media pluggability, connectivity, official formation, but valued interaction media analytics, familiarity, officiality, while cluster 2 (n=50, 39.1\%) was comprise of instructors from which the majority did not value media analytics, official formation, familiarity, but valued pluggability, connectivity, and officiality. Interaction media pluggability appears to have the most important predictor importance in the clustering of cases (predictor importance = 1.0), whilst media unidirectionality was the least important factor (predictor importance = 0.04). The cluster quality is fair, but not a good one (silhouette measure of cohesion and separation). 
 
