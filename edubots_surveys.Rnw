@@ -353,6 +353,7 @@ configure and maybe program chatbots. Thus, we have performed a survey among 300
 
 \end{itemize}
 
+We will try to answer these questions through the analysis of questions and answers in the two surveys.
 
 The rest of the paper is organized as follows: Next is an overview of what current research has found about the use of messaging applications, including chatbots, in the classroom. The methodology used in the survey is presented in Section \ref{sec:meth}, and the results of the survey are presented next in Section \ref{sec:res}. Finally, we discuss these results and conclude with a series of recommendations in the section that closes the paper.
 
@@ -1068,7 +1069,7 @@ ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Expe
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-For answering RQ3, teachers were provided with a list of different kind of interactions that may take place among students and between students and the teacher, with the use of messaging apps. The findings are summarized in Table \ref{tab:kindinteractions}. 
+Since chatbots are intended to mediate or help in this interaction, it is essential to understand the kind of interaction teachers prefer. Chatbots should address those modes, and not others. In order to find out these modes, and thus answering RQ3, teachers were provided with a list of different kind of interactions that may take place among students and between students and the teacher, with the use of messaging apps. The findings are summarized in Table \ref{tab:kindinteractions}. 
 
 \begin{table}[h!tbp]
 \begin{tabular}{lllll}
@@ -1085,7 +1086,9 @@ For answering RQ3, teachers were provided with a list of different kind of inter
 \label{tab:kindinteractions}
 \end{table}
 
+As it can be seen by the answer to the first and last question, in general teachers do not want to participate in a chat group with students; either they want to simply leave leave the students alone in their own chat group, or otherwise they prefer not to be part of that interaction. In general, that is going to be the case no matter what; it is well known that students organize their own chat groups with many (and not always conveyable) intentions, so teachers do not want to take any part in it. Overwhelmingly, they don't want to participate in any chat group with students, but even less so if it includes the rest of the faculty.
 
+The answer, then, to this research question, is that, in general, teachers do {\em not} want to have interaction with students in a chat group.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\subsection{RQ4 - What kind of interaction media features do teachers value the most?}
