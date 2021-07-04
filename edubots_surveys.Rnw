@@ -1179,22 +1179,18 @@ A chi-square test of independence was performed to examine the potential relatio
 %TODO - table fits better in landscape? try to fit in page size 
 \begin{sidewaystable}[h!tbp]
 \centering
-\resizebox{\textwidth}{!}{\begin{tabular}{llllllllllll}
+\resizebox{\textwidth}{!}{\begin{tabular}{lllllllllll}
 \hline
-\multicolumn{1}{c}{} & \multicolumn{1}{c}{Analytics} & Connectivity & Familiarity & Hidden phone & Horizontallity & \begin{tabular}[c]{@{}l@{}}Official\\  formation\end{tabular} & Pluggability & Sustainability & Unidirectionality & Officiality & Synchrony \\ \hline
-Analytics & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{$X^{2}_{(1, N = 205)} = 12.172^{***}$} & $X^{2}_{(1, N = 205)} = 4.855^{*}$ & ns & ns & $X^{2}_{(1, N = 205)} = 4.144^{*}$ & \multicolumn{1}{c}{$X^{2}_{(1, N = 205)} = 12.490^{***}$} & $X^{2}_{(1, N = 205)} = 4.314^{*}$ & ns & ns & ns \\
-Connectivity & \multicolumn{1}{c}{} & \multicolumn{1}{c}{-} & ns & ns & $X^{2}_{(1, N = 205)} = 5.971^{***}$ & ns & \multicolumn{1}{c}{$X^{2}_{(1, N = 205)} = 16.286^{***}$} & ns & ns & ns & ns \\
-Familiarity &  &  & - & ns & ns & ns & ns & ns & ns & ns & ns \\
-Hidden phone &  &  &  & - & ns & $X^{2}_{(1, N = 205)} = 5.678^{*}$ & $X^{2}_{(1, N = 205)} = 4.683^{*}$ & ns & $X^{2}_{(1, N = 205)} = 4.515^{*}$ & ns & ns \\
-Horizontallity &  &  &  &  & - & ns & ns & ns & ns & $X^{2}_{(1, N = 205)} = 5.453^{*}$ & ns \\
-\begin{tabular}[c]{@{}l@{}}Official\\  formation\end{tabular} &  &  &  &  &  & - & $X^{2}_{(1, N = 205)} = 8.163^{**}$ & ns & ns & ns & ns \\
-Pluggability &  &  &  &  &  &  & - & ns & ns & ns & ns \\
-Sustainability &  &  &  &  &  &  &  & - & ns & ns & ns \\
-Unidirectionality &  &  &  &  &  &  &  &  & - & ns & ns \\
-Officiality &  &  &  &  &  &  &  &  &  & - & ns \\
-Synchrony & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} &  &  &  &  & \multicolumn{1}{c}{} &  &  &  & - \\ \hline
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{Analytics} & Connectivity & Familiarity & Hidden phone & Horizontallity & \begin{tabular}[c]{@{}l@{}}Official\\  formation\end{tabular} & Pluggability & Sustainability & Unidirectionality & Officiality \\ \hline
+Analytics & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{$X^{2}_{(1, N = 205)} = 12.172^{***}$} & $X^{2}_{(1, N = 205)} = 4.855^{*}$ & ns & ns & $X^{2}_{(1, N = 205)} = 4.144^{*}$ & \multicolumn{1}{c}{$X^{2}_{(1, N = 205)} = 12.490^{***}$} & $X^{2}_{(1, N = 205)} = 4.314^{*}$ & ns & ns \\
+Connectivity & \multicolumn{1}{c}{} & \multicolumn{1}{c}{-} & ns & ns & $X^{2}_{(1, N = 205)} = 5.971^{***}$ & ns & \multicolumn{1}{c}{$X^{2}_{(1, N = 205)} = 16.286^{***}$} & ns & ns & ns \\
+Familiarity &  &  & - & ns & ns & ns & ns & ns & ns & ns \\
+Hidden phone &  &  &  & - & ns & $X^{2}_{(1, N = 205)} = 5.678^{*}$ & $X^{2}_{(1, N = 205)} = 4.683^{*}$ & ns & $X^{2}_{(1, N = 205)} = 4.515^{*}$ & ns \\
+Horizontallity &  &  &  &  & - & ns & ns & ns & ns & $X^{2}_{(1, N = 205)} = 5.453^{*}$ \\
+\begin{tabular}[c]{@{}l@{}}Official\\  formation\end{tabular} &  &  &  &  &  & - & $X^{2}_{(1, N = 205)} = 8.163^{**}$ & ns & ns & ns  \\
+Synchrony & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} &  &  &  &  & \multicolumn{1}{c}{} &  &  & \\ \hline
 \end{tabular}}
-\caption{Interaction media features analysis ($^{***}p<0.001$, $^{**}p<0.01$, $^{*}p<0.05$).}
+\caption{Interaction media features analysis ($^{***}p<0.001$, $^{**}p<0.01$, $^{*}p<0.05$). Columns and rows with no significant interaction have been suppressed for clarity.}
 \label{tab:interactionfeatures}
 \end{sidewaystable}
 
