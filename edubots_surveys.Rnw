@@ -1176,7 +1176,6 @@ From a qualitative point of view, these results show comsensus in a few key aspe
 
 A chi-square test of independence was performed to examine the potential relationship among the various features. The statistically significant correlations are given in Table \ref{tab:interactionfeatures}.  
 
-%TODO - table fits better in landscape? try to fit in page size 
 \begin{table}[h!tbp]
 \centering
 \resizebox{\textwidth}{!}{\begin{tabular}{lllllllll}
