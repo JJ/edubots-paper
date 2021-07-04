@@ -357,7 +357,11 @@ resources in informal learning settings \cite{panah2020study}.  Moreover, the
 use of WhatsApp in higher education could enhance social presence
 \cite{tang2017mobile} and foster trust relationships between educators
 and students embedded in the social learning process
-\cite{gachago2015crossing}.
+\cite{gachago2015crossing}; however, this last paper also reflects the need for
+learners to "take ownership of the tool" and the advantages of social learning
+in general. At the same time, it also mentions different challenges, among which
+the most important is the blurring of social and academic life. Examining these
+attitudes will be the objective of RQ3 in this paper.
 
 Nevertheless, there are challenges when using MIM tools that occur due
 to the blurring of boundaries between academic and private life. This
@@ -371,7 +375,9 @@ in order to maintain the safety of these online communities for
 students \cite{abbas2021onlinechat}. However, these rules should not affect students'
 ownership and control, since it is vital to advance in their learning
 \cite{gachago2015crossing} process. 
-This is why examining the role of MIM in higher education is still a challenge, and why the attitudes of the teaching community towards them have to be examined, as we do in this paper.
+This is why examining the role of MIM in higher education is still a challenge,
+and why the attitudes of the teaching community towards them have to be
+examined, as we do in this paper.
 
 % The Use of Chatbots in Higher Education
 The use of MIM, although possibly valuable by itself, can be enhanced via the use of chatbots, which, being conversational agents, usually dwell in systems where synchronous conversations take place. 
@@ -780,21 +786,6 @@ Results in Fig. \ref{figure:chatbots_use} do not show differences in the use of 
 %\label{figure:chatbots_use_sector_discip}
 %\end{figure} 
 
-%Olia - Isn't the following paragraph better fittng for RQ3? What kind interactions do teachers prefer with their students? 
-Regarding the social factor of chat groups that teachers use in class, according to Fig. \ref{figure:chatbots_messagingorganization} the vast majority prefer small groups only with the students from the same course. These are more focused groups with specific goals and dedicated to the organization of the course and its tasks, and from the pedagogic point of view seem more appropriate to improve the learning process. Interestingly, about 30\% of teachers consider they should not be part of the chat group. Also, only university teachers find interesting a group with all the students and teachers in their own Faculty or School. The lack of teachers from vocational Education here may be the consequence of using specific language such as "Faculty". Moreover, the fact that many universities and schools already use these groups for administrative and social interaction (e.g. \cite{dibitonto2018chatbot}) might be the reason for the low percentage of teachers that selected this response.
-
-\begin{figure}[h!tbp]
-\centering
-<<messaging_organization, echo=FALSE, fig.width=19/2.54, fig.height=5/2.54>>=
-survey.pilot.MessagingOrganization <- within(survey.pilot.MessagingOrganization, Messaging.Organization <- factor(Messaging.Organization, levels=names(sort(table(Messaging.Organization), decreasing=TRUE))))
-ggplot(survey.pilot.MessagingOrganization, aes( x = Messaging.Organization, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90))+coord_flip()+ theme(axis.title.y=element_blank())
-@
-%\includegraphics[width=\textwidth]{figures/messaging_organization.pdf}
-\caption{Distribution of teachers' preferences for the chat groups with their students: from groups only with their students from a specific course to groups with greater social interaction with all students in their School or Faculty.}
-\label{figure:chatbots_messagingorganization}
-\end{figure} 
-
-
 Some of the questions in the survey were focused on the impact of the COVID19 pandemic between 2020 and 2021, in the teachers' attitudes towards the instant messaging apps. The 273 answers are summarized in Fig. \ref{figure:chatbots_use_postcovid}, showing that about 77\% of teachers already used these tools before the pandemic and kept using them during the pandemic lockdowns that forced students and educators to use remote education schemes. Moreover, approximately 15\% of them switched their messaging app for one that offered a safer interaction with their students. According to the responses, an additional 16\% started using messaging apps during the pandemic for the first time in their classes. Aggregating the answers, currently 91\% of the teachers are using messaging apps as learning tools. 
 
 %A few relevant facts from the collected data: teachers with 16-25 years of experience seem more worried about the security of messaging apps and teachers with up to 5 years of experience were more open to adopt messaging apps due to the pandemic; female teachers were more willing to adopt new platforms due to the pandemic, and even to start using safer alternatives; finally, university teachers that did not use them were more reluctant to start using them after the pandemic.
@@ -1047,6 +1038,17 @@ ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Expe
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\begin{figure}[h!tbp]
+\centering
+<<messaging_organization, echo=FALSE, fig.width=19/2.54, fig.height=5/2.54>>=
+survey.pilot.MessagingOrganization <- within(survey.pilot.MessagingOrganization, Messaging.Organization <- factor(Messaging.Organization, levels=names(sort(table(Messaging.Organization), decreasing=TRUE))))
+ggplot(survey.pilot.MessagingOrganization, aes( x = Messaging.Organization, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90))+coord_flip()+ theme(axis.title.y=element_blank())
+@
+%\includegraphics[width=\textwidth]{figures/messaging_organization.pdf}
+\caption{Distribution of teachers' preferences for the chat groups with their students: from groups only with their students from a specific course to groups with greater social interaction with all students in their School or Faculty.}
+\label{figure:chatbots_messagingorganization}
+\end{figure}
+
 Since chatbots are intended to mediate or help in this interaction, it is essential to understand the kind of interaction teachers prefer. Chatbots should address those modes, and not others. In order to find out these modes, and thus answering RQ3, teachers were provided with a list of different kind of interactions that may take place among students and between students and the teacher, with the use of messaging apps. The findings are summarized in Table \ref{tab:kindinteractions}. 
 
 \begin{table}[h!tbp]
@@ -1066,7 +1068,14 @@ Since chatbots are intended to mediate or help in this interaction, it is essent
 
 As it can be seen by the answer to the first and last question, in general teachers do not want to participate in a chat group with students; either they want to simply leave leave the students alone in their own chat group, or otherwise they prefer not to be part of that interaction. In general, that is going to be the case no matter what; it is well known that students organize their own chat groups with many (and not always conveyable) intentions, so teachers do not want to take any part in it. Overwhelmingly, they don't want to participate in any chat group with students, but even less so if it includes the rest of the faculty.
 
-The answer, then, to this research question, is that, in general, teachers do {\em not} want to have interaction with students in a chat group.
+The answer, then, to this research question, is that, in general, teachers do {\em not} want to have interaction with students in a chat group. To a certain point, this would seem to contradict results by Gachago et al. \cite{gachago2015crossing}, although this might be due to cultural attitudes, or other factors such as the average size of classes. It does confirm, however, that the challenges cited in that study, and possibly others, are an obstacle to the adoption of mobile (and other) instant messaging among the community of surveyed teachers.
+
+%Olia - Isn't the following paragraph better fitting for RQ3? What kind interactions do teachers prefer with their students? 
+% Moved here
+Regarding the social factor of chat groups that teachers use in class, according to Fig. \ref{figure:chatbots_messagingorganization} the vast majority prefer small groups only with the students from the same course. These are more focused groups with specific goals and dedicated to the organization of the course and its tasks, and from the pedagogic point of view seem more appropriate to improve the learning process. Interestingly, and as a cross-check of the answers above, about 30\% of teachers consider they should not be part of the chat group.
+This might seem to contradict the results of the other survey, but in fact, being a result of different surveys, to a certain point affirms the same thing: there is a great amount of teachers that would be against being in a chat group with students. Whether that's a slim majority or not, that's open to debate (and would probably need a more pointed survey focused on this), but what is clear is that forcing teachers to create chat groups with students and participate in them would create a certain amount of resistance.
+Also, only university teachers find interesting a group with all the students and teachers in their own Faculty or School. The lack of teachers from vocational education here may be the consequence of using specific language such as "Faculty". Moreover, the fact that many universities and schools already use these groups for administrative and social interaction (e.g. \cite{dibitonto2018chatbot}) might be the reason for the low percentage of teachers that selected this response.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\subsection{RQ4 - What kind of interaction media features do teachers value the most?}
