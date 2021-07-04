@@ -340,10 +340,11 @@ Chatbots are obviously associated to messaging applications, and in particular, 
 Given the potential advantages that chatbots could bring to the classroom, as a previous step, we created two surveys for bachelor and master degree students at the University of Granada (Spain), which were answered by more than 250 students. The obtained results were analysed with the object of identifying students' actual needs, in \cite{MoraChatbots2021}. The survey asked about their preferences on tools/applications for chatting and messaging, how do they use them in the educational context, who do they like to be with in the class messaging groups, and what do they expect bots and chatbots to do to aid them during their learning process. We concluded that students prefer to use known whatever messaging application, such as Telegram or WhatsApp, they are already using. They also expected chatbots to help them with their scheduling, to provide assignment grades and to search for class material. Only one of the applications mentioned, having them work with frequently asked questions, might actually require some understanding of natural language, although it can be formulated in such a way that is not needed.
 
 % Maybe move it to a different place later
-In the present work we aim to complement the aforementioned study with teacher attitudes; teachers are the ones that actually would need to implement, 
+In the present work we aim to complement the aforementioned study with an analysis of teacher attitudes; teachers are the ones that actually would need to use, 
 % Antonio - 'deploy' instead implement? Since in Computer Sciences implement and program are synonyms...
 % JJ - deployment would be done by the university or whoever publishes the system. Deployment and implementation are two different things, anyway
 % Antonio - Ok, but what I said is that 'implement' is a synonym of 'program' in this scope, and we write both in the same sentence as different things.
+% And deploy does not make sense in this context. I will simply say use - JJ
 configure and maybe program chatbots. Thus, we have performed a survey among 300 teachers asking about their attitudes towards the use of bots or chatbots in their classes. We analyse their responses, since we are interested in discussing implications and the impact for the development of future technology-enhanced tools and the Education institutions policies regarding the following research questions:
 \begin{itemize}
 \item{ RQ1 - Are teachers already using messaging apps in their classes? } %This was the second survey, not the  first survey. I wonder if maybe we could invert the presentation order - JJ
@@ -353,7 +354,7 @@ configure and maybe program chatbots. Thus, we have performed a survey among 300
 
 \end{itemize}
 
-We will try to answer these questions through the analysis of questions and answers in the two surveys.
+We will try to answer these questions through the analysis of questions and answers in the two surveys. Eventually, what we want to obtain is a series of recommendations to make a successful deployment of chatbot technologies (and, in some cases, general instant messaging applications) in higher education.
 
 The rest of the paper is organized as follows: Next is an overview of what current research has found about the use of messaging applications, including chatbots, in the classroom. The methodology used in the survey is presented in Section \ref{sec:meth}, and the results of the survey are presented next in Section \ref{sec:res}. Finally, we discuss these results and conclude with a series of recommendations in the section that closes the paper.
 
