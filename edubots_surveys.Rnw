@@ -91,28 +91,14 @@
 
 \title{Chatbots and messaging platforms in the classroom: an analysis from the teacher's perspective}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                                          %%
-%% Enter the authors here                   %%
-%%                                          %%
-%% Specify information, if available,       %%
-%% in the form:                             %%
-%%   <key>={<id1>,<id2>}                    %%
-%%   <key>=                                 %%
-%% Comment or delete the keys which are     %%
-%% not used. Repeat \author command as much %%
-%% as required.                             %%
-%%                                          %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \author[
-  addressref={aff1},                   % id's of addresses, e.g. {aff1,aff2}
-  corref={aff1},                       % id of corresponding address, if any
-  email={jmerelo@ugr.es}   % email address
+  addressref={aff1},                  
+  corref={aff1},                      
+  email={jmerelo@ugr.es}  
 ]{\inits{JJM}\fnm{Juan J.} \snm{Merelo}}
 \author[
   addressref={aff1},
-  email={pacv@ugr.es}   % email address
+  email={pacv@ugr.es}
 ]{\inits{PAC}\fnm{Pedro A.} \snm{Castillo}}
 \author[
   addressref={aff2},
@@ -135,37 +121,28 @@
   email={o.tsivitanidou@cyens.org.cy}
 ]{\inits{OT}\fnm{Olia} \snm{Tsivitanidou}}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                                          %%
-%% Enter the authors' addresses here        %%
-%%                                          %%
-%% Repeat \address commands as much as      %%
-%% required.                                %%
-%%                                          %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\address[id=aff1]{%                           % unique id
-  \orgdiv{Department of Computer Architecture and Technology},             % department, if any
-  \orgname{University of Granada},          % university, etc
-  \city{Granada},                              % city
-  \cny{Spain}                                    % country
+\address[id=aff1]{%                           
+  \orgdiv{Department of Computer Architecture and Technology},           
+  \orgname{University of Granada},
+  \city{Granada},
+  \cny{Spain}
 }
 \address[id=aff2]{%
   \orgdiv{Department of Signal Theory, Telematics and Communications},
-  \orgname{University of Granada},          % university, etc
-  \city{Granada},                              % city
-  \cny{Spain}                                    % country
+  \orgname{University of Granada},
+  \city{Granada},
+  \cny{Spain}
 }
 \address[id=aff3]{%
   \orgdiv{School of Computing},
-  \orgname{University of Leeds},          % university, etc
-  \city{Leeds},                              % city
-  \cny{UK}                                    % country
+  \orgname{University of Leeds},
+  \city{Leeds},
+  \cny{UK}
 }
 \address[id=aff4]{%
-  \orgname{CYENS},          % university, etc
-  \city{Nicosia},                              % city
-  \cny{Cyprus}                                    % country
+  \orgname{CYENS},         
+  \city{Nicosia},
+  \cny{Cyprus} 
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
