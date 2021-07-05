@@ -318,6 +318,7 @@ Given the potential advantages that chatbots could bring to the classroom, as a 
 
 % Maybe move it to a different place later
 In the present work we aim to complement the aforementioned study with an analysis of teacher attitudes; teachers are the ones that actually would need to use, 
+% Olia-I believe we should avoid refereeing to “attitudes”. Also here, it is not mentioned that we explore their views towards the use of chat tools/ messaging apps. 
 % Antonio - 'deploy' instead implement? Since in Computer Sciences implement and program are synonyms...
 % JJ - deployment would be done by the university or whoever publishes the system. Deployment and implementation are two different things, anyway
 % Antonio - Ok, but what I said is that 'implement' is a synonym of 'program' in this scope, and we write both in the same sentence as different things.
@@ -502,6 +503,7 @@ It was filled by teachers that were also students in a teacher formation course 
 % JJ - Yep... 
 
 % Antonio - I include here the description of interaction features. Not sure if it is the best place for it. Move wherever it better fits.
+% Olia- in the text below, we refer to "communucation tools", we should be consisten with the terms we use. Should we refere to communication tools? Messaging apps? Chat tools? 
 Specifically, this survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what are their feelings and preferences with regard to the use of communication tools with students, and even using bots or chatbots in the classroom.
 In addition the survey asked about the most relevant \textit{Interaction media features} for the teachers with respect to the potential tool to use in class. These features are:
 \begin{itemize}
@@ -856,7 +858,6 @@ Total &  & 193 & 89 & 282 \\ \hline
 \end{table}
 
 % Olia - TODO: check for repetitions in the following paragraph that you added. thank you.
-The descriptive analysis in this case is done using a Chi-square test. For the different variables considered, some statistical significance was found for Gender, Sector, and academic Discipline. The values found with the test are: $p-value=0.0034$ for Gender, $p-value=0.0199$ for Sector, and $p-value=0.0211$ for Discipline.
 The first column in Fig. \ref{figure:postcovid_chisq} shows the Pearson's residuals of the test for these three variables. Residuals show the difference between the observed and the expected values, with large residuals showing that variables are not truly independent. In this case, blue shows positive contribution and red negative contribution to the test, and saturation shows how large is this contribution in contrast to the expected value by chance. Tables on the right side show adjusted standardized residuals that according to \cite{agresti2013categorical}, if greater than +/-2 for cases with few cells, indicate lack of fit of $H_0$ (bolded in our table). Also, the table shows the percentage of contribution to the test of each cell.
 
 \begin{figure}[h!tbp]
@@ -996,7 +997,7 @@ Total &  & 148 & 134 & 282 \\ \hline
 \label{tab:agenda*faq}
 \end{table}
 
-Answer to these questions are plotted in Figure \ref{figure:chatbots_types} grouped by gender, sector and experience. As it was a multiple choice question, the counts are over the total number of people that answered. One of the most interesting questions that can arise from the plots, and the should require further study, is: Are our professors really aware of the possibilities of chatbots in the classroom? The reason to ask ourselves this question is due to the fact of the small number of responses for other uses in comparison with the other approaches proposed. Another way to loook about it is that, unless you provide the specific instructions on how to use a tool, the teaching staff is already too busy or burn out to think about innovation.
+Answer to these questions are plotted in Figure \ref{figure:chatbots_types} grouped by gender, sector and experience. As it was a multiple choice question, the counts are over the total number of people that answered. One of the most interesting questions that can arise from the plots, and the should require further study, is: Are teachers really aware of the possibilities of chatbots in the classroom? The reason to ask ourselves this question is due to the fact of the small number of responses for other uses in comparison with the other approaches proposed. Another way to look about it is that, unless you provide the specific instructions on how to use a tool, the teaching staff is already too busy or burn out to think about innovation.
 
 Regarding Gender grouping, both gender agree in their uses, so it seems not relevant at all. When looking at the plot containing the sector differentiation it is interesting ot observe how university professors prefer in a higher proportion to use them for grades and FAQs in comparison with Vocational/High School teachers. This seems reasonable as the frequency of seeing the students is smaller at the University so, automating the grade notification for continuous evaluation could seem much more comfortable using an automated tool than using the traditional platform. Furthermore, the high student/professor ratios that university professors have to deal with could be another reason to have a higher number of them willing to use chatbots for FAQs. This could ameliorate the number of misunderstandings and email overload that so many students might generate.
 
@@ -1049,6 +1050,7 @@ ggplot(survey.pilot.MessagingOrganization, aes( x = Messaging.Organization, y = 
 \label{figure:chatbots_messagingorganization}
 \end{figure}
 
+%Olia - move figure 7 elsewhere, not at the beginning of this section (RQ3). 
 Since chatbots are intended to mediate or help in this interaction, it is essential to understand the kind of interaction teachers prefer. Chatbots should address those modes, and not others. In order to find out these modes, and thus answering RQ3, teachers were provided with a list of different kind of interactions that may take place among students and between students and the teacher, with the use of messaging apps. The findings are summarized in Table \ref{tab:kindinteractions}. 
 
 \begin{table}[h!tbp]
@@ -1162,7 +1164,7 @@ From a qualitative point of view, these results show comsensus in a few key aspe
  
  \item Keep it Simple. Media interaction requirements are simple and only a 2.4\% is requesting more features. This could be a sign of technological burn out produced by the previous and current courses where, due to the pandemic, the use of computer has increased significantly. 
 \end{itemize}
-
+%Olia: be consistent in the terms being used, we refer to teachers, then to professors. I would replace the word "professors" above with the word "teachers". 
 
 A chi-square test of independence was performed to examine the potential relationship among the various features. The statistically significant correlations are given in Table \ref{tab:interactionfeatures}.  
 
