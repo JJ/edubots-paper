@@ -515,7 +515,7 @@ In addition the survey asked about the most relevant \textit{Interaction media f
 \item \textit{Sustainability}: teacher should not be worried about the tool maintenance.
 \item \textit{Unidirectionality}: only the teacher can publish information in the channel, i.e. students are not allowed to ask or answer.
 \item \textit{Officiality}: the tool has been granted by the university where the teacher works. This means normally that there is also technical support by university's staff.
-\item \textit{Synchrony}: it is possible to publish/receive the data or information in several devices and all of them will contain or show the same.
+\item \textit{Synchronous communication}: the interactions between teacher and students take place in real time, i.e. it is not a delayed communication scheme such as e-mail.
 \end{itemize}
 
 % Antonio - I'm not sure about the last one (Synchrony)
