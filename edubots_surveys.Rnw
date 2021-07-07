@@ -310,6 +310,7 @@ Another survey was developed for this purpose. Responses from 300 teachers were 
 \item RQ1 - Are teachers already using messaging apps in their classes? 
 \item RQ2 - Which kind of chatbots would teachers find useful in their classes? 
 \item RQ3 - Which kind of interaction do teachers prefer with their students?
+\item RQ4 - What kind of interaction media features do teachers value the most?
 \end{itemize}
 
 The remainder of the paper is organized as follows: Next is an overview of what current research has found about the use of messaging applications, including chatbots, in the classroom. The methodology used in the survey is presented in Section \ref{sec:meth}, and the results of the survey are presented next in Section \ref{sec:res}. Finally, we discuss these results and conclude with a series of recommendations in the section that closes the paper.
