@@ -474,7 +474,16 @@ Our intention from the beginning was to try and gather a sufficient amount of re
 
 % Olia - I do not think that we should say here that the first survey was done in two different forms. Wasn't the same survey for university and vocational teachers? It is just that they had to specify in which sector of education they were teaching, right? The second survey is another story... this is what I understand. 
 
-The initial survey was done in two different forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and Mexico. The tertiary non-university teachers are mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching. A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at high school (31.6\%).
+The initial survey was done in two separate Google forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and Mexico. The tertiary non-university teachers are mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching. A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at high school (31.6\%).
+
+All surveys had the same common, initial questions for segmentation:\begin{itemize}
+\item Degrees or titles where the teacher was working, either university or other tertiary education.
+\item Discipline: Engineering, Social Sciences, Health and Bio, Sciences, Humanities, Other.
+\item Gender: Man, Woman, Rather not say.
+\item Age: 25-35, 35-45, 45-55, more than 55.
+\item Experience on the job: up to 5 years, 5-15 years, 15-25 years, more than 25 years.
+\item Type of degree: university, other tertiary education. This question was implicit in the first survey, since one and the other filled different forms, it was explicit in the second survey.
+\end{itemize}
 
 The second survey followed the same paths, only in this case there was a single questionnaire, and with a different scope, focusing on the kind of interaction media features that teachers value the most.  % Olia - see my comment above.
 It was filled by teachers that were also students in a teacher formation course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers who knew about it by emails from the authors, or from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary.
