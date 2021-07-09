@@ -1035,8 +1035,16 @@ ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Expe
 \begin{figure}[h!tbp]
 \centering
 <<messaging_organization, echo=FALSE, fig.width=19/2.54, fig.height=5/2.54>>=
-survey.pilot.MessagingOrganization <- within(survey.pilot.MessagingOrganization, Messaging.Organization <- factor(Messaging.Organization, levels=names(sort(table(Messaging.Organization), decreasing=TRUE))))
-ggplot(survey.pilot.MessagingOrganization, aes( x = Messaging.Organization, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90))+coord_flip()+ theme(axis.title.y=element_blank())
+survey.pilot.MessagingOrganization %>%mutate(Messaging.Organization = ifelse(as.character(Messaging.Organization) == "A chat with all the students and teachers in my Faculty/School", "A chat with all the students and teachers in my Faculty/School/all years", as.character(Messaging.Organization))) %>%
+  mutate(Messaging.Organization = ifelse(as.character(Messaging.Organization) == "A chat with all the students and teachers in the same studies (all years)", "A chat with all the students and teachers in my Faculty/School/all years", as.character(Messaging.Organization)))->df2
+
+df2 %>%mutate(Messaging.Organization = ifelse(as.character(Messaging.Organization) == "A chat with all the students and teachers in my Faculty/School/all years", "Chat interactions among all students, teachers of the School/Faculty", as.character(Messaging.Organization))) %>%
+  mutate(Messaging.Organization = ifelse(as.character(Messaging.Organization) == "I'd rather leave students self-organize and not be part of the chat", "Teacher not being part of the interaction", as.character(Messaging.Organization)))%>%
+  mutate(Messaging.Organization = ifelse(as.character(Messaging.Organization) == "A chat with my students in the same course", "Chat interactions among students in the same course", as.character(Messaging.Organization)))%>%
+  mutate(Messaging.Organization = ifelse(as.character(Messaging.Organization) == "A chat with all students and teachers in the same semester/year", "Chat interactions among students of the same study year and teachers", as.character(Messaging.Organization)))->df2
+
+df2 <- within(df2, Messaging.Organization <- factor(Messaging.Organization, levels=names(sort(table(Messaging.Organization), decreasing=TRUE))))
+ggplot(df2, aes( x = Messaging.Organization, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90))+coord_flip()+ theme(axis.title.y=element_blank())
 @
 %\includegraphics[width=\textwidth]{figures/messaging_organization.pdf}
 \caption{Distribution of teachers' preferences for the chat groups with their students: from groups only with their students from a specific course to groups with greater social interaction with all students in their School or Faculty.}
@@ -1051,10 +1059,14 @@ Since chatbots are intended to mediate or help in this interaction, it is essent
 \hline
 \multicolumn{1}{c}{Kind of interactions} & \multicolumn{2}{c}{Yes} & \multicolumn{2}{l}{No} \\ \cline{2-5} 
 \multicolumn{1}{c}{} & \multicolumn{1}{c}{Frequency} & \multicolumn{1}{c}{\%} & Frequency & \multicolumn{1}{c}{\%} \\ \hline
-\begin{tabular}[c]{@{}l@{}}Chat interactions among \\ students in the same course\end{tabular} & 171 & 60.6 & 110 & 39.0 \\
-\begin{tabular}[c]{@{}l@{}}Chat interactions among students, \\ teachers, and the faculty\end{tabular} & 13 & 4.6 & 269 & 95.4 \\
-\begin{tabular}[c]{@{}l@{}}Chat interactions among students \\ of the same study year and teachers\end{tabular} & 51 & 18.1 & 231 & 81.9 \\
-\begin{tabular}[c]{@{}l@{}}Teacher not being part of the \\ interaction\end{tabular} & 113 & 40.1 & 169 & 59.9 \\ \hline
+%\begin{tabular}[c]{@{}l@{}}Chat interactions among \\ students in the same course\end{tabular} & 171 & 60.6 & 110 & 39.0 \\
+%\begin{tabular}[c]{@{}l@{}}Chat interactions among students, \\ teachers of the School/Faculty\end{tabular} & 13 & 4.6 & 269 & 95.4 \\
+%\begin{tabular}[c]{@{}l@{}}Chat interactions among students \\ of the same study year and teachers\end{tabular} & 51 & 18.1 & 231 & 81.9 \\
+%\begin{tabular}[c]{@{}l@{}}Teacher not being part of the \\ interaction\end{tabular} & 113 & 40.1 & 169 & 59.9 \\ \hline
+\begin{tabular}[c]{@{}l@{}}Chat interactions among \\ students in the same course\end{tabular} & 166 & 59.1 & 115& 40.9 \\
+\begin{tabular}[c]{@{}l@{}}Chat interactions among students, \\ teachers of the School/Faculty\end{tabular} & 19 & 6.7 & 266 & 94.3 \\
+\begin{tabular}[c]{@{}l@{}}Chat interactions among students \\ of the same study year and teachers\end{tabular} & 58 & 20.5 & 224 & 79.4 \\
+\begin{tabular}[c]{@{}l@{}}Teacher not being part of the \\ interaction\end{tabular} & 81 & 28.7 & 201 & 71.3 \\ \hline
 \end{tabular}
 \vspace{0.8em}
 \caption{Kind of interactions preferred}

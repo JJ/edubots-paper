@@ -173,11 +173,20 @@ df <-select(data.MessagingOrganization, Messaging.Organization, Gender, Sector, 
 df[as.character(df$Gender)!="PNTS", ] -> df1
 df1[as.character(df1$Gender)!="No", ] -> df1
 df1[as.character(df1$Discipline)!="No", ] -> df1
-df1[as.character(df1$Experience)!="No", ] -> df1
+df1[as.character(df1$Experience)!="No", ] -> df2
 df1[as.character(df1$Sector)!="No", ] %>% droplevels -> df2
+#df2 %>%mutate(Sector = ifelse(as.character(Sector) == "No", "Vocational", as.character(Sector)))->df2
+#df2[as.character(df2$Gender)!="PNTS", ] -> df1
+
 df2 %>%mutate(Messaging.Organization = ifelse(as.character(Messaging.Organization) == "A chat with all the students and teachers in my Faculty/School", "A chat with all the students and teachers in my Faculty/School/all years", as.character(Messaging.Organization))) %>%
   mutate(Messaging.Organization = ifelse(as.character(Messaging.Organization) == "A chat with all the students and teachers in the same studies (all years)", "A chat with all the students and teachers in my Faculty/School/all years", as.character(Messaging.Organization)))->df2
-#df2[as.character(df2$Gender)!="PNTS", ] -> df1
+df2 %>%mutate(Messaging.Organization = ifelse(as.character(Messaging.Organization) == "A chat with all the students and teachers in my Faculty/School/all years", "Chat interactions among all students, teachers of the School/Faculty", as.character(Messaging.Organization))) %>%
+  mutate(Messaging.Organization = ifelse(as.character(Messaging.Organization) == "I'd rather leave students self-organize and not be part of the chat", "Teacher not being part of the interaction", as.character(Messaging.Organization)))%>%
+  mutate(Messaging.Organization = ifelse(as.character(Messaging.Organization) == "A chat with my students in the same course", "Chat interactions among students in the same course", as.character(Messaging.Organization)))%>%
+  mutate(Messaging.Organization = ifelse(as.character(Messaging.Organization) == "A chat with all students and teachers in the same semester/year", "Chat interactions among students of the same study year and teachers", as.character(Messaging.Organization)))->df2
+
+df2 <- within(df2, Messaging.Organization <- factor(Messaging.Organization, levels=names(sort(table(Messaging.Organization), decreasing=TRUE))))
+ggplot(df2, aes( x = Messaging.Organization, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90))+coord_flip()+ theme(axis.title.y=element_blank())
 
 
 # Statistical significance
