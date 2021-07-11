@@ -308,7 +308,7 @@ Given the potential benefits that chatbots could bring to the classroom, the foc
 
  The line of research of which this paper is a part has involved two phases of data collection.
  \begin{itemize}
-\item The first phase aimed to collect feedback from students about their actual needs \cite{MoraChatbots2021}. Hence, the objective was to collect information about students’ preferences of tools/applications for chatting and messaging, how they use them in educational context, who do they like to be with in the class messaging groups, and their expectations of the chatbots in terms of assisting them during their learning process. Therefore, two surveys for bachelor and master degree students at the University of Granada (Spain) were designed and answers from more than 250 students were collected.   The key findings of the students surveys reveal that they prefer to use messaging applications, such as Telegram or WhatsApp as they are familiar to them. Students also expressed interest in chatbots that can assist them with organizing their course schedules, help them access their assignment grades and facilitate searching for course’s resources. 
+\item The first phase aimed to collect feedback from students about their actual needs \cite{MoraChatbots2021}. Hence, the objective was to collect information about students’ preferences of tools/applications for chatting and messaging, how they use them in educational context, who do they like to be with in the class messaging groups, and their expectations of the chatbots in terms of assisting them during their learning process. Therefore, two surveys for bachelor and master degree students at the University of Granada (Spain) were designed and answers from more than 250 students were collected. The key findings of the students surveys reveal that they prefer to use messaging applications, such as Telegram or WhatsApp as they are familiar to them. Students also expressed interest in chatbots that can assist them with organizing their course schedules, help them access their assignment grades and facilitate searching for course resources. 
 \item The results of the first phase were fed into the second phase of the study, which focused on teachers’ opinions about using chatbots and messaging applications in classes. This is what is going to be presented in this paper.
 \end{itemize}
 
@@ -318,7 +318,7 @@ Initially, a single survey was developed for this purpose. Responses from 300 te
 \item RQ1 - Are teachers already using messaging apps in their classes? 
 \item RQ2 - Which kind of chatbots would teachers find useful in their classes? 
 \item RQ3 - Which kind of interaction do teachers prefer with their students?
-\item RQ4 - What kind of interaction media features do teachers value the most?
+\item RQ4 - Which kind of interaction media features do teachers value the most?
 \end{itemize}
 
 We will try to answer these questions through the analysis of questions and answers in the two surveys. Eventually, what we want to obtain is a series of recommendations to make a successful deployment of chatbot technologies (and, in some cases, general instant messaging applications) in higher education.
@@ -484,15 +484,15 @@ Our intention from the beginning was to try and gather a sufficient amount of re
 
 % Olia - I do not think that we should say here that the first survey was done in two different forms. Wasn't the same survey for university and vocational teachers? It is just that they had to specify in which sector of education they were teaching, right? The second survey is another story... this is what I understand. 
 
-The initial survey was done in two separate Google forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and Mexico. The tertiary non-university teachers are mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching. A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at high school (31.6\%).
+The initial survey was done in two separate Google forms, one for university and other for tertiary non-university teachers (vocational education). Questions and responses were the same, except for the type of tertiary degrees that were taught. In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and Mexico. The tertiary non-university teachers are mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching. A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at high school (31.6\%).
 
 All surveys had the same common, initial questions for segmentation:\begin{itemize}
 \item Degrees or titles where the teacher was working, either university or other tertiary education.
 \item Discipline: Engineering, Social Sciences, Health and Bio, Sciences, Humanities, Other.
-\item Gender: Man, Woman, Rather not say.
+\item Gender: Man, Woman, Prefer not to say.
 \item Age: 25-35, 35-45, 45-55, more than 55.
 \item Experience on the job: up to 5 years, 5-15 years, 15-25 years, more than 25 years.
-\item Type of degree: university, other tertiary education. This question was implicit in the first survey, since one and the other filled different forms, it was explicit in the second survey.
+\item Type of degree: university, other tertiary education (vocational education). This question was implicit in the first survey, since one and the other filled different forms, it was explicit in the second survey.
 \end{itemize}
 
 The second survey followed the same paths, only in this case there was a single questionnaire, and with a different scope, focusing on the kind of interaction media features that teachers value the most.  % Olia - see my comment above.
@@ -502,7 +502,7 @@ It was filled by teachers that were also students in a teacher formation course 
 
 % Antonio - I include here the description of interaction features. Not sure if it is the best place for it. Move wherever it better fits.
 % Olia- in the text below, we refer to "communucation tools", we should be consisten with the terms we use. Should we refere to communication tools? Messaging apps? Chat tools? 
-Specifically, this survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what are their feelings and preferences with regard to the use of communication tools with students, and even using bots or chatbots in the classroom.
+Specifically, this survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what  their feelings and preferences are with regard to the use of communication tools with students, and even using bots or chatbots in the classroom.
 In addition the survey asked about the most relevant \textit{Interaction media features} for the teachers with respect to the potential tool to use in class. These features are:
 \begin{itemize}
 \item \textit{Analytics}: the tool allows to extract data about students performance or development during the academic course on the teacher's subject.
@@ -518,9 +518,6 @@ In addition the survey asked about the most relevant \textit{Interaction media f
 \item \textit{Synchronous communication}: the interactions between teacher and students take place in real time, i.e. it is not a delayed communication scheme such as e-mail.
 \end{itemize}
 
-% Antonio - I'm not sure about the last one (Synchrony)
-
-
 % ********************** RESULTS ****************************
 
 \section{Results}
@@ -529,8 +526,6 @@ In addition the survey asked about the most relevant \textit{Interaction media f
 % Describe the survey and population
 We collected responses from 282 teachers from Spain and Spanish Speaking countries for the first survey (\textit{survey1} in Fig. \ref{figure:teachers_population}) and 205 for the second one (\textit{survey2}). The sample includes mostly teachers from university, although about 32\% and 8\% are from vocational education in the first and second survey respectively. Regarding gender, in total 61\% are male teachers and 32\% female (approximately 5\% chose not to disclose it). Finally, the responses are equally distributed attending to the teaching experience, showing 24\% of responses from teachers with 5 or less years of experience, 26\% for 6-15 years of experience, 30\% for 16-25, and 20\% for teachers with more than 25 years of experience.
 
-
-% [pedro]  the way these (5) figures are shown is a bit strange: different sizes of plots...
 
 \begin{figure}[h!tbp]
 \begin{center}
@@ -1088,7 +1083,7 @@ Also, only university teachers find interesting a group with all the students an
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\subsection{RQ4 - What kind of interaction media features do teachers value the most?}
+%\subsection{RQ4 - Which kind of interaction media features do teachers value the most?}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -1127,7 +1122,7 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Disci
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{RQ4 - What kind of interaction media features do teachers value the most? }
+\subsection{RQ4 - Which kind of interaction media features do teachers value the most? }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
