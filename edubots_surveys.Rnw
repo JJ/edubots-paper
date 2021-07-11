@@ -436,7 +436,7 @@ educators to locate those students that need their attention and send to
 them more educational resources relevant to their academic attainment.
 
 Despite its (arguably) successful implementation in different higher education institutions, 
-over all in the fringes of educational activity, its implementation or deployment is not trivial.
+over all in the fringes of educational activity, not in the actual interaction student-teacher, its implementation or deployment is not trivial.
 Some authors, for instance \cite{sjostrom2018designing} have proposed a conceptual
 architecture for the adoption of teaching-oriented chatbots in higher education.  This
 conceptual architecture is based on a systematic literature review of
@@ -997,9 +997,9 @@ Total &  & 148 & 134 & 282 \\ \hline
 
 Answer to these questions are plotted in Figure \ref{figure:chatbots_types} grouped by gender, sector and experience. As it was a multiple choice question, the counts are over the total number of people that answered. One of the most interesting questions that can arise from the plots, and the should require further study, is: Are teachers really aware of the possibilities of chatbots in the classroom? The reason to ask ourselves this question is due to the fact of the small number of responses for other uses in comparison with the other approaches proposed. Another way to look about it is that, unless you provide the specific instructions on how to use a tool, the teaching staff is already too busy or burn out to think about innovation.
 
-Regarding Gender grouping, both gender agree in their uses, so it seems not relevant at all. When looking at the plot containing the sector differentiation it is interesting ot observe how university professors prefer in a higher proportion to use them for grades and FAQs in comparison with Vocational/High School teachers. This seems reasonable as the frequency of seeing the students is smaller at the University so, automating the grade notification for continuous evaluation could seem much more comfortable using an automated tool than using the traditional platform. Furthermore, the high student/professor ratios that university professors have to deal with could be another reason to have a higher number of them willing to use chatbots for FAQs. This could ameliorate the number of misunderstandings and email overload that so many students might generate.
+Regarding Gender grouping, both gender agree in their uses, so it seems not relevant at all. When looking at the plot containing the sector differentiation it is interesting ot observe how university teachers prefer in a higher proportion to use them for grades and FAQs in comparison with Vocational/High School teachers. This seems reasonable as the frequency of seeing the students is smaller at the University so, automating the grade notification for continuous evaluation could seem much more comfortable using an automated tool than using the traditional platform. Furthermore, the high student/teacher ratios that university docents have to deal with could be another reason to have a higher number of them willing to use chatbots for FAQs. This could ameliorate the number of misunderstandings and email overload that so many students might generate.
 
-The results, when grouping by experience, confirm the previous observation that experienced professors are not afraid of changes and are willing to accept new technological challenges, at least, in the same way that younger professors are. From this concrete plot it is interesting as well the fact that very few young/inexperience professors are willing to use chatbots for other uses. This reinforces the hypothesis thrown at the beginning of this section and, as these professors have less experience, they also have less field of view to think about ways of using chatbots. 
+The results, when grouping by experience, confirm the previous observation that experienced teachers are not afraid of changes and are willing to accept new technological challenges, at least, in the same way that younger teachers are. From this concrete plot it is interesting as well the fact that very few young/inexperience teachers are willing to use chatbots for other uses. This reinforces the hypothesis thrown at the beginning of this section and, as these teachers have less experience, they also have less field of view to think about ways of using chatbots. 
 
 \begin{figure}[h!tbp]
 \begin{center}
@@ -1166,13 +1166,14 @@ As it appears in the responses presented above, teachers’ responses are distri
 From a qualitative point of view, these results show comsensus in a few key aspects:
 
 \begin{itemize}
- \item Professors want to have support from their corresponding institution. This is probably due to the strict European data regulations and to avoid the overhead required to sing up and deleting students from year to year.
+ \item Teachers want to have support from their corresponding institution. This is probably due to the strict European data regulations and to avoid the overhead required to sing up and deleting students from year to year.
  
- \item Professors need sustainability. The main reason is that implementing changes is expensive in terms of effort and prone to errors in the first years of implementing new procedures, therefore, it is logical that if chatbots or messaging platforms are to be introduced, they want this change to be as permanent as possible.
+ \item Teachers need sustainability. The main reason is that implementing changes is expensive in terms of effort and prone to errors in the first years of implementing new procedures, therefore, it is logical that if chatbots or messaging platforms are to be introduced, they want this change to be as permanent as possible.
  
  \item Keep it Simple. Media interaction requirements are simple and only a 2.4\% is requesting more features. This could be a sign of technological burn out produced by the previous and current courses where, due to the pandemic, the use of computer has increased significantly. 
 \end{itemize}
 %Olia: be consistent in the terms being used, we refer to teachers, then to professors. I would replace the word "professors" above with the word "teachers". 
+% Done (mostly) - JJ
 
 A chi-square test of independence was performed to examine the potential relationship among the various features. The statistically significant correlations are given in Table \ref{tab:interactionfeatures}.  
 
