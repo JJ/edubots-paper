@@ -561,10 +561,14 @@ The specific questions included in this second survey are listed below:
 \textit{3. Which media features do you value the most for your interaction with your students?}
 \begin{itemize}
 \item Familiarity with its use i.e. that I do not need to learn a new tool
-\item Familiarity i.e. that I do not need to learn a new tool
-\item Admit the use of other means/toosl: blogs, chat groups in messaging platforms, any others.
+\item The official formation/training provided by your institution on its use
+\item That only one-directional communication is allowed (from teachers to students)
+\item Non-hierarchical tools that allowed teacher-to-student and student-to-student communication 
+\item That allow additional functionalities such as interfaces to other tools
+\item That allow teachers to develop/add their own functionalities (e.g. automatic correction tools)
+\item That let me avoid to worry about maintenance and that it is easily sustainable from one year to the next
+\item That allow to extract data to assess the student performance
 \end{itemize}
-
 
 %These features are:
 %\begin{itemize}
