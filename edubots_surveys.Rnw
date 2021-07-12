@@ -1158,8 +1158,8 @@ Other & 5 & 2.4 & 200 & 97.6 \\
 
 As it appears in the responses presented above, teachers’ responses are distributed between positive and negative in relation to the media features: analytics, connectivity, and hidden phone, while for the features: familiarity, horizontally, sustainability and officiality the majority provided a positive response, designating their preference to these features. On the other hand, the majority of teachers seems to consider not valuable the presence of official formation, pluggability, unidirectionality and synchrony in the interaction media features of messaging apps. 
 
-From a qualitative point of view, these results show comsensus in a few key aspects:
-
+From a qualitative point of view, these results show consensus in a few key aspects:
+% Maybe move to conclusions 
 \begin{itemize}
  \item Teachers want to have support from their corresponding institution. This is probably due to the strict European data regulations and to avoid the overhead required to sing up and deleting students from year to year.
  
@@ -1167,8 +1167,6 @@ From a qualitative point of view, these results show comsensus in a few key aspe
  
  \item Keep it Simple. Media interaction requirements are simple and only a 2.4\% is requesting more features. This could be a sign of technological burn out produced by the previous and current courses where, due to the pandemic, the use of computer has increased significantly. 
 \end{itemize}
-%Olia: be consistent in the terms being used, we refer to teachers, then to professors. I would replace the word "professors" above with the word "teachers". 
-% Done (mostly) - JJ
 
 A chi-square test of independence was performed to examine the potential relationship among the various features. The statistically significant correlations are given in Table \ref{tab:interactionfeatures}.  
 
@@ -1188,7 +1186,7 @@ Horizontallity &  &  - & ns & ns & ns & ns & ns & $5.453^{*}$ \\
 \label{tab:interactionfeatures}
 \end{table}
 
-Finally, a two-step cluster analysis was conducted, with a log-likelihood distance measure adopted, to explore how the cases could be grouped based on their preferences of specific interaction media features, and which features have larger predictor importance for the clustering (see Fig. \ref{figure:predictor}). Two clusters occurred from the analysis: cluster 1 (n=78, 60.9\%) was comprise of instructors who did not value interaction media pluggability, connectivity, official formation, but valued interaction media analytics, familiarity, officiality, while cluster 2 (n=50, 39.1\%) was comprise of instructors from which the majority did not value media analytics, official formation, familiarity, but valued pluggability, connectivity, and officiality. Interaction media pluggability appears to have the most important predictor importance in the clustering of cases (predictor importance = 1.0), whilst media unidirectionality was the least important factor (predictor importance = 0.04). The cluster quality is fair, but not a good one (silhouette measure of cohesion and separation). 
+Finally, a two-step cluster analysis was conducted, with a log-likelihood distance measure adopted, to explore how the cases could be grouped based on their preferences of specific interaction media features, and which features have larger predictor importance for the clustering (see Fig. \ref{figure:predictor}). Two clusters occurred from the analysis: cluster 1 (n=78, 60.9\%) was comprise of instructors who did not value interaction media pluggability, connectivity, official formation, but valued interaction media analytics, familiarity, support by the institution, while cluster 2 (n=50, 39.1\%) was comprise of instructors from which the majority did not value media analytics, official formation, familiarity, but valued pluggability, connectivity, and support by the institution. Interaction media pluggability appears to have the most important predictor importance in the clustering of cases (predictor importance = 1.0), whilst media unidirectionality was the least important factor (predictor importance = 0.04). The cluster quality is fair, but not a good one (silhouette measure of cohesion and separation). 
 
 \begin{figure}[h!tbp]
 \begin{center}
@@ -1197,6 +1195,9 @@ Finally, a two-step cluster analysis was conducted, with a log-likelihood distan
     \caption{Two-step cluster analysis for interaction media features: predictor importance}
 \label{figure:predictor}
 \end{figure}
+
+% ********************** Discussion section *******************
+\section{Discussion}
 
 
 % ********************** CONCLUSIONS ****************************
@@ -1251,14 +1252,17 @@ This work has been supported by EDUBOTS project, funded under the scheme Erasmus
 
 \subsection{Authors' contributions}
 
-All the authors have contributed to the study presented in this manuscript. 
+All the authors have contributed to the study presented in this manuscript.
+
 JJM has been the leader, drafted the first versions of the survey and supervised the writing of the manuscript.
+
 PAC has...
 AMM has ...
 FB has...
 NA has...
 OT has...
 AG has...
+
 All authors have read and approved the final manuscript.
 
 % Antonio - here we can explain what we have done author briefly.
