@@ -495,6 +495,46 @@ All surveys had the same common, initial questions for segmentation:\begin{itemi
 \item Type of degree: university, other tertiary education (vocational education). This question was implicit in the first survey, since one and the other filled different forms, it was explicit in the second survey.
 \end{itemize}
 
+% Including questions in surveys
+The first survey about the use of messaging apps in class include the following questions:
+
+\textit{1. Regarding the use of messaging apps in class, you prefer ...}
+\begin{itemize}
+\item A chat group with the students in the same course
+\item Students self-organize and with the teacher not being part of any chat group
+\item A chat group with the all the students and teachers of the School/High-School/Faculty
+\item A chat group with all the students and teachers of the same study year
+\end{itemize}
+
+\textit{2. Which messaging app platform do you use to communicate with your peers or students?}
+\begin{itemize}
+\item Whatsapp
+\item Telegram
+\item LinkedIn
+\item Twitter messages
+\item Discord
+\item Slack
+\item Snapchat
+\item The platform provided by your own institution
+\item None, I do not use any messaging app to communicate with my students
+\end{itemize}
+
+\textit{3. Which kind of chatbots (software that automatically respond to questions or commands) could be useful to improve the learning results with your students or help you managing your course?}
+\begin{itemize}
+\item Agenda bots that e.g. remind students about project deadlines
+\item Bots that collect and provide answers to frequent questions
+\item Bots that inform students about their grades
+\item Bots that help with the class materials (e.g. searching for topics about a concept, or asking about them)
+\end{itemize}
+
+\textit{4. The virtualization of teaching due to the COVID pandemic during this year and the previous one, did it mean any change in your viewpoint or use of messaging apps in class?}
+\begin{itemize}
+\item No, I did use it before and use it now
+\item Yes, I started using safer alternatives
+\item Yes, I did not use any messaging platform before but I do use it now
+\item No, I did not use any messaging platform before or now
+\end{itemize}
+
 The second survey followed the same paths, only in this case there was a single questionnaire, and with a different scope, focusing on the kind of interaction media features that teachers value the most.  % Olia - see my comment above.
 It was filled by teachers that were also students in a teacher formation course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers who knew about it by emails from the authors, or from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary.
 % Olia - we shoudl say here a few words about the two surveys, and their main difference. Also, which RQs each survey addresses etc. 
@@ -502,21 +542,44 @@ It was filled by teachers that were also students in a teacher formation course 
 
 % Antonio - I include here the description of interaction features. Not sure if it is the best place for it. Move wherever it better fits.
 % Olia- in the text below, we refer to "communucation tools", we should be consisten with the terms we use. Should we refere to communication tools? Messaging apps? Chat tools? 
-Specifically, this survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what  their feelings and preferences are with regard to the use of communication tools with students, and even using bots or chatbots in the classroom.
-In addition the survey asked about the most relevant \textit{Interaction media features} for the teachers with respect to the potential tool to use in class. These features are:
+Specifically, this survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what  their feelings and preferences are with regard to the use of communication tools with students, and even using bots or chatbots in the classroom. In addition the survey asked about the most relevant \textit{Interaction media features} for the teachers with respect to the potential tool to use in class. 
+
+The specific questions included in this second survey are listed below:
+
+\textit{1. You prefer the interaction with your students to be ...}
 \begin{itemize}
-\item \textit{Analytics}: the tool allows to extract data about students performance or development during the academic course on the teacher's subject.
-\item \textit{Connectivity}: it is possible to link or connect the tool with other applications.
-\item \textit{Familiarity}: it is something already known or previously used, so no need to learn something new.
-\item \textit{Hidden Phone}: it is possible to use the tool without showing my phone number, normally using an alias or an own account independent from my physical telephone.
-\item \textit{Horizontally}: all the actors are at the same level (for instance, teacher and students). There is not a hierarchy.
-\item \textit{Official formation}: the university offers some training courses or talks about the tool (mainly for teachers). 
-\item \textit{Pluggability}: the tool offers different pluggins to the teacher, so he/she can deploy his/her own implemented modules.
-\item \textit{Sustainability}: teacher should not be worried about the tool maintenance.
-\item \textit{Unidirectionality}: only the teacher can publish information in the channel, i.e. students are not allowed to ask or answer.
-\item \textit{Officiality}: the tool has been granted by the university where the teacher works. This means normally that there is also technical support by university's staff.
-\item \textit{Synchronous communication}: the interactions between teacher and students take place in real time, i.e. it is not a delayed communication scheme such as e-mail.
+\item Synchronous: students and teacher/s in the same space, simultaneously
+\item Asynchronous: the student asks at anytime, the teacher responds whenever possible
 \end{itemize}
+
+\textit{2. Regarding the interaction with your students, you ...}
+\begin{itemize}
+\item Prefer it to be done by institutional means/tools: office hours, forum/messages via the virtual campus, institutional email
+\item Admit the use of other means/toosl: blogs, chat groups in messaging platforms, any others.
+\end{itemize}
+
+\textit{3. Which media features do you value the most for your interaction with your students?}
+\begin{itemize}
+\item Familiarity with its use i.e. that I do not need to learn a new tool
+\item Familiarity i.e. that I do not need to learn a new tool
+\item Admit the use of other means/toosl: blogs, chat groups in messaging platforms, any others.
+\end{itemize}
+
+
+%These features are:
+%\begin{itemize}
+%\item \textit{Analytics}: the tool allows to extract data about students performance or development during the academic course on the teacher's subject.
+%\item \textit{Connectivity}: it is possible to link or connect the tool with other applications.
+%\item \textit{Familiarity}: it is something already known or previously used, so no need to learn something new.
+%\item \textit{Hidden Phone}: it is possible to use the tool without showing my phone number, normally using an alias or an own account independent from my physical telephone.
+%\item \textit{Horizontally}: all the actors are at the same level (for instance, teacher and students). There is not a hierarchy.
+%\item \textit{Official formation}: the university offers some training courses or talks about the tool (mainly for teachers). 
+%\item \textit{Pluggability}: the tool offers different pluggins to the teacher, so he/she can deploy his/her own implemented modules.
+%\item \textit{Sustainability}: teacher should not be worried about the tool maintenance.
+%\item \textit{Unidirectionality}: only the teacher can publish information in the channel, i.e. students are not allowed to ask or answer.
+%\item \textit{Officiality}: the tool has been granted by the university where the teacher works. This means normally that there is also technical support by university's staff.
+%\item \textit{Synchronous communication}: the interactions between teacher and students take place in real time, i.e. it is not a delayed communication scheme such as e-mail.
+%\end{itemize}
 
 % ********************** RESULTS ****************************
 
