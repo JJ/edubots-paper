@@ -673,21 +673,21 @@ We collected responses from 282 teachers from Spain and Spanish Speaking countri
 % Additionally, as a matter of fact, as Figure \ref{figure:age.vs.exp} shows, age and experience are correlated strongly, with experience being roughly 20-30 years less than age. 
 % This might indicate that a differential analysis for age and experience will not yield significant differences, except maybe in the 6-15 years experience group, which is spread over all ages. At any rate, experience seems to be the dominating factor here and we'll use experience only unless we detect some significant difference by age.
 
-\begin{figure}[h!tbp]
-\begin{center}
-<<interaction,message=FALSE,echo=FALSE, fig.height=2.0, fig.width=4.0>>=
-library(forcats)
-survey.interaction %>%
-    mutate(Age = fct_relevel(Age,"25-35", "35-45", "45-55", "> 55")) %>%
-    mutate(Experience = fct_relevel(Experience, "0-05 years", "06-15 years", "16-25 years", "> 25 years" )) %>%
-    group_by( Age, Experience ) %>% summarise( n = n() ) %>% mutate( freq = n/sum(n)) -> Age.vs.Experience
-
-ggplot(Age.vs.Experience,aes(Age,Experience))+geom_point(aes(size=freq),colour="green")
-@
-\end{center}
-\caption{Correlation between age and experience.}
-\label{figure:age.vs.exp}
-\end{figure}
+% \begin{figure}[h!tbp]
+% \begin{center}
+% <<interaction,message=FALSE,echo=FALSE, fig.height=2.0, fig.width=4.0>>=
+% library(forcats)
+% survey.interaction %>%
+%     mutate(Age = fct_relevel(Age,"25-35", "35-45", "45-55", "> 55")) %>%
+%     mutate(Experience = fct_relevel(Experience, "0-05 years", "06-15 years", "16-25 years", "> 25 years" )) %>%
+%     group_by( Age, Experience ) %>% summarise( n = n() ) %>% mutate( freq = n/sum(n)) -> Age.vs.Experience
+% 
+% ggplot(Age.vs.Experience,aes(Age,Experience))+geom_point(aes(size=freq),colour="green")
+% @
+% \end{center}
+% \caption{Correlation between age and experience.}
+% \label{figure:age.vs.exp}
+% \end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
