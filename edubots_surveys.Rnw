@@ -702,7 +702,7 @@ We collected responses from 282 teachers from Spain and Spanish Speaking countri
 Group messaging apps have become a powerful tool for keeping touch with students. Also, they are the baseline platform for the development of chatbots to help with the learning process. 
 
 For answering RQ1, teachers were queried about whether they use messaging apps in their classes, specifically, Telegram, WhatsApp, Slack, or any other messaging app, and whether they use messaging apps provided by their academic institution (see Table \ref{tab:use_messapps}). Overall, the majority of the teachers responded that they do use messaging apps in their classrooms, from which apps provided by the academic institution (n=159, 56\%) and WhatsApp (n=124, 44.0\%) were the most common responses. Only 19 teachers (6.7\%) replied that they do not use any messaging app in their class.
-
+%
 \begin{table}[h!tbp]
 \begin{tabular}{lllll}
 \hline
@@ -720,66 +720,14 @@ None & 19 & 6.7 & 263 & 93.3 \\ \hline
 \label{tab:use_messapps}
 \end{table}
 
-A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. The frequencies cross tabulated are given in Table \ref{tab:sector*covid}. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational).
-\begin{table}[h!tbp]
-\begin{tabular}{llccc}
-\hline
- & \multicolumn{1}{c}{} & \multicolumn{2}{c}{Sector} & Total \\ \cline{3-5} 
- & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}University \\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Vocational\\ (f)\end{tabular} &  \\ \cline{2-5} 
-\multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Post-covid\\ changes\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Yes, I use a safer messaging \\ app now\end{tabular} & 27 & 13 & 40 \\
- & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use any \\ messaging app before, but \\ do use it now\end{tabular} & 31 & 13 & 44 \\
- & \begin{tabular}[c]{@{}l@{}}No, I did use it before and \\ use it now\end{tabular} & 105 & 60 & 165 \\
- & \begin{tabular}[c]{@{}l@{}}No, I didn’t use it before and \\ don’t use it now\end{tabular} & 22 & 2 & 24 \\
-Total &  & 193 & 89 & 282 \\ \hline
-\end{tabular}
-\vspace{0.8em}
-\caption{Sector * post-covid changes crosstabulation}
-\label{tab:sector*covid}
-\end{table}
-The majority of the teachers (n=165) mentioned that no changes in their habits occured due to the emergency remote teaching, as the use of messaging apps was part of their teaching practices and remains the same, from which 105 teachers come from the university, and 60 teachers from the vocational sector. The relationships between changes in the use of messaging apps, due to the covid-19 pandemic, and the instructors’ discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, p= 0.039 were also significant. This finding indicates that how teachers responded to the use of messaging apps during the pandemic was also related to their gender and discipline. In fact, from the majority of the teachers who did not change their habits in this respect (n=165), most of them are males (n=114), and come from the technology (n=60) and engineering (n=53) disciplines (see Tables \ref{tab:gender*covid}, \ref{tab:discipline*covid}).
+% Fran: I think figures with data about the use of messaging apps should come here. Then, we say we also asked about changes after covid and include data about that
+Results in Fig. \ref{figure:chatbots_use} do not show significant differences in the use of instant messaging apps between teachers from University and vocational education. In general, most teachers prefer messaging apps provided by their own institutions. With respect to specific disciplines, Engineering and Technology teachers are more active in their use, although it is also relevant the amount of teachers from Humanities that answered they used these apps in their classes (around 60\% use the apps provided by their institutions). 
 
-\begin{table}[h!tbp]
-\begin{tabular}{llcccc}
-\hline
- & \multicolumn{1}{c}{} & \multicolumn{3}{c}{Gender} & Total \\ \cline{3-6} 
- & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}Male \\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Female\\ (f)\end{tabular} &  \begin{tabular}[c]{@{}c@{}}PNTS\\ (f)\end{tabular} & \\ \cline{2-6} 
-\multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Post-covid\\ changes\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Yes, I use a safer messaging \\ app now\end{tabular} & 20 & 20 & 0 & 40 \\
- & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use any \\ messaging app before, but \\ do use it now\end{tabular} & 20 & 23 & 1 & 44 \\
- & \begin{tabular}[c]{@{}l@{}}No, I did use it before and \\ use it now\end{tabular} & 114 & 47 & 4 & 165 \\
- & \begin{tabular}[c]{@{}l@{}}No, I didn’t use it before and \\ don’t use it now\end{tabular} & 18 & 6 & 0 & 24 \\
- & Other & 7 & 2 & 0 & 9 \\
-Total &  & 179 & 98 & 5 & 282 \\ \hline
-\end{tabular}
-\vspace{0.8em}
-\caption{Gender * post-covid changes crosstabulation}
-\label{tab:gender*covid}
-\end{table}
-
-\begin{table}[h!tbp]
-\centering
-\resizebox{\textwidth}{!}{
-\begin{tabular}{llcccccccc}
-\hline
- & \multicolumn{1}{c}{} & \multicolumn{7}{c}{Disciplines} & Total \\ \cline{3-10} 
- & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}Engi- \\ neering(f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Social \\ Sciences (f)\end{tabular} &  \begin{tabular}[c]{@{}c@{}}Sciences\\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Bio-\\ medicine (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Human-\\ ities(f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Technol-\\ ogy(f)\end{tabular} &  \begin{tabular}[c]{@{}c@{}}Other\\ (f)\end{tabular} & \\ \cline{2-10} 
-\multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Post-covid\\ changes\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Yes, I use a safer \\ messaging app now\end{tabular} & 7 & 11 & 5 & 5 & 1 & 10 & 1 & 40 \\
- & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use any \\ messaging app before, \\ but do use it now\end{tabular} & 13 & 12 & 5 &  4 &  2 &  7 & 1 & 44 \\
- & \begin{tabular}[c]{@{}l@{}}No, I did use it before \\ and use it now\end{tabular} &60 &  26 &  20 &  4 & 0 & 53 &  2 &  165\\
- & \begin{tabular}[c]{@{}l@{}}No, I didn’t use it \\ before and don’t \\ use it now\end{tabular} & 14 &  4 & 1 & 2 & 1 & 1 & 1 & 24 \\
- & Other & 5  & 0 & 1 & 1 & 1 & 1 & 0 & 9 \\
-Total & & 99 &  53&  32&  16&  5&  72&  5&  282\\ \hline
-\end{tabular}}
-\vspace{0.8em}
-\caption{Discipline * post-covid changes crosstabulation}
-\label{tab:discipline*covid}
-\end{table}
-
-
-
-Although gender differences are not significant, female teachers answered they use instant messaging apps more than male teachers (about 10\% more). Also, teachers in vocational Education also use Whatsapp more than university teachers.
-With respect to the distribution of the use of messaging apps per age, there are no significant differences for Whatsapp and apps provided by their institutions. % Olia requests support for this.
-However, younger teachers also use Telegram with more than 25\%, a percentage that falls to about 10\% for teachers that are 55 or older. The third column compares the use of these apps considering the number of years of experience. One interesting result is that, contrary to the idea of technology adaptation issues when considering older teachers, about 65\% of teachers with more than 25 years of experience use the platforms provided by their institutions while the percentage goes down to less than 50\% for teachers with 6-15 years of experience.
-
+Although no significant differences were found regarding gender, female teachers answered they use instant messaging apps more than male teachers (about 10\% more). Also, teachers in vocational Education use Whatsapp more than university teachers.
+Regarding the distribution of the use of messaging apps per age, there are no significant differences for Whatsapp and apps provided by their own academic institutions. % Olia requests support for this.
+However, younger teachers also use Telegram with more than 25\%, a percentage that falls to about 10\% for teachers that are 55 or older. %The third column compares the use of these apps considering the number of years of experience. 
+One interesting result is that, contrary to the idea of technology adaptation issues when considering older teachers, about 65\% of teachers with more than 25 years of experience use the platforms provided by their institutions while the percentage goes down to less than 50\% for teachers with 6-15 years of experience.
+%
 \begin{figure}[h!tbp]
 \begin{center}
     \begin{minipage}[t]{0.31\textwidth}
@@ -892,41 +840,14 @@ ggplot(survey.pilot.Discipline, aes(x = MessagingPlatformTelegram, group = Disci
     \caption{Use of chatbots in class: distributions per gender, age, years of experience in education, university or vocational education, and discipline. Teachers were specifically asked about two popular instant messaging apps (Whatsapp and Telegram), and the use of platforms already provided by their institutions different than these two ones.}
 \label{figure:chatbots_use}
 \end{figure} 
+%
 
-Results in Fig. \ref{figure:chatbots_use} do not show differences in the use of instant messaging apps between teachers from University and vocational education. In general, most teachers prefer messaging apps provided by their own institutions. With respect to specific disciplines, Engineering and Technology teachers are more active in their use, although it is also relevant the amount of teachers from Humanities that answered they used these apps in their classes (around 60\% use the apps provided by their institutions).
-
-%\begin{figure}[t]
-%\begin{center}
-%    \vspace{2mm}
-%    \begin{minipage}[t]{0.30\textwidth}
-%	    \centering
-% 	    \includegraphics[width=\textwidth]{figures/sector_whatsapp.pdf}
-%    \end{minipage}
-%    \begin{minipage}[t]{0.50\textwidth}
-%	    \centering
-% 	    \includegraphics[width=\textwidth]{figures/discipline_whatsapp.pdf}
-%    \end{minipage}
-%    
-%    \vspace{2mm}
-%    \begin{minipage}[t]{0.30\textwidth}
-%	    \centering
-% 	    \includegraphics[width=\textwidth]{figures/sector_telegram.pdf}
-%    \end{minipage}
-%    \begin{minipage}[t]{0.50\textwidth}
-%	    \centering
-% 	    \includegraphics[width=\textwidth]{figures/discipline_telegram.pdf}
-%    \end{minipage}
-%\end{center}
-%    \caption{Differences in the use of chatbots in class between vocational and university teaching and distributions by discipline.}
-%\label{figure:chatbots_use_sector_discip}
-%\end{figure} 
-
+% This is about changes (due to) after covid
 Some of the questions in the survey were focused on the impact of the COVID19 pandemic between 2020 and 2021, in the teachers' viewpoints towards the use of instant messaging apps int their class. The 282 
-% Fran, please check Olia's comment as having 282 answers -> I did remove some responses that Olia considered 'No' by default. I' ll keep it to 282 to be consistent
+% Fran, please check Olia's comment as having 282 answers 
+% -> I did remove some responses that Olia considered 'No' by default (i guess). I' ll keep it to 282 to be consistent
 answers are summarized in Fig. \ref{figure:chatbots_use_postcovid}, showing that about 77\% of teachers already used these tools before the pandemic and kept using them during the pandemic lockdowns that forced students and educators to use remote education schemes. Moreover, approximately 15\% of them switched their messaging app for one that offered a safer interaction with their students. According to the responses, an additional 16\% started using messaging apps during the pandemic for the first time in their classes. Aggregating the answers, currently 91\% of the teachers are using messaging apps as learning tools. 
-
 %A few relevant facts from the collected data: teachers with 16-25 years of experience seem more worried about the security of messaging apps and teachers with up to 5 years of experience were more open to adopt messaging apps due to the pandemic; female teachers were more willing to adopt new platforms due to the pandemic, and even to start using safer alternatives; finally, university teachers that did not use them were more reluctant to start using them after the pandemic.
-
 \begin{figure}[h!tbp]
 \begin{center}
     \begin{minipage}[t]{0.85\textwidth}
@@ -957,16 +878,97 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
 \label{figure:chatbots_use_postcovid}
 \end{figure} 
 
-%A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. The frequencies cross tabulated are given in Table \ref{tab:sector*covid}. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational). 
-The relationships between changes in the use of messaging apps, due to the covid-19 pandemic, and the instructors’ discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, $p= 0.039$ were also significant.
+A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. The frequencies cross tabulated are given in Table \ref{tab:sector*covid}. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational).
+%
+\begin{table}[h!tbp]
+\begin{tabular}{llccc}
+\hline
+ & \multicolumn{1}{c}{} & \multicolumn{2}{c}{Sector} & Total \\ \cline{3-5} 
+ & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}University \\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Vocational\\ (f)\end{tabular} &  \\ \cline{2-5} 
+\multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Post-covid\\ changes\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Yes, I use a safer messaging \\ app now\end{tabular} & 27 & 13 & 40 \\
+ & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use any \\ messaging app before, but \\ do use it now\end{tabular} & 31 & 13 & 44 \\
+ & \begin{tabular}[c]{@{}l@{}}No, I did use it before and \\ use it now\end{tabular} & 105 & 60 & 165 \\
+ & \begin{tabular}[c]{@{}l@{}}No, I didn’t use it before and \\ don’t use it now\end{tabular} & 22 & 2 & 24 \\
+Total &  & 193 & 89 & 282 \\ \hline
+\end{tabular}
+\vspace{0.8em}
+\caption{Sector * post-covid changes crosstabulation}
+\label{tab:sector*covid}
+\end{table}
 
+The majority of the teachers (n=165) mentioned that no changes in their habits occured due to the emergency remote teaching, as the use of messaging apps was part of their teaching practices and remains the same, from which 105 teachers come from the university, and 60 teachers from the vocational sector. The relationships between changes in the use of messaging apps, due to the covid-19 pandemic, and the instructors’ discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, p= 0.039 were also significant. This finding indicates that how teachers responded to the use of messaging apps during the pandemic was also related to their gender and discipline. In fact, from the majority of the teachers who did not change their habits in this respect (n=165), most of them are males (n=114), and come from the technology (n=60) and engineering (n=53) disciplines (see Tables \ref{tab:gender*covid}, \ref{tab:discipline*covid}).
+%
+\begin{table}[h!tbp]
+\begin{tabular}{llcccc}
+\hline
+ & \multicolumn{1}{c}{} & \multicolumn{3}{c}{Gender} & Total \\ \cline{3-6} 
+ & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}Male \\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Female\\ (f)\end{tabular} &  \begin{tabular}[c]{@{}c@{}}PNTS\\ (f)\end{tabular} & \\ \cline{2-6} 
+\multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Post-covid\\ changes\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Yes, I use a safer messaging \\ app now\end{tabular} & 20 & 20 & 0 & 40 \\
+ & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use any \\ messaging app before, but \\ do use it now\end{tabular} & 20 & 23 & 1 & 44 \\
+ & \begin{tabular}[c]{@{}l@{}}No, I did use it before and \\ use it now\end{tabular} & 114 & 47 & 4 & 165 \\
+ & \begin{tabular}[c]{@{}l@{}}No, I didn’t use it before and \\ don’t use it now\end{tabular} & 18 & 6 & 0 & 24 \\
+ & Other & 7 & 2 & 0 & 9 \\
+Total &  & 179 & 98 & 5 & 282 \\ \hline
+\end{tabular}
+\vspace{0.8em}
+\caption{Gender * post-covid changes crosstabulation}
+\label{tab:gender*covid}
+\end{table}
+%
+\begin{table}[h!tbp]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{llcccccccc}
+\hline
+ & \multicolumn{1}{c}{} & \multicolumn{7}{c}{Disciplines} & Total \\ \cline{3-10} 
+ & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}Engi- \\ neering(f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Social \\ Sciences (f)\end{tabular} &  \begin{tabular}[c]{@{}c@{}}Sciences\\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Bio-\\ medicine (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Human-\\ ities(f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Technol-\\ ogy(f)\end{tabular} &  \begin{tabular}[c]{@{}c@{}}Other\\ (f)\end{tabular} & \\ \cline{2-10} 
+\multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Post-covid\\ changes\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Yes, I use a safer \\ messaging app now\end{tabular} & 7 & 11 & 5 & 5 & 1 & 10 & 1 & 40 \\
+ & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use any \\ messaging app before, \\ but do use it now\end{tabular} & 13 & 12 & 5 &  4 &  2 &  7 & 1 & 44 \\
+ & \begin{tabular}[c]{@{}l@{}}No, I did use it before \\ and use it now\end{tabular} &60 &  26 &  20 &  4 & 0 & 53 &  2 &  165\\
+ & \begin{tabular}[c]{@{}l@{}}No, I didn’t use it \\ before and don’t \\ use it now\end{tabular} & 14 &  4 & 1 & 2 & 1 & 1 & 1 & 24 \\
+ & Other & 5  & 0 & 1 & 1 & 1 & 1 & 0 & 9 \\
+Total & & 99 &  53&  32&  16&  5&  72&  5&  282\\ \hline
+\end{tabular}}
+\vspace{0.8em}
+\caption{Discipline * post-covid changes crosstabulation}
+\label{tab:discipline*covid}
+\end{table}
+%
+%\begin{figure}[t]
+%\begin{center}
+%    \vspace{2mm}
+%    \begin{minipage}[t]{0.30\textwidth}
+%	    \centering
+% 	    \includegraphics[width=\textwidth]{figures/sector_whatsapp.pdf}
+%    \end{minipage}
+%    \begin{minipage}[t]{0.50\textwidth}
+%	    \centering
+% 	    \includegraphics[width=\textwidth]{figures/discipline_whatsapp.pdf}
+%    \end{minipage}
+%    
+%    \vspace{2mm}
+%    \begin{minipage}[t]{0.30\textwidth}
+%	    \centering
+% 	    \includegraphics[width=\textwidth]{figures/sector_telegram.pdf}
+%    \end{minipage}
+%    \begin{minipage}[t]{0.50\textwidth}
+%	    \centering
+% 	    \includegraphics[width=\textwidth]{figures/discipline_telegram.pdf}
+%    \end{minipage}
+%\end{center}
+%    \caption{Differences in the use of chatbots in class between vocational and university teaching and distributions by discipline.}
+%\label{figure:chatbots_use_sector_discip}
+%\end{figure} 
+%
+%A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. The frequencies cross tabulated are given in Table \ref{tab:sector*covid}. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational). 
+%The relationships between changes in the use of messaging apps, due to the covid-19 pandemic, and the instructors’ discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, $p= 0.039$ were also significant.
 
 % Olia - TODO: check for repetitions in the following paragraph that you added. thank you.
-The first column in Fig. \ref{figure:postcovid_chisq} shows the Pearson's residuals of the test for these three variables. Residuals show the difference between the observed and the expected values, with large residuals showing that variables are not truly independent. In this case, blue shows positive contribution and red negative contribution to the test, and saturation shows how large is this contribution in contrast to the expected value by chance. Tables on the right side show adjusted standardized residuals that according to \cite{agresti2013categorical}, if greater than +/-2 for cases with few cells, indicate lack of fit of $H_0$ (in boldface in our table). Also, the table shows the percentage of contribution to the test of each cell.
+Finally, we took a closer look at the chi-square analysis on the post-covid changes and the variables gender, sector, and discipline for which the p-value was less than 0.05. In this case, in Fig. \ref{figure:postcovid_chisq} shows the Pearson's residuals of the test for these three variables. Residuals show the difference between the observed and the expected values, with large residuals showing that variables are not truly independent. In this case, blue shows positive contribution and red negative contribution to the test, and saturation shows how large is this contribution in contrast to the expected value by chance. Tables on the right side show adjusted standardized residuals that according to \cite{agresti2013categorical}, if greater than +/-2 for cases with few cells, indicate lack of fit of $H_0$ (in boldface in our table). Also, the table shows the percentage of contribution to the test of each cell.
 
 \begin{figure}[h!tbp]
 \begin{center}
-    \begin{minipage}[c]{0.45\textwidth}
+    \begin{minipage}[c]{0.40\textwidth}
         \centering
 <<gender_postcovid_chisq, echo=FALSE, fig.width=17/2.54, fig.height=10/2.54>>=
 df <-select(survey.pilot.postCOVID, PostCOVID.changes, Gender, Sector, Experience, Discipline)
@@ -987,20 +989,30 @@ corrplot(chisq$residuals, is.corr = FALSE)
     %contrib <- 100*chisq$residuals^2/chisq$statistic
     %round(contrib, 2)
     %round(chisq$stdres, 3)
-    \begin{minipage}[c]{0.45\textwidth}
+    \begin{minipage}[c]{0.55\textwidth}
         \centering
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{l|r|r|r|r|}
-    \cline{2-5}
-                                 & Did/Do & Didn't/Do & Safer  & Didn' t/Don't \\ \hline
-    \multicolumn{1}{|l|}{Female} & \textbf{-2.850} & \textbf{2.806} & 1.832  & -1.011 \\ 
-    \multicolumn{1}{|l|}{} & 15.15\% & \textbf{31.21\%} &  13.49\% & 4.40\% \\ \hline
-    \multicolumn{1}{|l|}{Male}   & \textbf{2.850} & \textbf{-2.806} & -1.832 & 1.011 \\ 
-    \multicolumn{1}{|l|}{} &  8.43\% &  \textbf{17.36\%} & 7.50\% &  2.45\% \\ \hline
-    \end{tabular}%
+\begin{tabular}{llllll}
+\hline
+ &  & \multicolumn{4}{c}{Gender} \\ \cline{3-6} 
+ &  & \multicolumn{2}{c}{Female} & \multicolumn{2}{c}{Male} \\ \cline{3-6} 
+ &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Adjusted \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Adjusted \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} \\ \cline{2-6} 
+\begin{tabular}[c]{@{}l@{}}Post-\\ covid\\ changes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Yes, I use a \\ safer messaging \\ app now\end{tabular} & 1.832 & 13.49\% & -1.832 & 7.50\% \\
+ & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use \\ any messaging \\ app before, but\\ do use it now\end{tabular} & \textbf{2.806} & \textbf{31.21\%} & \textbf{-2.806} & \textbf{17.36\%} \\
+ & \begin{tabular}[c]{@{}l@{}}No, I did use it \\ before and\\ use it now\end{tabular} & \textbf{2.850} & 15.15\% & \textbf{-2.850} & 8.43\% \\
+ & \begin{tabular}[c]{@{}l@{}}No, I didn’t use \\ it before and\\ don’t use it now\end{tabular} & -1.011 & 4.40\% & 1.011 & 2.45\% \\ \hline
+\end{tabular}
+    %\begin{tabular}{l|r|r|r|r|}
+    %\cline{2-5}
+    %                             & Did/Do & Didn't/Do & Safer  & Didn' t/Don't \\ \hline
+    %\multicolumn{1}{|l|}{Female} & \textbf{-2.850} & \textbf{2.806} & 1.832  & -1.011 \\ 
+    %\multicolumn{1}{|l|}{} & 15.15\% & \textbf{31.21\%} &  13.49\% & 4.40\% \\ \hline
+    %\multicolumn{1}{|l|}{Male}   & \textbf{2.850} & \textbf{-2.806} & -1.832 & 1.011 \\ 
+    %\multicolumn{1}{|l|}{} &  8.43\% &  \textbf{17.36\%} & 7.50\% &  2.45\% \\ \hline
+    %\end{tabular}%
     }
     \end{minipage}
-    \begin{minipage}[c]{0.45\textwidth}
+    \begin{minipage}[c]{0.40\textwidth}
         \centering
 <<sector_postcovid_chisq, echo=FALSE, fig.width=17/2.54, fig.height=10/2.54, warning=FALSE>>=
 covidChanges.vs.Sector<-table(survey.pilot.postCovidChisq$Sector, survey.pilot.postCovidChisq$PostCOVID.changes)
@@ -1009,20 +1021,30 @@ chisq<-chisq.test(covidChanges.vs.Sector)
 corrplot(chisq$residuals, is.corr = FALSE)
 @
     \end{minipage}
-    \begin{minipage}[c]{0.45\textwidth}
+    \begin{minipage}[c]{0.55\textwidth}
         \centering
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{l|r|r|r|r|}
-    \cline{2-5}
-                                 & Did/Do & Didn't/Do & Safer  & Didn' t/Don't \\ \hline
-    \multicolumn{1}{|l|}{University} & \textbf{-2.122} & 0.454 & 0.115  &  \textbf{2.939}\\ 
-    \multicolumn{1}{|l|}{} & 5.71\% & 0.56\% & 0.04\%  &  \textbf{25.26\%}\\ \hline
-    \multicolumn{1}{|l|}{Vocational} & \textbf{2.122} & -0.454 & -0.115 & \textbf{-2.939}\\ 
-    \multicolumn{1}{|l|}{} & 12.38\% & 1.21\% & 0.08\% & \textbf{54.78\%}\\ \hline
-    \end{tabular}%
+    %\begin{tabular}{l|r|r|r|r|}
+    %\cline{2-5}
+    %                             & Did/Do & Didn't/Do & Safer  & Didn' t/Don't \\ \hline
+    %\multicolumn{1}{|l|}{University} & \textbf{-2.122} & 0.454 & 0.115  &  \textbf{2.939}\\ 
+    %\multicolumn{1}{|l|}{} & 5.71\% & 0.56\% & 0.04\%  &  \textbf{25.26\%}\\ \hline
+    %\multicolumn{1}{|l|}{Vocational} & \textbf{2.122} & -0.454 & -0.115 & \textbf{-2.939}\\ 
+    %\multicolumn{1}{|l|}{} & 12.38\% & 1.21\% & 0.08\% & \textbf{54.78\%}\\ \hline
+    %\end{tabular}%
+    \begin{tabular}{llllll}
+          \hline
+           &  & \multicolumn{4}{c}{Sector} \\ \cline{3-6} 
+           &  & \multicolumn{2}{c}{University} & \multicolumn{2}{c}{Vocational} \\ \cline{3-6} 
+           &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Adjusted \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Adjusted \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} \\ \cline{2-6} 
+          \begin{tabular}[c]{@{}l@{}}Post-\\ covid\\ changes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Yes, I use a \\ safer messaging \\ app now\end{tabular} & 0.115 & 0.04\% & -0.115 & 0.08\% \\
+           & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use \\ any messaging \\ app before, but\\ do use it now\end{tabular} & 0.454 & 0.56\% & -0.454 & 1.21\% \\
+           & \begin{tabular}[c]{@{}l@{}}No, I did use it \\ before and\\ use it now\end{tabular} & \textbf{-2.122} & 5.71\% & \textbf{2.122} & 12.38\% \\
+           & \begin{tabular}[c]{@{}l@{}}No, I didn’t use \\ it before and\\ don’t use it now\end{tabular} & \textbf{2.939} & \textbf{25.26\%} & \textbf{-2.939} & \textbf{54.78\%} \\ \hline
+          \end{tabular}%
     }
     \end{minipage}
-    \begin{minipage}[c]{0.45\textwidth}
+    \begin{minipage}[c]{0.40\textwidth}
         \centering
 <<discipline_postcovid_chisq, echo=FALSE, fig.width=17/2.54, fig.height=10/2.54, warning=FALSE>>=
 survey.pilot.postCovidChisq %>%mutate(Discipline = ifelse(as.character(Discipline) == "No", "Hum/Social Sciences", as.character(Discipline))) %>%
@@ -1039,26 +1061,35 @@ chisq<-chisq.test(covidChanges.vs.Discipline)
 corrplot(chisq$residuals, is.corr = FALSE)
 @
     \end{minipage}
-    \begin{minipage}[c]{0.45\textwidth}
+    \begin{minipage}[c]{0.55\textwidth}
         \centering
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{l|r|r|r|r|}
-    \cline{2-5}
-                                 & Did/Do & Didn't/Do & Safer & Didn' t/Don't \\ \hline
-    \multicolumn{1}{|l|}{Biomed/Sciences} & -1.265 &  0.733 & 1.452 & -0.588 \\ 
-    \multicolumn{1}{|l|}{} & 3.50\% &  2.50\% & 9.94\% & 1.75\% \\ \hline
-    \multicolumn{1}{|l|}{Hum/Social} &  \textbf{-2.729} & \textbf{2.079} &  1.566 & 0.055\\ 
-    \multicolumn{1}{|l|}{} &  15.55\% & \textbf{19.19\%} &  11.04\% & 0.01\%\\ \hline
-    \multicolumn{1}{|l|}{Tech/Engineering} &  \textbf{3.278} &  \textbf{-2.318} &  \textbf{-2.448} & 0.412\\ 
-    \multicolumn{1}{|l|}{} &  11.06\% &  11.76\% &  \textbf{13.29\%} & 0.40\%\\ \hline
-    \end{tabular}%
+\begin{tabular}{llllllll}
+\hline
+ &  & \multicolumn{6}{c}{Discipline} \\ \cline{3-8} 
+ &  & \multicolumn{2}{c}{Biomed/Sciences} & \multicolumn{2}{c}{Hum/Social} & \multicolumn{2}{l}{Tech/Engineering} \\ \cline{3-8} 
+ &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Adjusted \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Adjusted \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Adjusted \\ Residuals\end{tabular} & \begin{tabular}[c]{@{}l@{}}Contri-\\ bution\end{tabular} \\ \cline{2-8} 
+\begin{tabular}[c]{@{}l@{}}Post-\\ covid\\ changes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Yes, I use a \\ safer mes-\\ saging app \\ now\end{tabular} & 1.452 & 9.94\% & 1.566 & 11.04\% & \textbf{-2.448} & \textbf{13.29\%} \\
+ & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t \\ use any mes-\\ saging app \\ before, but\\ do use it now\end{tabular} & 0.733 & 2.50\% & \textbf{2.079} & \textbf{19.19\%} & -2.318 & 11.76\% \\
+ & \begin{tabular}[c]{@{}l@{}}No, I did use \\ it before and\\ use it now\end{tabular} & -1.265 & 3.50\% & \textbf{-2.729} & 15.55\% & \textbf{3.278} & 11.06\% \\
+ & \begin{tabular}[c]{@{}l@{}}No, I didn’t \\ use it before \\ and don’t use \\ it now\end{tabular} & -0.588 & 1.75\% & 0.055 & 0.01\% & 0.412 & 0.40\% \\ \hline
+\end{tabular}
+    %\begin{tabular}{l|r|r|r|r|}
+    %\cline{2-5}
+    %                             & Did/Do & Didn't/Do & Safer & Didn' t/Don't \\ \hline
+    %\multicolumn{1}{|l|}{Biomed/Sciences} & -1.265 &  0.733 & 1.452 & -0.588 \\ 
+    %\multicolumn{1}{|l|}{} & 3.50\% &  2.50\% & 9.94\% & 1.75\% \\ \hline
+    %\multicolumn{1}{|l|}{Hum/Social} &  \textbf{-2.729} & \textbf{2.079} &  1.566 & 0.055\\ 
+    %\multicolumn{1}{|l|}{} &  15.55\% & \textbf{19.19\%} &  11.04\% & 0.01\%\\ \hline
+    %\multicolumn{1}{|l|}{Tech/Engineering} &  \textbf{3.278} &  \textbf{-2.318} &  \textbf{-2.448} & 0.412\\ 
+    %\multicolumn{1}{|l|}{} &  11.06\% &  11.76\% &  \textbf{13.29\%} & 0.40\%\\ \hline
+    %\end{tabular}%
     }
     \end{minipage}
 \end{center}
     \caption{.}
 \label{figure:postcovid_chisq}
 \end{figure} 
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
