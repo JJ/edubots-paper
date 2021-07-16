@@ -227,7 +227,6 @@ Introducing new technologies such as messaging platforms, and the chatbots attac
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%% start of article main body
-% <put your article body there>
 
 <<setup, echo=FALSE,message=FALSE>>=
 library(ggplot2)
@@ -591,7 +590,7 @@ The specific questions included in this second survey are listed below:
 \label{sec:res}
 
 % Describe the survey and population
-We collected responses from 282 teachers from Spain and Spanish Speaking countries for the first survey (\textit{survey1} in Fig. \ref{figure:teachers_population}) and 205 for the second one (\textit{survey2}). The sample includes mostly teachers from university, although about 32\% and 8\% are from vocational education in the first and second survey respectively. Regarding gender, in total 61\% are male teachers and 32\% female (approximately 5\% chose not to disclose it). Finally, the responses are equally distributed attending to the teaching experience, showing 24\% of responses from teachers with 5 or less years of experience, 26\% for 6-15 years of experience, 30\% for 16-25, and 20\% for teachers with more than 25 years of experience.
+We collected responses from 282 teachers from Spain and Spanish Speaking countries for the first survey (\textit{survey1} in Fig. \ref{figure:teachers_population}) and 205 for the second one (\textit{survey2}). The sample includes mostly teachers from university, although about 32\% and 8\% are from vocational education in the first and second survey respectively. Regarding gender, 61\% of the teachers were male and 32\% female (approximately 5\% chose not to disclose it). Finally, the responses are equally distributed according to the teaching experience, showing 24\% of responses from teachers with 5 or less years of experience, 26\% for 6-15 years of experience, 30\% for 16-25, and 20\% for teachers with more than 25 years of experience.
 
 
 \begin{figure}[h!tbp]
@@ -669,6 +668,7 @@ ggplot(freqbinded.Discipline, aes(x = Discipline, y=freqDiscipline, fill = sourc
 \label{figure:teachers_population}
 \end{figure}
 
+% Olia suggests to delete this, as well as figure 1.
 Figure \ref{figure:teachers_population} shows the distribution of age and experience are quite similar. %, and as a matter of fact,
 Additionally, as a matter of fact, as Figure \ref{figure:age.vs.exp} shows, age and experience are correlated strongly, with experience being roughly 20-30 years less than age. 
 This might indicate that a differential analysis for age and experience will not yield significant differences, except maybe in the 6-15 years experience group, which is spread over all ages. At any rate, experience seems to be the dominating factor here and we'll use experience only unless we detect some significant difference by age.
@@ -701,11 +701,15 @@ ggplot(Age.vs.Experience,aes(Age,Experience))+geom_point(aes(size=freq),colour="
 %Why messaging apps are relevant here --> connect to the development of chatbots
 Group messaging apps have become a powerful tool for keeping touch with students. Also, they are the baseline platform for the development of chatbots to help with the learning process. 
 
-For answering RQ1, teachers were queried about whether they use messaging apps in their classes, specifically, Telegram, WhatsApp, Slack, or any other messaging app, and whether they use messaging apps provided by their Academic Institution. 
-According to the results summarized in Fig. \ref{figure:chatbots_use}, teachers mainly use the instant messaging app provided by their institutions (55\%),  and Whatsapp (44\%), the most popular messaging app in Spain. Finally, about 20\% also use Telegram. Only 19 teachers (6.7\%) replied that they do not use any messaging app in their class. 
-Although gender differences are not significant, female teachers answered they use instant messaging apps more than male teachers (about 10\% more). Also, teachers in vocational Education also use Whatsapp more than university teachers.
+For answering RQ1, teachers were queried about whether they use messaging apps in their classes, specifically, Telegram, WhatsApp, Slack, or any other messaging app, and whether they use messaging apps provided by their academic institution. Overall, the majority of the teachers responded that they do use messaging apps in their classrooms, from which apps provided by the academic institution (n=159, 56\%) and WhatsApp (n=124, 44.0\%) were the most common responses. Only 19 teachers (6.7\%) replied that they do not use any messaging app in their class.
 
-With respect to the distribution of the use of messaging apps per age, there are no significant differences for the Whatsapp and apps provided by their institutions. However, younger teachers use also Telegram with more than 25\%, a percentage that falls to about 10\% for teachers that are 55 or older. The third column compares the use of these apps considering the number of years of experience. One interesting result is that, contrarily to the idea of technology adaptation issues when considering older teachers, about 65\% of teachers with more than 25 years of experience use the platforms provided by their institutions while the percentage goes down to less than 50\% for teachers with 6-15 years of experience.
+% Insert first Olia table here
+A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, X2 (4, N = 282) = 9.598, p =0.048. The frequencies cross tabulated are given in Table 2. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational). 
+Although gender differences are not significant, female teachers answered they use instant messaging apps more than male teachers (about 10\% more). Also, teachers in vocational Education also use Whatsapp more than university teachers.
+%Insert second Olia table here.
+
+With respect to the distribution of the use of messaging apps per age, there are no significant differences for Whatsapp and apps provided by their institutions. % Olia requests support for this.
+However, younger teachers use also Telegram with more than 25\%, a percentage that falls to about 10\% for teachers that are 55 or older. The third column compares the use of these apps considering the number of years of experience. One interesting result is that, contrarily to the idea of technology adaptation issues when considering older teachers, about 65\% of teachers with more than 25 years of experience use the platforms provided by their institutions while the percentage goes down to less than 50\% for teachers with 6-15 years of experience.
 
 \begin{figure}[h!tbp]
 \begin{center}
