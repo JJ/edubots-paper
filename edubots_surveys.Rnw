@@ -701,15 +701,84 @@ We collected responses from 282 teachers from Spain and Spanish Speaking countri
 %Why messaging apps are relevant here --> connect to the development of chatbots
 Group messaging apps have become a powerful tool for keeping touch with students. Also, they are the baseline platform for the development of chatbots to help with the learning process. 
 
-For answering RQ1, teachers were queried about whether they use messaging apps in their classes, specifically, Telegram, WhatsApp, Slack, or any other messaging app, and whether they use messaging apps provided by their academic institution. Overall, the majority of the teachers responded that they do use messaging apps in their classrooms, from which apps provided by the academic institution (n=159, 56\%) and WhatsApp (n=124, 44.0\%) were the most common responses. Only 19 teachers (6.7\%) replied that they do not use any messaging app in their class.
+For answering RQ1, teachers were queried about whether they use messaging apps in their classes, specifically, Telegram, WhatsApp, Slack, or any other messaging app, and whether they use messaging apps provided by their academic institution (see Table \ref{tab:use_messapps}). Overall, the majority of the teachers responded that they do use messaging apps in their classrooms, from which apps provided by the academic institution (n=159, 56\%) and WhatsApp (n=124, 44.0\%) were the most common responses. Only 19 teachers (6.7\%) replied that they do not use any messaging app in their class.
 
-% Insert first Olia table here
-A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, X2 (4, N = 282) = 9.598, p =0.048. The frequencies cross tabulated are given in Table 2. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational). 
+\begin{table}[h!tbp]
+\begin{tabular}{lllll}
+\hline
+\multicolumn{1}{c}{Messaging App} & \multicolumn{2}{c}{Yes} & \multicolumn{2}{l}{No} \\ \cline{2-5} 
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{Frequency} & \multicolumn{1}{c}{\%} & Frequency & \multicolumn{1}{c}{\%} \\ \hline
+Telegram & 62 & 22.0 & 220 & 78.0 \\
+WhatsApp & 124 & 44.0 & 158 & 56.0 \\
+Slack & 15 & 5.3 & 267 & 94.7 \\
+Other & 60 & 21.3 & 222 & 78.7 \\
+\begin{tabular}[c]{@{}l@{}}Provided by the Academic\\ Institution\end{tabular} & 159 & 56.4 & 123 & 43.6 \\
+None & 19 & 6.7 & 263 & 93.3 \\ \hline
+\end{tabular}
+\vspace{0.8em}
+\caption{Use of messaging apps in class}
+\label{tab:use_messapps}
+\end{table}
+
+A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. The frequencies cross tabulated are given in Table \ref{tab:sector*covid}. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational).
+\begin{table}[h!tbp]
+\begin{tabular}{llccc}
+\hline
+ & \multicolumn{1}{c}{} & \multicolumn{2}{c}{Sector} & Total \\ \cline{3-5} 
+ & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}University \\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Vocational\\ (f)\end{tabular} &  \\ \cline{2-5} 
+\multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Post-covid\\ changes\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Yes, I use a safer messaging \\ app now\end{tabular} & 27 & 13 & 40 \\
+ & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use any \\ messaging app before, but \\ do use it now\end{tabular} & 31 & 13 & 44 \\
+ & \begin{tabular}[c]{@{}l@{}}No, I did use it before and \\ use it now\end{tabular} & 105 & 60 & 165 \\
+ & \begin{tabular}[c]{@{}l@{}}No, I didn’t use it before and \\ don’t use it now\end{tabular} & 22 & 2 & 24 \\
+Total &  & 193 & 89 & 282 \\ \hline
+\end{tabular}
+\vspace{0.8em}
+\caption{Sector * post-covid changes crosstabulation}
+\label{tab:sector*covid}
+\end{table}
+The majority of the teachers (n=165) mentioned that no changes in their habits occured due to the emergency remote teaching, as the use of messaging apps was part of their teaching practices and remains the same, from which 105 teachers come from the university, and 60 teachers from the vocational sector. The relationships between changes in the use of messaging apps, due to the covid-19 pandemic, and the instructors’ discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, p= 0.039 were also significant. This finding indicates that how teachers responded to the use of messaging apps during the pandemic was also related to their gender and discipline. In fact, from the majority of the teachers who did not change their habits in this respect (n=165), most of them are males (n=114), and come from the technology (n=60) and engineering (n=53) disciplines (see Tables \ref{tab:gender*covid}, \ref{tab:discipline*covid}).
+
+\begin{table}[h!tbp]
+\begin{tabular}{llcccc}
+\hline
+ & \multicolumn{1}{c}{} & \multicolumn{3}{c}{Gender} & Total \\ \cline{3-6} 
+ & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}Male \\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Female\\ (f)\end{tabular} &  \begin{tabular}[c]{@{}c@{}}PNTS\\ (f)\end{tabular} & \\ \cline{2-6} 
+\multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Post-covid\\ changes\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Yes, I use a safer messaging \\ app now\end{tabular} & 20 & 20 & 0 & 40 \\
+ & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use any \\ messaging app before, but \\ do use it now\end{tabular} & 20 & 23 & 1 & 44 \\
+ & \begin{tabular}[c]{@{}l@{}}No, I did use it before and \\ use it now\end{tabular} & 114 & 47 & 4 & 165 \\
+ & \begin{tabular}[c]{@{}l@{}}No, I didn’t use it before and \\ don’t use it now\end{tabular} & 18 & 6 & 0 & 24 \\
+ & Other & 7 & 2 & 0 & 9 \\
+Total &  & 179 & 98 & 5 & 282 \\ \hline
+\end{tabular}
+\vspace{0.8em}
+\caption{Gender * post-covid changes crosstabulation}
+\label{tab:gender*covid}
+\end{table}
+
+\begin{table}[h!tbp]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{llcccccccc}
+\hline
+ & \multicolumn{1}{c}{} & \multicolumn{7}{c}{Disciplines} & Total \\ \cline{3-10} 
+ & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}Engi- \\ neering(f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Social \\ Sciences (f)\end{tabular} &  \begin{tabular}[c]{@{}c@{}}Sciences\\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Bio-\\ medicine (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Human-\\ ities(f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Technol-\\ ogy(f)\end{tabular} &  \begin{tabular}[c]{@{}c@{}}Other\\ (f)\end{tabular} & \\ \cline{2-10} 
+\multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Post-covid\\ changes\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Yes, I use a safer \\ messaging app now\end{tabular} & 7 & 11 & 5 & 5 & 1 & 10 & 1 & 40 \\
+ & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use any \\ messaging app before, \\ but do use it now\end{tabular} & 13 & 12 & 5 &  4 &  2 &  7 & 1 & 44 \\
+ & \begin{tabular}[c]{@{}l@{}}No, I did use it before \\ and use it now\end{tabular} &60 &  26 &  20 &  4 & 0 & 53 &  2 &  165\\
+ & \begin{tabular}[c]{@{}l@{}}No, I didn’t use it \\ before and don’t \\ use it now\end{tabular} & 14 &  4 & 1 & 2 & 1 & 1 & 1 & 24 \\
+ & Other & 5  & 0 & 1 & 1 & 1 & 1 & 0 & 9 \\
+Total & & 99 &  53&  32&  16&  5&  72&  5&  282\\ \hline
+\end{tabular}}
+\vspace{0.8em}
+\caption{Discipline * post-covid changes crosstabulation}
+\label{tab:discipline*covid}
+\end{table}
+
+
+
 Although gender differences are not significant, female teachers answered they use instant messaging apps more than male teachers (about 10\% more). Also, teachers in vocational Education also use Whatsapp more than university teachers.
-%Insert second Olia table here.
-
 With respect to the distribution of the use of messaging apps per age, there are no significant differences for Whatsapp and apps provided by their institutions. % Olia requests support for this.
-However, younger teachers use also Telegram with more than 25\%, a percentage that falls to about 10\% for teachers that are 55 or older. The third column compares the use of these apps considering the number of years of experience. One interesting result is that, contrarily to the idea of technology adaptation issues when considering older teachers, about 65\% of teachers with more than 25 years of experience use the platforms provided by their institutions while the percentage goes down to less than 50\% for teachers with 6-15 years of experience.
+However, younger teachers also use Telegram with more than 25\%, a percentage that falls to about 10\% for teachers that are 55 or older. The third column compares the use of these apps considering the number of years of experience. One interesting result is that, contrary to the idea of technology adaptation issues when considering older teachers, about 65\% of teachers with more than 25 years of experience use the platforms provided by their institutions while the percentage goes down to less than 50\% for teachers with 6-15 years of experience.
 
 \begin{figure}[h!tbp]
 \begin{center}
@@ -852,7 +921,8 @@ Results in Fig. \ref{figure:chatbots_use} do not show differences in the use of 
 %\label{figure:chatbots_use_sector_discip}
 %\end{figure} 
 
-Some of the questions in the survey were focused on the impact of the COVID19 pandemic between 2020 and 2021, in the teachers' opinions towards the instant messaging apps. The 273 % Fran, please check Olia's comment as having 282 answers.
+Some of the questions in the survey were focused on the impact of the COVID19 pandemic between 2020 and 2021, in the teachers' viewpoints towards the use of instant messaging apps int their class. The 282 
+% Fran, please check Olia's comment as having 282 answers -> I did remove some responses that Olia considered 'No' by default. I' ll keep it to 282 to be consistent
 answers are summarized in Fig. \ref{figure:chatbots_use_postcovid}, showing that about 77\% of teachers already used these tools before the pandemic and kept using them during the pandemic lockdowns that forced students and educators to use remote education schemes. Moreover, approximately 15\% of them switched their messaging app for one that offered a safer interaction with their students. According to the responses, an additional 16\% started using messaging apps during the pandemic for the first time in their classes. Aggregating the answers, currently 91\% of the teachers are using messaging apps as learning tools. 
 
 %A few relevant facts from the collected data: teachers with 16-25 years of experience seem more worried about the security of messaging apps and teachers with up to 5 years of experience were more open to adopt messaging apps due to the pandemic; female teachers were more willing to adopt new platforms due to the pandemic, and even to start using safer alternatives; finally, university teachers that did not use them were more reluctant to start using them after the pandemic.
@@ -887,41 +957,9 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
 \label{figure:chatbots_use_postcovid}
 \end{figure} 
 
-A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. The frequencies cross tabulated are given in Table \ref{tab:sector*covid}. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational). The relationships between changes in the use of messaging apps, due to the covid-19 pandemic, and the instructors’ discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, $p= 0.039$ were also significant.
+%A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. The frequencies cross tabulated are given in Table \ref{tab:sector*covid}. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational). 
+The relationships between changes in the use of messaging apps, due to the covid-19 pandemic, and the instructors’ discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, $p= 0.039$ were also significant.
 
-%TODO: This table is not referenced in the text
-\begin{table}[h!tbp]
-\begin{tabular}{lllll}
-\hline
-\multicolumn{1}{c}{Messaging App} & \multicolumn{2}{c}{Yes} & \multicolumn{2}{l}{No} \\ \cline{2-5} 
-\multicolumn{1}{c}{} & \multicolumn{1}{c}{Frequency} & \multicolumn{1}{c}{\%} & Frequency & \multicolumn{1}{c}{\%} \\ \hline
-Telegram & 62 & 22.0 & 220 & 78.0 \\
-WhatsApp & 124 & 44.0 & 158 & 56.0 \\
-Slack & 15 & 5.3 & 267 & 94.7 \\
-Other & 60 & 21.3 & 222 & 78.7 \\
-\begin{tabular}[c]{@{}l@{}}Provided by the Academic\\ Institution\end{tabular} & 159 & 56.4 & 123 & 43.6 \\
-None & 19 & 6.7 & 263 & 93.3 \\ \hline
-\end{tabular}
-\vspace{0.8em}
-\caption{Use of messaging apps in class}
-\label{tab:use_messapps}
-\end{table}
-
-\begin{table}[h!tbp]
-\begin{tabular}{llccc}
-\hline
- & \multicolumn{1}{c}{} & \multicolumn{2}{c}{Sector} & Total \\ \cline{3-5} 
- & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}University \\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Vocational\\ (f)\end{tabular} &  \\ \cline{2-5} 
-\multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Post-covid\\ changes\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Yes, I use a safer messaging \\ app now\end{tabular} & 27 & 13 & 40 \\
- & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use any \\ messaging app before, but \\ do use it now\end{tabular} & 31 & 13 & 44 \\
- & \begin{tabular}[c]{@{}l@{}}No, I did use it before and \\ use it now\end{tabular} & 105 & 60 & 165 \\
- & \begin{tabular}[c]{@{}l@{}}No, I didn’t use it before and \\ don’t use it now\end{tabular} & 22 & 2 & 24 \\
-Total &  & 193 & 89 & 282 \\ \hline
-\end{tabular}
-\vspace{0.8em}
-\caption{Sector * post-covid changes crosstabulation}
-\label{tab:sector*covid}
-\end{table}
 
 % Olia - TODO: check for repetitions in the following paragraph that you added. thank you.
 The first column in Fig. \ref{figure:postcovid_chisq} shows the Pearson's residuals of the test for these three variables. Residuals show the difference between the observed and the expected values, with large residuals showing that variables are not truly independent. In this case, blue shows positive contribution and red negative contribution to the test, and saturation shows how large is this contribution in contrast to the expected value by chance. Tables on the right side show adjusted standardized residuals that according to \cite{agresti2013categorical}, if greater than +/-2 for cases with few cells, indicate lack of fit of $H_0$ (in boldface in our table). Also, the table shows the percentage of contribution to the test of each cell.
