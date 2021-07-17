@@ -964,8 +964,8 @@ Total & & 99 &  53&  32&  16&  5&  72&  5&  282\\ \hline
 %The relationships between changes in the use of messaging apps, due to the covid-19 pandemic, and the instructors’ discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, $p= 0.039$ were also significant.
 
 % Olia - TODO: check for repetitions in the following paragraph that you added. thank you.
-Finally, we took a closer look at the chi-square analysis on the post-covid changes and the variables gender, sector, and discipline for which the p-value was less than 0.05. In this case, in Fig. \ref{figure:postcovid_chisq} shows the Pearson's residuals of the test for these three variables. Residuals show the difference between the observed and the expected values, with large residuals showing that variables are not truly independent. In this case, blue shows positive contribution and red negative contribution to the test, and saturation shows how large is this contribution in contrast to the expected value by chance. Tables on the right side show adjusted standardized residuals that according to \cite{agresti2013categorical}, if greater than +/-2 for cases with few cells, indicate lack of fit of $H_0$ (in boldface in our table). Also, the table shows the percentage of contribution to the test of each cell.
-
+Finally, we took a closer look at the post-covid changes and the variables gender, sector, and discipline for which the chi-square test is statistically significant as shown in Figures \ref{figure:gender*postcovid_chisq}, \ref{figure:sector*postcovid_chisq}, \ref{figure:discipline*postcovid_chisq} respectively. Each figure shows on the left, a graph that represents the Pearson's residuals of the chi-square test results and a table on the right part that shows the contribution of each cell to the test. In the Pearson's residual graphs, the responses were shortened for the sake of clarity according to: 1) \textit{Did/do} stands for \textit{Yes, I did use it before and do use it now}; 2) \textit{Didn't/do} for \textit{Yes, I didn’t use any messaging app before, but do use it now}; 3) \textit{safer} for \textit{Yes, I use a safer messaging app now}; 4) \textit{Didn't/Don't} for \textit{No, I didn’t use it before and don’t use it now}.
+%
 \begin{figure}[h!tbp]
 \begin{center}
     \begin{minipage}[c]{0.40\textwidth}
@@ -981,6 +981,7 @@ survey.pilot.postCovidChisq<- droplevels(df1)
 
 covidChanges.vs.Gender<-table(survey.pilot.postCovidChisq$Gender, survey.pilot.postCovidChisq$PostCOVID.changes)
 colnames(covidChanges.vs.Gender)<- c("Did/do", "Didn't/do","safer", "Didn't/don't")
+covidChanges.vs.Gender<-covidChanges.vs.Gender[,c(3,2,1,4)]
 chisq<-chisq.test(covidChanges.vs.Gender)
 corrplot(chisq$residuals, is.corr = FALSE)
 @
@@ -996,7 +997,7 @@ corrplot(chisq$residuals, is.corr = FALSE)
 \hline
  &  & \multicolumn{4}{c}{Gender} \\ \cline{3-6} 
  &  & \multicolumn{2}{c}{Female} & \multicolumn{2}{c}{Male} \\ \cline{3-6} 
- &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Adjusted \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Adjusted \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} \\ \cline{2-6} 
+ &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} \\ \cline{2-6} 
 \begin{tabular}[c]{@{}l@{}}Post-\\ covid\\ changes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Yes, I use a \\ safer messaging \\ app now\end{tabular} & 1.832 & 13.49\% & -1.832 & 7.50\% \\
  & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use \\ any messaging \\ app before, but\\ do use it now\end{tabular} & \textbf{2.806} & \textbf{31.21\%} & \textbf{-2.806} & \textbf{17.36\%} \\
  & \begin{tabular}[c]{@{}l@{}}No, I did use it \\ before and\\ use it now\end{tabular} & \textbf{2.850} & 15.15\% & \textbf{-2.850} & 8.43\% \\
@@ -1012,11 +1013,23 @@ corrplot(chisq$residuals, is.corr = FALSE)
     %\end{tabular}%
     }
     \end{minipage}
+\end{center}
+    \caption{Analysis for gender and post-covid changes: left) Pearson's residuals for the Chi-square test; right) Gender*post-covid changes crosstabulation, including standardized residuals \cite{agresti2013categorical} (also adjusted standardized residuals) and contribution percentage to the total Chi-square test of each cell.}
+\label{figure:gender*postcovid_chisq}
+\end{figure}
+
+As mentioned, the graphs on the left represent the Pearson's residuals, showing the difference between the observed and the expected values for each cell. Thus, large residuals indicate that variables are not truly independent. In our case, the blue shows positive contributions and red negative contributions to the test. Moreover, the saturation shows how large the contribution is in contrast to the expected value by chance. Additionally, tables on the right side show adjusted standardized residuals that according to \cite{agresti2013categorical}, if greater than +/-2 for cases with few cells, indicate lack of fit of $H_0$ (in boldface in our table). Complementary, the table also shows the percentage of contribution to the test of each cell (highest percentage per column also in boldface).
+
+Regarding gender in Fig. \ref{figure:gender*postcovid_chisq}, the results show a high positive contribution from female educators that did not use a messaging app before the COVID-19 pandemic but do use it now; approximately 31\% of the test results are explained by this cell. In contrast, male educators that respond the same were less than expected (negative contribution that explains 17\% of the test results). Also, it is important to highlight the female educators that kept using these apps before and after the pandemic and correspondingly the negative contribution of male educators to the same case (less than expected by chance).
+
+\begin{figure}[h!tbp]
+\begin{center}
     \begin{minipage}[c]{0.40\textwidth}
         \centering
 <<sector_postcovid_chisq, echo=FALSE, fig.width=17/2.54, fig.height=10/2.54, warning=FALSE>>=
 covidChanges.vs.Sector<-table(survey.pilot.postCovidChisq$Sector, survey.pilot.postCovidChisq$PostCOVID.changes)
 colnames(covidChanges.vs.Sector)<- c("Did/do", "Didn't/do","safer", "Didn't/don't")
+covidChanges.vs.Sector<-covidChanges.vs.Sector[,c(3,2,1,4)]
 chisq<-chisq.test(covidChanges.vs.Sector)
 corrplot(chisq$residuals, is.corr = FALSE)
 @
@@ -1036,7 +1049,7 @@ corrplot(chisq$residuals, is.corr = FALSE)
           \hline
            &  & \multicolumn{4}{c}{Sector} \\ \cline{3-6} 
            &  & \multicolumn{2}{c}{University} & \multicolumn{2}{c}{Vocational} \\ \cline{3-6} 
-           &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Adjusted \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Adjusted \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} \\ \cline{2-6} 
+           &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} \\ \cline{2-6} 
           \begin{tabular}[c]{@{}l@{}}Post-\\ covid\\ changes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Yes, I use a \\ safer messaging \\ app now\end{tabular} & 0.115 & 0.04\% & -0.115 & 0.08\% \\
            & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use \\ any messaging \\ app before, but\\ do use it now\end{tabular} & 0.454 & 0.56\% & -0.454 & 1.21\% \\
            & \begin{tabular}[c]{@{}l@{}}No, I did use it \\ before and\\ use it now\end{tabular} & \textbf{-2.122} & 5.71\% & \textbf{2.122} & 12.38\% \\
@@ -1044,6 +1057,15 @@ corrplot(chisq$residuals, is.corr = FALSE)
           \end{tabular}%
     }
     \end{minipage}
+\end{center}
+    \caption{Analysis for sector and post-covid changes: left) Pearson's residuals for the Chi-square test; right) Sector*post-covid changes crosstabulation, including standardized residuals \cite{agresti2013categorical} (also adjusted standardized  residuals) and contribution percentage to the total Chi-square test of each cell.}
+\label{figure:sector*postcovid_chisq}
+\end{figure}
+%
+With respect to the sector, the results in Fig. \ref{figure:sector*postcovid_chisq} show a positive contribution from university educators being reluctant to use any messaging apps before or after the pandemic: the positive contribution of their responses explain 25\% of the test results with an adjusted residual of 2.94. On the contrary, vocational teachers were more open to it, showing a negative Pearson's residual. Also, we find larger values than expected in vocational teachers that kept using these apps after the pandemic. 
+
+\begin{figure}[h!tbp]
+\begin{center}
     \begin{minipage}[c]{0.40\textwidth}
         \centering
 <<discipline_postcovid_chisq, echo=FALSE, fig.width=17/2.54, fig.height=10/2.54, warning=FALSE>>=
@@ -1057,6 +1079,7 @@ survey.pilot.postCovidChisq %>%mutate(Discipline = ifelse(as.character(Disciplin
   mutate(Discipline = ifelse(as.character(Discipline) == "Biomedicine", "Biomed/Sciences", as.character(Discipline)))->survey.pilot.postCovidChisq
 covidChanges.vs.Discipline<-table(survey.pilot.postCovidChisq$Discipline, survey.pilot.postCovidChisq$PostCOVID.changes)
 colnames(covidChanges.vs.Discipline)<- c("Did/do", "Didn't/do","safer", "Didn't/don't")
+covidChanges.vs.Discipline<-covidChanges.vs.Discipline[,c(3,2,1,4)]
 chisq<-chisq.test(covidChanges.vs.Discipline)
 corrplot(chisq$residuals, is.corr = FALSE)
 @
@@ -1068,8 +1091,8 @@ corrplot(chisq$residuals, is.corr = FALSE)
 \hline
  &  & \multicolumn{6}{c}{Discipline} \\ \cline{3-8} 
  &  & \multicolumn{2}{c}{Biomed/Sciences} & \multicolumn{2}{c}{Hum/Social} & \multicolumn{2}{l}{Tech/Engineering} \\ \cline{3-8} 
- &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Adjusted \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Adjusted \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Adjusted \\ Residuals\end{tabular} & \begin{tabular}[c]{@{}l@{}}Contri-\\ bution\end{tabular} \\ \cline{2-8} 
-\begin{tabular}[c]{@{}l@{}}Post-\\ covid\\ changes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Yes, I use a \\ safer mes-\\ saging app \\ now\end{tabular} & 1.452 & 9.94\% & 1.566 & 11.04\% & \textbf{-2.448} & \textbf{13.29\%} \\
+ &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Stand. \\ Residuals\end{tabular} & \begin{tabular}[c]{@{}l@{}}Contri-\\ bution\end{tabular} \\ \cline{2-8} 
+\begin{tabular}[c]{@{}l@{}}Post-\\ covid\\ changes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Yes, I use a \\ safer mes-\\ saging app \\ now\end{tabular} & 1.452 & \textbf{9.94\%} & 1.566 & 11.04\% & \textbf{-2.448} & \textbf{13.29\%} \\
  & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t \\ use any mes-\\ saging app \\ before, but\\ do use it now\end{tabular} & 0.733 & 2.50\% & \textbf{2.079} & \textbf{19.19\%} & -2.318 & 11.76\% \\
  & \begin{tabular}[c]{@{}l@{}}No, I did use \\ it before and\\ use it now\end{tabular} & -1.265 & 3.50\% & \textbf{-2.729} & 15.55\% & \textbf{3.278} & 11.06\% \\
  & \begin{tabular}[c]{@{}l@{}}No, I didn’t \\ use it before \\ and don’t use \\ it now\end{tabular} & -0.588 & 1.75\% & 0.055 & 0.01\% & 0.412 & 0.40\% \\ \hline
@@ -1087,9 +1110,11 @@ corrplot(chisq$residuals, is.corr = FALSE)
     }
     \end{minipage}
 \end{center}
-    \caption{.}
-\label{figure:postcovid_chisq}
+    \caption{Analysis for discipline and post-covid changes: left) Pearson's residuals for the Chi-square test; right) Discipline*post-covid changes crosstabulation, including standardized residuals \cite{agresti2013categorical} (also adjusted standardized residuals) and contribution percentage to the total Chi-square test of each cell.}
+\label{figure:discipline*postcovid_chisq}
 \end{figure} 
+%
+Finally, statistical significance was found for the discipline and post-covid changes. Regarding disciplines (see Fig. \ref{figure:discipline*postcovid_chisq}), the number of educators from Humanities and Social Sciences that started using messaging apps after the pandemic is larger than expected and these number of responses explains about 19\% of the chi-square test results. Also, the number of educators from Technology or Engineering that started using safer alternatives are less than expected (compared to the educators from other disciplines). Bear in mind that some disciplines were merged to avoid very low number of responses for some of the cells.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

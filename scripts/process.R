@@ -103,9 +103,11 @@ df1[as.character(df1$Sector)!="No", ] -> df1
 df2<- droplevels(df1)
 
 
-covidChanges.vs.Gender<-table(df2$Gender, df2$PostCOVID.changes)
+covidChanges.vs.Gender<-table(df2$Gender,df2$PostCOVID.changes)
 colnames(covidChanges.vs.Gender)<- c("Did/do", "Didn't/do","safer", "Didn't/don't")
-chisq<-chisq.test(covidChanges.vs.Gender)
+covidChanges.vs.Gender<-covidChanges.vs.Gender[,c(3,2,1,4)]
+chisq<-chisq.test(t(covidChanges.vs.Gender))
+
 
 #install.packages("corrplot")
 #http://www.sthda.com/english/wiki/chi-square-test-of-independence-in-r
