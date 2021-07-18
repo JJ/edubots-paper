@@ -479,11 +479,8 @@ We will present next the methodology we have followed to find out teachers' opin
 \label{sec:meth}
 
 Our intention from the beginning was to try and gather a sufficient amount of responses in all sectors, as well as cover different sectors of higher education. In doing so, an online survey was administered (i.e., Google Form), in Spanish, which was intended to be answered in a very short amount of time. Initially, our intention was to mirror the questions used in \cite{MoraChatbots2021}; however, an initial exploration of results led us to create a second survey. The survey items focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers consider useful to be used in their teaching, and the type of interactions that teachers prefer to have with their students while using messaging apps in their teaching. 
-% Questions should probably be included here.
 
-% Olia - I do not think that we should say here that the first survey was done in two different forms. Wasn't the same survey for university and vocational teachers? It is just that they had to specify in which sector of education they were teaching, right? The second survey is another story... this is what I understand. 
-
-The initial survey was done in two separate Google forms, one for university and other for tertiary non-university teachers (vocational education). Questions and responses were the same, except for the type of tertiary degrees that were taught. In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and Mexico. The tertiary non-university teachers are mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching. A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at high school (31.6\%).
+The {\bf initial survey} was done in two separate Google forms, one for university and other for tertiary non-university teachers (vocational education). Questions and responses were the same, except for the type of tertiary degrees that were taught. In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and Mexico. The tertiary non-university teachers are mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching. A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at high school (31.6\%).
 
 All surveys had the same common, initial questions for segmentation:\begin{itemize}
 \item Degrees or titles where the teacher was working, either university or other tertiary education.
@@ -495,7 +492,7 @@ All surveys had the same common, initial questions for segmentation:\begin{itemi
 \end{itemize}
 
 % Including questions in surveys
-The first survey about the use of messaging apps in class include the following questions:
+The {\bf first survey}, which focused about the use of messaging apps in class, and which tried to address mainly RQ2 and R23, includes the following questions:
 
 \textit{1. Regarding the use of messaging apps in class, you prefer ...}
 \begin{itemize}
@@ -534,21 +531,17 @@ The first survey about the use of messaging apps in class include the following 
 \item No, I did not use any messaging platform before or now
 \end{itemize}
 
-The second survey followed the same paths, only in this case there was a single questionnaire, and with a different scope, focusing on the kind of interaction media features that teachers value the most.  % Olia - see my comment above.
-It was filled by teachers that were also students in a teacher formation course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers who knew about it by emails from the authors, or from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary.
-% Olia - we shoudl say here a few words about the two surveys, and their main difference. Also, which RQs each survey addresses etc. 
-% JJ - Yep... 
+The {\bf second survey} followed the same paths, only in this case there was a single questionnaire, and with a different scope, focusing on the kind of interaction media features that teachers value the most.  % Olia - see my comment above.
+It was filled by teachers that were also students in a teacher formation course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers who knew about it by emails from the authors, or from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary. These questions tried to address mainly RQ1 and RQ4.
 
-% Antonio - I include here the description of interaction features. Not sure if it is the best place for it. Move wherever it better fits.
-% Olia- in the text below, we refer to "communucation tools", we should be consisten with the terms we use. Should we refere to communication tools? Messaging apps? Chat tools? 
-Specifically, this survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what  their feelings and preferences are with regard to the use of communication tools with students, and even using bots or chatbots in the classroom. In addition the survey asked about the most relevant \textit{Interaction media features} for the teachers with respect to the potential tool to use in class. 
+Specifically, this survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what  their feelings and preferences are with regard to the use of instant messaging applications with students, and even using bots or chatbots in the classroom. In addition the survey asked about the most relevant \textit{interaction media features} for the teachers with respect to the potential tool to use in class. 
 
 The specific questions included in this second survey are listed below:
 
 \textit{1. You prefer the interaction with your students to be ...}
 \begin{itemize}
-\item Synchronous: students and teacher/s in the same space, simultaneously
-\item Asynchronous: the student asks at anytime, the teacher responds whenever possible
+\item Synchronous: students and teacher/s in the same space, simultaneously.
+\item Asynchronous: the student asks at anytime, the teacher responds whenever possible.
 \end{itemize}
 
 \textit{2. Regarding the interaction with your students, you ...}
@@ -569,20 +562,7 @@ The specific questions included in this second survey are listed below:
 \item That allow to extract data to assess the student performance
 \end{itemize}
 
-%These features are:
-%\begin{itemize}
-%\item \textit{Analytics}: the tool allows to extract data about students performance or development during the academic course on the teacher's subject.
-%\item \textit{Connectivity}: it is possible to link or connect the tool with other applications.
-%\item \textit{Familiarity}: it is something already known or previously used, so no need to learn something new.
-%\item \textit{Hidden Phone}: it is possible to use the tool without showing my phone number, normally using an alias or an own account independent from my physical telephone.
-%\item \textit{Horizontally}: all the actors are at the same level (for instance, teacher and students). There is not a hierarchy.
-%\item \textit{Official formation}: the university offers some training courses or talks about the tool (mainly for teachers). 
-%\item \textit{Pluggability}: the tool offers different pluggins to the teacher, so he/she can deploy his/her own implemented modules.
-%\item \textit{Sustainability}: teacher should not be worried about the tool maintenance.
-%\item \textit{Unidirectionality}: only the teacher can publish information in the channel, i.e. students are not allowed to ask or answer.
-%\item \textit{Officiality}: the tool has been granted by the university where the teacher works. This means normally that there is also technical support by university's staff.
-%\item \textit{Synchronous communication}: the interactions between teacher and students take place in real time, i.e. it is not a delayed communication scheme such as e-mail.
-%\end{itemize}
+Responses were stored automatically in a Google Drive spreadsheet. Eventually, the results from the two forms we used for the first survey were collated in a single spreadsheet. Next we will show the results and analyze them.
 
 % ********************** RESULTS ****************************
 
