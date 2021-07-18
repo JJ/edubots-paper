@@ -570,7 +570,7 @@ Responses were stored automatically in a Google Drive spreadsheet. Eventually, t
 \label{sec:res}
 
 % Describe the survey and population
-We collected responses from 282 teachers from Spain and Spanish Speaking countries for the first survey (\textit{survey1} in Fig. \ref{figure:teachers_population}) and 205 for the second one (\textit{survey2}). The sample includes mostly teachers from university, although about 32\% and 8\% are from vocational education in the first and second survey respectively. Regarding gender, 61\% of the teachers were male and 32\% female (approximately 5\% chose not to disclose it). Finally, the responses are equally distributed according to the teaching experience, showing 24\% of responses from teachers with 5 or less years of experience, 26\% for 6-15 years of experience, 30\% for 16-25, and 20\% for teachers with more than 25 years of experience.
+We collected responses from 282 teachers from Spain and Spanish Speaking countries for the first survey (\textit{survey1} and 205 for the second one (\textit{survey2}). The two forms were open for approximately the same amount of time, around two months. The sample includes mostly teachers from university, although about 32\% and 8\% are from vocational education in the first and second survey respectively. Regarding gender, 61\% of the teachers were male and 32\% female, while approximately 5\% chose not to disclose it. Finally, the responses are more or less equally distributed according to the teaching experience, showing 24\% of responses from teachers with 5 or less years of experience, 26\% for 6-15 years of experience, 30\% for 16-25, and 20\% for teachers with more than 25 years of experience.
 
 
 % \begin{figure}[h!tbp]
@@ -669,6 +669,7 @@ We collected responses from 282 teachers from Spain and Spanish Speaking countri
 % \label{figure:age.vs.exp}
 % \end{figure}
 
+Well try to find the answers to the four research questions next, by analyzing the response to the different survey questions.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -679,9 +680,11 @@ We collected responses from 282 teachers from Spain and Spanish Speaking countri
 
 
 %Why messaging apps are relevant here --> connect to the development of chatbots
-Group messaging apps have become a powerful tool for keeping touch with students. Also, they are the baseline platform for the development of chatbots to help with the learning process. 
+Group messaging apps have become a powerful tool for keeping touch with students. Also, they are the baseline platform for the development of chatbots to help with the learning process. After an initial analysis to the answers to the first survey, we realized that there were some prior issues mainly related to the adoption of a technology, chatbots, that generally piggybacks on another, messaging applications. In a technology adoption model, perceived ease of use and perceived usefulness are essential. But it is going to be very difficult for teachers to find {\em chatbots} easy to use if they, previously, do not consider, or simply use, the messaging tools to which they are attached.
 
-For answering RQ1, teachers were queried about whether they use messaging apps in their classes, specifically, Telegram, WhatsApp, Slack, or any other messaging app, and whether they use messaging apps provided by their academic institution (see Table \ref{tab:use_messapps}). Overall, the majority of the teachers responded that they do use messaging apps in their classrooms, from which apps provided by the academic institution (n=159, 56\%) and WhatsApp (n=124, 44.0\%) were the most common responses. Only 19 teachers (6.7\%) replied that they do not use any messaging app in their class.
+This is why for answering RQ1, teachers were queried about whether they use messaging apps in their classes, specifically, Telegram, WhatsApp, Slack (an application used mainly in IT departments and software development), or any other messaging app, and whether they use messaging apps provided by their academic institution (see Table \ref{tab:use_messapps}). In this case, it is maybe in order a certain clarification. While we had in mind, as indicated by the possible answers, instant messaging applications when making this question, we included these institution-provided applications mainly for completitude. But it should be noted that, in most cases, they are not {\em instant} messaging apps in the way Telegram or Facebook Messenger are; in most cases they are messaging facilities provided by learning management systems such as (usually) Moodle. So the answer to this question must be understood in two different ways: their preference for the {\em source} of the technology (university, any company) as well as the {\em type} of technology (instant, app based messaging systems vs. web-based systems integrated in another learning management system).
+
+Overall, the majority of the teachers responded that they do use messaging apps in their classrooms, from which apps provided by the academic institution (n=159, 56\%) and WhatsApp (n=124, 44.0\%) were the most common responses. Only 19 teachers (6.7\%) replied that they do not use any messaging app in their class. %Remember to add something to the discussion below - JJ
 %
 \begin{table}[h!tbp]
 \begin{tabular}{lllll}
@@ -703,8 +706,8 @@ None & 19 & 6.7 & 263 & 93.3 \\ \hline
 % Fran: I think figures with data about the use of messaging apps should come here. Then, we say we also asked about changes after covid and include data about that
 Results in Fig. \ref{figure:chatbots_use} do not show significant differences in the use of instant messaging apps between teachers from University and vocational education. In general, most teachers prefer messaging apps provided by their own institutions. With respect to specific disciplines, Engineering and Technology teachers are more active in their use, although it is also relevant the amount of teachers from Humanities that answered they used these apps in their classes (around 60\% use the apps provided by their institutions). 
 
-Although no significant differences were found regarding gender, female teachers answered they use instant messaging apps more than male teachers (about 10\% more). Also, teachers in vocational Education use Whatsapp more than university teachers.
-Regarding the distribution of the use of messaging apps per age, there are no significant differences for Whatsapp and apps provided by their own academic institutions. % Olia requests support for this.
+Although no significant differences were found regarding gender, female teachers answered they use instant messaging apps more than male teachers (about 10\% more). Also, teachers in vocational Education use WhatsApp more than university teachers.
+Regarding the distribution of the use of messaging apps per age, there are no significant differences for WhatsApp and apps provided by their own academic institutions. % Olia requests support for this.
 However, younger teachers also use Telegram with more than 25\%, a percentage that falls to about 10\% for teachers that are 55 or older. %The third column compares the use of these apps considering the number of years of experience. 
 One interesting result is that, contrary to the idea of technology adaptation issues when considering older teachers, about 65\% of teachers with more than 25 years of experience use the platforms provided by their institutions while the percentage goes down to less than 50\% for teachers with 6-15 years of experience.
 %
@@ -823,7 +826,8 @@ ggplot(survey.pilot.Discipline, aes(x = MessagingPlatformTelegram, group = Disci
 %
 
 % This is about changes (due to) after covid
-Some of the questions in the survey were focused on the impact of the COVID19 pandemic between 2020 and 2021, in the teachers' viewpoints towards the use of instant messaging apps int their class. The 282 
+Some of the questions in the survey were focused on the impact of the COVID19 pandemic between 2020 and 2021, in the teachers' viewpoints towards the use of instant messaging apps int their class. Our main intention in this case was to assess whether a crisis will bring about some kind of change in the use of tools.
+The 282 
 % Fran, please check Olia's comment as having 282 answers 
 % -> I did remove some responses that Olia considered 'No' by default (i guess). I' ll keep it to 282 to be consistent
 answers are summarized in Fig. \ref{figure:chatbots_use_postcovid}, showing that about 77\% of teachers already used these tools before the pandemic and kept using them during the pandemic lockdowns that forced students and educators to use remote education schemes. Moreover, approximately 15\% of them switched their messaging app for one that offered a safer interaction with their students. According to the responses, an additional 16\% started using messaging apps during the pandemic for the first time in their classes. Aggregating the answers, currently 91\% of the teachers are using messaging apps as learning tools. 
@@ -998,7 +1002,7 @@ corrplot(chisq$residuals, is.corr = FALSE)
 \label{figure:gender*postcovid_chisq}
 \end{figure}
 
-As mentioned, the graphs on the left represent the Pearson's residuals, showing the difference between the observed and the expected values for each cell. Thus, large residuals indicate that variables are not truly independent. In our case, the blue shows positive contributions and red negative contributions to the test. Moreover, the saturation shows how large the contribution is in contrast to the expected value by chance. Additionally, tables on the right side show adjusted standardized residuals that according to \cite{agresti2013categorical}, if greater than +/-2 for cases with few cells, indicate lack of fit of $H_0$ (in boldface in our table). Complementary, the table also shows the percentage of contribution to the test of each cell (highest percentage per column also in boldface).
+As mentioned, the graphs on the left hand side represent the Pearson's residuals, showing the difference between the observed and the expected values for each cell. Thus, large residuals indicate that variables are not truly independent. In our case, the blue shows positive contributions and red negative contributions to the test. Moreover, the saturation shows how large the contribution is in contrast to the expected value by chance. Additionally, tables on the right side show adjusted standardized residuals that according to \cite{agresti2013categorical}, if greater than +/-2 for cases with few cells, indicate lack of fit of $H_0$ (in boldface in our table). Complementary, the table also shows the percentage of contribution to the test of each cell (highest percentage per column also in boldface).
 
 Regarding gender in Fig. \ref{figure:gender*postcovid_chisq}, the results show a high positive contribution from female educators that did not use a messaging app before the COVID-19 pandemic but do use it now; approximately 31\% of the test results are explained by this cell. In contrast, male educators that respond the same were less than expected (negative contribution that explains 17\% of the test results). Also, it is important to highlight the female educators that kept using these apps before and after the pandemic and correspondingly the negative contribution of male educators to the same case (less than expected by chance).
 
