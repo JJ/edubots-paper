@@ -86,7 +86,7 @@ chisq.test(App.vs.Discipline)$p.value
 
 data %>% group_by( PostCOVID.changes ) %>% filter( n() > 1 ) -> data.postCOVID
 data.postCOVID <- within(data.postCOVID, PostCOVID.changes <- factor(PostCOVID.changes, levels=names(sort(table(PostCOVID.changes), decreasing=TRUE))))
-ggplot(data.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+ggplot(data.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90, size = rel(10))) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 #ggsave('../figures/sector_covid.pdf', width = 190, height = 50, units = "mm")
 ggplot(data.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Gender, fill = Gender ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 #ggsave('../figures/gender_covid.pdf', width = 190, height = 50, units = "mm")
