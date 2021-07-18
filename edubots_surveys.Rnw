@@ -1329,7 +1329,11 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Disci
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged $>$~55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). The teachers were asked about what kind of interaction media features they value the most; the frequencies and percentages of their responses are given in Table \ref{tab:interaction}. 
+This question is mainly answered in the second survey, which, as indicated previously, was designed after initial analysis of the first. The kind of interaction is essential to design proper chatbots, or to deploy a technology instead of others; it is related to the perceived usefulness in a technology acceptance model. Essentially, if some new chatbot application does not have what teachers perceive as useful for their purposes, they are unlikely to adopt it. So knowing these opinions is quite important, and is the reason why we included it in the second survey.
+
+A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged $>$~55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). This age distribution is not different from the usual in the Spanish university, which has lately aged due to several reasons, so the answers we obtain can, in principle, be extrapolated to the population at large, at least in this sense.
+
+The teachers were asked about what kind of features of the messaging system they value the most; the frequencies and percentages of their responses are given in Table \ref{tab:interaction}. 
 
 \begin{table}[h!]
 \begin{tabular}{lcccc}
@@ -1354,7 +1358,7 @@ Other & 5 & 2.4 & 200 & 97.6 \\
 \hline
 \end{tabular}
 \vspace{0.8em}
-\caption{Interaction media features valued by teachers}
+\caption{Messaging platform features valued by teachers}
 \label{tab:interaction}
 \end{table}
 
@@ -1364,11 +1368,11 @@ A chi-square test of independence was performed to examine the potential relatio
 \centering
 \resizebox{\textwidth}{!}{\begin{tabular}{lllllllll}
 \hline
- & Connectivity & Familiarity  & Horizontallity & \begin{tabular}[c]{@{}l@{}}Official\\  formation\end{tabular} & Pluggability & Sustainability & Unidirectionality & Officiality \\ \hline
+ & Connectivity & Familiarity  & Horizontality & \begin{tabular}[c]{@{}l@{}}Official\\  formation\end{tabular} & Pluggability & Sustainability & Unidirectionality & Officiality \\ \hline
 Analytics &  $12.172^{***}$ & $4.855^{*}$ & ns & $4.144^{*}$ &  $12.490^{***}$ & $4.314^{*}$ & ns & ns \\
 Connectivity & - & ns & $5.971^{***}$ & ns & $16.286^{***}$ & ns & ns & ns \\
 Hidden phone &  &  & ns & $5.678^{*}$ & $4.683^{*}$ & ns & $4.515^{*}$ & ns \\
-Horizontallity &  &  - & ns & ns & ns & ns & ns & $5.453^{*}$ \\
+Horizontality &  &  - & ns & ns & ns & ns & ns & $5.453^{*}$ \\
 \begin{tabular}[c]{@{}l@{}}Official\\  formation\end{tabular} &  & &  & - & $8.163^{**}$ & ns & ns & ns  \\
 \end{tabular}}
 \vspace{0.8em}
@@ -1376,7 +1380,7 @@ Horizontallity &  &  - & ns & ns & ns & ns & ns & $5.453^{*}$ \\
 \label{tab:interactionfeatures}
 \end{table}
 
-Finally, a two-step cluster analysis was conducted, with a log-likelihood distance measure adopted, to explore how the cases could be grouped based on their preferences of specific interaction media features, and which features have larger predictor importance for the clustering (see Fig. \ref{figure:predictor}). Two clusters occurred from the analysis: cluster 1 (n=78, 60.9\%) was comprise of instructors who did not value interaction media pluggability, connectivity, official formation, but valued interaction media analytics, familiarity, support by the institution, while cluster 2 (n=50, 39.1\%) was comprise of instructors from which the majority did not value media analytics, official formation, familiarity, but valued pluggability, connectivity, and support by the institution. Interaction media pluggability appears to have the most important predictor importance in the clustering of cases (predictor importance = 1.0), whilst media unidirectionality was the least important factor (predictor importance = 0.04). The cluster quality is fair, but not a good one (silhouette measure of cohesion and separation). 
+Finally, a two-step cluster analysis was conducted, with a log-likelihood distance measure adopted, to explore how the cases could be grouped based on their preferences of specific interaction media features, and which features have larger predictor importance for the clustering (see Fig. \ref{figure:predictor}). Two clusters occurred from the analysis: cluster 1 (n=78, 60.9\%) was comprised of instructors who did not value interaction media pluggability, connectivity, official formation, but valued interaction media analytics, familiarity, support by the institution, while cluster 2 (n=50, 39.1\%) was comprised of instructors from which the majority did not value media analytics, official formation, familiarity, but valued pluggability, connectivity, and support by the institution. Interaction media pluggability appears to have the most important predictor importance in the clustering of cases (predictor importance = 1.0), whilst media unidirectionality was the least important factor (predictor importance = 0.04). The cluster quality is fair, but not a good one (silhouette measure of cohesion and separation). 
 
 \begin{figure}[h!tbp]
 \begin{center}
