@@ -1475,17 +1475,14 @@ All the authors have contributed to the study presented in this manuscript.
 
 JJM has been the leader, drafted the first versions of the survey and supervised the writing of the manuscript.
 
-PAC has...
-AMM has ...
-FB has...
-NA has...
-OT has...
-AG has...
+PAC has revised the paper and researched the state of the art, as well as contributed to the survey design.
+AMM has revised the paper and researched the state of the art, as well as contributed to the survey design.
+FB has made the analysis and processed data and contributed to the survey design.
+NA has supervised the state of the art, and written the bulk of it, as well as contributed to discussion and conclusions.
+OT has performed data analysis, and contributed to discussion and conclusions.
+AG has contributed to the design of the survey, analysis, discussion and conclusions.
 
 All authors have read and approved the final manuscript.
-
-% Antonio - here we can explain what we have done author briefly.
-
 
 \subsection{Acknowledgements}
 
