@@ -1443,10 +1443,6 @@ Moreover, this study clarifies the differences between the teachers’ perspecti
 % Emotinal, mood for future work... Chatbots perform sentiment analysis
 
 
-%This section is repeated
-%\section*{Acknowledgements}
-
-
 \bibliographystyle{apalike}
 \bibliography{edubots}
 
@@ -1460,18 +1456,16 @@ Moreover, this study clarifies the differences between the teachers’ perspecti
 
 \subsection{Availability of data and materials}
 
-The datasets generated and analysed during the current study are available in the [NAME] repository, accesible from [PERSISTENT WEB LINK TO DATASETS]
+The datasets generated and analysed during the current study are available in Github, from \url{https://github.com/JJ/edubots-paper/tree/main/data}.
 
 
 \subsection{Competing interests}
 
 The authors declare that they have no competing interests.
 
-
 \subsection{Funding}
 
 This work has been supported by EDUBOTS project, funded under the scheme Erasmus + KA2: Cooperation for innovation and the exchange of good practices - Knowledge Alliances (grant agreement no: 612446).
-
 
 \subsection{Authors' contributions}
 
@@ -1491,7 +1485,6 @@ All authors have read and approved the final manuscript.
 \subsection{Acknowledgements}
 
 The authors want to thank to the educators who participated in the survey, and also people who have distributed the survey in their mailing lists, especially Mario García Valdez, Jesús Moreno León and José Raúl Canay.
-% Antonio - Add other acknowledgements
 
 \end{backmatter}
 
