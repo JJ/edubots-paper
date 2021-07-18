@@ -1424,6 +1424,9 @@ From a qualitative point of view, these results show consensus in a few key aspe
 
 % Rq4: they seem to prefer interaction with students - Olia 
 % Alberto: using new metric so grade students, and also abotu horizontality
+% 
+
+The clustering analysis in RQ4 seems to reflect the possible overrepresentation of teachers in the techonology discipline, which were the majority of tertiary non universitary teachers, and a good amount of the university teachers. In general, these teachers feel they are able to use analytics tools, or create and connect homebrew tools to messaging applications, which is why they value those features in them; however, most people value the fact that they are easy to use (perceived ease of use) and the fact that they are official, and thus sustainable through different courses. 
 
 % ********************** CONCLUSIONS ****************************
 
