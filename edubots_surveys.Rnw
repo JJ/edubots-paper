@@ -843,7 +843,7 @@ survey.pilot.postCOVID <- within(survey.pilot.postCOVID, PostCOVID.changes <- fa
 ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Gender, fill = Gender ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90), size=7) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/gender_covid.pdf}
-        \vspace{-1cm}
+        \vspace{-0.5cm}
         \caption{Total count of responses for the use of messaging apps after the COVID-19 pandemic grouped by gender (PNTS stands for Prefer Not To Say).}
         \label{figure:gender*chatbots_use_postcovid}
     \end{minipage}
@@ -853,7 +853,7 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
 ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/sector_covid.pdf}
-        \vspace{-1cm}
+        \vspace{-0.5cm}
         \caption{Total count of responses for the use of messaging apps after the COVID-19 pandemic grouped by sector.}
         \label{figure:sector*chatbots_use_postcovid}
     \end{minipage}
@@ -863,7 +863,7 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
 ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Experience, fill = Experience ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @       
 %       \includegraphics[width=\textwidth]{figures/experience_covid.pdf}
-        \vspace{-1cm}
+        \vspace{-0.5cm}
         \caption{Total count of responses for the use of messaging apps after the COVID-19 pandemic grouped by years of experience in teaching.}
         \label{figure:years*chatbots_use_postcovid}
     \end{minipage}
@@ -877,7 +877,7 @@ survey.pilot.postCOVID[as.character(survey.pilot.postCOVID$Discipline)!="No", ] 
 ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Discipline, fill = Discipline ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/sector_covid.pdf}
-        \vspace{-1cm}
+        \vspace{-0.5cm}
         \caption{Total count of responses for the use of messaging apps after the COVID-19 pandemic grouped by discipline.}
         \label{figure:disc*chatbots_use_postcovid}
     \end{minipage}
@@ -1177,7 +1177,7 @@ survey.pilot.ChatbotType[as.character(survey.pilot.ChatbotType$ChatbotType)!="Ot
 ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Gender, fill = Gender ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/gender_chatbottype.pdf}
-        \vspace{-1cm}
+        \vspace{-0.5cm}
         \caption{Count of types of chatbots for class perceived as the most useful for teachers grouped by gender (PNTS stands for Prefer Not To Say).}
         \label{figure:gender*chatbots_types}
     \end{minipage}
@@ -1187,7 +1187,7 @@ ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Gend
 ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @       
 %       \includegraphics[width=\textwidth]{figures/sector_chatbottype.pdf}
-        \vspace{-1cm}
+        \vspace{-0.5cm}
         \caption{Count of types of chatbots for class perceived as the most useful for teachers grouped by sector.}
         \label{figure:sector*chatbots_types}
     \end{minipage}
@@ -1197,7 +1197,7 @@ ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Sect
 ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Experience, fill = Experience ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @       
 %       \includegraphics[width=\textwidth]{figures/experience_chatbottype.pdf}
-        \vspace{-1cm}
+        \vspace{-0.5cm}
         \caption{Count of types of chatbots for class perceived as the most useful for teachers grouped by experience.}
         \label{figure:experience*chatbots_types}
     \end{minipage}
@@ -1211,7 +1211,7 @@ survey.pilot.ChatbotType[as.character(survey.pilot.ChatbotType$Discipline)!="No"
 ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Discipline, fill = Discipline ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @       
 %       \includegraphics[width=\textwidth]{figures/experience_chatbottype.pdf}
-        \vspace{-1cm}
+        \vspace{-0.5cm}
         \caption{Count of types of chatbots for class perceived as the most useful for teachers grouped by discipline.}
         \label{figure:disc*chatbots_types}
     \end{minipage}
