@@ -310,7 +310,7 @@ Given the potential benefits that chatbots could bring to the classroom, the foc
 \item The results of the first phase were fed into the second phase of the study, which focused on teachers’ opinions about using chatbots and messaging applications in classes. This is what is going to be presented in this paper.
 \end{itemize}
 
-Initially, a single survey was developed for this purpose. Responses from 300 teachers were collected and analysed. An initial analysis led to the creation of a second survey, which collected responses from 200 different higher education teachers. The questions on this survey focus on discussing the implications and the impact of the development of future technology-enhanced tools and educational institutions’ policies by finding answers to the following research questions:
+Initially, a single survey was developed for this purpose. Responses from 300 teachers were collected and analysed. This initial analysis led to the creation of a second survey, which collected responses from 200 different higher education teachers. The questions on this survey focus on discussing the implications and the impact of the development of future technology-enhanced tools and educational institutions’ policies by finding answers to the following research questions:
 
 \begin{itemize}
 \item RQ1 - Are teachers already using messaging apps in their classes? 
@@ -330,7 +330,7 @@ The remainder of the paper is organized as follows: Next is an overview of what 
 \label{sec:soa}
 
 % The Use of Mobile Instant Messaging (MIM) Platforms in Higher Education
-The widespread and rapid adoption of free Mobile Instant messaging
+The widespread and rapid adoption of free Mobile Instant Messaging
 (MIM) tools/platforms such as WhatsApp, Telegram, WeChat and Facebook
 Messenger stems from their simplicity, ease of use and multi-modality
 (i.e. video, audio, text) \cite{tang2017mobile}. Using these tools in
@@ -346,7 +346,7 @@ use of WhatsApp in higher education could enhance social presence
 \cite{tang2017mobile} and foster trust relationships between educators
 and students embedded in the social learning process
 \cite{gachago2015crossing}; however, this last paper also reflects the need for
-learners to "take ownership of the tool" and the advantages of social learning
+learners to ``take ownership of the tool'' and the advantages of social learning
 in general. At the same time, it also mentions different challenges, among which
 the most important is the blurring of social and academic life. Examining these
 opinions will be the objective of RQ3 in this paper.
@@ -388,10 +388,9 @@ Several higher education chatbots' evaluation studies have been
 undertaken. For instance, a recent evaluation review study presented by Smutny and Schreiberova 
 \cite{Smutny2020} examined 47 educational chatbots implemented in
 Facebook Messenger with the focus to identify characteristics and
-quality metrics such as language, subject matter and platform. Another
-study aimed to categorise educational chatbots according to their
-purpose into service-oriented and teaching-oriented
-\cite{perez2020rediscovering}. The first category includes those that
+quality metrics such as language, subject matter and platform. 
+Whereas study \cite{perez2020rediscovering} aimed to categorise educational chatbots according to their
+purpose into service-oriented and teaching-oriented. The first category includes those that
 provide service support such as the chatbot Ask Holly \cite{meetholly}
 and Dina \cite{santoso2018dinus}; both chatbots respond to students'
 questions about enrollment and registration. Ask L. U.
@@ -416,13 +415,13 @@ accurate answers than the ones provided by ELVIRA, which had to be updated by ha
 On the other hand, teaching-oriented chatbots are more sophisticated,
 as they set personalised learning outcomes and monitor learning
 progress. For instance, \cite{fernoagua2018intelligent} reported on
-''eduAssistant'', a virtual teaching assistant chatbot developed on the
+``eduAssistant'', a virtual teaching assistant chatbot developed on the
 Telegram messaging platform. In this study, Telegram platform was
 chosen because it is easy to use, students are familiar with its
 features, and it enables them to exchange messages in different
 formats (text, audio and video) \cite{fernoagua2018intelligent}. In
 addition, Telegram could operate on all devices and operating
-systems. The ''eduAssistant'' chatbot acts as an automatic agent
+systems. The ``eduAssistant'' chatbot acts as an automatic agent
 in teacher-content-student, facilitating real-time feedback
 loops and providing a personalised learning experience relevant to the
 students' acquired skills and knowledge. Using this chatbot, educators can
@@ -477,11 +476,17 @@ We will present next the methodology we have followed to find out teachers' opin
 \section{Methodology}
 \label{sec:meth}
 
-Our intention from the beginning was to try and gather a sufficient amount of responses in all sectors, as well as cover different sectors of higher education. In doing so, an online survey was administered (i.e., Google Form), in Spanish, which was intended to be answered in a very short amount of time. Initially, our intention was to mirror the questions used in \cite{MoraChatbots2021}; however, an initial exploration of results led us to create a second survey. The survey items focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers consider useful to be used in their teaching, and the type of interactions that teachers prefer to have with their students while using messaging apps in their teaching. 
+Our intention from the beginning was to try to gather a sufficient amount of responses in all sectors, as well as cover different sectors of higher education. In doing so, an online survey was administered (i.e., Google Form), in Spanish, which was intended to be answered in a very short amount of time. Initially, our intention was to mirror the questions used in \cite{MoraChatbots2021}; 
+% Antonio - I would say something like: "but from teachers' perspective"
+however, an initial exploration of results led us to create a second survey. The survey items focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers consider useful to be used in their teaching, and the type of interactions that teachers prefer to have with their students while using messaging apps in their teaching. 
 
-The {\bf initial survey} was done in two separate Google forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and Mexico. The tertiary non-university teachers are mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching. A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at high school (31.6\%).
+The {\bf initial survey} was done in two separate Google forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and Mexico. The tertiary non-university teachers were mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching. 
 
-All surveys had the same common, initial questions for segmentation:\begin{itemize}
+A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at high school (31.6\%).
+
+All surveys
+% Antonio - I would say "The two surveys"
+had the same common, initial questions for segmentation:\begin{itemize}
 \item Degrees or titles where the teacher was working, either university or other tertiary education.
 \item Discipline: Engineering, Social Sciences, Health and Bio, Sciences, Humanities, Other.
 \item Gender: Man, Woman, Rather not say.
@@ -491,7 +496,9 @@ All surveys had the same common, initial questions for segmentation:\begin{itemi
 \end{itemize}
 
 % Including questions in surveys
-The {\bf first survey}, which focused about the use of messaging apps in class, and which tried to address mainly RQ2 and R23, includes the following questions:
+The {\bf first survey}, which focused about the use of messaging apps in class, and which tried to address mainly RQ2 and RQ3, 
+% Antonio - I guess it refers to RQ3. ;)
+includes the following questions:
 
 \textit{1. Regarding the use of messaging apps in class, you prefer ...}
 \begin{itemize}
@@ -560,6 +567,8 @@ The specific questions included in this second survey are listed below:
 \item That let me avoid to worry about maintenance and that it is easily sustainable from one year to the next
 \item That allow to extract data to assess the student performance
 \end{itemize}
+
+% Antonio - I would suggest to include a kind of reference name to each one of these variables. I mean, we could add at the end of their description something like "[Analytics], [Connectivity], [Officiality], etc", maybe in courier font to be remarked; i.e. the names used on Table 8. Thus it will be easy to recognise every variable, and then, we could refer to them in Table 8 (and Table 9).
 
 Responses were stored automatically in a Google Drive spreadsheet. Eventually, the results from the two forms we used for the first survey were collated in a single spreadsheet. Next we will show the results and analyze them.
 
@@ -1274,7 +1283,7 @@ The answer, then, to this research question, is that, in general, teachers do {\
 
 Regarding the social factor of chat groups that teachers use in class, according to Fig. \ref{figure:chatbots_messagingorganization} the vast majority prefer small groups only with the students from the same course. These are more focused groups with specific goals and dedicated to the organization of the course and its tasks, and from the pedagogic point of view seem more appropriate to improve the learning process. Interestingly, and as a cross-check of the answers above, about 30\% of teachers consider they should not be part of the chat group.
 This might seem to contradict the results of the other survey, but in fact, being a result of different surveys, to a certain point affirms the same thing: there is a great amount of teachers that would be against being in a chat group with students. Whether that's a slim majority or not, that's open to debate (and would probably need a more pointed survey focused on this), but what is clear is that forcing teachers to create chat groups with students and participate in them would create a certain amount of resistance.
-Also, only university teachers find interesting a group with all the students and teachers in their own Faculty or School. The lack of teachers from vocational education here may be the consequence of using specific language such as "Faculty". Moreover, the fact that many universities and schools already use these groups for administrative and social interaction (e.g. \cite{dibitonto2018chatbot}) might be the reason for the low percentage of teachers that selected this response.
+Also, only university teachers find interesting a group with all the students and teachers in their own Faculty or School. The lack of teachers from vocational education here may be the consequence of using specific language such as ``Faculty''. Moreover, the fact that many universities and schools already use these groups for administrative and social interaction (e.g. \cite{dibitonto2018chatbot}) might be the reason for the low percentage of teachers that selected this response.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -1394,7 +1403,7 @@ Finally, a two-step cluster analysis was conducted, with a log-likelihood distan
 % Olia: it's not so easy to change habits, even in the case of major crisis. - JJ
 % Relationship between changes, gender and discipline (Olia) - JJ
 % 
-Our initial intention in the design of these surveys was to probe the opinions of tertiary education teachers in the introduction of chatbot technologies in class. We wanted to find the answer to four research questions, of which the first was to check whether teachers already used some kind of messaging application, and the one they preferred. Depending on the answer, different technologies could be (or not) available for the introduction of chatbots. In this case, the design of the survey introduced some ambiguity on what we really consider "messaging technology", that was eventually resolved by the answers; apparently, anything that sends messages (even if they are not instant, even if they do not have a dedicated application) was the concept in the mind of the surveyed.
+Our initial intention in the design of these surveys was to probe the opinions of tertiary education teachers in the introduction of chatbot technologies in class. We wanted to find the answer to four research questions, of which the first was to check whether teachers already used some kind of messaging application, and the one they preferred. Depending on the answer, different technologies could be (or not) available for the introduction of chatbots. In this case, the design of the survey introduced some ambiguity on what we really consider ``messaging technology'', that was eventually resolved by the answers; apparently, anything that sends messages (even if they are not instant, even if they do not have a dedicated application) was the concept in the mind of the surveyed.
 
 Additionally, the question on COVID reflected the big challenge that represents changing habits, even in the case of a major crisis. Very few people actually changed, with women vs. men being an exception, as well as those teaching social sciences standing out among the rest. We do not have any kind of explanation for this behavior, other than technologies are perceived, and adopted, in a different way depending on background and, apparently, gender. 
 
