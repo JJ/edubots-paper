@@ -544,31 +544,32 @@ Specifically, this survey asked the teachers, in addition to general information
 
 The specific questions included in this second survey are listed below:
 
+% Antonio - I have included a reference name to each one of these variables, which are the names used on Tables 8 and 9. Thus it will be easy to recognise every variable, and then, we could refer to them in those tables.
+
 \textit{1. You prefer the interaction with your students to be ...}
 \begin{itemize}
-\item Synchronous: students and teacher/s in the same space, simultaneously.
-\item Asynchronous: the student asks at anytime, the teacher responds whenever possible.
+\item Synchronous: students and teacher/s in the same space, simultaneously. [\texttt{Synchrony - Yes}]
+\item Asynchronous: the student asks at anytime, the teacher responds whenever possible. [\texttt{Synchrony - No}]
 \end{itemize}
 
 \textit{2. Regarding the interaction with your students, you ...}
 \begin{itemize}
-\item Prefer it to be done by institutional means/tools: office hours, forum/messages via the virtual campus, institutional email
-\item Admit the use of other means/toosl: blogs, chat groups in messaging platforms, any others.
+\item Prefer it to be done by institutional means/tools: office hours, forum/messages via the virtual campus, institutional email. [\texttt{Officiality - Yes}]
+\item Admit the use of other means/toosl: blogs, chat groups in messaging platforms, any others. [\texttt{Officiality - No}]
 \end{itemize}
 
 \textit{3. Which media features do you value the most for your interaction with your students?}
 \begin{itemize}
-\item Familiarity with its use i.e. that I do not need to learn a new tool
-\item The official formation/training provided by your institution on its use
-\item That only one-directional communication is allowed (from teachers to students)
-\item Non-hierarchical tools that allowed teacher-to-student and student-to-student communication 
-\item That allow additional functionalities such as interfaces to other tools
-\item That allow teachers to develop/add their own functionalities (e.g. automatic correction tools)
-\item That let me avoid to worry about maintenance and that it is easily sustainable from one year to the next
-\item That allow to extract data to assess the student performance
+\item Familiarity with its use i.e. that I do not need to learn a new tool. [\texttt{Familiarity}]
+\item The official formation/training provided by your institution on its use. [\texttt{Official formation}]
+\item That only one-directional communication is allowed (from teachers to students). [\texttt{Unidirectionality}]
+\item Non-hierarchical tools that allowed teacher-to-student and student-to-student communication. [\texttt{Horizontally}]
+\item That allow additional functionalities such as interfaces to other tools. [\texttt{Connectivity}]
+\item That allow teachers to develop/add their own functionalities (e.g. automatic correction tools). [\texttt{Pluggability}]
+\item That let me avoid to worry about maintenance and that it is easily sustainable from one year to the next. [\texttt{Sustainability}]
+\item That allow to extract data to assess the student performance. [\texttt{Analytics}]
+% Antonio - Is it missing one feature concerning Hidden Phone Numer???
 \end{itemize}
-
-% Antonio - I would suggest to include a kind of reference name to each one of these variables. I mean, we could add at the end of their description something like "[Analytics], [Connectivity], [Officiality], etc", maybe in courier font to be remarked; i.e. the names used on Table 8. Thus it will be easy to recognise every variable, and then, we could refer to them in Table 8 (and Table 9).
 
 Responses were stored automatically in a Google Drive spreadsheet. Eventually, the results from the two forms we used for the first survey were collated in a single spreadsheet. Next we will show the results and analyze them.
 
@@ -1363,7 +1364,7 @@ Other & 5 & 2.4 & 200 & 97.6 \\
 \hline
 \end{tabular}
 \vspace{0.8em}
-\caption{Interaction media features valued by teachers}
+\caption{Interaction media features valued by teachers. Details about each feature can be read in Section \ref{sec:meth}.}
 \label{tab:interaction}
 \end{table}
 
@@ -1381,7 +1382,7 @@ Horizontallity &  &  - & ns & ns & ns & ns & ns & $5.453^{*}$ \\
 \begin{tabular}[c]{@{}l@{}}Official\\  formation\end{tabular} &  & &  & - & $8.163^{**}$ & ns & ns & ns  \\
 \end{tabular}}
 \vspace{0.8em}
-\caption{Interaction media features analysis ($^{***}p<0.001$, $^{**}p<0.01$, $^{*}p<0.05$). Columns and rows with no significant interaction have been suppressed for clarity. Every cell value represents $X^{2}_{(1, N = 205)}$.}
+\caption{Interaction media features analysis ($^{***}p<0.001$, $^{**}p<0.01$, $^{*}p<0.05$). Columns and rows with no significant interaction have been suppressed for clarity. Every cell value represents $X^{2}_{(1, N = 205)}$. Details about each feature can be read in Section \ref{sec:meth}.}
 \label{tab:interactionfeatures}
 \end{table}
 
