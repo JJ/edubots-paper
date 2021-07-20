@@ -310,7 +310,7 @@ Given the potential benefits that chatbots could bring to the classroom, the foc
 \item The results of the first phase were fed into the second phase of the study, which focused on teachers’ opinions about using chatbots and messaging applications in classes. This is what is going to be presented in this paper.
 \end{itemize}
 
-Initially, a single survey was developed for this purpose. Responses from 300 teachers were collected and analysed. This initial analysis led to the creation of a second survey, which collected responses from 200 different higher education teachers. The questions on this survey focus on discussing the implications and the impact of the development of future technology-enhanced tools and educational institutions’ policies by finding answers to the following research questions:
+Initially, a single survey was developed for this purpose. Responses from 300 teachers were collected and analysed. An initial analysis of these responses led to the creation of a second survey, which collected responses from 200 different higher education teachers. The questions on this survey focus on discussing the implications and the impact of the development of future technology-enhanced tools and educational institutions’ policies by finding answers to the following research questions:
 
 \begin{itemize}
 \item RQ1 - Are teachers already using messaging apps in their classes? 
@@ -480,13 +480,11 @@ Our intention from the beginning was to try to gather a sufficient amount of res
 % Antonio - I would say something like: "but from teachers' perspective"
 however, an initial exploration of results led us to create a second survey. The survey items focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers consider useful to be used in their teaching, and the type of interactions that teachers prefer to have with their students while using messaging apps in their teaching. 
 
-The {\bf initial survey} was done in two separate Google forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and Mexico. The tertiary non-university teachers were mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching. 
+The {\bf initial survey} was done in two separate Google forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and Mexico. The tertiary non-university teachers are based mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching. 
 
-A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at high school (31.6\%).
+A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at other tertiary education institutions (31.6\%).
 
-All surveys
-% Antonio - I would say "The two surveys"
-had the same common, initial questions for segmentation:\begin{itemize}
+The surveys have the same common, initial questions for segmentation:\begin{itemize}
 \item Degrees or titles where the teacher was working, either university or other tertiary education.
 \item Discipline: Engineering, Social Sciences, Health and Bio, Sciences, Humanities, Other.
 \item Gender: Man, Woman, Rather not say.
@@ -564,12 +562,11 @@ The specific questions included in this second survey are listed below:
 \item The official formation/training provided by your institution on its use. [\texttt{Official formation}]
 \item That only one-directional communication is allowed (from teachers to students). [\texttt{Unidirectionality}]
 \item Non-hierarchical tools that allowed teacher-to-student and student-to-student communication. [\texttt{Horizontally}]
-\item That allow additional functionalities such as interfaces to other tools. [\texttt{Connectivity}]
-\item That allow teachers to develop/add their own functionalities (e.g. automatic correction tools). [\texttt{Pluggability}]
-\item That allow users to hide personal data (such as my telephone number). [\texttt{Hidden Phone Number}]
-\item That let me avoid to worry about maintenance and that it is easily sustainable from one year to the next. [\texttt{Sustainability}]
-\item That allow to extract data to assess the student performance. [\texttt{Analytics}]
-% Antonio - Is it missing one feature concerning Hidden Phone Numer???
+\item Connectivity to other tools, for instance common login. [\texttt{Connectivity}]
+\item Possibility for teachers to develop/add their own functionalities (e.g. automatic correction tools). [\texttt{Pluggability}]
+\item Possibility for users to hide personal data (such as my telephone number). [\texttt{Hidden Phone Number}]
+\item Not having to worry about maintenance and that it is easily sustainable from one year to the next. [\texttt{Sustainability}]
+\item That it offers the chance to extract data to assess the student performance. [\texttt{Analytics}]
 \end{itemize}
 
 Responses were stored automatically in a Google Drive spreadsheet. Eventually, the results from the two forms we used for the first survey were collated in a single spreadsheet. Next we will show the results and analyze them.
@@ -1414,7 +1411,7 @@ Additionally, the question on COVID reflected the big challenge that represents 
 
 % Noorhan comments negative experience with customer service chatbots, in which case people will not see the value of using it in their classes. They are not aware of something like that. Teaching chatbots are difficult to develop. Using very simple chatbots, or simply conversational interfaces, could help introduce this technology - JJ
 
-Regarding Gender grouping, both gender agree in their uses, so it seems not relevant at all. When looking at the plot containing the sector differentiation it is interesting ot observe how university teachers prefer in a higher proportion to use them for grades and FAQs in comparison with Vocational/High School teachers. This seems reasonable as the frequency of seeing the students is smaller at the University so, automating the grade notification for continuous evaluation could seem much more comfortable using an automated tool than using the traditional platform. Furthermore, the high student/teacher ratios that university docents have to deal with could be another reason to have a higher number of them willing to use chatbots for FAQs. This could ameliorate the number of misunderstandings and email overload that so many students might generate.
+Regarding Gender grouping, both gender agree in their uses, so it seems not relevant at all. When looking at the plot containing the sector differentiation it is interesting ot observe how university teachers prefer in a higher proportion to use them for grades and FAQs in comparison with Vocational High School teachers. This seems reasonable as the frequency of seeing the students is smaller at the University so, automating the grade notification for continuous evaluation could seem much more comfortable using an automated tool than using the traditional platform. Furthermore, the high student/teacher ratios that university docents have to deal with could be another reason to have a higher number of them willing to use chatbots for FAQs. This could ameliorate the number of misunderstandings and email overload that so many students might generate.
 
 The results, when grouping by experience, confirm the previous observation that experienced teachers are not afraid of changes and are willing to accept new technological challenges, at least, in the same way that younger teachers are. From this concrete plot it is interesting as well the fact that very few young/inexperience teachers are willing to use chatbots for other uses. This reinforces the hypothesis thrown at the beginning of this section and, as these teachers have less experience, they also have less field of view to think about ways of using chatbots.
 
