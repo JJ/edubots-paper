@@ -566,6 +566,7 @@ The specific questions included in this second survey are listed below:
 \item Non-hierarchical tools that allowed teacher-to-student and student-to-student communication. [\texttt{Horizontally}]
 \item That allow additional functionalities such as interfaces to other tools. [\texttt{Connectivity}]
 \item That allow teachers to develop/add their own functionalities (e.g. automatic correction tools). [\texttt{Pluggability}]
+\item That allow users to hide personal data (such as my telephone number). [\texttt{Hidden Phone Number}]
 \item That let me avoid to worry about maintenance and that it is easily sustainable from one year to the next. [\texttt{Sustainability}]
 \item That allow to extract data to assess the student performance. [\texttt{Analytics}]
 % Antonio - Is it missing one feature concerning Hidden Phone Numer???
