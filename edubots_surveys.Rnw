@@ -480,6 +480,7 @@ Our intention from the beginning was to try to gather a sufficient amount of res
 % Antonio - I would say something like: "but from teachers' perspective"
 however, an initial exploration of results led us to create a second survey. The survey items focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers consider useful to be used in their teaching, and the type of interactions that teachers prefer to have with their students while using messaging apps in their teaching. 
 
+% Move a part of this to an appendix: Noorhan
 The {\bf initial survey} was done in two separate Google forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and Mexico. The tertiary non-university teachers are based mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching. 
 
 A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at other tertiary education institutions (31.6\%).
@@ -577,7 +578,7 @@ Responses were stored automatically in a Google Drive spreadsheet. Eventually, t
 \label{sec:res}
 
 % Describe the survey and population
-We collected responses from 282 teachers from Spain and Spanish Speaking countries for the first survey (\textit{survey1} and 205 for the second one (\textit{survey2}). The two forms were open for approximately the same amount of time, around two months. The sample includes mostly teachers from university, although about 32\% and 8\% are from vocational education in the first and second survey respectively. Regarding gender, 61\% of the teachers were male and 32\% female, while approximately 5\% chose not to disclose it. Finally, the responses are more or less equally distributed according to the teaching experience, showing 24\% of responses from teachers with 5 or less years of experience, 26\% for 6-15 years of experience, 30\% for 16-25, and 20\% for teachers with more than 25 years of experience.
+We collected responses from 282 teachers from Spain and Spanish Speaking countries for \textit{survey1} and 205 for \textit{survey2}. The two forms were open for approximately the same amount of time, around two months. The sample includes mostly teachers from university, although about 32\% and 8\% are from vocational education in the first and second survey respectively. Regarding gender, 61\% of the teachers were male and 32\% female, while approximately 5\% chose not to disclose it. Finally, the responses are more or less equally distributed according to the teaching experience, showing 24\% of responses from teachers with 5 or less years of experience, 26\% for 6-15 years of experience, 30\% for 16-25, and 20\% for teachers with more than 25 years of experience.
 
 % \begin{figure}[h!tbp]
 % \begin{center}
@@ -675,14 +676,13 @@ We collected responses from 282 teachers from Spain and Spanish Speaking countri
 % \label{figure:age.vs.exp}
 % \end{figure}
 
-Well try to find the answers to the four research questions next, by analyzing the response to the different survey questions.
+We will try to find the answers to the four research questions next, by analyzing the response to the different survey questions.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{RQ1 - Are teachers already using messaging apps in their classes?}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 
 %Why messaging apps are relevant here --> connect to the development of chatbots
@@ -705,17 +705,17 @@ Other & 60 & 21.3 & 222 & 78.7 \\
 None & 19 & 6.7 & 263 & 93.3 \\ \hline
 \end{tabular}
 \vspace{0.8em}
-\caption{Use of messaging apps in class}
+\caption{Use of messaging apps to assist the learning process.}
 \label{tab:use_messapps}
 \end{table}
 
 % Fran: I think figures with data about the use of messaging apps should come here. Then, we say we also asked about changes after covid and include data about that
-Results in Figs. \ref{figure:provided*chatbots_use}, \ref{figure:whatsapp*chatbots_use}, \ref{figure:telegram*chatbots_use} do not show significant differences in the use of instant messaging apps between teachers from University and vocational education. In general, most teachers prefer messaging apps provided by their own institutions (we also show the results for the two most popular messaging app platforms: Whatsapp and Telegram). With respect to specific disciplines, Engineering and Technology teachers are more active in their use, although it is also relevant the amount of teachers from Humanities that answered they used these apps in their classes (around 60\% use the apps provided by their institutions). 
+Results in Figs. \ref{figure:provided*chatbots_use}, \ref{figure:whatsapp*chatbots_use}, \ref{figure:telegram*chatbots_use} do not show significant differences in the use of instant messaging apps between teachers from University and vocational education. In general, most teachers prefer messaging apps provided by their own institutions (we also show the results for the two most popular messaging app platforms: WhatsApp and Telegram). With respect to specific disciplines, Engineering and Technology teachers are more active in their use, although it is also relevant the amount of teachers from Humanities that answered they used these apps in their classes (around 60\% use the apps provided by their institutions). 
 
 Although no significant differences were found regarding gender, female teachers answered they use instant messaging apps more than male teachers (about 10\% more). Also, teachers in vocational Education use WhatsApp more than university teachers.
 Regarding the distribution of the use of messaging apps per age, there are no significant differences for WhatsApp and apps provided by their own academic institutions. % Olia requests support for this.
 However, younger teachers also use Telegram with more than 25\%, a percentage that falls to about 10\% for teachers that are 55 or older. %The third column compares the use of these apps considering the number of years of experience. 
-One interesting result is that, contrary to the idea of technology adaptation issues when considering older teachers, about 65\% of teachers with more than 25 years of experience use the platforms provided by their institutions while the percentage goes down to less than 50\% for teachers with 6-15 years of experience.
+One interesting result is that about 65\% of teachers with more than 25 years of experience use the platforms provided by their institutions while the percentage goes down to less than 50\% for teachers with 6-15 years of experience.
 %
 \begin{figure}[h!tbp]
 \begin{center}
@@ -1276,7 +1276,7 @@ Since chatbots are intended to mediate or help in this interaction, it is essent
 \label{tab:kindinteractions}
 \end{table}
 
-As it can be seen by the answer to the first and last question, in general teachers do not want to participate in a chat group with students; either they want to simply leave leave the students alone in their own chat group, or otherwise they prefer not to be part of that interaction. In general, that is going to be the case no matter what; it is well known that students organize their own chat groups with many (and not always conveyable) intentions, so teachers do not want to take any part in it. Overwhelmingly, they don't want to participate in any chat group with students, but even less so if it includes the rest of the faculty.
+As it can be seen by the answer to the first and last question, in general teachers do not want to participate in a chat group with students; either they want to simply leave the students alone in their own chat group, or otherwise they prefer not to be part of that interaction. In general, that is going to be the case no matter what; it is well known that students organize their own chat groups with many (and not always conveyable) intentions, so teachers do not want to take any part in it. Overwhelmingly, they don't want to participate in any chat group with students, but even less so if it includes the rest of the faculty.
 
 The answer, then, to this research question, is that, in general, teachers do {\em not} want to have interaction with students in a chat group. To a certain point, this would seem to contradict results by Gachago et al. \cite{gachago2015crossing}, although this might be due to cultural attitudes, or other factors such as the average size of classes. It does confirm, however, that the challenges cited in that study, and possibly others, are an obstacle to the adoption of mobile (and other) instant messaging among the community of surveyed teachers.
 
@@ -1449,7 +1449,7 @@ At any rate, the general feeling that transpires from the survey is that it is e
 There are several future lines of work informed by our results of this survey. For instance, the rollout of extensive videoconferencing and virtual teaching solutions that the COVID pandemic has brought has also taught us a series of lessons. It increases isolation, for instance, and decreases the amount of synchronous contact that happens in the fringes of the classroom: teaching staff offices, before and after class. A future line of work would be focused on exactly this, and what kind of needs could be covered by chatbot technology. We will create a series of international surveys that will investigate this.
 
 % Emotinal, mood for future work... Chatbots perform sentiment analysis
-Finally, the full extent of chatbot technology is not really being examined in these surveys. They can be connected to natural language processing engines with sentiment analysis as well as other analytics. Examining the mood of the class, as response to new material, assignment, exams or external events might help will help any student-centered teaching strategy, which will help students (and teachers) reach their learning objectives. This line of work, however, will be based on the introduction of some pilot study, combined with initial opinion assesment on the students.
+Finally, the full extent of chatbot technology is not really being examined in these surveys. They can be connected to natural language processing engines with sentiment analysis as well as other analytics. Examining the mood of the class, as response to new material, assignment, exams or external events might help will help any student-centered teaching strategy, which will help students (and teachers) reach their learning objectives. This line of work, however, will be based on the introduction of some pilot study, combined with initial opinion assessment on the students.
 
 
 \bibliographystyle{apalike}
