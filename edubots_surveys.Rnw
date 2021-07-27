@@ -483,92 +483,7 @@ however, an initial exploration of results led us to create a second survey. The
 % Move a part of this to an appendix: Noorhan
 The {\bf initial survey} was done in two separate Google forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and Mexico. The tertiary non-university teachers are based mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching. 
 
-A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at other tertiary education institutions (31.6\%).
-
-The surveys have the same common, initial questions for segmentation:\begin{itemize}
-\item Degrees or titles where the teacher was working, either university or other tertiary education.
-\item Discipline: Engineering, Social Sciences, Health and Bio, Sciences, Humanities, Other.
-\item Gender: Man, Woman, Rather not say.
-\item Age: 25-35, 35-45, 45-55, more than 55.
-\item Experience on the job: up to 5 years, 5-15 years, 15-25 years, more than 25 years.
-\item Type of degree: university, other tertiary education. This question was implicit in the first survey, since one and the other filled different forms, it was explicit in the second survey.
-\end{itemize}
-
-% Including questions in surveys
-The {\bf first survey}, which focused about the use of messaging apps in class, and which tried to address mainly RQ2 and RQ3, 
-% Antonio - I guess it refers to RQ3. ;)
-includes the following questions:
-
-\textit{1. Regarding the use of messaging apps in class, you prefer ...}
-\begin{itemize}
-\item A chat group with the students in the same course
-\item Students self-organize and with the teacher not being part of any chat group
-\item A chat group with the all the students and teachers of the School/High-School/Faculty
-\item A chat group with all the students and teachers of the same study year
-\end{itemize}
-
-\textit{2. Which messaging app platform do you use to communicate with your peers or students?}
-\begin{itemize}
-\item Whatsapp
-\item Telegram
-\item LinkedIn
-\item Twitter messages
-\item Discord
-\item Slack
-\item Snapchat
-\item The platform provided by your own institution
-\item None, I do not use any messaging app to communicate with my students
-\end{itemize}
-
-\textit{3. Which kind of chatbots (software that automatically respond to questions or commands) could be useful to improve the learning results with your students or help you managing your course?}
-\begin{itemize}
-\item Agenda bots that e.g. remind students about project deadlines
-\item Bots that collect and provide answers to frequent questions
-\item Bots that inform students about their grades
-\item Bots that help with the class materials (e.g. searching for topics about a concept, or asking about them)
-\end{itemize}
-
-\textit{4. The virtualization of teaching due to the COVID pandemic during this year and the previous one, did it mean any change in your viewpoint or use of messaging apps in class?}
-\begin{itemize}
-\item No, I did use it before and use it now
-\item Yes, I started using safer alternatives
-\item Yes, I did not use any messaging platform before but I do use it now
-\item No, I did not use any messaging platform before or now
-\end{itemize}
-
-The {\bf second survey} followed the same paths, only in this case there was a single questionnaire, and with a different scope, focusing on the kind of interaction media features that teachers value the most.  % Olia - see my comment above.
-It was filled by teachers that were also students in a teacher formation course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers who knew about it by emails from the authors, or from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary. These questions tried to address mainly RQ1 and RQ4.
-
-Specifically, this survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what are  their feelings and preferences with regard to the use of instant messaging applications with students, and even using bots or chatbots in the classroom. In addition the survey asked about the most relevant \textit{interaction media features} for the teachers with respect to the potential tool to use in class. 
-
-The specific questions included in this second survey are listed below:
-
-% Antonio - I have included a reference name to each one of these variables, which are the names used on Tables 8 and 9. Thus it will be easy to recognise every variable, and then, we could refer to them in those tables.
-
-\textit{1. You prefer the interaction with your students to be ...}
-\begin{itemize}
-\item Synchronous: students and teacher/s in the same space, simultaneously. [\texttt{Synchrony - Yes}]
-\item Asynchronous: the student asks at anytime, the teacher responds whenever possible. [\texttt{Synchrony - No}]
-\end{itemize}
-
-\textit{2. Regarding the interaction with your students, you ...}
-\begin{itemize}
-\item Prefer it to be done by institutional means/tools: office hours, forum/messages via the virtual campus, institutional email. [\texttt{Officiality - Yes}]
-\item Admit the use of other means/toosl: blogs, chat groups in messaging platforms, any others. [\texttt{Officiality - No}]
-\end{itemize}
-
-\textit{3. Which media features do you value the most for your interaction with your students?}
-\begin{itemize}
-\item Familiarity with its use i.e. that I do not need to learn a new tool. [\texttt{Familiarity}]
-\item The official formation/training provided by your institution on its use. [\texttt{Official formation}]
-\item That only one-directional communication is allowed (from teachers to students). [\texttt{Unidirectionality}]
-\item Non-hierarchical tools that allowed teacher-to-student and student-to-student communication. [\texttt{Horizontally}]
-\item Connectivity to other tools, for instance common login. [\texttt{Connectivity}]
-\item Possibility for teachers to develop/add their own functionalities (e.g. automatic correction tools). [\texttt{Pluggability}]
-\item Possibility for users to hide personal data (such as my telephone number). [\texttt{Hidden Phone Number}]
-\item Not having to worry about maintenance and that it is easily sustainable from one year to the next. [\texttt{Sustainability}]
-\item That it offers the chance to extract data to assess the student performance. [\texttt{Analytics}]
-\end{itemize}
+A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at other tertiary education institutions (31.6\%). Survey questions are shown in \ref{app:questions}.
 
 Responses were stored automatically in a Google Drive spreadsheet. Eventually, the results from the two forms we used for the first survey were collated in a single spreadsheet. Next we will show the results and analyze them.
 
@@ -1448,7 +1363,6 @@ At any rate, the general feeling that transpires from the survey is that it is e
 % Future study (suggested by Noorhan): how COVID influenced adoption of these technologies.
 There are several future lines of work informed by our results of this survey. For instance, the rollout of extensive videoconferencing and virtual teaching solutions that the COVID pandemic has brought has also taught us a series of lessons. It increases isolation, for instance, and decreases the amount of synchronous contact that happens in the fringes of the classroom: teaching staff offices, before and after class. A future line of work would be focused on exactly this, and what kind of needs could be covered by chatbot technology. We will create a series of international surveys that will investigate this.
 
-% Emotinal, mood for future work... Chatbots perform sentiment analysis
 Finally, the full extent of chatbot technology is not really being examined in these surveys. They can be connected to natural language processing engines with sentiment analysis as well as other analytics. Examining the mood of the class, as response to new material, assignment, exams or external events might help will help any student-centered teaching strategy, which will help students (and teachers) reach their learning objectives. This line of work, however, will be based on the introduction of some pilot study, combined with initial opinion assessment on the students.
 
 
@@ -1496,6 +1410,94 @@ All authors have read and approved the final manuscript.
 
 The authors want to thank to the educators who participated in the survey, and also people who have distributed the survey in their mailing lists, especially Mario García Valdez, Jesús Moreno León and José Raúl Canay.
 % Antonio - Add other acknowledgements
+
+\section{Appendix I: Survey questions}
+\label{app:questions}
+
+The surveys have the same common, initial questions for segmentation:\begin{itemize}
+\item Degrees or titles where the teacher was working, either university or other tertiary education.
+\item Discipline: Engineering, Social Sciences, Health and Bio, Sciences, Humanities, Other.
+\item Gender: Man, Woman, Rather not say.
+\item Age: 25-35, 35-45, 45-55, more than 55.
+\item Experience on the job: up to 5 years, 5-15 years, 15-25 years, more than 25 years.
+\item Type of degree: university, other tertiary education. This question was implicit in the first survey, since one and the other filled different forms, it was explicit in the second survey.
+\end{itemize}
+
+% Including questions in surveys
+The {\bf first survey}, which focused about the use of messaging apps in class, and which tried to address mainly RQ2 and RQ3, 
+% Antonio - I guess it refers to RQ3. ;)
+includes the following questions:
+
+\textit{1. Regarding the use of messaging apps in class, you prefer ...}
+\begin{itemize}
+\item A chat group with the students in the same course
+\item Students self-organize and with the teacher not being part of any chat group
+\item A chat group with the all the students and teachers of the School/High-School/Faculty
+\item A chat group with all the students and teachers of the same study year
+\end{itemize}
+
+\textit{2. Which messaging app platform do you use to communicate with your peers or students?}
+\begin{itemize}
+\item Whatsapp
+\item Telegram
+\item LinkedIn
+\item Twitter messages
+\item Discord
+\item Slack
+\item Snapchat
+\item The platform provided by your own institution
+\item None, I do not use any messaging app to communicate with my students
+\end{itemize}
+
+\textit{3. Which kind of chatbots (software that automatically respond to questions or commands) could be useful to improve the learning results with your students or help you managing your course?}
+\begin{itemize}
+\item Agenda bots that e.g. remind students about project deadlines
+\item Bots that collect and provide answers to frequent questions
+\item Bots that inform students about their grades
+\item Bots that help with the class materials (e.g. searching for topics about a concept, or asking about them)
+\end{itemize}
+
+\textit{4. The virtualization of teaching due to the COVID pandemic during this year and the previous one, did it mean any change in your viewpoint or use of messaging apps in class?}
+\begin{itemize}
+\item No, I did use it before and use it now
+\item Yes, I started using safer alternatives
+\item Yes, I did not use any messaging platform before but I do use it now
+\item No, I did not use any messaging platform before or now
+\end{itemize}
+
+The {\bf second survey} followed the same paths, only in this case there was a single questionnaire, and with a different scope, focusing on the kind of interaction media features that teachers value the most.  % Olia - see my comment above.
+It was filled by teachers that were also students in a teacher formation course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers who knew about it by emails from the authors, or from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary. These questions tried to address mainly RQ1 and RQ4.
+
+Specifically, this survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what are  their feelings and preferences with regard to the use of instant messaging applications with students, and even using bots or chatbots in the classroom. In addition the survey asked about the most relevant \textit{interaction media features} for the teachers with respect to the potential tool to use in class. 
+
+The specific questions included in this second survey are listed below:
+
+% Antonio - I have included a reference name to each one of these variables, which are the names used on Tables 8 and 9. Thus it will be easy to recognise every variable, and then, we could refer to them in those tables.
+
+\textit{1. You prefer the interaction with your students to be ...}
+\begin{itemize}
+\item Synchronous: students and teacher/s in the same space, simultaneously. [\texttt{Synchrony - Yes}]
+\item Asynchronous: the student asks at anytime, the teacher responds whenever possible. [\texttt{Synchrony - No}]
+\end{itemize}
+
+\textit{2. Regarding the interaction with your students, you ...}
+\begin{itemize}
+\item Prefer it to be done by institutional means/tools: office hours, forum/messages via the virtual campus, institutional email. [\texttt{Officiality - Yes}]
+\item Admit the use of other means/toosl: blogs, chat groups in messaging platforms, any others. [\texttt{Officiality - No}]
+\end{itemize}
+
+\textit{3. Which media features do you value the most for your interaction with your students?}
+\begin{itemize}
+\item Familiarity with its use i.e. that I do not need to learn a new tool. [\texttt{Familiarity}]
+\item The official formation/training provided by your institution on its use. [\texttt{Official formation}]
+\item That only one-directional communication is allowed (from teachers to students). [\texttt{Unidirectionality}]
+\item Non-hierarchical tools that allowed teacher-to-student and student-to-student communication. [\texttt{Horizontally}]
+\item Connectivity to other tools, for instance common login. [\texttt{Connectivity}]
+\item Possibility for teachers to develop/add their own functionalities (e.g. automatic correction tools). [\texttt{Pluggability}]
+\item Possibility for users to hide personal data (such as my telephone number). [\texttt{Hidden Phone Number}]
+\item Not having to worry about maintenance and that it is easily sustainable from one year to the next. [\texttt{Sustainability}]
+\item That it offers the chance to extract data to assess the student performance. [\texttt{Analytics}]
+\end{itemize}
 
 \end{backmatter}
 
