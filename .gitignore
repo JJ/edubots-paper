@@ -283,3 +283,5 @@ TSWLatexianTemp*
 
 .Rhistory
 .RData
+
+*.eps

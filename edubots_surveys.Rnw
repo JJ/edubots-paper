@@ -91,58 +91,93 @@
 \title{Chatbots and messaging platforms in the classroom: an analysis from the teacher's perspective}
 
 \author[
-  addressref={aff1},                  
-  corref={aff1},                      
-  email={jmerelo@ugr.es}  
-]{\inits{JJM}\fnm{Juan J.} \snm{Merelo}}
+   addressref={aff1},                   % id's of addresses, e.g. {aff1,aff2}
+   corref={aff1},                       % id of corresponding address, if any
+   noteref={n1},                        % id's of article notes, if any
+   email={jane.e.doe@cambridge.co.uk}   % email address
+]{\inits{JE}\fnm{Jane E} \snm{Doe}}
 \author[
-  addressref={aff1},
-  email={pacv@ugr.es}
-]{\inits{PAC}\fnm{Pedro A.} \snm{Castillo}}
-\author[
-  addressref={aff2},
-  email={amorag@ugr.es}
-]{\inits{AMM}\fnm{Antonio M.} \snm{Mora}}
-\author[
-  addressref={aff1},
-  email={fbarranco@ugr.es}
-]{\inits{FB}\fnm{Francisco} \snm{Barranco}}
-\author[
-  addressref={aff3},
-  email={n.h.abbas@leeds.ac.uk}
-]{\inits{NA}\fnm{Noorhan} \snm{Abbas}}
-\author[
-  addressref={aff1},
-  email={aguillen@ugr.es}
-]{\inits{AG}\fnm{Alberto} \snm{Guillén}}
-\author[
-  addressref={aff4},
-  email={o.tsivitanidou@cyens.org.cy}
-]{\inits{OT}\fnm{Olia} \snm{Tsivitanidou}}
+   addressref={aff1,aff2},
+   email={john.RS.Smith@cambridge.co.uk}
+]{\inits{JRS}\fnm{John RS} \snm{Smith}}
 
-\address[id=aff1]{%                           
-  \orgdiv{Department of Computer Architecture and Technology},           
-  \orgname{University of Granada},
-  \city{Granada},
-  \cny{Spain}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter the authors' addresses here        %%
+%%                                          %%
+%% Repeat \address commands as much as      %%
+%% required.                                %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\address[id=aff1]{%                           % unique id
+  \orgname{Department of Zoology, Cambridge}, % university, etc
+  \street{Waterloo Road},                     %
+  %\postcode{}                                % post or zip code
+  \city{London},                              % city
+  \cny{UK}                                    % country
 }
 \address[id=aff2]{%
-  \orgdiv{Department of Signal Theory, Telematics and Communications},
-  \orgname{University of Granada},
-  \city{Granada},
-  \cny{Spain}
+  \orgname{Marine Ecology Department, Institute of Marine Sciences Kiel},
+  \street{D\"{u}sternbrooker Weg 20},
+  \postcode{24105}
+  \city{Kiel},
+  \cny{Germany}
 }
-\address[id=aff3]{%
-  \orgdiv{School of Computing},
-  \orgname{University of Leeds},
-  \city{Leeds},
-  \cny{UK}
-}
-\address[id=aff4]{%
-  \orgname{CYENS},         
-  \city{Nicosia},
-  \cny{Cyprus} 
-}
+
+% \author[
+%   addressref={aff1},                  
+%   corref={aff1},                      
+%   email={jmerelo@ugr.es}  
+% ]{\inits{JJM}\fnm{Juan J.} \snm{Merelo}}
+% \author[
+%   addressref={aff1},
+%   email={pacv@ugr.es}
+% ]{\inits{PAC}\fnm{Pedro A.} \snm{Castillo}}
+% \author[
+%   addressref={aff2},
+%   email={amorag@ugr.es}
+% ]{\inits{AMM}\fnm{Antonio M.} \snm{Mora}}
+% \author[
+%   addressref={aff1},
+%   email={fbarranco@ugr.es}
+% ]{\inits{FB}\fnm{Francisco} \snm{Barranco}}
+% \author[
+%   addressref={aff3},
+%   email={n.h.abbas@leeds.ac.uk}
+% ]{\inits{NA}\fnm{Noorhan} \snm{Abbas}}
+% \author[
+%   addressref={aff1},
+%   email={aguillen@ugr.es}
+% ]{\inits{AG}\fnm{Alberto} \snm{Guillén}}
+% \author[
+%   addressref={aff4},
+%   email={o.tsivitanidou@cyens.org.cy}
+% ]{\inits{OT}\fnm{Olia} \snm{Tsivitanidou}}
+% 
+% \address[id=aff1]{%                           
+%   \orgdiv{Department of Computer Architecture and Technology},           
+%   \orgname{University of Granada},
+%   \city{Granada},
+%   \cny{Spain}
+% }
+% \address[id=aff2]{%
+%   \orgdiv{Department of Signal Theory, Telematics and Communications},
+%   \orgname{University of Granada},
+%   \city{Granada},
+%   \cny{Spain}
+% }
+% \address[id=aff3]{%
+%   \orgdiv{School of Computing},
+%   \orgname{University of Leeds},
+%   \city{Leeds},
+%   \cny{UK}
+% }
+% \address[id=aff4]{%
+%   \orgname{CYENS},         
+%   \city{Nicosia},
+%   \cny{Cyprus} 
+% }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
 %% Enter short notes here                   %%
@@ -1379,7 +1414,8 @@ Finally, the full extent of chatbot technology is not really being examined in t
 
 \subsection{Availability of data and materials}
 
-The datasets generated and analysed during the current study are available in the {\tt edubots-paper} repository, accessible from {\tt https://github.com/JJ/edubots-paper/tree/main/data}.
+The datasets generated and analysed during the current study are available in the {\tt edubots-paper} repository, accessible from https://anonymous.url
+% {\tt https://github.com/JJ/edubots-paper/tree/main/data}.
 
 
 \subsection{Competing interests}
@@ -1393,16 +1429,16 @@ This work has been supported by EDUBOTS project, funded under the scheme Erasmus
 
 \subsection{Authors' contributions}
 
-All the authors have contributed to the study presented in this manuscript.
+All the authors have contributed to the study presented in this manuscript. (Rest hidden for double blind)
 
-JJM has been the leader, drafted the first versions of the survey and supervised the writing of the manuscript.
-
-PAC has revised the paper and researched the state of the art, as well as contributed to the survey design.
-AMM has revised the paper and researched the state of the art, as well as contributed to the survey design.
-FB has made the analysis and processed data and contributed to the survey design.
-NA has supervised the state of the art, and written the bulk of it, as well as contributed to discussion and conclusions.
-OT has performed data analysis, and contributed to discussion and conclusions.
-AG has contributed to the design of the survey, analysis, discussion and conclusions.
+% JJM has been the leader, drafted the first versions of the survey and supervised the writing of the manuscript.
+% 
+% PAC has revised the paper and researched the state of the art, as well as contributed to the survey design.
+% AMM has revised the paper and researched the state of the art, as well as contributed to the survey design.
+% FB has made the analysis and processed data and contributed to the survey design.
+% NA has supervised the state of the art, and written the bulk of it, as well as contributed to discussion and conclusions.
+% OT has performed data analysis, and contributed to discussion and conclusions.
+% AG has contributed to the design of the survey, analysis, discussion and conclusions.
 
 All authors have read and approved the final manuscript.
 
