@@ -1409,28 +1409,28 @@ Finally, the full extent of chatbot technology is not really being examined in t
 
 % ********************** DECLARATIONS ****************************
 
-\section{Declarations}
-\label{sec:decl}
-
-\subsection{Availability of data and materials}
-
-The datasets generated and analysed during the current study are available in the {\tt edubots-paper} repository, accessible from https://anonymous.url
-% {\tt https://github.com/JJ/edubots-paper/tree/main/data}.
-
-
-\subsection{Competing interests}
-
-The authors declare that they have no competing interests.
-
-
-\subsection{Funding}
-
-This work has been supported by EDUBOTS project, funded under the scheme Erasmus + KA2: Cooperation for innovation and the exchange of good practices - Knowledge Alliances (grant agreement no: 612446).
-
-\subsection{Authors' contributions}
-
-All the authors have contributed to the study presented in this manuscript. (Rest hidden for double blind)
-
+% \section{Declarations}
+% \label{sec:decl}
+% 
+% \subsection{Availability of data and materials}
+% 
+% The datasets generated and analysed during the current study are available in the {\tt edubots-paper} repository, accessible from https://anonymous.url
+% % {\tt https://github.com/JJ/edubots-paper/tree/main/data}.
+% 
+% 
+% \subsection{Competing interests}
+% 
+% The authors declare that they have no competing interests.
+% 
+% 
+% \subsection{Funding}
+% 
+% This work has been supported by EDUBOTS project, funded under the scheme Erasmus + KA2: Cooperation for innovation and the exchange of good practices - Knowledge Alliances (grant agreement no: 612446).
+% 
+% \subsection{Authors' contributions}
+% 
+% All the authors have contributed to the study presented in this manuscript. (Rest hidden for double blind)
+% 
 % JJM has been the leader, drafted the first versions of the survey and supervised the writing of the manuscript.
 % 
 % PAC has revised the paper and researched the state of the art, as well as contributed to the survey design.
@@ -1439,13 +1439,13 @@ All the authors have contributed to the study presented in this manuscript. (Res
 % NA has supervised the state of the art, and written the bulk of it, as well as contributed to discussion and conclusions.
 % OT has performed data analysis, and contributed to discussion and conclusions.
 % AG has contributed to the design of the survey, analysis, discussion and conclusions.
-
-All authors have read and approved the final manuscript.
-
-\subsection{Acknowledgements}
-
-The authors want to thank to the educators who participated in the survey, and also people who have distributed the survey in their mailing lists, especially Mario García Valdez, Jesús Moreno León and José Raúl Canay.
-% Antonio - Add other acknowledgements
+% 
+% All authors have read and approved the final manuscript.
+% 
+% \subsection{Acknowledgements}
+% 
+% The authors want to thank to the educators who participated in the survey, and also people who have distributed the survey in their mailing lists, especially Mario García Valdez, Jesús Moreno León and José Raúl Canay.
+% % Antonio - Add other acknowledgements
 
 \section{Appendix I: Survey questions}
 \label{app:questions}
