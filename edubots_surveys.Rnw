@@ -1341,7 +1341,7 @@ Finally, a two-step cluster analysis was conducted, with a log-likelihood distan
 
 \begin{figure}[h!tbp]
 \begin{center}
-\includegraphics[width=\textwidth]{figure/2clusteranalysis.pdf}
+\includegraphics[width=\textwidth]{figures/2clusteranalysis.pdf}
 \end{center}
     \caption{Two-step cluster analysis for interaction media features: predictor importance}
 \label{figure:predictor}
