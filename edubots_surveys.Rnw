@@ -263,6 +263,7 @@ Introducing new technologies such as messaging platforms, and the chatbots attac
 %%%%%%%%%%%%%%%%%%%%%%%%% start of article main body
 
 <<setup, echo=FALSE,message=FALSE>>=
+knitr::opts_chunk$set(fig.path='figures/')
 library(ggplot2)
 library(dplyr)
 library(tidyr)
