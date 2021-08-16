@@ -90,6 +90,7 @@
 
 \title{Chatbots and messaging platforms in the classroom: an analysis from the teacher's perspective}
 
+% Remember to substitute figures/ by nothing in the generated PDF
 % \author[
 %   addressref={aff1},                  
 %   corref={aff1},                      
