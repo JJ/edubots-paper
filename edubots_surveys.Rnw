@@ -305,11 +305,15 @@ A \textit{chatbot} is a program, sometimes developed using Artificial Intelligen
  in the classroom and tend to contact their teachers later via email.
  Consequently, this can lead to not only a delay in obtaining answers to their questions but can also cause a significant increase in their teachers’ workload, especially when factoring in the disproportion between the class size and the number of teachers. Hence, the chatbot technology has a potential to mitigate this problem by providing answers to students’ questions and facilitating a dynamic and autonomous learning experience \cite{Griol2014,kim2020}. In addition, using an automated system such as a chatbot, can draw teachers’ attention to topics that students struggle to comprehend or need further assistance in understanding.
 
-Given the potential benefits that chatbots could bring to the classroom, the focus of the 
-% EDUBOTS KA2 European project \footnote{https://www.edubots.eu}, 
-{\sf anonymized European Project}, the sponsor of this study, is to gather, analyse and disseminate best practices on the use of chatbots in higher education institutions.
-
- The line of research of which this paper is a part has involved two phases of data collection.
+Given the potential benefits that chatbots could bring to the classroom, the focus of the % EDUBOTS KA2 European project \footnote{https://www.edubots.eu}, 
+{\sf anonymized European Project}, the sponsor of this study, is to explore best practices and innovative use of chatbots, and to create a learning 
+community of educators in higher education institutions. The majority of studies conducted so far have studied how these 
+messaging applications and/or chatbots are used to deliver persosnalised learning in classrooms that occurs anytime anywhere, 
+promote collaborative learning experiences, group discussions \cite{panah2020study} and for boosting students' sense of belonging to their 
+institutions\cite{abbas2021onlinechat}. Hence, due to the paucity of research that explores the use of these technologies from the teachers' perspectives,
+this paper aims to investigate their opinions/needs and the challenges/opportunities of adopting these technologies in classrooms
+to paint a better picture of how they can positively contribute to enhancing the learning process in higher education institutions.
+In this study, data collection involved two phases:
  \begin{itemize}
 \item The first phase aimed to collect feedback from students about their actual needs \cite{MoraChatbots2021:anon}. Hence, the objective was to collect information about students’ preferences of tools/applications for chatting and messaging, how they use them in educational context, who do they like to be with in the class messaging groups, and their expectations of the chatbots in terms of assisting them during their learning process. Therefore, two surveys for bachelor and master degree students at the University of Granada (Spain) were designed and answers from more than 250 students were collected. The key findings of the students surveys reveal that they prefer to use messaging applications, such as Telegram or WhatsApp as they are familiar to them. Students also expressed interest in chatbots that can assist them with organizing their course schedules, help them access their assignment grades and facilitate searching for course's resources. 
 \item The results of the first phase were fed into the second phase of the study, which focused on teachers’ opinions about using chatbots and messaging applications in classes. This is what is going to be presented in this paper.
