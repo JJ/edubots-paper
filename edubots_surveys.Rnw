@@ -420,13 +420,13 @@ accurate answers than the ones provided by ELVIRA, which had to be updated by ha
 On the other hand, teaching-oriented chatbots are more sophisticated,
 as they set personalised learning outcomes and monitor learning
 progress. For instance, \cite{fernoagua2018intelligent} reported on
-``eduAssistant'', a virtual teaching assistant chatbot developed on the
-Telegram messaging platform. In this study, Telegram platform was
+''eduAssistant'', a virtual teaching assistant chatbot developed on the
+Telegram messaging platform. In this study, Telegram platform is
 chosen because it is easy to use, students are familiar with its
 features, and it enables them to exchange messages in different
 formats (text, audio and video) \cite{fernoagua2018intelligent}. In
 addition, Telegram could operate on all devices and operating
-systems. The ``eduAssistant'' chatbot acts as an automatic agent
+systems. The ''eduAssistant'' chatbot acts as an automatic agent
 in teacher-content-student, facilitating real-time feedback
 loops and providing a personalised learning experience relevant to the
 students' acquired skills and knowledge. Using this chatbot, educators can
@@ -434,8 +434,10 @@ create interactive instances in their lectures where they pose
 questions to their students and the chatbot assists those who need
 further help by giving them more hints and reporting it to their
 educator's dashboard \cite{fernoagua2018intelligent}. This can help 
-educators to locate those students that need their attention and send to 
+educators locate those students that need more attention and send
 them more educational resources relevant to their academic attainment.
+In addition, a recent study has analysed how the use of chatbots positively affected the learning outcomes of students in a Chinese 
+class \cite{doi:10.1177/0735633120929622}.
 
 Despite its (arguably) successful implementation in different higher education institutions, 
 over all in the fringes of educational activity, not in the actual interaction student-teacher, its implementation or deployment is not trivial.
@@ -463,17 +465,16 @@ Regarding the factors for the adoption of chatbots in higher
 education, many studies have focused on the evaluation of technology
 acceptance and usability \cite{Roblyer2010,Pimmer2019}. However,
 higher education is a special domain where, according to Hobert \cite{hobert2019you}, 
-specific pedagogical factors such as learning success or increased motivation are more important.  
+specific pedagogical factors such as learning success and increased motivation are more important.  
 Therefore, to develop efficient chatbots for higher education, all stakeholders'
 (i.e. educators, students, institutions, etc) expectations needs to be
-carefully collected and taken into consideration
-\cite{sjostrom2018designing,tsivitanidouusers}.
-
-Along this line of research, our previous work \cite{MoraChatbots2021:anon} aimed at analysing the expectations of students on this regard; recent papers have also analysed how the use of chatbots affected the learning outcomes of students in a Chinese class \cite{doi:10.1177/0735633120929622}. This paper analysed conversational chatbots in an one-to-one setting, finding that learning really benefited from it. This is, once again, a proof of the benefit of chatbots in certain settings; however, there are some opinions that might prevent the successful acceptance of the technology, and these are what we are trying to find out in this paper, together with what kind of features would make its acceptance better.
-
-Besides, the present work is focused on the other key actor in this challenge, i.e. educators. Their attitudes have been studied very recently by Chocarro et al. \cite{doi:10.1080/03055698.2020.1850426}, who, by analysing surveys, created a {\em technology acceptance model} that proposed a series of features that would make chatbots easier to accept; among them, formality of language as well as easiness and usefulness. The survey targeted primary and secondary education teachers, and was also more interested in the general use of chatbots in education, not specifically in a classroom setting, seeking educational outcomes. However, they establish a series of results that are obviously interesting and relevant for this work.
-
-We will present next the methodology we have followed to find out teachers' opinions.
+carefully collected and taken into consideration \cite{sjostrom2018designing,tsivitanidouusers}. 
+As our previous work \cite{MoraChatbots2021:anon} aimed to present a detailed analysis of students' expectations and needs in this regard, the
+present study focuses on investigating the needs of educators. In a recent study, Chocarro et al. \cite{doi:10.1080/03055698.2020.1850426} 
+examined educators' acceptance of chatbots using TAM (Technology Acceptance Model) and proposed a series of features such as formality
+ of language as well as usefulness to make chatbots easier to adopt. 
+ 
+In the next section, we will present the methodology adopted to collect teachers' responses.
 
 
 % ********************** METHODOLOGY ****************************
