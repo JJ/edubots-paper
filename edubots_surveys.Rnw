@@ -394,7 +394,7 @@ undertaken. For instance, a recent evaluation review study presented by Smutny a
 \cite{Smutny2020} examined 47 educational chatbots implemented in
 Facebook Messenger with the focus to identify characteristics and
 quality metrics such as language, subject matter and platform. 
-Whereas study \cite{perez2020rediscovering} aimed to categorise educational chatbots according to their
+Whereas the study undertaken by \cite{perez2020rediscovering} aimed to categorise educational chatbots according to their
 purpose into service-oriented and teaching-oriented. The first category includes those that
 provide service support such as the chatbot Ask Holly \cite{meetholly}
 and Dina \cite{santoso2018dinus}; both chatbots respond to students'
