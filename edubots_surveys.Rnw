@@ -315,11 +315,14 @@ Given the potential benefits that chatbots could bring to the classroom, the foc
 \item The results of the first phase were fed into the second phase of the study, which focused on teachers’ opinions about using chatbots and messaging applications in classes. This is what is going to be presented in this paper.
 \end{itemize}
 
-Initially, a single survey was developed for this purpose. Responses from 300 teachers were collected and analysed. An initial analysis of these responses led to the creation of a second survey, which collected responses from 200 different higher education teachers. The questions on this survey focus on discussing the implications and the impact of the development of future technology-enhanced tools and educational institutions’ policies by finding answers to the following research questions:
+Initially, a single survey was developed for this purpose and responses from 300 higher education teachers were collected and analysed. 
+The responses' analysis entailed the creation of a second survey to which 200 teachers' responses were collected. The questions of the second 
+survey focussed on discussing teachers' needs, opinions and preferences of the development of future technology-enhanced tools 
+and its' potential impact on educational institutions’ policies. Therefore, this paper investigated the following research questions:
 
 \begin{itemize}
 \item RQ1 - Are teachers already using messaging apps in their classes? 
-\item RQ2 - Which kind of chatbots would teachers find useful in their classes? 
+\item RQ2 - Which chatbots' features would teachers find useful in their classes? 
 \item RQ3 - Which kind of interaction do teachers prefer with their students?
 \item RQ4 - What kind of interaction media features do teachers value the most?
 \end{itemize}
