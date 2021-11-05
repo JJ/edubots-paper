@@ -373,7 +373,8 @@ and why the opinions of the teaching community towards them have to be
 examined, as we do in this paper.
 
 % The Use of Chatbots in Higher Education
-The use of MIM, although possibly valuable by itself, can be enhanced via the use of chatbots, which, being conversational agents, usually dwell in systems where synchronous conversations take place. 
+The use of MIM, although possibly valuable by itself, can be enhanced via the use of chatbots, which, being conversational agents, usually dwell
+in systems where synchronous conversations take place. 
 The use of conversational agents (chatbots) in higher education is
 still at its infancy \cite{yang2019opportunities}. Nevertheless,
 recent studies examining their positive impact on students' academic
@@ -385,9 +386,8 @@ students' response quality and boosted their enjoyment levels
 \cite{abbas2021Surveys}.  According to \cite{Roblyer2010}, using
 either tools such as mobile devices or teaching strategies based on
 gamification \cite{Yildirim2017} can improve student motivation. In
-this sense, the authors in \cite{Pimmer2019} carried out a series of experiments with
-technological tools whose results showed positive perception and
-acceptance of the use of technology in teaching and learning.
+this sense, the authors in \cite{Pimmer2019} adopted a quasi-experimental, survey-based approach to
+report the positive impact of using instant messaging tools in boosting students' knowledge and mitigating their feelings of isolation.
 
 Several higher education chatbots' evaluation studies have been 
 undertaken. For instance, a recent evaluation review study presented by Smutny and Schreiberova 
