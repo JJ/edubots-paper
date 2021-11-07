@@ -318,7 +318,7 @@ Given the potential benefits that chatbots could bring to the classroom, the foc
 Initially, a single survey was developed for this purpose and responses from 300 higher education teachers were collected and analysed. 
 The responses' analysis entailed the creation of a second survey to which 200 teachers' responses were collected. The questions of the second 
 survey focussed on discussing teachers' needs, opinions and preferences of the development of future technology-enhanced tools 
-and its' potential impact on educational institutions’ policies. Therefore, this paper investigated the following research questions:
+and its potential impact on educational institutions’ policies. Therefore, this paper investigated the following research questions:
 
 \begin{itemize}
 \item RQ1 - Are teachers already using messaging apps in their classes? 
