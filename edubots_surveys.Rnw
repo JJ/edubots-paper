@@ -1562,10 +1562,10 @@ distance measure adopted, to explore how the cases could be grouped based on
 their preferences of specific interaction media features, and which features
 have larger predictor importance for the clustering (see
 Fig. \ref{figure:predictor}). Two clusters occurred from the analysis: cluster 1
-(n=78, 60.9\%) was comprise of instructors who did not value interaction media
+(n=78, 60.9\%) is formed with instructors who did not value interaction media
 pluggability, connectivity, official formation, but valued interaction media
-analytics, familiarity, support by the institution, while cluster 2 (n=50,
-39.1\%) was comprise of instructors from which the majority did not value media
+analytics, familiarity, support by the institution; cluster 2 (n=50,
+39.1\%) groups instructors that did not value media
 analytics, official formation, familiarity, but valued pluggability,
 connectivity, and support by the institution. Interaction media pluggability
 appears to have the most important predictor importance in the clustering of
@@ -1603,21 +1603,22 @@ sciences standing out among the rest. We do not have any kind of explanation for
 this behaviour, other than technologies are perceived, and adopted, in a
 different way depending on background and, apparently, gender.
 
- One of the most interesting questions that can arise from the analysis of the
- results, and that should require further study, is: Are teachers really aware
- of the possibilities of chatbots in the classroom? The reason to ask ourselves
- this question is due to the fact of the small number of responses for other
- uses in comparison with the other approaches proposed. Another way to look
- about it is that, unless you provide the specific instructions on how to use a
- tool, the teaching staff is already too busy or burn out to think about
- innovation.
+One of the most interesting questions that can arise from the analysis of the
+results, and that should require further study, is: Are teachers really aware
+of the possibilities of chatbots in the classroom? \textcolor{blue}{The survey 
+only listed a few functionalities for the chatbots and only a few subjects selected 
+the option "Others". This may suggest  that most teachers did not really understand 
+at this point the actual potential of chatbots.} Another way to look about it is 
+that, unless you provide the specific instructions on how to use a
+tool, the teaching staff is already too busy or burn out to think about
+innovation.
 
 It is also likely that their opinions towards chatbots are informed by negative
 experiences with customer support chatbots, which is what most people will have
 experienced. This will probably require further study, but also will need to be
-taken into account when introducing chatbot technologies in the classroom: it
-will have to be as simple, and as satisfactory, ad possible, to (possibly)
-delete this existing perception.
+taken into account when introducing chatbot technologies in the classroom: 
+\textcolor{blue}{it will have to be as simple, and as satisfactory, as possible, 
+to (possibly) change this existing perception}.
 
 Regarding gender grouping, both genders agree in their uses, so it seems not
 relevant at all. When looking at the plot containing the sector differentiation
