@@ -408,7 +408,7 @@ that occurs anytime anywhere, promote collaborative learning
 experiences and group discussions \cite{panah2020study}.
 
 WhatsApp is, at least in most Western countries, the most popular MIM platform
-used by educators to give assignments' feedback to students, support course
+used by educators to \textcolor{blue}{provide} assignments' feedback to students, support course
 discussions, and provide learning resources in informal learning settings
 \cite{panah2020study}.  Moreover, the use of WhatsApp in higher education could
 enhance social presence \cite{tang2017mobile} and foster trust relationships
