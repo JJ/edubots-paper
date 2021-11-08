@@ -1832,11 +1832,12 @@ The surveys have the same common, initial questions for segmentation:\begin{item
 \item Gender: Man, Woman, Rather not say.
 \item Age: 25-35, 35-45, 45-55, more than 55.
 \item Experience on the job: up to 5 years, 5-15 years, 15-25 years, more than 25 years.
-\item Type of degree: university, other tertiary education. This question was implicit in the first survey, since one and the other filled different forms, it was explicit in the second survey.
+\textcolor{blue}{
+\item Type of degree: university, other tertiary education. This question was implicit in the first survey: there were two different versions of the survey. However, it was and explicit question in the second survey.}
 \end{itemize}
 
 % Including questions in surveys
-The {\bf first survey}, which focused about the use of messaging apps in class, and which tried to address mainly RQ2 and RQ3, 
+The {\bf first survey}, which \textcolor{blue}{focused on} the use of messaging apps in class, and which tried to address mainly RQ2 and RQ3, 
 % Antonio - I guess it refers to RQ3. ;)
 includes the following questions:
 
@@ -1844,7 +1845,9 @@ includes the following questions:
 \begin{itemize}
 \item A chat group with the students in the same course
 \item Students self-organize and with the teacher not being part of any chat group
-\item A chat group with the all the students and teachers of the School/High-School/Faculty
+\textcolor{blue}{
+\item A chat group with all the students and teachers of the School/High-School/Faculty
+}
 \item A chat group with all the students and teachers of the same study year
 \end{itemize}
 
