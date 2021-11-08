@@ -1624,10 +1624,11 @@ Regarding gender grouping, both genders agree in their uses, so it seems not
 relevant at all. When looking at the plot containing the sector differentiation
 it is interesting to observe how university teachers prefer in a higher
 proportion to use them for grades and FAQs in comparison with Vocational High
-School teachers. This seems reasonable as the frequency of seeing the students
-is smaller at the University so, automating the grade notification for
-continuous evaluation could seem much more comfortable using an automated tool
-than using the traditional platform. Furthermore, the high student/teacher
+School teachers. \textcolor{blue}{
+This seems reasonable as the frequency of seeing the students
+is lower at the University so, an automatic tool for grade notification for
+continuous evaluation seems more helpful}. 
+Furthermore, the high student/teacher
 ratios that university teachers have to deal with could be another reason to
 have a higher number of them willing to use chatbots for FAQs. This could
 ameliorate the number of misunderstandings and email overload that so many
@@ -1637,10 +1638,8 @@ The results, when grouping by experience, confirm the previous observation that
 experienced teachers are not afraid of changes and are willing to accept new
 technological challenges, at least, in the same way that younger teachers
 are. From this concrete plot it is interesting as well the fact that very few
-young/inexperience teachers are willing to use chatbots for other uses. This
-reinforces the hypothesis thrown at the beginning of this section and, as these
-teachers have less experience, they also have less field of view to think about
-ways of using chatbots.
+young/inexperience teachers are willing to use chatbots for other uses. \textcolor{blue}{This
+reinforces the hypothesis thrown at the beginning of this section that younger teachers have less experience to consider new ways of using chatbots in their daily work.}
 
 As it appears in the responses presented above, teachers’ responses are
 distributed between positive and negative in relation to the media features:
@@ -1655,7 +1654,7 @@ From a qualitative point of view, these results show consensus in a few key aspe
 \begin{itemize}
  \item Teachers want to have support from their corresponding institution. This
    is probably due to the strict European data regulations and to avoid the
-   overhead required to sing up and deleting students from year to year.
+   overhead required to \textcolor{blue}{sign up new students every year}.
  \item Teachers need sustainability. The main reason is that implementing
    changes is expensive in terms of effort and prone to errors in the first
    years of implementing new procedures, therefore, it is logical that if
@@ -1682,12 +1681,12 @@ objectives by students.
 
 The key findings of this study shed the light on educators’ preference to use
 messaging applications that their institutions support.  Technology adoption
-literature often focus on users’ perceptions of the technology’s usefulness and
+literature often \textcolor{blue}{focuses} on users’ perceptions of the technology’s usefulness and
 ease of use as important prerequisites for successful adoption and
 utilization. Nevertheless, in higher education, institutions’ role in
 integrating these tools to their educational systems can improve the uptake of
 these applications and shape the social and educational experiences of their
-students.  This integration, to be fruitful, institutions have to ensure that
+students. \textcolor{blue}{To accomplish this fruitful integration}, institutions have to ensure that
 these messaging applications not only are GDPR compliant to keep students’ data
 secure but also should provide IT support to all stakeholders who use the
 applications.
