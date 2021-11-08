@@ -174,7 +174,23 @@
 \begin{abstractbox}
 
 \begin{abstract} % abstract
-Introducing new technologies such as messaging platforms, and the chatbots attached to them, in higher education, is rapidly growing. This introduction entails a careful consideration of the potential opportunities and/or challenges of adopting these tools. Hence, a thorough examination of the teachers’ experiences in this discipline can shed the light on the effective ways of enhancing students’ learning and boosting their progress. In this contribution, we have surveyed the opinions of tertiary education teachers based mainly in Spain and Spanish-speaking countries. The focus of these surveys is to collect teachers’ feedback about their opinions of the introduction of the messaging platforms and chatbots in their classes, understand their needs and to gather information about the various educational use cases where these tools are valuable. In addition, an analysis of how and when teachers’ opinions towards the use of these tools can vary across gender, experience, and their discipline of specialisation is presented. The key findings of this study highlight the factors that can contribute to the advancement of the adoption of messaging platforms and chatbots in higher education institutions to achieve the desired learning outcomes.
+Introducing new technologies such as messaging platforms, and the chatbots
+attached to them, in higher education, is rapidly growing. This introduction
+entails a careful consideration of the potential opportunities and/or challenges
+of adopting these tools. Hence, a thorough examination of the teachers’
+experiences in this discipline can shed the light on the effective ways of
+enhancing students’ learning and boosting their progress. In this contribution,
+we have surveyed the opinions of tertiary education teachers based mainly in
+Spain and Spanish-speaking countries. The focus of these surveys is to collect
+teachers’ feedback about their opinions of the introduction of the messaging
+platforms and chatbots in their classes, understand their needs and to gather
+information about the various educational use cases where these tools are
+valuable. In addition, an analysis of how and when teachers’ opinions towards
+the use of these tools can vary across gender, experience, and their discipline
+of specialisation is presented. The key findings of this study highlight the
+factors that can contribute to the advancement of the adoption of messaging
+platforms and chatbots in higher education institutions to achieve the desired
+learning outcomes.
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -295,41 +311,103 @@ freq.Discipline %>% mutate(Discipline = ifelse(as.character(Discipline) == "No",
 \section{Introduction}
 
 
-The introduction of new technologies in the classroom involves a combination of teacher training, student enthusiasm and possibly acquiring new skills by both. Some technologies are readily adopted, but others require longer time for full adoption. In most cases, the magnitude of the uptake of the new technology impinges on the collaboration of all the parties using it. Hence, examining the users’ opinions and 
-is an important first step in boosting this collaboration and reaping the benefits of the technology.  Recently, a surge in the use of synchronous instant messaging tools in higher education such as WhatsApp, Telegram and Facebook Messenger took place. Some messaging applications have built-in chatbots to support a synchronous conversation between the different parties \cite{differ.chat}, while other chatbots are developed as standalone systems and can possibly be attached to a messaging application using an API (Application Program Interface). 
+The introduction of new technologies in the classroom involves a combination of
+teacher training, student enthusiasm and possibly acquiring new skills by
+both. Some technologies are readily adopted, but others require longer time for
+full adoption. In most cases, the magnitude of the uptake of the new technology
+impinges on the collaboration of all the parties using it. Hence, examining the
+users’ opinions and is an important first step in boosting this collaboration
+and reaping the benefits of the technology.  Recently, a surge in the use of
+synchronous instant messaging tools in higher education such as WhatsApp,
+Telegram and Facebook Messenger took place. Some messaging applications have
+built-in chatbots to support a synchronous conversation between the different
+parties \cite{differ.chat}, while other chatbots are developed as standalone
+systems and can possibly be attached to a messaging application using an API
+(Application Program Interface).
 
-A \textit{chatbot} is a program, sometimes developed using Artificial Intelligence techniques, able to communicate in a similar way as humans do \cite{Gong2008}, using, in some cases, natural language. Indeed, most of these applications would be, apparently, close to passing a classic Turing test \cite{moor2003turing}, since they are able to answer almost any question fluently, and even pose own questions in their conversations. The recent advancement in this discipline has played an important role in many fields especially in education and online tutoring \cite{clarizia2018,Smutny2020}. These automatic systems facilitate the delivery of personalized learning by adapting to students’ pace of learning and providing customized online tutoring outside the classroom. Thus, chatbots can significantly contribute to providing interactive learning experiences as well as improving individual attention \cite{agarwal2020}.
- In this sense, chatbot technology offers a great opportunity for the improvement of tutoring systems \cite{Daniel2016,agarwal2020}, as not all students are comfortable with face-to-face tutoring with the instructor. In fact, in many cases, some students experience stress because of their need to ask a question in front of the entire class. This is why many students resort to silence  
- % Antonio - I guess refrain to silence is the opposite of what we wanted to say, isn't it? :D
- % mistaking "resort" for "refrain". You don't say "refrain to", but refrain from.
- in the classroom and tend to contact their teachers later via email.
- Consequently, this can lead to not only a delay in obtaining answers to their questions but can also cause a significant increase in their teachers’ workload, especially when factoring in the disproportion between the class size and the number of teachers. Hence, the chatbot technology has a potential to mitigate this problem by providing answers to students’ questions and facilitating a dynamic and autonomous learning experience \cite{Griol2014,kim2020}. In addition, using an automated system such as a chatbot, can draw teachers’ attention to topics that students struggle to comprehend or need further assistance in understanding.
+A \textit{chatbot} is a program, sometimes developed using Artificial
+Intelligence techniques, able to communicate in a similar way as humans do
+\cite{Gong2008}, using, in some cases, natural language. Indeed, most of these
+applications would be, apparently, close to passing a classic Turing test
+\cite{moor2003turing}, since they are able to answer almost any question
+fluently, and even pose own questions in their conversations. The recent
+advancement in this discipline has played an important role in many fields
+especially in education and online tutoring
+\cite{clarizia2018,Smutny2020}. These automatic systems facilitate the delivery
+of personalized learning by adapting to students’ pace of learning and providing
+customized online tutoring outside the classroom. Thus, chatbots can
+significantly contribute to providing interactive learning experiences as well
+as improving individual attention \cite{agarwal2020}.  In this sense, chatbot
+technology offers a great opportunity for the improvement of tutoring systems
+\cite{Daniel2016,agarwal2020}, as not all students are comfortable with
+face-to-face tutoring with the instructor. In fact, in many cases, some students
+experience stress because of their need to ask a question in front of the entire
+class. This is why many students resort to silence in the classroom and tend to
+contact their teachers later via email.  Consequently, this can lead to not only
+a delay in obtaining answers to their questions but can also cause a significant
+increase in their teachers’ workload, especially when factoring in the
+disproportion between the class size and the number of teachers. Hence, the
+chatbot technology has a potential to mitigate this problem by providing answers
+to students’ questions and facilitating a dynamic and autonomous learning
+experience \cite{Griol2014,kim2020}. In addition, using an automated system such
+as a chatbot, can draw teachers’ attention to topics that students struggle to
+comprehend or need further assistance in understanding.
 
-Given the potential benefits that chatbots could bring to the classroom, the focus of the 
-% EDUBOTS KA2 European project \footnote{https://www.edubots.eu}, 
-{\sf anonymized European Project}, the sponsor of this study, is to gather, analyse and disseminate best practices on the use of chatbots in higher education institutions.
+Given the potential benefits that chatbots could bring to the classroom, the
+focus of the
+% EDUBOTS KA2 European project \footnote{https://www.edubots.eu},
+{\sf anonymized European Project}, the sponsor of this study, is to gather,
+analyse and disseminate best practices on the use of chatbots in higher
+education institutions.
 
- The line of research of which this paper is a part has involved two phases of data collection.
+ The line of research of which this paper is a part has involved two phases of
+ data collection.
  \begin{itemize}
-\item The first phase aimed to collect feedback from students about their actual needs \cite{MoraChatbots2021:anon}. Hence, the objective was to collect information about students’ preferences of tools/applications for chatting and messaging, how they use them in educational context, who do they like to be with in the class messaging groups, and their expectations of the chatbots in terms of assisting them during their learning process. Therefore, two surveys for bachelor and master degree students at the University of Granada (Spain) were designed and answers from more than 250 students were collected. The key findings of the students' surveys reveal that they prefer to use messaging applications, such as Telegram or WhatsApp as they are familiar to them. Students also expressed interest in chatbots that can assist them with organizing their course schedules, help them access their assignment grades and facilitate searching for course's resources. 
-\item The results of the first phase were fed into the second phase of the study, which focused on teachers’ opinions about using chatbots and messaging applications in classes. This is what is going to be presented in this paper.
+\item The first phase aimed to collect feedback from students about their actual
+  needs \cite{MoraChatbots2021:anon}. Hence, the objective was to collect
+  information about students’ preferences of tools/applications for chatting and
+  messaging, how they use them in educational context, who do they like to be
+  with in the class messaging groups, and their expectations of the chatbots in
+  terms of assisting them during their learning process. Therefore, two surveys
+  for bachelor and master degree students at the University of Granada (Spain)
+  were designed and answers from more than 250 students were collected. The key
+  findings of the students' surveys reveal that they prefer to use messaging
+  applications, such as Telegram or WhatsApp as they are familiar to
+  them. Students also expressed interest in chatbots that can assist them with
+  organizing their course schedules, help them access their assignment grades
+  and facilitate searching for course's resources.
+\item The results of the first phase were fed into the second phase of the
+  study, which focused on teachers’ opinions about using chatbots and messaging
+  applications in classes. This is what is going to be presented in this paper.
 \end{itemize}
 
-Initially, a single survey was developed for this purpose and responses from 300 higher education teachers were collected and analysed. 
-The responses' analysis entailed the creation of a second survey to which 200 teachers' responses were collected. The questions of the second 
-survey focussed on discussing teachers' needs, opinions and preferences of the development of future technology-enhanced tools 
-and its potential impact on educational institutions’ policies. Therefore, this paper investigated the following research questions:
+Initially, a single survey was developed for this purpose and responses from 300
+higher education teachers were collected and analysed.  The responses' analysis
+entailed the creation of a second survey to which 200 teachers' responses were
+collected. The questions of the second survey focussed on discussing teachers'
+needs, opinions and preferences of the development of future technology-enhanced
+tools and its potential impact on educational institutions’ policies. Therefore,
+this paper investigated the following research questions:
 
 \begin{itemize}
-\item RQ1 - Are teachers already using messaging apps in their classes? 
-\item RQ2 - Which chatbots' features would teachers find useful in their classes? 
+\item RQ1 - Are teachers already using messaging apps in their classes?
+\item RQ2 - Which chatbots' features would teachers find useful in their
+  classes?
 \item RQ3 - Which kind of interaction do teachers prefer with their students?
 \item RQ4 - What kind of interaction media features do teachers value the most?
 \end{itemize}
 
-We will try to answer these questions through the analysis of questions and answers in the two surveys. Eventually, what we want to obtain is a series of recommendations to make a successful deployment of chatbot technologies (and, in some cases, general instant messaging applications) in higher education.
+We will try to answer these questions through the analysis of questions and
+answers in the two surveys. Eventually, what we want to obtain is a series of
+recommendations to make a successful deployment of chatbot technologies (and, in
+some cases, general instant messaging applications) in higher education.
 
-The remainder of the paper is organized as follows: Next is an overview of what current research has found about the use of messaging applications, including chatbots, in the classroom. The methodology used in the surveys is presented in Section \ref{sec:meth}, and the results of the surveys are presented next in Section \ref{sec:res}. Finally, we discuss these results and conclude with a series of recommendations in the section that closes the paper.
+The remainder of the paper is organized as follows: Next is an overview of what
+current research has found about the use of messaging applications, including
+chatbots, in the classroom. The methodology used in the surveys is presented in
+Section \ref{sec:meth}, and the results of the surveys are presented next in
+Section \ref{sec:res}. Finally, we discuss these results and conclude with a
+series of recommendations in the section that closes the paper.
 
 
 % ********************** STATE OF THE ART ****************************
@@ -346,137 +424,150 @@ higher education can facilitate the delivery of personalised learning
 that occurs anytime anywhere, promote collaborative learning
 experiences and group discussions \cite{panah2020study}.
 
-WhatsApp is, at least in most Western countries,
-the most popular MIM platform used by educators to give assignments'
-feedback to students, support course discussions, and provide learning
-resources in informal learning settings \cite{panah2020study}.  Moreover, the
-use of WhatsApp in higher education could enhance social presence
-\cite{tang2017mobile} and foster trust relationships between educators
-and students embedded in the social learning process
+WhatsApp is, at least in most Western countries, the most popular MIM platform
+used by educators to give assignments' feedback to students, support course
+discussions, and provide learning resources in informal learning settings
+\cite{panah2020study}.  Moreover, the use of WhatsApp in higher education could
+enhance social presence \cite{tang2017mobile} and foster trust relationships
+between educators and students embedded in the social learning process
 \cite{gachago2015crossing}; however, this last paper also reflects the need for
 learners to ``take ownership of the tool'' and the advantages of social learning
 in general. At the same time, it also mentions different challenges, among which
 the most important is the blurring of social and academic life. Examining these
 opinions will be the objective of RQ3 in this paper.
 
-Nevertheless, there are challenges when using MIM tools that occur due
-to the blurring of boundaries between academic and private life. This
-can lead to technostress \cite{gachago2015crossing}, difficulty in
-managing responsibilities, especially among mature students, and lack of
-privacy \cite{tang2017mobile}.  Students' dropout of the MIM groups,
-as they can leave groups at any time, can hinder their learning and
-undermine educators' efforts \cite{mwakapina2016whatsapp}.  In
-addition, there is a need to set rules and norms for these MIM groups
-in order to maintain the safety of these online communities for
-students \cite{abbas2021onlinechat}. However, these rules should not affect students'
-ownership and control, since it is vital to advance in their learning
-\cite{gachago2015crossing} process. 
-This is why examining the role of MIM in higher education is still a challenge,
-and why the opinions of the teaching community towards them have to be
-examined, as we do in this paper.
+Nevertheless, there are challenges when using MIM tools that occur due to the
+blurring of boundaries between academic and private life. This can lead to
+technostress \cite{gachago2015crossing}, difficulty in managing
+responsibilities, especially among mature students, and lack of privacy
+\cite{tang2017mobile}.  Students' dropout of the MIM groups, as they can leave
+groups at any time, can hinder their learning and undermine educators' efforts
+\cite{mwakapina2016whatsapp}.  In addition, there is a need to set rules and
+norms for these MIM groups in order to maintain the safety of these online
+communities for students \cite{abbas2021onlinechat}. However, these rules should
+not affect students' ownership and control, since it is vital to advance in
+their learning \cite{gachago2015crossing} process.  This is why examining the
+role of MIM in higher education is still a challenge, and why the opinions of
+the teaching community towards them have to be examined, as we do in this paper.
 
 % The Use of Chatbots in Higher Education
-The use of MIM, although possibly valuable by itself, can be enhanced via the use of chatbots, which, being conversational agents, usually dwell
-in systems where synchronous conversations take place. 
-The use of conversational agents (chatbots) in higher education is
-still at its infancy \cite{yang2019opportunities}. Nevertheless,
-recent studies examining their positive impact on students' academic
-performance \cite{perez2020rediscovering} and engagement
-\cite{differ.chat,abbas2021onlinechat} have led to a growing interest
-in using this technology in the (possibly virtual) classroom. Indeed, the use of chatbots in
-collecting course feedback from students in higher education improved
-students' response quality and boosted their enjoyment levels
-\cite{abbas2021Surveys}.  According to \cite{Roblyer2010}, using
-either tools such as mobile devices or teaching strategies based on
-gamification \cite{Yildirim2017} can improve student motivation. In
-this sense, the authors in \cite{Pimmer2019} adopted a quasi-experimental, survey-based approach to
-report the positive impact of using instant messaging tools in boosting students' knowledge and mitigating their feelings of isolation.
+The use of MIM, although possibly valuable by itself, can be enhanced via the
+use of chatbots, which, being conversational agents, usually dwell in systems
+where synchronous conversations take place.  The use of conversational agents
+(chatbots) in higher education is still at its infancy
+\cite{yang2019opportunities}. Nevertheless, recent studies examining their
+positive impact on students' academic performance \cite{perez2020rediscovering}
+and engagement \cite{differ.chat,abbas2021onlinechat} have led to a growing
+interest in using this technology in the (possibly virtual) classroom. Indeed,
+the use of chatbots in collecting course feedback from students in higher
+education improved students' response quality and boosted their enjoyment levels
+\cite{abbas2021Surveys}.  According to \cite{Roblyer2010}, using either tools
+such as mobile devices or teaching strategies based on gamification
+\cite{Yildirim2017} can improve student motivation. In this sense, the authors
+in \cite{Pimmer2019} adopted a quasi-experimental, survey-based approach to
+report the positive impact of using instant messaging tools in boosting
+students' knowledge and mitigating their feelings of isolation.
 
-Several higher education chatbots' evaluation studies have been 
-undertaken. For instance, a recent evaluation review study presented by Smutny and Schreiberova 
-\cite{Smutny2020} examined 47 educational chatbots implemented in
-Facebook Messenger with the focus to identify characteristics and
-quality metrics such as language, subject matter and platform. 
-Whereas the study undertaken by \cite{perez2020rediscovering} aimed to categorise educational chatbots according to their
-purpose into service-oriented and teaching-oriented. The first category includes those that
-provide service support such as the chatbot Ask Holly \cite{meetholly}
-and Dina \cite{santoso2018dinus}; both chatbots respond to students'
-questions about enrolment and registration. Ask L. U.
- \cite{LancasterUniversity_2019} answers students' frequently
-asked questions about timetables, grades, tutors and societies. LISA
-\cite{dibitonto2018chatbot} and Differ \cite{differ.chat} facilitate
-breaking the ice between new students by introducing them to each
-other. Ranoliya et al. \cite{ranoliya2017chatbot} proposed a generic chatbot for
-university students that is able to answer to their frequently asked
-questions. 
-For some time, the University of Granada had ELVIRA as a
-chatbot in its main web page \cite{MOREO20129}. Besides being able to
-answer pre-established (frequent) questions, it did so from the website of the
-University of Granada using an inset character, voiced by a real
-person, who lip-synced the answers. The emphasis in the case of Elvira,
-however, was on the authenticity of the synchronization more than in
-making the update of questions and answers simpler, or more
-interactive, using actual messaging platforms. 
-In most cases, using the inset search engine was able to give you more up-to-date and
-accurate answers than the ones provided by ELVIRA, which had to be updated by hand (and not too often).
+Several higher education chatbots' evaluation studies have been undertaken. For
+instance, a recent evaluation review study presented by Smutny and Schreiberova
+\cite{Smutny2020} examined 47 educational chatbots implemented in Facebook
+Messenger with the focus to identify characteristics and quality metrics such as
+language, subject matter and platform.  Whereas the study undertaken by
+\cite{perez2020rediscovering} aimed to categorise educational chatbots according
+to their purpose into service-oriented and teaching-oriented. The first category
+includes those that provide service support such as the chatbot Ask Holly
+\cite{meetholly} and Dina \cite{santoso2018dinus}; both chatbots respond to
+students' questions about enrolment and registration. Ask L. U.
+\cite{LancasterUniversity_2019} answers students' frequently asked questions
+about timetables, grades, tutors and societies. LISA \cite{dibitonto2018chatbot}
+and Differ \cite{differ.chat} facilitate breaking the ice between new students
+by introducing them to each other. Ranoliya et al. \cite{ranoliya2017chatbot}
+proposed a generic chatbot for university students that is able to answer to
+their frequently asked questions.  For some time, the University of Granada had
+ELVIRA as a chatbot in its main web page \cite{MOREO20129}. Besides being able
+to answer pre-established (frequent) questions, it did so from the website of
+the University of Granada using an inset character, voiced by a real person, who
+lip-synced the answers. The emphasis in the case of Elvira, however, was on the
+authenticity of the synchronization more than in making the update of questions
+and answers simpler, or more interactive, using actual messaging platforms.  In
+most cases, using the inset search engine was able to give you more up-to-date
+and accurate answers than the ones provided by ELVIRA, which had to be updated
+by hand (and not too often).
 
-On the other hand, teaching-oriented chatbots are more sophisticated,
-as they set personalised learning outcomes and monitor learning
-progress. For instance, \cite{fernoagua2018intelligent} reported on
-``eduAssistant'', a virtual teaching assistant chatbot developed on the
-Telegram messaging platform. In this study, Telegram platform was
-chosen because it is easy to use, students are familiar with its
-features, and it enables them to exchange messages in different
-formats (text, audio and video) \cite{fernoagua2018intelligent}. In
-addition, Telegram could operate on all devices and operating
-systems. The ``eduAssistant'' chatbot acts as an automatic agent
-in teacher-content-student, facilitating real-time feedback
-loops and providing a personalised learning experience relevant to the
+On the other hand, teaching-oriented chatbots are more sophisticated, as they
+set personalised learning outcomes and monitor learning progress. For instance,
+\cite{fernoagua2018intelligent} reported on ``eduAssistant'', a virtual teaching
+assistant chatbot developed on the Telegram messaging platform. In this study,
+Telegram platform was chosen because it is easy to use, students are familiar
+with its features, and it enables them to exchange messages in different formats
+(text, audio and video) \cite{fernoagua2018intelligent}. In addition, Telegram
+could operate on all devices and operating systems. The ``eduAssistant'' chatbot
+acts as an automatic agent in teacher-content-student, facilitating real-time
+feedback loops and providing a personalised learning experience relevant to the
 students' acquired skills and knowledge. Using this chatbot, educators can
-create interactive instances in their lectures where they pose
-questions to their students and the chatbot assists those who need
-further help by giving them more hints and reporting it to their
-educator's dashboard \cite{fernoagua2018intelligent}. This can help 
-educators to locate those students that need their attention and send to 
-them more educational resources relevant to their academic attainment.
+create interactive instances in their lectures where they pose questions to
+their students and the chatbot assists those who need further help by giving
+them more hints and reporting it to their educator's dashboard
+\cite{fernoagua2018intelligent}. This can help educators to locate those
+students that need their attention and send to them more educational resources
+relevant to their academic attainment.
 
-Despite its (arguably) successful implementation in different higher education institutions, 
-over all in the fringes of educational activity, not in the actual interaction student-teacher, its implementation or deployment is not trivial.
-Some authors, for instance \cite{sjostrom2018designing} have proposed a conceptual
-architecture for the adoption of teaching-oriented chatbots in higher education.  This
-conceptual architecture is based on a systematic literature review of
-previous studies, examining the design of chatbots in higher education, as well as making a content 
-analysis of student emails and discussion forum posts of
-four instances of a Java programming course.  The study outlined
-several design considerations; among them, the authors emphasised the
-importance of developing chatbots in platforms that students and
-educators are familiar with and can easily access (i.e. Facebook
-Messenger) which was confirmed with \cite{hobert2019you} and
-\cite{fernoagua2018intelligent} studies. In addition, Sj{\"o}str{\"o}m et al. \cite{sjostrom2018designing} 
-argued that a conceptualisation of learners' questions could aid designers in integrating the appropriate
-types of questions that the chatbots should support for different
-courses.  Coronado et al. \cite{coronado2018cognitive} proposed agents that store
-learning materials to be provided on demand to students, whereas the authors in
-\cite{crockett2017predicting} reported on tutoring systems,
-which can perform initial assessments of students' understanding and
-provide learning material that would advance their understanding to
-the next level.
+Despite its (arguably) successful implementation in different higher education
+institutions, over all in the fringes of educational activity, not in the actual
+interaction student-teacher, its implementation or deployment is not trivial.
+Some authors, for instance \cite{sjostrom2018designing} have proposed a
+conceptual architecture for the adoption of teaching-oriented chatbots in higher
+education.  This conceptual architecture is based on a systematic literature
+review of previous studies, examining the design of chatbots in higher
+education, as well as making a content analysis of student emails and discussion
+forum posts of four instances of a Java programming course.  The study outlined
+several design considerations; among them, the authors emphasised the importance
+of developing chatbots in platforms that students and educators are familiar
+with and can easily access (i.e. Facebook Messenger) which was confirmed with
+\cite{hobert2019you} and \cite{fernoagua2018intelligent} studies. In addition,
+Sj{\"o}str{\"o}m et al. \cite{sjostrom2018designing} argued that a
+conceptualisation of learners' questions could aid designers in integrating the
+appropriate types of questions that the chatbots should support for different
+courses.  Coronado et al. \cite{coronado2018cognitive} proposed agents that
+store learning materials to be provided on demand to students, whereas the
+authors in \cite{crockett2017predicting} reported on tutoring systems, which can
+perform initial assessments of students' understanding and provide learning
+material that would advance their understanding to the next level.
 
-Regarding the factors for the adoption of chatbots in higher
-education, many studies have focused on the evaluation of technology
-acceptance and usability \cite{Roblyer2010,Pimmer2019}. However,
-higher education is a special domain where, according to Hobert \cite{hobert2019you}, 
-specific pedagogical factors such as learning success or increased motivation are more important.  
-Therefore, to develop efficient chatbots for higher education, all stakeholders'
-(i.e. educators, students, institutions, etc) needs should be
-carefully collected and taken into consideration
+Regarding the factors for the adoption of chatbots in higher education, many
+studies have focused on the evaluation of technology acceptance and usability
+\cite{Roblyer2010,Pimmer2019}. However, higher education is a special domain
+where, according to Hobert \cite{hobert2019you}, specific pedagogical factors
+such as learning success or increased motivation are more important.  Therefore,
+to develop efficient chatbots for higher education, all stakeholders'
+(i.e. educators, students, institutions, etc) needs should be carefully
+collected and taken into consideration
 \cite{sjostrom2018designing,tsivitanidouusers}.
 
-Along this line of research, our previous work \cite{MoraChatbots2021:anon} aimed at analysing the expectations of students on this regard; recent papers have also analysed how the use of chatbots affected the learning outcomes of students in a Chinese class \cite{doi:10.1177/0735633120929622}. This paper analysed conversational chatbots in an one-to-one setting, finding that learning really benefited from it. This is, once again, a proof of the benefit of chatbots in certain settings; however, there are some opinions that might prevent the successful acceptance of the technology, and these are what we are trying to find out in this paper, together with what kind of features would make its acceptance better.
+Along this line of research, our previous work \cite{MoraChatbots2021:anon}
+aimed at analysing the expectations of students on this regard; recent papers
+have also analysed how the use of chatbots affected the learning outcomes of
+students in a Chinese class \cite{doi:10.1177/0735633120929622}. This paper
+analysed conversational chatbots in an one-to-one setting, finding that learning
+really benefited from it. This is, once again, a proof of the benefit of
+chatbots in certain settings; however, there are some opinions that might
+prevent the successful acceptance of the technology, and these are what we are
+trying to find out in this paper, together with what kind of features would make
+its acceptance better.
 
-Besides, the present work is focused on the other key actor in this challenge, i.e. educators. Their attitudes have been studied very recently by Chocarro et al. \cite{doi:10.1080/03055698.2020.1850426}, who, by analysing surveys, created a {\em technology acceptance model} that proposed a series of features that would make chatbots easier to accept; among them, formality of language as well as easiness and usefulness. The survey targeted primary and secondary education teachers, and was also more interested in the general use of chatbots in education, not specifically in a classroom setting, seeking educational outcomes. However, they establish a series of results that are obviously interesting and relevant for this work.
+Besides, the present work is focused on the other key actor in this challenge,
+i.e. educators. Their attitudes have been studied very recently by Chocarro et
+al. \cite{doi:10.1080/03055698.2020.1850426}, who, by analysing surveys, created
+a {\em technology acceptance model} that proposed a series of features that
+would make chatbots easier to accept; among them, formality of language as well
+as easiness and usefulness. The survey targeted primary and secondary education
+teachers, and was also more interested in the general use of chatbots in
+education, not specifically in a classroom setting, seeking educational
+outcomes. However, they establish a series of results that are obviously
+interesting and relevant for this work.
 
-We will present next the methodology we have followed to find out teachers' opinions.
+We will present next the methodology we have followed to find out teachers'
+opinions.
 
 
 % ********************** METHODOLOGY ****************************
@@ -484,16 +575,35 @@ We will present next the methodology we have followed to find out teachers' opin
 \section{Methodology}
 \label{sec:meth}
 
-Our intention from the beginning was to try to gather a sufficient amount of responses in all sectors, as well as cover different sectors of higher education. In doing so, an online survey was administered (i.e., Google Form), in Spanish, which was intended to be answered in a very short amount of time. Initially, our intention was to mirror the questions used in \cite{MoraChatbots2021:anon}; 
-% Antonio - I would say something like: "but from teachers' perspective"
-however, an initial exploration of results led us to create a second survey. The survey items focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers consider useful to be used in their teaching, and the type of interactions that teachers prefer to have with their students while using messaging apps in their teaching. 
+Our intention from the beginning was to try to gather a sufficient amount of
+responses in all sectors, as well as cover different sectors of higher
+education. In doing so, an online survey was administered (i.e., Google Form),
+in Spanish, which was intended to be answered in a very short amount of
+time. Initially, our intention was to mirror the questions used in
+\cite{MoraChatbots2021:anon}; however, an initial exploration of results led us
+to create a second survey. The survey items focused on the use of messaging apps
+in the teaching practice, the type of chatbot use cases that teachers consider
+useful to be used in their teaching, and the type of interactions that teachers
+prefer to have with their students while using messaging apps in their teaching.
 
-% Move a part of this to an appendix: Noorhan
-The {\bf initial survey} was done in two separate Google forms, one for university and other for tertiary non-university teachers. Questions and responses were the same, except for the type of tertiary degrees that were taught. In both cases, we used mainly mailing lists, as well as Telegram groups, to spread the link to the form. The university form was spread in Spanish (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and Mexico. The tertiary non-university teachers are based mainly in Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of 2021, post-pandemic and while, at least in Spain, many universities had mandatory virtual teaching. 
+The {\bf initial survey} was done in two separate Google forms, one for
+university and other for tertiary non-university teachers. Questions and
+responses were the same, except for the type of tertiary degrees that were
+taught. In both cases, we used mainly mailing lists, as well as Telegram groups,
+to spread the link to the form. The university form was spread in Spanish
+(mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and
+Mexico. The tertiary non-university teachers are based mainly in
+Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of
+2021, post-pandemic and while, at least in Spain, many universities had
+mandatory virtual teaching.
 
-A total of 282 teachers responded to the survey: 193 teaching at the University (68.4\%) and 89 at other tertiary education institutions (31.6\%). Survey questions are shown in \ref{app:questions}.
+A total of 282 teachers responded to the survey: 193 teaching at the University
+(68.4\%) and 89 at other tertiary education institutions (31.6\%). Survey
+questions are shown in \ref{app:questions}.
 
-Responses were stored automatically in a Google Drive spreadsheet. Eventually, the results from the two forms we used for the first survey were collated in a single spreadsheet. Next we will show the results and analyse them.
+Responses were stored automatically in a Google Drive spreadsheet. Eventually,
+the results from the two forms we used for the first survey were collated in a
+single spreadsheet. Next we will show the results and analyse them.
 
 % ********************** RESULTS ****************************
 
@@ -501,7 +611,16 @@ Responses were stored automatically in a Google Drive spreadsheet. Eventually, t
 \label{sec:res}
 
 % Describe the survey and population
-We collected responses from 282 teachers from Spain and Spanish Speaking countries for \textit{survey1} and 205 for \textit{survey2}. The two forms were open for approximately the same amount of time, around two months. The sample includes mostly teachers from university, although about 32\% and 8\% are from vocational education in the first and second survey respectively. Regarding gender, 61\% of the teachers were male and 32\% female, while approximately 5\% chose not to disclose it. Finally, the responses are more or less equally distributed according to the teaching experience, showing 24\% of responses from teachers with 5 or less years of experience, 26\% for 6-15 years of experience, 30\% for 16-25, and 20\% for teachers with more than 25 years of experience.
+We collected responses from 282 teachers from Spain and Spanish Speaking
+countries for \textit{survey1} and 205 for \textit{survey2}. The two forms were
+open for approximately the same amount of time, around two months. The sample
+includes mostly teachers from university, although about 32\% and 8\% are from
+vocational education in the first and second survey respectively. Regarding
+gender, 61\% of the teachers were male and 32\% female, while approximately 5\%
+chose not to disclose it. Finally, the responses are more or less equally
+distributed according to the teaching experience, showing 24\% of responses from
+teachers with 5 or less years of experience, 26\% for 6-15 years of experience,
+30\% for 16-25, and 20\% for teachers with more than 25 years of experience.
 
 % \begin{figure}[h!tbp]
 % \begin{center}
@@ -599,7 +718,8 @@ We collected responses from 282 teachers from Spain and Spanish Speaking countri
 % \label{figure:age.vs.exp}
 % \end{figure}
 
-We will try to find the answers to the four research questions next, by analysing the response to the different survey questions.
+We will try to find the answers to the four research questions next, by
+analysing the response to the different survey questions.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -609,14 +729,37 @@ We will try to find the answers to the four research questions next, by analysin
 
 
 %Why messaging apps are relevant here --> connect to the development of chatbots
-Group messaging apps have become a powerful tool for keeping touch with students. Also, many of them have built-in chatbots 
-to enhance the learning process. After an initial analysis to the answers to the first survey, 
-we realized that there were some prior issues mainly related to the adoption of a technology, chatbots, that generally 
-piggybacks on another, messaging applications. In a technology adoption model, perceived ease of use and perceived usefulness are essential. But it is going to be very difficult for teachers to find {\em chatbots} easy to use if they, previously, do not consider, or simply use, the messaging tools to which they are attached.
+Group messaging apps have become a powerful tool for keeping touch with
+students. Also, many of them have built-in chatbots to enhance the learning
+process. After an initial analysis to the answers to the first survey, we
+realized that there were some prior issues mainly related to the adoption of a
+technology, chatbots, that generally piggybacks on another, messaging
+applications. In a technology adoption model, perceived ease of use and
+perceived usefulness are essential. But it is going to be very difficult for
+teachers to find {\em chatbots} easy to use if they, previously, do not
+consider, or simply use, the messaging tools to which they are attached.
 
-This is why for answering RQ1, teachers were queried about whether they use messaging apps in their classes, specifically, Telegram, WhatsApp, Slack (an application used mainly in IT departments and software development), or any other messaging app, and whether they use messaging apps provided by their academic institution (see Table \ref{tab:use_messapps}). In this case, it is maybe in order a certain clarification. While we had in mind, as indicated by the possible answers, instant messaging applications when making this question, we included these institution-provided applications mainly for completion. But it should be noted that, in most cases, they are not {\em instant} messaging apps in the way Telegram or Facebook Messenger are; in most cases they are messaging facilities provided by learning management systems such as (usually) Moodle. So the answer to this question must be understood in two different ways: their preference for the {\em source} of the technology (university, any company) as well as the {\em type} of technology (instant, app based messaging systems vs. web-based systems integrated in another learning management system).
+This is why for answering RQ1, teachers were queried about whether they use
+messaging apps in their classes, specifically, Telegram, WhatsApp, Slack (an
+application used mainly in IT departments and software development), or any
+other messaging app, and whether they use messaging apps provided by their
+academic institution (see Table \ref{tab:use_messapps}). In this case, it is
+maybe in order a certain clarification. While we had in mind, as indicated by
+the possible answers, instant messaging applications when making this question,
+we included these institution-provided applications mainly for completion. But
+it should be noted that, in most cases, they are not {\em instant} messaging
+apps in the way Telegram or Facebook Messenger are; in most cases they are
+messaging facilities provided by learning management systems such as (usually)
+Moodle. So the answer to this question must be understood in two different ways:
+their preference for the {\em source} of the technology (university, any
+company) as well as the {\em type} of technology (instant, app based messaging
+systems vs. web-based systems integrated in another learning management system).
 
-Overall, the majority of the teachers responded that they do use messaging apps in their classrooms, from which apps provided by the academic institution (n=159, 56\%) and WhatsApp (n=124, 44.0\%) were the most common responses. Only 19 teachers (6.7\%) replied that they do not use any messaging app in their class. %Remember to add something to the discussion below - JJ
+Overall, the majority of the teachers responded that they do use messaging apps
+in their classrooms, from which apps provided by the academic institution
+(n=159, 56\%) and WhatsApp (n=124, 44.0\%) were the most common responses. Only
+19 teachers (6.7\%) replied that they do not use any messaging app in their
+class.
 %
 \begin{table}[h!tbp]
 \begin{tabular}{lllll}
@@ -636,12 +779,30 @@ None & 19 & 6.7 & 263 & 93.3 \\ \hline
 \end{table}
 
 % Fran: I think figures with data about the use of messaging apps should come here. Then, we say we also asked about changes after covid and include data about that
-Results in Figs. \ref{figure:provided*chatbots_use}, \ref{figure:whatsapp*chatbots_use}, \ref{figure:telegram*chatbots_use} do not show significant differences in the use of instant messaging apps between teachers from University and vocational education. In general, most teachers prefer messaging apps provided by their own institutions (we also show the results for the two most popular messaging app platforms: WhatsApp and Telegram). With respect to specific disciplines, Engineering and Technology teachers are more active in their use, although it is also relevant the amount of teachers from Humanities that answered they used these apps in their classes (around 60\% use the apps provided by their institutions). 
+Results in Figs. \ref{figure:provided*chatbots_use},
+\ref{figure:whatsapp*chatbots_use}, \ref{figure:telegram*chatbots_use} do not
+show significant differences in the use of instant messaging apps between
+teachers from University and vocational education. In general, most teachers
+prefer messaging apps provided by their own institutions (we also show the
+results for the two most popular messaging app platforms: WhatsApp and
+Telegram). With respect to specific disciplines, Engineering and Technology
+teachers are more active in their use, although it is also relevant the amount
+of teachers from Humanities that answered they used these apps in their classes
+(around 60\% use the apps provided by their institutions).
 
-Although no significant differences were found regarding gender, female teachers answered they use instant messaging apps more than male teachers (about 10\% more). Also, teachers in vocational Education use WhatsApp more than university teachers.
-Regarding the distribution of the use of messaging apps per age, there are no significant differences for WhatsApp and apps provided by their own academic institutions. % Olia requests support for this.
-However, younger teachers also use Telegram with more than 25\%, a percentage that falls to about 10\% for teachers that are 55 or older. %The third column compares the use of these apps considering the number of years of experience. 
-One interesting result is that about 65\% of teachers with more than 25 years of experience use the platforms provided by their institutions while the percentage goes down to less than 50\% for teachers with 6-15 years of experience.
+Although no significant differences were found regarding gender, female teachers
+answered they use instant messaging apps more than male teachers (about 10\%
+more). Also, teachers in vocational Education use WhatsApp more than university
+teachers. Regarding the distribution of the use of messaging apps per age, there
+are no significant differences for WhatsApp and apps provided by their own
+academic institutions. % Olia requests support for this. 
+However, younger teachers also use Telegram with more than 25\%, a percentage
+that falls to about 10\% for teachers that are 55 or older. %The third column
+                                %compares the use of these apps considering the
+                                %number of years of experience.
+One interesting result is that about 65\% of teachers with more than 25 years of
+experience use the platforms provided by their institutions while the percentage
+goes down to less than 50\% for teachers with 6-15 years of experience.
 %
 \begin{figure}[h!tbp]
 \begin{center}
@@ -762,11 +923,22 @@ ggplot(survey.pilot.Discipline, aes(x = MessagingPlatformTelegram, group = Disci
 \end{figure}
 
 % This is about changes (due to) after covid
-Some of the questions in the survey were focused on the impact of the COVID19 pandemic between 2020 and 2021, in the teachers' viewpoints towards the use of instant messaging apps in their class. Our main intention in this case was to assess whether a crisis will bring about some kind of change in the use of tools.
-The 282 
-% Fran, please check Olia's comment as having 282 answers 
-% -> I did remove some responses that Olia considered 'No' by default (i guess). I' ll keep it to 282 to be consistent
-answers are summarized in Figs. \ref{figure:gender*chatbots_use_postcovid}, \ref{figure:sector*chatbots_use_postcovid}, \ref{figure:years*chatbots_use_postcovid}, \ref{figure:disc*chatbots_use_postcovid}, showing that about 77\% of teachers already used these tools before the pandemic and kept using them during the pandemic lockdowns that forced students and educators to use remote education schemes. Moreover, approximately 15\% of them switched their messaging app for one that offered a safer interaction with their students. According to the responses, an additional 16\% started using messaging apps during the pandemic for the first time in their classes. Aggregating the answers, currently 91\% of the teachers are using messaging apps as learning tools. 
+Some of the questions in the survey were focused on the impact of the COVID19
+pandemic between 2020 and 2021, in the teachers' viewpoints towards the use of
+instant messaging apps in their class. Our main intention in this case was to
+assess whether a crisis will bring about some kind of change in the use of
+tools. The 282 answers are summarized in
+Figs. \ref{figure:gender*chatbots_use_postcovid},
+\ref{figure:sector*chatbots_use_postcovid},
+\ref{figure:years*chatbots_use_postcovid},
+\ref{figure:disc*chatbots_use_postcovid}, showing that about 77\% of teachers
+already used these tools before the pandemic and kept using them during the
+pandemic lockdowns that forced students and educators to use remote education
+schemes. Moreover, approximately 15\% of them switched their messaging app for
+one that offered a safer interaction with their students. According to the
+responses, an additional 16\% started using messaging apps during the pandemic
+for the first time in their classes. Aggregating the answers, currently 91\% of
+the teachers are using messaging apps as learning tools.
 %A few relevant facts from the collected data: teachers with 16-25 years of experience seem more worried about the security of messaging apps and teachers with up to 5 years of experience were more open to adopt messaging apps due to the pandemic; female teachers were more willing to adopt new platforms due to the pandemic, and even to start using safer alternatives; finally, university teachers that did not use them were more reluctant to start using them after the pandemic.
 \begin{figure}[h!tbp]
 \begin{center}
@@ -905,7 +1077,19 @@ Total & & 99 &  53&  32&  16&  5&  72&  5&  282\\ \hline
 %The relationships between changes in the use of messaging apps, due to the covid-19 pandemic, and the instructors’ discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, $p= 0.039$ were also significant.
 
 % Olia - TODO: check for repetitions in the following paragraph that you added. thank you.
-Finally, we took a closer look at the post-covid changes and the variables gender, sector, and discipline for which the chi-square test is statistically significant as shown in Figures \ref{figure:gender*postcovid_chisq}, \ref{figure:sector*postcovid_chisq}, \ref{figure:discipline*postcovid_chisq} respectively. Each figure shows on the left, a graph that represents the Pearson's residuals of the chi-square test results and a table on the right part that shows the contribution of each cell to the test. In the Pearson's residual graphs, the responses were shortened for the sake of clarity according to: 1) \textit{Did/do} stands for \textit{Yes, I did use it before and do use it now}; 2) \textit{Didn't/do} for \textit{Yes, I didn’t use any messaging app before, but do use it now}; 3) \textit{safer} for \textit{Yes, I use a safer messaging app now}; 4) \textit{Didn't/Don't} for \textit{No, I didn’t use it before and don’t use it now}.
+Finally, we took a closer look at the post-covid changes and the variables
+gender, sector, and discipline for which the chi-square test is statistically
+significant as shown in Figures \ref{figure:gender*postcovid_chisq},
+\ref{figure:sector*postcovid_chisq}, \ref{figure:discipline*postcovid_chisq}
+respectively. Each figure shows on the left, a graph that represents the
+Pearson's residuals of the chi-square test results and a table on the right part
+that shows the contribution of each cell to the test. In the Pearson's residual
+graphs, the responses were shortened for the sake of clarity according to: 1)
+\textit{Did/do} stands for \textit{Yes, I did use it before and do use it now};
+2) \textit{Didn't/do} for \textit{Yes, I didn’t use any messaging app before,
+  but do use it now}; 3) \textit{safer} for \textit{Yes, I use a safer messaging
+  app now}; 4) \textit{Didn't/Don't} for \textit{No, I didn’t use it before and
+  don’t use it now}.
 %
 \begin{figure}[h!tbp]
 \begin{center}
@@ -959,9 +1143,27 @@ corrplot(chisq$residuals, is.corr = FALSE)
 \label{figure:gender*postcovid_chisq}
 \end{figure}
 
-As mentioned, the graphs on the left hand side represent the Pearson's residuals, showing the difference between the observed and the expected values for each cell. Thus, large residuals indicate that variables are not truly independent. In our case, the blue shows positive contributions and red negative contributions to the test. Moreover, the saturation shows how large the contribution is in contrast to the expected value by chance. Additionally, tables on the right side show adjusted standardized residuals that according to \cite{agresti2013categorical}, if greater than +/-2 for cases with few cells, indicate lack of fit of $H_0$ (in boldface in our table). Complementary, the table also shows the percentage of contribution to the test of each cell (highest percentage per column also in boldface).
+As mentioned, the graphs on the left hand side represent the Pearson's
+residuals, showing the difference between the observed and the expected values
+for each cell. Thus, large residuals indicate that variables are not truly
+independent. In our case, the blue shows positive contributions and red negative
+contributions to the test. Moreover, the saturation shows how large the
+contribution is in contrast to the expected value by chance. Additionally,
+tables on the right side show adjusted standardized residuals that according to
+\cite{agresti2013categorical}, if greater than +/-2 for cases with few cells,
+indicate lack of fit of $H_0$ (in boldface in our table). Complementary, the
+table also shows the percentage of contribution to the test of each cell
+(highest percentage per column also in boldface).
 
-Regarding gender in Fig. \ref{figure:gender*postcovid_chisq}, the results show a high positive contribution from female educators that did not use a messaging app before the COVID-19 pandemic but do use it now; approximately 31\% of the test results are explained by this cell. In contrast, male educators that respond the same were less than expected (negative contribution that explains 17\% of the test results). Also, it is important to highlight the female educators that kept using these apps before and after the pandemic and correspondingly the negative contribution of male educators to the same case (less than expected by chance).
+Regarding gender in Fig. \ref{figure:gender*postcovid_chisq}, the results show a
+high positive contribution from female educators that did not use a messaging
+app before the COVID-19 pandemic but do use it now; approximately 31\% of the
+test results are explained by this cell. In contrast, male educators that
+respond the same were less than expected (negative contribution that explains
+17\% of the test results). Also, it is important to highlight the female
+educators that kept using these apps before and after the pandemic and
+correspondingly the negative contribution of male educators to the same case
+(less than expected by chance).
 
 \begin{figure}[h!tbp]
 \begin{center}
@@ -1055,7 +1257,16 @@ corrplot(chisq$residuals, is.corr = FALSE)
 \label{figure:discipline*postcovid_chisq}
 \end{figure} 
 %
-Finally, statistical significance was found for the discipline and post-covid changes. Regarding disciplines (see Fig. \ref{figure:discipline*postcovid_chisq}), the number of educators from Humanities and Social Sciences that started using messaging apps after the pandemic is larger than expected and these number of responses explains about 19\% of the chi-square test results. Also, the number of educators from Technology or Engineering that started using safer alternatives are less than expected (compared to the educators from other disciplines). Bear in mind that some disciplines were merged to avoid very low number of responses for some of the cells.
+Finally, statistical significance was found for the discipline and post-covid
+changes. Regarding disciplines (see
+Fig. \ref{figure:discipline*postcovid_chisq}), the number of educators from
+Humanities and Social Sciences that started using messaging apps after the
+pandemic is larger than expected and these number of responses explains about
+19\% of the chi-square test results. Also, the number of educators from
+Technology or Engineering that started using safer alternatives are less than
+expected (compared to the educators from other disciplines). Bear in mind that
+some disciplines were merged to avoid very low number of responses for some of
+the cells.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -1082,7 +1293,17 @@ Others & 25 & 8.9 & 257 & 91.1 \\ \hline
 \end{table}
 
 
-For the findings it occurs that the most favourable use case for chatbots in Higher Education and vocational training is their use for the facilitation of an agenda formation (171 positive response, 60.6\%), followed by the FAQs use case (148 positive responses, 52.5\%) and the sharing class material use case (136; 48.2\%). A chi-square test of independence was performed to examine the relation among participants’ preferences for particular chatbot use cases. The relation between agenda and the FAQs use case was significant, $X^{2}_{(1, N = 282)} = 10.467$, $p =0.001$. The frequencies cross tabulated are given in Table \ref{tab:agenda*faq}. Out of the 171 teachers who consider useful the use of chatbots for agenda preparation in the class, 103 also consider useful chatbots’ use for FAQs.  
+For the findings it occurs that the most favourable use case for chatbots in
+Higher Education and vocational training is their use for the facilitation of an
+agenda formation (171 positive response, 60.6\%), followed by the FAQs use case
+(148 positive responses, 52.5\%) and the sharing class material use case (136;
+48.2\%). A chi-square test of independence was performed to examine the relation
+among participants’ preferences for particular chatbot use cases. The relation
+between agenda and the FAQs use case was significant, $X^{2}_{(1, N = 282)} =
+10.467$, $p =0.001$. The frequencies cross tabulated are given in Table
+\ref{tab:agenda*faq}. Out of the 171 teachers who consider useful the use of
+chatbots for agenda preparation in the class, 103 also consider useful chatbots’
+use for FAQs.
 
 \begin{table}[h!tbp]
 \begin{tabular}{llccc}
@@ -1098,7 +1319,12 @@ Total &  & 148 & 134 & 282 \\ \hline
 \label{tab:agenda*faq}
 \end{table}
 
-Answers to these questions are plotted in Figs. \ref{figure:gender*chatbots_types}, \ref{figure:sector*chatbots_types}, \ref{figure:experience*chatbots_types}, \ref{figure:disc*chatbots_types} grouped by gender, sector, years of experience in education, and discipline respectively. As it was a multiple choice question, the counts are over the total number of people that answered.
+Answers to these questions are plotted in
+Figs. \ref{figure:gender*chatbots_types}, \ref{figure:sector*chatbots_types},
+\ref{figure:experience*chatbots_types}, \ref{figure:disc*chatbots_types} grouped
+by gender, sector, years of experience in education, and discipline
+respectively. As it was a multiple choice question, the counts are over the
+total number of people that answered.
 
 \begin{figure}[h!tbp]
 \begin{center}
@@ -1180,8 +1406,13 @@ ggplot(df2, aes( x = Messaging.Organization, y = ..count.., group=Sector, fill =
 \label{figure:chatbots_messagingorganization}
 \end{figure}
 
-%Olia - move figure 7 elsewhere, not at the beginning of this section (RQ3). 
-Since chatbots are intended to mediate or help in this interaction, it is essential to understand the kind of interaction teachers prefer. Chatbots should address those modes, and not others. In order to find out these modes, and thus answering RQ3, teachers were provided with a list of different kind of interactions that may take place among students and between students and the teacher, with the use of messaging apps. The findings are summarized in Table \ref{tab:kindinteractions}. 
+Since chatbots are intended to mediate or help in this interaction, it is
+essential to understand the kind of interaction teachers prefer. Chatbots should
+address those modes, and not others. In order to find out these modes, and thus
+answering RQ3, teachers were provided with a list of different kind of
+interactions that may take place among students and between students and the
+teacher, with the use of messaging apps. The findings are summarized in Table
+\ref{tab:kindinteractions}.
 
 \begin{table}[h!tbp]
 \begin{tabular}{lllll}
@@ -1202,13 +1433,45 @@ Since chatbots are intended to mediate or help in this interaction, it is essent
 \label{tab:kindinteractions}
 \end{table}
 
-As it can be seen by the answer to the first and last question, in general teachers do not want to participate in a chat group with students; either they want to simply leave the students alone in their own chat group, or otherwise they prefer not to be part of that interaction. In general, that is going to be the case no matter what; it is well known that students organize their own chat groups with many (and not always conveyable) intentions, so teachers do not want to take any part in these informal or non institutionally-supported chat groups. Overwhelmingly, they do not want to participate in these kind of chat groups with students, but even less so if it includes the rest of the faculty.
+As it can be seen by the answer to the first and last question, in general
+teachers do not want to participate in a chat group with students; either they
+want to simply leave the students alone in their own chat group, or otherwise
+they prefer not to be part of that interaction. In general, that is going to be
+the case no matter what; it is well known that students organize their own chat
+groups with many (and not always conveyable) intentions, so teachers do not want
+to take any part in these informal or non institutionally-supported chat
+groups. Overwhelmingly, they do not want to participate in these kind of chat
+groups with students, but even less so if it includes the rest of the faculty.
 
-The answer, then, to this research question, is that, in general, teachers do {\em not} want to have interaction with students in a chat group. To a certain point, this would seem to contradict results by Gachago et al. \cite{gachago2015crossing}, although this might be due to cultural attitudes, or other factors such as the average size of classes. It does confirm, however, that the challenges cited in that study, and possibly others, are an obstacle to the adoption of mobile (and other) instant messaging among the community of surveyed teachers.
+The answer, then, to this research question, is that, in general, teachers do
+{\em not} want to have interaction with students in a chat group. To a certain
+point, this would seem to contradict results by Gachago et
+al. \cite{gachago2015crossing}, although this might be due to cultural
+attitudes, or other factors such as the average size of classes. It does
+confirm, however, that the challenges cited in that study, and possibly others,
+are an obstacle to the adoption of mobile (and other) instant messaging among
+the community of surveyed teachers.
 
-Regarding the social factor of chat groups that teachers use in class, according to Fig. \ref{figure:chatbots_messagingorganization} the vast majority prefer small groups only with the students from the same course. These are more focused groups with specific goals and dedicated to the organization of the course and its tasks, and from the pedagogic point of view seem more appropriate to improve the learning process. Interestingly, and as a cross-check of the answers above, about 30\% of teachers consider they should not be part of the chat group.
-This might seem to contradict the results of the other survey, but in fact, being a result of different surveys, to a certain point affirms the same thing: there is a great amount of teachers that would be against being in a chat group with students. Whether that's a slim majority or not, that's open to debate (and would probably need a more pointed survey focused on this), but what is clear is that forcing teachers to create chat groups with students and participate in them would create a certain amount of resistance.
-Also, only university teachers find interesting a group with all the students and teachers in their own Faculty or School. The lack of teachers from vocational education here may be the consequence of using specific language such as ``Faculty''. Moreover, the fact that many universities and schools already use these groups for administrative and social interaction (e.g. \cite{dibitonto2018chatbot}) might be the reason for the low percentage of teachers that selected this response.
+Regarding the social factor of chat groups that teachers use in class, according
+to Fig. \ref{figure:chatbots_messagingorganization} the vast majority prefer
+small groups only with the students from the same course. These are more focused
+groups with specific goals and dedicated to the organization of the course and
+its tasks, and from the pedagogic point of view seem more appropriate to improve
+the learning process. Interestingly, and as a cross-check of the answers above,
+about 30\% of teachers consider they should not be part of the chat group. This
+might seem to contradict the results of the other survey, but in fact, being a
+result of different surveys, to a certain point affirms the same thing: there is
+a great amount of teachers that would be against being in a chat group with
+students. Whether that's a slim majority or not, that's open to debate (and
+would probably need a more pointed survey focused on this), but what is clear is
+that forcing teachers to create chat groups with students and participate in
+them would create a certain amount of resistance. Also, only university teachers
+find interesting a group with all the students and teachers in their own Faculty
+or School. The lack of teachers from vocational education here may be the
+consequence of using specific language such as ``Faculty''. Moreover, the fact
+that many universities and schools already use these groups for administrative
+and social interaction (e.g. \cite{dibitonto2018chatbot}) might be the reason
+for the low percentage of teachers that selected this response.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -1310,7 +1573,21 @@ Horizontality &  &  - & ns & ns & ns & ns & ns & $5.453^{*}$ \\
 \label{tab:interactionfeatures}
 \end{table}
 
-Finally, a two-step cluster analysis was conducted, with a log-likelihood distance measure adopted, to explore how the cases could be grouped based on their preferences of specific interaction media features, and which features have larger predictor importance for the clustering (see Fig. \ref{figure:predictor}). Two clusters occurred from the analysis: cluster 1 (n=78, 60.9\%) was comprise of instructors who did not value interaction media pluggability, connectivity, official formation, but valued interaction media analytics, familiarity, support by the institution, while cluster 2 (n=50, 39.1\%) was comprise of instructors from which the majority did not value media analytics, official formation, familiarity, but valued pluggability, connectivity, and support by the institution. Interaction media pluggability appears to have the most important predictor importance in the clustering of cases (predictor importance = 1.0), whilst media unidirectionality was the least important factor (predictor importance = 0.04). The cluster quality is fair, but not a good one (silhouette measure of cohesion and separation). 
+Finally, a two-step cluster analysis was conducted, with a log-likelihood
+distance measure adopted, to explore how the cases could be grouped based on
+their preferences of specific interaction media features, and which features
+have larger predictor importance for the clustering (see
+Fig. \ref{figure:predictor}). Two clusters occurred from the analysis: cluster 1
+(n=78, 60.9\%) was comprise of instructors who did not value interaction media
+pluggability, connectivity, official formation, but valued interaction media
+analytics, familiarity, support by the institution, while cluster 2 (n=50,
+39.1\%) was comprise of instructors from which the majority did not value media
+analytics, official formation, familiarity, but valued pluggability,
+connectivity, and support by the institution. Interaction media pluggability
+appears to have the most important predictor importance in the clustering of
+cases (predictor importance = 1.0), whilst media unidirectionality was the least
+important factor (predictor importance = 0.04). The cluster quality is fair, but
+not a good one (silhouette measure of cohesion and separation).
 
 \begin{figure}[h!tbp]
 \begin{center}
@@ -1323,58 +1600,197 @@ Finally, a two-step cluster analysis was conducted, with a log-likelihood distan
 % ********************** Discussion section *******************
 \section{Discussion}
 
-Our initial intention in the design of these surveys was to probe the opinions of tertiary education teachers in the introduction of chatbot technologies in class. We wanted to find the answer to four research questions, of which the first was to check whether teachers already used some kind of messaging application, and the one they preferred. Depending on the answer, different technologies could be (or not) available for the introduction of chatbots. In this case, the design of the survey introduced some ambiguity on what we really consider ``messaging technology'', that was eventually resolved by the answers; apparently, anything that sends messages (even if they are not instant, even if they do not have a dedicated application) was the concept in the mind of the surveyed.
+Our initial intention in the design of these surveys was to probe the opinions
+of tertiary education teachers in the introduction of chatbot technologies in
+class. We wanted to find the answer to four research questions, of which the
+first was to check whether teachers already used some kind of messaging
+application, and the one they preferred. Depending on the answer, different
+technologies could be (or not) available for the introduction of chatbots. In
+this case, the design of the survey introduced some ambiguity on what we really
+consider ``messaging technology'', that was eventually resolved by the answers;
+apparently, anything that sends messages (even if they are not instant, even if
+they do not have a dedicated application) was the concept in the mind of the
+surveyed.
 
-Additionally, the question on COVID reflected the big challenge that represents changing habits, even in the case of a major crisis. Very few people actually changed, with women vs. men being an exception, as well as those teaching social sciences standing out among the rest. We do not have any kind of explanation for this behaviour, other than technologies are perceived, and adopted, in a different way depending on background and, apparently, gender. 
+Additionally, the question on COVID reflected the big challenge that represents
+changing habits, even in the case of a major crisis. Very few people actually
+changed, with women vs. men being an exception, as well as those teaching social
+sciences standing out among the rest. We do not have any kind of explanation for
+this behaviour, other than technologies are perceived, and adopted, in a
+different way depending on background and, apparently, gender.
 
- One of the most interesting questions that can arise from the analysis of the results, and that should require further study, is: Are teachers really aware of the possibilities of chatbots in the classroom? The reason to ask ourselves this question is due to the fact of the small number of responses for other uses in comparison with the other approaches proposed. Another way to look about it is that, unless you provide the specific instructions on how to use a tool, the teaching staff is already too busy or burn out to think about innovation.
- 
-It is also likely that their opinions towards chatbots are informed by negative experiences with customer support chatbots, which is what most people will have experienced. This will probably require further study, but also will need to be taken into account when introducing chatbot technologies in the classroom: it will have to be as simple, and as satisfactory, ad possible, to (possibly) delete this existing perception.
+ One of the most interesting questions that can arise from the analysis of the
+ results, and that should require further study, is: Are teachers really aware
+ of the possibilities of chatbots in the classroom? The reason to ask ourselves
+ this question is due to the fact of the small number of responses for other
+ uses in comparison with the other approaches proposed. Another way to look
+ about it is that, unless you provide the specific instructions on how to use a
+ tool, the teaching staff is already too busy or burn out to think about
+ innovation.
 
-Regarding gender grouping, both genders agree in their uses, so it seems not relevant at all. When looking at the plot containing the sector differentiation it is interesting to observe how university teachers prefer in a higher proportion to use them for grades and FAQs in comparison with Vocational High School teachers. This seems reasonable as the frequency of seeing the students is smaller at the University so, automating the grade notification for continuous evaluation could seem much more comfortable using an automated tool than using the traditional platform. Furthermore, the high student/teacher ratios that university teachers have to deal with could be another reason to have a higher number of them willing to use chatbots for FAQs. This could ameliorate the number of misunderstandings and email overload that so many students might generate.
+It is also likely that their opinions towards chatbots are informed by negative
+experiences with customer support chatbots, which is what most people will have
+experienced. This will probably require further study, but also will need to be
+taken into account when introducing chatbot technologies in the classroom: it
+will have to be as simple, and as satisfactory, ad possible, to (possibly)
+delete this existing perception.
 
-The results, when grouping by experience, confirm the previous observation that experienced teachers are not afraid of changes and are willing to accept new technological challenges, at least, in the same way that younger teachers are. From this concrete plot it is interesting as well the fact that very few young/inexperience teachers are willing to use chatbots for other uses. This reinforces the hypothesis thrown at the beginning of this section and, as these teachers have less experience, they also have less field of view to think about ways of using chatbots.
+Regarding gender grouping, both genders agree in their uses, so it seems not
+relevant at all. When looking at the plot containing the sector differentiation
+it is interesting to observe how university teachers prefer in a higher
+proportion to use them for grades and FAQs in comparison with Vocational High
+School teachers. This seems reasonable as the frequency of seeing the students
+is smaller at the University so, automating the grade notification for
+continuous evaluation could seem much more comfortable using an automated tool
+than using the traditional platform. Furthermore, the high student/teacher
+ratios that university teachers have to deal with could be another reason to
+have a higher number of them willing to use chatbots for FAQs. This could
+ameliorate the number of misunderstandings and email overload that so many
+students might generate.
 
-As it appears in the responses presented above, teachers’ responses are distributed between positive and negative in relation to the media features: analytics, connectivity, and hidden phone, while for the features: familiarity, horizontally, sustainability and officiality the majority provided a positive response, designating their preference to these features. On the other hand, the majority of teachers seems to consider not valuable the presence of official formation, pluggability, unidirectionality and synchrony in the interaction media features of messaging apps. 
+The results, when grouping by experience, confirm the previous observation that
+experienced teachers are not afraid of changes and are willing to accept new
+technological challenges, at least, in the same way that younger teachers
+are. From this concrete plot it is interesting as well the fact that very few
+young/inexperience teachers are willing to use chatbots for other uses. This
+reinforces the hypothesis thrown at the beginning of this section and, as these
+teachers have less experience, they also have less field of view to think about
+ways of using chatbots.
+
+As it appears in the responses presented above, teachers’ responses are
+distributed between positive and negative in relation to the media features:
+analytics, connectivity, and hidden phone, while for the features: familiarity,
+horizontally, sustainability and officiality the majority provided a positive
+response, designating their preference to these features. On the other hand, the
+majority of teachers seems to consider not valuable the presence of official
+formation, pluggability, unidirectionality and synchrony in the interaction
+media features of messaging apps.
 
 From a qualitative point of view, these results show consensus in a few key aspects:
 \begin{itemize}
- \item Teachers want to have support from their corresponding institution. This is probably due to the strict European data regulations and to avoid the overhead required to sing up and deleting students from year to year.
- 
- \item Teachers need sustainability. The main reason is that implementing changes is expensive in terms of effort and prone to errors in the first years of implementing new procedures, therefore, it is logical that if chatbots or messaging platforms are to be introduced, they want this change to be as permanent as possible.
- 
- \item Keep it Simple. Media interaction requirements are simple and only a 2.4\% is requesting more features. This could be a sign of technological burn out produced by the previous and current courses where, due to the pandemic, the use of computer has increased significantly. 
+ \item Teachers want to have support from their corresponding institution. This
+   is probably due to the strict European data regulations and to avoid the
+   overhead required to sing up and deleting students from year to year.
+ \item Teachers need sustainability. The main reason is that implementing
+   changes is expensive in terms of effort and prone to errors in the first
+   years of implementing new procedures, therefore, it is logical that if
+   chatbots or messaging platforms are to be introduced, they want this change
+   to be as permanent as possible.
+ \item Keep it Simple. Media interaction requirements are simple and only a 2.4\% is requesting more features. This could be a sign of technological burn out produced by the previous and current courses where, due to the pandemic, the use of computer has increased significantly.
 \end{itemize}
 
-An analysis of survey questions related to RQ4 seems to indicate that teachers prefer to have interaction with their students in a chat "room"; a preference of {\em horizontal} interaction might indicate the need to delegate or offload part of the burden of answering, and attending, every single question posed by students. In an horizontal setting, other students can answer if the teacher does not do it immediately. This might also be the reason why the possibility of using tools from which analytics can be extracted is also valued by teachers: that way, activity in the chat tool, answering questions, regularity, can all be observed and valued as part of the process of assessing achievement of learning objectives by students.
+An analysis of survey questions related to RQ4 seems to indicate that teachers
+prefer to have interaction with their students in a chat "room"; a preference of
+{\em horizontal} interaction might indicate the need to delegate or offload part
+of the burden of answering, and attending, every single question posed by
+students. In an horizontal setting, other students can answer if the teacher
+does not do it immediately. This might also be the reason why the possibility of
+using tools from which analytics can be extracted is also valued by teachers:
+that way, activity in the chat tool, answering questions, regularity, can all be
+observed and valued as part of the process of assessing achievement of learning
+objectives by students.
 
 % ********************** CONCLUSIONS ****************************
 
 \section{Conclusions}
 \label{sec:concl}
 
-The key findings of this study shed the light on educators’ preference to use messaging applications that their institutions support.  Technology adoption literature often focus on users’ perceptions of the technology’s usefulness and ease of use as important prerequisites for successful adoption and utilization. Nevertheless, in higher education, institutions’ role in integrating these tools to their educational systems can improve the uptake of these applications and shape the social and educational experiences of their students.  This integration, to be fruitful, institutions have to ensure that these messaging applications not only are GDPR compliant to keep students’ data secure but also should provide IT support to all stakeholders who use the applications.
+The key findings of this study shed the light on educators’ preference to use
+messaging applications that their institutions support.  Technology adoption
+literature often focus on users’ perceptions of the technology’s usefulness and
+ease of use as important prerequisites for successful adoption and
+utilization. Nevertheless, in higher education, institutions’ role in
+integrating these tools to their educational systems can improve the uptake of
+these applications and shape the social and educational experiences of their
+students.  This integration, to be fruitful, institutions have to ensure that
+these messaging applications not only are GDPR compliant to keep students’ data
+secure but also should provide IT support to all stakeholders who use the
+applications.
 
-Moreover, this study clarifies the differences between the teachers’ perspectives and/or intentions and that of their students when using the messaging applications in higher education.  Teachers tend to adopt technologies supported by their institutions.  This could be to ensure that their universities can oversee their efforts in supporting their students during the learning process.  Another reason could be their familiarity with the technology provided by their institutions. On the other hand, students use the non-institution messaging applications to form informal discussion groups with their peers.  It is worth noting that peer support and collaboration is inseparable from learning \cite{timmis2012constant} and correlates positively with higher retention in higher education \cite{o2014front}.  Therefore, both perspectives are complementary and play different roles in promoting the learning process.
+Moreover, this study clarifies the differences between the teachers’
+perspectives and/or intentions and that of their students when using the
+messaging applications in higher education.  Teachers tend to adopt technologies
+supported by their institutions.  This could be to ensure that their
+universities can oversee their efforts in supporting their students during the
+learning process.  Another reason could be their familiarity with the technology
+provided by their institutions. On the other hand, students use the
+non-institution messaging applications to form informal discussion groups with
+their peers.  It is worth noting that peer support and collaboration is
+inseparable from learning \cite{timmis2012constant} and correlates positively
+with higher retention in higher education \cite{o2014front}.  Therefore, both
+perspectives are complementary and play different roles in promoting the
+learning process.
 
 % Noorhan suggest that using some simple things could increase the perceived usefulness - JJ
-As in many other methods of technology acceptance, answers to the survey suggest that the introduction of simple, and institution-supported, instant messaging and chatbot technologies would increase the perceived usefulness (which is one of the key metrics in technology acceptance models). Since most institutions already have some {\em virtual campus} or learning management system, adding some easy automation, or connection to personal instant messaging tools, could really help onboard the learning community on these new technologies.
+As in many other methods of technology acceptance, answers to the survey suggest
+that the introduction of simple, and institution-supported, instant messaging
+and chatbot technologies would increase the perceived usefulness (which is one
+of the key metrics in technology acceptance models). Since most institutions
+already have some {\em virtual campus} or learning management system, adding
+some easy automation, or connection to personal instant messaging tools, could
+really help onboard the learning community on these new technologies.
 
 % What kind of chatbots are preferred? (suggested by Fran)
-Once that initial introduction is done, teachers (and students as well) will probably prefer the kind of bots that alleviate bureaucratic or repetitive tasks, such as answering frequent questions or answers on class or assignment schedules. These will help the introduction of more complex chatbots that will affect more directly learning outcomes, such as chatbots that help students integrate in the class, or are able to identify (and address) learning problems in students or in groups of them. These as well should be accompanied by analytics on student interaction, as well as possibly some natural language processing (in vernacular language) that will help assess the general mood of the class, and how different material (or external factors) affect it.
+Once that initial introduction is done, teachers (and students as well) will
+probably prefer the kind of bots that alleviate bureaucratic or repetitive
+tasks, such as answering frequent questions or answers on class or assignment
+schedules. These will help the introduction of more complex chatbots that will
+affect more directly learning outcomes, such as chatbots that help students
+integrate in the class, or are able to identify (and address) learning problems
+in students or in groups of them. These as well should be accompanied by
+analytics on student interaction, as well as possibly some natural language
+processing (in vernacular language) that will help assess the general mood of
+the class, and how different material (or external factors) affect it.
 
 % No remarkable differences between different groups.
-This introduction of chatbots and chatbot technology will be helped by the fact that no discernible differences are found between different groups. Even if chatbots do have some potential for personalization or customization, based on the class material, student and teaching staff, the general introduction of the technology can be done in a general way and for all disciplines, teaching experience and gender.
+This introduction of chatbots and chatbot technology will be helped by the fact
+that no discernible differences are found between different groups. Even if
+chatbots do have some potential for personalization or customization, based on
+the class material, student and teaching staff, the general introduction of the
+technology can be done in a general way and for all disciplines, teaching
+experience and gender.
 
 % Only some COVID-response relationship.
-In our survey, we couldn't find an answer to the right moment for doing this introduction of chatbot technologies. Response to questions related to change of behaviour during and after the pandemic do not suggest that major (or minor) crisis could be an opportunity to introduce new technologies, since it does not bring major changes in attitude. A minor crisis would be, for instance, rollout of a new higher education law\footnote{We seem to have one of these, at least in Spain, every 10 years or so}, or introduction of new degrees. Although external changes do offer the chance of piloting new technologies, they do not seem to bring changes in attitudes in the teaching staff (which, after all, is bound to be the same). In absence of a clear answer in this direction, the right moment to introduce new technologies is always when the IT and managing staff is ready to support it (since, as we have seen before, "official" support is one of the factors that is most valued by teachers).
+In our survey, we couldn't find an answer to the right moment for doing this
+introduction of chatbot technologies. Response to questions related to change of
+behaviour during and after the pandemic do not suggest that major (or minor)
+crisis could be an opportunity to introduce new technologies, since it does not
+bring major changes in attitude. A minor crisis would be, for instance, rollout
+of a new higher education law\footnote{We seem to have one of these, at least in
+  Spain, every 10 years or so}, or introduction of new degrees. Although
+external changes do offer the chance of piloting new technologies, they do not
+seem to bring changes in attitudes in the teaching staff (which, after all, is
+bound to be the same). In absence of a clear answer in this direction, the right
+moment to introduce new technologies is always when the IT and managing staff is
+ready to support it (since, as we have seen before, "official" support is one of
+the factors that is most valued by teachers).
 
-At any rate, the general feeling that transpires from the survey is that it is essential for any institution to take into account the shareholder's opinion when introducing chatbots. This is true almost across the board, but in the case of chatbots (and instant messaging applications) their immediacy and the fact that they can enter into what we could call the private sphere makes this even more necessary.
+At any rate, the general feeling that transpires from the survey is that it is
+essential for any institution to take into account the shareholder's opinion
+when introducing chatbots. This is true almost across the board, but in the case
+of chatbots (and instant messaging applications) their immediacy and the fact
+that they can enter into what we could call the private sphere makes this even
+more necessary.
 
 % Future study (suggested by Noorhan): how COVID influenced adoption of these technologies.
-There are several future lines of work informed by our results of this survey. For instance, the rollout of extensive videoconferencing and virtual teaching solutions that the COVID pandemic has brought has also taught us a series of lessons. It increases isolation, for instance, and decreases the amount of synchronous contact that happens in the fringes of the classroom: teaching staff offices, before and after class. A future line of work would be focused on exactly this, and what kind of needs could be covered by chatbot technology. We will create a series of international surveys that will investigate this.
+There are several future lines of work informed by our results of this
+survey. For instance, the rollout of extensive videoconferencing and virtual
+teaching solutions that the COVID pandemic has brought has also taught us a
+series of lessons. It increases isolation, for instance, and decreases the
+amount of synchronous contact that happens in the fringes of the classroom:
+teaching staff offices, before and after class. A future line of work would be
+focused on exactly this, and what kind of needs could be covered by chatbot
+technology. We will create a series of international surveys that will
+investigate this.
 
-Finally, the full extent of chatbot technology is not really being examined in these surveys. They can be connected to natural language processing engines with sentiment analysis as well as other analytics. Examining the mood of the class, as response to new material, assignment, exams or external events might help will help any student-centred teaching strategy, which will help students (and teachers) reach their learning objectives. This line of work, however, will be based on the introduction of some pilot study, combined with initial opinion assessment on the students.
+Finally, the full extent of chatbot technology is not really being examined in
+these surveys. They can be connected to natural language processing engines with
+sentiment analysis as well as other analytics. Examining the mood of the class,
+as response to new material, assignment, exams or external events might help
+will help any student-centred teaching strategy, which will help students (and
+teachers) reach their learning objectives. This line of work, however, will be
+based on the introduction of some pilot study, combined with initial opinion
+assessment on the students.
 
 
 \bibliographystyle{apalike}
