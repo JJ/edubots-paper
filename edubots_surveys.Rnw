@@ -224,26 +224,6 @@ learning outcomes.
 
 \end{frontmatter}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                                            %%
-%% The Main Body begins here                  %%
-%%                                            %%
-%% Please refer to the instructions for       %%
-%% authors on:                                %%
-%% https://www.biomedcentral.com/getpublished %%
-%% and include the section headings           %%
-%% accordingly for your article type.         %%
-%%                                            %%
-%% See the Results and Discussion section     %%
-%% for details on how to create sub-sections  %%
-%%                                            %%
-%% use \cite{...} to cite references          %%
-%%  \cite{koon} and                           %%
-%%  \cite{oreg,khar,zvai,xjon,schn,pond}      %%
-%%                                            %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 
 <<setup, echo=FALSE,message=FALSE>>=
 knitr::opts_chunk$set(fig.path='figures/')
