@@ -172,6 +172,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{abstractbox}
+\newcommand{\change}[1]{\textcolor{blue}}{#1}}%
 
 \begin{abstract} % abstract
 Introducing new technologies such as messaging platforms, and the chatbots
