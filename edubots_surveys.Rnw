@@ -713,8 +713,7 @@ analysing the response to the different survey questions.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-%Why messaging apps are relevant here --> connect to the development of chatbots
-Group messaging apps have become a powerful tool for keeping touch with
+Group messaging apps have become a powerful tool for communicating with
 students. Also, many of them have built-in chatbots to enhance the learning
 process. After an initial analysis to the answers to the first survey, we
 realized that there were some prior issues mainly related to the adoption of a
