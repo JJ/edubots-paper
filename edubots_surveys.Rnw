@@ -329,12 +329,22 @@ comprehend or need further assistance in understanding.
 Given the potential benefits that chatbots could bring to the classroom, the
 focus of the
 % EDUBOTS KA2 European project \footnote{https://www.edubots.eu},
-{\sf anonymized European Project}, the sponsor of this study, is to gather,
-analyse and disseminate best practices on the use of chatbots in higher
-education institutions.
+{\sf anonymized European Project}, the sponsor of this study, is to
+\textcolor{blue}{explore best practices and innovative use of chatbots, and to create 
+a learning community of educators in higher education institutions.
+The majority of studies conducted so far have studied how these 
+messaging applications and/or chatbots are used to deliver personalised
+learning in classrooms that occurs anytime anywhere, 
+promote collaborative learning experiences, group discussions \cite{panah2020study}
+and for boosting students' sense of belonging to their 
+institutions\cite{abbas2021onlinechat}. Hence, due to the paucity of research
+that explores the use of these technologies from the teachers' perspectives,
+this paper aims to investigate their opinions/needs and the
+challenges/opportunities of adopting these technologies in classrooms
+to paint a better picture of how they can positively contribute to enhancing
+the learning process in higher education institutions.}
 
- The line of research of which this paper is a part has involved two phases of
- data collection.
+\textcolor{blue}{In this study, data collection involved two phases}
  \begin{itemize}
 \item The first phase aimed to collect feedback from students about their actual
   needs \cite{MoraChatbots2021:anon}. Hence, the objective was to collect
