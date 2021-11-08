@@ -172,7 +172,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{abstractbox}
-\newcommand{\change}[1]{\textcolor{blue}}{#1}}%
 
 \begin{abstract} % abstract
 Introducing new technologies such as messaging platforms, and the chatbots
@@ -208,15 +207,7 @@ learning outcomes.
 \kwd{Tutorship}
 \kwd{Educational bots}
 \kwd{Higher education}
-% Antonio - add something related to "survey", "teachers' opinion" or so?
 \end{keyword}
-
-% MSC classifications codes, if any
-%\begin{keyword}[class=AMS]
-%\kwd[Primary ]{}
-%\kwd{}
-%\kwd[; secondary ]{}
-%\end{keyword}
 
 \end{abstractbox}
 %
@@ -292,9 +283,10 @@ freq.Discipline %>% mutate(Discipline = ifelse(as.character(Discipline) == "No",
 \section{Introduction}
 
 
-The introduction of new technologies in the classroom involves a combination of
-teacher training, student enthusiasm and possibly acquiring new skills by
-both. Some technologies are readily adopted, but others require longer time for
+The introduction of new technologies in the classroom, \textcolor{blue}{to be successful, involves extra
+teacher training, devising methods for enhancing student engagement with the new
+technology, and indeed acquiring new skills by students and teachers alike}.
+Some technologies are readily adopted, but others require longer time for
 full adoption. In most cases, the magnitude of the uptake of the new technology
 impinges on the collaboration of all the parties using it. Hence, examining the
 users’ opinions and is an important first step in boosting this collaboration
