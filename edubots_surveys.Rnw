@@ -522,7 +522,7 @@ studies have focused on the evaluation of technology acceptance and usability
 \cite{Roblyer2010,Pimmer2019}. However, higher education is a special domain
 where, according to Hobert \cite{hobert2019you}, specific pedagogical factors
 such as learning success or increased motivation are more important.  Therefore,
-to develop efficient chatbots for higher education, all stakeholders'
+to develop \textcolor{blue}{effective} chatbots for higher education, all stakeholders'
 (i.e. educators, students, institutions, etc) needs should be carefully
 collected and taken into consideration
 \cite{sjostrom2018designing,tsivitanidouusers}.
