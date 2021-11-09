@@ -566,7 +566,7 @@ education. In doing so, an online survey was administered (i.e., Google Form),
 in Spanish, which was intended to be answered in a very short amount of
 time. Initially, our intention was to mirror the questions used in
 \cite{MoraChatbots2021:anon}; however, an initial exploration of results led us
-to create a second survey. The survey items focused on the use of messaging apps
+to create a second survey. The new survey items focused on the use of messaging apps
 in the teaching practice, the type of chatbot use cases that teachers consider
 useful to be used in their teaching, and the type of interactions that teachers
 prefer to have with their students while using messaging apps in their teaching.
