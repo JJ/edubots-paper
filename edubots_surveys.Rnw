@@ -770,8 +770,8 @@ teachers from University and vocational education. In general, most teachers
 prefer messaging apps provided by their own institutions (we also show the
 results for the two most popular messaging app platforms: WhatsApp and
 Telegram). With respect to specific disciplines, Engineering and Technology
-teachers are more active in their use, although it is also relevant the amount
-of teachers from Humanities that answered they used these apps in their classes
+teachers are more active in their use, but the amount of teachers from Humanities 
+who answered they used these apps in their classes is also remarkable
 (around 60\% use the apps provided by their institutions).
 
 Although no significant differences were found regarding gender, female teachers
