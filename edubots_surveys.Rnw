@@ -727,9 +727,9 @@ This is why for answering RQ1, teachers were queried about whether they use
 messaging apps in their classes, specifically, Telegram, WhatsApp, Slack (an
 application used mainly in IT departments and software development), or any
 other messaging app, and whether they use messaging apps provided by their
-academic institution (see Table \ref{tab:use_messapps}). In this case, it is
-maybe in order a certain clarification. While we had in mind, as indicated by
-the possible answers, instant messaging applications when making this question,
+academic institution (see Table \ref{tab:use_messapps}). In this case, we would like 
+to add a clarification. While we had in mind, as indicated by the possible answers, 
+instant messaging applications when making this question,
 we included these institution-provided applications mainly for completion. But
 it should be noted that, in most cases, they are not {\em instant} messaging
 apps in the way Telegram or Facebook Messenger are; in most cases they are
