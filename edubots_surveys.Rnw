@@ -717,7 +717,7 @@ Group messaging apps have become a powerful tool for \textcolor{blue}{communicat
 students. Also, many of them have built-in chatbots to enhance the learning
 process. After an initial analysis to the answers to the first survey, we
 realized that there were some prior issues mainly related to the adoption of a
-technology, chatbots, that generally piggybacks on another, messaging
+technology, i.e. chatbots, that generally piggybacks on another, i.e. messaging
 applications. In a technology adoption model, perceived ease of use and
 perceived usefulness are essential. But it is going to be very difficult for
 teachers to find {\em chatbots} easy to use if they, previously, do not
