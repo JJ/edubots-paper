@@ -584,7 +584,7 @@ mandatory virtual teaching.
 
 A total of 282 teachers responded to the survey: 193 teaching at the University
 (68.4\%) and 89 at other tertiary education institutions (31.6\%). Survey
-questions are shown in \ref{app:questions}.
+questions are shown in Appendix I (Section \ref{app:questions}).
 
 Responses were stored automatically in a Google Drive spreadsheet. Eventually,
 the results from the two forms we used for the first survey were collated in a
