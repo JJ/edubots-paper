@@ -1247,7 +1247,7 @@ Fig. \ref{figure:discipline*postcovid_chisq}), the number of educators from
 Humanities and Social Sciences that started using messaging apps after the
 pandemic is larger than expected and these number of responses explains about
 19\% of the chi-square test results. Also, the number of educators from
-Technology or Engineering that started using safer alternatives are less than
+Technology or Engineering that started using safer alternatives \footnote{This addresses the issue of insecure/unsafe applications which do not cipher messages or can be easily compromised exposing information} are less than
 expected (compared to the educators from other disciplines). Bear in mind that
 some disciplines were merged to avoid very low number of responses for some of
 the cells.
