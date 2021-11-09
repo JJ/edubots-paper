@@ -566,7 +566,7 @@ education. In doing so, an online survey was administered (i.e., Google Form),
 in Spanish, which was intended to be answered in a very short amount of
 time. Initially, our intention was to mirror the questions used in
 \cite{MoraChatbots2021:anon}; however, an initial exploration of results led us
-to create a second survey. The new survey items focused on the use of messaging apps
+to create a second survey. The \textcolor{blue}{new survey} items focused on the use of messaging apps
 in the teaching practice, the type of chatbot use cases that teachers consider
 useful to be used in their teaching, and the type of interactions that teachers
 prefer to have with their students while using messaging apps in their teaching.
@@ -584,7 +584,7 @@ mandatory virtual teaching.
 
 A total of 282 teachers responded to the survey: 193 teaching at the University
 (68.4\%) and 89 at other tertiary education institutions (31.6\%). Survey
-questions are shown in Appendix I (Section \ref{app:questions}).
+questions \textcolor{blue}{are shown in Appendix I (Section \ref{app:questions})}.
 
 Responses were stored automatically in a Google Drive spreadsheet. Eventually,
 the results from the two forms we used for the first survey were collated in a
@@ -717,8 +717,8 @@ Group messaging apps have become a powerful tool for \textcolor{blue}{communicat
 students. Also, many of them have built-in chatbots to enhance the learning
 process. After an initial analysis to the answers to the first survey, we
 realized that there were some prior issues mainly related to the adoption of a
-technology, i.e. chatbots, that generally piggybacks on another, i.e. messaging
-applications. In a technology adoption model, perceived ease of use and
+technology, \textcolor{blue}{i.e. chatbots}, that generally piggybacks on another, \textcolor{blue}{i.e. messaging
+applications}. In a technology adoption model, perceived ease of use and
 perceived usefulness are essential. But it is going to be very difficult for
 teachers to find {\em chatbots} easy to use if they, previously, do not
 consider, or simply use, the messaging tools to which they are attached.
@@ -727,8 +727,8 @@ This is why for answering RQ1, teachers were queried about whether they use
 messaging apps in their classes, specifically, Telegram, WhatsApp, Slack (an
 application used mainly in IT departments and software development), or any
 other messaging app, and whether they use messaging apps provided by their
-academic institution (see Table \ref{tab:use_messapps}). In this case, we would like 
-to add a clarification. While we had in mind, as indicated by the possible answers, 
+academic institution (see Table \ref{tab:use_messapps}). \textcolor{blue}{In this case, we would like 
+to add a clarification}. While we had in mind, as indicated by the possible answers, 
 instant messaging applications when making this question,
 we included these institution-provided applications mainly for completion. But
 it should be noted that, in most cases, they are not {\em instant} messaging
@@ -770,8 +770,8 @@ teachers from University and vocational education. In general, most teachers
 prefer messaging apps provided by their own institutions (we also show the
 results for the two most popular messaging app platforms: WhatsApp and
 Telegram). With respect to specific disciplines, Engineering and Technology
-teachers are more active in their use, but the amount of teachers from Humanities 
-who answered they used these apps in their classes is also remarkable
+teachers are more active in their use, \textcolor{blue}{but the amount of teachers from Humanities 
+who answered they used these apps in their classes is also remarkable}
 (around 60\% use the apps provided by their institutions).
 
 Although no significant differences were found regarding gender, female teachers
