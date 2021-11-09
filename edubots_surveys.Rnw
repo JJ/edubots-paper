@@ -573,8 +573,8 @@ prefer to have with their students while using messaging apps in their teaching.
 
 The {\bf initial survey} was done in two separate Google forms, one for
 university and other for tertiary non-university teachers. Questions and
-responses were the same, except for the type of tertiary degrees that were
-taught. In both cases, we used mainly mailing lists, as well as Telegram groups,
+responses were the same, except for the type of tertiary degrees that
+\textcolor{blue}{were considered}. In both cases, we used mainly mailing lists, as well as Telegram groups,
 to spread the link to the form. The university form was spread in Spanish
 (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and
 Mexico. The tertiary non-university teachers are based mainly in
