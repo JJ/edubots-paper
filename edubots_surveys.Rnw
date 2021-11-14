@@ -560,24 +560,25 @@ opinions.
 \section{Methodology}
 \label{sec:meth}
 
-Our intention from the beginning was to try to gather a sufficient amount of
-responses in all sectors, as well as cover different sectors of higher
-education. In doing so, an online survey was administered (i.e., Google Form),
-in Spanish, which was intended to be answered in a very short amount of
-time. Initially, our intention was to mirror the questions used in
-\cite{MoraChatbots2021:anon}; however, an initial exploration of results led us
-to create a second survey. The \textcolor{blue}{new survey} items focused on the use of messaging apps
-in the teaching practice, the type of chatbot use cases that teachers consider
+This study aims to collect rich data about the use of messaging applications and chatbots
+by educators in both universities and colleges. To achieve this goal, an online survey was designed and developed using Google Forms
+in Spanish. Initially, the intention was to mirror the questions used in
+\cite{MoraChatbots2021:anon}; which explored students' views about the use of messaging applications in classrooms.
+However, the initial exploration of results led us
+to create a second survey in order to collect more data about educators' preferences in particular. The \textcolor{blue}{new survey} items 
+focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers consider
 useful to be used in their teaching, and the type of interactions that teachers
 prefer to have with their students while using messaging apps in their teaching.
 
 The {\bf initial survey} was done in two separate Google forms, one for
 university and other for tertiary non-university teachers. Questions and
 responses were the same, except for the type of tertiary degrees that
-\textcolor{blue}{were considered}. In both cases, we used mainly mailing lists, as well as Telegram groups,
-to spread the link to the form. The university form was spread in Spanish
-(mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and
-Mexico. The tertiary non-university teachers are based mainly in
+\textcolor{blue}{were considered}. The survey was piloted by the authors of the paper and their colleagues before using it in the 
+study.  All the comments collected from this trial were incorporated in the survey.
+We used mainly mailing lists, as well as Telegram groups,
+to post the survey link to reach out to more educators. The university form was sent to Spanish
+(mainly Andaluc\'{\i}a and Galicia) universities, and also  universities in Costa Rica and
+Mexico. The tertiary (non-university/college) teachers were based mainly in
 Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of
 2021, post-pandemic and while, at least in Spain, many universities had
 mandatory virtual teaching.
