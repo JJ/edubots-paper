@@ -560,52 +560,33 @@ opinions.
 \section{Methodology}
 \label{sec:meth}
 
-Our intention from the beginning was to try to gather a sufficient amount of
-responses in all sectors, as well as cover different sectors of higher
-education. In doing so, an online survey was administered (i.e., Google Form),
-in Spanish, which was intended to be answered in a very short amount of
-time. Initially, our intention was to mirror the questions used in
-\cite{MoraChatbots2021:anon}; however, an initial exploration of results led us
-to create a second survey. The \textcolor{blue}{new survey} items focused on the use of messaging apps
+This study followed a quantitative approach towards addressing it research objectives. In doing so, an online survey was administered (i.e., Google Form),
+in Spanish, comprised by six questions focusing on demographic data (i.e., sector, gender, degrees, discipline, age, teaching experience), followed by four multiple choice questions allowing the participants to choose multiple answers in each of those. 
+Thee multiple choice questions focused on the use of messaging apps
 in the teaching practice, the type of chatbot use cases that teachers consider
 useful to be used in their teaching, and the type of interactions that teachers
 prefer to have with their students while using messaging apps in their teaching.
 
-The {\bf initial survey} was done in two separate Google forms, one for
-university and other for tertiary non-university teachers. Questions and
-responses were the same, except for the type of tertiary degrees that
-\textcolor{blue}{were considered}. In both cases, we used mainly mailing lists, as well as Telegram groups,
-to spread the link to the form. The university form was spread in Spanish
-(mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and
-Mexico. The tertiary non-university teachers are based mainly in
-Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of
+This survey was administered to both university and tertiary non-university teachers (i.e., teaching in the vocational sector). The responders were reached out through the use of mailing lists and Telegram groups. The survey was shared among university teachers that teach in 
+Spanish (mainly Andaluc\'{\i}a and Galicia) universities, and also Costa Rica and
+Mexico, and tertiary non-university teachers who are based mainly in
+Andaluc\'{\i}a. Data collection with the use of the survey took place in the first quarter of
 2021, post-pandemic and while, at least in Spain, many universities had
-mandatory virtual teaching.
+mandatory virtual teaching.Survey questions \textcolor{blue}{are shown in Appendix I (Section \ref{app:questions})}. 
+Responses were stored automatically in a Google Drive spreadsheet.
 
 A total of 282 teachers responded to the survey: 193 teaching at the University
-(68.4\%) and 89 at other tertiary education institutions (31.6\%). Survey
-questions \textcolor{blue}{are shown in Appendix I (Section \ref{app:questions})}.
+(68.4\%) and 89 at other tertiary education institutions (31.6\%).From those, 179 indicated their gender as male (63.5\%), 98 as female (34.8\%) and 5 teachers preferred not to indicate their gender (1.8\%). In terms of age, the majority of the participants (n=111) in this survey was 45-55 years old (39.4\%), while 91 teachers were 35-45 (32.3\%), 46 were 25-35 (16.3\%) and 34 teachers were older than 55 (12.1\%). Last, 84 teachers had a teaching experience of 16-25 years (29.8\%), 75 teachers 6-15 years of experience (26.6\%), 69 teachers had 0-5 years of experience (24.5\%) and finally, 54 teachers had more than 25 years of teaching experience (19.1\%).
 
-Responses were stored automatically in a Google Drive spreadsheet. Eventually,
-the results from the two forms we used for the first survey were collated in a
-single spreadsheet. Next we will show the results and analyse them.
+For addressing the 4th research question, a second online survey was administered (i.e., Google Form), in Spanish, comprised by four questions focusing on demographic data (i.e., gender, age, degrees, teaching experience), followed two multiple choice questions with single answers and one multiple choice questions allowing the participants to choose multiple answers. The items of this survey focused on the kind of interaction media features that the teachers value the most. The survey was administered to university teachers teaching at the University of Granada, but also student teachers who attended a teacher formation course (on the use of new technologies in higher education). The responders were reached out through the use of mailing lists, while an invitation to participate in the survey was also promoted in the newsletter of the vice deanship for International Relations of the University of Granada. Survey questions \textcolor{blue}{are shown in Appendix I (Section \ref{app:questions})}. 
+%make this appendix 2 and delete the paragraph before the questions. 
+Responses were stored automatically in a Google Drive spreadsheet. A total of 205 teachers responded to the second survey: 187 graduate teachers (91.2%) and 18 student teachers (8.8%). From those, 124 were (60.5\%), 65 female (31.7\%) and 16 teachers preferred not to indicate their gender (7.8\%). In terms of age, the majority of the participants (n=70) was again, as in the first survey, 45-55 years old (34.1\%), while 67 teachers were 35-45 (32.7\%), 42 were 25-35 (20.5\%) and 26 teachers were older than 55 (12.7\%). In terms of teaching experience, 59 teachers had a teaching experience of 16-25 years (28.8\%), 51 teachers had 6-15 years (24.9\%) and 0-5 years of experience (24.9\%), and 44 teachers more than 25 years of teaching experience (21.5\%). 
+
 
 % ********************** RESULTS ****************************
 
 \section{Results and analysis}
 \label{sec:res}
-
-% Describe the survey and population
-We collected responses from 282 teachers from Spain and Spanish Speaking
-countries for \textit{survey1} and 205 for \textit{survey2}. The two forms were
-open for approximately the same amount of time, around two months. The sample
-includes mostly teachers from university, although about 32\% and 8\% are from
-vocational education in the first and second survey respectively. Regarding
-gender, 61\% of the teachers were male and 32\% female, while approximately 5\%
-chose not to disclose it. Finally, the responses are more or less equally
-distributed according to the teaching experience, showing 24\% of responses from
-teachers with 5 or less years of experience, 26\% for 6-15 years of experience,
-30\% for 16-25, and 20\% for teachers with more than 25 years of experience.
 
 % \begin{figure}[h!tbp]
 % \begin{center}
@@ -682,11 +663,6 @@ teachers with 5 or less years of experience, 26\% for 6-15 years of experience,
 % \label{figure:teachers_population}
 % \end{figure}
 
-% % Olia suggests to delete this, as well as figure 1.
-% Figure \ref{figure:teachers_population} shows the distribution of age and experience are quite similar. %, and as a matter of fact,
-% Additionally, as a matter of fact, as Figure \ref{figure:age.vs.exp} shows, age and experience are correlated strongly, with experience being roughly 20-30 years less than age. 
-% This might indicate that a differential analysis for age and experience will not yield significant differences, except maybe in the 6-15 years experience group, which is spread over all ages. At any rate, experience seems to be the dominating factor here and we'll use experience only unless we detect some significant difference by age.
-
 % \begin{figure}[h!tbp]
 % \begin{center}
 % <<interaction,message=FALSE,echo=FALSE, fig.height=2.0, fig.width=4.0>>=
@@ -703,8 +679,7 @@ teachers with 5 or less years of experience, 26\% for 6-15 years of experience,
 % \label{figure:age.vs.exp}
 % \end{figure}
 
-We will try to find the answers to the four research questions next, by
-analysing the response to the different survey questions.
+The data analysis methods followed for addressing each one of the four research questions (RQ), as well as the respective results, are presented per RQ in the sections that follow. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -713,31 +688,14 @@ analysing the response to the different survey questions.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-Group messaging apps have become a powerful tool for \textcolor{blue}{communicating} with
-students. Also, many of them have built-in chatbots to enhance the learning
-process. After an initial analysis to the answers to the first survey, we
-realized that there were some prior issues mainly related to the adoption of a
-technology, \textcolor{blue}{i.e. chatbots}, that generally piggybacks on another, \textcolor{blue}{i.e. messaging
-applications}. In a technology adoption model, perceived ease of use and
-perceived usefulness are essential. But it is going to be very difficult for
-teachers to find {\em chatbots} easy to use if they, previously, do not
-consider, or simply use, the messaging tools to which they are attached.
+%Delete and transfer whatever is useful in the discussion section
 
-This is why for answering RQ1, teachers were queried about whether they use
+For answering RQ1, teachers were queried about whether they use
 messaging apps in their classes, specifically, Telegram, WhatsApp, Slack (an
 application used mainly in IT departments and software development), or any
 other messaging app, and whether they use messaging apps provided by their
-academic institution (see Table \ref{tab:use_messapps}). \textcolor{blue}{In this case, we would like 
-to add a clarification}. While we had in mind, as indicated by the possible answers, 
-instant messaging applications when making this question,
-we included these institution-provided applications mainly for completion. But
-it should be noted that, in most cases, they are not {\em instant} messaging
-apps in the way Telegram or Facebook Messenger are; in most cases they are
-messaging facilities provided by learning management systems such as (usually)
-Moodle. So the answer to this question must be understood in two different ways:
-their preference for the {\em source} of the technology (university, any
-company) as well as the {\em type} of technology (instant, app based messaging
-systems vs. web-based systems integrated in another learning management system).
+academic institution (see Table \ref{tab:use_messapps}). \textcolor{blue}
+%OT: Why did we include these multiple ways of interpretation? In any case I suggest deleting this from here and moving it into the discussion section, if needed.  
 
 Overall, the majority of the teachers responded that they do use messaging apps
 in their classrooms, from which apps provided by the academic institution
@@ -774,19 +732,8 @@ teachers are more active in their use, \textcolor{blue}{but the amount of teache
 who answered they used these apps in their classes is also remarkable}
 (around 60\% use the apps provided by their institutions).
 
-Although no significant differences were found regarding gender, female teachers
-answered they use instant messaging apps more than male teachers (about 10\%
-more). Also, teachers in vocational Education use WhatsApp more than university
-teachers. Regarding the distribution of the use of messaging apps per age, there
-are no significant differences for WhatsApp and apps provided by their own
-academic institutions. % Olia requests support for this. 
-However, younger teachers also use Telegram with more than 25\%, a percentage
-that falls to about 10\% for teachers that are 55 or older. %The third column
-                                %compares the use of these apps considering the
-                                %number of years of experience.
-One interesting result is that about 65\% of teachers with more than 25 years of
-experience use the platforms provided by their institutions while the percentage
-goes down to less than 50\% for teachers with 6-15 years of experience.
+%if you keep the sentence that follows, you should add evidence. Otherwise delete. 
+%delete the figure 
 %
 \begin{figure}[h!tbp]
 \begin{center}
@@ -911,7 +858,9 @@ Some of the questions in the survey were focused on the impact of the COVID19
 pandemic between 2020 and 2021, in the teachers' viewpoints towards the use of
 instant messaging apps in their class. Our main intention in this case was to
 assess whether a crisis will bring about some kind of change in the use of
-tools. The 282 answers are summarized in
+digital tools in the teaching practice. 
+%delete the following paragraph and the figures 
+The 282 answers are summarized in
 Figs. \ref{figure:gender*chatbots_use_postcovid},
 \ref{figure:sector*chatbots_use_postcovid},
 \ref{figure:years*chatbots_use_postcovid},
@@ -975,7 +924,7 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
     % Have different sub-captions so that we can refer to specific subfigures - Olia
 \end{figure} 
 
-A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. The frequencies cross tabulated are given in Table \ref{tab:sector*covid}. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational).
+Furthermore, a chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. The frequencies cross tabulated are given in Table \ref{tab:sector*covid}. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational).
 %
 \begin{table}[h!tbp]
 \begin{tabular}{llccc}
@@ -1060,197 +1009,6 @@ Total & & 99 &  53&  32&  16&  5&  72&  5&  282\\ \hline
 %A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. The frequencies cross tabulated are given in Table \ref{tab:sector*covid}. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational). 
 %The relationships between changes in the use of messaging apps, due to the covid-19 pandemic, and the instructors’ discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, $p= 0.039$ were also significant.
 
-% Olia - TODO: check for repetitions in the following paragraph that you added. thank you.
-Finally, we took a closer look at the post-covid changes and the variables
-gender, sector, and discipline for which the chi-square test is statistically
-significant as shown in Figures \ref{figure:gender*postcovid_chisq},
-\ref{figure:sector*postcovid_chisq}, \ref{figure:discipline*postcovid_chisq}
-respectively. Each figure shows on the left, a graph that represents the
-Pearson's residuals of the chi-square test results and a table on the right part
-that shows the contribution of each cell to the test. In the Pearson's residual
-graphs, the responses were shortened for the sake of clarity according to: 1)
-\textit{Did/do} stands for \textit{Yes, I did use it before and do use it now};
-2) \textit{Didn't/do} for \textit{Yes, I didn’t use any messaging app before,
-  but do use it now}; 3) \textit{safer} for \textit{Yes, I use a safer messaging
-  app now}; 4) \textit{Didn't/Don't} for \textit{No, I didn’t use it before and
-  don’t use it now}.
-%
-\begin{figure}[h!tbp]
-\begin{center}
-    \begin{minipage}[c]{0.45\textwidth}
-        \centering
-<<gender_postcovid_chisq, echo=FALSE, fig.width=17/2.54, fig.height=10/2.54>>=
-df <-select(survey.pilot.postCOVID, PostCOVID.changes, Gender, Sector, Experience, Discipline)
-df[as.character(df$Gender)!="PNTS", ] -> df1
-df1[as.character(df1$Gender)!="No", ] -> df1
-df1[as.character(df1$Discipline)!="No", ] -> df1
-df1[as.character(df1$Experience)!="No", ] -> df1
-df1[as.character(df1$Sector)!="No", ] -> df1
-survey.pilot.postCovidChisq<- droplevels(df1)
-
-covidChanges.vs.Gender<-table(survey.pilot.postCovidChisq$Gender, survey.pilot.postCovidChisq$PostCOVID.changes)
-colnames(covidChanges.vs.Gender)<- c("Did/do", "Didn't/do","safer", "Didn't/don't")
-covidChanges.vs.Gender<-covidChanges.vs.Gender[,c(3,2,1,4)]
-chisq<-chisq.test(covidChanges.vs.Gender)
-corrplot(chisq$residuals, is.corr = FALSE)
-@
-    \end{minipage}
-    %This tables comes from (TODO: generate them automatically from the data)
-    %contrib <- 100*chisq$residuals^2/chisq$statistic
-    %round(contrib, 2)
-    %round(chisq$stdres, 3)
-    \begin{minipage}[c]{0.50\textwidth}
-        \centering
-    \resizebox{\textwidth}{!}{%
-\begin{tabular}{llllll}
-\hline
- &  & \multicolumn{4}{c}{Gender} \\ \cline{3-6} 
- &  & \multicolumn{2}{c}{Female} & \multicolumn{2}{c}{Male} \\ \cline{3-6} 
- &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} \\ \cline{2-6} 
-\begin{tabular}[c]{@{}l@{}}Post-\\ covid\\ changes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Yes, I use a \\ safer messaging \\ app now\end{tabular} & 1.832 & 13.49\% & -1.832 & 7.50\% \\
- & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use \\ any messaging \\ app before, but\\ do use it now\end{tabular} & \textbf{2.806} & \textbf{31.21\%} & \textbf{-2.806} & \textbf{17.36\%} \\
- & \begin{tabular}[c]{@{}l@{}}No, I did use it \\ before and\\ use it now\end{tabular} & \textbf{2.850} & 15.15\% & \textbf{-2.850} & 8.43\% \\
- & \begin{tabular}[c]{@{}l@{}}No, I didn’t use \\ it before and\\ don’t use it now\end{tabular} & -1.011 & 4.40\% & 1.011 & 2.45\% \\ \hline
-\end{tabular}
-    %\begin{tabular}{l|r|r|r|r|}
-    %\cline{2-5}
-    %                             & Did/Do & Didn't/Do & Safer  & Didn' t/Don't \\ \hline
-    %\multicolumn{1}{|l|}{Female} & \textbf{-2.850} & \textbf{2.806} & 1.832  & -1.011 \\ 
-    %\multicolumn{1}{|l|}{} & 15.15\% & \textbf{31.21\%} &  13.49\% & 4.40\% \\ \hline
-    %\multicolumn{1}{|l|}{Male}   & \textbf{2.850} & \textbf{-2.806} & -1.832 & 1.011 \\ 
-    %\multicolumn{1}{|l|}{} &  8.43\% &  \textbf{17.36\%} & 7.50\% &  2.45\% \\ \hline
-    %\end{tabular}%
-    }
-    \end{minipage}
-\end{center}
-    \caption{Analysis for gender and post-covid changes: left) Pearson's residuals for the Chi-square test; right) Gender*post-covid changes crosstabulation, including standardized residuals \cite{agresti2013categorical} (also adjusted standardized residuals) and contribution percentage to the total Chi-square test of each cell.}
-\label{figure:gender*postcovid_chisq}
-\end{figure}
-
-As mentioned, the graphs on the left hand side represent the Pearson's
-residuals, showing the difference between the observed and the expected values
-for each cell. Thus, large residuals indicate that variables are not truly
-independent. In our case, the blue shows positive contributions and red negative
-contributions to the test. Moreover, the saturation shows how large the
-contribution is in contrast to the expected value by chance. Additionally,
-tables on the right side show adjusted standardized residuals that according to
-\cite{agresti2013categorical}, if greater than +/-2 for cases with few cells,
-indicate lack of fit of $H_0$ (in boldface in our table). Complementary, the
-table also shows the percentage of contribution to the test of each cell
-(highest percentage per column also in boldface).
-
-Regarding gender in Fig. \ref{figure:gender*postcovid_chisq}, the results show a
-high positive contribution from female educators that did not use a messaging
-app before the COVID-19 pandemic but do use it now; approximately 31\% of the
-test results are explained by this cell. In contrast, male educators that
-respond the same were less than expected (negative contribution that explains
-17\% of the test results). Also, it is important to highlight the female
-educators that kept using these apps before and after the pandemic and
-correspondingly the negative contribution of male educators to the same case
-(less than expected by chance).
-
-\begin{figure}[h!tbp]
-\begin{center}
-    \begin{minipage}[c]{0.45\textwidth}
-        \centering
-<<sector_postcovid_chisq, echo=FALSE, fig.width=17/2.54, fig.height=10/2.54, warning=FALSE>>=
-covidChanges.vs.Sector<-table(survey.pilot.postCovidChisq$Sector, survey.pilot.postCovidChisq$PostCOVID.changes)
-colnames(covidChanges.vs.Sector)<- c("Did/do", "Didn't/do","safer", "Didn't/don't")
-covidChanges.vs.Sector<-covidChanges.vs.Sector[,c(3,2,1,4)]
-chisq<-chisq.test(covidChanges.vs.Sector)
-corrplot(chisq$residuals, is.corr = FALSE)
-@
-    \end{minipage}
-    \begin{minipage}[c]{0.50\textwidth}
-        \centering
-    \resizebox{\textwidth}{!}{%
-    %\begin{tabular}{l|r|r|r|r|}
-    %\cline{2-5}
-    %                             & Did/Do & Didn't/Do & Safer  & Didn' t/Don't \\ \hline
-    %\multicolumn{1}{|l|}{University} & \textbf{-2.122} & 0.454 & 0.115  &  \textbf{2.939}\\ 
-    %\multicolumn{1}{|l|}{} & 5.71\% & 0.56\% & 0.04\%  &  \textbf{25.26\%}\\ \hline
-    %\multicolumn{1}{|l|}{Vocational} & \textbf{2.122} & -0.454 & -0.115 & \textbf{-2.939}\\ 
-    %\multicolumn{1}{|l|}{} & 12.38\% & 1.21\% & 0.08\% & \textbf{54.78\%}\\ \hline
-    %\end{tabular}%
-    \begin{tabular}{llllll}
-          \hline
-           &  & \multicolumn{4}{c}{Sector} \\ \cline{3-6} 
-           &  & \multicolumn{2}{c}{University} & \multicolumn{2}{c}{Vocational} \\ \cline{3-6} 
-           &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} \\ \cline{2-6} 
-          \begin{tabular}[c]{@{}l@{}}Post-\\ covid\\ changes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Yes, I use a \\ safer messaging \\ app now\end{tabular} & 0.115 & 0.04\% & -0.115 & 0.08\% \\
-           & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use \\ any messaging \\ app before, but\\ do use it now\end{tabular} & 0.454 & 0.56\% & -0.454 & 1.21\% \\
-           & \begin{tabular}[c]{@{}l@{}}No, I did use it \\ before and\\ use it now\end{tabular} & \textbf{-2.122} & 5.71\% & \textbf{2.122} & 12.38\% \\
-           & \begin{tabular}[c]{@{}l@{}}No, I didn’t use \\ it before and\\ don’t use it now\end{tabular} & \textbf{2.939} & \textbf{25.26\%} & \textbf{-2.939} & \textbf{54.78\%} \\ \hline
-          \end{tabular}%
-    }
-    \end{minipage}
-\end{center}
-    \caption{Analysis for sector and post-covid changes: left) Pearson's residuals for the Chi-square test; right) Sector*post-covid changes crosstabulation, including standardized residuals \cite{agresti2013categorical} (also adjusted standardized  residuals) and contribution percentage to the total Chi-square test of each cell.}
-\label{figure:sector*postcovid_chisq}
-\end{figure}
-%
-With respect to the sector, the results in Fig. \ref{figure:sector*postcovid_chisq} show a positive contribution from university educators being reluctant to use any messaging apps before or after the pandemic: the positive contribution of their responses explain 25\% of the test results with an adjusted residual of 2.94. On the contrary, vocational teachers were more open to it, showing a negative Pearson's residual. Also, we find larger values than expected in vocational teachers that kept using these apps after the pandemic. 
-
-\begin{figure}[h!tbp]
-\begin{center}
-    \begin{minipage}[c]{0.45\textwidth}
-        \centering
-<<discipline_postcovid_chisq, echo=FALSE, fig.width=17/2.54, fig.height=10/2.54, warning=FALSE>>=
-survey.pilot.postCovidChisq %>%mutate(Discipline = ifelse(as.character(Discipline) == "No", "Hum/Social Sciences", as.character(Discipline))) %>%
-  mutate(Discipline = ifelse(as.character(Discipline) == "Other", "Hum/Social Sciences", as.character(Discipline))) %>%
-  mutate(Discipline = ifelse(as.character(Discipline) == "Engineering", "Tech/Engineering", as.character(Discipline))) %>%
-  mutate(Discipline = ifelse(as.character(Discipline) == "Technology", "Tech/Engineering", as.character(Discipline))) %>%
-  mutate(Discipline = ifelse(as.character(Discipline) == "Humanities", "Hum/Social Sciences", as.character(Discipline))) %>%
-  mutate(Discipline = ifelse(as.character(Discipline) == "Social Sciences", "Hum/Social Sciences", as.character(Discipline))) %>%
-  mutate(Discipline = ifelse(as.character(Discipline) == "Sciences", "Biomed/Sciences", as.character(Discipline))) %>%
-  mutate(Discipline = ifelse(as.character(Discipline) == "Biomedicine", "Biomed/Sciences", as.character(Discipline)))->survey.pilot.postCovidChisq
-covidChanges.vs.Discipline<-table(survey.pilot.postCovidChisq$Discipline, survey.pilot.postCovidChisq$PostCOVID.changes)
-colnames(covidChanges.vs.Discipline)<- c("Did/do", "Didn't/do","safer", "Didn't/don't")
-covidChanges.vs.Discipline<-covidChanges.vs.Discipline[,c(3,2,1,4)]
-chisq<-chisq.test(covidChanges.vs.Discipline)
-corrplot(chisq$residuals, is.corr = FALSE)
-@
-    \end{minipage}
-    \begin{minipage}[c]{0.50\textwidth}
-        \centering
-    \resizebox{\textwidth}{!}{%
-\begin{tabular}{llllllll}
-\hline
- &  & \multicolumn{6}{c}{Discipline} \\ \cline{3-8} 
- &  & \multicolumn{2}{c}{Biomed/Sciences} & \multicolumn{2}{c}{Hum/Social} & \multicolumn{2}{l}{Tech/Engineering} \\ \cline{3-8} 
- &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Stand. \\ Residuals\end{tabular} & \begin{tabular}[c]{@{}l@{}}Contri-\\ bution\end{tabular} \\ \cline{2-8} 
-\begin{tabular}[c]{@{}l@{}}Post-\\ covid\\ changes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Yes, I use a \\ safer mes-\\ saging app \\ now\end{tabular} & 1.452 & \textbf{9.94\%} & 1.566 & 11.04\% & \textbf{-2.448} & \textbf{13.29\%} \\
- & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t \\ use any mes-\\ saging app \\ before, but\\ do use it now\end{tabular} & 0.733 & 2.50\% & \textbf{2.079} & \textbf{19.19\%} & -2.318 & 11.76\% \\
- & \begin{tabular}[c]{@{}l@{}}No, I did use \\ it before and\\ use it now\end{tabular} & -1.265 & 3.50\% & \textbf{-2.729} & 15.55\% & \textbf{3.278} & 11.06\% \\
- & \begin{tabular}[c]{@{}l@{}}No, I didn’t \\ use it before \\ and don’t use \\ it now\end{tabular} & -0.588 & 1.75\% & 0.055 & 0.01\% & 0.412 & 0.40\% \\ \hline
-\end{tabular}
-    %\begin{tabular}{l|r|r|r|r|}
-    %\cline{2-5}
-    %                             & Did/Do & Didn't/Do & Safer & Didn' t/Don't \\ \hline
-    %\multicolumn{1}{|l|}{Biomed/Sciences} & -1.265 &  0.733 & 1.452 & -0.588 \\ 
-    %\multicolumn{1}{|l|}{} & 3.50\% &  2.50\% & 9.94\% & 1.75\% \\ \hline
-    %\multicolumn{1}{|l|}{Hum/Social} &  \textbf{-2.729} & \textbf{2.079} &  1.566 & 0.055\\ 
-    %\multicolumn{1}{|l|}{} &  15.55\% & \textbf{19.19\%} &  11.04\% & 0.01\%\\ \hline
-    %\multicolumn{1}{|l|}{Tech/Engineering} &  \textbf{3.278} &  \textbf{-2.318} &  \textbf{-2.448} & 0.412\\ 
-    %\multicolumn{1}{|l|}{} &  11.06\% &  11.76\% &  \textbf{13.29\%} & 0.40\%\\ \hline
-    %\end{tabular}%
-    }
-    \end{minipage}
-\end{center}
-    \caption{Analysis for discipline and post-covid changes: left) Pearson's residuals for the Chi-square test; right) Discipline*post-covid changes crosstabulation, including standardized residuals \cite{agresti2013categorical} (also adjusted standardized residuals) and contribution percentage to the total Chi-square test of each cell.}
-\label{figure:discipline*postcovid_chisq}
-\end{figure} 
-%
-Finally, statistical significance was found for the discipline and post-covid
-changes. Regarding disciplines (see
-Fig. \ref{figure:discipline*postcovid_chisq}), the number of educators from
-Humanities and Social Sciences that started using messaging apps after the
-pandemic is larger than expected and these number of responses explains about
-19\% of the chi-square test results. Also, the number of educators from
-Technology or Engineering that started using safer alternatives \footnote{This addresses the issue of insecure/unsafe applications which do not cipher messages or can be easily compromised exposing information} are less than
-expected (compared to the educators from other disciplines). Bear in mind that
-some disciplines were merged to avoid very low number of responses for some of
-the cells.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -1277,8 +1035,8 @@ Others & 25 & 8.9 & 257 & 91.1 \\ \hline
 \end{table}
 
 
-For the findings it occurs that the most favourable use case for chatbots in
-Higher Education and vocational training is their use for the facilitation of an
+From the findings it occurs that the most favourable use case for chatbots in
+Higher Education and vocational training is the use of chatbots for the facilitation of an
 agenda formation (171 positive response, 60.6\%), followed by the FAQs use case
 (148 positive responses, 52.5\%) and the sharing class material use case (136;
 48.2\%). A chi-square test of independence was performed to examine the relation
@@ -1417,45 +1175,12 @@ teacher, with the use of messaging apps. The findings are summarized in Table
 \label{tab:kindinteractions}
 \end{table}
 
-As it can be seen by the answer to the first and last question, in general
+The majority of the teachers (n=269, 95.4%) responded negatively to the kind of interactions that take place in chat tools and involve students, teachers and the faculty, while most of them (n=171, 60.6%) prefer the kind of interactions that take place among students in the same course. As it can be seen by the answer to the first and last question, in general
 teachers do not want to participate in a chat group with students; either they
 want to simply leave the students alone in their own chat group, or otherwise
-they prefer not to be part of that interaction. In general, that is going to be
-the case no matter what; it is well known that students organize their own chat
-groups with many (and not always conveyable) intentions, so teachers do not want
-to take any part in these informal or non institutionally-supported chat
-groups. Overwhelmingly, they do not want to participate in these kind of chat
-groups with students, but even less so if it includes the rest of the faculty.
+they prefer not to be part of that interaction. 
 
-The answer, then, to this research question, is that, in general, teachers do
-{\em not} want to have interaction with students in a chat group. To a certain
-point, this would seem to contradict results by Gachago et
-al. \cite{gachago2015crossing}, although this might be due to cultural
-attitudes, or other factors such as the average size of classes. It does
-confirm, however, that the challenges cited in that study, and possibly others,
-are an obstacle to the adoption of mobile (and other) instant messaging among
-the community of surveyed teachers.
-
-Regarding the social factor of chat groups that teachers use in class, according
-to Fig. \ref{figure:chatbots_messagingorganization} the vast majority prefer
-small groups only with the students from the same course. These are more focused
-groups with specific goals and dedicated to the organization of the course and
-its tasks, and from the pedagogic point of view seem more appropriate to improve
-the learning process. Interestingly, and as a cross-check of the answers above,
-about 30\% of teachers consider they should not be part of the chat group. This
-might seem to contradict the results of the other survey, but in fact, being a
-result of different surveys, to a certain point affirms the same thing: there is
-a great amount of teachers that would be against being in a chat group with
-students. Whether that's a slim majority or not, that's open to debate (and
-would probably need a more pointed survey focused on this), but what is clear is
-that forcing teachers to create chat groups with students and participate in
-them would create a certain amount of resistance. Also, only university teachers
-find interesting a group with all the students and teachers in their own Faculty
-or School. The lack of teachers from vocational education here may be the
-consequence of using specific language such as ``Faculty''. Moreover, the fact
-that many universities and schools already use these groups for administrative
-and social interaction (e.g. \cite{dibitonto2018chatbot}) might be the reason
-for the low percentage of teachers that selected this response.
+%what followed, should be part of the discussion 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -1467,6 +1192,7 @@ for the low percentage of teachers that selected this response.
 
 
 
+%delete the figure
 \begin{figure}[h!tbp]
 \begin{center}
     \begin{minipage}[t]{0.3\textwidth}
@@ -1510,7 +1236,7 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Disci
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged $>$~55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). The teachers were asked about what kind of interaction media features they value the most; the frequencies and percentages of their responses are given in Table \ref{tab:interaction}. 
+Data from the second survey were used for addressing RQ4, as already mentioned in the Methodology. A total of 205 teachers responded to the second survey, who were asked about what kind of interaction media features they value the most; the frequencies and percentages of their responses are given in the table that follows. 
 
 \begin{table}[h!]
 \begin{tabular}{lcccc}
