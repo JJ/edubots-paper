@@ -560,9 +560,12 @@ opinions.
 \section{Methodology}
 \label{sec:meth}
 
-This study followed a quantitative approach towards addressing it research objectives. In doing so, an online survey was administered (i.e., Google Form),
-in Spanish, comprised by six questions focusing on demographic data (i.e., sector, gender, degrees, discipline, age, teaching experience), followed by four multiple choice questions allowing the participants to choose multiple answers in each of those. 
-Thee multiple choice questions focused on the use of messaging apps
+This study followed a quantitative approach towards addressing its research objectives.
+In doing so, an online survey was administered (i.e., Google Form),
+in Spanish, comprised of six questions focusing on demographic data
+(i.e., sector, gender, degrees, discipline, age, teaching experience)
+followed by four multiple choice questions allowing the participants to choose multiple answers. 
+These questions focused on the use of messaging apps
 in the teaching practice, the type of chatbot use cases that teachers consider
 useful to be used in their teaching, and the type of interactions that teachers
 prefer to have with their students while using messaging apps in their teaching.
