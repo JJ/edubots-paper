@@ -344,7 +344,7 @@ challenges/opportunities of adopting these technologies in classrooms
 to paint a better picture of how they can positively contribute to enhancing
 the learning process in higher education institutions.}
 
-\textcolor{blue}{In this study, data collection involved two phases}
+\textcolor{blue}{In this study, data collection involved two phases:}
  \begin{itemize}
 \item The first phase aimed to collect feedback from students about their actual
   needs \cite{MoraChatbots2021:anon}. Hence, the objective was to collect
@@ -365,9 +365,9 @@ the learning process in higher education institutions.}
 \end{itemize}
 
 Initially, a single survey was developed for this purpose and responses from 300
-higher education teachers were collected and analysed.  The responses' analysis
+higher education teachers were collected and analysed\textcolor{blue}{; this will be explained more fully in the corresponding section}.  The responses' analysis
 entailed the creation of a second survey to which 200 teachers' responses were
-collected. The questions of the second survey focussed on discussing teachers'
+collected\textcolor{blue}{, with the methodology and collective characteristics that will be explained below}. The questions of the second survey focussed on discussing teachers'
 needs, opinions and preferences of the development of future technology-enhanced
 tools and its potential impact on educational institutions’ policies. Therefore,
 this paper investigated the following research questions:
