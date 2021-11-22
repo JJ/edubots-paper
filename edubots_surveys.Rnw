@@ -533,7 +533,7 @@ have also analysed how the use of chatbots affected the learning outcomes of
 students in a Chinese class \cite{doi:10.1177/0735633120929622}. This paper
 analysed conversational chatbots in an one-to-one setting, finding that learning
 really benefited from it. This is, once again, a proof of the benefit of
-chatbots in certain settings; however, there are some opinions that might
+chatbots in certain settings; however, there are some \textcolor{blue}{prior experiences, as well as needs} that might
 prevent the successful acceptance of the technology, and these are what we are
 trying to find out in this paper, together with what kind of features would make
 its acceptance better.
