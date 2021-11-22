@@ -721,7 +721,7 @@ students. Also, many of them have built-in chatbots to enhance the learning
 process. After an initial analysis to the answers to the first survey, we
 realized that there were some prior issues mainly related to the adoption of a
 technology, \textcolor{blue}{i.e. chatbots}, that generally piggybacks on another, \textcolor{blue}{i.e. messaging
-applications}. Generally, in a technology adoption model, perceived ease of use and
+applications. Generally,} in a technology adoption model, perceived ease of use and
 perceived usefulness are essential. But it is going to be very difficult for
 teachers to find {\em chatbots} easy to use if they, previously, do not
 consider, or simply use, the messaging tools to which they are attached.
