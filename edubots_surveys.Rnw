@@ -1741,7 +1741,7 @@ behaviour during and after the pandemic do not suggest that major (or minor)
 crisis could be an opportunity to introduce new technologies, since it does not
 bring major changes in attitude. A minor crisis would be, for instance, rollout
 of a new higher education law\footnote{We seem to have one of these, at least in
-  Spain, every 10 years or so}, or introduction of new degrees. Although
+  Spain, every 10 years or so.}, or introduction of new degrees. Although
 external changes do offer the chance of piloting new technologies, they do not
 seem to bring changes in attitudes in the teaching staff (which, after all, is
 bound to be the same). In absence of a clear answer in this direction, the right
@@ -1820,8 +1820,8 @@ assessment on the students.
 % 
 % \subsection{Acknowledgements}
 % 
-% The authors want to thank to the educators who participated in the survey, and also people who have distributed the survey in their mailing lists, especially Mario García Valdez, Jesús Moreno León and José Raúl Canay.
-% % Antonio - Add other acknowledgements
+% The authors want to thank to the educators who participated in the survey, and also people who have distributed the survey in their mailing lists, especially Mario García Valdez, Jesús Moreno León and the late José Raúl Canay.
+% We would also like to thank the anonymous reviewers that have contributed greatly to the improvement of this paper.
 
 \section{Appendix I: Survey questions}
 \label{app:questions}
