@@ -1430,8 +1430,7 @@ groups with students, but even less so if it includes the rest of the faculty.
 
 The answer, then, to this research question, is that, in general, teachers do
 {\em not} want to have interaction with students in a chat group. To a certain
-point, this would seem to contradict results by Gachago et
-al. \cite{gachago2015crossing}, although this might be due to cultural
+point, this would seem to contradict results \cite{gachago2015crossing}, although this might be due to cultural
 attitudes, or other factors such as the average size of classes. It does
 confirm, however, that the challenges cited in that study, and possibly others,
 are an obstacle to the adoption of mobile (and other) instant messaging among
@@ -1884,7 +1883,7 @@ includes the following questions:
 The {\bf second survey} followed the same paths, only in this case there was a single questionnaire, and with a different scope, focusing on the kind of interaction media features that teachers value the most.  % Olia - see my comment above.
 It was filled by teachers that were also students in a Professional Development course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers who knew about it by emails from the authors, or from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary. These questions tried to address mainly RQ1 and RQ4.
 
-Specifically, this survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what are  their feelings and preferences with regard to the use of instant messaging applications with students, and even using bots or chatbots in the classroom. In addition the survey asked about the most relevant \textit{interaction media features} for the teachers with respect to the potential tool to use in class. 
+Specifically, this survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what are  their \textcolor{blue}{past experiences and needs} with regard to the use of instant messaging applications with students, and even using bots or chatbots in the classroom. In addition the survey asked about the most relevant \textit{interaction media features} for the teachers with respect to the potential tool to use in class. 
 
 The specific questions included in this second survey are listed below:
 
