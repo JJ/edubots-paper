@@ -382,7 +382,7 @@ tools and its potential impact on educational institutions’ policies. In order
 We will try to answer these questions through the analysis of questions and
 answers in the two surveys. Eventually, what we want to obtain is a series of
 recommendations to make a successful deployment of chatbot technologies (and, in
-some cases, general instant messaging applications) in higher education.
+some cases, general instant messaging applications) in higher education\textcolor{blue}{; from the response to RQ1 and RQ4 we will try to recommend specific technologies or applications to be used in the classroom; the response to RQ2 and RQ3 will help us recommend chatbots features or specific platforms; and finally, from R3 we will also try to find best practices in the adoption of messaging platforms and they accompanying chatbots.}
 
 The remainder of the paper is organized as follows: Next is an overview of what
 current research has found about the use of messaging applications, including
