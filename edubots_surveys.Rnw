@@ -365,7 +365,7 @@ the learning process in higher education institutions.}
 \end{itemize}
 
 Initially, a single survey was developed for this purpose and responses from 300
-higher education teachers were collected and analysed\textcolor{blue}{; this will be explained more fully in the corresponding section}. The responses' analysis
+higher education teachers were collected and analysed\textcolor{blue}{; this will be explained more fully in the methodology section}. The responses' analysis
 entailed the creation of a second survey to which 200 teachers' responses were
 collected\textcolor{blue}{, with the methodology and collective characteristics that will be explained below. The questions of the second survey focussed on discussing teachers'
 needs, opinions and preferences of the development of future technology-enhanced
