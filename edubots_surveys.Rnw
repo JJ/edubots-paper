@@ -558,28 +558,30 @@ opinions.
 \section{Methodology}
 \label{sec:meth}
 
-\textcolor{blue}{This study aims to collect rich data about the use of messaging applications and chatbots
+\textcolor{blue}{This study followed a quantitative approach towards addressing its research objective, by collecting rich data about the use of messaging applications and chatbots
 by educators in both universities and colleges\footnote{In Spain, they are called simply high schools, and deliver
 tertiary or associated degrees that do not have the consideration of university degrees}.
-To achieve this goal, an online survey was designed and developed using Google Forms
-in Spanish}. However, the initial exploration of results led us
-to create a second survey in order to collect more data about educators' preferences in particular. The \textcolor{blue}{new survey} items 
-focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers consider
-useful to be used in their teaching, and the type of interactions that teachers
-prefer to have with their students while using messaging apps in their teaching.
+To achieve this goal two online surveys were designed and developed using Google Forms
+in Spanish. They are comprised of six questions focusing on demographic data
+(i.e., sector, gender, degrees, discipline, age, teaching experience)
+followed by several multiple choice questions allowing the participants to choose multiple answers.}
 
-The {\bf initial survey} was done in two separate Google forms, one for
+\textcolor{blue}{In the first survey, the multiple choice questions are
+focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers consider
+useful to be used in their teaching and the impact of COVID on the teaching practice; please check them out to the full extent in the Appendix.\footnote{This {\bf first survey} was made in two separate Google forms, one for
 university and other for tertiary non-university teachers. Questions and
 responses were the same, except for the type of tertiary degrees that
-\textcolor{blue}{were considered. The survey was piloted by the authors of the paper and their colleagues before using it in the 
+were considered.}}
+
+\textcolor{blue}{This survey was piloted by the authors of the paper and their colleagues before using it in the 
 study.  All the comments collected from this trial were incorporated in the survey.
 We used mainly mailing lists, as well as Telegram groups,
-to post the survey link to reach out to more educators}. The university form was sent to Spanish
+to post the survey link to reach out to more educators. The university form was sent to Spanish
 (mainly Andaluc\'{\i}a and Galicia) universities, and also  universities in Costa Rica and
 Mexico. The tertiary (non-university/college) teachers were based mainly in
 Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of
 2021, post-pandemic and while, at least in Spain, many universities had
-mandatory virtual teaching.
+mandatory virtual teaching.}
 
 A total of 282 teachers responded to the survey: 193 teaching at the University
 (68.4\%) and 89 at other tertiary education institutions (31.6\%). Survey
