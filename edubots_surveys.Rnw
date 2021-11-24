@@ -562,9 +562,7 @@ opinions.
 by educators in both universities and colleges\footnote{In Spain, they are called simply high schools, and deliver
 tertiary or associated degrees that do not have the consideration of university degrees}.
 To achieve this goal, an online survey was designed and developed using Google Forms
-in Spanish}. Initially, the intention was to mirror the questions used in
-\cite{MoraChatbots2021:anon}; which explored students' views about the use of messaging applications in classrooms.
-However, the initial exploration of results led us
+in Spanish}. However, the initial exploration of results led us
 to create a second survey in order to collect more data about educators' preferences in particular. The \textcolor{blue}{new survey} items 
 focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers consider
 useful to be used in their teaching, and the type of interactions that teachers
