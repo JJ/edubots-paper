@@ -1836,8 +1836,15 @@ The surveys have the same common, initial questions for segmentation:\begin{item
 \item Type of degree: university, other tertiary education. This question was implicit in the first survey: there were two different versions of the survey. However, it was and explicit question in the second survey.}
 \end{itemize}
 
+\begin{figure}[h!tbp]
+\begin{center}
+\includegraphics[width=0.85\textwidth]{figures/survey-1.png}
+\end{center}
+    \caption{\textcolor{blue}{Screen capture of the Spanish-language form used for the first survey}}
+\label{figure:survey1}
+\end{figure}
 % Including questions in surveys
-The {\bf first survey}, which \textcolor{blue}{focused on} the use of messaging apps in class, and which tried to address mainly RQ2 and RQ3, 
+The {\bf first survey}, shown in its original form in Figure \ref{figure:survey1}, which \textcolor{blue}{focused on} the use of messaging apps in class, and which tried to address mainly RQ2 and RQ3, 
 % Antonio - I guess it refers to RQ3. ;)
 includes the following questions:
 
@@ -1887,7 +1894,7 @@ includes the following questions:
     \caption{\textcolor{blue}{Screen capture of the Spanish-language form used for the survey}}
 \label{figure:survey2}
 \end{figure}
-The {\bf second survey} followed the same paths, only in this case there was a single questionnaire, and with a different scope, focusing on the kind of interaction media features that teachers value the most. \textcolor{blue}{A capture of these questions is included in Figure \ref{fig:survey2}}
+The {\bf second survey}, shown in its original form in Figure \ref{figure:survey2}, followed the same paths, only in this case there was a single questionnaire, and with a different scope, focusing on the kind of interaction media features that teachers value the most. \textcolor{blue}{A capture of these questions is included in Figure \ref{fig:survey2}}
 % Olia - see my comment above.
 It was filled by teachers that were also students in a Professional Development course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers who knew about it by emails from the authors, or from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary. These questions tried to address mainly RQ1 and RQ4.
 
