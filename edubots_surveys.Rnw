@@ -1510,7 +1510,7 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Disci
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged $>$~55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). The teachers were asked about what kind of interaction media features they value the most; the frequencies and percentages of their responses are given in Table \ref{tab:interaction}. 
+A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged $>$~55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). The teachers were asked about what kind of interaction media features they value the most \textcolor{blue}{; i.e. what are their preferred utilities in the applications/tools they use to interact with their students.} The frequencies and percentages of their responses are given in Table \ref{tab:interaction}. 
 
 \begin{table}[h!]
 \begin{tabular}{lcccc}
@@ -1535,9 +1535,12 @@ Other & 5 & 2.4 & 200 & 97.6 \\
 \hline
 \end{tabular}
 \vspace{0.8em}
-\caption{Interaction media features valued by teachers. Details about each feature can be read in Section \ref{sec:meth}.}
+\caption{Interaction media features valued by teachers. \textcolor{blue}{Details about each of these features can be read in Appendix I (Section \ref{app:questions}, second survey)}.}
 \label{tab:interaction}
 \end{table}
+
+\textcolor{blue}{As it can be seen in the table, the main responses aim to use a sustainable and official application, i.e. both being approved or provided by the University (or the educational centre), and also maintained by the technical staff of the centre instead of giving this responsability/task to the teacher.
+In addition, it is very important for the teachers that the used tools allow to communicate all the members of the classroom, including themselves; as well as being already known or used in everyday tasks, e.g. Telegram or WhatsApp.}
 
 A chi-square test of independence was performed to examine the potential relationship among the various features. The statistically significant correlations are given in Table \ref{tab:interactionfeatures}.  
 
@@ -1688,7 +1691,7 @@ integrating these tools to their educational systems can improve the uptake of
 these applications and shape the social and educational experiences of their
 students. \textcolor{blue}{To accomplish this fruitful integration}, institutions have to ensure that
 these messaging applications not only are GDPR compliant to keep students’ data
-secure but also should provide IT support to all stakeholders who use the
+secure, but also should provide IT support to all stakeholders who use the
 applications.
 
 Moreover, this study clarifies the differences between the teachers’
