@@ -569,7 +569,7 @@ followed by several multiple choice questions allowing the participants to choos
 \textcolor{blue}{In the first survey, the multiple choice questions are
 focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers consider
 useful to be used in their teaching and the impact of COVID on the teaching practice; please check them out to the full extent in the Appendix.\footnote{This {\bf first survey} was made in two separate Google forms, one for
-university and other for tertiary non-university teachers. Questions and
+university and \textcolor{blue}{other for teachers of in tertiary education institutions, outside the university system (vocational training, including 1 and 2 year degrees)}. Questions and
 responses were the same, except for the type of tertiary degrees that
 were considered.}}
 
