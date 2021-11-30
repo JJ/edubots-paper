@@ -589,7 +589,17 @@ questions \textcolor{blue}{are shown in Appendix I (Section \ref{app:questions})
 
 Responses were stored automatically in a Google Drive spreadsheet. Eventually,
 the results from the two forms we used for the first survey were collated in a
-single spreadsheet. Next we will show the results and analyse them.
+single spreadsheet.
+
+\textcolor{blue}{The second survey was designed after initial results to the first survey arrived,
+and pointed to necessities and experiences of teachers not being addressed by the first one; namely
+their experience with messaging platforms and the way they were used to interact with students.
+It was piloted in a group of university teachers attending to a formation course, and validated with them.
+It was then extended to the rest of the responders, using the same media: Telegram groups, email and
+and announcement in mailing lists. The questions asked in that survey are also shown in Appendix I
+(Section \ref{app:questions}).}
+
+Next we will show the results and analyse them.
 
 % ********************** RESULTS ****************************
 
