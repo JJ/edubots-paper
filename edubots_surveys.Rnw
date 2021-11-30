@@ -569,7 +569,7 @@ followed by several multiple choice questions allowing the participants to choos
 \textcolor{blue}{In the first survey, the multiple choice questions are
 focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers consider
 useful to be used in their teaching and the impact of COVID on the teaching practice; please check them out to the full extent in the Appendix.\footnote{This {\bf first survey} was made in two separate Google forms, one for
-university and \textcolor{blue}{other for teachers of in tertiary education institutions, outside the university system (vocational training, including 1 and 2 year degrees)}. Questions and
+university and \textcolor{blue}{the other for teachers in tertiary education institutions, outside the university system (vocational training, including 1- and 2-year degrees)}. Questions and
 responses were the same, except for the type of tertiary degrees that
 were considered.}}
 
@@ -589,7 +589,7 @@ questions \textcolor{blue}{are shown in Appendix I (Section \ref{app:questions})
 
 Responses were stored automatically in a Google Drive spreadsheet. Eventually,
 the results from the two forms we used for the first survey were collated in a
-single spreadsheet. Next we will show the results and analyse them.
+single spreadsheet. Next, we show the results and analyse them.
 
 % ********************** RESULTS ****************************
 
@@ -1069,7 +1069,7 @@ significant as shown in Figures \ref{figure:gender*postcovid_chisq},
 respectively. Each figure shows on the left, a graph that represents the
 Pearson's residuals of the chi-square test results and a table on the right part
 that shows the contribution of each cell to the test. In the Pearson's residual
-graphs, the responses were shortened for the sake of clarity according to: 1)
+graphs, \textcolor{blue}{the responses to the question about the use of messaging apps were shortened for the sake of clarity according to}: 1)
 \textit{Did/do} stands for \textit{Yes, I did use it before and do use it now};
 2) \textit{Didn't/do} for \textit{Yes, I didn’t use any messaging app before,
   but do use it now}; 3) \textit{safer} for \textit{Yes, I use a safer messaging
@@ -1440,8 +1440,8 @@ Regarding the social factor of chat groups that teachers use in class, according
 to Fig. \ref{figure:chatbots_messagingorganization} the vast majority prefer
 small groups only with the students from the same course. These are more focused
 groups with specific goals and dedicated to the organization of the course and
-its tasks, and from the pedagogic point of view seem more appropriate to improve
-the learning process. Interestingly, and as a cross-check of the answers above,
+its tasks, and from the pedagogic point of view \textcolor{blue}{it also seems more appropriate to improve
+the learning process}. Interestingly, and as a cross-check of the answers above,
 about 30\% of teachers consider they should not be part of the chat group. This
 might seem to contradict the results of the other survey, but in fact, being a
 result of different surveys, to a certain point affirms the same thing: there is
@@ -1510,7 +1510,7 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Disci
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged $>$~55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). The teachers were asked about what kind of interaction media features they value the most \textcolor{blue}{; i.e. what are their preferred features in the applications/tools they use to interact with their students.} The frequencies and percentages of their responses are given in Table \ref{tab:interaction}. 
+A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged $>$~55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). The teachers were asked about what kind of interaction media features they value the most \textcolor{blue}{; i.e. what their preferred features are in the applications/tools that they use to interact with their students.} The frequencies and percentages of their responses are given in Table \ref{tab:interaction}. 
 
 \begin{table}[h!]
 \begin{tabular}{lcccc}
@@ -1897,7 +1897,7 @@ includes the following questions:
     \caption{\textcolor{blue}{Screen capture of the Spanish-language form used for the survey}}
 \label{figure:survey2}
 \end{figure}
-The {\bf second survey}, shown in its original form in Figure \ref{figure:survey2}, followed the same paths, only in this case there was a single questionnaire, and with a different scope, focusing on the kind of interaction media features that teachers value the most. \textcolor{blue}{A capture of these questions is included in Figure \ref{fig:survey2}}
+The {\bf second survey}, shown in its original form in Figure \ref{figure:survey2}, followed the same paths, only in this case there was a single questionnaire, and with a different scope, focusing on the kind of interaction media features that teachers value the most. %\textcolor{blue}{A capture of these questions is included in Figure \ref{fig:survey2}} % this sentence is repeated
 % Olia - see my comment above.
 It was filled by teachers that were also students in a Professional Development course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers who knew about it by emails from the authors, or from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary. These questions tried to address mainly RQ1 and RQ4.
 
