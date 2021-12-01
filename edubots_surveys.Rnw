@@ -712,7 +712,7 @@ ggplot(df1, aes(x = MessagingPlatformProvided, group = Gender)) + geom_bar(aes(y
     \centering
 <<experience_provided, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
 survey.pilot[as.character(survey.pilot$Experience)!="No", ] -> df1
-ggplot(df1, aes(x = MessagingPlatformProvided, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Experience)+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
+ggplot(df1, aes(x = MessagingPlatformProvided, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Experience, levels=c("0-05 years","06-15 years", "16-25 years", "> 25 years")))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
 @       
 %       \includegraphics[width=\textwidth]{figures/experience_provided.pdf}
     \end{minipage}
@@ -753,7 +753,7 @@ ggplot(df1, aes(x = MessagingPlatformWhatsApp, group = Gender)) + geom_bar(aes(y
     \centering
 <<experience_whatsapp, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
 survey.pilot[as.character(survey.pilot$Experience)!="No", ] -> df1
-ggplot(df1, aes(x = MessagingPlatformWhatsApp, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Experience)+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
+ggplot(df1, aes(x = MessagingPlatformWhatsApp, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Experience, levels=c("0-05 years","06-15 years", "16-25 years", "> 25 years")))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
 @       
 %       \includegraphics[width=\textwidth]{figures/experience_whatsapp.pdf}
     \end{minipage}
@@ -791,7 +791,7 @@ ggplot(df1, aes(x = MessagingPlatformTelegram, group = Gender)) + geom_bar(aes(y
     \centering
 <<experience_telegram, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
 survey.pilot[as.character(survey.pilot$Experience)!="No", ] -> df1
-ggplot(df1, aes(x = MessagingPlatformTelegram, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Experience)+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
+ggplot(df1, aes(x = MessagingPlatformTelegram, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Experience, levels=c("0-05 years","06-15 years", "16-25 years", "> 25 years")))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
 @       
 %       \includegraphics[width=\textwidth]{figures/experience_telegram.pdf}
     \end{minipage}
@@ -1387,7 +1387,7 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Gende
     \begin{minipage}[t]{0.3\textwidth}
         \centering
 <<experience_sync, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
-ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Experience) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
+ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Experience, levels=c("0-05 years","06-15 years", "16-25 years", "> 25 years"))) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/experience_synch.pdf}
     \end{minipage}
