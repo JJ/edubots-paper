@@ -601,6 +601,8 @@ It was then extended to the rest of the responders, using the same media: Telegr
 and announcement in mailing lists. The questions asked in that survey are also shown in Appendix I
 (Section \ref{app:questions}).}
 
+\textcolor{blue}{A total of 205 teachers responded to the second survey: 187 graduate teachers (91.2\%) and 18 student teachers (8.8\%). From those, 124 were (60.5\%), 65 female (31.7\%) and 16 teachers preferred not to indicate their gender (7.8\%). In terms of age, the majority of the participants (n=70) was again, as in the first survey, 45-55 years old (34.1\%), while 67 teachers were 35-45 (32.7\%), 42 were 25-35 (20.5\%) and 26 teachers were older than 55 (12.7\%). In terms of teaching experience, 59 teachers had a teaching experience of 16-25 years (28.8\%), 51 teachers had 6-15 years (24.9\%) and 0-5 years of experience (24.9\%), and 44 teachers more than 25 years of teaching experience (21.5\%).}
+
 Next, we show the results and analyse them.
 
 % ********************** RESULTS ****************************
