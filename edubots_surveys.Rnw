@@ -584,7 +584,9 @@ Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of
 mandatory virtual teaching.}
 
 A total of 282 teachers responded to the survey: 193 teaching at the University
-(68.4\%) and 89 at other tertiary education institutions (31.6\%). Survey
+(68.4\%) and 89 at other tertiary education institutions (31.6\%). \textcolor{blue}{From those, 179 indicated their gender as male (63.5\%), 98 as female (34.8\%) and 5 teachers preferred not to indicate their gender (1.8\%). In terms of age, the majority of the participants (n=111) in this survey was 45-55 years old (39.4\%), while 91 teachers were 35-45 (32.3\%), 46 were 25-35 (16.3\%) and 34 teachers were older than 55 (12.1\%). Last, 84 teachers had a teaching experience of 16-25 years (29.8\%), 75 teachers 6-15 years of experience (26.6\%), 69 teachers had 0-5 years of experience (24.5\%) and finally, 54 teachers had more than 25 years of teaching experience (19.1\%).}
+
+Survey
 questions \textcolor{blue}{are shown in Appendix I (Section \ref{app:questions})}.
 
 Responses were stored automatically in a Google Drive spreadsheet. Eventually,
