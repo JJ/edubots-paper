@@ -742,18 +742,7 @@ This is why for answering RQ1, teachers were queried about whether they use
 messaging apps in their classes, specifically, Telegram, WhatsApp, Slack (an
 application used mainly in IT departments and software development), or any
 other messaging app, and whether they use messaging apps provided by their
-academic institution (see Table \ref{tab:use_messapps}). \textcolor{blue}{In this case, we would like 
-to add a clarification}. While we had in mind, as indicated by the possible answers, 
-instant messaging applications when making this question,
-we included these institution-provided applications mainly for completion. But
-it should be noted that, in most cases, they are not {\em instant} messaging
-apps in the way Telegram or Facebook Messenger are; in most cases they are
-messaging facilities provided by learning management systems such as (usually)
-Moodle. So the answer to this question must be understood in two different ways:
-their preference for the {\em source} of the technology (university, any
-company) as well as the {\em type} of technology (instant, app based messaging
-systems vs. web-based systems integrated in another learning management system).
-
+academic institution (see Table \ref{tab:use_messapps}).
 Overall, the majority of the teachers responded that they do use messaging apps
 in their classrooms, from which apps provided by the academic institution
 (n=159, 56\%) and WhatsApp (n=124, 44.0\%) were the most common responses. Only
@@ -1611,7 +1600,26 @@ this case, the design of the survey introduced some ambiguity on what we really
 consider ``messaging technology'', that was eventually resolved by the answers;
 apparently, anything that sends messages (even if they are not instant, even if
 they do not have a dedicated application) was the concept in the mind of the
-surveyed.
+surveyed.  \textcolor{blue}{In this case, we would like 
+to add a clarification. While we had in mind, as indicated by the possible answers, 
+instant messaging applications when making this question,
+we included these institution-provided applications mainly for completion. But
+it should be noted that, in most cases, they are not {\em instant} messaging
+apps in the way Telegram or Facebook Messenger are; in most cases they are
+messaging facilities provided by learning management systems such as (usually)
+Moodle. So the answer to this question must be understood in two different ways:
+their preference for the {\em source} of the technology (university, any
+company) as well as the {\em type} of technology (instant, app based messaging
+systems vs. web-based systems integrated in another learning management system).}
+
+\textcolor{blue}{This inclusion of university provided messaging applications in
+the survey might explain why there are so few, just 6.7\%, that answer they do not 
+use any messaging application. In general, universities provide official channels
+to communicate with students official academic information such as the exam schedule
+or the grades. The statistical mode is to use that kind of messaging. Some other
+people might not use it, but use some extraofficial or opt-in channels such as the other included in the survey; at the end, between these official and extraofficial channels most people cover their needs to communicate with students. This matches
+our subjective experience, in general.}
+
 
 Additionally, the question on COVID reflected the big challenge that represents
 changing habits, even in the case of a major crisis. Very few people actually
@@ -1772,6 +1780,19 @@ when introducing chatbots. This is true almost across the board, but in the case
 of chatbots (and instant messaging applications) their immediacy and the fact
 that they can enter into what we could call the private sphere makes this even
 more necessary.
+
+\textcolor{blue}{One of the questions we made in the second survey, related to
+the messaging applications used by tertiary education teachers, opens a new line
+of inquiry about what they {\em perceive} as such, and about how it is used.
+Namely, the responses indicated that the teachers perceived as messaging
+application not only what is usually called a chat or instant messaging app such
+as WhatsApp or Microsoft Teams, but also the means provided by the university for
+communicating with the student, such as a feature of grading applications that
+will email the grade to the student. This implies that there is a need by
+teachers, communication with students, also mostly unidirectional, and that it
+does not matter so much how that need is covered. However, this will need careful
+consideration, including how it ties with the automation of the learning
+experience that the chatbots bring.}
 
 % Future study (suggested by Noorhan): how COVID influenced adoption of these technologies.
 There are several future lines of work informed by our results of this
