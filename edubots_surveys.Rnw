@@ -830,7 +830,7 @@ facet_grid(~factor(Discipline, levels = c("Biomedicine", "Humanities", "Social S
 %       \includegraphics[width=\textwidth]{figures/discipline_provided.pdf}
     \end{minipage}
 \end{center}
-    \caption{Use of chatbots provided by the teachers' academic institutions in class: distributions per gender, years of experience in education, university or vocational education, and discipline.}
+    \caption{Use of \textcolor{blue}{messaging platforms} provided by the teachers' academic institutions in class: distributions per gender, years of experience in education, university or vocational education, and discipline.}
     \label{figure:provided*chatbots_use}
 \end{figure}
 %
