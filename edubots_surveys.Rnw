@@ -829,8 +829,8 @@ pandemic lockdowns that forced students and educators to use remote education
 schemes. Moreover, approximately 15\% of them switched their messaging app for
 one that offered a safer interaction with their students. According to the
 responses, an additional 16\% started using messaging apps during the pandemic
-for the first time in their classes. Aggregating the answers, currently 91\% of
-the teachers are using messaging apps as learning tools.
+for the first time in their classes. % Aggregating the answers, currently 91\% of
+% the teachers are using messaging apps as learning tools.
 %A few relevant facts from the collected data: teachers with 16-25 years of experience seem more worried about the security of messaging apps and teachers with up to 5 years of experience were more open to adopt messaging apps due to the pandemic; female teachers were more willing to adopt new platforms due to the pandemic, and even to start using safer alternatives; finally, university teachers that did not use them were more reluctant to start using them after the pandemic.
 \begin{figure}[h!tbp]
 \begin{center}
@@ -1353,7 +1353,11 @@ about 30\% of teachers consider they should not be part of the chat group. This
 might seem to contradict the results of the other survey, but in fact, being a
 result of different surveys, to a certain point affirms the same thing: there is
 a great amount of teachers that would be against being in a chat group with
-students. Whether that's a slim majority or not, that's open to debate (and
+students. \textcolor{blue}{However, students will still need to get the services
+that the university, through chatbots, provide, thus opening the door for implantation of chatbots
+without the intervention of the professor, simply tapping university provided
+services \cite{bernier2002services}.}
+Whether that's a slim majority or not, that's open to debate (and
 would probably need a more pointed survey focused on this), but what is clear is
 that forcing teachers to create chat groups with students and participate in
 them would create a certain amount of resistance. Also, only university teachers
@@ -1582,8 +1586,14 @@ media features of messaging apps.
 From a qualitative point of view, these results show consensus in a few key aspects:
 \begin{itemize}
  \item Teachers want to have support from their corresponding institution. This
-   is probably due to the strict European data regulations and to avoid the
-   overhead required to \textcolor{blue}{sign up new students every year}.
+   is probably due to the strict European data regulations \textcolor{blue}{on data protection},
+   gut also to avoid the overhead required to \textcolor{blue}{sign up new students every year.
+   In general support from specific formation to access to IT help desk for specific features
+   enhances the possibility of adoption by the teachers or the possibility of a successful
+   adoption that improves the learning outcomes. This is supported by the result of the two
+   surveys: they prefer whatever "messaging" application is provided by the university, and
+   also they value sustainability as well as "officiality" of the platform, as shown in
+   Table \ref{tab:interaction}}.
  \item Teachers need sustainability. The main reason is that implementing
    changes is expensive in terms of effort and prone to errors in the first
    years of implementing new procedures, therefore, it is logical that if
@@ -1593,8 +1603,12 @@ From a qualitative point of view, these results show consensus in a few key aspe
 \end{itemize}
 
 An analysis of survey questions related to RQ4 seems to indicate that teachers
-prefer to have interaction with their students in a chat "room"; a preference of
-{\em horizontal} interaction might indicate the need to delegate or offload part
+prefer to \textcolor{blue}{share an interaction space with their student, as 
+as shown in Tables \ref{tab:kindinteraction} and \ref{tab:interaction}, where a majority of responders
+indicate they {\em don't} want unidirectional communication};a preference of
+{\em horizontal} interaction, \textcolor{blue}{but also the answer to the kind of
+chatbots preferred that features FAQ bots prominently, which might indicate a} 
+need to delegate or offload part
 of the burden of answering, and attending, every single question posed by
 students. In an horizontal setting, other students can answer if the teacher
 does not do it immediately. This might also be the reason why the possibility of
