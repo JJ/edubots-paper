@@ -1634,7 +1634,8 @@ these messaging applications not only are GDPR compliant to keep students’ dat
 secure, but also should provide IT support to all stakeholders who use the
 applications.
 
-Moreover, this study clarifies the differences between the teachers’
+\textcolor{blue}{Comparing these results with those obtained in student surveys
+in \cite{MoraChatbots2021:anon}, we have understood better} the differences between the teachers’
 perspectives and/or intentions and that of their students when using the
 messaging applications in higher education.  Teachers tend to adopt technologies
 supported by their institutions.  This could be to ensure that their
@@ -1657,11 +1658,17 @@ already have some {\em virtual campus} or learning management system, adding
 some easy automation, or connection to personal instant messaging tools, could
 really help onboard the learning community on these new technologies.
 
-% What kind of chatbots are preferred? (suggested by Fran)
-Once that initial introduction is done, teachers (and students as well) will
+\textcolor{blue}{What we are going to propose next is a possible process of
+technology introduction that is compatible with the conclusions of this study,
+but that would have to be piloted in order to check its value, and its
+relationship with better learning outcomes, as well as higher teacher
+satisfaction.}
+Once that initial introduction \textcolor{blue}{of institutional messaging
+automation tools} is done, teachers (and students as well) will
 probably prefer the kind of bots that alleviate bureaucratic or repetitive
 tasks, such as answering frequent questions or answers on class or assignment
-schedules. These will help the introduction of more complex chatbots that will
+schedules \textcolor{blue}{, as indicated by their answers to the respective
+questions}. These will help the introduction of more complex chatbots that will
 affect more directly learning outcomes, such as chatbots that help students
 integrate in the class, or are able to identify (and address) learning problems
 in students or in groups of them. These as well should be accompanied by
@@ -1800,9 +1807,7 @@ The surveys have the same common, initial questions for segmentation:\begin{item
 \label{figure:survey1}
 \end{figure}
 % Including questions in surveys
-The {\bf first survey}, shown in its original form in Figure \ref{figure:survey1}, which \textcolor{blue}{focused on} the use of messaging apps in class, and which tried to address mainly RQ2 and RQ3, 
-% Antonio - I guess it refers to RQ3. ;)
-includes the following questions:
+The {\bf first survey}, shown in its original form in Figure \ref{figure:survey1}, which \textcolor{blue}{focused on} the use of messaging apps in class, includes the following questions:
 
 \textit{1. Regarding the use of messaging apps in class, you prefer ...}
 \begin{itemize}
@@ -1852,7 +1857,7 @@ includes the following questions:
 \end{figure}
 The {\bf second survey}, shown in its original form in Figure \ref{figure:survey2}, followed the same paths, only in this case there was a single questionnaire, and with a different scope, focusing on the kind of interaction media features that teachers value the most. %\textcolor{blue}{A capture of these questions is included in Figure \ref{fig:survey2}} % this sentence is repeated
 % Olia - see my comment above.
-It was filled by teachers that were also students in a Professional Development course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers who knew about it by emails from the authors, or from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary. These questions tried to address mainly RQ1 and RQ4.
+It was filled by teachers that were also students in a Professional Development course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers who knew about it by emails from the authors, or from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary.
 
 Specifically, this survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what are  their \textcolor{blue}{past experiences and needs} with regard to the use of instant messaging applications with students, and even using bots or chatbots in the classroom. In addition the survey asked about the most relevant \textit{interaction media features} for the teachers with respect to the potential tool to use in class. 
 
