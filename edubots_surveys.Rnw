@@ -566,16 +566,16 @@ in Spanish. They are comprised of six questions focusing on demographic data
 (i.e., sector, gender, degrees, discipline, age, teaching experience)
 followed by several multiple choice questions allowing the participants to choose multiple answers.}
 
-\textcolor{blue}{In the first survey, the multiple choice questions are
+\textcolor{blue}{In the {\bf first survey}, the multiple choice questions are
 focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers consider
-useful to be used in their teaching and the impact of COVID on the teaching practice; please check them out to the full extent in the Appendix.\footnote{This {\bf first survey} was made in two separate Google forms, one for
+useful for their teaching and the impact of COVID on the teaching practice; please check them out to the full extent in the Appendix.\footnote{This {\bf first survey} was made in two separate Google forms, one for
 university and \textcolor{blue}{the other for teachers in tertiary education institutions, outside the university system (vocational training, including 1- and 2-year degrees)}. Questions and
 responses were the same, except for the type of tertiary degrees that
 were considered.}}
 
 \textcolor{blue}{This survey was piloted by the authors of the paper and their colleagues before using it in the 
 study.  All the comments collected from this trial were incorporated in the survey.
-We used mainly mailing lists, as well as Telegram groups,
+We mainly used mailing lists, as well as Telegram groups,
 to post the survey link to reach out to more educators. The university form was sent to Spanish
 (mainly Andaluc\'{\i}a and Galicia) universities, and also  universities in Costa Rica and
 Mexico. The tertiary (non-university/college) teachers were based mainly in
@@ -586,19 +586,15 @@ mandatory virtual teaching.}
 A total of 282 teachers responded to the survey: 193 teaching at the University
 (68.4\%) and 89 at other tertiary education institutions (31.6\%). \textcolor{blue}{From those, 179 indicated their gender as male (63.5\%), 98 as female (34.8\%) and 5 teachers preferred not to indicate their gender (1.8\%). In terms of age, the majority of the participants (n=111) in this survey was 45-55 years old (39.4\%), while 91 teachers were 35-45 (32.3\%), 46 were 25-35 (16.3\%) and 34 teachers were older than 55 (12.1\%). Last, 84 teachers had a teaching experience of 16-25 years (29.8\%), 75 teachers 6-15 years of experience (26.6\%), 69 teachers had 0-5 years of experience (24.5\%) and finally, 54 teachers had more than 25 years of teaching experience (19.1\%).}
 
-Survey
-questions \textcolor{blue}{are shown in Appendix I (Section \ref{app:questions})}.
-
 Responses were stored automatically in a Google Drive spreadsheet. Eventually,
 the results from the two forms we used for the first survey were collated in a
-single spreadsheet.
+single spreadsheet. Survey questions \textcolor{blue}{are shown in Appendix I (Section \ref{app:questions})}.
 
-\textcolor{blue}{The second survey was designed after initial results to the first survey arrived,
+\textcolor{blue}{The \bf{second survey} was designed after initial results to the first survey arrived,
 and pointed to necessities and experiences of teachers not being addressed by the first one; namely
 their experience with messaging platforms and the way they were used to interact with students.
 It was piloted in a group of university teachers attending to a formation course, and validated with them.
-It was then extended to the rest of the responders, using the same media: Telegram groups, email and
-and announcement in mailing lists. The questions asked in that survey are also shown in Appendix I
+It was then extended to the rest of the responders, using the same media: Telegram groups, email and announcement in mailing lists. The questions asked in that survey are also shown in Appendix I
 (Section \ref{app:questions}).}
 
 \textcolor{blue}{A total of 205 teachers responded to the second survey: 187 graduate teachers (91.2\%) and 18 student teachers (8.8\%). From those, 124 were (60.5\%), 65 female (31.7\%) and 16 teachers preferred not to indicate their gender (7.8\%). In terms of age, the majority of the participants (n=70) was again, as in the first survey, 45-55 years old (34.1\%), while 67 teachers were 35-45 (32.7\%), 42 were 25-35 (20.5\%) and 26 teachers were older than 55 (12.7\%). In terms of teaching experience, 59 teachers had a teaching experience of 16-25 years (28.8\%), 51 teachers had 6-15 years (24.9\%) and 0-5 years of experience (24.9\%), and 44 teachers more than 25 years of teaching experience (21.5\%).}
@@ -1185,17 +1181,16 @@ Others & 25 & 8.9 & 257 & 91.1 \\ \hline
 \end{table}
 
 
-For the findings it occurs that the most favourable use case for chatbots in
+The most favourable use case for chatbots in
 Higher Education and vocational training is their use for the facilitation of an
 agenda formation (171 positive response, 60.6\%), followed by the FAQs use case
 (148 positive responses, 52.5\%) and the sharing class material use case (136;
 48.2\%). A chi-square test of independence was performed to examine the relation
-among participants’ preferences for particular chatbot use cases. The relation
-between agenda and the FAQs use case was significant, $X^{2}_{(1, N = 282)} =
-10.467$, $p =0.001$. The frequencies cross tabulated are given in Table
-\ref{tab:agenda*faq}. Out of the 171 teachers who consider useful the use of
+among participants’ preferences for particular chatbot use cases. Out of the 171 teachers who consider useful the use of
 chatbots for agenda preparation in the class, 103 also consider useful chatbots’
-use for FAQs.
+use for FAQs. The relation between agenda and the FAQs use case was significant, $X^{2}_{(1, N = 282)} =
+10.467$, $p =0.001$. The frequencies cross tabulated are given in Table
+\ref{tab:agenda*faq}. 
 
 \begin{table}[h!tbp]
 \begin{tabular}{llccc}
@@ -1510,7 +1505,7 @@ apparently, anything that sends messages (even if they are not instant, even if
 they do not have a dedicated application) was the concept in the mind of the
 surveyed.  \textcolor{blue}{In this case, we would like 
 to add a clarification. While we had in mind, as indicated by the possible answers, 
-instant messaging applications when making this question,
+instant messaging applications when we elaborated this question,
 we included these institution-provided applications mainly for completion. But
 it should be noted that, in most cases, they are not {\em instant} messaging
 apps in the way Telegram or Facebook Messenger are; in most cases they are
@@ -1520,7 +1515,7 @@ their preference for the {\em source} of the technology (university, any
 company) as well as the {\em type} of technology (instant, app based messaging
 systems vs. web-based systems integrated in another learning management system).}
 
-\textcolor{blue}{This inclusion of university provided messaging applications in
+\textcolor{blue}{This inclusion of university-provided messaging applications in
 the survey might explain why there are so few, just 6.7\%, that answer they do not 
 use any messaging application. In general, universities provide official channels
 to communicate with students official academic information such as the exam schedule
@@ -1604,8 +1599,8 @@ From a qualitative point of view, these results show consensus in a few key aspe
 
 An analysis of survey questions related to RQ4 seems to indicate that teachers
 prefer to \textcolor{blue}{share an interaction space with their student, as 
-as shown in Tables \ref{tab:kindinteraction} and \ref{tab:interaction}, where a majority of responders
-indicate they {\em don't} want unidirectional communication};a preference of
+shown in Tables \ref{tab:kindinteractions} and \ref{tab:interaction}, where a majority of responders
+indicate they {\em don't} want unidirectional communication}; a preference of
 {\em horizontal} interaction, \textcolor{blue}{but also the answer to the kind of
 chatbots preferred that features FAQ bots prominently, which might indicate a} 
 need to delegate or offload part
@@ -1685,7 +1680,7 @@ technology can be done in a general way and for all disciplines, teaching
 experience and gender.
 
 % Only some COVID-response relationship.
-In our survey, we couldn't find an answer to the right moment for doing this
+In our survey, we could not find an answer to the right moment for doing this
 introduction of chatbot technologies. Response to questions related to change of
 behaviour during and after the pandemic do not suggest that major (or minor)
 crisis could be an opportunity to introduce new technologies, since it does not
@@ -1706,7 +1701,7 @@ of chatbots (and instant messaging applications) their immediacy and the fact
 that they can enter into what we could call the private sphere makes this even
 more necessary.
 
-\textcolor{blue}{One of the questions we made in the second survey, related to
+\textcolor{blue}{One of the questions we made in the \bf{second survey}, related to
 the messaging applications used by tertiary education teachers, opens a new line
 of inquiry about what they {\em perceive} as such, and about how it is used.
 Namely, the responses indicated that the teachers perceived as messaging
@@ -1803,7 +1798,7 @@ The surveys have the same common, initial questions for segmentation:\begin{item
 \begin{center}
 \includegraphics[width=0.85\textwidth]{figures/survey-1.png}
 \end{center}
-    \caption{\textcolor{blue}{Screen capture of the Spanish-language form used for the first survey}}
+    \caption{\textcolor{blue}{Screen capture of the Spanish-language form used for the \bf{first survey}}
 \label{figure:survey1}
 \end{figure}
 % Including questions in surveys
@@ -1852,7 +1847,7 @@ The {\bf first survey}, shown in its original form in Figure \ref{figure:survey1
 \begin{center}
 \includegraphics[width=\textwidth]{figures/survey-2.png}
 \end{center}
-    \caption{\textcolor{blue}{Screen capture of the Spanish-language form used for the survey}}
+    \caption{\textcolor{blue}{Screen capture of the Spanish-language form used for the \bf{second survey}}
 \label{figure:survey2}
 \end{figure}
 The {\bf second survey}, shown in its original form in Figure \ref{figure:survey2}, followed the same paths, only in this case there was a single questionnaire, and with a different scope, focusing on the kind of interaction media features that teachers value the most. %\textcolor{blue}{A capture of these questions is included in Figure \ref{fig:survey2}} % this sentence is repeated
