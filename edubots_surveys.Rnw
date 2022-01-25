@@ -91,72 +91,59 @@
 \title{Chatbots and messaging platforms in the classroom: an analysis from the teacher's perspective}
 
 % Remember to substitute figures/ by nothing in the generated PDF
-% \author[
-%   addressref={aff1},                  
-%   corref={aff1},                      
-%   email={jmerelo@ugr.es}  
-% ]{\inits{JJM}\fnm{Juan J.} \snm{Merelo}}
-% \author[
-%   addressref={aff1},
-%   email={pacv@ugr.es}
-% ]{\inits{PAC}\fnm{Pedro A.} \snm{Castillo}}
-% \author[
-%   addressref={aff2},
-%   email={amorag@ugr.es}
-% ]{\inits{AMM}\fnm{Antonio M.} \snm{Mora}}
-% \author[
-%   addressref={aff1},
-%   email={fbarranco@ugr.es}
-% ]{\inits{FB}\fnm{Francisco} \snm{Barranco}}
-% \author[
-%   addressref={aff3},
-%   email={n.h.abbas@leeds.ac.uk}
-% ]{\inits{NA}\fnm{Noorhan} \snm{Abbas}}
-% \author[
-%   addressref={aff1},
-%   email={aguillen@ugr.es}
-% ]{\inits{AG}\fnm{Alberto} \snm{Guillén}}
-% \author[
-%   addressref={aff4},
-%   email={o.tsivitanidou@cyens.org.cy}
-% ]{\inits{OT}\fnm{Olia} \snm{Tsivitanidou}}
-% 
-% \address[id=aff1]{%                           
-%   \orgdiv{Department of Computer Architecture and Technology},           
-%   \orgname{University of Granada},
-%   \city{Granada},
-%   \cny{Spain}
-% }
-% \address[id=aff2]{%
-%   \orgdiv{Department of Signal Theory, Telematics and Communications},
-%   \orgname{University of Granada},
-%   \city{Granada},
-%   \cny{Spain}
-% }
-% \address[id=aff3]{%
-%   \orgdiv{School of Computing},
-%   \orgname{University of Leeds},
-%   \city{Leeds},
-%   \cny{UK}
-% }
-% \address[id=aff4]{%
-%   \orgname{CYENS},         
-%   \city{Nicosia},
-%   \cny{Cyprus} 
-% }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                                          %%
-%% Enter short notes here                   %%
-%%                                          %%
-%% Short notes will be after addresses      %%
-%% on first page.                           %%
-%%                                          %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\author[
+  addressref={aff1},
+  corref={aff1},
+  email={jmerelo@ugr.es}
+]{\inits{JJM}\fnm{Juan J.} \snm{Merelo}}
+\author[
+  addressref={aff1},
+  email={pacv@ugr.es}
+]{\inits{PAC}\fnm{Pedro A.} \snm{Castillo}}
+\author[
+  addressref={aff2},
+  email={amorag@ugr.es}
+]{\inits{AMM}\fnm{Antonio M.} \snm{Mora}}
+\author[
+  addressref={aff1},
+  email={fbarranco@ugr.es}
+]{\inits{FB}\fnm{Francisco} \snm{Barranco}}
+\author[
+  addressref={aff3},
+  email={n.h.abbas@leeds.ac.uk}
+]{\inits{NA}\fnm{Noorhan} \snm{Abbas}}
+\author[
+  addressref={aff1},
+  email={aguillen@ugr.es}
+]{\inits{AG}\fnm{Alberto} \snm{Guillén}}
+\author[
+  addressref={aff4},
+  email={o.tsivitanidou@cyens.org.cy}
+]{\inits{OT}\fnm{Olia} \snm{Tsivitanidou}}
 
-%\begin{artnotes}
-%%\note{Sample of title note}     % note to the article
-%\note[id=n1]{Equal contributor} % note, connected to author
-%\end{artnotes}
+\address[id=aff1]{%
+  \orgdiv{Department of Computer Architecture and Technology},
+  \orgname{University of Granada},
+  \city{Granada},
+  \cny{Spain}
+}
+\address[id=aff2]{%
+  \orgdiv{Department of Signal Theory, Telematics and Communications},
+  \orgname{University of Granada},
+  \city{Granada},
+  \cny{Spain}
+}
+\address[id=aff3]{%
+  \orgdiv{School of Computing},
+  \orgname{University of Leeds},
+  \city{Leeds},
+  \cny{UK}
+}
+\address[id=aff4]{%
+  \orgname{CYENS},
+  \city{Nicosia},
+  \cny{Cyprus}
+}
 
 \end{fmbox}% comment this for two column layout
 
