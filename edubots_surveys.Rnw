@@ -1766,14 +1766,14 @@ We would also like to thank the anonymous reviewers that have contributed greatl
 \section{Appendix I: Survey questions}
 \label{app:questions}
 
-The surveys have the same common, initial questions for segmentation:\begin{itemize}
+The surveys have the same common initial demographic questions:\begin{itemize}
 \item Degrees or titles where the teacher was working, either university or other tertiary education.
 \item Discipline: Engineering, Social Sciences, Health and Bio, Sciences, Humanities, Other.
 \item Gender: Man, Woman, Rather not say.
 \item Age: 25-35, 35-45, 45-55, more than 55.
 \item Experience on the job: up to 5 years, 5-15 years, 15-25 years, more than 25 years.
 \textcolor{black}{
-\item Type of degree: university, other tertiary education. This question was implicit in the first survey: there were two different versions of the survey. However, it was and explicit question in the second survey.}
+\item Type of degree: university, other tertiary education. This question was implicit in the first survey: there were two different versions of the survey. However, it was an explicit question in the second survey.}
 \end{itemize}
 
 \begin{figure}[h!tbp]
