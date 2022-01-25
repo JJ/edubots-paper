@@ -285,3 +285,5 @@ TSWLatexianTemp*
 .RData
 
 *.eps
+
+*.tgz
