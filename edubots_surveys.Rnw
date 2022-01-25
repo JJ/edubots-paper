@@ -178,11 +178,11 @@ Introducing new technologies such as messaging platforms, and the chatbots
 attached to them, in higher education, is rapidly growing. This introduction
 entails a careful consideration of the potential opportunities and/or challenges
 of adopting these tools. Hence, a thorough examination of the teachers’
-experiences in this discipline can shed the light on the effective ways of
+experiences in this discipline can shed light on the effective ways of
 enhancing students’ learning and boosting their progress. In this contribution,
-we have surveyed the opinions of tertiary education teachers based mainly in
-Spain and Spanish-speaking countries. The focus of these surveys is to collect
-teachers’ feedback about their opinions of the introduction of the messaging
+we have surveyed the opinions of tertiary education teachers based in
+Spain (mainly) and Spanish-speaking countries. The focus of these surveys is to collect
+teachers’ feedback about their opinions regarding the introduction of the messaging
 platforms and chatbots in their classes, understand their needs and to gather
 information about the various educational use cases where these tools are
 valuable. In addition, an analysis of how and when teachers’ opinions towards
@@ -415,10 +415,7 @@ between educators and students embedded in the social learning process
 \cite{gachago2015crossing}; however, this last paper also reflects the need for
 learners to ``take ownership of the tool'' and the advantages of social learning
 in general. At the same time, it also mentions different challenges, among which
-the most important is the blurring of social and academic life. Examining these
-opinions will be the objective of RQ3 in this paper.
-
-Nevertheless, there are challenges when using MIM tools that occur due to the
+the most important is the blurring of social and academic life; indeed, there are challenges when using MIM tools that occur due to the
 blurring of boundaries between academic and private life. This can lead to
 technostress \cite{gachago2015crossing}, difficulty in managing
 responsibilities, especially among mature students, and lack of privacy
