@@ -495,7 +495,7 @@ of students in a Chinese class \cite{doi:10.1177/0735633120929622}}.
 
 Despite its (arguably) successful implementation in different higher education
 institutions, over all in the fringes of educational activity, not in the actual
-interaction student-teacher, its implementation or deployment is not trivial.
+student-teacher interaction, its implementation or deployment is not trivial.
 Some authors, for instance \cite{sjostrom2018designing} have proposed a
 conceptual architecture for the adoption of teaching-oriented chatbots in higher
 education.  This conceptual architecture is based on a systematic literature
@@ -517,7 +517,7 @@ material that would advance their understanding to the next level.
 Regarding the factors for the adoption of chatbots in higher education, many
 studies have focused on the evaluation of technology acceptance and usability
 \cite{Roblyer2010,Pimmer2019}. However, higher education is a special domain
-where, according to Hobert \cite{hobert2019you}, specific pedagogical factors
+where, according to \cite{hobert2019you}, specific pedagogical factors
 such as learning success and increased motivation are more important.  Therefore,
 to develop \textcolor{blue}{effective chatbots for higher education, all stakeholders'
 (i.e. educators, students, institutions, etc) needs should be carefully
@@ -577,7 +577,7 @@ to post the survey link to reach out to more educators. The university form was 
 (mainly Andaluc\'{\i}a and Galicia) universities, and also  universities in Costa Rica and
 Mexico. The tertiary (non-university/college) teachers were based mainly in
 Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of
-2021, post-pandemic and while, at least in Spain, many universities had
+2021, during the Covid-19 pandemic and while, at least in Spain, many universities had
 mandatory virtual teaching.}
 
 A total of 282 teachers responded to the survey: 193 teaching at the University
@@ -598,7 +598,7 @@ It was then extended to the rest of the responders, using the same media: Telegr
 and announcement in mailing lists. The questions asked in that survey are also shown in Appendix I
 (Section \ref{app:questions}).}
 
-\textcolor{blue}{A total of 205 teachers responded to the second survey: 187 graduate teachers (91.2\%) and 18 student teachers (8.8\%). From those, 124 were (60.5\%), 65 female (31.7\%) and 16 teachers preferred not to indicate their gender (7.8\%). In terms of age, the majority of the participants (n=70) was again, as in the first survey, 45-55 years old (34.1\%), while 67 teachers were 35-45 (32.7\%), 42 were 25-35 (20.5\%) and 26 teachers were older than 55 (12.7\%). In terms of teaching experience, 59 teachers had a teaching experience of 16-25 years (28.8\%), 51 teachers had 6-15 years (24.9\%) and 0-5 years of experience (24.9\%), and 44 teachers more than 25 years of teaching experience (21.5\%).}
+\textcolor{blue}{A total of 205 teachers responded to the second survey: 187 graduate teachers (91.2\%) and 18 student teachers (8.8\%). From those, 124 were male (60.5\%), 65 female (31.7\%) and 16 teachers preferred not to indicate their gender (7.8\%). In terms of age, the majority of the participants (n=70) was again, as in the first survey, 45-55 years old (34.1\%), while 67 teachers were 35-45 years old (32.7\%), 42 were 25-35 (20.5\%) and 26 teachers were older than 55 (12.7\%). In terms of teaching experience, 59 teachers had a teaching experience of 16-25 years (28.8\%), 51 teachers had 6-15 years (24.9\%) and 0-5 years of experience (24.9\%), and 44 teachers more than 25 years of teaching experience (21.5\%).}
 
 Next, we show the results and analyse them.
 
@@ -612,7 +612,7 @@ We collected responses from 282 teachers from Spain and Spanish Speaking
 countries for \textit{survey1} and 205 for \textit{survey2}. The two forms were
 open for approximately the same amount of time, around two months. The sample
 includes mostly teachers from university, although about 32\% and 8\% are from
-vocational education in the first and second survey respectively. Regarding
+non-universitary tertiary education in the first and second survey respectively. Regarding
 gender, 61\% of the teachers were male and 32\% female, while approximately 5\%
 chose not to disclose it. Finally, the responses are more or less equally
 distributed according to the teaching experience, showing 24\% of responses from
@@ -645,7 +645,7 @@ application used mainly in IT departments and software development), or any
 other messaging app, and whether they use messaging apps provided by their
 academic institution (see Table \ref{tab:use_messapps}).
 Overall, the majority of the teachers responded that they do use messaging apps
-in their classrooms, from which apps provided by the academic institution
+in their classrooms, from which apps (or, more probably, messaging solutions) provided by the academic institution
 (n=159, 56\%) and WhatsApp (n=124, 44.0\%) were the most common responses. Only
 19 teachers (6.7\%) replied that they do not use any messaging app in their
 class.
@@ -685,7 +685,7 @@ more). Also, teachers in vocational Education use WhatsApp more than university
 teachers. Regarding the distribution of the use of messaging apps per age, there
 are no significant differences for WhatsApp and apps provided by their own
 academic institutions. % Olia requests support for this. 
-However, younger teachers also use Telegram with more than 25\%, a percentage
+However, younger teachers also use Telegram with more than 25\% responding they do, a percentage
 that falls to about 10\% for teachers that are 55 or older. %The third column
                                 %compares the use of these apps considering the
                                 %number of years of experience.
@@ -813,7 +813,7 @@ ggplot(survey.pilot.Discipline, aes(x = MessagingPlatformTelegram, group = Disci
 
 % This is about changes (due to) after covid
 Some of the questions in the survey were focused on the impact of the COVID19
-pandemic between 2020 and 2021, in the teachers' viewpoints towards the use of
+pandemic between the 2020 and 2021 academic years in the teachers' attitudes towards the use of
 instant messaging apps in their class. Our main intention in this case was to
 assess whether a crisis will bring about some kind of change in the use of
 tools. The 282 answers are summarized in
@@ -894,11 +894,11 @@ A chi-square test of independence was performed to examine the relation between 
 Total &  & 193 & 89 & 282 \\ \hline
 \end{tabular}
 \vspace{0.8em}
-\caption{Sector * post-covid changes crosstabulation}
+\caption{Sector * post-covid changes cross-tabulation}
 \label{tab:sector*covid}
 \end{table}
 
-The majority of the teachers (n=165) mentioned that no changes in their habits occurred due to the emergency remote teaching, as the use of messaging apps was part of their teaching practices and remains the same, from which 105 teachers come from the university, and 60 teachers from the vocational sector. The relationships between changes in the use of messaging apps, due to the covid-19 pandemic, and the instructors’ discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, p= 0.039 were also significant. This finding indicates that how teachers responded to the use of messaging apps during the pandemic was also related to their gender and discipline. In fact, from the majority of the teachers who did not change their habits in this respect (n=165), most of them are males (n=114), and come from the technology (n=60) and engineering (n=53) disciplines (see Tables \ref{tab:gender*covid}, \ref{tab:discipline*covid}).
+The majority of the teachers (n=165) mentioned that no changes in their habits occurred due to the emergency remote teaching, as the use of messaging apps was part of their teaching practices and remains the same, from which 105 teachers come from the university, and 60 teachers from the non-universitary tertiary sector. The relationships between changes in the use of messaging apps, due to the covid-19 pandemic, and the instructors’ discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, p= 0.039 were also significant. This finding indicates that how teachers responded to the use of messaging apps during the pandemic was also related to their gender and discipline. In fact, from the majority of the teachers who did not change their habits in this respect (n=165), most of them are males (n=114), and come from the technology (n=60) and engineering (n=53) disciplines (see Tables \ref{tab:gender*covid}, \ref{tab:discipline*covid}).
 %
 \begin{table}[h!tbp]
 \begin{tabular}{llcccc}
@@ -1351,7 +1351,7 @@ might seem to contradict the results of the other survey, but in fact, being a
 result of different surveys, to a certain point affirms the same thing: there is
 a great amount of teachers that would be against being in a chat group with
 students. \textcolor{blue}{However, students will still need to get the services
-that the university, through chatbots, provide, thus opening the door for implantation of chatbots
+that the university, through chatbots, provide, thus opening the door for deployment of chatbots
 without the intervention of the professor, simply tapping university provided
 services \cite{bernier2002services}.}
 Whether that's a slim majority or not, that's open to debate (and
@@ -1418,7 +1418,7 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Disci
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged $>$~55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). The teachers were asked about what kind of interaction media features they value the most \textcolor{blue}{; i.e. what their preferred features are in the applications/tools that they use to interact with their students.} The frequencies and percentages of their responses are given in Table \ref{tab:interaction}. 
+%A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged $>$~55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). The teachers were asked about what kind of interaction media features they value the most \textcolor{blue}{; i.e. what their preferred features are in the applications/tools that they use to interact with their students.} The frequencies and percentages of their responses are given in Table \ref{tab:interaction}. 
 
 \begin{table}[h!]
 \begin{tabular}{lcccc}
@@ -1447,8 +1447,8 @@ Other & 5 & 2.4 & 200 & 97.6 \\
 \label{tab:interaction}
 \end{table}
 
-\textcolor{blue}{As it can be seen in the table, the main responses aim to use a sustainable and official application, i.e. both being approved or provided by the University (or the educational centre), and also maintained by the technical staff of the centre instead of giving this responsability/task to the teacher.
-In addition, it is very important for the teachers that the used tools allow to communicate all the members of the classroom, including themselves; as well as being already known or used in everyday tasks, e.g. Telegram or WhatsApp.}
+\textcolor{blue}{As it can be seen in the table, the bulk of responders express their wish to use a sustainable and official application, i.e. both being approved or provided by the University (or the educational centre), and also maintained by the technical staff of the centre instead of giving this responsability/task to the teacher.
+In addition, it is very important for the teachers that the used tools that all the members of the class communicate, including themselves; as well as being already known or used in everyday tasks, e.g. Telegram or WhatsApp.}
 
 A chi-square test of independence was performed to examine the potential relationship among the various features. The statistically significant correlations are given in Table \ref{tab:interactionfeatures}.  
 
@@ -1469,7 +1469,7 @@ Horizontality &  &  - & ns & ns & ns & ns & ns & $5.453^{*}$ \\
 \end{table}
 
 Finally, a two-step cluster analysis was conducted, with a log-likelihood
-distance measure adopted, to explore how the cases could be grouped based on
+distance measure adopted, to explore how the use cases could be grouped based on
 their preferences of specific interaction media features, and which features
 have larger predictor importance for the clustering (see
 Fig. \ref{figure:predictor}). Two clusters occurred from the analysis: cluster 1
@@ -1513,7 +1513,7 @@ it should be noted that, in most cases, they are not {\em instant} messaging
 apps in the way Telegram or Facebook Messenger are; in most cases they are
 messaging facilities provided by learning management systems such as (usually)
 Moodle. So the answer to this question must be understood in two different ways:
-their preference for the {\em source} of the technology (university, any
+their preference for the {\em provider} of the technology (the university itself, any
 company) as well as the {\em type} of technology (instant, app based messaging
 systems vs. web-based systems integrated in another learning management system).}
 
