@@ -573,7 +573,7 @@ Responses were stored automatically in a Google Drive spreadsheet. Eventually,
 the results from the two forms we used for the first survey were collated in a
 single spreadsheet. Survey questions are shown in Appendix I (Section \ref{app:questions}).
 
-The \bf{second survey} was designed after initial results to the first survey arrived,
+The {\bf second survey} was designed after initial results to the first survey arrived,
 and pointed to necessities and experiences of teachers not being addressed by the first one; namely
 their experience with messaging platforms and the way they were used to interact with students.
 It was piloted in a group of university teachers attending to a formation course, and validated with them.
@@ -1683,7 +1683,7 @@ of chatbots (and instant messaging applications) their immediacy and the fact
 that they can enter into what we could call the private sphere makes this even
 more necessary.
 
-One of the questions we made in the \bf{second survey}, related to
+One of the questions we made in the {\bf second survey}, related to
 the messaging applications used by tertiary education teachers, opens a new line
 of inquiry about what they {\em perceive} as such, and about how it is used.
 Namely, the responses indicated that the teachers perceived as messaging
