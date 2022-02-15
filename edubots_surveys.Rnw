@@ -516,10 +516,10 @@ have also analysed how the use of chatbots affected the learning outcomes of
 students in a Chinese class \cite{doi:10.1177/0735633120929622}. This paper
 analysed conversational chatbots in an one-to-one setting, finding that learning
 really benefited from it. This is, once again, a proof of the benefit of
-chatbots in certain settings; however, there are some \textcolor{black}{prior experiences, as well as needs} that might
+chatbots in certain settings; however, there are some prior experiences, as well as needs, that might
 prevent the successful acceptance of the technology, and these are what we are
-trying to find out in this paper, together with what kind of features would \textcolor{black}{improve
-its acceptance}.
+trying to find out in this paper, together with what kind of features would improve
+its acceptance.
 
 Besides, the present work is focused on the other key actor in this challenge,
 i.e. educators. \textcolor{black}{How they accepted chatbots} has been studied very recently by Chocarro et
