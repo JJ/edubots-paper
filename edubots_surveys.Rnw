@@ -91,59 +91,59 @@
 \title{Chatbots and messaging platforms in the classroom: an analysis from the teacher's perspective}
 
 % Remember to substitute figures/ by nothing in the generated PDF
-\author[
-  addressref={aff1},
-  corref={aff1},
-  email={jmerelo@ugr.es}
-]{\inits{JJM}\fnm{Juan J.} \snm{Merelo}}
-\author[
-  addressref={aff1},
-  email={pacv@ugr.es}
-]{\inits{PAC}\fnm{Pedro A.} \snm{Castillo}}
-\author[
-  addressref={aff2},
-  email={amorag@ugr.es}
-]{\inits{AMM}\fnm{Antonio M.} \snm{Mora}}
-\author[
-  addressref={aff1},
-  email={fbarranco@ugr.es}
-]{\inits{FB}\fnm{Francisco} \snm{Barranco}}
-\author[
-  addressref={aff3},
-  email={n.h.abbas@leeds.ac.uk}
-]{\inits{NA}\fnm{Noorhan} \snm{Abbas}}
-\author[
-  addressref={aff1},
-  email={aguillen@ugr.es}
-]{\inits{AG}\fnm{Alberto} \snm{Guillén}}
-\author[
-  addressref={aff4},
-  email={o.tsivitanidou@cyens.org.cy}
-]{\inits{OT}\fnm{Olia} \snm{Tsivitanidou}}
-
-\address[id=aff1]{%
-  \orgdiv{Department of Computer Architecture and Technology},
-  \orgname{University of Granada},
-  \city{Granada},
-  \cny{Spain}
-}
-\address[id=aff2]{%
-  \orgdiv{Department of Signal Theory, Telematics and Communications},
-  \orgname{University of Granada},
-  \city{Granada},
-  \cny{Spain}
-}
-\address[id=aff3]{%
-  \orgdiv{School of Computing},
-  \orgname{University of Leeds},
-  \city{Leeds},
-  \cny{UK}
-}
-\address[id=aff4]{%
-  \orgname{CYENS},
-  \city{Nicosia},
-  \cny{Cyprus}
-}
+% \author[
+%   addressref={aff1},
+%   corref={aff1},
+%   email={jmerelo@ugr.es}
+% ]{\inits{JJM}\fnm{Juan J.} \snm{Merelo}}
+% \author[
+%   addressref={aff1},
+%   email={pacv@ugr.es}
+% ]{\inits{PAC}\fnm{Pedro A.} \snm{Castillo}}
+% \author[
+%   addressref={aff2},
+%   email={amorag@ugr.es}
+% ]{\inits{AMM}\fnm{Antonio M.} \snm{Mora}}
+% \author[
+%   addressref={aff1},
+%   email={fbarranco@ugr.es}
+% ]{\inits{FB}\fnm{Francisco} \snm{Barranco}}
+% \author[
+%   addressref={aff3},
+%   email={n.h.abbas@leeds.ac.uk}
+% ]{\inits{NA}\fnm{Noorhan} \snm{Abbas}}
+% \author[
+%   addressref={aff1},
+%   email={aguillen@ugr.es}
+% ]{\inits{AG}\fnm{Alberto} \snm{Guillén}}
+% \author[
+%   addressref={aff4},
+%   email={o.tsivitanidou@cyens.org.cy}
+% ]{\inits{OT}\fnm{Olia} \snm{Tsivitanidou}}
+% 
+% \address[id=aff1]{%
+%   \orgdiv{Department of Computer Architecture and Technology},
+%   \orgname{University of Granada},
+%   \city{Granada},
+%   \cny{Spain}
+% }
+% \address[id=aff2]{%
+%   \orgdiv{Department of Signal Theory, Telematics and Communications},
+%   \orgname{University of Granada},
+%   \city{Granada},
+%   \cny{Spain}
+% }
+% \address[id=aff3]{%
+%   \orgdiv{School of Computing},
+%   \orgname{University of Leeds},
+%   \city{Leeds},
+%   \cny{UK}
+% }
+% \address[id=aff4]{%
+%   \orgname{CYENS},
+%   \city{Nicosia},
+%   \cny{Cyprus}
+% }
 
 \end{fmbox}% comment this for two column layout
 
@@ -510,7 +510,7 @@ to develop \textcolor{black}{effective chatbots for higher education, all stakeh
 collected and taken into consideration
 \cite{sjostrom2018designing,tsivitanidouusers}. These needs include, but are not limited to, student's learning success due to higher motivation, but these are a posteriori effects that cannot be assessed in advance; this is why we focus in this paper on what the teachers are looking for in a TAM  (Technology Acceptance Model) and associated technologies like chatbots; both authors focus on what the teachers need in terms of the latter; this paper will focus on a wider perspective trying to ascertain what they are looking for in terms of general messaging technology. The classical literature \cite{tam91} already proposes that any adoption of technology must be tuned in to the user needs and experience. In this paper we will try to find out what those are in order to propose a successful model of adoption of chatbot technology}.
 
-Along this line of research, our previous work \cite{MoraChatbots2021}
+Along this line of research, our previous work \cite{MoraChatbots2021:anon}
 aimed at analysing the expectations of students on this regard; recent papers
 have also analysed how the use of chatbots affected the learning outcomes of
 students in a Chinese class \cite{doi:10.1177/0735633120929622}. This paper
@@ -1613,7 +1613,7 @@ secure, but also should provide IT support to all stakeholders who use the
 applications.
 
 Comparing these results with those obtained in student surveys
-in \cite{MoraChatbots2021}, we have understood better the differences between the teachers’
+in \cite{MoraChatbots2021:anon}, we have understood better the differences between the teachers’
 points of view and/or intentions and that of their students when using the
 messaging applications in higher education.  Teachers tend to adopt technologies
 supported by their institutions.  The fact they do so could be caused by a desire to ensure that their
@@ -1730,7 +1730,7 @@ assessment on the students.
 
 \subsection{Availability of data and materials}
 
-The datasets generated and analysed during the current study are available in the {\tt edubots-paper} repository, accessible from https://anonymous.url
+The datasets generated and analysed during the current study are available in the {\tt anonymous} repository, accessible from https://anonymous.url
 % {\tt https://github.com/JJ/edubots-paper/tree/main/data}.
 
 
@@ -1741,26 +1741,27 @@ The authors declare that they have no competing interests.
 
 \subsection{Funding}
 
-This work has been supported by EDUBOTS project, funded under the scheme Erasmus + KA2: Cooperation for innovation and the exchange of good practices - Knowledge Alliances (grant agreement no: 612446).
+Suppressed for double blind review
+% This work has been supported by EDUBOTS project, funded under the scheme Erasmus + KA2: Cooperation for innovation and the exchange of good practices - Knowledge Alliances (grant agreement no: 612446).
 
 \subsection{Authors' contributions}
 
 All the authors have contributed to the study presented in this manuscript. (Rest hidden for double blind)
 
-JJM has been the leader, drafted the first versions of the survey and supervised the writing of the manuscript.
-
-PAC has revised the paper and researched the state of the art, as well as contributed to the survey design.
-AMM has revised the paper and researched the state of the art, as well as contributed to the survey design.
-FB has made the analysis and processed data and contributed to the survey design.
-NA has supervised the state of the art, and written the bulk of it, as well as contributed to discussion and conclusions.
-OT has performed data analysis, and contributed to discussion and conclusions.
-AG has contributed to the design of the survey, analysis, discussion and conclusions.
+% JJM has been the leader, drafted the first versions of the survey and supervised the writing of the manuscript.
+% 
+% PAC has revised the paper and researched the state of the art, as well as contributed to the survey design.
+% AMM has revised the paper and researched the state of the art, as well as contributed to the survey design.
+% FB has made the analysis and processed data and contributed to the survey design.
+% NA has supervised the state of the art, and written the bulk of it, as well as contributed to discussion and conclusions.
+% OT has performed data analysis, and contributed to discussion and conclusions.
+% AG has contributed to the design of the survey, analysis, discussion and conclusions.
 
 All authors have read and approved the final manuscript.
 
 \subsection{Acknowledgements}
 
-The authors want to thank to the educators who participated in the survey, and also people who have distributed the survey in their mailing lists, especially Mario García Valdez, Jesús Moreno León and the late José Raúl Canay.
+% The authors want to thank to the educators who participated in the survey, and also people who have distributed the survey in their mailing lists, especially Mario García Valdez, Jesús Moreno León and the late José Raúl Canay.
 We would also like to thank the anonymous reviewers that have contributed greatly to the improvement of this paper.
 
 \section{Appendix I: Survey questions}
@@ -1768,7 +1769,7 @@ We would also like to thank the anonymous reviewers that have contributed greatl
 
 The surveys have the same common initial demographic questions:\begin{itemize}
 \item Degrees or titles where the teacher was working, either university or other tertiary education.
-\item Discipline: Engineering, Social Sciences, Health and Bio, Sciences, Humanities, Other.
+\item Discipline: Engineering, Social Sciences, Health and Bio, General Sciences, Humanities, Other.
 \item Gender: Man, Woman, Rather not say.
 \item Age: 25-35, 35-45, 45-55, more than 55.
 \item Experience on the job: up to 5 years, 5-15 years, 15-25 years, more than 25 years.
