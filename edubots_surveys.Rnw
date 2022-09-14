@@ -125,19 +125,13 @@
 \begin{abstractbox}
 
 \begin{abstract} % abstract
-Introducing new technologies such as messaging platforms, and the chatbots
-attached to them, in higher education, is rapidly growing. This introduction
-entails a careful consideration of the potential opportunities and/or challenges
-of adopting these tools. Hence, a thorough examination of the teachers’
-experiences in this discipline can shed light on the effective ways of
-enhancing students’ learning and boosting their progress. In this contribution,
-we have surveyed the opinions of tertiary education teachers based in
-Spain (mainly) and Spanish-speaking countries. The focus of these surveys is to collect
-teachers’ feedback about their opinions regarding the introduction of the messaging
-platforms and chatbots in their classes, understand their needs and to gather
-information about the various educational use cases where these tools are
+Messaging platforms are applications, generally mediated by an app, desktop program or the web, mainly used for synchronous communication among users. As such, they have been widely adopted officially by higher education establishments, after little or no study of their impact and perception by the teachers. We think that the introduction of these new tools and the opportunities and challenges they have needs to be studied carefully in order to adopt the model, as well as the tool, that is the most adequate for all parties involved. We already studied the perception of these tools by students, in this paper we examine the teachers’
+experiences and perceptions through a survey that we validated with peers, and what they think these tools should make or serve so that it enhances students learning and helps them achieve their learning objectives. The survey has been distributed among tertiary education teachers, both in universitary and other kind of tertiary establishments, based in
+Spain (mainly) and Spanish-speaking countries. We have focused on collecting
+teachers' preferences and opinions on the introduction of messaging platforms in their day-to-day work, as well as other services attached to them, such as  chatbots. What we intend with this survey is to understand their needs and to gather
+information about the various educational use cases where these tools could be 
 valuable. In addition, an analysis of how and when teachers’ opinions towards
-the use of these tools can vary across gender, experience, and their discipline
+the use of these tools varies across gender, experience, and their discipline
 of specialisation is presented. The key findings of this study highlight the
 factors that can contribute to the advancement of the adoption of messaging
 platforms and chatbots in higher education institutions to achieve the desired
