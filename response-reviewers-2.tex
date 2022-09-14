@@ -1,0 +1,115 @@
+% molde para cartas con membrete Dpto. y para sobres con ventana direcci¢n
+\documentclass{letter}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}      % castellano
+\usepackage[latin1]{inputenc}    % tildes
+\usepackage{url}
+
+% para cartas en ingls comentar la linea anterior e incluir la siguiente:
+%\documentstyle[12pt]{a4letter}
+% cabecera para hojas con membrete del Departamento y JJ
+% Set left margin - The default is 1 inch, so the following 
+% command sets a 0.5-inch left margin.
+\setlength{\oddsidemargin}{0.0in}
+
+% Set width of the text - What is left will be the right margin.
+% In this case, right margin is 8.5in - 0.0in - 6.5in = 2.0in.
+\setlength{\textwidth}{6.5in}
+
+% Set top margin - The default is 1 inch, so the following 
+% command sets a 0.5-inch top margin.
+\setlength{\topmargin}{-1in}
+
+% Set height of the text - What is left will be the bottom margin.
+% In this case, bottom margin is 11in - 0.75in - 9.5in = 0.75in
+\setlength{\textheight}{10in}
+
+% cambiar estas definiciones para personalizar el documento
+\def\yo{\sc Juan J. Merelo}
+\def\email{\tt jmerelo@geneura.ugr.es}
+\def\tel{34-958-243162}
+\def\fax{34-958-248993}
+
+% definiciones comunes
+\def\granada{18071 Granada (Spain)}
+\def\ucm{Universidad de Granada}
+\def\fac{ETS Ingenierías Informática y Telecomucnicaciones}
+\def\dpto{Departamento de Arquitectura y Tecnolog\'ia de Computadores}
+
+
+\def\cabecera{
+
+\begin{minipage}{2.5cm}
+\centerline{  \includegraphics[width=2.5cm,height=2.5cm]{escudo.eps} }
+\end{minipage}
+\ \
+\begin{minipage}{13cm}
+ \rule{13cm}{0.6mm}
+ \vspace*{0.3cm}
+ {\small{\bf \dpto \hfill}} \\
+ {\footnotesize{\bf \fac \hfill Fax: \fax}} \\
+ {\footnotesize{\bf \ucm \hfill Tel. / Phone: \tel}} \\
+ {\footnotesize{\bf \granada \hfill E-mail: \email}}\\
+ \rule{13cm}{0.6mm}
+\end{minipage}
+}
+
+%\input cabecera
+\pagestyle{empty}
+
+\begin{document}
+
+\cabecera
+
+\vspace{0.5cm}
+
+\hspace{7cm}
+
+\hfill Granada, \today
+
+\vspace{0.5cm}
+\ \
+% **** si no se quiere recuadro en la direcci¢n, comentar la linea siguiente
+%\framebox[9cm][l]
+{
+\begin{minipage}[t]{9cm}
+To whom it may concern
+% ******* Poner aqu¡ nombre y direcci¢n del destinatario
+\end{minipage}
+ }
+
+\vspace{0.5cm}
+
+
+% ********** comienzo del texto  *******************
+
+{\bf Response to reviewers' comments}
+
+We are very grateful to the reviewers for their kind comments. We have rewritten
+the paper quite extensively, incorporating requested changes, but also
+attempting to give another angle that makes this paper apart from what was
+already published in this paper
+
+Merelo, J.J. et al. (2022). Exploring the Role of Chatbots and Messaging
+Applications in Higher Education: A Teacher’s Perspective. In: Zaphiris, P.,
+Ioannou, A. (eds) Learning and Collaboration Technologies. Novel Technological
+Environments. HCII 2022. Lecture Notes in Computer Science, vol 13329. Springer,
+Cham. https://doi.org/10.1007/978-3-031-05675-8_16
+
+This explains that, in some cases, conclusions have been extended or
+reinterpreted over the ones published in that paper. Additionally, we validated
+the survey, as was also requested by the reviewers.
+
+Next we will address the concerns of the reviewers individually.
+
+% ********** fin del texto  *******************
+
+\hspace*{8cm} Yours,  \\
+
+\centerline{\includegraphics[width=2.5cm,height=2.5cm]{jj_sign.eps}}
+
+\hspace*{8cm} Juan J. Merelo\\
+\hspace*{8cm} Catedrático de Universidad (Full professor)
+
+\end{document}
+
