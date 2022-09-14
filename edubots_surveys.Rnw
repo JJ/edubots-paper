@@ -7,42 +7,6 @@
 %%It must be present to enable the BMC Submission system to
 %%recognise this template!!
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                                     %%
-%%  LaTeX template for BioMed Central  %%
-%%     journal article submissions     %%
-%%                                     %%
-%%          <8 June 2012>              %%
-%%                                     %%
-%%                                     %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                                                                 %%
-%% For instructions on how to fill out this Tex template           %%
-%% document please refer to Readme.html and the instructions for   %%
-%% authors page on the biomed central website                      %%
-%% https://www.biomedcentral.com/getpublished                      %%
-%%                                                                 %%
-%% Please do not use \input{...} to include other tex files.       %%
-%% Submit your LaTeX manuscript as one .tex document.              %%
-%%                                                                 %%
-%% All additional figures and files should be attached             %%
-%% separately and not embedded in the \TeX\ document itself.       %%
-%%                                                                 %%
-%% BioMed Central currently use the MikTex distribution of         %%
-%% TeX for Windows) of TeX and LaTeX.  This is available from      %%
-%% https://miktex.org/                                             %%
-%%                                                                 %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%% additional documentclass options:
-%  [doublespacing]
-%  [linenumbers]   - put the line numbers on margins
-
-%%% loading packages, author definitions
-
-%\documentclass[twocolumn]{bmcart}% uncomment this for twocolumn layout and comment line below
 \documentclass{bmcart}
 
 %%% Load packages
