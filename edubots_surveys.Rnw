@@ -238,45 +238,30 @@ In addition to their main use, some of these tools offer the possibility of inte
 parties \cite{differ.chat}. There is also possible to create a standalone chatbot application and attach it to a messaging tool through an API (Application Program Interface).}
 
 
-\textcolor{blue}{\textit{chatbots} are autonomous agents able to communicate and interact with humans (or other chatbots) in a huma-like way \cite{Gong2008}, answering question and even posing their own ones to the user. 
+\textcolor{blue}{\textit{Chatbots} are autonomous agents able to communicate and interact with humans (or other chatbots) in a huma-like way \cite{Gong2008}, answering question and even posing their own ones to the user. 
 Thus, we can say that they are close to passing a Turing Test \cite{moor2003turing}. They are implemented by means of different Artificial Intelligence techniques, such as natural language processing.
 Inside the plethora of possible applications of chatbots, education is one of the most prolific nowadays \cite{clarizia2018,Smutny2020}. In this domain, they facilitate the so-called 
 \textit{personalized learning}, i.e. they adapt themselves to students’ pace of learning and provide online tutoring outside the classroom, which have been proved to be very effective increasing their 
 engagement and participation in the subjects \cite{agarwal2020}. Moreover chatbots' tutoring possibilities aid to reduce the stress of students \cite{Daniel2016,agarwal2020} by avoiding the face-to-face tutoring with their teacher, 
-or asking questions in front of the class. 
+or asking questions in front of the class. This situation normally conducts to a silence of the student and a later contact with the teacher by e-mail, which, in turn, will mean a workload for the teacher, that could be very 
+significant given the existing disproportion between number of students per each teacher.  
 }
-
-
-This is why many students resort to silence in the classroom and tend to
-contact their teachers later via email.  Consequently, this can lead to not only
-a delay in obtaining answers to their questions but can also cause a significant
-increase in their teachers’ workload, especially when factoring in the
-disproportion between the class size and the number of teachers. Hence, the
-chatbot technology has a potential to mitigate this problem by providing answers
-to students’ questions and facilitating a dynamic and autonomous learning
-experience \cite{Griol2014,kim2020}. In addition, using an automated system such
-as a chatbot, can draw teachers’ attention to topics that students struggle to
-comprehend or need further assistance in understanding.
+Hence, the chatbot technology has a potential to mitigate this problem by providing answers to students’ questions and facilitating a dynamic and autonomous learning
+experience \cite{Griol2014,kim2020}. In addition, using an automated system such as a chatbot, can draw teachers’ attention to topics that students struggle to comprehend or need further assistance in understanding.
 
 Given the potential benefits that chatbots could bring to the classroom, the
-focus of the
-EDUBOTS KA2 European project \footnote{https://www.edubots.eu},
-the sponsor of this study, is to
-\textcolor{black}{explore best practices and innovative use of chatbots, and to create 
-a learning community of educators in higher education institutions.
-The majority of studies conducted so far have studied how these 
-messaging applications and/or chatbots are used to deliver personalised
-learning in classrooms that occurs anytime anywhere,
-promote collaborative learning experiences, group discussions \cite{panah2020study}
-and boost students' sense of belonging to their institutions
-\cite{abbas2021onlinechat}. Hence, due to the paucity of research
-that explores the use of these technologies from the teachers' perspectives,
-this paper aims to investigate their opinions/needs and the
-challenges/opportunities of adopting these technologies in classrooms
-to paint a better picture of how they can positively contribute to enhancing
-the learning process in higher education institutions.}
+focus of the EDUBOTS KA2 European project \footnote{https://www.edubots.eu},
+the main sponsor of this study, is to explore best practices and innovative use of chatbots, 
+and to create a learning community of educators in higher education institutions.
+\textcolor{blue}{Researchers and teachers participating in this project have developed several studies. Most of these works have been focused on how the 
+messaging applications and/or chatbots are normally applied to deliver personalised learning in classrooms that occurs anytime anywhere,
+promote collaborative learning experiences, group discussions \cite{panah2020study} and boost students' sense of belonging to their institutions
+\cite{abbas2021onlinechat}.}
+\textcolor{blue}{The majority of these studies were conducted focusing on the teachers' perspectives, so this paper aims to provide more conclusions regarding 
+their opinions and needs, as well as the existing challenges or opportunities that arise when adopting these technologies in classrooms. This will lead to clarify
+how they can positively contribute to enhancing the learning process in higher education institutions.}
 
-\textcolor{black}{In this study, data collection involved two phases:}
+In this study, data collection involved two phases:
  \begin{itemize}
 \item The first phase aimed to collect feedback from students about their actual
   information about students’ preferences of tools/applications for chatting and
@@ -303,15 +288,14 @@ needs, opinions and preferences of the development of future technology-enhanced
 tools and its potential impact on educational institutions’ policies. In order to assess these, this paper investigated the following research questions}:
 
 \begin{itemize}
-\item RQ1 - Are teachers already using messaging apps in their classes?
-\item RQ2 - Which chatbots' features would teachers find useful in their
-  classes?
+\item RQ1 - Do teachers use now or want to use messaging apps in their classes?
+\item RQ2 - Which chatbots' features would teachers find useful for this purpose?
 \item RQ3 - Which kind of interaction do teachers prefer with their students?
 \item RQ4 - What kind of interaction media features do teachers value the most?
 \end{itemize}
 
 We will try to answer these questions through the analysis of questions and
-answers in the two surveys. Eventually, what we want to obtain is a series of
+answers in the two aforementioned surveys. Eventually, what we want to obtain is a series of
 recommendations to make a successful deployment of chatbot technologies (and, in
 some cases, general instant messaging applications) in higher education\textcolor{black}{; from the response to RQ1 and RQ4 we will try to recommend specific technologies or applications to be used in the classroom; the response to RQ2 and RQ3 will help us recommend chatbots features or specific platforms; and finally, from RQ3 we will also try to find best practices in the adoption of messaging platforms and they accompanying chatbots.}
 
