@@ -233,32 +233,21 @@ get a higher engagement to the subject, which is usually the main objective. Eve
 Anyway, this adoption strongly depends on the compromise and capabilities of the teachers, as main active actors in this new academic approach. Given this, 
 asking and analysing user's opinions with regard to this scenario will help reaping the expected benefits of the technology}.
 
+\textcolor{blue}{In the last years, messaging applications such as WhatsApp or Telegram are being used in teaching scenarios mainly at secondary and higher education.
+In addition to their main use, some of these tools offer the possibility of interact with \textit{chatbots} (or just bots), even supporting synchronous conversation between the different
+parties \cite{differ.chat}. There is also possible to create a standalone chatbot application and attach it to a messaging tool through an API (Application Program Interface).}
 
-Recently, a surge in the use of synchronous instant messaging tools in higher education such as WhatsApp,
-Telegram and Facebook Messenger took place. Some messaging applications have
-built-in chatbots to support a synchronous conversation between the different
-parties \cite{differ.chat}, while other chatbots are developed as standalone
-systems and can possibly be attached to a messaging application using an API
-(Application Program Interface).
 
-A \textit{chatbot} is a program, sometimes developed using Artificial
-Intelligence techniques, able to communicate in a similar way as humans do
-\cite{Gong2008}, using, in some cases, natural language. Indeed, most of these
-applications would be, apparently, close to passing a classic Turing test
-\cite{moor2003turing}, since they are able to answer almost any question
-fluently, and even pose own questions in their conversations. The recent
-advancement in this discipline has played an important role in many fields
-especially in education and online tutoring
-\cite{clarizia2018,Smutny2020}. These automatic systems facilitate the delivery
-of personalized learning by adapting to students’ pace of learning and providing
-customized online tutoring outside the classroom. Thus, chatbots can
-significantly contribute to providing interactive learning experiences as well
-as improving individual attention \cite{agarwal2020}.  In this sense, chatbot
-technology offers a great opportunity for the improvement of tutoring systems
-\cite{Daniel2016,agarwal2020}, as not all students are comfortable with
-face-to-face tutoring with the instructor. In fact, in many cases, some students
-experience stress because of their need to ask a question in front of the entire
-class. This is why many students resort to silence in the classroom and tend to
+\textcolor{blue}{\textit{chatbots} are autonomous agents able to communicate and interact with humans (or other chatbots) in a huma-like way \cite{Gong2008}, answering question and even posing their own ones to the user. 
+Thus, we can say that they are close to passing a Turing Test \cite{moor2003turing}. They are implemented by means of different Artificial Intelligence techniques, such as natural language processing.
+Inside the plethora of possible applications of chatbots, education is one of the most prolific nowadays \cite{clarizia2018,Smutny2020}. In this domain, they facilitate the so-called 
+\textit{personalized learning}, i.e. they adapt themselves to students’ pace of learning and provide online tutoring outside the classroom, which have been proved to be very effective increasing their 
+engagement and participation in the subjects \cite{agarwal2020}. Moreover chatbots' tutoring possibilities aid to reduce the stress of students \cite{Daniel2016,agarwal2020} by avoiding the face-to-face tutoring with their teacher, 
+or asking questions in front of the class. 
+}
+
+
+This is why many students resort to silence in the classroom and tend to
 contact their teachers later via email.  Consequently, this can lead to not only
 a delay in obtaining answers to their questions but can also cause a significant
 increase in their teachers’ workload, especially when factoring in the
