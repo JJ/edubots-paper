@@ -511,6 +511,39 @@ It was then extended to the rest of the responders, using the same media: Telegr
 
 \textcolor{black}{A total of 205 teachers responded to the second survey: 187 graduate teachers (91.2\%) and 18 student teachers (8.8\%). From those, 124 were male (60.5\%), 65 female (31.7\%) and 16 teachers preferred not to indicate their gender (7.8\%). In terms of age, the majority of the participants (n=70) was again, as in the first survey, 45-55 years old (34.1\%), while 67 teachers were 35-45 years old (32.7\%), 42 were 25-35 (20.5\%) and 26 teachers were older than 55 (12.7\%). In terms of teaching experience, 59 teachers had a teaching experience of 16-25 years (28.8\%), 51 teachers had 6-15 years (24.9\%) and 0-5 years of experience (24.9\%), and 44 teachers more than 25 years of teaching experience (21.5\%).}
 
+\subsection{Survey validation}
+\textcolor{blue}{
+    
+
+To avoid any bias and to be sure about the quality of the questionnaire, a panel board was consulted. There were three items for each of the items of the questionnaire which were: Clarity, Importance, Adequateness.
+Clarity was measured as an answer to the question: Is the item well presented and without ambiguity? \footnote{Original text: ¿El ítem está bien redactado y sin ambigüedad?} with two choices: Yes or No. 
+Both Importance and Adequateness were measured in a Likert scale from 1 to 4 (1 low, 4 high).
+
+The panel board was composed by 7 volunteer experts that have wide experience as educators and researchers. The results obtained are summarized in Table \ref{tab:validation}.
+
+As validation shows, all expert agree without any doubt about the clarity of each question. Furthermore, there is a large consensus regarding the Importance and Adequateness of all the eight questions in the questionnaire. 
+
+\begin{table}
+\begin{tabular}{|c|ccc|}
+    \hline
+    Questions & Clarity (Yes/No) & Avg. Importance & Avg. Adequateness \\
+    \hline
+    Q1 &  Yes (100\%)  &  3,571 (0,53) & 3,571 (0,53) \\
+    Q2 &  Yes (100\%)  &  3,714 (0,49) & 3,571 (0,53) \\
+    Q3 &  Yes (100\%)  &  3,857 (0,38) & 3,857 (0,38) \\
+    Q4 &  Yes (100\%)  &  3,571 (0,79) & 3,857 (0,38) \\
+    Q5 &  Yes (100\%)  &  3,714 (0,49) & 3,714 (0,49) \\
+    Q6 &  Yes (100\%)  &  3,714 (0,49) & 3,857 (0,38) \\
+    Q7 &  Yes (100\%)  &  3,714 (0,49) & 3,714 (0,49) \\
+    Q8 &  Yes (100\%)  &  4 (0) & 4,000 (0) \\
+    \hline
+\end{tabular}
+\caption{Validation results from the panel board (7 experts) for each question in the research questionnaire. The range of values for Importance and Adequateness is from 1 to 4 (higher is better).}\label{tab:validation}
+\end{table}
+
+
+}
+
 Next, we show the results and analyse them.
 
 % ********************** RESULTS ****************************
