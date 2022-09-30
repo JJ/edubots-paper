@@ -509,7 +509,7 @@ It was piloted in a group of university teachers attending to a formation course
 It was then extended to the rest of the responders, using the same media: Telegram groups, email and announcement in mailing lists. The questions asked in that survey are also shown in Appendix I
 (Section \ref{app:questions}).
 
-\textcolor{black}{A total of 205 teachers responded to the second survey: 187 graduate teachers (91.2\%) and 18 student teachers (8.8\%). From those, 124 were male (60.5\%), 65 female (31.7\%) and 16 teachers preferred not to indicate their gender (7.8\%). In terms of age, the majority of the participants (n=70) was again, as in the first survey, 45-55 years old (34.1\%), while 67 teachers were 35-45 years old (32.7\%), 42 were 25-35 (20.5\%) and 26 teachers were older than 55 (12.7\%). In terms of teaching experience, 59 teachers had a teaching experience of 16-25 years (28.8\%), 51 teachers had 6-15 years (24.9\%) and 0-5 years of experience (24.9\%), and 44 teachers more than 25 years of teaching experience (21.5\%).}
+A total of 205 teachers responded to the second survey: 187 graduate teachers (91.2\%) and 18 student teachers (8.8\%). From those, 124 were male (60.5\%), 65 female (31.7\%) and 16 teachers preferred not to indicate their gender (7.8\%). In terms of age, the majority of the participants (n=70) was again, as in the first survey, 45-55 years old (34.1\%), while 67 teachers were 35-45 years old (32.7\%), 42 were 25-35 (20.5\%) and 26 teachers were older than 55 (12.7\%). In terms of teaching experience, 59 teachers had a teaching experience of 16-25 years (28.8\%), 51 teachers had 6-15 years (24.9\%) and 0-5 years of experience (24.9\%), and 44 teachers more than 25 years of teaching experience (21.5\%).
 
 \subsection{Survey validation}
 
@@ -539,8 +539,6 @@ As validation shows, all expert agree without any doubt about the clarity of eac
 \caption{Validation results from the panel board (7 experts) for each question in the research questionnaire. The range of values for Importance and Adequateness is from 1 to 4 (higher is better).}\label{tab:validation}
 \end{table}
 
-
-}
 
 Next, we show the results and analyse them.
 
@@ -1433,7 +1431,7 @@ not a good one (silhouette measure of cohesion and separation).
 \end{figure}
 
 % ********************** Discussion section *******************
-\section{Discussion}
+\section{Discussion and implications}
 
 Our initial intention in the design of these surveys was to probe the opinions
 of tertiary education teachers in the introduction of chatbot technologies in
@@ -1554,6 +1552,19 @@ that way, activity in the chat tool, answering questions, regularity, can all be
 observed and valued as part of the process of assessing achievement of learning
 objectives by students.
 
+% Only some COVID-response relationship.
+In our survey, we could not find an answer about the right moment for introducing chatbot technologies. Response to questions related to change of
+behaviour during and after the first stay at home, stage of the pandemic do not suggest that a major (or minor)
+crisis could be an opportunity to introduce new technologies, since it does not
+bring major changes in attitude (as a minor "crisis" we could mention any institutional event that brings about methodological changes, such as new higher education laws\footnote{We seem to have one of these, at least in
+  Spain, every 10 years or so.}), or simply introduction of new degrees. Although
+changes driven by external forces do offer the chance of piloting new technologies, they do not
+seem to bring internal changes in attitudes in the teaching staff (which, after all, is
+bound to be the same). In absence of a clear answer in this direction, the right
+moment to introduce new technologies is always when the IT and managing staff is
+ready to support it (since, as we have seen before, "official" support is one of
+the factors that is most valued by teachers).
+
 % ********************** CONCLUSIONS ****************************
 
 \section{Conclusions}
@@ -1620,20 +1631,6 @@ chatbots do have some potential for personalization or customization, based on
 the class material, student and teaching staff, the general introduction of the
 technology can be done in a general way and for all disciplines, teaching
 experience and gender.
-
-% Only some COVID-response relationship.
-In our survey, we could not find an answer about the right moment introducing chatbot technologies. Response to questions related to change of
-behaviour during and after the first, stay at home, stage of the pandemic do not suggest that major (or minor)
-crisis could be an opportunity to introduce new technologies, since it does not
-bring major changes in attitude. A minor crisis would be, for instance, rollout
-of a new higher education law\footnote{We seem to have one of these, at least in
-  Spain, every 10 years or so.}, or introduction of new degrees. Although
-external changes do offer the chance of piloting new technologies, they do not
-seem to bring changes in attitudes in the teaching staff (which, after all, is
-bound to be the same). In absence of a clear answer in this direction, the right
-moment to introduce new technologies is always when the IT and managing staff is
-ready to support it (since, as we have seen before, "official" support is one of
-the factors that is most valued by teachers).
 
 At any rate, the general feeling that transpires from the survey is that it is
 essential for any institution to take into account the shareholder's opinion
