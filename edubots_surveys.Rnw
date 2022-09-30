@@ -5,7 +5,7 @@
 
 %%IMPORTANT: do not delete the first line of this template
 %%It must be present to enable the BMC Submission system to
-%%recognise this template!!
+%%recognize this template!!
 
 \documentclass{bmcart}
 
@@ -132,7 +132,7 @@ teachers' preferences and opinions on the introduction of messaging platforms in
 information about the various educational use cases where these tools could be 
 valuable. In addition, an analysis of how and when teachers’ opinions towards
 the use of these tools varies across gender, experience, and their discipline
-of specialisation is presented. The key findings of this study highlight the
+of specialization is presented. The key findings of this study highlight the
 factors that can contribute to the advancement of the adoption of messaging
 platforms and chatbots in higher education institutions to achieve the desired
 learning outcomes.
@@ -231,14 +231,14 @@ freq.Discipline %>% mutate(Discipline = ifelse(as.character(Discipline) == "No",
 will require (many) extra work and training for the teacher, as well as for the students. Thus, both of them will acquire new skills and, potentially, pupils will 
 get a higher engagement to the subject, which is usually the main objective. Even if several technologies are already in use inside the classroom, there is still room for adopting others.
 Anyway, this adoption strongly depends on the compromise and capabilities of the teachers, as main active actors in this new academic approach. Given this, 
-asking and analysing user's opinions with regard to this scenario will help reaping the expected benefits of the technology}.
+asking and analyzing user's opinions with regard to this scenario will help reaping the expected benefits of the technology}.
 
 \textcolor{blue}{In the last years, messaging applications such as WhatsApp or Telegram are being used in teaching scenarios mainly at secondary and higher education.
 In addition to their main use, some of these tools offer the possibility of interact with \textit{chatbots} (or just bots), even supporting synchronous conversation between the different
 parties \cite{differ.chat}. There is also possible to create a standalone chatbot application and attach it to a messaging tool through an API (Application Program Interface).}
 
 
-\textcolor{blue}{\textit{Chatbots} are autonomous agents able to communicate and interact with humans (or other chatbots) in a huma-like way \cite{Gong2008}, answering question and even posing their own ones to the user. 
+\textcolor{blue}{\textit{Chatbots} are autonomous agents able to communicate and interact with humans (or other chatbots) in a human-like way \cite{Gong2008}, answering question and even posing their own ones to the user. 
 Thus, we can say that they are close to passing a Turing Test \cite{moor2003turing}. They are implemented by means of different Artificial Intelligence techniques, such as natural language processing.
 Inside the plethora of possible applications of chatbots, education is one of the most prolific nowadays \cite{clarizia2018,Smutny2020}. In this domain, they facilitate the so-called 
 \textit{personalized learning}, i.e. they adapt themselves to students’ pace of learning and provide online tutoring outside the classroom, which have been proved to be very effective increasing their 
@@ -254,7 +254,7 @@ focus of the EDUBOTS KA2 European project \footnote{https://www.edubots.eu},
 the main sponsor of this study, is to explore best practices and innovative use of chatbots, 
 and to create a learning community of educators in higher education institutions.
 \textcolor{blue}{Researchers and teachers participating in this project have developed several studies. Most of these works have been focused on how the 
-messaging applications and/or chatbots are normally applied to deliver personalised learning in classrooms that occurs anytime anywhere,
+messaging applications and/or chatbots are normally applied to deliver personalized learning in classrooms that occurs anytime anywhere,
 promote collaborative learning experiences, group discussions \cite{panah2020study} and boost students' sense of belonging to their institutions
 \cite{abbas2021onlinechat}.}
 \textcolor{blue}{The majority of these studies were conducted focusing on the teachers' perspectives, so this paper aims to provide more conclusions regarding 
@@ -283,7 +283,7 @@ In this study, data collection involved two phases:
 Initially, a single survey was developed for this purpose and responses from 300
 higher education teachers were collected and analysed\textcolor{black}{; this will be explained more fully in the methodology section}. The responses' analysis
 entailed the creation of a second survey to which 200 teachers' responses were
-collected\textcolor{black}{, with the methodology and collective characteristics that will be explained below. The questions of the second survey focussed on discussing teachers'
+collected\textcolor{black}{, with the methodology and collective characteristics that will be explained below. The questions of the second survey focused on discussing teachers'
 needs, opinions and preferences of the development of future technology-enhanced
 tools and its potential impact on educational institutions’ policies. In order to assess these, this paper investigated the following research questions}:
 
@@ -317,7 +317,7 @@ The widespread and rapid adoption of free Mobile Instant Messaging
 (MIM) tools/platforms such as WhatsApp, Telegram, WeChat and Facebook
 Messenger stems from their simplicity, ease of use and multi-modality
 (i.e. video, audio, text) \cite{tang2017mobile}. Using these tools in
-higher education can facilitate the delivery of personalised learning
+higher education can facilitate the delivery of personalized learning
 that occurs anytime anywhere, promote collaborative learning
 experiences and group discussions \cite{panah2020study}.
 
@@ -367,11 +367,11 @@ instance, a recent evaluation review study presented by Smutny and Schreiberova
 \cite{Smutny2020} examined 47 educational chatbots implemented in Facebook
 Messenger with the focus to identify characteristics and quality metrics such as
 language, subject matter and platform\textcolor{black}{, whereas the study undertaken by Pérez and collaborators
-\cite{perez2020rediscovering} aimed to categorise educational chatbots, according
+\cite{perez2020rediscovering} aimed to categorize educational chatbots, according
 to their, purpose into service-oriented and teaching-oriented}. The first category
 includes those that provide service support such as the chatbot Ask Holly
 \cite{meetholly} and Dina \cite{santoso2018dinus}; both chatbots respond to
-students' questions about enrolment and registration. Ask L. U.
+students' questions about enrollment and registration. Ask L. U.
 \cite{LancasterUniversity_2019} answers students' frequently asked questions
 about timetables, grades, tutors and societies. LISA \cite{dibitonto2018chatbot}
 and Differ \cite{differ.chat} facilitate breaking the ice between new students
@@ -389,7 +389,7 @@ and accurate answers than the ones provided by Elvira, which had to be updated
 by hand (and not too often). It was eventually discontinued, and its technology was not adapted to other platforms, since it did not really provide an useful service. Its service was not tied to teaching anyway; it was more related to directory queries and university-wide administrative questions, so even if it is strictly an example of a chatbot in a university setting, it is not really a chatbot that can be adopted by teachers to affect the learning outcomes, something which is the focus of this paper}.
 
 On the other hand, teaching-oriented chatbots are more sophisticated, as they
-set personalised learning outcomes and monitor learning progress. For instance,
+set personalized learning outcomes and monitor learning progress. For instance,
 \cite{fernoagua2018intelligent} reported on ``eduAssistant'', a virtual teaching
 assistant chatbot developed on the Telegram messaging platform. In this study,
 the Telegram platform is chosen because it is easy to use, students are familiar
@@ -397,7 +397,7 @@ with its features, and it enables them to exchange messages in different formats
 (text, audio and video) \cite{fernoagua2018intelligent}. In addition, Telegram
 could operate on all devices and operating systems. The ``eduAssistant'' chatbot
 acts as an automatic agent in teacher-content-student, facilitating real-time
-feedback loops and providing a personalised learning experience relevant to the
+feedback loops and providing a personalized learning experience relevant to the
 students' acquired skills and knowledge. Using this chatbot, educators can
 create interactive instances in their lectures where they pose questions to
 their students and the chatbot assists those who need further help by giving
@@ -417,11 +417,11 @@ education.  This conceptual architecture is based on a systematic literature
 review of previous studies, examining the design of chatbots in higher
 education, as well as making a content analysis of student emails and discussion
 forum posts of four instances of a Java programming course.  The study outlined
-several design considerations; among them, the authors emphasised the importance
+several design considerations; among them, the authors emphasized the importance
 of developing chatbots in platforms that students and educators are familiar
 with and can easily access (i.e. Facebook Messenger) which was confirmed with
 \cite{hobert2019you} and \cite{fernoagua2018intelligent} studies. In addition, \cite{sjostrom2018designing} argued that a
-conceptualisation of learners' questions could aid designers in integrating the
+conceptualization of learners' questions could aid designers in integrating the
 appropriate types of questions that the chatbots should support for different
 courses.  \textcolor{black}{Some other authors}, like \cite{coronado2018cognitive}, proposed agents that
 store learning materials to be provided on demand to students, whereas the
@@ -440,7 +440,7 @@ collected and taken into consideration
 \cite{sjostrom2018designing,tsivitanidouusers}. These needs include, but are not limited to, student's learning success due to higher motivation, but these are a posteriori effects that cannot be assessed in advance; this is why we focus in this paper on what the teachers are looking for in a TAM  (Technology Acceptance Model) and associated technologies like chatbots; both authors focus on what the teachers need in terms of the latter; this paper will focus on a wider perspective trying to ascertain what they are looking for in terms of general messaging technology. The classical literature \cite{tam91} already proposes that any adoption of technology must be tuned in to the user needs and experience. In this paper we will try to find out what those are in order to propose a successful model of adoption of chatbot technology}.
 
 Along this line of research, our previous work \cite{MoraChatbots2021:anon}
-aimed at analysing the expectations of students on this regard; recent papers
+aimed at analyzing the expectations of students on this regard; recent papers
 have also analysed how the use of chatbots affected the learning outcomes of
 students in a Chinese class \cite{doi:10.1177/0735633120929622}. This paper
 analysed conversational chatbots in an one-to-one setting, finding that learning
@@ -452,7 +452,7 @@ its acceptance.
 
 Besides, the present work is focused on the other key actor in this challenge,
 i.e. educators. \textcolor{black}{How they accepted chatbots} has been studied very recently by Chocarro et
-al. \cite{doi:10.1080/03055698.2020.1850426}, who, by analysing surveys, created
+al. \cite{doi:10.1080/03055698.2020.1850426}, who, by analyzing surveys, created
 a {\em technology acceptance model} that proposed a series of features that
 would make chatbots easier to accept; among them, formality of language as well
 as easiness and usefulness. The survey targeted primary and secondary education
@@ -560,7 +560,7 @@ teachers with 5 or less years of experience, 26\% for 6-15 years of experience,
 30\% for 16-25, and 20\% for teachers with more than 25 years of experience.
 
 We will try to find the answers to the four research questions next, by
-analysing the response to the different survey questions.
+analyzing the response to the different survey questions.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -1121,7 +1121,7 @@ Others & 25 & 8.9 & 257 & 91.1 \\ \hline
 \end{table}
 
 
-The most favourable use case for chatbots in
+The most favorable use case for chatbots in
 Higher Education and vocational training is their use for the facilitation of an
 agenda formation (171 positive response, 60.6\%), followed by the FAQs use case
 (148 positive responses, 52.5\%) and the sharing class material use case (136;
@@ -1385,7 +1385,7 @@ Other & 5 & 2.4 & 200 & 97.6 \\
 \label{tab:interaction}
 \end{table}
 
-\textcolor{black}{As it can be seen in the table, the bulk of responders express their wish to use a sustainable and official application, i.e. both being approved or provided by the University (or the educational centre), and also maintained by the technical staff of the centre instead of giving this responsability/task to the teacher.
+\textcolor{black}{As it can be seen in the table, the bulk of responders express their wish to use a sustainable and official application, i.e. both being approved or provided by the University (or the educational center), and also maintained by the technical staff of the center instead of giving this responsibility/task to the teacher.
 In addition, it is very important for the teachers that the used tools that all the members of the class communicate, including themselves; as well as being already known or used in everyday tasks, e.g. Telegram or WhatsApp.}
 
 A chi-square test of independence was performed to examine the potential relationship among the various features. The statistically significant correlations are given in Table \ref{tab:interactionfeatures}.  
@@ -1467,7 +1467,7 @@ Additionally, the question on COVID reflected the big challenge that represents
 changing habits, even in the case of a major crisis. Very few responders actually
 changed their habits, although comparing women vs. men as well as those teaching social
 sciences show some significant difference. We do not have any kind of explanation for
-this behaviour, other than technologies are perceived, and adopted, in a
+this behavior, other than technologies are perceived, and adopted, in a
 different way depending on background and, apparently, gender.
 
 One of the most interesting questions that can arise from the analysis of the
@@ -1554,7 +1554,7 @@ objectives by students.
 
 % Only some COVID-response relationship.
 In our survey, we could not find an answer about the right moment for introducing chatbot technologies. Response to questions related to change of
-behaviour during and after the first stay at home, stage of the pandemic do not suggest that a major (or minor)
+behavior during and after the first stay at home, stage of the pandemic do not suggest that a major (or minor)
 crisis could be an opportunity to introduce new technologies, since it does not
 bring major changes in attitude (as a minor "crisis" we could mention any institutional event that brings about methodological changes, such as new higher education laws\footnote{We seem to have one of these, at least in
   Spain, every 10 years or so.}), or simply introduction of new degrees. Although
@@ -1667,7 +1667,7 @@ Finally, the full extent of chatbot technology is not really being examined in
 these surveys. They can be connected to natural language processing engines with
 sentiment analysis as well as other analytics. Examining the mood of the class,
 as response to new material, assignment, exams or external events might help
-will help any student-centred teaching strategy, which will help students (and
+will help any student-centered teaching strategy, which will help students (and
 teachers) reach their learning objectives. This line of work, however, will be
 based on the introduction of some pilot study, combined with initial opinion
 assessment on the students.
@@ -1686,7 +1686,7 @@ assessment on the students.
 
 \subsection{Availability of data and materials}
 
-The datasets generated and analysed during the current study are available in the {\tt anonymous} repository, accessible from https://anonymous.url
+The datasets generated and analysed during the current study are available in the {\tt anonymous} repository, accessible from https://anonymous.URL
 % {\tt https://github.com/JJ/edubots-paper/tree/main/data}.
 
 
@@ -1797,7 +1797,7 @@ Specifically, this survey asked the teachers, in addition to general information
 
 The specific questions included in this second survey are listed below:
 
-% Antonio - I have included a reference name to each one of these variables, which are the names used on Tables 8 and 9. Thus it will be easy to recognise every variable, and then, we could refer to them in those tables.
+% Antonio - I have included a reference name to each one of these variables, which are the names used on Tables 8 and 9. Thus it will be easy to recognize every variable, and then, we could refer to them in those tables.
 
 \textit{1. You prefer the interaction with your students to be ...}
 \begin{itemize}
@@ -1817,7 +1817,7 @@ The specific questions included in this second survey are listed below:
 \item The official formation/training provided by your institution on its use. [\texttt{Official formation}]
 \item That only one-directional communication is allowed (from teachers to students). [\texttt{Unidirectionality}]
 \item Non-hierarchical tools that allowed teacher-to-student and student-to-student communication. [\texttt{Horizontally}]
-\item Connectivity to other tools, for instance common login. [\texttt{Connectivity}]
+\item Connectivity to other tools, for instance common log in. [\texttt{Connectivity}]
 \item Possibility for teachers to develop/add their own functionalities (e.g. automatic correction tools). [\texttt{Pluggability}]
 \item Possibility for users to hide personal data (such as my telephone number). [\texttt{Hidden Phone Number}]
 \item Not having to worry about maintenance and that it is easily sustainable from one year to the next. [\texttt{Sustainability}]
