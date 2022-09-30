@@ -250,8 +250,8 @@ Hence, the chatbot technology has a potential to mitigate this problem by provid
 experience \cite{Griol2014,kim2020}. In addition, using an automated system such as a chatbot, can draw teachers’ attention to topics that students struggle to comprehend or need further assistance in understanding.
 
 Given the potential benefits that chatbots could bring to the classroom, the
-focus of the EDUBOTS KA2 European project \footnote{https://www.edubots.eu},
-the main sponsor of this study, is to explore best practices and innovative use of chatbots, 
+focus of the % EDUBOTS KA2 European project \footnote{https://www.edubots.eu},
+unnamed European project, the main sponsor of this study, is to explore best practices and innovative use of chatbots, 
 and to create a learning community of educators in higher education institutions.
 \textcolor{blue}{Researchers and teachers participating in this project have developed several studies. Most of these works have been focused on how the 
 messaging applications and/or chatbots are normally applied to deliver personalized learning in classrooms that occurs anytime anywhere,
