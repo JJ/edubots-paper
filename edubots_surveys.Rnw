@@ -280,17 +280,17 @@ In this study, data collection involved two phases:
 \end{itemize}
 
 Initially, a single survey was developed for this purpose and responses from 300
-higher education teachers were collected and analysed\textcolor{black}{; this will be explained more fully in the methodology section}. The responses' analysis
-entailed the creation of a second survey to which 200 teachers' responses were
-collected\textcolor{black}{, with the methodology and collective characteristics that will be explained below. The questions of the second survey focused on discussing teachers'
+higher education teachers were collected and analysed\textcolor{black}{; this will be detailed in Section \ref{sec:meth}}. The responses' analysis
+led to the preparation of a second survey for teachers and 200 responses were
+collected\textcolor{black}{, again following the methodology that will be explained later. The questions of the second survey focused on asking about teachers'
 needs, opinions and preferences of the development of future technology-enhanced
-tools and its potential impact on educational institutions’ policies. In order to assess these, this paper investigated the following research questions}:
+tools and its potential impact on educational institutions policies. In order to assess these, this paper layed out the following research questions}:
 
 \begin{itemize}
 \item RQ1 - Do teachers use now or want to use messaging apps in their classes?
 \item RQ2 - Which chatbots' features would teachers find useful for this purpose?
 \item RQ3 - Which kind of interaction do teachers prefer with their students?
-\item RQ4 - What kind of interaction media features do teachers value the most?
+\item RQ4 - Which kind of interaction media features do teachers value the most?
 \end{itemize}
 
 We will try to answer these questions through the analysis of questions and
