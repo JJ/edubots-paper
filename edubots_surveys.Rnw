@@ -233,9 +233,9 @@ engaged to the subject, which is usually the main objective. Even if several tec
 Anyway, this adoption strongly depends on the compromise and capabilities of the teachers, as main active actors in this new academic approach. Asking and analyzing users' 
 opinions with regard to this scenario will help reaping the expected benefits of the technology}.
 
-\textcolor{blue}{In the last years, messaging applications such as WhatsApp or Telegram are being used in teaching scenarios mainly at secondary and higher education.
-In addition to their main use, some of these tools offer the possibility of interact with \textit{chatbots} (or just bots), even supporting synchronous conversation between the different
-parties \cite{differ.chat}. There is also possible to create a standalone chatbot application and attach it to a messaging tool through an API (Application Program Interface).}
+\textcolor{blue}{Messaging applications such as WhatsApp or Telegram are becoming very popular in teaching scenarios mainly at secondary and higher education.
+In addition to their main use, some of these tools offer the possibility to interact with \textit{chatbots} (or just bots), even supporting synchronous conversations between the different
+parties \cite{differ.chat}. It is also possible to create a standalone chatbot application and attach it to a messaging tool through an API (Application Programming Interface).}
 
 
 \textcolor{blue}{\textit{Chatbots} are autonomous agents able to communicate and interact with humans (or other chatbots) in a human-like way \cite{Gong2008}, answering question and even posing their own ones to the user. 
