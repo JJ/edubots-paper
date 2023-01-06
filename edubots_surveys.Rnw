@@ -238,16 +238,15 @@ In addition to their main use, some of these tools offer the possibility to inte
 parties \cite{differ.chat}. It is also possible to create a standalone chatbot application and attach it to a messaging tool through an API (Application Programming Interface).}
 
 
-\textcolor{blue}{\textit{Chatbots} are autonomous agents able to communicate and interact with humans (or other chatbots) in a human-like way \cite{Gong2008}, answering question and even posing their own ones to the user. 
+\textcolor{blue}{\textit{Chatbots} are autonomous agents that are able to communicate and interact in a human-like way \cite{Gong2008}, answering question and even posing their own ones to the user. 
 Thus, we can say that they are close to passing a Turing Test \cite{moor2003turing}. They are implemented by means of different Artificial Intelligence techniques, such as natural language processing.
-Inside the plethora of possible applications of chatbots, education is one of the most prolific nowadays \cite{clarizia2018,Smutny2020}. In this domain, they facilitate the so-called 
-\textit{personalized learning}, i.e. they adapt themselves to students’ pace of learning and provide online tutoring outside the classroom, which have been proved to be very effective increasing their 
-engagement and participation in the subjects \cite{agarwal2020}. Moreover chatbots' tutoring possibilities aid to reduce the stress of students \cite{Daniel2016,agarwal2020} by avoiding the face-to-face tutoring with their teacher, 
-or asking questions in front of the class. This situation normally conducts to a silence of the student and a later contact with the teacher by e-mail, which, in turn, will mean a workload for the teacher, that could be very 
-significant given the existing disproportion between number of students per each teacher.  
+Within the plethora of possible applications of chatbots, education is one of the most prolific nowadays \cite{clarizia2018,Smutny2020}. In this domain, they facilitate the so-called 
+\textit{personalized learning}, i.e. they adapt themselves to students' self-pace learning and provide online tutoring. Personalized learning has been proved to be very effective increasing students course engagement and participation \cite{agarwal2020}. Moreover, chatbots also reduce students' stress \cite{Daniel2016,agarwal2020} by avoiding the face-to-face tutoring with their teachers, 
+or asking questions in front of the class. This situation usually results in a later contact with the teacher by e-mail, which in turn, will mean a workload for the teacher that could be very 
+significant given the disproportionate ratio of number of students to teachers.  
 }
 Hence, the chatbot technology has a potential to mitigate this problem by providing answers to students’ questions and facilitating a dynamic and autonomous learning
-experience \cite{Griol2014,kim2020}. In addition, using an automated system such as a chatbot, can draw teachers’ attention to topics that students struggle to comprehend or need further assistance in understanding.
+experience \cite{Griol2014,kim2020}. In addition, using an automated system such as a chatbot will allow teachers to spend more time on  other topics that students struggle with.
 
 Given the potential benefits that chatbots could bring to the classroom, the
 focus of the % EDUBOTS KA2 European project \footnote{https://www.edubots.eu},
