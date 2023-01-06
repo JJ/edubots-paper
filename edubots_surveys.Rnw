@@ -293,17 +293,17 @@ tools and its potential impact on educational institutions policies. In order to
 \item RQ4 - Which kind of interaction media features do teachers value the most?
 \end{itemize}
 
-We will try to answer these questions through the analysis of questions and
-answers in the two aforementioned surveys. Eventually, what we want to obtain is a series of
+We will try to answer these research questions through the analysis of the two aforementioned surveys. 
+Eventually, what we want to obtain is a series of
 recommendations to make a successful deployment of chatbot technologies (and, in
-some cases, general instant messaging applications) in higher education\textcolor{black}{; from the response to RQ1 and RQ4 we will try to recommend specific technologies or applications to be used in the classroom; the response to RQ2 and RQ3 will help us recommend chatbots features or specific platforms; and finally, from RQ3 we will also try to find best practices in the adoption of messaging platforms and they accompanying chatbots.}
+some cases, general instant messaging applications) in higher education\textcolor{black}{; from the response to RQ1 and RQ4 we will recommend specific technologies or applications to be used in the classroom; the response to RQ2 and RQ3 will help us recommend chatbots features or specific platforms; and finally, from RQ3 we will also try to find best practices in the adoption of messaging platforms and their accompanying chatbots.}
 
-The remainder of the paper is organized as follows: \textcolor{black}{first, an overview of what
-current research has found about the use of messaging applications, including
-chatbots, in the classroom is described}. The methodology used in the surveys is presented in
-Section \ref{sec:meth}, and the results of the surveys are presented next in
+The paper is organized as follows: \textcolor{black}{first, an overview of what
+current research has found about the use of messaging applications in the classrom, including
+chatbots is presented}. Next, the methodology used in the surveys is described in
+Section \ref{sec:meth}, and the results of the surveys are presented in
 Section \ref{sec:res}. Finally, we discuss these results and conclude with a
-series of recommendations in the section that closes the paper.
+series of recommendations for the successful deployment of chatbots in higher education.
 
 
 % ********************** STATE OF THE ART ****************************
