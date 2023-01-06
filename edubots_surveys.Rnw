@@ -250,9 +250,9 @@ experience \cite{Griol2014,kim2020}. In addition, using an automated system such
 
 Given the potential benefits that chatbots could bring to the classroom, the
 focus of the % EDUBOTS KA2 European project \footnote{https://www.edubots.eu},
-unnamed European project, the main sponsor of this study, is to explore best practices and innovative use of chatbots, 
+unnamed European project, the main sponsor of this study, is to explore the best practices and innovative use of chatbots, 
 and to create a learning community of educators in higher education institutions.
-\textcolor{blue}{Researchers and teachers participating in this project have developed several studies. Most of these works have been focused on how the 
+\textcolor{blue}{Researchers and teachers participating in this project have developed several studies. Most of these works are focused on how  
 messaging applications and/or chatbots are normally applied to deliver personalized learning in classrooms that occurs anytime anywhere,
 promote collaborative learning experiences, group discussions \cite{panah2020study} and boost students' sense of belonging to their institutions
 \cite{abbas2021onlinechat}.}
@@ -262,21 +262,21 @@ how they can positively contribute to enhancing the learning process in higher e
 
 In this study, data collection involved two phases:
  \begin{itemize}
-\item The first phase aimed to collect feedback from students about their actual
-  information about students’ preferences of tools/applications for chatting and
-  messaging, how they use them in educational context, who do they like to be
-  with in the class messaging groups, and their expectations of the chatbots in
-  terms of assisting them during their learning process. Therefore, two surveys
+\item The first phase aimed to collect feedback from students about their
+  students’ preferences of tools/applications for chatting and
+  messaging, how they use them in educational context, who they like to be
+  with in the class messaging groups, and their expectations of chatbots 
+  in assisting them during their learning process. Therefore, two surveys
   for bachelor and master degree students at the University of Granada (Spain)
   were designed and answers from more than 250 students were collected. The key
   findings of the students' surveys reveal that they prefer to use messaging
-  applications, such as Telegram or WhatsApp as they are familiar to
-  them. Students also expressed interest in chatbots that can assist them with
+  familiar applications, such as Telegram or WhatsApp. 
+  Students also expressed interest in chatbots that can assist them with
   organizing their course schedules, help them access their assignment grades
-  and facilitate searching for course's resources.
+  and facilitate searching for resources.
 \item The results of the first phase were fed into the second phase of the
   study, which focused on teachers’ opinions about using chatbots and messaging
-  applications in classes. This is what is going to be presented in this paper.
+  applications in classes. These results are the main focus of this paper.
 \end{itemize}
 
 Initially, a single survey was developed for this purpose and responses from 300
