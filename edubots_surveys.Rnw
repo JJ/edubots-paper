@@ -408,35 +408,35 @@ has analysed how the use of chatbots positively affected the learning outcomes
 of students in a Chinese class \cite{doi:10.1177/0735633120929622}.
 
 Despite its (arguably) successful implementation in different higher education
-institutions, over all in the fringes of educational activity, not in the actual
+institutions, particularly on the fringes of educational activity rather than actual
 student-teacher interaction, its implementation or deployment is not trivial.
-Some authors, for instance \cite{sjostrom2018designing} have proposed a
+Some authors, for instance \cite{sjostrom2018designing}, have proposed a
 conceptual architecture for the adoption of teaching-oriented chatbots in higher
 education.  This conceptual architecture is based on a systematic literature
-review of previous studies, examining the design of chatbots in higher
+review of previous studies examining the design of chatbots in higher
 education, as well as making a content analysis of student emails and discussion
-forum posts of four instances of a Java programming course.  The study outlined
+forum posts from four instances of a Java programming course.  The study outlined
 several design considerations; among them, the authors emphasized the importance
 of developing chatbots in platforms that students and educators are familiar
-with and can easily access (i.e. Facebook Messenger) which was confirmed with
-\cite{hobert2019you} and \cite{fernoagua2018intelligent} studies. In addition, \cite{sjostrom2018designing} argued that a
-conceptualization of learners' questions could aid designers in integrating the
-appropriate types of questions that the chatbots should support for different
-courses.  \textcolor{black}{Some other authors}, like \cite{coronado2018cognitive}, proposed agents that
-store learning materials to be provided on demand to students, whereas the
-authors in \cite{crockett2017predicting} reported on tutoring systems, which can
+with and can easily access (i.e. Facebook Messenger), which was confirmed by
+\cite{hobert2019you} and \cite{fernoagua2018intelligent}. In addition, \cite{sjostrom2018designing} argued that 
+conceptualizing learners' questions could help designers integrate the
+appropriate types of questions that chatbots should support for different
+courses. Other authors, such as \cite{coronado2018cognitive}, have proposed agents that
+store learning materials to be provided on demand to students, while \cite{crockett2017predicting} 
+reported on tutoring systems that can
 perform initial assessments of students' understanding and provide learning
-material that would advance their understanding to the next level.
+materials to advance their understanding to the next level.
 
 Regarding the factors for the adoption of chatbots in higher education, many
 studies have focused on the evaluation of technology acceptance and usability
 \cite{Roblyer2010,Pimmer2019}. However, higher education is a special domain
 where, according to \cite{hobert2019you}, specific pedagogical factors
 such as learning success and increased motivation are more important.  Therefore,
-to develop \textcolor{black}{effective chatbots for higher education, all stakeholders'
-(i.e. educators, students, institutions, etc) needs should be carefully
+to develop effective chatbots for higher education, the needs of all stakeholders
+(i.e. educators, students, institutions, etc) should be carefully
 collected and taken into consideration
-\cite{sjostrom2018designing,tsivitanidouusers}. These needs include, but are not limited to, student's learning success due to higher motivation, but these are a posteriori effects that cannot be assessed in advance; this is why we focus in this paper on what the teachers are looking for in a TAM  (Technology Acceptance Model) and associated technologies like chatbots; both authors focus on what the teachers need in terms of the latter; this paper will focus on a wider perspective trying to ascertain what they are looking for in terms of general messaging technology. The classical literature \cite{tam91} already proposes that any adoption of technology must be tuned in to the user needs and experience. In this paper we will try to find out what those are in order to propose a successful model of adoption of chatbot technology}.
+\cite{sjostrom2018designing,tsivitanidouusers}. These needs include, but are not limited to, student learning success due to higher motivation, but these are a posteriori effects that cannot be assessed in advance. This is why we focus in this paper on what  teachers are looking for in a Technology Acceptance Model (TAM) and associated technologies like chatbots. Both authors focus on what teachers need in terms of the latter; this paper will focus on a wider perspective, trying to determine what they are looking for in terms of general messaging technology. The classical literature \cite{tam91} already proposes that any adoption of technology must be tuned to the user needs and experience. In this paper, we will try to find out what those are in order to propose a successful model of adoption of chatbot technology.
 
 Along this line of research, our previous work \cite{MoraChatbots2021:anon}
 aimed at analyzing the expectations of students on this regard; recent papers
