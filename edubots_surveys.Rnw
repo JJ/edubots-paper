@@ -403,9 +403,9 @@ their students and the chatbot assists those who need further help by giving
 them more hints and reporting it to the educator's dashboard
 \cite{fernoagua2018intelligent}. This can help educators identify
 students who need more attention and provide them with more educational resources
-relevant to their academic achievement. In addition, a recent study
-has analysed how the use of chatbots positively affected the learning outcomes
-of students in a Chinese class \cite{doi:10.1177/0735633120929622}.
+relevant to their academic achievement. %In addition, a recent study
+%has analysed how the use of chatbots positively affected the learning outcomes
+%of students in a Chinese class \cite{doi:10.1177/0735633120929622}.
 
 Despite its (arguably) successful implementation in different higher education
 institutions, particularly on the fringes of educational activity rather than actual
@@ -438,30 +438,29 @@ to develop effective chatbots for higher education, the needs of all stakeholder
 collected and taken into consideration
 \cite{sjostrom2018designing,tsivitanidouusers}. These needs include, but are not limited to, student learning success due to higher motivation, but these are a posteriori effects that cannot be assessed in advance. This is why we focus in this paper on what  teachers are looking for in a Technology Acceptance Model (TAM) and associated technologies like chatbots. Both authors focus on what teachers need in terms of the latter; this paper will focus on a wider perspective, trying to determine what they are looking for in terms of general messaging technology. The classical literature \cite{tam91} already proposes that any adoption of technology must be tuned to the user needs and experience. In this paper, we will try to find out what those are in order to propose a successful model of adoption of chatbot technology.
 
-Along this line of research, our previous work \cite{MoraChatbots2021:anon}
-aimed at analyzing the expectations of students on this regard; recent papers
+In line with this research, our previous work \cite{MoraChatbots2021:anon}
+aimed at analyzing the expectations of students in this regard. Recent papers
 have also analysed how the use of chatbots affected the learning outcomes of
 students in a Chinese class \cite{doi:10.1177/0735633120929622}. This paper
-analysed conversational chatbots in an one-to-one setting, finding that learning
-really benefited from it. This is, once again, a proof of the benefit of
-chatbots in certain settings; however, there are some prior experiences, as well as needs, that might
+analysed conversational chatbots in a one-to-one setting, finding that learning
+truly benefited from it. This is, once again, an evidence of the benefit of
+chatbots in certain settings; however, there are some prior experiences, as well as needs, that may
 prevent the successful acceptance of the technology, and these are what we are
-trying to find out in this paper, together with what kind of features would improve
+trying to find out in this paper, alng with what kind of features would improve
 its acceptance.
 
-Besides, the present work is focused on the other key actor in this challenge,
-i.e. educators. \textcolor{black}{How they accepted chatbots} has been studied very recently by Chocarro et
+Besides, this work is focused on the other key actor in this challenge: 
+educators. How they accept chatbots has been studied very recently by Chocarro et
 al. \cite{doi:10.1080/03055698.2020.1850426}, who, by analyzing surveys, created
-a {\em technology acceptance model} that proposed a series of features that
-would make chatbots easier to accept; among them, formality of language as well
+a TAM that proposed a series of features that
+would make chatbots easier to accept, including formality of language as well
 as easiness and usefulness. The survey targeted primary and secondary education
-teachers, and was also more interested in the general use of chatbots in
+teachers and was also more interested in the general use of chatbots in
 education, not specifically in a classroom setting, seeking educational
-outcomes. However, they establish a series of results that are obviously
+outcomes. However, their results are obviously
 interesting and relevant for this work.
 
-We will present next the methodology we have followed to find out teachers'
-opinions.
+We will present next the methodology we followed to find out teachers' opinions.
 
 
 % ********************** METHODOLOGY ****************************
