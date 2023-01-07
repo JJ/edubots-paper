@@ -317,17 +317,17 @@ The widespread and rapid adoption of free Mobile Instant Messaging
 (MIM) tools/platforms such as WhatsApp, Telegram, WeChat and Facebook
 Messenger stems from their simplicity, ease of use and multi-modality
 (i.e. video, audio, text) \cite{tang2017mobile}. Using these tools in
-higher education can facilitate the delivery of personalized learning
-that occurs anytime anywhere, promote collaborative learning
+higher education facilitates the delivery of personalized learning
+that occurs anytime anywhere, and promotes collaborative learning
 experiences and group discussions \cite{panah2020study}.
 
 WhatsApp is, at least in most Western countries, the most popular MIM platform
-used by educators to \textcolor{black}{provide} assignments' feedback to students, support course
-discussions, and provide learning resources in informal learning settings
+used by educators to provide assignments' feedback to students, support course
+discussions, and contribute resources in informal learning settings
 \cite{panah2020study}.  Moreover, the use of WhatsApp in higher education could
 enhance social presence \cite{tang2017mobile} and foster trust relationships
 between educators and students embedded in the social learning process
-\cite{gachago2015crossing}; however, this last paper also reflects the need for
+\cite{gachago2015crossing}. However, this last paper also reflects the need for
 learners to "take ownership of the tool" and the advantages of social learning
 in general. At the same time, it also mentions different challenges, among which
 the most important is the blurring of social and academic life; indeed, there are challenges when using MIM tools that occur due to the
@@ -341,7 +341,7 @@ norms for these MIM groups in order to maintain the safety of these online
 communities for students \cite{abbas2021onlinechat}. However, these rules should
 not affect students' ownership and control, since it is vital to advance in
 their learning \cite{gachago2015crossing} process.  This is why examining the
-role of MIM in higher education is still a challenge, and why the opinions of
+role of MIM platforms in higher education is still a challenge, and why the opinions of
 the teaching community towards them have to be examined, as we do in this paper.
 
 % The Use of Chatbots in Higher Education
