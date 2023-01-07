@@ -266,12 +266,12 @@ In this study, data collection involved two phases:
 \item The first phase aimed to collect feedback from students about their
   students’ preferences of tools/applications for chatting and
   messaging, how they use them in educational context, who they like to be
-  with in the class messaging groups, and their expectations of chatbots 
+  with in the class messaging groups, and their expectations of chatbots
   in assisting them during their learning process. Therefore, two surveys
   for bachelor and master degree students at the University of Granada (Spain)
   were designed and answers from more than 250 students were collected. The key
   findings of the students' surveys reveal that they prefer to use messaging
-  familiar applications, such as Telegram or WhatsApp. 
+  familiar applications, such as Telegram or WhatsApp.
   Students also expressed interest in chatbots that can assist them with
   organizing their course schedules, help them access their assignment grades
   and facilitate searching for resources.
@@ -294,7 +294,7 @@ tools and its potential impact on educational institutions policies. In order to
 \item RQ4 - Which kind of interaction media features do teachers value the most?
 \end{itemize}
 
-We will try to answer these research questions through the analysis of the two aforementioned surveys. 
+We will try to answer these research questions through the analysis of the two aforementioned surveys.
 Eventually, what we want to obtain is a series of
 recommendations to make a successful deployment of chatbot technologies (and, in
 some cases, general instant messaging applications) in higher education; from the response to RQ1 and RQ4 we will try to recommend specific technologies or applications to be used in the classroom; the response to RQ2 and RQ3 will help us recommend chatbots features or specific platforms; and finally, from RQ3 we will also try to find best practices in the adoption of messaging platforms and they accompanying chatbots.
@@ -639,7 +639,7 @@ goes down to less than 50\% for teachers with 6-15 years of experience.
 <<gender_provided, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
 survey.pilot[as.character(survey.pilot$Gender)!="No", ] -> df1
 df1[as.character(df1$Gender)!="PNTS", ] -> df1
-ggplot(df1, aes(x = MessagingPlatformProvided, group = Gender)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male')))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
+ggplot(df1, aes(x = MessagingPlatformProvided, group = Gender)) + geom_bar(aes(y = after_stat(prop), fill = factor(after_stat(x))), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male')))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
 #+ facet_grid(~factor(Gender, levels=c('Female','Male','PNTS')))+ theme(axis.title.y=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/gender_provided.pdf}
@@ -648,14 +648,14 @@ ggplot(df1, aes(x = MessagingPlatformProvided, group = Gender)) + geom_bar(aes(y
     \centering
 <<experience_provided, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
 survey.pilot[as.character(survey.pilot$Experience)!="No", ] -> df1
-ggplot(df1, aes(x = MessagingPlatformProvided, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Experience, levels=c("0-05 years","06-15 years", "16-25 years", "> 25 years")))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
+ggplot(df1, aes(x = MessagingPlatformProvided, group = Experience)) + geom_bar(aes(y = after_stat(prop), fill = factor(after_stat(x))), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Experience, levels=c("0-05 years","06-15 years", "16-25 years", "> 25 years")))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/experience_provided.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.3\textwidth}
         \centering
 <<sector_provided, echo=FALSE, fig.width=10/2.54, fig.height=8.25/2.54>>=
-ggplot(survey.pilot, aes(x = MessagingPlatformProvided, group = Sector)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Sector)+ theme(axis.title.y=element_blank())+ theme(axis.title.x=element_blank())
+ggplot(survey.pilot, aes(x = MessagingPlatformProvided, group = Sector)) + geom_bar(aes(y = after_stat(prop), fill = factor(after_stat(x))), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Sector)+ theme(axis.title.y=element_blank())+ theme(axis.title.x=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/sector_provided.pdf}
     \end{minipage}
@@ -664,8 +664,7 @@ ggplot(survey.pilot, aes(x = MessagingPlatformProvided, group = Sector)) + geom_
         \centering
 <<discipline_provided, echo=FALSE, fig.width=18.6/2.54, fig.height=7.7/2.54>>=
 survey.pilot.Discipline[as.character(survey.pilot.Discipline$Discipline)!="Other", ] -> survey.pilot.Discipline
-ggplot(survey.pilot.Discipline, aes(x = MessagingPlatformProvided, group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + #facet_grid(~factor(Discipline, levels = c("Biomedicine", "Humanities", "Social Sciences", "Sciences", "Tech/Engineering", "Other")))+ theme(axis.title.y=element_blank())
-facet_grid(~factor(Discipline, levels = c("Biomedicine", "Humanities", "Social Sciences", "Sciences", "Tech/Engineering")))+ theme(axis.title.y=element_blank())+ theme(axis.title.x=element_blank())
+ggplot(survey.pilot.Discipline, aes(x = MessagingPlatformProvided, group = Discipline)) +  geom_bar(aes(y = after_stat(prop), fill = factor(after_stat(x))), stat="count", show.legend = FALSE) +  scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") +   facet_grid(~factor(Discipline, levels = c("Biomedicine", "Humanities", "Social Sciences", "Sciences", "Tech/Engineering"))) + theme(axis.title.y=element_blank(),axis.title.x=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/discipline_provided.pdf}
     \end{minipage}
@@ -681,7 +680,7 @@ facet_grid(~factor(Discipline, levels = c("Biomedicine", "Humanities", "Social S
 <<gender_whatsapp, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
 survey.pilot[as.character(survey.pilot$Gender)!="No", ] -> df1
 df1[as.character(df1$Gender)!="PNTS", ] -> df1
-ggplot(df1, aes(x = MessagingPlatformWhatsApp, group = Gender)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male')))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
+ggplot(df1, aes(x = MessagingPlatformWhatsApp, group = Gender)) + geom_bar(aes(y = after_stat(prop), fill = factor(after_stat(x))), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male')))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/gender_whatsapp.pdf}
     \end{minipage}
@@ -689,21 +688,21 @@ ggplot(df1, aes(x = MessagingPlatformWhatsApp, group = Gender)) + geom_bar(aes(y
     \centering
 <<experience_whatsapp, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
 survey.pilot[as.character(survey.pilot$Experience)!="No", ] -> df1
-ggplot(df1, aes(x = MessagingPlatformWhatsApp, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Experience, levels=c("0-05 years","06-15 years", "16-25 years", "> 25 years")))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
+ggplot(df1, aes(x = MessagingPlatformWhatsApp, group = Experience)) + geom_bar(aes(y = after_stat(prop), fill = factor(after_stat(x))), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Experience, levels=c("0-05 years","06-15 years", "16-25 years", "> 25 years")))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/experience_whatsapp.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.3\textwidth}
     \centering
 <<sector_whatsapp, echo=FALSE, fig.width=10/2.54, fig.height=8.25/2.54>>=
-ggplot(survey.pilot, aes(x = MessagingPlatformWhatsApp, group = Sector)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Sector)+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
+ggplot(survey.pilot, aes(x = MessagingPlatformWhatsApp, group = Sector)) + geom_bar(aes(y = after_stat(prop), fill = factor(after_stat(x))), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Sector)+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/sector_whatsapp.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.6\textwidth}
     \centering
 <<discipline_whatsapp, echo=FALSE, fig.width=18.6/2.54, fig.height=7.7/2.54>>=
-ggplot(survey.pilot.Discipline, aes(x = MessagingPlatformWhatsApp, group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels = c("Biomedicine", "Humanities", "Social Sciences", "Sciences", "Tech/Engineering")))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
+ggplot(survey.pilot.Discipline, aes(x = MessagingPlatformWhatsApp, group = Discipline)) + geom_bar(aes(y = after_stat(prop), fill = factor(after_stat(x))), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels = c("Biomedicine", "Humanities", "Social Sciences", "Sciences", "Tech/Engineering")))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/discipline_whatsapp.pdf}
     \end{minipage}
@@ -719,7 +718,7 @@ ggplot(survey.pilot.Discipline, aes(x = MessagingPlatformWhatsApp, group = Disci
 <<gender_telegram, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
 survey.pilot[as.character(survey.pilot$Gender)!="No", ] -> df1
 df1[as.character(df1$Gender)!="PNTS", ] -> df1
-ggplot(df1, aes(x = MessagingPlatformTelegram, group = Gender)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male')))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
+ggplot(df1, aes(x = MessagingPlatformTelegram, group = Gender)) + geom_bar(aes(y = after_stat(prop), fill = factor(after_stat(x))), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male')))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/gender_telegram.pdf}
     \end{minipage}
@@ -727,21 +726,21 @@ ggplot(df1, aes(x = MessagingPlatformTelegram, group = Gender)) + geom_bar(aes(y
     \centering
 <<experience_telegram, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
 survey.pilot[as.character(survey.pilot$Experience)!="No", ] -> df1
-ggplot(df1, aes(x = MessagingPlatformTelegram, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Experience, levels=c("0-05 years","06-15 years", "16-25 years", "> 25 years")))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
+ggplot(df1, aes(x = MessagingPlatformTelegram, group = Experience)) + geom_bar(aes(y = after_stat(prop), fill = factor(after_stat(x))), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Experience, levels=c("0-05 years","06-15 years", "16-25 years", "> 25 years")))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/experience_telegram.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.3\textwidth}
     \centering
 <<sector_telegram, echo=FALSE, fig.width=10/2.54, fig.height=8.25/2.54>>=
-ggplot(survey.pilot, aes(x = MessagingPlatformTelegram, group = Sector)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Sector)+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
+ggplot(survey.pilot, aes(x = MessagingPlatformTelegram, group = Sector)) + geom_bar(aes(y = after_stat(prop), fill = factor(after_stat(x))), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Sector)+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/sector_telegram.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.6\textwidth}
     \centering
 <<discipline_telegram, echo=FALSE, fig.width=18.6/2.54, fig.height=7.7/2.54>>=
-ggplot(survey.pilot.Discipline, aes(x = MessagingPlatformTelegram, group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels = c("Biomedicine", "Humanities", "Social Sciences", "Sciences", "Tech/Engineering")))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
+ggplot(survey.pilot.Discipline, aes(x = MessagingPlatformTelegram, group = Discipline)) + geom_bar(aes(y = after_stat(prop), fill = factor(after_stat(x))), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels = c("Biomedicine", "Humanities", "Social Sciences", "Sciences", "Tech/Engineering")))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/discipline_telegram.pdf}
     \end{minipage}
@@ -774,7 +773,7 @@ for the first time in their classes. % Aggregating the answers, currently 91\% o
         \centering
 <<gender_covid, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
 survey.pilot.postCOVID <- within(survey.pilot.postCOVID, PostCOVID.changes <- factor(PostCOVID.changes, levels=names(sort(table(PostCOVID.changes), decreasing=TRUE))))
-ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Gender, fill = Gender ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90), size=7) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = after_stat(count), group=Gender, fill = Gender ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90), size=7) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/gender_covid.pdf}
         \vspace{-0.5cm}
@@ -784,7 +783,7 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
     \begin{minipage}[t]{0.80\textwidth}
         \centering
 <<sector_covid, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
-ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = after_stat(count), group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/sector_covid.pdf}
         \vspace{-0.5cm}
@@ -794,7 +793,7 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
     \begin{minipage}[t]{0.80\textwidth}
         \centering
 <<experience_covid, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
-ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Experience, fill = Experience ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = after_stat(count), group=Experience, fill = Experience ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/experience_covid.pdf}
         \vspace{-0.5cm}
@@ -808,7 +807,7 @@ survey.pilot.postCOVID %>%
   mutate(Discipline = ifelse(as.character(Discipline) == "Engineering", "Tech/Engineering", as.character(Discipline))) %>%
   mutate(Discipline = ifelse(as.character(Discipline) == "Technology", "Tech/Engineering", as.character(Discipline)))->survey.pilot.postCOVID
 survey.pilot.postCOVID[as.character(survey.pilot.postCOVID$Discipline)!="No", ] -> survey.pilot.postCOVID
-ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Discipline, fill = Discipline ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = after_stat(count), group=Discipline, fill = Discipline ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/sector_covid.pdf}
         \vspace{-0.5cm}
@@ -1161,7 +1160,7 @@ total number of people that answered.
 survey.pilot.ChatbotType <- within(survey.pilot.ChatbotType, ChatbotType <- factor(ChatbotType, levels=names(sort(table(ChatbotType), decreasing=TRUE))))
 survey.pilot.ChatbotType[as.character(survey.pilot.ChatbotType$ChatbotType)!="OtherBot", ] -> survey.pilot.ChatbotType
 #survey.pilot.ChatbotType[as.character(survey.pilot.ChatbotType$Gender)!="PNTS", ] -> survey.pilot.ChatbotType
-ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Gender, fill = Gender ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = after_stat(count), group=Gender, fill = Gender ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/gender_chatbottype.pdf}
         \vspace{-0.5cm}
@@ -1171,7 +1170,7 @@ ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Gend
     \begin{minipage}[t]{0.85\textwidth}
         \centering
 <<sector_chatbottype, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
-ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = after_stat(count), group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/sector_chatbottype.pdf}
         \vspace{-0.5cm}
@@ -1181,7 +1180,7 @@ ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Sect
     \begin{minipage}[t]{0.85\textwidth}
         \centering
 <<experience_chatbottype, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
-ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Experience, fill = Experience ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = after_stat(count), group=Experience, fill = Experience ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/experience_chatbottype.pdf}
         \vspace{-0.5cm}
@@ -1195,7 +1194,7 @@ survey.pilot.ChatbotType %>%
   mutate(Discipline = ifelse(as.character(Discipline) == "Engineering", "Tech/Engineering", as.character(Discipline))) %>%
   mutate(Discipline = ifelse(as.character(Discipline) == "Technology", "Tech/Engineering", as.character(Discipline)))->survey.pilot.ChatbotType
 survey.pilot.ChatbotType[as.character(survey.pilot.ChatbotType$Discipline)!="No", ] -> survey.pilot.ChatbotType
-ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Discipline, fill = Discipline ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
+ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = after_stat(count), group=Discipline, fill = Discipline ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/experience_chatbottype.pdf}
         \vspace{-0.5cm}
@@ -1226,7 +1225,7 @@ df2 %>%mutate(Messaging.Organization = ifelse(as.character(Messaging.Organizatio
   mutate(Messaging.Organization = ifelse(as.character(Messaging.Organization) == "A chat with all students and teachers in the same semester/year", "Chat interactions among students of the same study year and teachers", as.character(Messaging.Organization)))->df2
 
 df2 <- within(df2, Messaging.Organization <- factor(Messaging.Organization, levels=names(sort(table(Messaging.Organization), decreasing=TRUE))))
-ggplot(df2, aes( x = Messaging.Organization, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90))+coord_flip()+ theme(axis.title.y=element_blank())
+ggplot(df2, aes( x = Messaging.Organization, y = after_stat(count), group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90))+coord_flip()+ theme(axis.title.y=element_blank())
 @
 %\includegraphics[width=\textwidth]{figures/messaging_organization.pdf}
 \caption{Distribution of teachers' preferences for the chat groups with their students: from groups only with their students from a specific course to groups with greater social interaction with all students in their School or Faculty.}
@@ -1319,28 +1318,28 @@ for the low percentage of teachers that selected this response.
         \centering
 <<gender_synch, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
 survey.interaction[as.character(survey.interaction$Gender)!="PNTS", ] -> survey.interaction
-ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Gender)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male','PNTS'))) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
+ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Gender)) + geom_bar(aes(y = after_stat(prop), fill = factor(after_stat(x))), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Gender, levels=c('Female','Male','PNTS'))) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/gender_synch.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.3\textwidth}
         \centering
 <<experience_sync, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
-ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Experience, levels=c("0-05 years","06-15 years", "16-25 years", "> 25 years"))) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
+ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Experience)) + geom_bar(aes(y = after_stat(prop), fill = factor(after_stat(x))), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Experience, levels=c("0-05 years","06-15 years", "16-25 years", "> 25 years"))) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/experience_synch.pdf}
     \end{minipage}
 %    \begin{minipage}[t]{0.3\textwidth}
 %        \centering
 %<<sector_synch, echo=FALSE, fig.width=10/2.54, fig.height=8.25/2.54>>=
-%ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Sector)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
+%ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Sector)) + geom_bar(aes(y = after_stat(prop), fill = factor(after_stat(x))), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
 %@
 %       \includegraphics[width=\textwidth]{figures/sector_synch.pdf}
 %    \end{minipage}
     \begin{minipage}[t]{0.6\textwidth}
         \centering
 <<discipline_synch, echo=FALSE, fig.width=18.6/2.54, fig.height=7.7/2.54>>=
-ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Discipline)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels=c('Biomedicine','Humanities','Social Sciences', "Sciences", "Tech/Engineering"))) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
+ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Discipline)) + geom_bar(aes(y = after_stat(prop), fill = factor(after_stat(x))), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Discipline, levels=c('Biomedicine','Humanities','Social Sciences', "Sciences", "Tech/Engineering"))) + theme(axis.title.y=element_blank(), axis.title.x=element_blank())
 @
 %       \includegraphics[width=\textwidth]{figures/discipline_synch.pdf}
     \end{minipage}
