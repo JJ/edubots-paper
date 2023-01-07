@@ -84,7 +84,7 @@
 %   addressref={aff4},
 %   email={o.tsivitanidou@cyens.org.cy}
 % ]{\inits{OT}\fnm{Olia} \snm{Tsivitanidou}}
-% 
+%
 % \address[id=aff1]{%
 %   \orgdiv{Department of Computer Architecture and Technology},
 %   \orgname{University of Granada},
@@ -129,7 +129,7 @@ Messaging platforms are applications, generally mediated by an app, desktop prog
 experiences and perceptions through a survey that we validated with peers, and what they think these tools should make or serve so that it enhances students learning and helps them achieve their learning objectives. The survey has been distributed among tertiary education teachers, both in universitary and other kind of tertiary establishments, based in
 Spain (mainly) and Spanish-speaking countries. We have focused on collecting
 teachers' preferences and opinions on the introduction of messaging platforms in their day-to-day work, as well as other services attached to them, such as  chatbots. What we intend with this survey is to understand their needs and to gather
-information about the various educational use cases where these tools could be 
+information about the various educational use cases where these tools could be
 valuable. In addition, an analysis of how and when teachers’ opinions towards
 the use of these tools varies across gender, experience, and their discipline
 of specialization is presented. The key findings of this study highlight the
@@ -227,42 +227,41 @@ freq.Discipline %>% mutate(Discipline = ifelse(as.character(Discipline) == "No",
 
 \section{Introduction}
 
-\textcolor{blue}{New technologies are being introduced and widely adopted into the classroom in the last years. However, in order to be successful, their application 
-will require (many) extra work and training for the teacher, as well as for the students. Thus, both of them will acquire new skills and, potentially, pupils will 
+New technologies are being introduced and widely adopted into the classroom in the last years. However, in order to be successful, their application
+will require (many) extra work and training for the teacher, as well as for the students. Thus, both of them will acquire new skills and, potentially, pupils will
 get a higher engagement to the subject, which is usually the main objective. Even if several technologies are already in use inside the classroom, there is still room for adopting others.
-Anyway, this adoption strongly depends on the compromise and capabilities of the teachers, as main active actors in this new academic approach. Given this, 
-asking and analyzing user's opinions with regard to this scenario will help reaping the expected benefits of the technology}.
+Anyway, this adoption strongly depends on the compromise and capabilities of the teachers, as main active actors in this new academic approach. Given this,
+asking and analyzing user's opinions with regard to this scenario will help reaping the expected benefits of the technology.
 
-\textcolor{blue}{In the last years, messaging applications such as WhatsApp or Telegram are being used in teaching scenarios mainly at secondary and higher education.
+In the last years, messaging applications such as WhatsApp or Telegram are being used in teaching scenarios mainly at secondary and higher education.
 In addition to their main use, some of these tools offer the possibility of interact with \textit{chatbots} (or just bots), even supporting synchronous conversation between the different
-parties \cite{differ.chat}. There is also possible to create a standalone chatbot application and attach it to a messaging tool through an API (Application Program Interface).}
+parties \cite{differ.chat}. There is also possible to create a standalone chatbot application and attach it to a messaging tool through an API (Application Program Interface).
 
-
-\textcolor{blue}{\textit{Chatbots} are autonomous agents able to communicate and interact with humans (or other chatbots) in a human-like way \cite{Gong2008}, answering question and even posing their own ones to the user. 
+\textit{Chatbots} are autonomous agents able to communicate and interact with humans (or other chatbots) in a human-like way \cite{Gong2008}, answering question and even posing their own ones to the user.
 Thus, we can say that they are close to passing a Turing Test \cite{moor2003turing}. They are implemented by means of different Artificial Intelligence techniques, such as natural language processing.
-Inside the plethora of possible applications of chatbots, education is one of the most prolific nowadays \cite{clarizia2018,Smutny2020}. In this domain, they facilitate the so-called 
-\textit{personalized learning}, i.e. they adapt themselves to students’ pace of learning and provide online tutoring outside the classroom, which have been proved to be very effective increasing their 
-engagement and participation in the subjects \cite{agarwal2020}. Moreover chatbots' tutoring possibilities aid to reduce the stress of students \cite{Daniel2016,agarwal2020} by avoiding the face-to-face tutoring with their teacher, 
-or asking questions in front of the class. This situation normally conducts to a silence of the student and a later contact with the teacher by e-mail, which, in turn, will mean a workload for the teacher, that could be very 
-significant given the existing disproportion between number of students per each teacher.  
-}
+Inside the plethora of possible applications of chatbots, education is one of the most prolific nowadays \cite{clarizia2018,Smutny2020}. In this domain, they facilitate the so-called
+\textit{personalized learning}, i.e. they adapt themselves to students’ pace of learning and provide online tutoring outside the classroom, which have been proved to be very effective increasing their
+engagement and participation in the subjects \cite{agarwal2020}. Moreover chatbots' tutoring possibilities aid to reduce the stress of students \cite{Daniel2016,agarwal2020} by avoiding the face-to-face tutoring with their teacher,
+or asking questions in front of the class. This situation normally conducts to a silence of the student and a later contact with the teacher by e-mail, which, in turn, will mean a workload for the teacher, that could be very
+significant given the existing disproportion between number of students per each teacher.
+
 Hence, the chatbot technology has a potential to mitigate this problem by providing answers to students’ questions and facilitating a dynamic and autonomous learning
 experience \cite{Griol2014,kim2020}. In addition, using an automated system such as a chatbot, can draw teachers’ attention to topics that students struggle to comprehend or need further assistance in understanding.
 
 Given the potential benefits that chatbots could bring to the classroom, the
 focus of the % EDUBOTS KA2 European project \footnote{https://www.edubots.eu},
-unnamed European project, the main sponsor of this study, is to explore best practices and innovative use of chatbots, 
+unnamed European project, the main sponsor of this study, is to explore best practices and innovative use of chatbots,
 and to create a learning community of educators in higher education institutions.
-\textcolor{blue}{Researchers and teachers participating in this project have developed several studies. Most of these works have been focused on how the 
+Researchers and teachers participating in this project have developed several studies. Most of these works have been focused on how the
 messaging applications and/or chatbots are normally applied to deliver personalized learning in classrooms that occurs anytime anywhere,
 promote collaborative learning experiences, group discussions \cite{panah2020study} and boost students' sense of belonging to their institutions
-\cite{abbas2021onlinechat}.}
-\textcolor{blue}{The majority of these studies were conducted focusing on the teachers' perspectives, so this paper aims to provide more conclusions regarding 
+\cite{abbas2021onlinechat}.
+The majority of these studies were conducted focusing on the teachers' perspectives, so this paper aims to provide more conclusions regarding
 their opinions and needs, as well as the existing challenges or opportunities that arise when adopting these technologies in classrooms. This will lead to clarify
-how they can positively contribute to enhancing the learning process in higher education institutions.}
+how they can positively contribute to enhancing the learning process in higher education institutions.
 
 In this study, data collection involved two phases:
- \begin{itemize}
+\begin{itemize}
 \item The first phase aimed to collect feedback from students about their actual
   information about students’ preferences of tools/applications for chatting and
   messaging, how they use them in educational context, who do they like to be
@@ -297,11 +296,11 @@ tools and its potential impact on educational institutions’ policies. In order
 We will try to answer these questions through the analysis of questions and
 answers in the two aforementioned surveys. Eventually, what we want to obtain is a series of
 recommendations to make a successful deployment of chatbot technologies (and, in
-some cases, general instant messaging applications) in higher education\textcolor{black}{; from the response to RQ1 and RQ4 we will try to recommend specific technologies or applications to be used in the classroom; the response to RQ2 and RQ3 will help us recommend chatbots features or specific platforms; and finally, from RQ3 we will also try to find best practices in the adoption of messaging platforms and they accompanying chatbots.}
+some cases, general instant messaging applications) in higher education; from the response to RQ1 and RQ4 we will try to recommend specific technologies or applications to be used in the classroom; the response to RQ2 and RQ3 will help us recommend chatbots features or specific platforms; and finally, from RQ3 we will also try to find best practices in the adoption of messaging platforms and they accompanying chatbots.
 
-The remainder of the paper is organized as follows: \textcolor{black}{first, an overview of what
+The remainder of the paper is organized as follows: first, an overview of what
 current research has found about the use of messaging applications, including
-chatbots, in the classroom is described}. The methodology used in the surveys is presented in
+chatbots, in the classroom is described. The methodology used in the surveys is presented in
 Section \ref{sec:meth}, and the results of the surveys are presented next in
 Section \ref{sec:res}. Finally, we discuss these results and conclude with a
 series of recommendations in the section that closes the paper.
@@ -485,7 +484,7 @@ university and the other for teachers in tertiary education institutions, outsid
 responses were the same, except for the type of tertiary degrees that
 were considered.}
 
-\textcolor{black}{This survey was piloted by the authors of the paper and their colleagues before using it in the 
+\textcolor{black}{This survey was piloted by the authors of the paper and their colleagues before using it in the
 study.  All the comments collected from this trial were incorporated in the survey.
 We mainly used mailing lists, as well as Telegram groups,
 to post the survey link to reach out to more educators. The university form was sent to Spanish
@@ -514,12 +513,12 @@ A total of 205 teachers responded to the second survey: 187 graduate teachers (9
 \subsection{Survey validation}
 
 To avoid any bias and to be sure about the quality of the questionnaire, a panel board was consulted. There were three questions for each of the items of the questionnaire which were: Clarity, Importance, Adequateness.
-Clarity was measured as an answer to the question: Is the item well presented and without ambiguity? \footnote{Original text: ¿El ítem está bien redactado y sin ambigüedad?} with two choices: Yes or No. 
+Clarity was measured as an answer to the question: Is the item well presented and without ambiguity? \footnote{Original text: ¿El ítem está bien redactado y sin ambigüedad?} with two choices: Yes or No.
 Both Importance and Adequateness were measured in a Likert scale from 1 to 4 (1 low, 4 high).
 
 The panel board was composed by 7 volunteer experts that have wide experience as educators and researchers. The results obtained are summarized in Table \ref{tab:validation}.
 
-As validation shows, all expert agree without any doubt about the clarity of each question. Furthermore, there is a large consensus regarding the Importance and Adequateness of all the eight questions in the questionnaire. 
+As validation shows, all expert agree without any doubt about the clarity of each question. Furthermore, there is a large consensus regarding the Importance and Adequateness of all the eight questions in the questionnaire.
 
 \begin{table}
 \begin{tabular}{|c|ccc|}
@@ -592,7 +591,7 @@ class.
 \begin{table}[h!tbp]
 \begin{tabular}{lllll}
 \hline
-\multicolumn{1}{c}{Messaging App} & \multicolumn{2}{c}{Yes} & \multicolumn{2}{l}{No} \\ \cline{2-5} 
+\multicolumn{1}{c}{Messaging App} & \multicolumn{2}{c}{Yes} & \multicolumn{2}{l}{No} \\ \cline{2-5}
 \multicolumn{1}{c}{} & \multicolumn{1}{c}{Frequency} & \multicolumn{1}{c}{\%} & Frequency & \multicolumn{1}{c}{\%} \\ \hline
 Telegram & 62 & 22.0 & 220 & 78.0 \\
 WhatsApp & 124 & 44.0 & 158 & 56.0 \\
@@ -614,7 +613,7 @@ teachers from University and vocational education. In general, most teachers
 prefer messaging apps provided by their own institutions (we also show the
 results for the two most popular messaging app platforms: WhatsApp and
 Telegram). With respect to specific disciplines, Engineering and Technology
-teachers are more active in their use, but the number of teachers from Humanities 
+teachers are more active in their use, but the number of teachers from Humanities
 who answered they used these apps in their classes is also remarkable
 (around 60\% use the apps provided by their institutions).
 
@@ -623,7 +622,7 @@ answered they use instant messaging apps more than male teachers (about 10\%
 more). Also, teachers in vocational Education use WhatsApp more than university
 teachers. Regarding the distribution of the use of messaging apps per age, there
 are no significant differences for WhatsApp and apps provided by their own
-academic institutions. % Olia requests support for this. 
+academic institutions. % Olia requests support for this.
 However, younger teachers also use Telegram with more than 25\% responding they do, a percentage
 that falls to about 10\% for teachers that are 55 or older. %The third column
                                 %compares the use of these apps considering the
@@ -649,14 +648,14 @@ ggplot(df1, aes(x = MessagingPlatformProvided, group = Gender)) + geom_bar(aes(y
 <<experience_provided, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
 survey.pilot[as.character(survey.pilot$Experience)!="No", ] -> df1
 ggplot(df1, aes(x = MessagingPlatformProvided, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Experience, levels=c("0-05 years","06-15 years", "16-25 years", "> 25 years")))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
-@       
+@
 %       \includegraphics[width=\textwidth]{figures/experience_provided.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.3\textwidth}
         \centering
 <<sector_provided, echo=FALSE, fig.width=10/2.54, fig.height=8.25/2.54>>=
 ggplot(survey.pilot, aes(x = MessagingPlatformProvided, group = Sector)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Sector)+ theme(axis.title.y=element_blank())+ theme(axis.title.x=element_blank())
-@       
+@
 %       \includegraphics[width=\textwidth]{figures/sector_provided.pdf}
     \end{minipage}
     %
@@ -690,14 +689,14 @@ ggplot(df1, aes(x = MessagingPlatformWhatsApp, group = Gender)) + geom_bar(aes(y
 <<experience_whatsapp, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
 survey.pilot[as.character(survey.pilot$Experience)!="No", ] -> df1
 ggplot(df1, aes(x = MessagingPlatformWhatsApp, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Experience, levels=c("0-05 years","06-15 years", "16-25 years", "> 25 years")))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
-@       
+@
 %       \includegraphics[width=\textwidth]{figures/experience_whatsapp.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.3\textwidth}
     \centering
 <<sector_whatsapp, echo=FALSE, fig.width=10/2.54, fig.height=8.25/2.54>>=
 ggplot(survey.pilot, aes(x = MessagingPlatformWhatsApp, group = Sector)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Sector)+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
-@       
+@
 %       \includegraphics[width=\textwidth]{figures/sector_whatsapp.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.6\textwidth}
@@ -728,14 +727,14 @@ ggplot(df1, aes(x = MessagingPlatformTelegram, group = Gender)) + geom_bar(aes(y
 <<experience_telegram, echo=FALSE, fig.width=10/2.54, fig.height=7/2.54>>=
 survey.pilot[as.character(survey.pilot$Experience)!="No", ] -> df1
 ggplot(df1, aes(x = MessagingPlatformTelegram, group = Experience)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~factor(Experience, levels=c("0-05 years","06-15 years", "16-25 years", "> 25 years")))+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
-@       
+@
 %       \includegraphics[width=\textwidth]{figures/experience_telegram.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.3\textwidth}
     \centering
 <<sector_telegram, echo=FALSE, fig.width=10/2.54, fig.height=8.25/2.54>>=
 ggplot(survey.pilot, aes(x = MessagingPlatformTelegram, group = Sector)) + geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + scale_y_continuous(labels=scales::percent) + ylab("relative frequencies") + facet_grid(~Sector)+ theme(axis.title.y=element_blank()) + theme(axis.title.x=element_blank())
-@       
+@
 %       \includegraphics[width=\textwidth]{figures/sector_telegram.pdf}
     \end{minipage}
     \begin{minipage}[t]{0.6\textwidth}
@@ -795,7 +794,7 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
         \centering
 <<experience_covid, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
 ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Experience, fill = Experience ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
-@       
+@
 %       \includegraphics[width=\textwidth]{figures/experience_covid.pdf}
         \vspace{-0.5cm}
         \caption{Total count of responses for the use of messaging apps after the COVID-19 pandemic grouped by years of experience in teaching.}
@@ -805,7 +804,7 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
         \centering
 <<discipline_covid, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
 survey.pilot.postCOVID %>%
-  mutate(Discipline = ifelse(as.character(Discipline) == "Engineering", "Tech/Engineering", as.character(Discipline))) %>% 
+  mutate(Discipline = ifelse(as.character(Discipline) == "Engineering", "Tech/Engineering", as.character(Discipline))) %>%
   mutate(Discipline = ifelse(as.character(Discipline) == "Technology", "Tech/Engineering", as.character(Discipline)))->survey.pilot.postCOVID
 survey.pilot.postCOVID[as.character(survey.pilot.postCOVID$Discipline)!="No", ] -> survey.pilot.postCOVID
 ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=Discipline, fill = Discipline ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
@@ -817,15 +816,15 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
     \end{minipage}
 \end{center}
     % Have different sub-captions so that we can refer to specific subfigures - Olia
-\end{figure} 
+\end{figure}
 
 A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. The frequencies cross tabulated are given in Table \ref{tab:sector*covid}. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational).
 %
 \begin{table}[h!tbp]
 \begin{tabular}{llccc}
 \hline
- & \multicolumn{1}{c}{} & \multicolumn{2}{c}{Sector} & Total \\ \cline{3-5} 
- & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}University \\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Vocational\\ (f)\end{tabular} &  \\ \cline{2-5} 
+ & \multicolumn{1}{c}{} & \multicolumn{2}{c}{Sector} & Total \\ \cline{3-5}
+ & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}University \\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Vocational\\ (f)\end{tabular} &  \\ \cline{2-5}
 \multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Post-covid\\ changes\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Yes, I use a safer messaging \\ app now\end{tabular} & 27 & 13 & 40 \\
  & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use any \\ messaging app before, but \\ do use it now\end{tabular} & 31 & 13 & 44 \\
  & \begin{tabular}[c]{@{}l@{}}No, I did use it before and \\ use it now\end{tabular} & 105 & 60 & 165 \\
@@ -842,8 +841,8 @@ The majority of the teachers (n=165) mentioned that no changes in their habits o
 \begin{table}[h!tbp]
 \begin{tabular}{llcccc}
 \hline
- & \multicolumn{1}{c}{} & \multicolumn{3}{c}{Gender} & Total \\ \cline{3-6} 
- & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}Male \\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Female\\ (f)\end{tabular} &  \begin{tabular}[c]{@{}c@{}}PNTS\\ (f)\end{tabular} & \\ \cline{2-6} 
+ & \multicolumn{1}{c}{} & \multicolumn{3}{c}{Gender} & Total \\ \cline{3-6}
+ & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}Male \\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Female\\ (f)\end{tabular} &  \begin{tabular}[c]{@{}c@{}}PNTS\\ (f)\end{tabular} & \\ \cline{2-6}
 \multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Post-covid\\ changes\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Yes, I use a safer messaging \\ app now\end{tabular} & 20 & 20 & 0 & 40 \\
  & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use any \\ messaging app before, but \\ do use it now\end{tabular} & 20 & 23 & 1 & 44 \\
  & \begin{tabular}[c]{@{}l@{}}No, I did use it before and \\ use it now\end{tabular} & 114 & 47 & 4 & 165 \\
@@ -861,8 +860,8 @@ Total &  & 179 & 98 & 5 & 282 \\ \hline
 \resizebox{\textwidth}{!}{
 \begin{tabular}{llcccccccc}
 \hline
- & \multicolumn{1}{c}{} & \multicolumn{7}{c}{Disciplines} & Total \\ \cline{3-10} 
- & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}Engi- \\ neering(f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Social \\ Sciences (f)\end{tabular} &  \begin{tabular}[c]{@{}c@{}}Sciences\\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Bio-\\ medicine (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Human-\\ ities(f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Technol-\\ ogy(f)\end{tabular} &  \begin{tabular}[c]{@{}c@{}}Other\\ (f)\end{tabular} & \\ \cline{2-10} 
+ & \multicolumn{1}{c}{} & \multicolumn{7}{c}{Disciplines} & Total \\ \cline{3-10}
+ & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}Engi- \\ neering(f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Social \\ Sciences (f)\end{tabular} &  \begin{tabular}[c]{@{}c@{}}Sciences\\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Bio-\\ medicine (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Human-\\ ities(f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Technol-\\ ogy(f)\end{tabular} &  \begin{tabular}[c]{@{}c@{}}Other\\ (f)\end{tabular} & \\ \cline{2-10}
 \multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Post-covid\\ changes\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Yes, I use a safer \\ messaging app now\end{tabular} & 7 & 11 & 5 & 5 & 1 & 10 & 1 & 40 \\
  & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use any \\ messaging app before, \\ but do use it now\end{tabular} & 13 & 12 & 5 &  4 &  2 &  7 & 1 & 44 \\
  & \begin{tabular}[c]{@{}l@{}}No, I did use it before \\ and use it now\end{tabular} &60 &  26 &  20 &  4 & 0 & 53 &  2 &  165\\
@@ -886,7 +885,7 @@ Total & & 99 &  53&  32&  16&  5&  72&  5&  282\\ \hline
 %	    \centering
 % 	    \includegraphics[width=\textwidth]{figures/discipline_whatsapp.pdf}
 %    \end{minipage}
-%    
+%
 %    \vspace{2mm}
 %    \begin{minipage}[t]{0.30\textwidth}
 %	    \centering
@@ -899,9 +898,9 @@ Total & & 99 &  53&  32&  16&  5&  72&  5&  282\\ \hline
 %\end{center}
 %    \caption{Differences in the use of chatbots in class between vocational and university teaching and distributions by discipline.}
 %\label{figure:chatbots_use_sector_discip}
-%\end{figure} 
+%\end{figure}
 %
-%A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. The frequencies cross tabulated are given in Table \ref{tab:sector*covid}. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational). 
+%A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. The frequencies cross tabulated are given in Table \ref{tab:sector*covid}. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational).
 %The relationships between changes in the use of messaging apps, due to the covid-19 pandemic, and the instructors’ discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, $p= 0.039$ were also significant.
 
 % Olia - TODO: check for repetitions in the following paragraph that you added. thank you.
@@ -948,9 +947,9 @@ corrplot(chisq$residuals, is.corr = FALSE)
     \resizebox{\textwidth}{!}{%
 \begin{tabular}{llllll}
 \hline
- &  & \multicolumn{4}{c}{Gender} \\ \cline{3-6} 
- &  & \multicolumn{2}{c}{Female} & \multicolumn{2}{c}{Male} \\ \cline{3-6} 
- &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} \\ \cline{2-6} 
+ &  & \multicolumn{4}{c}{Gender} \\ \cline{3-6}
+ &  & \multicolumn{2}{c}{Female} & \multicolumn{2}{c}{Male} \\ \cline{3-6}
+ &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} \\ \cline{2-6}
 \begin{tabular}[c]{@{}l@{}}Post-\\ covid\\ changes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Yes, I use a \\ safer messaging \\ app now\end{tabular} & 1.832 & 13.49\% & -1.832 & 7.50\% \\
  & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use \\ any messaging \\ app before, but\\ do use it now\end{tabular} & \textbf{2.806} & \textbf{31.21\%} & \textbf{-2.806} & \textbf{17.36\%} \\
  & \begin{tabular}[c]{@{}l@{}}No, I did use it \\ before and\\ use it now\end{tabular} & \textbf{2.850} & 15.15\% & \textbf{-2.850} & 8.43\% \\
@@ -959,9 +958,9 @@ corrplot(chisq$residuals, is.corr = FALSE)
     %\begin{tabular}{l|r|r|r|r|}
     %\cline{2-5}
     %                             & Did/Do & Didn't/Do & Safer  & Didn' t/Don't \\ \hline
-    %\multicolumn{1}{|l|}{Female} & \textbf{-2.850} & \textbf{2.806} & 1.832  & -1.011 \\ 
+    %\multicolumn{1}{|l|}{Female} & \textbf{-2.850} & \textbf{2.806} & 1.832  & -1.011 \\
     %\multicolumn{1}{|l|}{} & 15.15\% & \textbf{31.21\%} &  13.49\% & 4.40\% \\ \hline
-    %\multicolumn{1}{|l|}{Male}   & \textbf{2.850} & \textbf{-2.806} & -1.832 & 1.011 \\ 
+    %\multicolumn{1}{|l|}{Male}   & \textbf{2.850} & \textbf{-2.806} & -1.832 & 1.011 \\
     %\multicolumn{1}{|l|}{} &  8.43\% &  \textbf{17.36\%} & 7.50\% &  2.45\% \\ \hline
     %\end{tabular}%
     }
@@ -1011,16 +1010,16 @@ corrplot(chisq$residuals, is.corr = FALSE)
     %\begin{tabular}{l|r|r|r|r|}
     %\cline{2-5}
     %                             & Did/Do & Didn't/Do & Safer  & Didn' t/Don't \\ \hline
-    %\multicolumn{1}{|l|}{University} & \textbf{-2.122} & 0.454 & 0.115  &  \textbf{2.939}\\ 
+    %\multicolumn{1}{|l|}{University} & \textbf{-2.122} & 0.454 & 0.115  &  \textbf{2.939}\\
     %\multicolumn{1}{|l|}{} & 5.71\% & 0.56\% & 0.04\%  &  \textbf{25.26\%}\\ \hline
-    %\multicolumn{1}{|l|}{Vocational} & \textbf{2.122} & -0.454 & -0.115 & \textbf{-2.939}\\ 
+    %\multicolumn{1}{|l|}{Vocational} & \textbf{2.122} & -0.454 & -0.115 & \textbf{-2.939}\\
     %\multicolumn{1}{|l|}{} & 12.38\% & 1.21\% & 0.08\% & \textbf{54.78\%}\\ \hline
     %\end{tabular}%
     \begin{tabular}{llllll}
           \hline
-           &  & \multicolumn{4}{c}{Sector} \\ \cline{3-6} 
-           &  & \multicolumn{2}{c}{University} & \multicolumn{2}{c}{Vocational} \\ \cline{3-6} 
-           &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} \\ \cline{2-6} 
+           &  & \multicolumn{4}{c}{Sector} \\ \cline{3-6}
+           &  & \multicolumn{2}{c}{University} & \multicolumn{2}{c}{Vocational} \\ \cline{3-6}
+           &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} \\ \cline{2-6}
           \begin{tabular}[c]{@{}l@{}}Post-\\ covid\\ changes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Yes, I use a \\ safer messaging \\ app now\end{tabular} & 0.115 & 0.04\% & -0.115 & 0.08\% \\
            & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use \\ any messaging \\ app before, but\\ do use it now\end{tabular} & 0.454 & 0.56\% & -0.454 & 1.21\% \\
            & \begin{tabular}[c]{@{}l@{}}No, I did use it \\ before and\\ use it now\end{tabular} & \textbf{-2.122} & 5.71\% & \textbf{2.122} & 12.38\% \\
@@ -1033,7 +1032,7 @@ corrplot(chisq$residuals, is.corr = FALSE)
 \label{figure:sector*postcovid_chisq}
 \end{figure}
 %
-With respect to the sector, the results in Fig. \ref{figure:sector*postcovid_chisq} show a positive contribution from university educators being reluctant to use any messaging apps before or after the pandemic: the positive contribution of their responses explain 25\% of the test results with an adjusted residual of 2.94. On the contrary, vocational teachers were more open to it, showing a negative Pearson's residual. Also, we find larger values than expected in vocational teachers that kept using these apps after the pandemic. 
+With respect to the sector, the results in Fig. \ref{figure:sector*postcovid_chisq} show a positive contribution from university educators being reluctant to use any messaging apps before or after the pandemic: the positive contribution of their responses explain 25\% of the test results with an adjusted residual of 2.94. On the contrary, vocational teachers were more open to it, showing a negative Pearson's residual. Also, we find larger values than expected in vocational teachers that kept using these apps after the pandemic.
 
 \begin{figure}[h!tbp]
 \begin{center}
@@ -1060,9 +1059,9 @@ corrplot(chisq$residuals, is.corr = FALSE)
     \resizebox{\textwidth}{!}{%
 \begin{tabular}{llllllll}
 \hline
- &  & \multicolumn{6}{c}{Discipline} \\ \cline{3-8} 
- &  & \multicolumn{2}{c}{Biomed/Sciences} & \multicolumn{2}{c}{Hum/Social} & \multicolumn{2}{l}{Tech/Engineering} \\ \cline{3-8} 
- &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Stand. \\ Residuals\end{tabular} & \begin{tabular}[c]{@{}l@{}}Contri-\\ bution\end{tabular} \\ \cline{2-8} 
+ &  & \multicolumn{6}{c}{Discipline} \\ \cline{3-8}
+ &  & \multicolumn{2}{c}{Biomed/Sciences} & \multicolumn{2}{c}{Hum/Social} & \multicolumn{2}{l}{Tech/Engineering} \\ \cline{3-8}
+ &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Stand. \\ Residuals\end{tabular} & \begin{tabular}[c]{@{}l@{}}Contri-\\ bution\end{tabular} \\ \cline{2-8}
 \begin{tabular}[c]{@{}l@{}}Post-\\ covid\\ changes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Yes, I use a \\ safer mes-\\ saging app \\ now\end{tabular} & 1.452 & \textbf{9.94\%} & 1.566 & 11.04\% & \textbf{-2.448} & \textbf{13.29\%} \\
  & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t \\ use any mes-\\ saging app \\ before, but\\ do use it now\end{tabular} & 0.733 & 2.50\% & \textbf{2.079} & \textbf{19.19\%} & -2.318 & 11.76\% \\
  & \begin{tabular}[c]{@{}l@{}}No, I did use \\ it before and\\ use it now\end{tabular} & -1.265 & 3.50\% & \textbf{-2.729} & 15.55\% & \textbf{3.278} & 11.06\% \\
@@ -1071,11 +1070,11 @@ corrplot(chisq$residuals, is.corr = FALSE)
     %\begin{tabular}{l|r|r|r|r|}
     %\cline{2-5}
     %                             & Did/Do & Didn't/Do & Safer & Didn' t/Don't \\ \hline
-    %\multicolumn{1}{|l|}{Biomed/Sciences} & -1.265 &  0.733 & 1.452 & -0.588 \\ 
+    %\multicolumn{1}{|l|}{Biomed/Sciences} & -1.265 &  0.733 & 1.452 & -0.588 \\
     %\multicolumn{1}{|l|}{} & 3.50\% &  2.50\% & 9.94\% & 1.75\% \\ \hline
-    %\multicolumn{1}{|l|}{Hum/Social} &  \textbf{-2.729} & \textbf{2.079} &  1.566 & 0.055\\ 
+    %\multicolumn{1}{|l|}{Hum/Social} &  \textbf{-2.729} & \textbf{2.079} &  1.566 & 0.055\\
     %\multicolumn{1}{|l|}{} &  15.55\% & \textbf{19.19\%} &  11.04\% & 0.01\%\\ \hline
-    %\multicolumn{1}{|l|}{Tech/Engineering} &  \textbf{3.278} &  \textbf{-2.318} &  \textbf{-2.448} & 0.412\\ 
+    %\multicolumn{1}{|l|}{Tech/Engineering} &  \textbf{3.278} &  \textbf{-2.318} &  \textbf{-2.448} & 0.412\\
     %\multicolumn{1}{|l|}{} &  11.06\% &  11.76\% &  \textbf{13.29\%} & 0.40\%\\ \hline
     %\end{tabular}%
     }
@@ -1083,7 +1082,7 @@ corrplot(chisq$residuals, is.corr = FALSE)
 \end{center}
     \caption{Analysis for discipline and post-covid changes: left) Pearson's residuals for the Chi-square test; right) Discipline*post-covid changes crosstabulation, including standardized residuals \cite{agresti2013categorical} (also adjusted standardized residuals) and contribution percentage to the total Chi-square test of each cell.}
 \label{figure:discipline*postcovid_chisq}
-\end{figure} 
+\end{figure}
 %
 Finally, statistical significance was found for the discipline and post-covid
 changes. Regarding disciplines (see
@@ -1103,12 +1102,12 @@ the cells.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-For answering RQ2, teachers were provided with a list of different potential chatbot functionalities (use cases) and were requested to respond on whether each given use case would be useful in their classes. The findings are summarized in Table \ref{tab:chatbottypes}. 
+For answering RQ2, teachers were provided with a list of different potential chatbot functionalities (use cases) and were requested to respond on whether each given use case would be useful in their classes. The findings are summarized in Table \ref{tab:chatbottypes}.
 
 \begin{table}[h!tbp]
 \begin{tabular}{lllll}
 \hline
-\multicolumn{1}{c}{Chatbot use cases} & \multicolumn{2}{c}{Yes} & \multicolumn{2}{l}{No} \\ \cline{2-5} 
+\multicolumn{1}{c}{Chatbot use cases} & \multicolumn{2}{c}{Yes} & \multicolumn{2}{l}{No} \\ \cline{2-5}
 \multicolumn{1}{c}{} & \multicolumn{1}{c}{Frequency} & \multicolumn{1}{c}{\%} & Frequency & \multicolumn{1}{c}{\%} \\ \hline
 Answering to students' FAQs & 148 & 52.5 & 134 & 47.5 \\
 Assigning student grades & 113 & 40.1 & 169 & 59.9 \\
@@ -1130,13 +1129,13 @@ among participants’ preferences for particular chatbot use cases. Out of the 1
 chatbots for agenda preparation in the class, 103 also consider useful chatbots’
 use for FAQs. The relation between agenda and the FAQs use case was significant, $X^{2}_{(1, N = 282)} =
 10.467$, $p =0.001$. The frequencies cross tabulated are given in Table
-\ref{tab:agenda*faq}. 
+\ref{tab:agenda*faq}.
 
 \begin{table}[h!tbp]
 \begin{tabular}{llccc}
 \hline
- & \multicolumn{1}{c}{} & \multicolumn{2}{c}{FAQs} & Total \\ \cline{3-5} 
- & \multicolumn{1}{c}{} & Yes & No &  \\ \cline{2-5} 
+ & \multicolumn{1}{c}{} & \multicolumn{2}{c}{FAQs} & Total \\ \cline{3-5}
+ & \multicolumn{1}{c}{} & Yes & No &  \\ \cline{2-5}
 \multirow{2}{*}{Agenda} & Yes & 103 & 68 & 171 \\
  & No & 45 & 66 & 111 \\
 Total &  & 148 & 134 & 282 \\ \hline
@@ -1172,7 +1171,7 @@ ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Gend
         \centering
 <<sector_chatbottype, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
 ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Sector, fill = Sector ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
-@       
+@
 %       \includegraphics[width=\textwidth]{figures/sector_chatbottype.pdf}
         \vspace{-0.5cm}
         \caption{Count of types of chatbots for class perceived as the most useful for teachers grouped by sector.}
@@ -1182,7 +1181,7 @@ ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Sect
         \centering
 <<experience_chatbottype, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
 ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Experience, fill = Experience ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
-@       
+@
 %       \includegraphics[width=\textwidth]{figures/experience_chatbottype.pdf}
         \vspace{-0.5cm}
         \caption{Count of types of chatbots for class perceived as the most useful for teachers grouped by experience.}
@@ -1192,11 +1191,11 @@ ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Expe
         \centering
 <<discipline_chatbottype, echo=FALSE, fig.width=19/2.54, fig.height=5.5/2.54>>=
 survey.pilot.ChatbotType %>%
-  mutate(Discipline = ifelse(as.character(Discipline) == "Engineering", "Tech/Engineering", as.character(Discipline))) %>% 
+  mutate(Discipline = ifelse(as.character(Discipline) == "Engineering", "Tech/Engineering", as.character(Discipline))) %>%
   mutate(Discipline = ifelse(as.character(Discipline) == "Technology", "Tech/Engineering", as.character(Discipline)))->survey.pilot.ChatbotType
 survey.pilot.ChatbotType[as.character(survey.pilot.ChatbotType$Discipline)!="No", ] -> survey.pilot.ChatbotType
 ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Discipline, fill = Discipline ) ) + geom_bar()+ theme(axis.text.x = element_text(angle = 90)) +coord_flip()+ theme_tufte()+ theme(axis.title.y=element_blank())
-@       
+@
 %       \includegraphics[width=\textwidth]{figures/experience_chatbottype.pdf}
         \vspace{-0.5cm}
         \caption{Count of types of chatbots for class perceived as the most useful for teachers grouped by discipline.}
@@ -1205,7 +1204,7 @@ ggplot(survey.pilot.ChatbotType, aes( x = ChatbotType, y = ..count.., group=Disc
 \end{center}
 %    \caption{Counts of chatbots to be used in class perceived as the most useful for teachers.}
 %\label{figure:chatbots_types}
-\end{figure} 
+\end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1244,7 +1243,7 @@ teacher, with the use of messaging apps. The findings are summarized in Table
 \begin{table}[h!tbp]
 \begin{tabular}{lllll}
 \hline
-\multicolumn{1}{c}{Kind of interactions} & \multicolumn{2}{c}{Yes} & \multicolumn{2}{l}{No} \\ \cline{2-5} 
+\multicolumn{1}{c}{Kind of interactions} & \multicolumn{2}{c}{Yes} & \multicolumn{2}{l}{No} \\ \cline{2-5}
 \multicolumn{1}{c}{} & \multicolumn{1}{c}{Frequency} & \multicolumn{1}{c}{\%} & Frequency & \multicolumn{1}{c}{\%} \\ \hline
 %\begin{tabular}[c]{@{}l@{}}Chat interactions among \\ students in the same course\end{tabular} & 171 & 60.6 & 110 & 39.0 \\
 %\begin{tabular}[c]{@{}l@{}}Chat interactions among students, \\ teachers of the School/Faculty\end{tabular} & 13 & 4.6 & 269 & 95.4 \\
@@ -1309,7 +1308,7 @@ for the low percentage of teachers that selected this response.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged >55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). The teachers were asked about what kind of interaction media features they value the most; the frequencies and percentages of their responses are given in the table that follows. 
+%A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged >55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). The teachers were asked about what kind of interaction media features they value the most; the frequencies and percentages of their responses are given in the table that follows.
 
 
 
@@ -1347,7 +1346,7 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Disci
 \end{center}
     \caption{Results of teachers' communication preferences: synchronous or asynchronous interaction with students (grouped by gender, years of experience, and discipline).}
 \label{figure:chatbots_synch}
-\end{figure} 
+\end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1356,7 +1355,7 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Disci
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged $>$~55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). The teachers were asked about what kind of interaction media features they value the most \textcolor{black}{; i.e. what their preferred features are in the applications/tools that they use to interact with their students.} The frequencies and percentages of their responses are given in Table \ref{tab:interaction}. 
+%A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged $>$~55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). The teachers were asked about what kind of interaction media features they value the most \textcolor{black}{; i.e. what their preferred features are in the applications/tools that they use to interact with their students.} The frequencies and percentages of their responses are given in Table \ref{tab:interaction}.
 
 \begin{table}[h!]
 \begin{tabular}{lcccc}
@@ -1365,7 +1364,7 @@ Interaction features & \multicolumn{2}{c}{Yes} & \multicolumn{2}{c}{No} \\
 \hline
                     &  Freq. & \% &  Freq. & \% \\
                     \cline{2-5}
-                
+
 Analytics & 108 & 52.7 & 97 & 47.3 \\
 Connectivity & 119 & 58.0 & 86 & 42.0 \\
 Familiarity & 121 & 59.0 & 84 & 41.0 \\
@@ -1388,7 +1387,7 @@ Other & 5 & 2.4 & 200 & 97.6 \\
 \textcolor{black}{As it can be seen in the table, the bulk of responders express their wish to use a sustainable and official application, i.e. both being approved or provided by the University (or the educational center), and also maintained by the technical staff of the center instead of giving this responsibility/task to the teacher.
 In addition, it is very important for the teachers that the used tools that all the members of the class communicate, including themselves; as well as being already known or used in everyday tasks, e.g. Telegram or WhatsApp.}
 
-A chi-square test of independence was performed to examine the potential relationship among the various features. The statistically significant correlations are given in Table \ref{tab:interactionfeatures}.  
+A chi-square test of independence was performed to examine the potential relationship among the various features. The statistically significant correlations are given in Table \ref{tab:interactionfeatures}.
 
 \begin{table}[h!tbp]
 \centering
@@ -1443,8 +1442,8 @@ this case, the design of the survey introduced some ambiguity on what we really
 consider ``messaging technology'', that was eventually resolved by the answers;
 apparently, anything that sends messages (even if they are not instant, even if
 they do not have a dedicated application) was the concept in the mind of the
-surveyed.  \textcolor{black}{In this case, we would like 
-to add a clarification. While we had in mind, as indicated by the possible answers, 
+surveyed.  \textcolor{black}{In this case, we would like
+to add a clarification. While we had in mind, as indicated by the possible answers,
 instant messaging applications when we elaborated this question,
 we included these institution-provided applications mainly for completion. But
 it should be noted that, in most cases, they are not {\em instant} messaging
@@ -1456,7 +1455,7 @@ company) as well as the {\em type} of technology (instant, app based messaging
 systems vs. web-based messaging systems integrated in another learning management system).}
 
 This inclusion of university-provided messaging applications in
-the survey might explain why there are so few, just 6.7\%, that answer they do not 
+the survey might explain why there are so few, just 6.7\%, that answer they do not
 use any messaging application. In general, universities provide official channels
 to communicate with students official academic information such as the exam schedule
 or the grades. The statistical mode is to use that kind of messaging. Some other
@@ -1472,10 +1471,10 @@ different way depending on background and, apparently, gender.
 
 One of the most interesting questions that can arise from the analysis of the
 results, and that should require further study, is: Are teachers really aware
-of the possibilities of chatbots in the classroom? The survey 
-only listed a few functionalities for the chatbots and just a few subjects selected 
-the option "Others". This may suggest  that most teachers did not really understand 
-at this point the actual potential of chatbots, since the responses listed were by no means exhaustive, and if the responders were more acquainted with the possibilities of the technology, possibly this response would have shown up many more times. Another way to look about it is 
+of the possibilities of chatbots in the classroom? The survey
+only listed a few functionalities for the chatbots and just a few subjects selected
+the option "Others". This may suggest  that most teachers did not really understand
+at this point the actual potential of chatbots, since the responses listed were by no means exhaustive, and if the responders were more acquainted with the possibilities of the technology, possibly this response would have shown up many more times. Another way to look about it is
 that, unless you provide the specific instructions on how to use a
 tool, the teaching staff is already too busy or burn out to think about
 innovation.
@@ -1483,17 +1482,17 @@ innovation.
 We can speculate that their opinions towards chatbots are informed by negative
 experiences with customer support chatbots, which is what most people will have
 experienced. This will probably require further study, but also will need to be
-taken into account when introducing chatbot technologies in the classroom: 
-it will have to be as simple, and as satisfactory, as possible, 
+taken into account when introducing chatbot technologies in the classroom:
+it will have to be as simple, and as satisfactory, as possible,
 to (possibly) change this existing perception.
 
 Regarding gender grouping, both genders agree in their uses, so it seems not
 relevant at all. When looking at the plot containing the sector differentiation
 it is interesting to observe how university teachers prefer in a higher
-proportion to use them for grades and FAQs in comparison with other tertiary education teachers. 
+proportion to use them for grades and FAQs in comparison with other tertiary education teachers.
 This seems reasonable as the frequency of seeing the students
 is lower at the University so, an automatic tool for grade notification for
-continuous evaluation seems more helpful. 
+continuous evaluation seems more helpful.
 Furthermore, the high student/teacher
 ratios that university teachers have to deal with could be another reason to
 have a higher number of them willing to use chatbots for FAQs. This could
@@ -1538,7 +1537,7 @@ From a qualitative point of view, these results show consensus in a few key aspe
 \end{itemize}
 
 An analysis of survey questions related to RQ4 seems to indicate that teachers
-prefer to share an interaction space with their student, as 
+prefer to share an interaction space with their student, as
 shown in Tables \ref{tab:kindinteractions} and \ref{tab:interaction}, where a majority of responders
 indicate they {\em don't} want unidirectional communication; a preference of
 {\em horizontal} interaction, but also the answer to the kind of
@@ -1705,7 +1704,7 @@ Suppressed for double blind review
 All the authors have contributed to the study presented in this manuscript. (Rest hidden for double blind)
 
 % JJM has been the leader, drafted the first versions of the survey and supervised the writing of the manuscript.
-% 
+%
 % PAC has revised the paper and researched the state of the art, as well as contributed to the survey design.
 % AMM has revised the paper and researched the state of the art, as well as contributed to the survey design.
 % FB has made the analysis and processed data and contributed to the survey design.
@@ -1793,7 +1792,7 @@ The {\bf second survey}, shown in its original form in Figure \ref{figure:survey
 % Olia - see my comment above.
 It was filled by teachers that were also students in a Professional Development course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers who knew about it by emails from the authors, or from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary.
 
-Specifically, this survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what are  their \textcolor{black}{past experiences and needs} with regard to the use of instant messaging applications with students, and even using bots or chatbots in the classroom. In addition the survey asked about the most relevant \textit{interaction media features} for the teachers with respect to the potential tool to use in class. 
+Specifically, this survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what are  their \textcolor{black}{past experiences and needs} with regard to the use of instant messaging applications with students, and even using bots or chatbots in the classroom. In addition the survey asked about the most relevant \textit{interaction media features} for the teachers with respect to the potential tool to use in class.
 
 The specific questions included in this second survey are listed below:
 
