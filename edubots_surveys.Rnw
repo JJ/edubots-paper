@@ -229,6 +229,7 @@ freq.Discipline %>% mutate(Discipline = ifelse(as.character(Discipline) == "No",
 
 New technologies have been introduced and widely adopted into the classroom in recent years. However, in order to be successful, their application
 will require a certain amount of extra work and training for the teacher, as well as for the students. Training will help the two collectives involved acquire new skills and, potentially, pupils will acquire a greater level of engagement with the subject matter, which is usually the main objective. Even if several technologies are already in use inside the classroom, there is still room for adopting others.
+
 Anyway, this adoption strongly depends on the compromise and capabilities of the teachers, as main active actors in this new academic approach. Given this,
 asking and analyzing user's opinions with regard to this scenario will help reaping the expected benefits of the technology.
 
@@ -243,7 +244,7 @@ or asking questions in front of the class. This situation normally conducts to a
 significant given the existing disproportion between number of students per each teacher.
 
 Hence, the chatbot technology has a potential to mitigate this problem by providing answers to students’ questions and facilitating a dynamic and autonomous learning
-experience \cite{Griol2014,kim2020}. In addition, using an automated system such as a chatbot, can draw teachers’ attention to topics that students struggle to comprehend or need further assistance in understanding.
+experience \cite{Griol2014,kim2020}. In addition, using an automated system such as a chatbot will allow teachers to spend more time on  other topics that students struggle with.
 
 Given the potential benefits that chatbots could bring to the classroom, the
 focus of the % EDUBOTS KA2 European project \footnote{https://www.edubots.eu},
@@ -258,40 +259,40 @@ their opinions and needs, as well as the existing challenges or opportunities th
 how they can positively contribute to enhancing the learning process in higher education institutions.
 
 In this study, data collection involved two phases:
-\begin{itemize}
-\item The first phase aimed to collect feedback from students about their actual
-  information about students’ preferences of tools/applications for chatting and
-  messaging, how they use them in educational context, who do they like to be
-  with in the class messaging groups, and their expectations of the chatbots in
-  terms of assisting them during their learning process. Therefore, two surveys
+ \begin{itemize}
+\item The first phase aimed to collect feedback from students about their
+  students’ preferences of tools/applications for chatting and
+  messaging, how they use them in educational context, who they like to be
+  with in the class messaging groups, and their expectations of chatbots 
+  in assisting them during their learning process. Therefore, two surveys
   for bachelor and master degree students at the University of Granada (Spain)
   were designed and answers from more than 250 students were collected. The key
   findings of the students' surveys reveal that they prefer to use messaging
-  applications, such as Telegram or WhatsApp as they are familiar to
-  them. Students also expressed interest in chatbots that can assist them with
+  familiar applications, such as Telegram or WhatsApp. 
+  Students also expressed interest in chatbots that can assist them with
   organizing their course schedules, help them access their assignment grades
-  and facilitate searching for course's resources.
+  and facilitate searching for resources.
 \item The results of the first phase were fed into the second phase of the
   study, which focused on teachers’ opinions about using chatbots and messaging
-  applications in classes. This is what is going to be presented in this paper.
+  applications in classes. These results are the main focus of this paper.
 \end{itemize}
 
 Initially, a single survey was developed for this purpose and responses from 300
-higher education teachers were collected and analysed\textcolor{black}{; this will be explained more fully in the methodology section}. The responses' analysis
-entailed the creation of a second survey to which 200 teachers' responses were
-collected\textcolor{black}{, with the methodology and collective characteristics that will be explained below. The questions of the second survey focused on discussing teachers'
+higher education teachers were collected and analysed\textcolor{black}{; this will be detailed in Section \ref{sec:meth}}. The responses' analysis
+led to the preparation of a second survey for teachers and 200 responses were
+collected\textcolor{black}{, again following the methodology that will be explained later. The questions of the second survey focused on asking about teachers'
 needs, opinions and preferences of the development of future technology-enhanced
-tools and its potential impact on educational institutions’ policies. In order to assess these, this paper investigated the following research questions}:
+tools and its potential impact on educational institutions policies. In order to assess these, this paper layed out the following research questions}:
 
 \begin{itemize}
 \item RQ1 - Do teachers use now or want to use messaging apps in their classes?
 \item RQ2 - Which chatbots' features would teachers find useful for this purpose?
 \item RQ3 - Which kind of interaction do teachers prefer with their students?
-\item RQ4 - What kind of interaction media features do teachers value the most?
+\item RQ4 - Which kind of interaction media features do teachers value the most?
 \end{itemize}
 
-We will try to answer these questions through the analysis of questions and
-answers in the two aforementioned surveys. Eventually, what we want to obtain is a series of
+We will try to answer these research questions through the analysis of the two aforementioned surveys. 
+Eventually, what we want to obtain is a series of
 recommendations to make a successful deployment of chatbot technologies (and, in
 some cases, general instant messaging applications) in higher education; from the response to RQ1 and RQ4 we will try to recommend specific technologies or applications to be used in the classroom; the response to RQ2 and RQ3 will help us recommend chatbots features or specific platforms; and finally, from RQ3 we will also try to find best practices in the adoption of messaging platforms and they accompanying chatbots.
 
@@ -300,7 +301,7 @@ current research has found about the use of messaging applications, including
 chatbots, in the classroom is described. The methodology used in the surveys is presented in
 Section \ref{sec:meth}, and the results of the surveys are presented next in
 Section \ref{sec:res}. Finally, we discuss these results and conclude with a
-series of recommendations in the section that closes the paper.
+series of recommendations for the successful deployment of chatbots in higher education.
 
 
 % ********************** STATE OF THE ART ****************************
