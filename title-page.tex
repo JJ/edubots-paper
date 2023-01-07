@@ -1,0 +1,196 @@
+% molde para cartas con membrete Dpto. y para sobres con ventana direcci¢n
+\documentclass{letter}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}      % castellano
+\usepackage[latin1]{inputenc}    % tildes
+\usepackage{url}
+
+% para cartas en ingl‚s comentar la linea anterior e incluir la siguiente:
+%\documentstyle[12pt]{a4letter}
+% cabecera para hojas con membrete del Departamento y JJ
+% Set left margin - The default is 1 inch, so the following 
+% command sets a 0.5-inch left margin.
+\setlength{\oddsidemargin}{0.0in}
+
+% Set width of the text - What is left will be the right margin.
+% In this case, right margin is 8.5in - 0.0in - 6.5in = 2.0in.
+\setlength{\textwidth}{6.5in}
+
+% Set top margin - The default is 1 inch, so the following 
+% command sets a 0.5-inch top margin.
+\setlength{\topmargin}{-1in}
+
+% Set height of the text - What is left will be the bottom margin.
+% In this case, bottom margin is 11in - 0.75in - 9.5in = 0.75in
+\setlength{\textheight}{10in}
+
+% cambiar estas definiciones para personalizar el documento
+\def\yo{\sc Juan J. Merelo}
+\def\email{\tt jmerelo@geneura.ugr.es}
+\def\tel{34-958-243162}
+\def\fax{34-958-248993}
+
+% definiciones comunes
+\def\granada{18071 Granada (Spain)}
+\def\ucm{Universidad de Granada}
+\def\fac{ETS Ingenierías Informática y Telecomucnicaciones}
+\def\dpto{Departamento de Arquitectura y Tecnolog\'ia de Computadores}
+
+
+\def\cabecera{
+
+\begin{minipage}{2.5cm}
+\centerline{  \includegraphics[width=2.5cm,height=2.5cm]{escudo.eps} }
+\end{minipage}
+\ \
+\begin{minipage}{13cm}
+ \rule{13cm}{0.6mm}
+ \vspace*{0.3cm}
+ {\small{\bf \dpto \hfill}} \\
+ {\footnotesize{\bf \fac \hfill Fax: \fax}} \\
+ {\footnotesize{\bf \ucm \hfill Tel. / Phone: \tel}} \\
+ {\footnotesize{\bf \granada \hfill E-mail: \email}}\\
+ \rule{13cm}{0.6mm}
+\end{minipage}
+}
+
+%\input cabecera
+\pagestyle{empty}
+
+\begin{document}
+
+\cabecera
+
+\vspace{0.5cm}
+
+\hspace{7cm}
+
+\hfill Granada, \today
+
+\vspace{0.5cm}
+\ \
+% **** si no se quiere recuadro en la direcci¢n, comentar la linea siguiente
+%\framebox[9cm][l]
+{
+\begin{minipage}[t]{9cm}
+To whom it may concern
+% ******* Poner aqu¡ nombre y direcci¢n del destinatario
+\end{minipage}
+ }
+
+\vspace{0.5cm}
+
+
+% ********** comienzo del texto  *******************
+Please find in this submission the manuscript for our research paper  to be
+considered for publication in your esteemed journal. I have tried to address all
+concerns that caused the initial manuscript to be sent back, I would ask again to
+be a bit more precise if this is not accepted either. In this submission I have
+eliminated all author information, including the (fake) authors that were
+included in the sample file provided by the journal.
+
+Please bear in mind that, due to the ending of the funding period for the mentioned
+project, we had to upload a preprint to ArXiV https://arxiv.org/abs/2201.10289;
+the project ended by January 31st, 2022. This preprint will {\em not} be updated
+with the results of the revisions for this manuscript.
+
+This information required in the cover letter:
+\begin{itemize}
+\item {\bf Title of the manuscript} {\em
+  Chatbots and messaging platforms in the classroom: an analysis from the
+  teacher's perspective}.
+\item {Authors} Juan J. Merelo (1), Pedro A. Castillo (1)
+  , Antonio
+M. Mora (2) , Francisco Barranco (1) ,
+Noorhan Abbas (3), Alberto Guillén (1) and Olia
+Tsivitanidou (4).
+\item {\bf Author Affiliationa}: Numbers refer to the digits in parentheses
+  above:\begin{enumerate}
+  \item Department of Computer Architecture and Technology,
+  University of Granada, Spain;
+\item  Departamento of Signal Theory and
+  Telecommunications, University of Granada, Spain;
+\item Leeds University,
+  Leeds, UK,
+\item  CYENS, Nicosia, Cyprus.
+  \end{enumerate}
+\item {\bf Corresponding author details} Corresponding authors are JJ Merelo
+  (jmerelo@ugr.es) and Francisco Barranco (fbarranco@ugr.es). Please address all
+  communications to us both.
+\item {\bf Complete co-authors email addresses} In author order (marked with an
+  asterisk, corresponding authors):\begin{itemize}
+  \item Juan J. Merelo* {\tt jmerelo@ugr.es}, 
+  \item Pedro A. Castillo 
+  {\tt pacv@ugr.es}, 
+\item Antonio
+M. Mora {\tt amorag@ugr.es}, 
+\item Francisco Barranco*  {\tt fbarranco@ugr.es},
+\item 
+Noorhan Abbas  {\tt n.h.abbas@leeds.ac.uk}, 
+\item Alberto Guillén  {\tt
+  aguillen@ugr.es} 
+\item and Olia
+  Tsivitanidou  {\tt o.tsivitanidou@cyens.org.cy}.
+  \end{itemize}
+\end{itemize}
+
+\newpage
+
+\textsc{Declarations}
+
+
+\textbf{Competing interests}
+
+The authors declare that they have no competing interests.
+
+\textbf{Authors' contributions}
+
+All the authors have contributed to the study presented in this manuscript.
+
+JJM has been the leader, drafted the first versions of the survey and supervised the writing of the manuscript.
+
+PAC has revised the paper and researched the state of the art, as well as
+contributed to the survey design.
+
+AMM has revised the paper and researched the state of the art, as well as contributed to the survey design.
+
+FB has made the analysis and processed data and contributed to the survey design.
+
+NA has supervised the state of the art, and written the bulk of it, as well as contributed to discussion and conclusions.
+
+OT has performed data analysis, and contributed to discussion and conclusions.
+
+AG has contributed to the design of the survey, analysis, discussion and conclusions.
+
+All authors have read and approved the final manuscript.
+
+
+\textbf{Availability of data and materials}
+
+The datasets generated and analysed during the current study are available in
+the {\tt edubots-paper} repository, accessible from {\tt https://github.com/JJ/edubots-paper/tree/main/data}.
+
+
+\textbf{Funding}
+
+This work has been supported by EDUBOTS project, funded under the scheme Erasmus + KA2: Cooperation for innovation and the exchange of good practices - Knowledge Alliances (grant agreement no: 612446).
+
+
+\textbf{Acknowledgements}
+
+The authors want to thank to the educators who participated in the survey, and
+also people who have distributed the survey in their mailing lists, especially
+Mario García Valdez, Jesús Moreno León and José Raúl Canay.
+
+
+% ********** fin del texto  *******************
+
+\hspace*{8cm} Yours,  \\
+
+\centerline{\includegraphics[width=2.5cm,height=2.5cm]{jj_sign.eps}}
+
+\hspace*{8cm} Juan J. Merelo\\
+\hspace*{8cm} Catedrático de Universidad (Full professor)
+
+\end{document}
+

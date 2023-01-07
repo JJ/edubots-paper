@@ -283,3 +283,7 @@ TSWLatexianTemp*
 
 .Rhistory
 .RData
+
+*.eps
+
+*.tgz

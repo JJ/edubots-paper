@@ -1,0 +1,201 @@
+% molde para cartas con membrete Dpto. y para sobres con ventana direcci¢n
+\documentclass{letter}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}      % castellano
+\usepackage[latin1]{inputenc}    % tildes
+\usepackage{url}
+
+% para cartas en ingls comentar la linea anterior e incluir la siguiente:
+%\documentstyle[12pt]{a4letter}
+% cabecera para hojas con membrete del Departamento y JJ
+% Set left margin - The default is 1 inch, so the following 
+% command sets a 0.5-inch left margin.
+\setlength{\oddsidemargin}{0.0in}
+
+% Set width of the text - What is left will be the right margin.
+% In this case, right margin is 8.5in - 0.0in - 6.5in = 2.0in.
+\setlength{\textwidth}{6.5in}
+
+% Set top margin - The default is 1 inch, so the following 
+% command sets a 0.5-inch top margin.
+\setlength{\topmargin}{-1in}
+
+% Set height of the text - What is left will be the bottom margin.
+% In this case, bottom margin is 11in - 0.75in - 9.5in = 0.75in
+\setlength{\textheight}{10in}
+
+% cambiar estas definiciones para personalizar el documento
+\def\yo{\sc Juan J. Merelo}
+\def\email{\tt jmerelo@geneura.ugr.es}
+\def\tel{34-958-243162}
+\def\fax{34-958-248993}
+
+% definiciones comunes
+\def\granada{18071 Granada (Spain)}
+\def\ucm{Universidad de Granada}
+\def\fac{ETS Ingenierías Informática y Telecomucnicaciones}
+\def\dpto{Departamento de Arquitectura y Tecnolog\'ia de Computadores}
+
+
+%\input cabecera
+\pagestyle{empty}
+
+\begin{document}
+
+\vspace{0.5cm}
+
+\vspace{0.5cm}
+\ \
+% **** si no se quiere recuadro en la direcci¢n, comentar la linea siguiente
+%\framebox[9cm][l]
+{
+\begin{minipage}[t]{9cm}
+To whom it may concern
+% ******* Poner aqu¡ nombre y direcci¢n del destinatario
+\end{minipage}
+}
+
+\vspace{0.5cm}
+
+
+% ********** comienzo del texto  *******************
+
+{\bf Response to reviewers' comments}
+
+We are very grateful to the reviewers for their kind comments. We have rewritten
+the paper quite extensively, incorporating requested changes, but also
+attempting to give another angle that makes this paper apart from what was
+already published in another (hidden for double blind review).
+
+This explains that, in some cases, conclusions have been extended or
+reinterpreted over the ones published in that paper. Some of these extensive
+changes have been noted in blue for their easy identification.
+Additionally, we validated
+the survey, as was also requested by the reviewers.
+
+Next we will address the concerns of the reviewers individually.
+
+% ********** fin del texto  *******************
+
+\hspace*{8cm} Yours,  \\
+
+
+\hspace*{8cm} The authors
+
+
+\newpage
+
+%%%% Rev 3
+
+{\it
+
+{\bf Reviewer \#3}: Paper Summary:
+This study surveyed teachers' feedback about their opinions regarding introducing the messaging platforms and chatbots in their classes, understand their needs, and gathering information about the various educational use cases where these tools are valuable. There are some suggestions below to improve the research work.
+1.      Does the article address a topic of current concern about the aims of the journal and to what you perceive to be the current state of ICT concerning education? The article addresses issues bothering the introduction of messaging platforms and chatbots to augment teaching and learning, which I consider important concerning the current state of ICT education.}
+
+% -> answer 1
+
+The authors thank the comment for noticing the relevance of the topic and how it suits the journal scope.
+
+{\it 2.      Does the abstract give a clear account of the scope of the paper? The abstract gave an overview of the paper. However, the key findings of the paper were not reported in the abstract. I suggest the authors summarize the study's findings and report them briefly in the abstract.}
+
+% -> answer 2
+
+The abstract as well as other sections in the paper have been rewritten. The abstract now summarizes the study's findings and reports them briefly.
+
+% -> answer 3
+
+{\it 3.      Do the keywords adequately reflect the paper? The authors should consider replacing Tutorship with teachers.}
+
+After consideration, the authors agree with the comment and we have replaced teachers for Tutorship in the keywords.
+
+% -> answer 4
+
+{\it 4.      If the article is concerned with research activity, has a sound methodology been utilized and described? A sound methodology was utilized and described. However, it was observed that prior studies have not previously validated the measurement instrument used in collecting data. Thus, the authors need to conduct reliability and validity tests for their proposed measurement instrument used in collecting data.}
+
+The authors thank the reviewer for pointing out that flaw which was addressed, improving the quality of the paper.
+
+A new subsection whithin the methodology (Section 3.1 Survery validation) deals with the procedure to validate the tests by using a board of experts for the questionaire.
+
+
+% -> answer 5,6,7,8
+
+{\it 5.      Does the article distinguish clearly between opinion and empirical evidence? Yes
+6.      Does the article contribute to a critical understanding of the issues? Yes
+7.      Does the article alert readers to significant new developments in the subject area? Yes
+8.      Does the article take into account relevant contemporary literature in the area? Yes.}
+
+The authors want to thank the reviewer for evaluating positively those aspect of the paper.
+
+% -> answer 9
+
+{\it 9.      Does the article clearly reference citations and quotations using the APA 7th edition? Partly, some of the references do not follow APA 7th edition. For example, the following references don't follow APA 7th edition referencing style
+     a.   O'Boyle, 2014. O'Boyle, N. (2014). Front row friendships: Relational dialectics and identity negotiations by mature students at univerty. Communication Education, 63(3):169-191
+     b. Panah and Babar, 2020. Panah, E. and Babar, M. Y. (2020). A survey of WhatsApp as a tool for instructor-learner dialogue, learner-content dialogue, and learner-learner dialogue. International Journal of Educational and Pedagogical
+ Sciences, 14(12):1198 - 1205.
+     c. Perez et al., 2020. Perez, J. Q., Daradoumis, T., and Puig, J. M. M. (2020). Rediscovering the use of chatbots in education: A systematic literature review. Computer Applications in Engineering Education, 28(6):1549- 1565.
+     d. Ranoliya et al., 2017. Ranoliya, B. R., Raghuwanshi, N., and Singh, S. (2017). Chatbot for university related faqs. In 2017 International Conference on Advances in Computing, Communications and Informatics (ICACCI), pages 1525-1530. IEEE.
+     e. Roblyer et al., 2010. Roblyer, M., McDaniel, M., Webb, M., Herman, J., and Witty, J. V. (2010). Findings on facebook in higher education: A comparison of college faculty and student uses and perceptions of social networking sites. The Internet and Higher Education, 13(3):134 - 140.}
+
+ We have used, as instructed by the template, the {\tt apalike} style in our
+  LaTeX source, as well as used standard BiBTeX files downloaded from the
+  publication itself. No tweaking has been mede on these, so I don't see what we
+  can do about it, other than report a bug in the style to the authors.
+
+We have been checking out the issue, and apparently the problem is that the 7th
+edition is not well covered by the current LaTeX styles, which are stuck at the
+6th edition. A pretty extensive change in tooling is needed, unfortunately,
+including the style of bibliography citation and the tool used for doing
+that. So while there's a path for doing this, we do not think it is something we
+should devote our time in the current version of the paper, if the reviewer does
+not mind. We will certainly do so as required by publication when (or if) this
+paper is finally accepted
+
+% -> answer 10      
+{\it 10.     Is the article written in a clear and intelligible style to a reasonably well-informed international professional readership? Yes. However, there are a few grammatical errors. I suggest the authors proofread the manuscript to correct them.}
+
+The authors apologise for the grammatical errors and have strived to fix them and to avoid them in the new paragraphs.
+
+% -> answer 11
+{\it 11.     Other few comments the authors should consider:
+   a.   Reorganize the conclusion section to highlight the main aim of the research work briefly, key findings and the significance of the work, and future research work.
+   b.   Some of the paragraphs in the conclusion section can be moved to Discussion. The Discussion section can be captioned as Discussion and Implications to cater for some of the paragraphs that will be moved to this section. For example, paragraphs on Page 23, Line 16, "In our survey..." and Page 23, Line 37, "One of the questions we made in the second survey..." should be moved to the Discussion and Implication section.}
+
+To address these final comments:
+    a. as cited before, the abstract and other sections have been rewritten
+    highlighting the key findings and the significance of this work as compared
+    with the others.
+
+    b. We have changed the title and moved the indicated paragraph. Thanks for
+    the suggestion.
+
+%%%%%% Rev 4
+
+{\bf Reviewer \#4}: {\it First of all, this paper seems to be the main topic of 'Analysis from the teacher's perspective of chatbots and messaging platforms in class'.
+It seems that simple survey results were analyzed and grouped.
+It seems like a lot of effort was put into it, but I doubt whether it has any academic significance.
+Why did you choose 4 questions? Is it appropriate for a chatbot and messaging platform if I just ask and group this? I am not sure.
+Looking at the research results and conclusions, there are some contents that are difficult to see as valid because the evidence for the researcher's conclusions is so abrupt and abstract.}
+
+The authors thank the reviewer for provinding useful feedback that has allowed
+us to improve the quality of the paper.
+
+Regarding the first issue (the lack of academic significance), we would like to
+stress the importance of the topic of artificial intelligence tools bringing
+changes in our lifestyle in the comming years. This study shares experiences
+from the academic and educational point of view and analyses the results
+obtained. Nonetheless, the Introduction (as well as other sections) has been
+rewritten with the hope of addressing the academic significance in a clearer
+way.
+
+Regarding the validation of the methodology, there is a new subsection that
+presents the validation procedure by means of an expert board which agrees with,
+in general, agrees with the questions and answers we used in the survey.
+
+For the final comment, we have rewritten the conclusions and abstract to improve
+the way the content is explained.
+
+
+
+\end{document}
+
