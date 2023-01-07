@@ -345,22 +345,21 @@ role of MIM platforms in higher education is still a challenge, and why the opin
 the teaching community towards them have to be examined, as we do in this paper.
 
 % The Use of Chatbots in Higher Education
-The use of MIM, although possibly valuable by itself, can be enhanced via the
-use of chatbots, which, being conversational agents, usually dwell in systems
-where synchronous conversations take place.  The use of conversational agents
-(chatbots) in higher education is still at its infancy
-\cite{yang2019opportunities}. Nevertheless, recent studies examining their
+The use of MIM platforms, although possibly valuable by itself, can be enhanced with the
+use of chatbots, which are conversational agents that normally dwell 
+synchronous conversations systems. The use of chatbots in higher education is still in its early stages
+\cite{yang2019opportunities}. Nevertheless, recent studies have shown their
 positive impact on students' academic performance \cite{perez2020rediscovering}
-and engagement \cite{differ.chat,abbas2021onlinechat} have led to a growing
+and engagement \cite{differ.chat,abbas2021onlinechat}, leading to a growing
 interest in using this technology in the (possibly virtual) classroom. Indeed,
-the use of chatbots in collecting course feedback from students in higher
-education improved students' response quality and boosted their enjoyment levels
-\cite{abbas2021Surveys}.  According to \cite{Roblyer2010}, using either tools
-such as mobile devices or teaching strategies based on gamification
+the using chatbots to collect course feedback from students in higher
+education improved response quality and boosted enjoyment levels
+\cite{abbas2021Surveys}.  According to \cite{Roblyer2010}, the use of
+mobile devices or teaching strategies based on gamification
 \cite{Yildirim2017} can improve student motivation. In this sense, the authors
-in \cite{Pimmer2019} \textcolor{black}{adopted a quasi-experimental, survey-based approach to
+in \cite{Pimmer2019} adopted a quasi-experimental, survey-based approach to
 report the positive impact of using instant messaging tools in boosting
-students' knowledge and mitigating their feelings of isolation}.
+students' knowledge and mitigating their feelings of isolation.
 
 Several higher education chatbots' evaluation studies have been undertaken. For
 instance, a recent evaluation review study presented by Smutny and Schreiberova
