@@ -631,18 +631,14 @@ The authors declare that they have no competing interests.
 \subsection{Funding}
 
 This work has been supported by EDUBOTS project, funded under the scheme Erasmus + KA2: Cooperation for innovation and the exchange of good practices - Knowledge Alliances (grant agreement no: 612446).
+It has also been supported by DemocratAI::UGR project (PID2020-115570GB-C22).
 
 
 \subsection{Authors' contributions}
 
 All the authors have contributed to the study presented in this manuscript. 
-JJM has been the leader, drafted the first versions of the survey and supervised the writing of the manuscript.
-PAC has...
-AMM has ...
-FB has...
-NA has...
-OT has...
-AG has...
+JJM has been the leader, drafted the first versions of the survey and supervised the writing of the manuscript; 
+AMM, FB, PAC, NA, OT, AG have done editing, writing and proofreading tasks.
 All authors have read and approved the final manuscript.
 
 % Antonio - here we can explain what we have done author briefly.
