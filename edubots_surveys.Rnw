@@ -50,6 +50,7 @@
 \usepackage{multirow}
 \usepackage{rotating}
 \usepackage[utf8]{inputenc} %unicode support
+\usepackage{hyperref} % for URL
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                             %%
