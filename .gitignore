@@ -287,3 +287,4 @@ TSWLatexianTemp*
 *.eps
 
 *.tgz
+.Rproj.user
