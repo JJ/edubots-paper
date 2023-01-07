@@ -288,4 +288,4 @@ TSWLatexianTemp*
 
 *.tgz
 .Rproj.user
-.Rproj
+*.Rproj
