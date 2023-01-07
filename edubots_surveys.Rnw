@@ -227,19 +227,16 @@ freq.Discipline %>% mutate(Discipline = ifelse(as.character(Discipline) == "No",
 
 \section{Introduction}
 
-New technologies are being introduced and widely adopted into the classroom in the last years. However, in order to be successful, their application
-will require (many) extra work and training for the teacher, as well as for the students. Thus, both of them will acquire new skills and, potentially, pupils will
-get a higher engagement to the subject, which is usually the main objective. Even if several technologies are already in use inside the classroom, there is still room for adopting others.
+New technologies have been introduced and widely adopted into the classroom in recent years. However, in order to be successful, their application
+will require a certain amount of extra work and training for the teacher, as well as for the students. Training will help the two collectives involved acquire new skills and, potentially, pupils will acquire a greater level of engagement with the subject matter, which is usually the main objective. Even if several technologies are already in use inside the classroom, there is still room for adopting others.
 Anyway, this adoption strongly depends on the compromise and capabilities of the teachers, as main active actors in this new academic approach. Given this,
 asking and analyzing user's opinions with regard to this scenario will help reaping the expected benefits of the technology.
 
-In the last years, messaging applications such as WhatsApp or Telegram are being used in teaching scenarios mainly at secondary and higher education.
-In addition to their main use, some of these tools offer the possibility of interact with \textit{chatbots} (or just bots), even supporting synchronous conversation between the different
-parties \cite{differ.chat}. There is also possible to create a standalone chatbot application and attach it to a messaging tool through an API (Application Program Interface).
+Over the past decade, messaging apps like WhatsApp and Telegram have become increasingly popular in teaching at the secondary and higher education levels \cite{gachago2015crossing,mwakapina2016whatsapp,yin2016adoption,panah2020study}. By creating groups at various levels (e.g. class, assignment, course), teachers and students have been able to use these apps for bilateral or group-level communication. In addition to their primary function of communication, many messaging programs also allow the creation of applications that can act as users through open application programming interfaces (APIs), which are often available through a free or freemium model.
 
-\textit{Chatbots} are autonomous agents able to communicate and interact with humans (or other chatbots) in a human-like way \cite{Gong2008}, answering question and even posing their own ones to the user.
-Thus, we can say that they are close to passing a Turing Test \cite{moor2003turing}. They are implemented by means of different Artificial Intelligence techniques, such as natural language processing.
-Inside the plethora of possible applications of chatbots, education is one of the most prolific nowadays \cite{clarizia2018,Smutny2020}. In this domain, they facilitate the so-called
+This opens the door to the introduction of \textit{chatbots}, that is, autonomous agents able to communicate and interact with humans (or other chatbots) in a natural way \cite{Gong2008}, answering question and even posing their own ones to the user, in the classroom; in this limited environment, chatbots can appear as regular users, thus being close to passing a Turing Test \cite{moor2003turing}, which gives them certain characteristics that, again, can enhance student engagement. Chatbots implement different Artificial Intelligence techniques, such as natural language processing as well as, in some cases, learning; this is not a requirement, however, and in most cases they are simply applications that have a conversational interface, as opposed to a graphical user interface.
+
+These qualities have made education one of the most promising areas for chatbot applications today \cite{clarizia2018,Smutny2020}. In this domain, they facilitate the so-called
 \textit{personalized learning}, i.e. they adapt themselves to students’ pace of learning and provide online tutoring outside the classroom, which have been proved to be very effective increasing their
 engagement and participation in the subjects \cite{agarwal2020}. Moreover chatbots' tutoring possibilities aid to reduce the stress of students \cite{Daniel2016,agarwal2020} by avoiding the face-to-face tutoring with their teacher,
 or asking questions in front of the class. This situation normally conducts to a silence of the student and a later contact with the teacher by e-mail, which, in turn, will mean a workload for the teacher, that could be very
