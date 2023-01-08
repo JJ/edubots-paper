@@ -1560,28 +1560,27 @@ the factors that is most valued by teachers).
 \section{Conclusions}
 \label{sec:concl}
 
-The key findings of this study shed light on educators’ preferences to use
-messaging applications that their institutions support. Technology adoption
-literature often \textcolor{black}{focuses} on users’ perceptions of the technology’s usefulness and
-ease of use as important prerequisites for successful adoption and
-utilization. Nevertheless, in higher education, institutions’ role in
-integrating these tools to their educational systems can improve the uptake of
-these applications and shape the social and educational experiences of their
-students. \textcolor{black}{To accomplish this fruitful integration}, institutions have to ensure that
-these messaging applications not only are GDPR (General Data Protection Regulation) compliant to keep students’ data
-secure, but also should provide IT support to all stakeholders who use the
-applications.
+The key findings of this study shed light on educators’ preferences for using
+messaging applications supported by their institutions. Technology adoption
+literature often focuses on users’ perceptions of the technology usefulness and
+ease of use as important factors for its successful adoption and
+utilization. Nevertheless, in higher education, institutions play a role in
+integrating these tools into their educational systems, which can improve the uptake of
+these applications and shape the social and educational experiences of 
+students. To achieve this successful integration, institutions should ensure that
+these messaging applications GDPR- (General Data Protection Regulation) compliant to protect students’ data and 
+provide IT support to all stakeholders who use the applications.
 
-Comparing these results with those obtained in student surveys
-in \cite{MoraChatbots2021:anon}, we have understood better the differences between the teachers’
-points of view and/or intentions and that of their students when using the
+Comparing these results with those obtained from student surveys
+in \cite{MoraChatbots2021:anon}, we have better understood the differences between teachers’
+and students' points of view and intentions when using the
 messaging applications in higher education.  Teachers tend to adopt technologies
-supported by their institutions.  The fact they do so could be caused by a desire to ensure that their
+supported by their institutions, which could be motivated by a desire to ensure that their
 universities can oversee their efforts in supporting their students during the
 learning process.  Another reason could be their familiarity with the technology
-provided by their institutions. On the other hand, students use the
-non-institution messaging applications to form informal discussion groups with
-their peers.  It is worth noting that peer support and collaboration is
+provided by their institutions. Meanwhile, students use 
+non-institution messaging applications to create informal discussion groups with
+their peers.  It is worth noting that peer support and collaboration are
 inseparable from learning \cite{timmis2012constant} and correlates positively
 with higher retention in higher education \cite{o2014front}.  Therefore, both
 perspectives are complementary and play different roles in promoting the
