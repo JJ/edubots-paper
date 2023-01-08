@@ -1529,29 +1529,27 @@ From a qualitative point of view, these results show consensus in a few key aspe
  \item Keep it Simple. Media interaction requirements are simple and only 2.4\% of teachers are requesting more features. This could be a sign of technological burnt out produced by the previous pandemic courses, when the use of computers significantly increased.
 \end{itemize}
 
-An analysis of survey questions related to RQ4 seems to indicate that teachers
-prefer to share an interaction space with their student, as
-shown in Tables \ref{tab:kindinteractions} and \ref{tab:interaction}, where a majority of responders
-indicate they {\em don't} want unidirectional communication; a preference of
-{\em horizontal} interaction, but also the answer to the kind of
-chatbots preferred that features FAQ bots prominently, which might indicate a
-need to delegate or offload part
-of the burden of answering, and attending, every single question posed by
-students. In an horizontal setting, other students can answer if the teacher
+The analysis of the questions related to RQ4 seems to indicate that teachers
+prefer to share an interaction space with their students. As
+shown in Tables \ref{tab:kindinteractions} and \ref{tab:interaction}, the majority of responders
+indicated that they {\em do not} want unidirectional communication, and that they prefer
+{\em horizontal} interaction. This point is reinforced by results on the kind of
+chatbots they preferred: most of them indicated FAQ bots, which might indicate a
+need to offload part of the burden of answering every single question posed by
+their students. In a horizontal setting, other students would answer if the teacher
 does not do it immediately. This might also be the reason why the possibility of
 using tools from which analytics can be extracted is also valued by teachers:
-that way, activity in the chat tool, answering questions, regularity, can all be
-observed and valued as part of the process of assessing achievement of learning
-objectives by students.
+in that way, the student activity in the chat tool, answering questions, or their regularity can all be
+assessed as part of the process of achieving learning objectives.
 
 % Only some COVID-response relationship.
-In our survey, we could not find an answer about the right moment for introducing chatbot technologies. Response to questions related to change of
-behavior during and after the first stay at home, stage of the pandemic do not suggest that a major (or minor)
-crisis could be an opportunity to introduce new technologies, since it does not
-bring major changes in attitude (as a minor "crisis" we could mention any institutional event that brings about methodological changes, such as new higher education laws\footnote{We seem to have one of these, at least in
-  Spain, every 10 years or so.}), or simply introduction of new degrees. Although
-changes driven by external forces do offer the chance of piloting new technologies, they do not
-seem to bring internal changes in attitudes in the teaching staff (which, after all, is
+In our survey, we could not find an answer about the right moment to introducing chatbot technologies. The response to questions regarding to change of
+behavior during and after the first stay-at-home stage of the pandemic do not suggest that a major (or minor, such as new higher education laws or the introduction of new degrees) crisis could be an opportunity to introduce new technologies. The reason being that it does not
+bring major changes in attitude 
+%(as a minor "crisis" we could mention any institutional event that brings about methodological changes, such as new higher education laws\footnote{We seem to have one of these, at least in Spain, every 10 years or so.}), 
+%or simply the introduction of new degrees. 
+Although changes driven by external forces do offer the chance of piloting new technologies, they do not
+seem to bring internal changes in teachers' attitudes (which, after all, is
 bound to be the same). In absence of a clear answer in this direction, the right
 moment to introduce new technologies is always when the IT and managing staff is
 ready to support it (since, as we have seen before, "official" support is one of
