@@ -266,12 +266,12 @@ In this study, data collection involved two phases:
 \item The first phase aimed to collect feedback from students about their
   students’ preferences of tools/applications for chatting and
   messaging, how they use them in educational context, who they like to be
-  with in the class messaging groups, and their expectations of chatbots 
+  with in the class messaging groups, and their expectations of chatbots
   in assisting them during their learning process. Therefore, two surveys
   for bachelor and master degree students at the University of Granada (Spain)
   were designed and answers from more than 250 students were collected. The key
   findings of the students' surveys reveal that they prefer to use messaging
-  familiar applications, such as Telegram or WhatsApp. 
+  familiar applications, such as Telegram or WhatsApp.
   Students also expressed interest in chatbots that can assist them with
   organizing their course schedules, help them access their assignment grades
   and facilitate searching for resources.
@@ -294,7 +294,7 @@ tools and its potential impact on educational institutions policies. In order to
 \item RQ4 - Which kind of interaction media features do teachers value the most?
 \end{itemize}
 
-We will try to answer these research questions through the analysis of the two aforementioned surveys. 
+We will try to answer these research questions through the analysis of the two aforementioned surveys.
 Eventually, what we want to obtain is a series of
 recommendations to make a successful deployment of chatbot technologies (and, in
 some cases, general instant messaging applications) in higher education; from the response to RQ1 and RQ4 we will try to recommend specific technologies or applications to be used in the classroom; the response to RQ2 and RQ3 will help us recommend chatbots features or specific platforms; and finally, from RQ3 we will also try to find best practices in the adoption of messaging platforms and they accompanying chatbots.
@@ -817,7 +817,7 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
     % Have different sub-captions so that we can refer to specific subfigures - Olia
 \end{figure}
 
-A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. The frequencies cross tabulated are given in Table \ref{tab:sector*covid}. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational).
+A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the COVID-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. Table \ref{tab:sector*covid} shows the frequencies that are cross-tabulated vs. changes undertaken after the COVID pandemic. This finding suggests that how teachers used messaging apps during the pandemic, specifically whether they changed their habits for teaching purposes, was related to the sector (university vs vocational) in which they were working.
 %
 \begin{table}[h!tbp]
 \begin{tabular}{llccc}
@@ -1568,8 +1568,8 @@ the factors that is most valued by teachers).
 \section{Conclusions}
 \label{sec:concl}
 
-The key findings of this study shed the light on educators’ preference to use
-messaging applications that their institutions support.  Technology adoption
+The key findings of this study shed light on educators’ preference to use
+messaging applications that their institutions support. Technology adoption
 literature often \textcolor{black}{focuses} on users’ perceptions of the technology’s usefulness and
 ease of use as important prerequisites for successful adoption and
 utilization. Nevertheless, in higher education, institutions’ role in
@@ -1595,7 +1595,6 @@ with higher retention in higher education \cite{o2014front}.  Therefore, both
 perspectives are complementary and play different roles in promoting the
 learning process.
 
-% Noorhan suggest that using some simple things could increase the perceived usefulness - JJ
 As in many other methodologies that try to assess technology acceptance, answers to the survey suggest
 that the introduction of simple, and institution-supported, instant messaging
 and chatbot technologies would increase the perceived usefulness (which is one
@@ -1650,9 +1649,7 @@ does not matter so much how that need is covered. However, this will need carefu
 consideration, including how it ties with the automation of the learning
 experience that the chatbots bring.
 
-% Future study (suggested by Noorhan): how COVID influenced adoption of these technologies.
-There are several future lines of work informed by our results of this
-survey. For instance, the rollout of extensive videoconferencing and virtual
+Our analysis of the results of this survey can be fed into several potential avenues for future research. For instance, the rollout of extensive videoconferencing and virtual
 teaching solutions that the COVID pandemic has brought has also taught us a
 series of lessons. It increases isolation, for instance, and decreases the
 amount of synchronous contact that happens in the fringes of the classroom:
@@ -1707,7 +1704,7 @@ All the authors have contributed to the study presented in this manuscript. (Res
 % PAC has revised the paper and researched the state of the art, as well as contributed to the survey design.
 % AMM has revised the paper and researched the state of the art, as well as contributed to the survey design.
 % FB has made the analysis and processed data and contributed to the survey design.
-% NA has supervised the state of the art, and written the bulk of it, as well as contributed to discussion and conclusions.
+% NA has supervised the writing  of the section devoted to the state of the art and written the bulk of it, as well as contributed to discussion and conclusions.
 % OT has performed data analysis, and contributed to discussion and conclusions.
 % AG has contributed to the design of the survey, analysis, discussion and conclusions.
 
