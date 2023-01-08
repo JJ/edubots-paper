@@ -355,7 +355,7 @@ interest in using this technology in the (possibly virtual) classroom. Indeed,
 the using chatbots to collect course feedback from students in higher
 education improved response quality and boosted enjoyment levels
 \cite{abbas2021Surveys}.  According to \cite{Roblyer2010}, the use of
-mobile devices or teaching strategies based on gamification
+mobile devices along with gamification strategies
 \cite{Yildirim2017} can improve student motivation. In this sense, the authors
 in \cite{Pimmer2019} adopted a quasi-experimental, survey-based approach to
 report the positive impact of using instant messaging tools in boosting
