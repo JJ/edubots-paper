@@ -538,7 +538,7 @@ As validation shows, all expert agree without any doubt about the clarity of eac
 \end{table}
 
 
-Next, we show the results and analyse them.
+In the next section, we present the results and analyse them.
 
 % ********************** RESULTS ****************************
 
@@ -817,7 +817,7 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
     % Have different sub-captions so that we can refer to specific subfigures - Olia
 \end{figure}
 
-A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the COVID-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. Table \ref{tab:sector*covid} shows the frequencies that are cross-tabulated vs. changes undertaken after the COVID pandemic. This finding suggests that how teachers used messaging apps during the pandemic, specifically whether they changed their habits for teaching purposes, was related to the sector (university vs vocational) in which they were working.
+Furthermore, a chi-square test of independence was performed in order to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the COVID-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. Table \ref{tab:sector*covid} shows the frequencies that are cross-tabulated vs. changes undertaken after the COVID pandemic. This finding suggests that how teachers used messaging apps during the pandemic, specifically whether they changed their habits for teaching purposes, was related to the sector (university vs vocational) in which they were working.
 %
 \begin{table}[h!tbp]
 \begin{tabular}{llccc}
@@ -1119,9 +1119,7 @@ Others & 25 & 8.9 & 257 & 91.1 \\ \hline
 \end{table}
 
 
-The most favorable use case for chatbots in
-Higher Education and vocational training is their use for the facilitation of an
-agenda formation (171 positive response, 60.6\%), followed by the FAQs use case
+The most beneficial use case for chatbots in higher education and vocational training is their ability to facilitate agenda formation and communication (171 positive response, 60.6\%), followed by the FAQs use case
 (148 positive responses, 52.5\%) and the sharing class material use case (136;
 48.2\%). A chi-square test of independence was performed to examine the relation
 among participants’ preferences for particular chatbot use cases. Out of the 171 teachers who consider useful the use of
