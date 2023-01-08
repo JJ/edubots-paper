@@ -1513,21 +1513,20 @@ and synchrony as valuable in messaging apps.
 
 From a qualitative point of view, these results show consensus in a few key aspects:
 \begin{itemize}
- \item Teachers want to have support from their corresponding institution. This
-   is probably due to the strict European data regulations \textcolor{black}{on data protection},
-   but also to avoid the overhead required to \textcolor{black}{sign up new students every year.
-   In general support from specific formation and access to IT help desk for specific features
-   enhances the possibility of adoption by the teachers or the possibility of a successful
-   adoption that improves the learning outcomes. This is supported by the result of the two
-   surveys: they prefer whatever "messaging" application is provided by the university, and
-   also they value sustainability as well as "officiality" of the platform, as shown in
-   Table \ref{tab:interaction}}.
+ \item Teachers want to have support from their institutions. This
+   is probably due to the strict European data regulations on data protection,
+   but also to avoid the overhead required to sign up new students every year.
+   In general, additional support with specific formation and access to IT help desk for specific features
+   enhance the possibility of a successful adoption that improves the learning outcomes. This is supported by the result of the two
+   surveys: they prefer whatever "messaging" application is provided by their university, and
+   they the "officiality" of the platform, as shown in
+   Table \ref{tab:interaction}.
  \item Teachers need sustainability. The main reason is that implementing
    changes is expensive in terms of effort and prone to errors in the first
-   years of implementing new procedures, therefore, it is logical that if
-   chatbots or messaging platforms are to be introduced, they want this change
+   years. Therefore, it is logical that if
+   chatbots or messaging platforms are to be introduced, teachers want this change
    to be as permanent as possible.
- \item Keep it Simple. Media interaction requirements are simple and only a 2.4\% is requesting more features. This could be a sign of technological burn out produced by the previous and current courses where, due to the pandemic, the use of computer has increased significantly.
+ \item Keep it Simple. Media interaction requirements are simple and only 2.4\% of teachers are requesting more features. This could be a sign of technological burnt out produced by the previous pandemic courses, when the use of computers significantly increased.
 \end{itemize}
 
 An analysis of survey questions related to RQ4 seems to indicate that teachers
