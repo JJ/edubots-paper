@@ -1608,32 +1608,32 @@ processing (in vernacular language) to help assess the general mood of
 the class and how different materials or external factors affect it.
 
 % No remarkable differences between different groups.
-This introduction of chatbots and chatbot technology will be helped by the fact
-that no discernible differences are found between different groups. Even if
-chatbots do have some potential for personalization or customization, based on
-the class material, student and teaching staff, the general introduction of the
+The introduction of chatbots and chatbot technology will be helped by the fact
+that no discernible differences are found between different groups. Even though
+chatbots do have some potential for personalization or customization based on
+the class material, student, and teaching staff, the general introduction of the
 technology can be done in a general way and for all disciplines, teaching
-experience and gender.
+experience, and gender.
 
-At any rate, the general feeling that transpires from the survey is that it is
-essential for any institution to take into account the shareholder's opinion
+Overall, the general feeling that transpires from the survey is that it is
+essential for any institution to take into account shareholders' opinions
 when introducing chatbots. This is true almost across the board, but in the case
 of chatbots (and instant messaging applications) their immediacy and the fact
 that they can enter into what we could call the private sphere makes this even
 more necessary.
 
-One of the questions we made in the {\bf second survey}, related to
+One of the questions in the {\bf second survey}, which asked about 
 the messaging applications used by tertiary education teachers, opens a new line
-of inquiry about what they {\em perceive} as such, and about how it is used.
-Namely, the responses indicated that the teachers perceived as messaging
-application not only what is usually called a chat or instant messaging app such
-as WhatsApp or Microsoft Teams, but also the means provided by the university for
-communicating with the student, such as a feature of grading applications that
-will email the grade to the student. This implies that there is a need by
-teachers, communication with students, also mostly unidirectional, and that it
-does not matter so much how that need is covered. However, this will need careful
+of inquiry about what teachers {\em perceive} as such, and how it is used.
+Namely, the responses indicated that teachers perceived as messaging
+application not only traditional chats or instant messaging app such
+as WhatsApp or Microsoft Teams, but also the means provided by their university for
+communicating with students, such as a feature of grading applications that
+emails grades to students. This suggests that teachers have a need for communication with students, 
+which is mostly unidirectional, and that it
+does not matter as much how that need is met. However, this will need careful
 consideration, including how it ties with the automation of the learning
-experience that the chatbots bring.
+experience provided by chatbots.
 
 Our analysis of the results of this survey can be fed into several potential avenues for future research. For instance, the rollout of extensive videoconferencing and virtual
 teaching solutions that the COVID pandemic has brought has also taught us a
