@@ -1707,7 +1707,7 @@ All the authors have contributed to the study presented in this manuscript. (Res
 % AMM has revised the paper and researched the state of the art, as well as contributed to the survey design.
 % FB has made the analysis and processed data and contributed to the survey design.
 % NA has supervised the writing  of the section devoted to the state of the art and written the bulk of it, as well as contributed to discussion and conclusions.
-% OT has performed data analysis, and contributed to discussion and conclusions.
+% OT has performed data analysis, and contributed to discussion and conclusions, as well as reviewed and rewritten part of the paper.
 % AG has contributed to the design of the survey, analysis, discussion and conclusions.
 
 All authors have read and approved the final manuscript.
