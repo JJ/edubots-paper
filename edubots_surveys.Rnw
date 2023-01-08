@@ -1635,23 +1635,23 @@ does not matter as much how that need is met. However, this will need careful
 consideration, including how it ties with the automation of the learning
 experience provided by chatbots.
 
-Our analysis of the results of this survey can be fed into several potential avenues for future research. For instance, the rollout of extensive videoconferencing and virtual
+Our analysis of the survey results can inform several potential avenues for future research. 
+For instance, the rollout of extensive videoconferencing and virtual
 teaching solutions that the COVID pandemic has brought has also taught us a
-series of lessons. It increases isolation, for instance, and decreases the
-amount of synchronous contact that happens in the fringes of the classroom:
-teaching staff offices, before and after class. A future line of work would be
-focused on exactly this, and what kind of needs could be covered by chatbot
-technology. We will create a series of international surveys that will
-investigate this.
+series of lessons: it increases isolation, for instance, and decreases the
+amount of synchronous contact that happens in the fringes of the classroom (e.g. 
+teaching staff offices, or before and after class). A future line of research could 
+focus on these issues and explore how chatbot technology could address them. 
+%We will create a series of international surveys that will investigate this.
 
-Finally, the full extent of chatbot technology is not really being examined in
+Finally, the full extent of chatbot technology is not really examined in
 these surveys. They can be connected to natural language processing engines with
-sentiment analysis as well as other analytics. Examining the mood of the class,
-as response to new material, assignment, exams or external events might help
-will help any student-centered teaching strategy, which will help students (and
-teachers) reach their learning objectives. This line of work, however, will be
-based on the introduction of some pilot study, combined with initial opinion
-assessment on the students.
+sentiment analysis as well as other analytics. Examining the mood of the class such 
+as responses to new materials, assignments, exams or external events will help
+any student-centered teaching strategy, which will also help students (and
+teachers) achieve their learning objectives. This line of work, however, would require
+the introduction of some pilot study combined with initial opinion
+assessments from students.
 
 
 \bibliographystyle{apalike}
