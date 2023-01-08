@@ -494,7 +494,7 @@ Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of
 mandatory virtual teaching.
 
 A total of 282 teachers responded to the survey: 193 teaching at the University
-(68.4\%) and 89 at other tertiary education institutions (31.6\%). \textcolor{black}{From those, 179 indicated their gender as male (63.5\%), 98 as female (34.8\%) and 5 teachers preferred not to indicate their gender (1.8\%). In terms of age, the majority of the participants (n=111) in this survey was 45-55 years old (39.4\%), while 91 teachers were 35-45 (32.3\%), 46 were 25-35 (16.3\%) and 34 teachers were older than 55 (12.1\%). Last, 84 teachers had a teaching experience of 16-25 years (29.8\%), 75 teachers 6-15 years of experience (26.6\%), 69 teachers had 0-5 years of experience (24.5\%) and finally, 54 teachers had more than 25 years of teaching experience (19.1\%).}
+(68.4\%) and 89 at other tertiary education institutions (31.6\%). From those, 179 indicated their gender as male (63.5\%), 98 as female (34.8\%) and 5 teachers preferred not to indicate their gender (1.8\%). In terms of age, the majority of the participants (n=111) in this survey was 45-55 years old (39.4\%), while 91 teachers were 35-45 (32.3\%), 46 were 25-35 (16.3\%) and 34 teachers were older than 55 (12.1\%). Last, 84 teachers had a teaching experience of 16-25 years (29.8\%), 75 teachers 6-15 years of experience (26.6\%), 69 teachers had 0-5 years of experience (24.5\%) and finally, 54 teachers had more than 25 years of teaching experience (19.1\%).
 
 Responses were stored automatically in a Google Drive spreadsheet. Eventually,
 the results from the two forms we used for the first survey were collated in a
@@ -511,7 +511,7 @@ A total of 205 teachers responded to the second survey: 187 graduate teachers (9
 
 \subsection{Survey validation}
 
-To avoid any bias and to be sure about the quality of the questionnaire, a panel board was consulted. There were three questions for each of the items of the questionnaire which were: Clarity, Importance, Adequateness.
+To avoid any kind of bias and to ensure the quality of the questionnaire, a panel board was consulted. There were three questions for each of the items of the questionnaire which were: Clarity, Importance, Adequateness.
 Clarity was measured as an answer to the question: Is the item well presented and without ambiguity? \footnote{Original text: ¿El ítem está bien redactado y sin ambigüedad?} with two choices: Yes or No.
 Both Importance and Adequateness were measured in a Likert scale from 1 to 4 (1 low, 4 high).
 
