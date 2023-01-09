@@ -1549,7 +1549,7 @@ bring major changes in attitude
 %(as a minor "crisis" we could mention any institutional event that brings about methodological changes, such as new higher education laws\footnote{We seem to have one of these, at least in Spain, every 10 years or so.}), 
 %or simply the introduction of new degrees. 
 Although changes driven by external forces do offer the chance of piloting new technologies, they do not
-seem to bring internal changes in teachers' attitudes (which, after all, is
+seem to bring internal changes in educators' attitudes (which, after all, is
 bound to be the same). In absence of a clear answer in this direction, the right
 moment to introduce new technologies is always when the IT and managing staff is
 ready to support it (since, as we have seen before, "official" support is one of
