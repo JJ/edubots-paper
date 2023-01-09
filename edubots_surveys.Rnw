@@ -531,25 +531,23 @@ We will present next the methodology we followed to find out teachers' opinions.
 \section{Methodology}
 \label{sec:meth}
 
-This study has employed a quantitative approach in order to address its research objective. A good amount of data was collected on the usage of messaging applications and chatbots by educators in universities and colleges.\footnote{In Spain, higher education institutions generally known elsewhere as colleges, are called simply high schools, and deliver
+This study has employed a quantitative approach in order to address its research objectives. A good amount of data was collected on the usage of messaging applications and chatbots by educators in universities and colleges.\footnote{In Spain, higher education institutions generally known elsewhere as colleges, are called simply high schools, and deliver
 tertiary or associate degrees that do not have the consideration of university degrees.}
 To achieve this goal two online surveys were designed and developed using Google Forms
 in Spanish. They are comprised of six questions focusing on demographic data
-(i.e., sector, gender, degrees, discipline, age, teaching experience)
+(i.e., sector, gender, degrees, discipline, age, or teaching experience)
 followed by several multiple choice questions allowing the participants to choose multiple answers.
 
-In the {\bf first survey}, the multiple choice questions are
-focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers would consider
-useful for their teaching and the impact of COVID on the teaching practice; please check them out to the full extent in the Appendix.\footnote{This {\bf first survey} was made in two separate Google forms, one for
-university and the other for teachers in tertiary education institutions, outside the university system (vocational training, including 1- and 2-year degrees). Questions and
+In the {\bf first survey}, multiple choice questions were
+focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that educators would consider
+useful for their teaching and the impact of COVID on the teaching practice; please, check them out to the full extent in the Appendix.\footnote{This {\bf first survey} was made in two separate Google forms, one for
+university and another for teachers in tertiary education institutions, outside the university system (vocational training, including 1- and 2-year degrees). Questions and
 responses were the same, except for the type of tertiary degrees that
-were considered.}
-
-This survey was piloted by the authors of the paper and their colleagues before using it in the
-study.  All the comments collected from this trial were incorporated in the survey.
-We primarily used mailing lists and Telegram groups to disseminate the survey link so that it would reach a larger number of educators. The form addressed at university teachers was sent to Spanish
-(mainly Andaluc\'{\i}a and Galicia) universities, and also  universities in Costa Rica and
-Mexico. The tertiary (non-university/college) teachers who received the form were based mainly in
+were considered.} This survey was piloted by the authors of this paper and their colleagues before using it in the
+study. All the comments collected from this trial were incorporated in the survey.
+We primarily used mailing lists and Telegram groups to disseminate the survey link so that it would reach a larger number of educators. The form targeting university teachers was sent to Spanish
+(mainly Andaluc\'{\i}a and Galicia) universities, and also universities in Costa Rica and
+Mexico. The tertiary (non-university/college) educators who received the form were based mainly in
 Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of
 2021, during the Covid-19 pandemic and while, at least in Spain, many universities had
 mandatory virtual teaching.
