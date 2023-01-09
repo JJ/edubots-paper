@@ -382,7 +382,7 @@ to answer pre-established frequent questions, it did so from the website of
 the University of Granada using an inset persona, voiced by a real person, who
 lip-synced the answers. However, in the case of Elvira, the emphasis was on the
 authenticity of the speech-mouth and face gestures synchronization rather than making updating
-of answered questions simpler, more interactive, or more open to the rest of the university staff using actual messaging platforms. In
+answered questions simpler or more interactive for the administrative staff, or more open to the rest of the university staff using actual messaging platforms. In
 most cases, the embedded search engine was able to provide more up-to-date
 and accurate answers than those provided by Elvira, which had to be updated
 by hand (and not too often). It was eventually discontinued, and its technology was not adapted to other platforms, since it did not really provide a useful service. Its service was not tied to teaching anyway; it was more related to directory queries and university-wide administrative questions, so even if it is strictly an example of a chatbot in a university setting, it is not really a chatbot that can be adopted by teachers to affect the learning outcomes, which is the focus of this paper.
