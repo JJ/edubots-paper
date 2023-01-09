@@ -1458,7 +1458,7 @@ the survey might explain why there are so few teachers, just 6.7\%, that answere
 use any messaging application. In general, universities provide official channels
 to communicate with students official academic information such as the exam schedule
 or the grades. The statistical mode is to use that kind of messaging. Some other
-teachers might not use it, but use some extraofficial or opt-in channels such as the others included in the survey; in the end, between these official and extra-official channels, most people cover their needs to communicate with students. This matches
+teaching staff might not use it, but use some extraofficial or opt-in channels such as the others included in the survey; in the end, between these official and extra-official channels, most people cover their needs to communicate with students. This matches
 our subjective experience, in general.
 
 Additionally, the question on COVID reflected the big challenge that represents
