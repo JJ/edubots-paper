@@ -1596,7 +1596,7 @@ help introduce these new technologies to the learning community.
 
 Based on the discussion of this study, we propose a potential process for introducing
 technology that would need to be piloted in order to determine its value and its
-relationship to improved learning outcomes and higher teacher satisfaction.
+relationship to improved learning outcomes and higher teacher staff satisfaction.
 
 Initially, institutions should introduce messaging automation tools that help with bureaucratic or repetitive tasks, such as answering frequently asked questions or providing information on class or assignment deadlines. 
 These chatbots will pave the way for more complex chatbots that will
