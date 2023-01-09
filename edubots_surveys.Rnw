@@ -250,9 +250,9 @@ Given the potential benefits that chatbots could bring to the classroom, the
 focus of the % EDUBOTS KA2 European project \footnote{https://www.edubots.eu},
 unnamed European project, the main sponsor of this study, is to explore best practices and innovative use of chatbots,
 and to create a learning community of educators in higher education institutions.
-Researchers and teachers participating in this project have developed several studies. Most of these works have been focused on how the
-messaging applications and/or chatbots are normally applied to deliver personalized learning in classrooms that occurs anytime anywhere,
-promote collaborative learning experiences, group discussions \cite{panah2020study} and boost students' sense of belonging to their institutions
+Researchers and teachers participating in this project have developed several studies. Most of these works have been focused on how 
+messaging applications and/or chatbots are normally applied to deliver personalized learning in classrooms that occurs anytime anywhere, and
+promote collaborative learning experiences or group discussions \cite{panah2020study}, and boost students' sense of belonging to their institutions
 \cite{abbas2021onlinechat}.
 The majority of these studies were conducted focusing on the teachers' perspectives, so this paper aims to provide more conclusions regarding
 their opinions and needs, as well as the existing challenges or opportunities that arise when adopting these technologies in classrooms. This will lead to clarify
@@ -291,10 +291,10 @@ tools and its potential impact on educational institutions policies. In order to
 \item RQ4 - Which kind of interaction media features do teachers value the most?
 \end{itemize}
 
-We will try to answer these research questions through the analysis of the two aforementioned surveys.
-Eventually, what we want to obtain is a series of
+We will try to respond to these research questions through the analysis of the answers provided by professors to the two aforementioned surveys.
+Eventually, the main research outcome of this survey should be a series of
 recommendations to make a successful deployment of chatbot technologies (and, in
-some cases, general instant messaging applications) in higher education; from the response to RQ1 and RQ4 we will try to recommend specific technologies or applications to be used in the classroom; the response to RQ2 and RQ3 will help us recommend chatbots features or specific platforms; and finally, from RQ3 we will also try to find best practices in the adoption of messaging platforms and they accompanying chatbots.
+some cases, general instant messaging applications) in higher education; from the response to RQ1 and RQ4 we will try to recommend specific technologies or applications to be deployed in the classroom; the response to RQ2 and RQ3 will help us recommend chatbots features or specific platforms; and finally, from RQ3 we will also try to find best practices in the adoption of messaging platforms and their matching chatbots.
 
 The remainder of the paper is organized as follows: first, an overview of what
 current research has found about the use of messaging applications, including
@@ -318,9 +318,9 @@ higher education institutions facilitates the delivery of personalized learning
 that occurs anytime anywhere, and promotes collaborative learning
 experiences and group discussions \cite{panah2020study}.
 
-WhatsApp is, at least in most Western countries, the most popular MIM platform
+WhatsApp is, at least in most Western countries, the most popular MIM platform. The reason is that it is the tool preferably
 used by educators to provide assignments' feedback to students, support course
-discussions, and contribute resources in informal learning settings
+discussions, and post learning resources in a semi-formal learning context
 \cite{panah2020study}.  Moreover, the use of WhatsApp in higher education could
 enhance social presence \cite{tang2017mobile} and foster trust relationships
 between educators and students embedded in the social learning process
@@ -338,19 +338,19 @@ norms for these MIM groups in order to maintain the safety of these online
 communities for students \cite{abbas2021onlinechat}. However, these rules should
 not affect students' ownership and control, since it is vital to advance in
 their learning \cite{gachago2015crossing} process.  This is why examining the
-role of MIM platforms in higher education is still a challenge, and why the opinions of
+role of MIM platforms in higher education, as well as applications based on them such as chatbots, is still a challenge, and why the opinions of
 the teaching community towards them have to be examined, as we do in this paper.
 
 % The Use of Chatbots in Higher Education
 The use of MIM platforms, although possibly valuable by itself, can be enhanced with the
-use of chatbots, which are conversational agents that normally dwell 
+use of chatbots, which are conversational agents that normally dwell in
 synchronous conversations systems. The use of chatbots in higher education is still in its early stages
 \cite{yang2019opportunities}. Nevertheless, recent studies have shown their
 positive impact on students' academic performance \cite{perez2020rediscovering}
 and engagement \cite{differ.chat,abbas2021onlinechat}, leading to a growing
 interest in using this technology in the (possibly virtual) classroom. Indeed,
 using chatbots to collect course feedback from students in higher
-education improved response quality and boosted enjoyment levels
+education improved the quality of responses given by students in their assignments, and boosted engagement levels
 \cite{abbas2021Surveys}.  According to \cite{Roblyer2010}, the use of
 mobile devices along with gamification strategies
 \cite{Yildirim2017} can improve student motivation. In this sense, the authors
@@ -362,8 +362,8 @@ students' knowledge and mitigating their feelings of isolation.
 Several studies to evaluate chatbots in higher education have been conducted. For
 instance, a comprehensive study was presented by Smutny and Schreiberova
 \cite{Smutny2020} reviewing 47 educational chatbots implemented in Facebook
-Messenger, with a focus on identifying characteristics and quality metrics such as
-language, subject matter, and platform. Pérez and collaborators
+Messenger, concluding that most of these chatbots were very basic and that programmers require of more support to develop and 
+offer tools for improving coaching methods and students learning. Pérez and collaborators
 \cite{perez2020rediscovering} attempted to categorize educational chatbots attending to their purpose 
 as service-oriented or teaching-oriented. Service-oriented chatbots
 include those that provide service support, such as Ask Holly
@@ -437,10 +437,10 @@ collected and taken into consideration
 \cite{sjostrom2018designing,tsivitanidouusers}. These needs include, but are not limited to, student learning success due to higher motivation, but these are a posteriori effects that cannot be assessed in advance. Both authors focus on what teachers need in terms of the latter; this paper will focus on a wider perspective, trying to determine what they are looking for in terms of general messaging technology. The classical literature \cite{tam91} already proposes that any adoption of technology must be tuned to the user needs and experience. In this paper, we will try to find out what those are in order to propose a successful model of adoption of chatbot technology.
 
 In line with this research, our previous work \cite{MoraChatbots2021:anon}
-aimed at analyzing the expectations of students in this regard. Recent papers
+aimed at analyzing the expectations of students in this regard. Another paper
 have also analysed how the use of chatbots affected the learning outcomes of
 students in a Chinese class \cite{doi:10.1177/0735633120929622}. This paper
-analysed conversational chatbots in a one-to-one setting, finding that learning
+considered conversational chatbots in a one-to-one setting, finding that learning
 truly benefited from it. This is, once again, an evidence of the benefit of
 chatbots in certain settings; however, there are some prior experiences, as well as needs, that may
 prevent the successful acceptance of the technology, and these are what we are
@@ -1537,7 +1537,7 @@ assessed as part of the process of achieving learning objectives.
 
 % Only some COVID-response relationship.
 In our survey, we could not find an answer about the right moment to introducing chatbot technologies. The response to questions regarding to change of
-behavior during and after the first stay-at-home stage of the pandemic do not suggest that a major (or minor, such as new higher education laws or the introduction of new degrees) crisis could be an opportunity to introduce new technologies. The reason being that it does not
+behavior during and after the first stay-at-home stage of the pandemic do not suggest that a major (or minor, such as new higher education laws\footnote{We seem to have one of these, at least in Spain, every 10 years or so.} or the introduction of new degrees) crisis could be an opportunity to introduce new technologies. The reason being that it does not
 bring major changes in attitude 
 %(as a minor "crisis" we could mention any institutional event that brings about methodological changes, such as new higher education laws\footnote{We seem to have one of these, at least in Spain, every 10 years or so.}), 
 %or simply the introduction of new degrees. 
