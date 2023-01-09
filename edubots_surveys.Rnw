@@ -352,7 +352,7 @@ synchronous conversations systems. The use of chatbots in higher education is st
 positive impact on students' academic performance \cite{perez2020rediscovering}
 and engagement \cite{differ.chat,abbas2021onlinechat}, leading to a growing
 interest in using this technology in the (possibly virtual) classroom. Indeed,
-the using chatbots to collect course feedback from students in higher
+using chatbots to collect course feedback from students in higher
 education improved response quality and boosted enjoyment levels
 \cite{abbas2021Surveys}.  According to \cite{Roblyer2010}, the use of
 mobile devices along with gamification strategies
