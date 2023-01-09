@@ -446,7 +446,7 @@ analysed conversational chatbots in a one-to-one setting, finding that learning
 truly benefited from it. This is, once again, an evidence of the benefit of
 chatbots in certain settings; however, there are some prior experiences, as well as needs, that may
 prevent the successful acceptance of the technology, and these are what we are
-trying to find out in this paper, alng with what kind of features would improve
+trying to find out in this paper, along with what kind of features would improve
 its acceptance.
 
 Besides, this work is focused on the other key actor in this challenge: 
