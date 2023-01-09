@@ -376,7 +376,7 @@ about schedules, grades, tutors, and societies. LISA \cite{dibitonto2018chatbot}
 and Differ \cite{differ.chat} facilitate breaking the ice between new students
 by introducing them to each other. Ranoliya et al. \cite{ranoliya2017chatbot}
 proposed a generic chatbot for university students that is able to answer 
-frequently asked questions. The University of Granada had
+frequently asked questions. The University of Granada deployed
 Elvira, a built-in chatbot in its main web page \cite{MOREO20129} to perform the same task. In addition to being able
 to answer pre-established frequent questions, it did so from the website of
 the University of Granada using an inset persona, voiced by a real person, who
