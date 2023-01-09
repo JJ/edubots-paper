@@ -381,7 +381,7 @@ Elvira, a chatbot embedded in its main web page \cite{MOREO20129} to perform the
 to answer pre-established frequent questions, it did so from the website of
 the University of Granada using an inset persona, voiced by a real person, who
 lip-synced the answers. However, in the case of Elvira, the emphasis was on the
-authenticity of the synchronization rather than making the updated 
+authenticity of the speech-mouth and face gestures synchronization rather than making updating
 of answered questions simpler, more interactive, or more open to the rest of the university staff using actual messaging platforms. In
 most cases, the embedded search engine was able to provide more up-to-date
 and accurate answers than those provided by Elvira, which had to be updated
