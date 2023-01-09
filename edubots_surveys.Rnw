@@ -1624,7 +1624,7 @@ more necessary.
 
 One of the questions in the {\bf second survey}, which asked about 
 the messaging applications used by tertiary education teachers, opens a new line
-of inquiry about what teachers {\em perceive} as such, and how it is used.
+of inquiry about what educators {\em perceive} as such, and how it is used.
 Namely, the responses indicated that teachers perceived as messaging
 application not only traditional chats or instant messaging app such
 as WhatsApp or Microsoft Teams, but also the means provided by their university for
