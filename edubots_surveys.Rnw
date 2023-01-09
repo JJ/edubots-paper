@@ -1476,7 +1476,7 @@ the option "Others". This may suggest that most teachers did not really understa
 at this point the actual potential of chatbots, since the responses listed were by no means exhaustive. If the responders were more acquainted with the possibilities of this technology, this response would possibly have shown up many more times. Another way to look at it is that, unless you provide the specific instructions on how to use a
 tool, the teaching staff is already too busy or burnt out to think about innovation.
 
-We can speculate that teachers' opinions of chatbots are influenced by negative
+We can speculate that teaching staff's opinions of chatbots are influenced by negative
 experiences with customer support chatbots, which is what most people are likely to have
 experienced. Further study may be needed to confirm this, but it is important to 
 keep in mind when introducing chatbot technologies in the classroom.
