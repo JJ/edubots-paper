@@ -317,7 +317,7 @@ The widespread and rapid adoption of free Mobile Instant Messaging
 (MIM) tools/platforms such as WhatsApp, Telegram, WeChat and Facebook
 Messenger stems from their simplicity, ease of use and multi-modality
 (i.e. video, audio, text) \cite{tang2017mobile}. Using these tools in
-higher education facilitates the delivery of personalized learning
+higher education institutions facilitates the delivery of personalized learning
 that occurs anytime anywhere, and promotes collaborative learning
 experiences and group discussions \cite{panah2020study}.
 
