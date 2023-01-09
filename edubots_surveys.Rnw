@@ -1524,7 +1524,7 @@ From a qualitative point of view, these results show consensus in a few key aspe
  \item Teachers need sustainability. The main reason is that implementing
    changes is expensive in terms of effort and prone to errors in the first
    years. Therefore, it is logical that if
-   chatbots or messaging platforms are to be introduced, teachers want this change
+   chatbots or messaging platforms are to be introduced, teaching staff want this change
    to be as permanent as possible.
  \item Keep it Simple. Media interaction requirements are simple and only 2.4\% of educators are requesting more features. This could be a sign of technological burnt out produced by the previous pandemic courses, when the use of computers significantly increased.
 \end{itemize}
