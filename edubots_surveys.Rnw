@@ -1529,7 +1529,7 @@ From a qualitative point of view, these results show consensus in a few key aspe
  \item Keep it Simple. Media interaction requirements are simple and only 2.4\% of educators are requesting more features. This could be a sign of technological burnt out produced by the previous pandemic courses, when the use of computers significantly increased.
 \end{itemize}
 
-The analysis of the questions related to RQ4 seems to indicate that teachers
+The analysis of the questions related to RQ4 seems to indicate that teaching staff
 prefer to share an interaction space with their students. As
 shown in Tables \ref{tab:kindinteractions} and \ref{tab:interaction}, the majority of responders
 indicated that they {\em do not} want unidirectional communication, and that they prefer
