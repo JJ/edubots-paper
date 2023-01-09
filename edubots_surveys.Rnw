@@ -546,7 +546,7 @@ In the next section, we present the results and analyse them.
 \label{sec:res}
 
 % Describe the survey and population
-We collected responses from 282 teachers from Spain and Spanish Speaking
+We collected responses from 282 teachers from Spain and Spanish-speaking
 countries for \textit{survey1} and 205 for \textit{survey2}. The two forms were
 open for approximately the same amount of time, around two months. The sample
 includes mostly teachers from university, although about 32\% and 8\% are from
