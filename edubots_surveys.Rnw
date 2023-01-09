@@ -401,7 +401,7 @@ students' acquired skills and knowledge. Using this chatbot, educators can
 create interactive instances in their lectures where they pose questions to
 their students and the chatbot assists those who need further help by giving
 them more hints and reporting it to the educator's dashboard
-\cite{fernoagua2018intelligent}. This can help educators identify
+\cite{fernoagua2018intelligent}. This could help educators identify
 students who need more attention and provide them with more educational resources
 relevant to their academic achievement. %In addition, a recent study
 %has analysed how the use of chatbots positively affected the learning outcomes
