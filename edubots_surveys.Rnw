@@ -423,7 +423,7 @@ with and can easily access (i.e. Facebook Messenger), which was confirmed by
 conceptualizing learners' questions could help designers integrate the
 appropriate types of questions that chatbots should support for different
 courses. Other authors, such as \cite{coronado2018cognitive}, have proposed agents that
-store learning materials to be provided on demand to students, while \cite{crockett2017predicting} 
+record learning materials to be provided on demand to students, while \cite{crockett2017predicting} 
 reported on tutoring systems that can
 perform initial assessments of students' understanding and provide learning
 materials to advance their understanding to the next level.
