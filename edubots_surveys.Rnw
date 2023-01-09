@@ -387,7 +387,7 @@ most cases, the embedded search engine was able to provide more up-to-date
 and accurate answers than those provided by Elvira, which had to be updated
 by hand (and not too often). It was eventually discontinued, and its technology was not adapted to other platforms, since it did not really provide a useful service. Its service was not tied to teaching anyway; it was more related to directory queries and university-wide administrative questions, so even if it is strictly an example of a chatbot in a university setting, it is not really a chatbot that can be adopted by teachers to affect the learning outcomes, which is the focus of this paper.
 
-On the other hand, teaching-oriented chatbots are more sophisticated, as they
+Contrarily to the mentioned chatbots that are focused on administrative tasks, teaching-oriented chatbots are more sophisticated, as they
 set personalized learning outcomes and monitor learning progress. For instance,
 \cite{fernoagua2018intelligent} reported on ``eduAssistant'', a virtual teaching
 assistant chatbot developed on the Telegram messaging platform. In this study,
