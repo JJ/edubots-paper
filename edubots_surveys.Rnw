@@ -361,7 +361,7 @@ in \cite{Pimmer2019} adopted a quasi-experimental, survey-based approach to
 report the positive impact of using instant messaging tools in boosting
 students' knowledge and mitigating their feelings of isolation.
 
-Several studies have been conducted to evaluate chatbots in higher education. For
+Several studies to evaluate chatbots in higher education have been conducted. For
 instance, a recent study was presented by Smutny and Schreiberova
 \cite{Smutny2020} reviewing 47 educational chatbots implemented in Facebook
 Messenger, with a focus on identifying characteristics and quality metrics such as
