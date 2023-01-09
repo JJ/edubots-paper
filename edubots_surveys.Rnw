@@ -1477,7 +1477,7 @@ at this point the actual potential of chatbots, since the responses listed were 
 tool, the teaching staff is already too busy or burnt out to think about innovation.
 
 We can speculate that teaching staff's opinions of chatbots are influenced by negative
-experiences with customer support chatbots, which is what most people are likely to have
+experiences with chatbots used in customer support, which is what most people are likely to have
 experienced. Further study may be needed to confirm this, but it is important to 
 keep in mind when introducing chatbot technologies in the classroom.
 To potentially change this existing perception, it will be necessary to make the chatbot as simple and satisfying to use as possible.
