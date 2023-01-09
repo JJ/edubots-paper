@@ -1485,7 +1485,7 @@ To potentially change this existing perception, it will be necessary to make cha
 Regarding gender grouping, both genders agree in their uses, so it seems not
 relevant at all. However, when we look at the plot containing the sector differentiation,
 it is interesting to note that university teaching staff are more likely to use chatbots 
-for grades and FAQs compared to other tertiary education teachers.
+for grades and FAQs compared to other tertiary education teaching staff.
 This seems reasonable as the frequency of seeing the students
 is lower at the University so, an automatic tool for grade notification for
 continuous evaluation would be more helpful.
