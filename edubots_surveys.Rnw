@@ -1119,7 +1119,7 @@ Others & 25 & 8.9 & 257 & 91.1 \\ \hline
 \end{table}
 
 
-The most beneficial use case for chatbots in higher education and vocational training is their ability to facilitate agenda formation and communication (171 positive response, 60.6\%), followed by the FAQs use case
+The most beneficial use case for chatbots in higher education and vocational training is their ability to facilitate agenda formation and communication (171 positive responses, 60.6\%), followed by the FAQs use case
 (148 positive responses, 52.5\%) and the sharing class material use case (136;
 48.2\%). A chi-square test of independence was performed to examine the relation
 among participants’ preferences for particular chatbot use cases. Out of the 171 teachers who consider useful the use of
