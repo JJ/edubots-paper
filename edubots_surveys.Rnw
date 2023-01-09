@@ -1513,7 +1513,7 @@ and synchrony as valuable in messaging apps.
 
 From a qualitative point of view, these results show consensus in a few key aspects:
 \begin{itemize}
- \item Teachers want to have support from their institutions. This
+ \item Teaching staff want to have support from their institutions. This
    is probably due to the strict European data regulations on data protection,
    but also to avoid the overhead required to sign up new students every year.
    In general, additional support with specific formation and access to IT help desk for specific features
