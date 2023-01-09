@@ -1519,7 +1519,7 @@ From a qualitative point of view, these results show consensus in a few key aspe
    In general, additional support with specific formation and access to IT help desk for specific features
    enhance the possibility of a successful adoption that improves the learning outcomes. This is supported by the result of the two
    surveys: they prefer whatever ``messaging'' application provided by
-   they the "officiality" of the platform, as shown in
+  as well as the fact that this application is the ``official'' for the university, as shown in
    Table \ref{tab:interaction}.
  \item Teachers need sustainability. The main reason is that implementing
    changes is expensive in terms of effort and prone to errors in the first
