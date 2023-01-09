@@ -362,8 +362,8 @@ students' knowledge and mitigating their feelings of isolation.
 Several studies to evaluate chatbots in higher education have been conducted. For
 instance, a comprehensive study was presented by Smutny and Schreiberova
 \cite{Smutny2020} reviewing 47 educational chatbots implemented in Facebook
-Messenger, with a focus on identifying characteristics and quality metrics such as
-language, subject matter, and platform. Pérez and collaborators
+Messenger, concluding that most of these chatbots were very basic and that programmers require of more support to develop and 
+offer tools for improving coaching methods and students learning. Pérez and collaborators
 \cite{perez2020rediscovering} attempted to categorize educational chatbots attending to their purpose 
 as service-oriented or teaching-oriented. Service-oriented chatbots
 include those that provide service support, such as Ask Holly
@@ -437,10 +437,10 @@ collected and taken into consideration
 \cite{sjostrom2018designing,tsivitanidouusers}. These needs include, but are not limited to, student learning success due to higher motivation, but these are a posteriori effects that cannot be assessed in advance. Both authors focus on what teachers need in terms of the latter; this paper will focus on a wider perspective, trying to determine what they are looking for in terms of general messaging technology. The classical literature \cite{tam91} already proposes that any adoption of technology must be tuned to the user needs and experience. In this paper, we will try to find out what those are in order to propose a successful model of adoption of chatbot technology.
 
 In line with this research, our previous work \cite{MoraChatbots2021:anon}
-aimed at analyzing the expectations of students in this regard. Recent papers
+aimed at analyzing the expectations of students in this regard. Another paper
 have also analysed how the use of chatbots affected the learning outcomes of
 students in a Chinese class \cite{doi:10.1177/0735633120929622}. This paper
-analysed conversational chatbots in a one-to-one setting, finding that learning
+considered conversational chatbots in a one-to-one setting, finding that learning
 truly benefited from it. This is, once again, an evidence of the benefit of
 chatbots in certain settings; however, there are some prior experiences, as well as needs, that may
 prevent the successful acceptance of the technology, and these are what we are
@@ -1537,7 +1537,7 @@ assessed as part of the process of achieving learning objectives.
 
 % Only some COVID-response relationship.
 In our survey, we could not find an answer about the right moment to introducing chatbot technologies. The response to questions regarding to change of
-behavior during and after the first stay-at-home stage of the pandemic do not suggest that a major (or minor, such as new higher education laws or the introduction of new degrees) crisis could be an opportunity to introduce new technologies. The reason being that it does not
+behavior during and after the first stay-at-home stage of the pandemic do not suggest that a major (or minor, such as new higher education laws\footnote{We seem to have one of these, at least in Spain, every 10 years or so.} or the introduction of new degrees) crisis could be an opportunity to introduce new technologies. The reason being that it does not
 bring major changes in attitude 
 %(as a minor "crisis" we could mention any institutional event that brings about methodological changes, such as new higher education laws\footnote{We seem to have one of these, at least in Spain, every 10 years or so.}), 
 %or simply the introduction of new degrees. 
