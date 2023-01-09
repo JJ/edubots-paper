@@ -250,9 +250,9 @@ Given the potential benefits that chatbots could bring to the classroom, the
 focus of the % EDUBOTS KA2 European project \footnote{https://www.edubots.eu},
 unnamed European project, the main sponsor of this study, is to explore best practices and innovative use of chatbots,
 and to create a learning community of educators in higher education institutions.
-Researchers and teachers participating in this project have developed several studies. Most of these works have been focused on how the
-messaging applications and/or chatbots are normally applied to deliver personalized learning in classrooms that occurs anytime anywhere,
-promote collaborative learning experiences, group discussions \cite{panah2020study} and boost students' sense of belonging to their institutions
+Researchers and teachers participating in this project have developed several studies. Most of these works have been focused on how 
+messaging applications and/or chatbots are normally applied to deliver personalized learning in classrooms that occurs anytime anywhere, and
+promote collaborative learning experiences or group discussions \cite{panah2020study}, and boost students' sense of belonging to their institutions
 \cite{abbas2021onlinechat}.
 The majority of these studies were conducted focusing on the teachers' perspectives, so this paper aims to provide more conclusions regarding
 their opinions and needs, as well as the existing challenges or opportunities that arise when adopting these technologies in classrooms. This will lead to clarify
@@ -318,9 +318,9 @@ higher education institutions facilitates the delivery of personalized learning
 that occurs anytime anywhere, and promotes collaborative learning
 experiences and group discussions \cite{panah2020study}.
 
-WhatsApp is, at least in most Western countries, the most popular MIM platform
+WhatsApp is, at least in most Western countries, the most popular MIM platform. The reason is that it is the tool preferably
 used by educators to provide assignments' feedback to students, support course
-discussions, and contribute resources in informal learning settings
+discussions, and post learning resources in a semi-formal learning context
 \cite{panah2020study}.  Moreover, the use of WhatsApp in higher education could
 enhance social presence \cite{tang2017mobile} and foster trust relationships
 between educators and students embedded in the social learning process
@@ -338,19 +338,19 @@ norms for these MIM groups in order to maintain the safety of these online
 communities for students \cite{abbas2021onlinechat}. However, these rules should
 not affect students' ownership and control, since it is vital to advance in
 their learning \cite{gachago2015crossing} process.  This is why examining the
-role of MIM platforms in higher education is still a challenge, and why the opinions of
+role of MIM platforms in higher education, as well as applications based on them such as chatbots, is still a challenge, and why the opinions of
 the teaching community towards them have to be examined, as we do in this paper.
 
 % The Use of Chatbots in Higher Education
 The use of MIM platforms, although possibly valuable by itself, can be enhanced with the
-use of chatbots, which are conversational agents that normally dwell 
+use of chatbots, which are conversational agents that normally dwell in
 synchronous conversations systems. The use of chatbots in higher education is still in its early stages
 \cite{yang2019opportunities}. Nevertheless, recent studies have shown their
 positive impact on students' academic performance \cite{perez2020rediscovering}
 and engagement \cite{differ.chat,abbas2021onlinechat}, leading to a growing
 interest in using this technology in the (possibly virtual) classroom. Indeed,
 using chatbots to collect course feedback from students in higher
-education improved response quality and boosted enjoyment levels
+education improved the quality of responses given by students in their assignments, and boosted engagement levels
 \cite{abbas2021Surveys}.  According to \cite{Roblyer2010}, the use of
 mobile devices along with gamification strategies
 \cite{Yildirim2017} can improve student motivation. In this sense, the authors
