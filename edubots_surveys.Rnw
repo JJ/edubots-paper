@@ -369,7 +369,7 @@ language, subject matter, and platform. Pérez and collaborators
 \cite{perez2020rediscovering} attempted to categorize educational chatbots attending to their purpose 
 as service-oriented or teaching-oriented. Service-oriented chatbots
 include those that provide service support, such as Ask Holly
-\cite{meetholly} and Dina \cite{santoso2018dinus}, which responds to
+\cite{meetholly} and Dina \cite{santoso2018dinus}, which respond to
 students' questions about enrollment and registration. Ask L. U.
 \cite{LancasterUniversity_2019} answers students' frequently asked questions
 about schedules, grades, tutors, and societies. LISA \cite{dibitonto2018chatbot}
