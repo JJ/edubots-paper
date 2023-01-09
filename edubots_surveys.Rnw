@@ -263,12 +263,12 @@ In this study, data collection involved two phases:
 \item The first phase aimed to collect feedback from students about their
   students’ preferences of tools/applications for chatting and
   messaging, how they use them in educational context, who they like to be
-  with in the class messaging groups, and their expectations of chatbots 
+  with in the class messaging groups, and their expectations of chatbots
   in assisting them during their learning process. Therefore, two surveys
   for bachelor and master degree students at the University of Granada (Spain)
   were designed and answers from more than 250 students were collected. The key
   findings of the students' surveys reveal that they prefer to use messaging
-  familiar applications, such as Telegram or WhatsApp. 
+  familiar applications, such as Telegram or WhatsApp.
   Students also expressed interest in chatbots that can assist them with
   organizing their course schedules, help them access their assignment grades
   and facilitate searching for resources.
@@ -291,7 +291,7 @@ tools and its potential impact on educational institutions policies. In order to
 \item RQ4 - Which kind of interaction media features do teachers value the most?
 \end{itemize}
 
-We will try to answer these research questions through the analysis of the two aforementioned surveys. 
+We will try to answer these research questions through the analysis of the two aforementioned surveys.
 Eventually, what we want to obtain is a series of
 recommendations to make a successful deployment of chatbot technologies (and, in
 some cases, general instant messaging applications) in higher education; from the response to RQ1 and RQ4 we will try to recommend specific technologies or applications to be used in the classroom; the response to RQ2 and RQ3 will help us recommend chatbots features or specific platforms; and finally, from RQ3 we will also try to find best practices in the adoption of messaging platforms and they accompanying chatbots.
@@ -467,33 +467,31 @@ opinions.
 \section{Methodology}
 \label{sec:meth}
 
-\textcolor{black}{This study followed a quantitative approach towards addressing its research objective, by collecting rich data about the use of messaging applications and chatbots
-by educators in both universities and colleges\footnote{In Spain, they are called simply high schools, and deliver
-tertiary or associated degrees that do not have the consideration of university degrees}.
+This study has employed a quantitative approach in order to address its research objective. A good amount of data was collected on the usage of messaging applications and chatbots by educators in universities and colleges.\footnote{In Spain, higher education institutions generally known elsewhere as colleges, are called simply high schools, and deliver
+tertiary or associate degrees that do not have the consideration of university degrees.}
 To achieve this goal two online surveys were designed and developed using Google Forms
 in Spanish. They are comprised of six questions focusing on demographic data
 (i.e., sector, gender, degrees, discipline, age, teaching experience)
-followed by several multiple choice questions allowing the participants to choose multiple answers.}
+followed by several multiple choice questions allowing the participants to choose multiple answers.
 
 In the {\bf first survey}, the multiple choice questions are
-focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers consider
+focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that teachers would consider
 useful for their teaching and the impact of COVID on the teaching practice; please check them out to the full extent in the Appendix.\footnote{This {\bf first survey} was made in two separate Google forms, one for
 university and the other for teachers in tertiary education institutions, outside the university system (vocational training, including 1- and 2-year degrees). Questions and
 responses were the same, except for the type of tertiary degrees that
 were considered.}
 
-\textcolor{black}{This survey was piloted by the authors of the paper and their colleagues before using it in the
+This survey was piloted by the authors of the paper and their colleagues before using it in the
 study.  All the comments collected from this trial were incorporated in the survey.
-We mainly used mailing lists, as well as Telegram groups,
-to post the survey link to reach out to more educators. The university form was sent to Spanish
+We primarily used mailing lists and Telegram groups to disseminate the survey link so that it would reach a larger number of educators. The form addressed at university teachers was sent to Spanish
 (mainly Andaluc\'{\i}a and Galicia) universities, and also  universities in Costa Rica and
-Mexico. The tertiary (non-university/college) teachers were based mainly in
+Mexico. The tertiary (non-university/college) teachers who received the form were based mainly in
 Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of
 2021, during the Covid-19 pandemic and while, at least in Spain, many universities had
-mandatory virtual teaching.}
+mandatory virtual teaching.
 
 A total of 282 teachers responded to the survey: 193 teaching at the University
-(68.4\%) and 89 at other tertiary education institutions (31.6\%). \textcolor{black}{From those, 179 indicated their gender as male (63.5\%), 98 as female (34.8\%) and 5 teachers preferred not to indicate their gender (1.8\%). In terms of age, the majority of the participants (n=111) in this survey was 45-55 years old (39.4\%), while 91 teachers were 35-45 (32.3\%), 46 were 25-35 (16.3\%) and 34 teachers were older than 55 (12.1\%). Last, 84 teachers had a teaching experience of 16-25 years (29.8\%), 75 teachers 6-15 years of experience (26.6\%), 69 teachers had 0-5 years of experience (24.5\%) and finally, 54 teachers had more than 25 years of teaching experience (19.1\%).}
+(68.4\%) and 89 at other tertiary education institutions (31.6\%). From those, 179 indicated their gender as male (63.5\%), 98 as female (34.8\%) and 5 teachers preferred not to indicate their gender (1.8\%). In terms of age, the majority of the participants (n=111) in this survey was 45-55 years old (39.4\%), while 91 teachers were 35-45 (32.3\%), 46 were 25-35 (16.3\%) and 34 teachers were older than 55 (12.1\%). Last, 84 teachers had a teaching experience of 16-25 years (29.8\%), 75 teachers 6-15 years of experience (26.6\%), 69 teachers had 0-5 years of experience (24.5\%) and finally, 54 teachers had more than 25 years of teaching experience (19.1\%).
 
 Responses were stored automatically in a Google Drive spreadsheet. Eventually,
 the results from the two forms we used for the first survey were collated in a
@@ -510,7 +508,7 @@ A total of 205 teachers responded to the second survey: 187 graduate teachers (9
 
 \subsection{Survey validation}
 
-To avoid any bias and to be sure about the quality of the questionnaire, a panel board was consulted. There were three questions for each of the items of the questionnaire which were: Clarity, Importance, Adequateness.
+To avoid any kind of bias and to ensure the quality of the questionnaire, a panel board was consulted. There were three questions for each of the items of the questionnaire which were: Clarity, Importance, Adequateness.
 Clarity was measured as an answer to the question: Is the item well presented and without ambiguity? \footnote{Original text: ¿El ítem está bien redactado y sin ambigüedad?} with two choices: Yes or No.
 Both Importance and Adequateness were measured in a Likert scale from 1 to 4 (1 low, 4 high).
 
@@ -537,7 +535,7 @@ As validation shows, all expert agree without any doubt about the clarity of eac
 \end{table}
 
 
-Next, we show the results and analyse them.
+In the next section, we present the results and analyse them.
 
 % ********************** RESULTS ****************************
 
@@ -545,7 +543,7 @@ Next, we show the results and analyse them.
 \label{sec:res}
 
 % Describe the survey and population
-We collected responses from 282 teachers from Spain and Spanish Speaking
+We collected responses from 282 teachers from Spain and Spanish-speaking
 countries for \textit{survey1} and 205 for \textit{survey2}. The two forms were
 open for approximately the same amount of time, around two months. The sample
 includes mostly teachers from university, although about 32\% and 8\% are from
@@ -569,8 +567,8 @@ Group messaging apps have become a powerful tool for \textcolor{black}{communica
 students. Also, many of them have built-in chatbots to enhance the learning
 process. After an initial analysis to the answers to the first survey, we
 realized that there were some prior issues mainly related to the adoption of a
-technology, \textcolor{black}{i.e. chatbots}, that generally piggybacks on another, \textcolor{black}{i.e. messaging
-applications. Generally,} in a technology adoption model, perceived ease of use and
+technology, \textcolor{black}{i.e. chatbots}, that generally piggybacks on another, i.e. messaging
+applications. Generally, in a technology adoption model, perceived ease of use and
 perceived usefulness are essential. But it is going to be very difficult for
 teachers to find {\em chatbots} easy to use if they, previously, do not
 consider, or simply use, the messaging tools to which they are attached.
@@ -816,7 +814,7 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = ..count.., group=
     % Have different sub-captions so that we can refer to specific subfigures - Olia
 \end{figure}
 
-A chi-square test of independence was performed to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the covid-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. The frequencies cross tabulated are given in Table \ref{tab:sector*covid}. In effect, this finding indicates that how teachers responded to the use of messaging apps during the pandemic and in particular, whether they changed their habits in the use of apps for teaching purposes, was related to their sector (university vs vocational).
+Furthermore, a chi-square test of independence was performed in order to examine the relation between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the COVID-19 pandemic. The relation between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. Table \ref{tab:sector*covid} shows the frequencies that are cross-tabulated vs. changes undertaken after the COVID pandemic. This finding suggests that how teachers used messaging apps during the pandemic, specifically whether they changed their habits for teaching purposes, was related to the sector (university vs vocational) in which they were working.
 %
 \begin{table}[h!tbp]
 \begin{tabular}{llccc}
@@ -1118,9 +1116,7 @@ Others & 25 & 8.9 & 257 & 91.1 \\ \hline
 \end{table}
 
 
-The most favorable use case for chatbots in
-Higher Education and vocational training is their use for the facilitation of an
-agenda formation (171 positive response, 60.6\%), followed by the FAQs use case
+The most beneficial use case for chatbots in higher education and vocational training is their ability to facilitate agenda formation and communication (171 positive responses, 60.6\%), followed by the FAQs use case
 (148 positive responses, 52.5\%) and the sharing class material use case (136;
 48.2\%). A chi-square test of independence was performed to examine the relation
 among participants’ preferences for particular chatbot use cases. Out of the 171 teachers who consider useful the use of
@@ -1567,8 +1563,8 @@ the factors that is most valued by teachers).
 \section{Conclusions}
 \label{sec:concl}
 
-The key findings of this study shed the light on educators’ preference to use
-messaging applications that their institutions support.  Technology adoption
+The key findings of this study shed light on educators’ preference to use
+messaging applications that their institutions support. Technology adoption
 literature often \textcolor{black}{focuses} on users’ perceptions of the technology’s usefulness and
 ease of use as important prerequisites for successful adoption and
 utilization. Nevertheless, in higher education, institutions’ role in
@@ -1594,7 +1590,6 @@ with higher retention in higher education \cite{o2014front}.  Therefore, both
 perspectives are complementary and play different roles in promoting the
 learning process.
 
-% Noorhan suggest that using some simple things could increase the perceived usefulness - JJ
 As in many other methodologies that try to assess technology acceptance, answers to the survey suggest
 that the introduction of simple, and institution-supported, instant messaging
 and chatbot technologies would increase the perceived usefulness (which is one
@@ -1649,9 +1644,7 @@ does not matter so much how that need is covered. However, this will need carefu
 consideration, including how it ties with the automation of the learning
 experience that the chatbots bring.
 
-% Future study (suggested by Noorhan): how COVID influenced adoption of these technologies.
-There are several future lines of work informed by our results of this
-survey. For instance, the rollout of extensive videoconferencing and virtual
+Our analysis of the results of this survey can be fed into several potential avenues for future research. For instance, the rollout of extensive videoconferencing and virtual
 teaching solutions that the COVID pandemic has brought has also taught us a
 series of lessons. It increases isolation, for instance, and decreases the
 amount of synchronous contact that happens in the fringes of the classroom:
@@ -1706,8 +1699,8 @@ All the authors have contributed to the study presented in this manuscript. (Res
 % PAC has revised the paper and researched the state of the art, as well as contributed to the survey design.
 % AMM has revised the paper and researched the state of the art, as well as contributed to the survey design.
 % FB has made the analysis and processed data and contributed to the survey design.
-% NA has supervised the state of the art, and written the bulk of it, as well as contributed to discussion and conclusions.
-% OT has performed data analysis, and contributed to discussion and conclusions.
+% NA has supervised the writing  of the section devoted to the state of the art and written the bulk of it, as well as contributed to discussion and conclusions.
+% OT has performed data analysis, and contributed to discussion and conclusions, as well as reviewed and rewritten part of the paper.
 % AG has contributed to the design of the survey, analysis, discussion and conclusions.
 
 All authors have read and approved the final manuscript.
