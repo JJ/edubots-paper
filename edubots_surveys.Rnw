@@ -291,10 +291,10 @@ tools and its potential impact on educational institutions policies. In order to
 \item RQ4 - Which kind of interaction media features do teachers value the most?
 \end{itemize}
 
-We will try to answer these research questions through the analysis of the two aforementioned surveys.
-Eventually, what we want to obtain is a series of
+We will try to respond to these research questions through the analysis of the answers provided by professors to the two aforementioned surveys.
+Eventually, the main research outcome of this survey should be a series of
 recommendations to make a successful deployment of chatbot technologies (and, in
-some cases, general instant messaging applications) in higher education; from the response to RQ1 and RQ4 we will try to recommend specific technologies or applications to be used in the classroom; the response to RQ2 and RQ3 will help us recommend chatbots features or specific platforms; and finally, from RQ3 we will also try to find best practices in the adoption of messaging platforms and they accompanying chatbots.
+some cases, general instant messaging applications) in higher education; from the response to RQ1 and RQ4 we will try to recommend specific technologies or applications to be deployed in the classroom; the response to RQ2 and RQ3 will help us recommend chatbots features or specific platforms; and finally, from RQ3 we will also try to find best practices in the adoption of messaging platforms and their matching chatbots.
 
 The remainder of the paper is organized as follows: first, an overview of what
 current research has found about the use of messaging applications, including
