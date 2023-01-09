@@ -1490,7 +1490,7 @@ This seems reasonable as the frequency of seeing the students
 is lower at the University so, an automatic tool for grade notification for
 continuous evaluation would be more helpful.
 Furthermore, the high student-to-teacher
-ratios that university teachers often face could be another reason why
+ratios that university educators often face could be another reason why
 a higher number of them are willing to use chatbots for FAQs, as this could
 reduce misunderstandings and email overload from students.
 
