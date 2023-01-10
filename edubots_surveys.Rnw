@@ -340,8 +340,7 @@ collected, again following the methodology that will be
 explained later. The questions of the second survey focused on asking about
 teachers' needs, opinions and preferences of the development of future
 technology-enhanced tools and its potential impact on educational institutions
-policies. In order to assess these, this paper laid out the following
-research questions:
+policies. In order to evaluate these factors, this paper presents the following research questions:
 
 \begin{itemize}
 \item RQ1 - Do teachers use now or want to use messaging apps in their classes?
