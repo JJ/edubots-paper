@@ -325,7 +325,7 @@ discussions, and post learning resources in a semi-formal learning context
 enhance social presence \cite{tang2017mobile} and foster trust relationships
 between educators and students embedded in the social learning process
 \cite{gachago2015crossing}. However, this last paper also reflects the need for
-learners to "take ownership of the tool" and the advantages of social learning
+learners to ``take ownership of the tool'' and the advantages of social learning
 in general. At the same time, it also mentions different challenges, among which
 the most important is the blurring of social and academic life; indeed, there are challenges when using MIM tools that occur due to the
 blurring of boundaries between academic and private life. This can lead to
@@ -506,7 +506,7 @@ A total of 205 educators responded to the second survey: 187 graduate teachers (
 \subsection{Survey validation}
 
 To avoid any kind of bias and to ensure the quality of the questionnaire, a panel of experts was consulted. The panel board evaluated three aspects for each item of the questionnaire: Clarity, Importance, and Adequateness.
-Clarity was measured as an answer to the question: ``Is the item well presented and without ambiguity?" \footnote{Original text in Spanish: ¿El ítem está bien redactado y sin ambigüedad?} with two choices: ``Yes" or ``No".
+Clarity was measured as an answer to the question: ``Is the item well presented and without ambiguity?'' \footnote{Original text in Spanish: ¿El ítem está bien redactado y sin ambigüedad?} with two choices: ``Yes'' or ``No''.
 Both Importance and Adequateness were measured on a Likert scale from 1 to 4 (1 being low and 4 being high).
 
 The panel board was composed of 7 volunteer experts that have wide experience as educators and researchers. The results obtained are summarized in Table \ref{tab:validation}.
@@ -808,7 +808,7 @@ ggplot(survey.pilot.postCOVID, aes( x = PostCOVID.changes, y = after_stat(count)
     % Have different sub-captions so that we can refer to specific subfigures - Olia
 \end{figure}
 
-Furthermore, a chi-square test of independence was performed in order to examine the relationship between instructors’ discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the COVID-19 pandemic. The relationship between the latter variable and the instructors’ sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. Table \ref{tab:sector*covid} shows the frequencies that are cross-tabulated versus changes undertaken after the COVID-19 pandemic. This finding suggests that how teachers used messaging apps during the pandemic, specifically whether they changed their habits for teaching purposes, was related to the sector (university vs. vocational) in which they were working.
+Furthermore, a chi-square test of independence was performed in order to examine the relationship between instructors' discipline, sector, and gender and any potential changes that occurred to the use of messaging apps due to the COVID-19 pandemic. The relationship between the latter variable and the instructors' sector was significant, $X^{2}_{(4, N = 282)} = 9.598$, $p =0.048$. Table \ref{tab:sector*covid} shows the frequencies that are cross-tabulated versus changes undertaken after the COVID-19 pandemic. This finding suggests that how teachers used messaging apps during the pandemic, specifically whether they changed their habits for teaching purposes, was related to the sector (university vs. vocational) in which they were working.
 %
 \begin{table}[h!tbp]
 \begin{tabular}{llccc}
@@ -834,9 +834,9 @@ The majority of the teachers (n=165) mentioned that no changes in their habits o
  & \multicolumn{1}{c}{} & \multicolumn{3}{c}{Gender} & Total \\ \cline{3-6}
  & \multicolumn{1}{c}{} & \begin{tabular}[c]{@{}c@{}}Male \\ (f)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Female\\ (f)\end{tabular} &  \begin{tabular}[c]{@{}c@{}}PNTS\\ (f)\end{tabular} & \\ \cline{2-6}
 \multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Post-covid\\ changes\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Yes, I use a safer messaging \\ app now\end{tabular} & 20 & 20 & 0 & 40 \\
- & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use any \\ messaging app before, but \\ do use it now\end{tabular} & 20 & 23 & 1 & 44 \\
+ & \begin{tabular}[c]{@{}l@{}}Yes, I didn't use any \\ messaging app before, but \\ do use it now\end{tabular} & 20 & 23 & 1 & 44 \\
  & \begin{tabular}[c]{@{}l@{}}No, I did use it before and \\ use it now\end{tabular} & 114 & 47 & 4 & 165 \\
- & \begin{tabular}[c]{@{}l@{}}No, I didn’t use it before and \\ don’t use it now\end{tabular} & 18 & 6 & 0 & 24 \\
+ & \begin{tabular}[c]{@{}l@{}}No, I didn't use it before and \\ don’t use it now\end{tabular} & 18 & 6 & 0 & 24 \\
  & Other & 7 & 2 & 0 & 9 \\
 Total &  & 179 & 98 & 5 & 282 \\ \hline
 \end{tabular}
@@ -1339,7 +1339,7 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Disci
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{RQ4 - What kind of interaction media features do teachers value the most? }
+\subsection{RQ4 - Which kind of interaction media features do teachers value the most? }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -1372,8 +1372,8 @@ Other & 5 & 2.4 & 200 & 97.6 \\
 \label{tab:interaction}
 \end{table}
 
-\textcolor{black}{As it can be seen in the table, the bulk of responders express their wish to use a sustainable and official application, i.e. both being approved or provided by the University (or the educational center), and also maintained by the technical staff of the center instead of giving this responsibility/task to the teacher.
-In addition, it is very important for the teachers that the used tools that all the members of the class communicate, including themselves; as well as being already known or used in everyday tasks, e.g. Telegram or WhatsApp.}
+As show in Table \ref{tab:interaction}, the bulk of responders expressed their wish to use a sustainable and official application, i.e. both being approved or provided by their educational institution, and also maintained by the technical staff of the institution instead of giving this responsibility/task to the teacher.
+In addition, it is very important for teachers that used the tools that all the members of the class communicate, including themselves; as well as using tools that are already known or used in everyday tasks, e.g. Telegram or WhatsApp.
 
 A chi-square test of independence was performed to examine the potential relationship among the various features. The statistically significant correlations are given in Table \ref{tab:interactionfeatures}.
 
@@ -1389,7 +1389,7 @@ Horizontality &  &  - & ns & ns & ns & ns & ns & $5.453^{*}$ \\
 \begin{tabular}[c]{@{}l@{}}Official\\  formation\end{tabular} &  & &  & - & $8.163^{**}$ & ns & ns & ns  \\
 \end{tabular}}
 \vspace{0.8em}
-\caption{Interaction media features analysis ($^{***}p<0.001$, $^{**}p<0.01$, $^{*}p<0.05$). Columns and rows with no significant interaction have been suppressed for clarity. Every cell value represents $X^{2}_{(1, N = 205)}$. Details about each feature can be read in Appendix I.}
+\caption{Interaction media features analysis ($^{***}p<0.001$, $^{**}p<0.01$, $^{*}p<0.05$). Columns and rows with no significant interaction have been suppressed for clarity. Every cell value represents $X^{2}_{(1, N = 205)}$. Details about each feature can be found in Appendix I.}
 \label{tab:interactionfeatures}
 \end{table}
 
@@ -1397,17 +1397,17 @@ Finally, a two-step cluster analysis was conducted, with a log-likelihood
 distance measure adopted, to explore how the use cases could be grouped based on
 their preferences of specific interaction media features, and which features
 have larger predictor importance for the clustering (see
-Fig. \ref{figure:predictor}). Two clusters occurred from the analysis: cluster 1
+Fig. \ref{figure:predictor}). Two clusters resulted from the analysis: cluster 1
 (n=78, 60.9\%) is formed with instructors who did not value interaction media
-pluggability, connectivity, official formation, but valued interaction media
-analytics, familiarity, support by the institution; cluster 2 (n=50,
+pluggability, connectivity, and official formation, but valued interaction media
+analytics, familiarity, and support by their institution; cluster 2 (n=50,
 39.1\%) groups instructors that did not value media
-analytics, official formation, familiarity, but valued pluggability,
-connectivity, and support by the institution. Interaction media pluggability
+analytics, official formation, and familiarity, but valued pluggability,
+connectivity, and support by their institution. Interaction media pluggability
 appears to have the most important predictor importance in the clustering of
 cases (predictor importance = 1.0), whilst media unidirectionality was the least
 important factor (predictor importance = 0.04). The cluster quality is fair, but
-not a good one (silhouette measure of cohesion and separation).
+not a good one (as indicated by the silhouette measure of cohesion and separation).
 
 \begin{figure}[h!tbp]
 \begin{center}
@@ -1461,7 +1461,7 @@ One of the most interesting questions arising from the analysis of the
 results, and that should require further study, is: Are teachers really aware
 of the possibilities of chatbots in the classroom? The survey
 only listed a few functionalities for the chatbots, and just a few subjects selected
-the option "Others". This may suggest that most teachers did not really understand
+the option ``Others''. This may suggest that most teachers did not really understand
 at this point the actual potential of chatbots, since the responses listed were by no means exhaustive. If the responders were more acquainted with the possibilities of this technology, this response would possibly have shown up many more times. Another way to look at it is that, unless you provide the specific instructions on how to use a
 tool, the teaching staff is already too busy or burnt out to think about innovation.
 
@@ -1535,13 +1535,13 @@ assessed as part of the process of achieving learning objectives.
 In our survey, we could not find an answer about the right moment to introducing chatbot technologies. The response to questions regarding to change of
 behavior during and after the first stay-at-home stage of the pandemic do not suggest that a major (or minor, such as new higher education laws\footnote{We seem to have one of these, at least in Spain, every 10 years or so.} or the introduction of new degrees) crisis could be an opportunity to introduce new technologies. The reason being that it does not
 bring major changes in attitude 
-%(as a minor "crisis" we could mention any institutional event that brings about methodological changes, such as new higher education laws\footnote{We seem to have one of these, at least in Spain, every 10 years or so.}), 
+%(as a minor ``crisis'' we could mention any institutional event that brings about methodological changes, such as new higher education laws\footnote{We seem to have one of these, at least in Spain, every 10 years or so.}), 
 %or simply the introduction of new degrees. 
 Although changes driven by external forces do offer the chance of piloting new technologies, they do not
 seem to bring internal changes in educators' attitudes (which, after all, is
 bound to be the same). In absence of a clear answer in this direction, the right
 moment to introduce new technologies is always when the IT and managing staff is
-ready to support it (since, as we have seen before, "official" support is one of
+ready to support it (since, as we have seen before, ``official'' support is one of
 the factors that is most valued by teachers).
 
 % ********************** CONCLUSIONS ****************************
