@@ -1070,7 +1070,7 @@ corrplot(chisq$residuals, is.corr = FALSE)
     }
     \end{minipage}
 \end{center}
-    \caption{Analysis for discipline and post-COVID-19 changes: left) Pearson's residuals for the Chi-square test; right) Discipline*post-COVID-19 changes crosstabulation, including standardized residuals \cite{agresti2013categorical} (also adjusted standardized residuals) and contribution percentage to the total Chi-square test of each cell.}
+    \caption{Analysis for discipline and post-COVID-19 changes: left) Pearson's residuals for the Chi-square test; right) Discipline*post-COVID-19 changes cross-tabulation, including standardized residuals \cite{agresti2013categorical} (also adjusted standardized residuals) and contribution percentage to the total Chi-square test of each cell.}
 \label{figure:discipline*postcovid_chisq}
 \end{figure}
 %
