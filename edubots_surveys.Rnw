@@ -433,8 +433,8 @@ offer tools for improving coaching methods and students learning. Pérez and col
 as service-oriented or teaching-oriented. Service-oriented chatbots
 include those that provide service support, such as Ask Holly
 \cite{meetholly} and Dina \cite{santoso2018dinus}, which respond to
-students' questions about enrollment and registration. Ask L. U.
-\cite{LancasterUniversity_2019} answers students' frequently asked questions
+students' questions about enrollment and registration. Ask L. U.\footnote{"Lancaster University launch pioneering chatbot companion for students", {\tt https://www.lancaster.ac.uk/news/lancaster-university-launch-pioneering-chatbot-companion-for-students}.}
+answers students' frequently asked questions
 about schedules, grades, tutors, and societies. LISA \cite{dibitonto2018chatbot}
 and Differ \cite{differ.chat} facilitate breaking the ice between new students
 by introducing them to each other. Ranoliya et al. \cite{ranoliya2017chatbot}
