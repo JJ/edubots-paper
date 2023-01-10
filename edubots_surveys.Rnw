@@ -375,7 +375,6 @@ chatbots in higher education.
 \section{State of the art}
 \label{sec:soa}
 
-% The Use of Mobile Instant Messaging (MIM) Platforms in Higher Education
 The widespread and rapid adoption of free Mobile Instant Messaging
 (MIM) tools/platforms such as WhatsApp, Telegram, WeChat and Facebook
 Messenger stems from their simplicity, ease of use and multi-modality
@@ -1303,10 +1302,6 @@ teacher, with the use of messaging apps. The findings are summarized in Table
 \hline
 \multicolumn{1}{c}{Kind of interactions} & \multicolumn{2}{c}{Yes} & \multicolumn{2}{l}{No} \\ \cline{2-5}
 \multicolumn{1}{c}{} & \multicolumn{1}{c}{Frequency} & \multicolumn{1}{c}{\%} & Frequency & \multicolumn{1}{c}{\%} \\ \hline
-%\begin{tabular}[c]{@{}l@{}}Chat interactions among \\ students in the same course\end{tabular} & 171 & 60.6 & 110 & 39.0 \\
-%\begin{tabular}[c]{@{}l@{}}Chat interactions among students, \\ teachers of the School/Faculty\end{tabular} & 13 & 4.6 & 269 & 95.4 \\
-%\begin{tabular}[c]{@{}l@{}}Chat interactions among students \\ of the same study year and teachers\end{tabular} & 51 & 18.1 & 231 & 81.9 \\
-%\begin{tabular}[c]{@{}l@{}}Teacher not being part of the \\ interaction\end{tabular} & 113 & 40.1 & 169 & 59.9 \\ \hline
 \begin{tabular}[c]{@{}l@{}}Chat interactions among \\ students in the same course\end{tabular} & 166 & 59.1 & 115& 40.9 \\
 \begin{tabular}[c]{@{}l@{}}Chat interactions among students, \\ teachers of the School/Faculty\end{tabular} & 19 & 6.7 & 266 & 94.3 \\
 \begin{tabular}[c]{@{}l@{}}Chat interactions among students \\ of the same study year and teachers\end{tabular} & 58 & 20.5 & 224 & 79.4 \\
@@ -1366,9 +1361,6 @@ for the low percentage of teachers that selected this response.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged >55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). The teachers were asked about what kind of interaction media features they value the most; the frequencies and percentages of their responses are given in the table that follows.
-
-
 
 \begin{figure}[h!tbp]
 \begin{center}
@@ -1412,8 +1404,6 @@ ggplot(survey.interaction, aes(x = Interaction.Synchrony..or.not., group = Disci
 \subsection{RQ4 - What kind of interaction media features do teachers value the most? }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%A total of 205 teachers responded to the second survey, 124 males (60.5\%), 65 females (31.7\%) and 16 individuals who chose not to identify their gender (7.8\%). The majority of the teachers were aged 45-55 years old (70; 34.1\%), followed by individuals aged 35-45 (67, 32.7\%), and 25-35 (42; 20.5\%), while the minority was aged $>$~55 years old (26; 12.7\%). In terms of teaching experience, 59 teachers (28.8\%) had an experience of 16-25 years, followed by teachers who had a teaching experience of 06-15 years (51; 24.9\%), 0-5 years (51; 24.9\%) and more than 25 years of experience (44; 21.5\%). The teachers were asked about what kind of interaction media features they value the most \textcolor{black}{; i.e. what their preferred features are in the applications/tools that they use to interact with their students.} The frequencies and percentages of their responses are given in Table \ref{tab:interaction}.
 
 \begin{table}[h!]
 \begin{tabular}{lcccc}
@@ -1601,7 +1591,6 @@ using tools from which analytics can be extracted is also valued by teachers:
 in that way, the student activity in the chat tool, answering questions, or their regularity can all be
 assessed as part of the process of achieving learning objectives.
 
-% Only some COVID-response relationship.
 In our survey, we could not find an answer about the right moment to introducing chatbot technologies. The response to questions regarding to change of
 behavior during and after the first stay-at-home stage of the pandemic do not suggest that a major (or minor, such as new higher education laws\footnote{We seem to have one of these, at least in Spain, every 10 years or so.} or the introduction of new degrees) crisis could be an opportunity to introduce new technologies. The reason being that it does not
 bring major changes in attitude 
@@ -1666,7 +1655,6 @@ analytics on student interaction and possibly some natural language
 processing (in vernacular language) to help assess the general mood of
 the class and how different materials or external factors affect it.
 
-% No remarkable differences between different groups.
 The introduction of chatbots and chatbot technology will be helped by the fact
 that no discernible differences are found between different groups. Even though
 chatbots do have some potential for personalization or customization based on
@@ -1701,7 +1689,6 @@ series of lessons: it increases isolation and decreases the
 amount of synchronous contact that happens in the fringes of the classroom (e.g. 
 teaching staff offices, or before and after class). A future line of research could 
 focus on these issues and explore how chatbot technology could address them. 
-%We will create a series of international surveys that will investigate this.
 
 Finally, the full extent of chatbot technology is not really examined in
 these surveys. They can be connected to natural language processing engines with
