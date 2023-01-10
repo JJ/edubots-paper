@@ -1041,7 +1041,7 @@ Regarding gender in Fig. \ref{figure:gender*postcovid_chisq}, the results show a
 high positive contribution from female educators that did not use a messaging
 app before the COVID-19 pandemic but do use it now; approximately 31\% of the
 test results are explained by this cell. In contrast, male educators that
-responded the same were less than expected (negative contribution that explains
+responded in the same way were less than expected (negative contribution that explains
 17\% of the test results). Also, it is important to highlight the female
 educators that continued to use these apps before and after the pandemic and
 correspondingly the negative contribution of male educators to the same case
