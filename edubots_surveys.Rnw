@@ -468,7 +468,7 @@ We will present next the methodology we followed to find out teachers' opinions.
 
 This study employed a quantitative approach to address its research objectives. In order to fulfill them, we would need to collect a significant amount of data on the usage of messaging applications and chatbots by educators in universities and colleges.\footnote{In Spain, higher education institutions that would generally known as colleges in other places, are simply called high schools, and provide
 tertiary or associate degrees that do not have the same consideration as university degrees.}
-To collect this data, two online surveys were designed and developed using Google Forms
+In order to collect this data, two online surveys were designed and developed using Google Forms
 in Spanish. These surveys consisted of six questions on demographic data
 (such as sector, gender, degrees, discipline, age, or teaching experience)
 followed by several multiple-choice questions allowing participants to choose multiple answers.
