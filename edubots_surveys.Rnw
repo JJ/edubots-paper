@@ -1795,7 +1795,7 @@ The {\bf first survey}, shown in its original form in Figure \ref{figure:survey1
 \item Bots that help with the class materials (e.g. searching for topics about a concept, or asking about them)
 \end{itemize}
 
-\textit{4. Regardin the virtualization of teaching due to the COVID-19 pandemic during this year and the previous one, did it mean any change in your viewpoint or use of messaging apps in class?}
+\textit{4. Regarding the virtualization of teaching due to the COVID-19 pandemic during this year and the previous one, did it mean any change in your viewpoint or use of messaging apps in class?}
 \begin{itemize}
 \item No, I did use it before and use it now
 \item Yes, I started using safer alternatives
