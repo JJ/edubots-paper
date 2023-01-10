@@ -1157,7 +1157,7 @@ the cells.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-For answering RQ2, teachers were provided with a list of different potential chatbot functionalities (use cases) and were requested to respond on whether each given use case would be useful in their classes. The findings are summarized in Table \ref{tab:chatbottypes}.
+For answering RQ2, teachers were provided with a list of different potential chatbot functionalities (use cases) and were requested to indicate whether each given use case would be useful in their classes. The findings are summarized in Table \ref{tab:chatbottypes}.
 
 \begin{table}[h!tbp]
 \begin{tabular}{lllll}
@@ -1176,12 +1176,12 @@ Others & 25 & 8.9 & 257 & 91.1 \\ \hline
 
 
 The most beneficial use case for chatbots in higher education and vocational training is their ability to facilitate agenda formation and communication (171 positive responses, 60.6\%), followed by the FAQs use case
-(148 positive responses, 52.5\%) and the sharing class material use case (136;
-48.2\%). A chi-square test of independence was performed to examine the relation
-among participants’ preferences for particular chatbot use cases. Out of the 171 teachers who consider useful the use of
-chatbots for agenda preparation in the class, 103 also consider useful chatbots’
-use for FAQs. The relation between agenda and the FAQs use case was significant, $X^{2}_{(1, N = 282)} =
-10.467$, $p =0.001$. The frequencies cross tabulated are given in Table
+(148 positive responses, 52.5\%), and the sharing class material use case (136;
+48.2\%). A chi-square test of independence was performed to examine the relationship
+among participants' preferences for particular chatbot use cases. Out of the 171 teachers who considered useful the use of
+chatbots for agenda preparation in the class, 103 also consider useful chatbots'
+use for FAQs. The relationship between agenda and the FAQs use case was significant, $X^{2}_{(1, N = 282)} =
+10.467$, $p =0.001$. The frequencies cross-tabulated are given in Table
 \ref{tab:agenda*faq}.
 
 \begin{table}[h!tbp]
@@ -1202,8 +1202,8 @@ Answers to these questions are plotted in
 Figs. \ref{figure:gender*chatbots_types}, \ref{figure:sector*chatbots_types},
 \ref{figure:experience*chatbots_types}, \ref{figure:disc*chatbots_types} grouped
 by gender, sector, years of experience in education, and discipline
-respectively. As it was a multiple choice question, the counts are over the
-total number of people that answered.
+respectively. As it was a multiple-choice question, the counts are over the
+total number of educators who answered.
 
 \begin{figure}[h!tbp]
 \begin{center}
