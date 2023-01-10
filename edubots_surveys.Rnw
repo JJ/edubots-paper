@@ -826,7 +826,7 @@ Total &  & 193 & 89 & 282 \\ \hline
 \label{tab:sector*covid}
 \end{table}
 
-The majority of the teachers (n=165) mentioned that no changes in their habits occurred due to the emergency remote teaching, as the use of messaging apps was part of their teaching practices and remains the same, from which 105 teachers come from the university, and 60 teachers from the non-universitary tertiary sector. The relationships between changes in the use of messaging apps, due to the covid-19 pandemic, and the instructors’ discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, p= 0.039 were also significant. This finding indicates that how teachers responded to the use of messaging apps during the pandemic was also related to their gender and discipline. In fact, from the majority of the teachers who did not change their habits in this respect (n=165), most of them are males (n=114), and come from the technology (n=60) and engineering (n=53) disciplines (see Tables \ref{tab:gender*covid}, \ref{tab:discipline*covid}).
+The majority of the teachers (n=165) mentioned that no changes in their habits occurred due to the emergency remote teaching, as the use of messaging apps was part of their teaching practices and remained the same, from which 105 teachers come from the university and 60 teachers from the non-universitary tertiary sector. The relationships between changes in the use of messaging apps, due to the COVID-19 pandemic, and the instructors' discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, p= 0.039 were also significant. This finding indicates that how teachers responded to the use of messaging apps during the pandemic was also related to their gender and discipline. In fact, from the majority of the teachers who did not change their habits in this respect (n=165), most of them are males (n=114) and come from the technology (n=60) and engineering (n=53) disciplines (see Tables \ref{tab:gender*covid}, \ref{tab:discipline*covid}).
 %
 \begin{table}[h!tbp]
 \begin{tabular}{llcccc}
@@ -841,7 +841,7 @@ The majority of the teachers (n=165) mentioned that no changes in their habits o
 Total &  & 179 & 98 & 5 & 282 \\ \hline
 \end{tabular}
 \vspace{0.8em}
-\caption{Gender * post-covid changes crosstabulation}
+\caption{Gender * post-COVID-19 changes crosstabulation}
 \label{tab:gender*covid}
 \end{table}
 %
@@ -860,7 +860,7 @@ Total &  & 179 & 98 & 5 & 282 \\ \hline
 Total & & 99 &  53&  32&  16&  5&  72&  5&  282\\ \hline
 \end{tabular}}
 \vspace{0.8em}
-\caption{Discipline * post-covid changes crosstabulation}
+\caption{Discipline * post-COVID-19 changes crosstabulation}
 \label{tab:discipline*covid}
 \end{table}
 %
@@ -894,19 +894,19 @@ Total & & 99 &  53&  32&  16&  5&  72&  5&  282\\ \hline
 %The relationships between changes in the use of messaging apps, due to the covid-19 pandemic, and the instructors’ discipline, $X^{2}_{(24, N = 282)} = 44.856$, $p =0.006$, as well as the gender, $X^{2}_{(8, N = 282)} = 16.249$, $p= 0.039$ were also significant.
 
 % Olia - TODO: check for repetitions in the following paragraph that you added. thank you.
-Finally, we took a closer look at the post-covid changes and the variables
+Finally, we took a closer look at the post-COVID-19 changes and the variables
 gender, sector, and discipline for which the chi-square test is statistically
 significant as shown in Figures \ref{figure:gender*postcovid_chisq},
 \ref{figure:sector*postcovid_chisq}, \ref{figure:discipline*postcovid_chisq}
 respectively. Each figure shows on the left, a graph that represents the
 Pearson's residuals of the chi-square test results and a table on the right part
 that shows the contribution of each cell to the test. In the Pearson's residual
-graphs, \textcolor{black}{the responses to the question about the use of messaging apps were shortened for the sake of clarity according to}: 1)
+graphs, the responses to the question about the use of messaging apps were shortened for the sake of clarity according to: 1)
 \textit{Did/do} stands for \textit{Yes, I did use it before and do use it now};
-2) \textit{Didn't/do} for \textit{Yes, I didn’t use any messaging app before,
+2) \textit{Didn't/do} for \textit{Yes, I didn't use any messaging app before,
   but do use it now}; 3) \textit{safer} for \textit{Yes, I use a safer messaging
-  app now}; 4) \textit{Didn't/Don't} for \textit{No, I didn’t use it before and
-  don’t use it now}.
+  app now}; 4) \textit{Didn't/Don't} for \textit{No, I didn't use it before and
+  don't use it now}.
 %
 \begin{figure}[h!tbp]
 \begin{center}
@@ -941,9 +941,9 @@ corrplot(chisq$residuals, is.corr = FALSE)
  &  & \multicolumn{2}{c}{Female} & \multicolumn{2}{c}{Male} \\ \cline{3-6}
  &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} \\ \cline{2-6}
 \begin{tabular}[c]{@{}l@{}}Post-\\ covid\\ changes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Yes, I use a \\ safer messaging \\ app now\end{tabular} & 1.832 & 13.49\% & -1.832 & 7.50\% \\
- & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use \\ any messaging \\ app before, but\\ do use it now\end{tabular} & \textbf{2.806} & \textbf{31.21\%} & \textbf{-2.806} & \textbf{17.36\%} \\
+ & \begin{tabular}[c]{@{}l@{}}Yes, I didn't use \\ any messaging \\ app before, but\\ do use it now\end{tabular} & \textbf{2.806} & \textbf{31.21\%} & \textbf{-2.806} & \textbf{17.36\%} \\
  & \begin{tabular}[c]{@{}l@{}}No, I did use it \\ before and\\ use it now\end{tabular} & \textbf{2.850} & 15.15\% & \textbf{-2.850} & 8.43\% \\
- & \begin{tabular}[c]{@{}l@{}}No, I didn’t use \\ it before and\\ don’t use it now\end{tabular} & -1.011 & 4.40\% & 1.011 & 2.45\% \\ \hline
+ & \begin{tabular}[c]{@{}l@{}}No, I didn't use \\ it before and\\ don't use it now\end{tabular} & -1.011 & 4.40\% & 1.011 & 2.45\% \\ \hline
 \end{tabular}
     %\begin{tabular}{l|r|r|r|r|}
     %\cline{2-5}
@@ -956,29 +956,29 @@ corrplot(chisq$residuals, is.corr = FALSE)
     }
     \end{minipage}
 \end{center}
-    \caption{Analysis for gender and post-covid changes: left) Pearson's residuals for the Chi-square test; right) Gender*post-covid changes crosstabulation, including standardized residuals \cite{agresti2013categorical} (also adjusted standardized residuals) and contribution percentage to the total Chi-square test of each cell.}
+    \caption{Analysis for gender and post-COVID-19 changes: left) Pearson's residuals for the Chi-square test; right) Gender*post-COVID-19 changes crosstabulation, including standardized residuals \cite{agresti2013categorical} (also adjusted standardized residuals) and contribution percentage to the total Chi-square test of each cell.}
 \label{figure:gender*postcovid_chisq}
 \end{figure}
 
-As mentioned, the graphs on the left hand side represent the Pearson's
+As mentioned, the graphs on the left-hand side represent the Pearson's
 residuals, showing the difference between the observed and the expected values
 for each cell. Thus, large residuals indicate that variables are not truly
-independent. In our case, the blue shows positive contributions and red negative
-contributions to the test. Moreover, the saturation shows how large the
-contribution is in contrast to the expected value by chance. Additionally,
-tables on the right side show adjusted standardized residuals that according to
+independent. In our case, blue shows positive contributions and red negative
+contributions to the test. Additionally, the saturation shows how large the
+contribution is in contrast to the expected value by chance. 
+Tables on the right side show adjusted standardized residuals that according to
 \cite{agresti2013categorical}, if greater than +/-2 for cases with few cells,
-indicate lack of fit of $H_0$ (in boldface in our table). Complementary, the
+indicates lack of fit of $H_0$ (in boldface in our table). Complementarily, the
 table also shows the percentage of contribution to the test of each cell
-(highest percentage per column also in boldface).
+(the highest percentage per column also in boldface).
 
 Regarding gender in Fig. \ref{figure:gender*postcovid_chisq}, the results show a
 high positive contribution from female educators that did not use a messaging
 app before the COVID-19 pandemic but do use it now; approximately 31\% of the
 test results are explained by this cell. In contrast, male educators that
-respond the same were less than expected (negative contribution that explains
+responded the same were less than expected (negative contribution that explains
 17\% of the test results). Also, it is important to highlight the female
-educators that kept using these apps before and after the pandemic and
+educators that continued to use these apps before and after the pandemic and
 correspondingly the negative contribution of male educators to the same case
 (less than expected by chance).
 
@@ -1011,18 +1011,18 @@ corrplot(chisq$residuals, is.corr = FALSE)
            &  & \multicolumn{2}{c}{University} & \multicolumn{2}{c}{Vocational} \\ \cline{3-6}
            &  & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residuals\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Stand. \\ Residual\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Contri-\\ bution\end{tabular}} \\ \cline{2-6}
           \begin{tabular}[c]{@{}l@{}}Post-\\ covid\\ changes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Yes, I use a \\ safer messaging \\ app now\end{tabular} & 0.115 & 0.04\% & -0.115 & 0.08\% \\
-           & \begin{tabular}[c]{@{}l@{}}Yes, I didn’t use \\ any messaging \\ app before, but\\ do use it now\end{tabular} & 0.454 & 0.56\% & -0.454 & 1.21\% \\
+           & \begin{tabular}[c]{@{}l@{}}Yes, I didn't use \\ any messaging \\ app before, but\\ do use it now\end{tabular} & 0.454 & 0.56\% & -0.454 & 1.21\% \\
            & \begin{tabular}[c]{@{}l@{}}No, I did use it \\ before and\\ use it now\end{tabular} & \textbf{-2.122} & 5.71\% & \textbf{2.122} & 12.38\% \\
-           & \begin{tabular}[c]{@{}l@{}}No, I didn’t use \\ it before and\\ don’t use it now\end{tabular} & \textbf{2.939} & \textbf{25.26\%} & \textbf{-2.939} & \textbf{54.78\%} \\ \hline
+           & \begin{tabular}[c]{@{}l@{}}No, I didn't use \\ it before and\\ don't use it now\end{tabular} & \textbf{2.939} & \textbf{25.26\%} & \textbf{-2.939} & \textbf{54.78\%} \\ \hline
           \end{tabular}%
     }
     \end{minipage}
 \end{center}
-    \caption{Analysis for sector and post-covid changes: left) Pearson's residuals for the Chi-square test; right) Sector*post-covid changes crosstabulation, including standardized residuals \cite{agresti2013categorical} (also adjusted standardized  residuals) and contribution percentage to the total Chi-square test of each cell.}
+    \caption{Analysis for sector and post-COVID-19 changes: left) Pearson's residuals for the Chi-square test; right) Sector*post-COVID-19 changes crosstabulation, including standardized residuals \cite{agresti2013categorical} (also adjusted standardized  residuals) and contribution percentage to the total Chi-square test of each cell.}
 \label{figure:sector*postcovid_chisq}
 \end{figure}
 %
-With respect to the sector, the results in Fig. \ref{figure:sector*postcovid_chisq} show a positive contribution from university educators being reluctant to use any messaging apps before or after the pandemic: the positive contribution of their responses explain 25\% of the test results with an adjusted residual of 2.94. On the contrary, vocational teachers were more open to it, showing a negative Pearson's residual. Also, we find larger values than expected in vocational teachers that kept using these apps after the pandemic.
+With respect to the sector, results in Fig. \ref{figure:sector*postcovid_chisq} show a positive contribution from university educators being reluctant to use any messaging apps before or after the pandemic: the positive contribution of their responses explain 25\% of the test results with an adjusted residual of 2.94. On the contrary, vocational teachers were more open to it, showing a negative Pearson's residual. Also, we find larger values than expected in vocational teachers that continued to use these apps after the pandemic.
 
 \begin{figure}[h!tbp]
 \begin{center}
@@ -1070,17 +1070,17 @@ corrplot(chisq$residuals, is.corr = FALSE)
     }
     \end{minipage}
 \end{center}
-    \caption{Analysis for discipline and post-covid changes: left) Pearson's residuals for the Chi-square test; right) Discipline*post-covid changes crosstabulation, including standardized residuals \cite{agresti2013categorical} (also adjusted standardized residuals) and contribution percentage to the total Chi-square test of each cell.}
+    \caption{Analysis for discipline and post-COVID-19 changes: left) Pearson's residuals for the Chi-square test; right) Discipline*post-COVID-19 changes crosstabulation, including standardized residuals \cite{agresti2013categorical} (also adjusted standardized residuals) and contribution percentage to the total Chi-square test of each cell.}
 \label{figure:discipline*postcovid_chisq}
 \end{figure}
 %
-Finally, statistical significance was found for the discipline and post-covid
+Finally, statistical significance was found for discipline vs. post-COVID-19
 changes. Regarding disciplines (see
 Fig. \ref{figure:discipline*postcovid_chisq}), the number of educators from
 Humanities and Social Sciences that started using messaging apps after the
 pandemic is larger than expected and these number of responses explains about
 19\% of the chi-square test results. Also, the number of educators from
-Technology or Engineering that started using safer alternatives \footnote{This addresses the issue of insecure/unsafe applications which do not encrypt messages or can be easily compromised exposing information} are less than
+Technology or Engineering that started using safer alternatives \footnote{This addresses the issue of insecure/unsafe applications which do not encrypt messages or can be easily compromised by exposing information} are less than
 expected (compared to the educators from other disciplines). Bear in mind that
 some disciplines were merged to avoid very low number of responses for some of
 the cells.
