@@ -1816,15 +1816,29 @@ The {\bf first survey}, shown in its original form in Figure \ref{figure:survey1
     \caption{Screen capture of the Spanish-language form used for the \bf{second survey}}
 \label{figure:survey2}
 \end{figure}
-The {\bf second survey}, shown in its original form in Figure \ref{figure:survey2}, followed the same paths, only in this case there was a single questionnaire, and with a different scope, focusing on the kind of interaction media features that teachers value the most. %\textcolor{black}{A capture of these questions is included in Figure \ref{fig:survey2}} % this sentence is repeated
-% Olia - see my comment above.
-It was filled by teachers that were also students in a Professional Development course (on the use of new technologies in higher education, around 1/4 of them) as well as University of Granada teachers who knew about it by emails from the authors, or from the vicedeanship for International Relations that included it in its newsletter. This means that there might be a higher proportion of 1) teachers with few years of experience 2) teachers from the computer science faculty and 3) teachers from Granada. We think, however that there's no explicit bias in this selection, although of course specific percentages will vary.
 
-Specifically, this survey asked the teachers, in addition to general information (such as gender, age, experience, etc), what are  their \textcolor{black}{past experiences and needs} with regard to the use of instant messaging applications with students, and even using bots or chatbots in the classroom. In addition the survey asked about the most relevant \textit{interaction media features} for the teachers with respect to the potential tool to use in class.
+The {\bf second survey}, shown in its original form in Figure
+\ref{figure:survey2}, followed the same paths, only in this case there was a
+single questionnaire, and with a different scope, focusing on the kind of
+interaction media features that teachers value the most.  It was filled by
+teachers that were also students in a Professional Development course (on the
+use of new technologies in higher education, around 1/4 of them) as well as
+University of Granada teachers who knew about it by emails from the authors, or
+from the vicedeanship for International Relations that included it in its
+newsletter. This means that there might be a higher proportion of 1) teachers
+with few years of experience 2) teachers from the computer science faculty and
+3) teachers from Granada. We think, however that there's no explicit bias in
+this selection, although of course specific percentages will vary.
+
+Specifically, this survey asked the teachers, in addition to general information
+(such as gender, age, experience, etc), what are their \textcolor{black}{past
+  experiences and needs} with regard to the use of instant messaging
+applications with students, and even using bots or chatbots in the classroom. In
+addition the survey asked about the most relevant \textit{interaction media
+  features} for the teachers with respect to the potential tool to use in class.
 
 The specific questions included in this second survey are listed below:
 
-% Antonio - I have included a reference name to each one of these variables, which are the names used on Tables 8 and 9. Thus it will be easy to recognize every variable, and then, we could refer to them in those tables.
 
 \textit{1. You prefer the interaction with your students to be ...}
 \begin{itemize}
