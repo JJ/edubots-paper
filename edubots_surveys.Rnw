@@ -334,14 +334,14 @@ In this study, data collection involved two phases:
 
 Initially, a single survey was developed for this purpose and responses from 300
 higher education teachers were collected and analysed; this
-  will be detailed in Section \ref{sec:meth}. The responses' analysis led to
+will be detailed in Section \ref{sec:meth}. The responses' analysis led to
 the preparation of a second survey for teachers and 200 responses were
 collected, again following the methodology that will be
-  explained later. The questions of the second survey focused on asking about
-  teachers' needs, opinions and preferences of the development of future
-  technology-enhanced tools and its potential impact on educational institutions
-  policies. In order to assess these, this paper laid out the following
-  research questions:
+explained later. The questions of the second survey focused on asking about
+teachers' needs, opinions and preferences of the development of future
+technology-enhanced tools and its potential impact on educational institutions
+policies. In order to assess these, this paper laid out the following
+research questions:
 
 \begin{itemize}
 \item RQ1 - Do teachers use now or want to use messaging apps in their classes?
