@@ -531,42 +531,42 @@ We will present next the methodology we followed to find out teachers' opinions.
 \section{Methodology}
 \label{sec:meth}
 
-This study has employed a quantitative approach in order to address its research objectives. A good amount of data was collected on the usage of messaging applications and chatbots by educators in universities and colleges.\footnote{In Spain, higher education institutions generally known elsewhere as colleges, are called simply high schools, and deliver
-tertiary or associate degrees that do not have the consideration of university degrees.}
-To achieve this goal two online surveys were designed and developed using Google Forms
-in Spanish. They are comprised of six questions focusing on demographic data
-(i.e., sector, gender, degrees, discipline, age, or teaching experience)
-followed by several multiple choice questions allowing the participants to choose multiple answers.
+This study employed a quantitative approach to address its research objectives. A significant amount of data was collected on the usage of messaging applications and chatbots by educators in universities and colleges.\footnote{In Spain, higher education institutions that would generally known as colleges in other places, are simply called high schools, and provide
+tertiary or associate degrees that do not have the same consideration as university degrees.}
+To collect this data, two online surveys were designed and developed using Google Forms
+in Spanish. These surveys consisted of six questions on demographic data
+(such as sector, gender, degrees, discipline, age, or teaching experience)
+followed by several multiple-choice questions allowing participants to choose multiple answers.
 
-In the {\bf first survey}, multiple choice questions were
-focused on the use of messaging apps in the teaching practice, the type of chatbot use cases that educators would consider
-useful for their teaching and the impact of COVID on the teaching practice; please, check them out to the full extent in the Appendix.\footnote{This {\bf first survey} was made in two separate Google forms, one for
-university and another for teachers in tertiary education institutions, outside the university system (vocational training, including 1- and 2-year degrees). Questions and
+The {\bf first survey} consisted of multiple-choice questions 
+focused on the use of messaging apps in teaching practice, the type of chatbot use cases that educators would find
+useful for their teaching and the impact of COVID on teaching practice. These questions can be found in their entirity in the Appendix.\footnote{This {\bf first survey} was split into two separate Google forms, one for
+university teachers and another for teachers in tertiary education institutions outside the university system (vocational training, including 1- and 2-year degrees). The questions and
 responses were the same, except for the type of tertiary degrees that
 were considered.} This survey was piloted by the authors of this paper and their colleagues before using it in the
-study. All the comments collected from this trial were incorporated in the survey.
-We primarily used mailing lists and Telegram groups to disseminate the survey link so that it would reach a larger number of educators. The form targeting university teachers was sent to Spanish
-(mainly Andaluc\'{\i}a and Galicia) universities, and also universities in Costa Rica and
-Mexico. The tertiary (non-university/college) educators who received the form were based mainly in
-Andaluc\'{\i}a. Dissemination and answers took place in the first quarter of
-2021, during the Covid-19 pandemic and while, at least in Spain, many universities had
+study, and all feedback from this trial was incorporated into the survey.
+The survey link was primarily distributed via mailing lists and Telegram groups in order to reach a larger number of educators. The form targeting university teachers was sent to university in Spain
+(mainly in Andaluc\'{\i}a and Galicia), and also universities in Costa Rica and
+Mexico. Tertiary (non-university/college) educators who received the form were mainly based in
+Andaluc\'{\i}a. The survey was disseminated and responses were collected in the first quarter of
+2021, during the Covid-19 pandemic, while at least in Spain, many universities were implementing
 mandatory virtual teaching.
 
 A total of 282 educators responded to the survey: 193 teaching at the University
-(68.4\%) and 89 at other tertiary education institutions (31.6\%). From those, 179 indicated their gender as male (63.5\%), 98 as female (34.8\%) and 5 teachers preferred not to indicate their gender (1.8\%). In terms of age, the majority of participants (n=111) in this survey were 45-55 years old (39.4\%), while 91 educators were 35-45 (32.3\%), 46 were 25-35 (16.3\%) and 34 were older than 55 (12.1\%). Last, 84 educators had a teaching experience of 16-25 years (29.8\%), 75 educators had 6-15 years of experience (26.6\%), 69 educators had 0-5 years of experience (24.5\%) and finally, 54 educators had more than 25 years of teaching experience (19.1\%).
+(68.4\%) and 89 at other tertiary education institutions (31.6\%). Of those, 179 indicated their gender as male (63.5\%), 98 as female (34.8\%), and 5 teachers preferred not to indicate their gender (1.8\%). In terms of age, the majority of participants (n=111) in this survey were 45-55 years old (39.4\%), while 91 educators were 35-45 (32.3\%), 46 were 25-35 (16.3\%), and 34 were older than 55 (12.1\%). Lastly, 84 educators had a teaching experience of 16-25 years (29.8\%), 75 educators had 6-15 years of experience (26.6\%), 69 educators had 0-5 years of experience (24.5\%), and finally, 54 educators had more than 25 years of teaching experience (19.1\%).
 
-Responses were stored automatically in a Google Drive spreadsheet. Eventually,
-the results from the two forms we used for the first survey were collated in a
-single spreadsheet. Survey questions are shown in Appendix I (Section \ref{app:questions}).
+Responses were automatically stored in a Google Drive spreadsheet. Eventually,
+the results from the two forms used for the first survey were collated in a
+single spreadsheet. Survey questions can be found in Appendix I (Section \ref{app:questions}).
 
 The {\bf second survey} was designed after initial results for the first survey arrived,
-and pointed to necessities and experiences of educators not addressed by the first one; namely
-their experience with messaging platforms and the way they were used to interact with students.
-It was piloted in a group of university teaching staff attending to a formation course, and validated with them.
-It was then extended to the rest of responders, using the same media: Telegram groups, e-mail, and announcement in mailing lists. The questions asked in that survey are also shown in Appendix I
+and pointed out necessities and experiences of educators not covered by the first survey, specifically
+their experience with messaging platforms and the ways they were used to interact with students.
+It was piloted with a group of university teaching staff attending a training course, and validated by them.
+The survey was then extended to the rest of responders, using the same media: Telegram groups, email, and announcements in mailing lists. The questions asked in this survey can also be found in Appendix I
 (Section \ref{app:questions}).
 
-A total of 205 educators responded to the second survey: 187 graduate teachers (91.2\%) and 18 student teachers (8.8\%). From those, 124 were male (60.5\%), 65 female (31.7\%) and 16 participants preferred not to indicate their gender (7.8\%). In terms of age, the majority of the participants (n=70) was again, as in the first survey, 45-55 years old (34.1\%), while 67 participants were 35-45 years old (32.7\%), 42 were 25-35 (20.5\%) and 26 participants were older than 55 (12.7\%). In terms of teaching experience, 59 participants had a teaching experience of 16-25 years (28.8\%), 51 participants had 6-15 years (24.9\%) and 0-5 years of experience (24.9\%), and 44 participants had more than 25 years of teaching experience (21.5\%).
+A total of 205 educators responded to the second survey: 187 graduate teachers (91.2\%) and 18 student teachers (8.8\%). Of those, 124 were male (60.5\%), 65 female (31.7\%), and 16 participants preferred not to indicate their gender (7.8\%). In terms of age, the majority of the participants (n=70) were again, as in the first survey, 45-55 years old (34.1\%), while 67 participants were 35-45 years old (32.7\%), 42 were 25-35 (20.5\%), and 26 participants were older than 55 (12.7\%). In terms of teaching experience, 59 participants had a teaching experience of 16-25 years (28.8\%), 51 participants had 6-15 years (24.9\%), 51 had 0-5 years of experience (24.9\%), and 44 participants had more than 25 years of teaching experience (21.5\%).
 
 \subsection{Survey validation}
 
