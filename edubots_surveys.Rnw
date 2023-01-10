@@ -604,15 +604,13 @@ In the next section, we present the results and analyse them.
 \section{Results and analysis}
 \label{sec:res}
 
-% Describe the survey and population
 We collected responses from 282 teachers from Spain and Spanish-speaking
 countries for \textit{survey1} and 205 for \textit{survey2}. The two forms were
-open for approximately the same amount of time, around two months. The sample
-includes mostly university teachers, although about 32\% and 8\% are from
-non-universitary tertiary education in the first and second survey respectively. Regarding
+open for approximately the same amount of time, around two months. Most responders were university teachers, although about 32\% of them in \textit{survey1} and 8\% (in \textit{survey2} are from
+non-universitary tertiary education teachers. With respect to
 gender, 61\% of teachers were male and 32\% female, while approximately 5\%
-chose not to disclose it. Finally, the responses are more or less equally
-distributed according to the teaching experience, showing 24\% of responses from
+chose not to disclose their gender. Finally, the responses are more or less equally
+distributed according to the teacher's years of experience, showing 24\% of responses from
 teachers with 5 or less years of experience, 26\% for 6-15 years of experience,
 30\% for 16-25, and 20\% for teachers with more than 25 years of experience.
 
