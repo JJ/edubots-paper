@@ -540,7 +540,7 @@ followed by several multiple-choice questions allowing participants to choose mu
 
 The {\bf first survey} consisted of multiple-choice questions 
 focused on the use of messaging apps in teaching practice, the type of chatbot use cases that educators would find
-useful for their teaching and the impact of COVID on teaching practice. These questions can be found in their entirity in the Appendix.\footnote{This {\bf first survey} was split into two separate Google forms, one for
+useful for their teaching and the impact of COVID on teaching practice. These questions can be found in their entirety in the Appendix.\footnote{This {\bf first survey} was split into two separate Google forms, one for
 university teachers and another for teachers in tertiary education institutions outside the university system (vocational training, including 1- and 2-year degrees). The questions and
 responses were the same, except for the type of tertiary degrees that
 were considered.} This survey was piloted by the authors of this paper and their colleagues before using it in the
