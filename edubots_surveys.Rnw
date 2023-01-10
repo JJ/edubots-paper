@@ -393,7 +393,6 @@ students embedded in the social learning process
 \cite{gachago2015crossing}. However, this last paper also reflects the need for
 learners to ``take ownership of the tool'' and the advantages of social learning
 in general. At the same time, it also mentions different challenges, among which
-<<<<<<< HEAD
 the most important is the blurring of social and academic life; indeed, there
 are challenges when using MIM tools that occur due to the blurring of boundaries
 between academic and private life. This can lead to technostress
