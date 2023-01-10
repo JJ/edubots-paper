@@ -250,10 +250,10 @@ subject matter, which is usually the main objective. Even if several
 technologies are already in use inside the classroom, there is still room for
 adopting others.
 
-The success of this adoption largely depends on the willingness and ability of
-teachers to embrace it, as they are the primary agents in this new educational
-approach. As such, gathering and assessing feedback from these users will be
-crucial in realizing the potential benefits of the technology.
+However, the success of this adoption largely depends on the willingness and
+ability of teachers to embrace it, as they are the primary agents in this new
+educational approach. As such, gathering and assessing feedback from these users
+will be crucial in realizing the potential benefits of the technology.
 
 Over the past decade, messaging apps like WhatsApp and Telegram have become
 increasingly popular in teaching at the secondary and higher education levels
@@ -316,18 +316,17 @@ enhancing the learning process in higher education institutions.
 
 In this study, data collection involved two phases:
  \begin{itemize}
-\item The first phase aimed to collect feedback from students about their
-  students’ preferences of tools/applications for chatting and
-  messaging, how they use them in educational context, who they like to be
-  with in the class messaging groups, and their expectations of chatbots
-  in assisting them during their learning process. Therefore, two surveys
-  for bachelor and master degree students at the University of Granada (Spain)
-  were designed and answers from more than 250 students were collected. The key
-  findings of the students' surveys reveal that they prefer to use messaging
-  familiar applications, such as Telegram or WhatsApp.
-  Students also expressed interest in chatbots that can assist them with
-  organizing their course schedules, help them access their assignment grades
-  and facilitate searching for resources.
+ \item The first phase aimed to collect feedback from students about their
+   students’ preferences of tools/applications for chatting and messaging, how
+   they use them in educational context, who they like to be with in the class
+   messaging groups, and their expectations of chatbots in assisting them during
+   their learning process. Therefore, two surveys for bachelor and master degree
+   students at the University of Granada (Spain) were designed and answers from
+   more than 250 students were collected. The key results from the student
+   surveys indicate a preference for using familiar messaging applications, such
+   as Telegram or WhatsApp. Students also expressed interest in using chatbots
+   that can assist them with organizing their course schedules, help them access
+   their assignment grades and facilitate searching for resources.
 \item The results of the first phase were fed into the second phase of the
   study, which focused on teachers’ opinions about using chatbots and messaging
   applications in classes. These results are the main focus of this paper.
