@@ -1031,7 +1031,7 @@ for each cell. Thus, large residuals indicate that variables are not truly
 independent. In our case, blue shows positive contributions and red negative
 contributions to the test. Additionally, the saturation shows how large the
 contribution is in contrast to the expected value by chance. 
-Tables on the right side show adjusted standardized residuals that according to
+Tables show on the right hand side adjusted standardized residuals that according to
 \cite{agresti2013categorical}, if greater than +/-2 for cases with few cells,
 indicates lack of fit of $H_0$ (in boldface in our table). Complementarily, the
 table also shows the percentage of contribution to the test of each cell
