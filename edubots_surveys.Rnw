@@ -340,7 +340,7 @@ collected, again following the methodology that will be
   explained later. The questions of the second survey focused on asking about
   teachers' needs, opinions and preferences of the development of future
   technology-enhanced tools and its potential impact on educational institutions
-  policies. In order to assess these, this paper layed out the following
+  policies. In order to assess these, this paper laid out the following
   research questions:
 
 \begin{itemize}
@@ -658,7 +658,7 @@ application used mainly in IT departments and software development), or any
 other messaging app. They were also asked if they use messaging apps provided by their
 academic institution (see Table \ref{tab:use_messapps}).
 Overall, the majority of teachers responded that they do use messaging apps
-in their classrooms. The most common respones were messaging apps (or, more probably, messaging solutions) provided by their academic institutions (n=159, 56\%) and WhatsApp (n=124, 44.0\%). Only
+in their classrooms. The most common responses were messaging apps (or, more probably, messaging solutions) provided by their academic institutions (n=159, 56\%) and WhatsApp (n=124, 44.0\%). Only
 19 teachers (6.7\%) replied that they do not use any messaging app in their
 class.
 %
