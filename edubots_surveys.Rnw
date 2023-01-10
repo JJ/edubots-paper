@@ -363,14 +363,14 @@ impact of using instant messaging tools in boosting students' knowledge and
 mitigating their feelings of isolation.
 
 
-Several studies to evaluate chatbots in higher education have been
-conducted. For instance, a comprehensive study was presented by Smutny and
+Multiple studies have been conducted to assess the effectiveness of chatbots in
+higher education; among them, a comprehensive paper was presented by Smutny and
 Schreiberova \cite{Smutny2020} reviewing 47 educational chatbots implemented in
 Facebook Messenger, concluding that most of these chatbots were very basic and
 that programmers require of more support to develop and offer tools for
-improving coaching methods and students learning. Pérez and collaborators
-\cite{perez2020rediscovering} attempted to categorize educational chatbots
-attending to their purpose as service-oriented or
+improving coaching methods and student learning outcomes. Pérez and
+collaborators \cite{perez2020rediscovering} attempted to categorize educational
+chatbots attending to their purpose as service-oriented or
 teaching-oriented. Service-oriented chatbots include those that provide service
 support, such as Ask Holly \cite{meetholly} and Dina \cite{santoso2018dinus},
 which respond to students' questions about enrollment and registration. Ask
