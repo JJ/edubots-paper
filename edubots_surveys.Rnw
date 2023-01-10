@@ -1731,7 +1731,7 @@ All the authors have contributed to the study presented in this manuscript. (Res
 %
 % PAC has revised the paper and researched the state of the art, as well as contributed to the survey design.
 % AMM has revised the paper and researched the state of the art, as well as contributed to the survey design.
-% FB has made the analysis and processed data and contributed to the survey design.
+% FB has been involved in the survey design process, conducted the data analysis, processed the data, and reviewed the written content of the paper. 
 % NA has supervised the writing  of the section devoted to the state of the art and written the bulk of it, as well as contributed to discussion and conclusions.
 % OT has performed data analysis, and contributed to discussion and conclusions, as well as reviewed and rewritten part of the paper.
 % AG has contributed to the design of the survey, analysis, discussion and conclusions.
@@ -1746,14 +1746,14 @@ We would also like to thank the anonymous reviewers that have contributed greatl
 \section{Appendix I: Survey questions}
 \label{app:questions}
 
-The surveys have the same common initial demographic questions:\begin{itemize}
-\item Degrees or titles where the teacher was working, either university or other tertiary education.
-\item Discipline: Engineering, Social Sciences, Health and Bio, General Sciences, Humanities, Other.
+The surveys have the same common initial demographic questions:
+\begin{itemize}
+\item Degrees or titles for which the educator was teaching, either from a university or other tertiary education institution.
+\item Discipline: Engineering, Social Sciences, Health and Bioscience, General Sciences, Humanities, Other.
 \item Gender: Man, Woman, Rather not say.
 \item Age: 25-35, 35-45, 45-55, more than 55.
 \item Experience on the job: up to 5 years, 5-15 years, 15-25 years, more than 25 years.
-\textcolor{black}{
-\item Type of degree: university, other tertiary education. This question was implicit in the first survey: there were two different versions of the survey. However, it was an explicit question in the second survey.}
+\item Type of degree: university, other tertiary education. This question was implicit in the first survey, as there were two different versions of the survey. However, it was an explicit question in the second survey.
 \end{itemize}
 
 \begin{figure}[h!tbp]
@@ -1764,15 +1764,13 @@ The surveys have the same common initial demographic questions:\begin{itemize}
 \label{figure:survey1}
 \end{figure}
 % Including questions in surveys
-The {\bf first survey}, shown in its original form in Figure \ref{figure:survey1}, which \textcolor{black}{focused on} the use of messaging apps in class, includes the following questions:
+The {\bf first survey}, shown in its original form in Figure \ref{figure:survey1}, which focused on the use of messaging apps in class, and that was used for addressing RQ1, RQ2, and RQ3, includes the following questions:
 
 \textit{1. Regarding the use of messaging apps in class, you prefer ...}
 \begin{itemize}
 \item A chat group with the students in the same course
-\item Students self-organize and with the teacher not being part of any chat group
-\textcolor{black}{
+\item Students self-organize and the teacher is not part of any chat group
 \item A chat group with all the students and teachers of the School/High-School/Faculty
-}
 \item A chat group with all the students and teachers of the same study year
 \end{itemize}
 
@@ -1789,20 +1787,20 @@ The {\bf first survey}, shown in its original form in Figure \ref{figure:survey1
 \item None, I do not use any messaging app to communicate with my students
 \end{itemize}
 
-\textit{3. Which kind of chatbots (software that automatically respond to questions or commands) could be useful to improve the learning results with your students or help you managing your course?}
+\textit{3. Which kind of chatbots (software that automatically responds to questions or commands) could be useful to improve your students' learning results or help you managing your course?}
 \begin{itemize}
-\item Agenda bots that e.g. remind students about project deadlines
-\item Bots that collect and provide answers to frequent questions
+\item Agenda bots that e.g. remind students project deadlines
+\item Bots that collect and provide answers to frequent asked questions
 \item Bots that inform students about their grades
 \item Bots that help with the class materials (e.g. searching for topics about a concept, or asking about them)
 \end{itemize}
 
-\textit{4. The virtualization of teaching due to the COVID pandemic during this year and the previous one, did it mean any change in your viewpoint or use of messaging apps in class?}
+\textit{4. Regarding the virtualization of teaching due to the COVID-19 pandemic during this year and the previous one, did it mean any change in your viewpoint or use of messaging apps in class?}
 \begin{itemize}
 \item No, I did use it before and use it now
 \item Yes, I started using safer alternatives
 \item Yes, I did not use any messaging platform before but I do use it now
-\item No, I did not use any messaging platform before or now
+\item No, I have not used any messaging platform before or currently
 \end{itemize}
 
 \begin{figure}[h!tbp]
@@ -1817,21 +1815,21 @@ The {\bf second survey}, shown in its original form in Figure
 \ref{figure:survey2}, followed the same paths, only in this case there was a
 single questionnaire, and with a different scope, focusing on the kind of
 interaction media features that teachers value the most.  It was filled by
-teachers that were also students in a Professional Development course (on the
+teachers that were also students in a Professional Training Course (on the
 use of new technologies in higher education, around 1/4 of them) as well as
 University of Granada teachers who knew about it by emails from the authors, or
 from the vicedeanship for International Relations that included it in its
 newsletter. This means that there might be a higher proportion of 1) teachers
 with few years of experience 2) teachers from the computer science faculty and
-3) teachers from Granada. We think, however that there's no explicit bias in
+3) teachers from Granada. We think, however that there is no explicit bias in
 this selection, although of course specific percentages will vary.
 
 Specifically, this survey asked the teachers, in addition to general information
-(such as gender, age, experience, etc), what are their \textcolor{black}{past
-  experiences and needs} with regard to the use of instant messaging
+(such as gender, age, experience, etc), what their past
+  experiences and needs are with regard to the use of instant messaging
 applications with students, and even using bots or chatbots in the classroom. In
-addition the survey asked about the most relevant \textit{interaction media
-  features} for the teachers with respect to the potential tool to use in class.
+addition, the survey asked teachers about the most relevant \textit{interaction media
+  features} of the potential tool to be used in class.
 
 The specific questions included in this second survey are listed below:
 
@@ -1850,15 +1848,15 @@ The specific questions included in this second survey are listed below:
 
 \textit{3. Which media features do you value the most for your interaction with your students?}
 \begin{itemize}
-\item Familiarity with its use i.e. that I do not need to learn a new tool. [\texttt{Familiarity}]
-\item The official formation/training provided by your institution on its use. [\texttt{Official formation}]
+\item Familiarity with its use i.e. that you do not need to learn a new tool. [\texttt{Familiarity}]
+\item The official training provided by your institution on its use. [\texttt{Official formation}]
 \item That only one-directional communication is allowed (from teachers to students). [\texttt{Unidirectionality}]
 \item Non-hierarchical tools that allowed teacher-to-student and student-to-student communication. [\texttt{Horizontally}]
 \item Connectivity to other tools, for instance common log in. [\texttt{Connectivity}]
 \item Possibility for teachers to develop/add their own functionalities (e.g. automatic correction tools). [\texttt{Pluggability}]
-\item Possibility for users to hide personal data (such as my telephone number). [\texttt{Hidden Phone Number}]
-\item Not having to worry about maintenance and that it is easily sustainable from one year to the next. [\texttt{Sustainability}]
-\item That it offers the chance to extract data to assess the student performance. [\texttt{Analytics}]
+\item Possibility for users to hide personal data (such as your telephone number). [\texttt{Hidden Phone Number}]
+\item Not having to worry about maintenance and that it is easily sustainable from year to year. [\texttt{Sustainability}]
+\item That it offers the chance of extracting data to assess the student performance. [\texttt{Analytics}]
 \end{itemize}
 
 \end{backmatter}
