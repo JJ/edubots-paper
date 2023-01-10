@@ -1221,11 +1221,11 @@ ggplot(df2, aes( x = Messaging.Organization, y = after_stat(count), group=Sector
 \end{figure}
 
 Since chatbots are intended to mediate or help in this interaction, it is
-essential to understand the kind of interaction teachers prefer. Chatbots should
+essential to understand the kind of interaction that teachers prefer. Chatbots should
 address those modes, and not others. In order to find out these modes, and thus
-answering RQ3, teachers were provided with a list of different kind of
-interactions that may take place among students and between students and the
-teacher, with the use of messaging apps. The findings are summarized in Table
+answering RQ3, teachers were provided with a list of different kinds of
+interactions that may take place among students and between students and their
+teacher, when using messaging apps. The findings are summarized in Table
 \ref{tab:kindinteractions}.
 
 \begin{table}[h!tbp]
@@ -1247,17 +1247,17 @@ teacher, with the use of messaging apps. The findings are summarized in Table
 \label{tab:kindinteractions}
 \end{table}
 
-As it can be seen by the answer to the first and last question, in general
-teachers do not want to participate in a chat group with students; either they
+As it can be seen by the answers to the first and last questions, in general
+teachers do not want to participate in a chat group with their students. They either
 want to simply leave the students alone in their own chat group, or otherwise
 they prefer not to be part of that interaction. In general, that is going to be
 the case no matter what; it is well known that students organize their own chat
 groups with many (and not always conveyable) intentions, so teachers do not want
 to take any part in these informal or non institutionally-supported chat
-groups. Overwhelmingly, they do not want to participate in these kind of chat
+groups. Overwhelmingly, they do not want to participate in this kind of chat
 groups with students, but even less so if it includes the rest of the faculty.
 
-The answer, then, to this research question, is that, in general, teachers do
+Then, the answer to this research question is that in general, teachers do
 {\em not} want to have interaction with students in a chat group. To a certain
 point, this would seem to contradict results \cite{gachago2015crossing}, although this might be due to cultural
 attitudes, or other factors such as the average size of classes. It does
@@ -1267,20 +1267,20 @@ the community of surveyed teachers.
 
 Regarding the social factor of chat groups that teachers use in class, according
 to Fig. \ref{figure:chatbots_messagingorganization} the vast majority prefer
-small groups only with the students from the same course. These are more focused
-groups with specific goals and dedicated to the organization of the course and
-its tasks, and from the pedagogic point of view \textcolor{black}{it also seems more appropriate to improve
-the learning process}. Interestingly, and as a cross-check of the answers above,
+small groups only with their students from the same course. These are more focused
+groups with specific goals and dedicated to the course organization and
+its tasks, and from the pedagogic point of view it also seems more adequate to improve
+the learning process. Interestingly, and as a cross-check of the answers above,
 about 30\% of teachers consider they should not be part of the chat group. This
 might seem to contradict the results of the other survey, but in fact, being a
 result of different surveys, to a certain point affirms the same thing: there is
 a great amount of teachers that would be against being in a chat group with
-students. \textcolor{black}{However, students will still need to get the services
+students. However, students will still need to get the services
 that the university, through chatbots, provide, thus opening the door for deployment of chatbots
-without the intervention of the professor, simply tapping university provided
-services \cite{bernier2002services}.}
-Whether that's a slim majority or not, that's open to debate (and
-would probably need a more pointed survey focused on this), but what is clear is
+without the intervention of their professors, simply tapping university provided
+services \cite{bernier2002services}.
+Whether that is a slim majority or not, that is open to debate (and
+would probably need a more focused survey). However, it is clear 
 that forcing teachers to create chat groups with students and participate in
 them would create a certain amount of resistance. Also, only university teachers
 find interesting a group with all the students and teachers in their own Faculty
@@ -1288,7 +1288,7 @@ or School. The lack of teachers from vocational education here may be the
 consequence of using specific language such as ``Faculty''. Moreover, the fact
 that many universities and schools already use these groups for administrative
 and social interaction (e.g. \cite{dibitonto2018chatbot}) might be the reason
-for the low percentage of teachers that selected this response.
+for the low percentage of teachers that chose this response.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RQ4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
