@@ -1518,19 +1518,21 @@ integrated in another learning management system).
 This inclusion of university-provided messaging applications in the survey might
 explain why there are so few teachers, just 6.7\%, that answered they did not
 use any messaging application. In general, universities provide official
-channels to send students academic information such as the exam schedule or the
-grades. The statistical mode is to use that kind of messaging. Some other
-teaching staff might not use it, but use some extraofficial or opt-in channels
-such as the others included in the survey; in the end, between these official
-and extra-official channels, most people cover their needs to communicate with
-students. This matches our subjective experience, in general.
+channels to send (or simply make available to) students academic information
+such as the exam schedule or the grades. The statistical mode is to use that
+kind of messaging. Some other teaching staff might not use it, but use some
+extraofficial or opt-in channels such as the others included in the survey; in
+the end, between these official and extra-official channels, most people cover
+their needs to communicate with students. This matches the subjective experience
+of the authors of this paper, in general.
 
-Additionally, the question on COVID reflected the big challenge that represents
-changing habits, even in the case of a major crisis. Very few responders
-actually changed their habits, although comparing women vs. men as well as those
-teaching social sciences show some significant differences. We do not have any
-kind of explanation for this behavior, other than technologies are perceived,
-and adopted, in a different way depending on background and, apparently, gender.
+Furthermore, the answers to the survey question regarding COVID highlights the
+significant challenge of altering behavior, even during a major crisis. Very few
+responders actually changed their habits, although comparing women vs. men as
+well as those teaching social sciences vs. the rest of the disciplines, there
+are some significant differences. We do not have any kind of explanation for
+this behavior, other than technologies are perceived, and adopted, in a
+different way depending on background and, apparently, gender.
 
 One of the most interesting questions arising from the analysis of the results,
 and that should require further study, is: Are teachers really aware of the
