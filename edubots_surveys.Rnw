@@ -1636,7 +1636,7 @@ implies an institutional adoption strategy first and foremost.
 
 Comparing these results with those obtained from student surveys in
 \cite{MoraChatbots2021:anon}, we now have a clear vision of the differences
-between teachers’ and students' points of view and intentions when using the
+between teachers' and students' points of view and intentions when using the
 messaging applications in higher education. Teachers are more likely to adopt
 technologies that are supported by their institutions. This may be driven by a
 desire to ensure that their universities can monitor and support their efforts
