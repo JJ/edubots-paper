@@ -1646,7 +1646,7 @@ institutions. Meanwhile, students use non-institutional messaging applications t
 create informal discussion groups with their peers. It is worth noting that peer
 support and collaboration are inseparable from learning
 \cite{timmis2012constant} and its presence correlates positively with higher
-retention in higher education \cite{o2014front}. Therefore, both perspectives
+retention rate in higher education \cite{o2014front}. Therefore, both perspectives
 are complementary and play different roles in promoting the learning process;
 however, there is a certain degree of incompatibility that would hinder the
 process of adoption of a single messaging service that fits the need of both
