@@ -1639,7 +1639,7 @@ Comparing these results with those obtained from student surveys in
 between teachers' and students' points of view and intentions when using the
 messaging applications in higher education. Teachers are more likely to adopt
 technologies that are supported by their institutions. This may be driven by a
-desire to ensure that their universities can monitor and support their efforts
+desire to ensure that their universities monitor and support their efforts
 to assist students during the learning process, although another reason could
 simply be their familiarity with the technological services provided by their
 institutions. Meanwhile, students use non-institution messaging applications to
