@@ -1545,7 +1545,7 @@ no means exhaustive. Had the responders been more acquainted with the
 possibilities of this technology, this ``Other'' response would possibly have
 shown up many more times. Another way to look at it is that, unless you provide
 the specific instructions on how to use a tool, the teaching staff is already
-too busy or burnt out to think about innovation, so they think it is not their
+too busy or burnt out to think about innovation, so they likely consider that it is not their
 job to think about new possibilities of existing or new technologies.
 
 The reluctance to adopt chatbots in class might have an explanation: We can
