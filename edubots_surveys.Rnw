@@ -1595,7 +1595,7 @@ From a qualitative point of view, these results show consensus in a few key aspe
   main reasons why this is a factor might be the strict European data
   regulations on data protection; it is very likely that they also want to avoid
   the overhead required to sign up new students every year and other maintenance
-  tasks.  In general, additional support with specific formation and access to
+  tasks.  In general, additional support with specific training and access to
   IT help desk for specific features enhance the possibility of a successful
   adoption that improves the learning outcomes. This is supported by the result
   of the two surveys: they prefer whatever ``messaging'' application provided by
