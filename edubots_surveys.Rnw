@@ -1680,7 +1680,7 @@ problems in individual students or groups of them. These chatbots should also be
 accompanied by analytics on student interaction and possibly some natural
 language processing (in vernacular language) to help assess the general mood of
 the class and how different materials or external factors affect it. These tools
-would have to be attached to a learning analytics platform, which, in turn,
+would have to be attached to a learning analytics platform, which in turn,
 would be part of an institutional learning management system.
 
 The introduction of chatbots and chatbot technology will be helped by the fact
