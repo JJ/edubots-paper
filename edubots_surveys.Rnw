@@ -1530,9 +1530,10 @@ Furthermore, the answers to the survey question regarding COVID highlights the
 significant challenge of altering behavior, even during a major crisis. Very few
 responders actually changed their habits, although comparing women vs. men as
 well as those teaching social sciences vs. the rest of the disciplines, there
-are some significant differences. We do not have any kind of explanation for
-this behavior, other than technologies are perceived, and adopted, in a
-different way depending on background and, apparently, gender.
+are some significant differences. We do not have a clear understanding of the
+reasons behind this behavior; however, it appears that the perception and
+adoption of technologies in a major crisis may vary based on an individual's
+background and gender.
 
 One of the most interesting questions arising from the analysis of the results,
 and that should require further study, is: Are teachers really aware of the
@@ -1540,29 +1541,35 @@ possibilities of chatbots in the classroom? The survey only listed a few
 functionalities for the chatbots, and just a few subjects selected the option
 ``Others''. This may suggest that most teachers did not really understand at
 this point the actual potential of chatbots, since the responses listed were by
-no means exhaustive. If the responders were more acquainted with the
-possibilities of this technology, this response would possibly have shown up
-many more times. Another way to look at it is that, unless you provide the
-specific instructions on how to use a tool, the teaching staff is already too
-busy or burnt out to think about innovation.
+no means exhaustive. Had the responders been more acquainted with the
+possibilities of this technology, this ``Other'' response would possibly have
+shown up many more times. Another way to look at it is that, unless you provide
+the specific instructions on how to use a tool, the teaching staff is already
+too busy or burnt out to think about innovation, so they think it is not their
+job to think about new possibilities of existing or new technologies.
 
-We can speculate that teaching staff's opinions of chatbots are influenced by
-negative experiences with chatbots used in customer support, which is what most
-people are likely to have experienced. Further study may be needed to confirm
-this, but it is important to keep in mind when introducing chatbot technologies
-in the classroom.  To potentially change this existing perception, it will be
-necessary to make chatbots as simple and satisfying to use as possible.
+The reluctance to adopt chatbots in class might have an explanation: We can
+speculate that teaching staff's opinions of chatbots are influenced by negative
+experiences with chatbots used in customer support, which is what most people
+are likely to have experienced. Further study may be needed to confirm this, but
+it is important to keep it in mind when introducing chatbot technologies in the
+classroom.  To potentially change this existing perception, it will be necessary
+to make chatbots as simple and satisfying to use as possible.
 
-Regarding gender grouping, both genders agree in their uses, so it seems not
-relevant at all. However, when we look at the plot containing the sector
-differentiation, it is interesting to note that university teaching staff are
-more likely to use chatbots for grades and FAQs compared to other tertiary
-education teaching staff.  This seems reasonable as the frequency of seeing the
-students is lower at the University so, an automatic tool for grade notification
-for continuous evaluation would be more helpful.  Furthermore, the high
-student-to-teacher ratios that university educators often face could be another
-reason why a higher number of them are willing to use chatbots for FAQs, as this
-could reduce misunderstandings and email overload from students.
+Regarding gender grouping, both genders agree in the possible uses of chatbots,
+so it seems not relevant at all. However, when we look at the plot containing
+the sector differentiation, it is interesting to note that university teaching
+staff are more likely to use chatbots for grades and FAQs compared to teaching
+staff involved in other tertiary education institutions. This appears logical,
+as the number of personal interactions with students in certain classes at the
+university is smaller\footnote{Most university classes take place one or twice
+  week, as opposed to daily classes with the same teacher in other tertiary
+  education, and hold usually twice as many persons as the typical tertiary
+  education class}, thus an automated grade notification tool for continuous
+evaluation would be more beneficial.  Furthermore, the high student-to-teacher
+ratios that university educators often face could be another reason why a higher
+number of them are willing to use chatbots for FAQs, as this could reduce
+misunderstandings and email (or face to face tutoring) overload from students.
 
 The results, when grouping by teaching experience, confirm that experienced
 teachers are just as open to change and willing to embrace new technological
@@ -1572,7 +1579,7 @@ chatbots for other uses. This reinforces the hypothesis thrown at the beginning
 of this section that younger teachers have less experience to consider new ways
 of using chatbots in their daily work.
 
-According to the responses presented above, teachers’ responses are evenly split
+According to the responses presented above, teachers’ reactions are evenly split
 between positive and negative in relation to the media features: analytics,
 connectivity, and hidden phone number. This means that none of these features is
 a deciding factor in their choice of technology. However, for features such as
@@ -1584,52 +1591,56 @@ valuable in messaging apps.
 
 From a qualitative point of view, these results show consensus in a few key aspects:
 \begin{itemize}
-\item Teaching staff want to have support from their institutions. This is
-  probably due to the strict European data regulations on data protection, but
-  also to avoid the overhead required to sign up new students every year.  In
-  general, additional support with specific formation and access to IT help desk
-  for specific features enhance the possibility of a successful adoption that
-  improves the learning outcomes. This is supported by the result of the two
-  surveys: they prefer whatever ``messaging'' application provided by as well as
-  the fact that this application is the ``official'' for the university, as
-  shown in Table \ref{tab:interaction}.
-\item Teachers need sustainability. The main reason is that implementing changes
-  is expensive in terms of effort and prone to errors in the first
-  years. Therefore, it is logical that if chatbots or messaging platforms are to
-  be introduced, teaching staff want this change to be as permanent as possible.
- \item Keep it Simple. Media interaction requirements are simple and only 2.4\%
+\item Teaching staff wants to have support from their institutions. One of the
+  main reasons why this is a factor might be the strict European data
+  regulations on data protection; it is very likely that they also want to avoid
+  the overhead required to sign up new students every year and other maintenance
+  tasks.  In general, additional support with specific formation and access to
+  IT help desk for specific features enhance the possibility of a successful
+  adoption that improves the learning outcomes. This is supported by the result
+  of the two surveys: they prefer whatever ``messaging'' application provided by
+  as well as the fact that this application is the ``official'' for the
+  university, as shown in Table \ref{tab:interaction}.
+\item Teachers require sustainability. The primary rationale is that the
+  implementation of changes is costly in terms of effort and prone to mistakes
+  during the initial years of deployment of any new technology. Therefore, it is
+  logical that if chatbots or messaging platforms are to be introduced, teaching
+  staff want this change to be as permanent, and long-term, as possible.
+ \item ``Keep it Simple''. Media interaction requirements are simple and only 2.4\%
    of educators are requesting more features. This could be a sign of
-   technological burnt out produced by the previous pandemic courses, when the
-   use of computers significantly increased.
+   technological burnout produced by the previous pandemic courses, when the
+   use of computers significantly increased; however, simplicity is always a
+   feature that people want to have in any technology they adopt.
 \end{itemize}
 
-The analysis of the questions related to RQ4 seems to indicate that teaching
-staff prefer to share an interaction space with their students. As shown in
-Tables \ref{tab:kindinteractions} and \ref{tab:interaction}, the majority of
-responders indicated that they {\em do not} want unidirectional communication,
-and that they prefer {\em horizontal} interaction. This point is reinforced by
-results on the kind of chatbots they preferred: most of them indicated FAQ bots,
-which might indicate a need to offload part of the burden of answering every
-single question posed by their students. In a horizontal setting, other students
-would answer if the teacher does not do it immediately. This might also be the
-reason why the possibility of using tools from which analytics can be extracted
-is also valued by teachers: in that way, the student activity in the chat tool,
-answering questions, or their regularity can all be assessed as part of the
-process of achieving learning objectives.
+The analysis of the answers to questions related to RQ4 seems to indicate that
+teaching staff prefer to share an interaction space with their students. As
+shown in Tables \ref{tab:kindinteractions} and \ref{tab:interaction}, the
+majority of responders indicated that they {\em do not} want unidirectional
+communication, and that they prefer {\em horizontal} interaction. This point is
+reinforced by results on the kind of chatbots they preferred: most of them
+indicated FAQ bots, which might indicate a need to offload part of the burden of
+answering every single question posed by their students. In a horizontal
+setting, other students would answer if the teacher does not do it
+immediately. This might also be the reason why the possibility of using tools
+from which analytics can be extracted is also valued by teachers: in that way,
+the student activity in the chat tool, answering questions, or their regularity
+can all be assessed as part of the process of achieving learning objectives.
 
-In our survey, we could not find an answer about the right moment to introducing
-chatbot technologies. The response to questions regarding to change of behavior
-during and after the first stay-at-home stage of the pandemic do not suggest
-that a major (or minor, such as new higher education laws\footnote{We seem to
-  have one of these, at least in Spain, every 10 years or so.} or the
-introduction of new degrees) crisis could be an opportunity to introduce new
-technologies. The reason being that it does not bring major changes in attitude
-Although changes driven by external forces do offer the chance of piloting new
-technologies, they do not seem to bring internal changes in educators' attitudes
-(which, after all, is bound to be the same). In absence of a clear answer in
-this direction, the right moment to introduce new technologies is always when
-the IT and managing staff is ready to support it (since, as we have seen before,
-``official'' support is one of the factors that is most valued by teachers).
+In our survey, we could not find an answer about the right moment for the
+introduction of chatbot technologies. The response to questions regarding to
+change of behavior during and after the first stay-at-home stage of the pandemic
+do not suggest that a major (or minor, such as new higher education
+laws\footnote{We seem to have one of these, at least in Spain, every 10 years or
+  so.} or the introduction of new degrees) crisis could be an opportunity to
+introduce new technologies. The reason being that it does not bring major
+changes in attitude. Although changes driven by external forces do offer the
+chance of piloting new technologies, they do not seem to bring internal changes
+in educators' attitudes (which, after all, is bound to be the same). In absence
+of a clear answer in this direction, the right moment to introduce new
+technologies is always when the IT and managing staff is ready to support it
+(since, as we have seen before, ``official'' support is one of the factors that
+is most valued by teachers).
 
 % ********************** CONCLUSIONS ****************************
 
