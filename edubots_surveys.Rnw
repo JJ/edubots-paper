@@ -1499,7 +1499,7 @@ first was to check whether teachers already used some kind of messaging
 application, and the one they preferred. The availability of certain
 technologies for implementing chatbots may vary based on the outcome. In this
 sense, the design of the survey introduced some ambiguity on what we really
-consider ``messaging technology'', that was any way validated in the piloting
+consider ``messaging technology'', that was anyway validated in the piloting
 phase of the survey, and eventually resolved by the answers.  Apparently,
 anything that sends messages (even if they are not instant messages or have no
 dedicated application) was the concept in the minds of the surveyed. In this
