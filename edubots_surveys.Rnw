@@ -1695,7 +1695,7 @@ Overall, the general feeling that transpires from the survey is that it is
 essential for any institution to take into account stakeholders' opinions when
 introducing chatbots. This is true almost across the board for any new
 technology, but in the case of chatbots (and instant messaging applications)
-their immediacy and the fact that they can enter into what we could call the
+their immediacy and the fact that they can invade what we could call the
 private sphere makes this even more necessary.
 
 One of the questions in the {\bf second survey}, which asked about the messaging
