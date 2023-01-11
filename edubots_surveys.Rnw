@@ -1701,8 +1701,8 @@ private sphere makes this even more necessary.
 One of the questions in the {\bf second survey}, which asked about the messaging
 applications used by tertiary education teachers, opens a new line of inquiry
 about what educators {\em perceive} as such, and how it is used.  Namely, the
-responses indicated that teachers considered messaging application not only
-traditional chats or instant messaging app such as WhatsApp or Microsoft Teams,
+responses indicated that teachers considered messaging applications not only
+traditional chats or instant messaging apps such as WhatsApp or Microsoft Teams,
 but also any means provided by their university for communicating with students,
 such as a feature of the cmapus-wide learning management system that emails
 grades to students. This suggests that teachers have a need for communication
