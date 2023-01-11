@@ -1726,7 +1726,7 @@ such as responses to new materials, assignments, exams or external events will
 help any student-centered teaching strategy, which will also help students (and
 teachers) achieve their learning objectives. This line of work, however, would
 require the introduction of some pilot study combined with initial opinion
-assessments from students and is thus left for the future.
+assessments from students and is thus left as future work. 
 
 
 \bibliographystyle{apalike}
