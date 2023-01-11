@@ -1562,8 +1562,8 @@ the sector differentiation, it is interesting to note that university teaching
 staff are more likely to use chatbots for grades and FAQs compared to teaching
 staff involved in other tertiary education institutions. This appears logical,
 as the number of personal interactions with students in certain classes at the
-university is smaller\footnote{Most university classes take place one or twice
-  week, as opposed to daily classes with the same teacher in other tertiary
+university is smaller\footnote{Most university classes take place once or twice
+ a week, as opposed to daily classes with the same teacher in other tertiary
   education, and hold usually twice as many persons as the typical tertiary
   education class}, thus an automated grade notification tool for continuous
 evaluation would be more beneficial.  Furthermore, the high student-to-teacher
