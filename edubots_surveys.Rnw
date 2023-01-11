@@ -1664,50 +1664,55 @@ learning management system, adding some easy automation or connection to
 personal instant messaging tools could help introduce these new technologies to
 the learning community.
 
-Based on the discussion of this study, we propose a potential process for
+Based on the discussion of this study, we propose here a potential process for
 introducing technology that would need to be piloted in order to determine its
 value and its relationship to improved learning outcomes and higher teacher
 staff satisfaction.
 
-Initially, institutions should introduce messaging automation tools that help
-with bureaucratic or repetitive tasks, such as answering frequently asked
-questions or providing information on class or assignment deadlines.  These
-chatbots will pave the way for more complex chatbots that will have a greater
-impact on learning outcomes, such as chatbots that help students integrate in
-class or identify and address learning problems in individual students or groups
-of them. These chatbots should also be accompanied by analytics on student
-interaction and possibly some natural language processing (in vernacular
-language) to help assess the general mood of the class and how different
-materials or external factors affect it.
+Initially, institutions should introduce messaging automation tools attached to
+some, or several, messaging platforms that are already popular among the
+university community, that would help with bureaucratic or repetitive tasks,
+such as answering frequently asked questions or providing information on class
+or assignment deadlines.  These chatbots will pave the way for more complex ones
+that will have a greater impact on learning outcomes, such as chatbots that help
+students integrate with other students in class or identify and address learning
+problems in individual students or groups of them. These chatbots should also be
+accompanied by analytics on student interaction and possibly some natural
+language processing (in vernacular language) to help assess the general mood of
+the class and how different materials or external factors affect it. These tools
+would have to be attached to a learning analytics platform, which, in turn,
+would be part of an institutional learning management system.
 
 The introduction of chatbots and chatbot technology will be helped by the fact
-that no discernible differences are found between different groups. Even though
-chatbots do have some potential for personalization or customization based on
-the class material, student, and teaching staff, the general introduction of the
-technology can be done in a general way and for all disciplines, teaching
-experience, and gender.
+that no discernible differences are found in the survey between different
+demographic groups. Even though chatbots do have some potential for
+personalization or customization based on the class material, student, and
+teaching staff, the general introduction of the technology can be done in a
+general way and for all disciplines, types or degrees, teaching experience, and
+gender.
 
 Overall, the general feeling that transpires from the survey is that it is
-essential for any institution to take into account shareholders' opinions
-when introducing chatbots. This is true almost across the board, but in the case
-of chatbots (and instant messaging applications) their immediacy and the fact
-that they can enter into what we could call the private sphere makes this even
-more necessary.
+essential for any institution to take into account stakeholders' opinions when
+introducing chatbots. This is true almost across the board for any new
+technology, but in the case of chatbots (and instant messaging applications)
+their immediacy and the fact that they can enter into what we could call the
+private sphere makes this even more necessary.
 
 One of the questions in the {\bf second survey}, which asked about the messaging
 applications used by tertiary education teachers, opens a new line of inquiry
 about what educators {\em perceive} as such, and how it is used.  Namely, the
-responses indicated that teachers perceived as messaging application not only
+responses indicated that teachers considered messaging application not only
 traditional chats or instant messaging app such as WhatsApp or Microsoft Teams,
-but also the means provided by their university for communicating with students,
-such as a feature of grading applications that emails grades to students. This
-suggests that teachers have a need for communication with students, which is
-mostly unidirectional, and that it does not matter as much how that need is
-met. However, this will need careful consideration, including how it ties with
-the automation of the learning experience provided by chatbots.
+but also any means provided by their university for communicating with students,
+such as a feature of the cmapus-wide learning management system that emails
+grades to students. This suggests that teachers have a need for communication
+with students, which is mostly unidirectional, and that it does not matter as
+much how that need is met. However, this will need careful consideration,
+including how it ties with the automation of the learning experience provided by
+chatbots.
 
 Our analysis of the survey results can inform several potential avenues for
-future research.  For instance, the rollout of extensive videoconferencing and
+future research. For instance, the rollout of extensive videoconferencing and
 virtual teaching solutions that the COVID pandemic has brought has also taught
 us a series of lessons: it increases isolation and decreases the amount of
 synchronous contact that happens in the fringes of the classroom (e.g.  teaching
@@ -1721,7 +1726,7 @@ such as responses to new materials, assignments, exams or external events will
 help any student-centered teaching strategy, which will also help students (and
 teachers) achieve their learning objectives. This line of work, however, would
 require the introduction of some pilot study combined with initial opinion
-assessments from students.
+assessments from students and is thus left for the future.
 
 
 \bibliographystyle{apalike}
