@@ -1628,7 +1628,7 @@ the student activity in the chat tool, answering questions, or their regularity
 can all be assessed as part of the process of achieving learning objectives.
 
 In our survey, we could not find an answer about the right moment for the
-introduction of chatbot technologies. The response to questions regarding to
+introduction of chatbot technologies. The response to questions regarding the
 change of behavior during and after the first stay-at-home stage of the pandemic
 do not suggest that a major (or minor, such as new higher education
 laws\footnote{We seem to have one of these, at least in Spain, every 10 years or
