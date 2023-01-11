@@ -1530,7 +1530,7 @@ Furthermore, the answers to the survey question regarding COVID-19 highlights th
 significant challenge of altering behavior, even during a major crisis. Very few
 responders actually changed their habits, although comparing women vs. men as
 well as those teaching social sciences vs. the rest of the disciplines, there
-are some significant differences. We do not have a clear understanding of the
+were some significant differences. We do not have a clear understanding of the
 reasons behind this behavior; however, it appears that the perception and
 adoption of technologies in a major crisis may vary based on an individual's
 background and gender.
