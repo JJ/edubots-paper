@@ -1666,7 +1666,7 @@ the learning community.
 
 Based on the discussion of this study, we propose here a potential process for
 introducing technology that would need to be piloted in order to determine its
-value and its relationship to improved learning outcomes and higher teacher
+value and its relationship to improved learning outcomes and higher teaching
 staff satisfaction.
 
 Initially, institutions should introduce messaging automation tools attached to
