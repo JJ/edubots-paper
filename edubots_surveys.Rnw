@@ -1549,7 +1549,7 @@ too busy or burnt out to think about innovation, so they likely consider that it
 job to think about new possibilities of existing or new technologies.
 
 The reluctance to adopt chatbots in class might have an explanation: We can
-speculate that teaching staff's opinions of chatbots are influenced by negative
+speculate that teaching staff's opinions are influenced by negative
 experiences with chatbots used in customer support, which is what most people
 are likely to have experienced. Further study may be needed to confirm this, but
 it is important to keep it in mind when introducing chatbot technologies in the
