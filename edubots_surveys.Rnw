@@ -1713,7 +1713,7 @@ chatbots.
 
 Our analysis of the survey results can inform several potential avenues for
 future research. For instance, the rollout of extensive videoconferencing and
-virtual teaching solutions that the COVID pandemic has brought has also taught
+virtual teaching solutions that the COVID-19 pandemic has brought has also taught
 us a series of lessons: it increases isolation and decreases the amount of
 synchronous contact that happens in the fringes of the classroom (e.g.  teaching
 staff offices, or before and after class). A future line of research could focus
