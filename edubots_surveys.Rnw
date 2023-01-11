@@ -1642,7 +1642,7 @@ technologies that are supported by their institutions. This may be driven by a
 desire to ensure that their universities monitor and support their efforts
 to assist students during the learning process, although another reason could
 simply be their familiarity with the technological services provided by their
-institutions. Meanwhile, students use non-institution messaging applications to
+institutions. Meanwhile, students use non-institutional messaging applications to
 create informal discussion groups with their peers. It is worth noting that peer
 support and collaboration are inseparable from learning
 \cite{timmis2012constant} and its presence correlates positively with higher
