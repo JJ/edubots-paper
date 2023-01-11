@@ -1496,124 +1496,138 @@ Our initial intention in the design of these surveys was to probe the opinions
 of tertiary education teachers in the introduction of chatbot technologies in
 class. We wanted to find the answer to four research questions, of which the
 first was to check whether teachers already used some kind of messaging
-application, and the one they preferred. Depending on the answer, different
-technologies could be (or not) available for the introduction of chatbots. In
-this case, the design of the survey introduced some ambiguity on what we really
-consider ``messaging technology'', that was eventually resolved by the answers.
-Apparently, anything that sends messages (even if they are not instant, even if
-they do not have a dedicated application) was the concept in the minds of the
-surveyed. In this case, we would like
-to add a clarification. While we had in mind, as indicated by the possible answers,
-instant messaging applications when we elaborated this question,
-we included these institution-provided applications mainly for completion. But
-it should be noted that, in most cases, they are not {\em instant} messaging
-apps in the way Telegram or Facebook Messenger are; in most cases, they are
-messaging facilities provided by learning management systems such as (usually)
-Moodle. So the answer to this question must be understood in two different ways:
-their preference for the {\em provider} of the technology (the university itself, any
-company) as well as the {\em type} of technology (instant, app-based messaging
-systems vs. web-based messaging systems integrated in another learning management system).
+application, and the one they preferred. The availability of certain
+technologies for implementing chatbots may vary based on the outcome. In this
+sense, the design of the survey introduced some ambiguity on what we really
+consider ``messaging technology'', that was any way validated in the piloting
+phase of the survey, and eventually resolved by the answers.  Apparently,
+anything that sends messages (even if they are not instant messages or have no
+dedicated application) was the concept in the minds of the surveyed. In this
+case, we would like to add a clarification. While we had in mind, as indicated
+by the possible answers, instant messaging applications when we elaborated this
+question, we included these institution-provided applications mainly for
+completion. But it should be noted that, in most cases, they are not {\em
+  instant} messaging apps in the way Telegram or Facebook Messenger are; they
+are messaging facilities provided by learning management systems such as Moodle
+or Blackboard. So the answer to this question must be understood in two
+different ways: their preference for the {\em provider} of the technology (the
+university itself, any company) as well as the {\em type} of technology
+(instant, app-based messaging systems vs. web- or email-based messaging systems
+integrated in another learning management system).
 
-This inclusion of university-provided messaging applications in
-the survey might explain why there are so few teachers, just 6.7\%, that answered they did not
-use any messaging application. In general, universities provide official channels
-to send students academic information such as the exam schedule
-or the grades. The statistical mode is to use that kind of messaging. Some other
-teaching staff might not use it, but use some extraofficial or opt-in channels such as the others included in the survey; in the end, between these official and extra-official channels, most people cover their needs to communicate with students. This matches
-our subjective experience, in general.
+This inclusion of university-provided messaging applications in the survey might
+explain why there are so few teachers, just 6.7\%, that answered they did not
+use any messaging application. In general, universities provide official
+channels to send students academic information such as the exam schedule or the
+grades. The statistical mode is to use that kind of messaging. Some other
+teaching staff might not use it, but use some extraofficial or opt-in channels
+such as the others included in the survey; in the end, between these official
+and extra-official channels, most people cover their needs to communicate with
+students. This matches our subjective experience, in general.
 
 Additionally, the question on COVID reflected the big challenge that represents
-changing habits, even in the case of a major crisis. Very few responders actually
-changed their habits, although comparing women vs. men as well as those teaching social
-sciences show some significant differences. We do not have any kind of explanation for
-this behavior, other than technologies are perceived, and adopted, in a
-different way depending on background and, apparently, gender.
+changing habits, even in the case of a major crisis. Very few responders
+actually changed their habits, although comparing women vs. men as well as those
+teaching social sciences show some significant differences. We do not have any
+kind of explanation for this behavior, other than technologies are perceived,
+and adopted, in a different way depending on background and, apparently, gender.
 
-One of the most interesting questions arising from the analysis of the
-results, and that should require further study, is: Are teachers really aware
-of the possibilities of chatbots in the classroom? The survey
-only listed a few functionalities for the chatbots, and just a few subjects selected
-the option ``Others''. This may suggest that most teachers did not really understand
-at this point the actual potential of chatbots, since the responses listed were by no means exhaustive. If the responders were more acquainted with the possibilities of this technology, this response would possibly have shown up many more times. Another way to look at it is that, unless you provide the specific instructions on how to use a
-tool, the teaching staff is already too busy or burnt out to think about innovation.
+One of the most interesting questions arising from the analysis of the results,
+and that should require further study, is: Are teachers really aware of the
+possibilities of chatbots in the classroom? The survey only listed a few
+functionalities for the chatbots, and just a few subjects selected the option
+``Others''. This may suggest that most teachers did not really understand at
+this point the actual potential of chatbots, since the responses listed were by
+no means exhaustive. If the responders were more acquainted with the
+possibilities of this technology, this response would possibly have shown up
+many more times. Another way to look at it is that, unless you provide the
+specific instructions on how to use a tool, the teaching staff is already too
+busy or burnt out to think about innovation.
 
-We can speculate that teaching staff's opinions of chatbots are influenced by negative
-experiences with chatbots used in customer support, which is what most people are likely to have
-experienced. Further study may be needed to confirm this, but it is important to 
-keep in mind when introducing chatbot technologies in the classroom.
-To potentially change this existing perception, it will be necessary to make chatbots as simple and satisfying to use as possible.
+We can speculate that teaching staff's opinions of chatbots are influenced by
+negative experiences with chatbots used in customer support, which is what most
+people are likely to have experienced. Further study may be needed to confirm
+this, but it is important to keep in mind when introducing chatbot technologies
+in the classroom.  To potentially change this existing perception, it will be
+necessary to make chatbots as simple and satisfying to use as possible.
 
 Regarding gender grouping, both genders agree in their uses, so it seems not
-relevant at all. However, when we look at the plot containing the sector differentiation,
-it is interesting to note that university teaching staff are more likely to use chatbots 
-for grades and FAQs compared to other tertiary education teaching staff.
-This seems reasonable as the frequency of seeing the students
-is lower at the University so, an automatic tool for grade notification for
-continuous evaluation would be more helpful.
-Furthermore, the high student-to-teacher
-ratios that university educators often face could be another reason why
-a higher number of them are willing to use chatbots for FAQs, as this could
-reduce misunderstandings and email overload from students.
+relevant at all. However, when we look at the plot containing the sector
+differentiation, it is interesting to note that university teaching staff are
+more likely to use chatbots for grades and FAQs compared to other tertiary
+education teaching staff.  This seems reasonable as the frequency of seeing the
+students is lower at the University so, an automatic tool for grade notification
+for continuous evaluation would be more helpful.  Furthermore, the high
+student-to-teacher ratios that university educators often face could be another
+reason why a higher number of them are willing to use chatbots for FAQs, as this
+could reduce misunderstandings and email overload from students.
 
-The results, when grouping by teaching experience, confirm that
-experienced teachers are just as open to change and willing to embrace new
-technological challenges as younger educators. 
-From this concrete plot it is interesting as well to observe the fact that very few
-young teachers are willing to use chatbots for other uses. This
-reinforces the hypothesis thrown at the beginning of this section that younger
-teachers have less experience to consider new ways of using chatbots in their daily work.
+The results, when grouping by teaching experience, confirm that experienced
+teachers are just as open to change and willing to embrace new technological
+challenges as younger educators.  From this concrete plot it is interesting as
+well to observe the fact that very few young teachers are willing to use
+chatbots for other uses. This reinforces the hypothesis thrown at the beginning
+of this section that younger teachers have less experience to consider new ways
+of using chatbots in their daily work.
 
-According to the responses presented above, teachers’ responses are evenly
-split between positive and negative in relation to the media features:
-analytics, connectivity, and hidden phone number. This means that none of these features is a
-deciding factor in their choice of technology. However, for features such as familiarity,
-horizontality, sustainability, and officiality the majority provided a positive
-response, designating their preference to these features. On the other hand, the majority of teachers
-do not seem to see the media features of official certification, pluggability, unidirectionality, 
-and synchrony as valuable in messaging apps.
+According to the responses presented above, teachers’ responses are evenly split
+between positive and negative in relation to the media features: analytics,
+connectivity, and hidden phone number. This means that none of these features is
+a deciding factor in their choice of technology. However, for features such as
+familiarity, horizontality, sustainability, and officiality the majority
+provided a positive response, designating their preference to these features. On
+the other hand, the majority of teachers do not seem to see the media features
+of official certification, pluggability, unidirectionality, and synchrony as
+valuable in messaging apps.
 
 From a qualitative point of view, these results show consensus in a few key aspects:
 \begin{itemize}
- \item Teaching staff want to have support from their institutions. This
-   is probably due to the strict European data regulations on data protection,
-   but also to avoid the overhead required to sign up new students every year.
-   In general, additional support with specific formation and access to IT help desk for specific features
-   enhance the possibility of a successful adoption that improves the learning outcomes. This is supported by the result of the two
-   surveys: they prefer whatever ``messaging'' application provided by
-  as well as the fact that this application is the ``official'' for the university, as shown in
-   Table \ref{tab:interaction}.
- \item Teachers need sustainability. The main reason is that implementing
-   changes is expensive in terms of effort and prone to errors in the first
-   years. Therefore, it is logical that if
-   chatbots or messaging platforms are to be introduced, teaching staff want this change
-   to be as permanent as possible.
- \item Keep it Simple. Media interaction requirements are simple and only 2.4\% of educators are requesting more features. This could be a sign of technological burnt out produced by the previous pandemic courses, when the use of computers significantly increased.
+\item Teaching staff want to have support from their institutions. This is
+  probably due to the strict European data regulations on data protection, but
+  also to avoid the overhead required to sign up new students every year.  In
+  general, additional support with specific formation and access to IT help desk
+  for specific features enhance the possibility of a successful adoption that
+  improves the learning outcomes. This is supported by the result of the two
+  surveys: they prefer whatever ``messaging'' application provided by as well as
+  the fact that this application is the ``official'' for the university, as
+  shown in Table \ref{tab:interaction}.
+\item Teachers need sustainability. The main reason is that implementing changes
+  is expensive in terms of effort and prone to errors in the first
+  years. Therefore, it is logical that if chatbots or messaging platforms are to
+  be introduced, teaching staff want this change to be as permanent as possible.
+ \item Keep it Simple. Media interaction requirements are simple and only 2.4\%
+   of educators are requesting more features. This could be a sign of
+   technological burnt out produced by the previous pandemic courses, when the
+   use of computers significantly increased.
 \end{itemize}
 
-The analysis of the questions related to RQ4 seems to indicate that teaching staff
-prefer to share an interaction space with their students. As
-shown in Tables \ref{tab:kindinteractions} and \ref{tab:interaction}, the majority of responders
-indicated that they {\em do not} want unidirectional communication, and that they prefer
-{\em horizontal} interaction. This point is reinforced by results on the kind of
-chatbots they preferred: most of them indicated FAQ bots, which might indicate a
-need to offload part of the burden of answering every single question posed by
-their students. In a horizontal setting, other students would answer if the teacher
-does not do it immediately. This might also be the reason why the possibility of
-using tools from which analytics can be extracted is also valued by teachers:
-in that way, the student activity in the chat tool, answering questions, or their regularity can all be
-assessed as part of the process of achieving learning objectives.
+The analysis of the questions related to RQ4 seems to indicate that teaching
+staff prefer to share an interaction space with their students. As shown in
+Tables \ref{tab:kindinteractions} and \ref{tab:interaction}, the majority of
+responders indicated that they {\em do not} want unidirectional communication,
+and that they prefer {\em horizontal} interaction. This point is reinforced by
+results on the kind of chatbots they preferred: most of them indicated FAQ bots,
+which might indicate a need to offload part of the burden of answering every
+single question posed by their students. In a horizontal setting, other students
+would answer if the teacher does not do it immediately. This might also be the
+reason why the possibility of using tools from which analytics can be extracted
+is also valued by teachers: in that way, the student activity in the chat tool,
+answering questions, or their regularity can all be assessed as part of the
+process of achieving learning objectives.
 
-In our survey, we could not find an answer about the right moment to introducing chatbot technologies. The response to questions regarding to change of
-behavior during and after the first stay-at-home stage of the pandemic do not suggest that a major (or minor, such as new higher education laws\footnote{We seem to have one of these, at least in Spain, every 10 years or so.} or the introduction of new degrees) crisis could be an opportunity to introduce new technologies. The reason being that it does not
-bring major changes in attitude 
-%(as a minor ``crisis'' we could mention any institutional event that brings about methodological changes, such as new higher education laws\footnote{We seem to have one of these, at least in Spain, every 10 years or so.}), 
-%or simply the introduction of new degrees. 
-Although changes driven by external forces do offer the chance of piloting new technologies, they do not
-seem to bring internal changes in educators' attitudes (which, after all, is
-bound to be the same). In absence of a clear answer in this direction, the right
-moment to introduce new technologies is always when the IT and managing staff is
-ready to support it (since, as we have seen before, ``official'' support is one of
-the factors that is most valued by teachers).
+In our survey, we could not find an answer about the right moment to introducing
+chatbot technologies. The response to questions regarding to change of behavior
+during and after the first stay-at-home stage of the pandemic do not suggest
+that a major (or minor, such as new higher education laws\footnote{We seem to
+  have one of these, at least in Spain, every 10 years or so.} or the
+introduction of new degrees) crisis could be an opportunity to introduce new
+technologies. The reason being that it does not bring major changes in attitude
+Although changes driven by external forces do offer the chance of piloting new
+technologies, they do not seem to bring internal changes in educators' attitudes
+(which, after all, is bound to be the same). In absence of a clear answer in
+this direction, the right moment to introduce new technologies is always when
+the IT and managing staff is ready to support it (since, as we have seen before,
+``official'' support is one of the factors that is most valued by teachers).
 
 % ********************** CONCLUSIONS ****************************
 
