@@ -1626,7 +1626,7 @@ technology adoption often highlights the importance of users' perceptions of the
 technology's usefulness and ease of use for its successful implementation and
 utilization. However, in the context of higher education, institutions also play
 a crucial role in integrating these tools into their educational systems. This
-can not only improve the uptake of these applications, but also shape the social
+does not only improve the uptake of these applications, but also shapes the social
 and educational experiences of students. To achieve this successful integration,
 institutions should ensure that these messaging applications are (in Europe)
 GDPR- (General Data Protection Regulation) compliant to protect students’ data
