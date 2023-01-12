@@ -1543,10 +1543,7 @@ functionalities for the chatbots, and just a few subjects selected the option
 this point the actual potential of chatbots, since the responses listed were by
 no means exhaustive. Had the responders been more acquainted with the
 possibilities of this technology, this ``Other'' response would possibly have
-shown up many more times. Another way to look at it is that, unless you provide
-the specific instructions on how to use a tool, the teaching staff is already
-too busy or burnt out to think about innovation, so they likely considered that it was not their
-job to think about new possibilities for existing or new technologies.
+shown up many more times. Another perspective is that, without clear guidelines on how to utilize a tool, educators may not have the capacity or energy to consider innovative uses; thus, they may have assumed that it is not their responsibility to explore new possibilities with existing or new technologies.
 
 The reluctance to adopt chatbots in class might have an explanation: We can
 speculate that teaching staff's opinions are influenced by negative
