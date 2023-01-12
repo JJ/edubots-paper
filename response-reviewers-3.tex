@@ -1,0 +1,109 @@
+% molde para cartas con membrete Dpto. y para sobres con ventana direcci¢n
+\documentclass{letter}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}      % castellano
+\usepackage[latin1]{inputenc}    % tildes
+\usepackage{url}
+
+% para cartas en ingls comentar la linea anterior e incluir la siguiente:
+%\documentstyle[12pt]{a4letter}
+% cabecera para hojas con membrete del Departamento y JJ
+% Set left margin - The default is 1 inch, so the following 
+% command sets a 0.5-inch left margin.
+\setlength{\oddsidemargin}{0.0in}
+
+% Set width of the text - What is left will be the right margin.
+% In this case, right margin is 8.5in - 0.0in - 6.5in = 2.0in.
+\setlength{\textwidth}{6.5in}
+
+% Set top margin - The default is 1 inch, so the following 
+% command sets a 0.5-inch top margin.
+\setlength{\topmargin}{-1in}
+
+% Set height of the text - What is left will be the bottom margin.
+% In this case, bottom margin is 11in - 0.75in - 9.5in = 0.75in
+\setlength{\textheight}{10in}
+
+% cambiar estas definiciones para personalizar el documento
+\def\yo{\sc Juan J. Merelo}
+\def\email{\tt jmerelo@geneura.ugr.es}
+\def\tel{34-958-243162}
+\def\fax{34-958-248993}
+
+% definiciones comunes
+\def\granada{18071 Granada (Spain)}
+\def\ucm{Universidad de Granada}
+\def\fac{ETS Ingenierías Informática y Telecomucnicaciones}
+\def\dpto{Departamento de Arquitectura y Tecnolog\'ia de Computadores}
+
+
+%\input cabecera
+\pagestyle{empty}
+
+\begin{document}
+
+\vspace{0.5cm}
+
+\vspace{0.5cm}
+\ \
+% **** si no se quiere recuadro en la direcci¢n, comentar la linea siguiente
+%\framebox[9cm][l]
+{
+\begin{minipage}[t]{9cm}
+To whom it may concern
+% ******* Poner aqu¡ nombre y direcci¢n del destinatario
+\end{minipage}
+}
+
+\vspace{0.5cm}
+
+
+% ********** comienzo del texto  *******************
+
+{\bf Response to reviewers' comments}
+
+We are very grateful to the editor and reviewers for their kind comments. We have rewritten
+the paper quite extensively, improving grammar and, in some cases,
+spelling. Additionally, we have revised references extensively, updating some
+that were shown as ``under submission'' or ``accepted'', as well as fixed
+capitalization in some others.
+
+Next we will address the concerns of the single reviewer individually.
+
+% ********** fin del texto  *******************
+
+\hspace*{8cm} Yours,  \\
+
+
+\hspace*{8cm} The authors
+
+
+\newpage
+
+%%%% Rev 3
+
+{\it
+
+  {\bf Reviewer \#1}:
+
+The paper has been significantly revised to meet the comments submitted by various reviewers. As far as I am concerned the authors have satisfactorily addressed the comments of the earlier reviewers. As is often the case, the authors have made a case to answer queries, for example, about the research questions and the significance of the study.
+While addressing the queries ought to lead to accepting the submission, the issue I have is that the added text - in blue font in my copy - has significant grammatical errors. For instance, just in the first additional paragraph there are a number of issues as shown below:
+
+New technologies are being introduced and widely adopted into the classroom in the
+last years. (in recent years).
+
+However, in order to be successful, their application will require (many)
+extra work and training for the teacher, as well as for the students. (delete many).
+
+Thus, both of them will acquire new skills and, potentially, pupils will get a higher engagement to the subject, which is usually the main objective. (pupils will be more engaged).
+
+Therefore the new text needs a careful proofread before the submission can be accepted.}
+
+% -> answer 1
+
+We have rewritten almost every paragraph of the paper, notably those that have
+been pointed out in your review. We are again grateful for these suggestions.
+
+
+\end{document}
+
