@@ -1546,7 +1546,7 @@ possibilities of this technology, this ``Other'' response would possibly have
 shown up many more times. Another way to look at it is that, unless you provide
 the specific instructions on how to use a tool, the teaching staff is already
 too busy or burnt out to think about innovation, so they likely considered that it was not their
-job to think about new possibilities of existing or new technologies.
+job to think about new possibilities for existing or new technologies.
 
 The reluctance to adopt chatbots in class might have an explanation: We can
 speculate that teaching staff's opinions are influenced by negative
