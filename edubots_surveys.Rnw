@@ -1728,7 +1728,7 @@ about what educators {\em perceive} as such, and how it is used.  Namely, the
 responses indicated that teachers considered messaging applications not only
 traditional chats or instant messaging apps such as WhatsApp or Microsoft Teams,
 but also any means provided by their university for communicating with students,
-such as a feature of the cmapus-wide learning management system that emails
+such as a feature of the campus-wide learning management system that emails
 grades to students. This suggests that teachers have a need for communication
 with students, which is mostly unidirectional, and that it does not matter as
 much how that need is met. However, this will need careful consideration,
